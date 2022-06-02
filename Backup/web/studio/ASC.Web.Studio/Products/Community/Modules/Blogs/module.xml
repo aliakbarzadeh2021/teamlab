@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Module ID="6A598C74-91AE-437d-A5F4-AD339BD11BB2"
+        Category="Community"
+        NameResourceKey="AddonName"
+        SortOrder="1"
+        ThemesFolderVirtualPath="~/products/community/modules/blogs/app_themes"
+        DescriptionResourceKey="AddonDescriptionResourceKey"
+        ImageFolder="blogsimages"
+        ResourceClassTypeName="ASC.Blogs.Core.Resources.BlogsResource, ASC.Blogs.Core"
+        SmallIconFileName="blog_add.png"
+		    IconFileName="blogiconwg.png"
+        ShortcutProviderFullTypeName="ASC.Web.Community.Blogs.BlogsShortcutProvider, ASC.Web.Community.Blogs"
+        SearchHandlerFullTypeName="ASC.Web.Community.Blogs.BlogsSearchHandler, ASC.Web.Community.Blogs"
+        SubscriptionManagerFullTypeName="ASC.Web.Community.Blogs.BlogsSubscriptionManager, ASC.Web.Community.Blogs"
+        GlobalHandlerFullTypeName="ASC.Web.Community.Blogs.BlogsGlobalHandler, ASC.Web.Community.Blogs"
+        StatisticProviderFullTypeName="ASC.Web.Community.Blogs.BlogsStatisticProvider, ASC.Web.Community.Blogs"
+        UserActivityPublisherFullTypeName="ASC.Blogs.Core.Publisher.BlogUserActivityPublisher, ASC.Blogs.Core"
+		AuthCategoriesProviderFullTypeName="ASC.Web.Community.Blogs.BlogAuthCategoriesProvider, ASC.Web.Community.Blogs">
+
+
+  <MainWidget ID="15FD28E1-FB2D-4410-9BF0-6369093A6C4F"
+              NameResourceKey="AddonName"
+              DescriptionResourceKey="WidgetDescriptionResourceKey"
+              WidgetVirtualURL="~/products/community/modules/blogs/"
+              FullTypeName="ASC.Web.Community.Blogs.BlogsWidget, ASC.Web.Community.Blogs"
+              SettingsProviderFullTypeName="ASC.Web.Community.Blogs.Common.BlogsWidgetSettingsProvider, ASC.Web.Community.Blogs"
+              ImageFileName="BlogIconWG.png"/>
+
+  <GetCreateContentPageAbsoluteUrlMethod MethodName="GetCreateContentPageUrl" ClassType="ASC.Web.Community.Blogs.BlogsShortcutProvider, ASC.Web.Community.Blogs"/>
+
+  <Shortcuts>
+
+    <Shortcut ID="7B933FF3-2FF1-4d93-9F79-1830446BECF8"
+              RefName="BlogsList"
+              Type="Navigation"
+              NameResourceKey="ListBlogsPageName"
+              ActionURL="~/products/community/modules/blogs/"
+              ImageFileName="home.png"/>
+
+    <!--<Shortcut ID="B3CBBBE5-737D-4bbe-8FFB-8C803796ECF9"
+              RefName="BlogProfile"
+              NameResourceKey="MyBlogsProfile"
+              ActionURL="~/products/community/modules/blogs/userpage.aspx?userid=[%uid%]"
+               />-->
+
+    <Shortcut ID="98DB8D88-EDF2-4f82-B3AF-B95E87E3EE5C"
+              RefName="AddBlog"
+              Type="Action"
+              NameResourceKey="NewPost"
+              ActionURL="~/products/community/modules/blogs/addblog.aspx"              
+              IsProtected="true"/>
+
+    <Shortcut ID="20673DF0-665E-4fc8-9B44-D48B2A783508"
+              RefName="AddPollBlog"
+              Type="Action"
+              NameResourceKey="NewPoll"
+              ActionURL="~/products/community/modules/blogs/addblog.aspx?q=true"              
+              IsProtected="true"/>
+
+    <Shortcut ID="82022032-E16C-4955-B9E9-C505E89285F7"
+              RefName="AllBlogs"
+              Type="Navigation"
+              NameResourceKey="AllBlogsMenuTitle"
+              ActionURL="~/products/community/modules/blogs/allblogs.aspx"
+              />
+
+    <Shortcut ID="97A932C0-B49D-4752-B617-917E7533FC24"
+              RefName="BlogRatings"
+              Type="Navigation"
+              NameResourceKey="RatingsMenuTitle"
+              ActionURL="~/products/community/modules/blogs/ratinglist.aspx"/>
+
+  </Shortcuts>
+
+  <MainShortcutCategory ID="3D6AB0E4-2C73-4ab5-BDAC-EA0FD23CA25F"
+                          StartURL="~/products/community/modules/blogs/"
+                          NameResourceKey="AddonName">
+
+    <NavigationShortcuts>
+      <NavigationShortcut RefName="BlogsList"/>
+      <NavigationShortcut RefName="AddBlog"/>
+      <NavigationShortcut RefName="AllBlogs"/>
+    </NavigationShortcuts>
+
+    <CreateShortcuts>
+      <CreateShortcut RefName="AddBlog"/>
+      <CreateShortcut RefName="AddGroupBlog"/>
+    </CreateShortcuts>
+    
+  </MainShortcutCategory>
+  
+</Module>

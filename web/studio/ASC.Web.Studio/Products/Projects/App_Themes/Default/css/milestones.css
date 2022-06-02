@@ -1,0 +1,152 @@
+﻿
+ 
+ .main-container
+ {
+ 	padding-bottom:15px;
+ }
+ 
+ td.column
+ {
+ 	text-align:left;
+ }
+ #milestone-details-header dt
+ {
+ 	width: 80px;
+ 	padding: 5px;
+ }
+ #milestone-details-header dd
+ {
+	margin-left: 90px;
+	padding: 5px;
+ }
+ 
+ #pm-calendar
+ {
+    width:273px;
+    height:182px;
+ }
+ #pm-calendar thead tr
+ {
+    height:5px !important;
+    background-color:#CCCCCC;        
+ }
+ #pm-calendar thead td
+ {
+    color:#111111;
+    font-weight:bold;
+    text-align:center !important;
+    border:1px solid #DBDFE2;
+
+ }
+ #pm-calendar tbody td
+ {
+    text-align:center;
+    position:relative;
+    width:38px;
+    height:27px;
+    font-weight:bold;
+    border:1px solid #DBDFE2;
+    cursor:pointer;
+
+ }
+ .pm-calendar-header
+ {
+	width:200px;
+	margin-left:30px;
+	padding-bottom:5px;
+ }
+
+ .pm-events
+ {
+	position: relative;
+ }
+ 
+.pm-events-child
+ {
+	position:absolute;
+	display:none;
+	z-index:1000;
+	margin-bottom:6px;
+ }
+ 
+ .pm-events-child-container
+ {
+	padding:6px;
+	background-color:#ffffff;
+	border:1px solid #787878;
+	width:200px;
+	z-index:1001;
+	text-align:left;
+ }
+ 
+ /*
+ *+html .pm-events-child-container
+ {
+	padding:6px;
+	background-color:#ffffff;
+	border:1px solid #787878;
+	width:200px;
+	z-index:1001;
+	text-align:left;
+	position:relative;
+	top:15px;
+ }*/
+ 
+ .pm-events-zub-img
+ {
+	position:relative;
+	margin-right:160px;
+	top:-1px;
+	z-index:2002
+ }
+  /*
+ *+html .pm-events-zub-img
+ {
+	position:relative;
+	margin-right:160px;
+	top:7px;
+	z-index:2002
+ }*/
+
+ .pm-title
+ {
+	color: #787878;
+	font-size: 10px;
+	font-weight: normal;
+ }
+
+    .choose
+    {
+        background-image: url('../images/cal_bg_choose.gif') !important;
+        background-repeat: no-repeat;
+        color:#000000!important;
+    }
+    .current
+    {
+        background-image: url('../images/cal_bg_current.gif');
+        background-repeat: no-repeat;
+    }
+    .date_has_event
+    {
+    	background-color:#FFDF92;
+    }
+    .pm-milestones-rightColumn
+    {
+    	float: right;
+    	width: 400px;
+    }
+    .pm-milestones-leftColumn
+    {
+    	padding:10px;
+    	width:273px;
+    }
+    .pm-milestone-legendRow
+    {
+    	padding:3px 0px;
+    }
+    .pm-milestone-bottomIndent
+    {
+    	padding-bottom: 10px;
+    }
+
+

@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddonDescriptionResourceKey">
+    <value>Unternehmensblogs</value>
+  </data>
+  <data name="AddonName">
+    <value>Blogs</value>
+  </data>
+  <data name="AddTagMessage">
+    <value>Sie können nur Ihre eigenen Blogeinträge mit Schlagwörtern versehen</value>
+  </data>
+  <data name="AllBlogs">
+    <value>Alle Blogs</value>
+  </data>
+  <data name="AllBlogsMenuTitle">
+    <value>Blogbewertung</value>
+  </data>
+  <data name="BackLink">
+    <value>Zurück</value>
+  </data>
+  <data name="BlogOfTitle">
+    <value>Blog</value>
+  </data>
+  <data name="Blogs">
+    <value>Blogs</value>
+  </data>
+  <data name="BlogTitleEmptyMessage">
+    <value>Das Feld fürs Thema des Beitrags darf nicht leer sein</value>
+  </data>
+  <data name="BlogTitleLabel">
+    <value>Titel</value>
+  </data>
+  <data name="CancelButton">
+    <value>Abbrechen</value>
+  </data>
+  <data name="CommentsTitle">
+    <value>Kommentare</value>
+  </data>
+  <data name="ConfirmRemovePostMessage">
+    <value>Möchten Sie wirklich den Beitrag löschen?</value>
+  </data>
+  <data name="ContentTitle">
+    <value>Text</value>
+  </data>
+  <data name="CreateBlogsWidgetMessage">
+    <value>Bitte fügen Sie den ersten Blogbeitrag {0}hier{1} hinzu.</value>
+  </data>
+  <data name="DeleteBlogLink">
+    <value>Löschen</value>
+  </data>
+  <data name="EditBlogLink">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="EditPostTitle">
+    <value>Beitrag bearbeiten</value>
+  </data>
+  <data name="EnterTagsMessage">
+    <value>Geben Sie gewünschte Schlagwörter ein und trennen sie durch Kommas ab</value>
+  </data>
+  <data name="ErrorAccessDenied">
+    <value>Zugriff verweigert</value>
+  </data>
+  <data name="ErrorNotCorrectMaxBlogsSettings">
+    <value>Ungültige Anzahl der Beiträge</value>
+  </data>
+  <data name="GroupTitle">
+    <value>Stelle zum Veröffentlichen:</value>
+  </data>
+  <data name="HideButton">
+    <value>Schließen</value>
+  </data>
+  <data name="InGroupBlogLabel">
+    <value>Blog</value>
+  </data>
+  <data name="InPersonalBlogLabel">
+    <value>persönlichem Blog</value>
+  </data>
+  <data name="ListBlogsPageName">
+    <value>Hauptseite</value>
+  </data>
+  <data name="LiveBroadcastTitle">
+    <value>Letzte Aktivität</value>
+  </data>
+  <data name="MainStatisticName">
+    <value>Blogeinträge insgesamt</value>
+  </data>
+  <data name="MarksToolTipText">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="MaxPostsCountSettingsTitle">
+    <value>Anzahl angezeigter Beiträge (von 1 bis 30)</value>
+  </data>
+  <data name="MenuItems">
+    <value>Alle;Unternehmensblogs;Persönliche Blogs</value>
+  </data>
+  <data name="MenuItemsTargets">
+    <value>./;./?mode=corporate;./?mode=personal</value>
+  </data>
+  <data name="MyBlogsProfile">
+    <value>Mein Profil in Blogs</value>
+  </data>
+  <data name="NewPoll">
+    <value>Neue Umfrage</value>
+  </data>
+  <data name="NewPost">
+    <value>Neuen Beitrag hinzufügen</value>
+  </data>
+  <data name="NoBlogsWidgetMessage">
+    <value>Es gibt keine Beiträge in Blogs.</value>
+  </data>
+  <data name="NoBlogsWidgetTitle">
+    <value>Klicken Sie hier, um einen {0}neuen Beitrag hinzuzufügen{1}</value>
+  </data>
+  <data name="NoGroupItem">
+    <value>Persönliches Blog</value>
+  </data>
+  <data name="NotFoundMessage">
+    <value>Nichts wurde gefunden.</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Bitte warten...</value>
+  </data>
+  <data name="PostButton">
+    <value>Veröffentlichen</value>
+  </data>
+  <data name="PostedTitle">
+    <value>Verfasser</value>
+  </data>
+  <data name="PostsTitle">
+    <value>Beiträge</value>
+  </data>
+  <data name="PreviewButton">
+    <value>Vorschau</value>
+  </data>
+  <data name="RatingsMenuTitle">
+    <value>Bewertungen</value>
+  </data>
+  <data name="ReadMoreLink">
+    <value>Weiter lesen</value>
+  </data>
+  <data name="SaveButton">
+    <value>Speichern</value>
+  </data>
+  <data name="SearchDefaultString">
+    <value>Suche in Blogs</value>
+  </data>
+  <data name="SubmitButton">
+    <value>Senden</value>
+  </data>
+  <data name="SubscribeOnAuthorAction">
+    <value>Für alle Beiträge des Benutzers anmelden</value>
+  </data>
+  <data name="SubscribeOnAuthorDescription">
+    <value>Durch Anmeldung kann man neue Beiträge des Benutzers in Blogs verfolgen</value>
+  </data>
+  <data name="SubscribeOnAuthorTitle">
+    <value>Anmeldung für Beiträge des Benutzers</value>
+  </data>
+  <data name="SubscribeOnNewCommentsAction">
+    <value>Für Kommentare zum Beitrag anmelden</value>
+  </data>
+  <data name="SubscribeOnNewCommentsDescription">
+    <value>Durch Anmeldung kann man neue Kommentare zum Beitrag verfolgen</value>
+  </data>
+  <data name="SubscribeOnNewCommentsTitle">
+    <value>Anmeldung für Kommentare zum Beitrag</value>
+  </data>
+  <data name="SubscribeOnNewPostAction">
+    <value>Für alle Beiträge anmelden</value>
+  </data>
+  <data name="SubscribeOnNewPostDescription">
+    <value>Durch Anmeldung kann man neue Beiträge in Blogs verfolgen</value>
+  </data>
+  <data name="SubscribeOnNewPostTitle">
+    <value>Anmeldung für alle Beiträge</value>
+  </data>
+  <data name="TagCloudTitle">
+    <value>Schlagwortwolke</value>
+  </data>
+  <data name="TagsTitle">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="UnSubscribeOnAuthorAction">
+    <value>Von Beiträgen des Benutzers abmelden</value>
+  </data>
+  <data name="UnSubscribeOnNewCommentsAction">
+    <value>Abmeldung von Kommentaren zum Beitrag</value>
+  </data>
+  <data name="UnSubscribeOnNewPostAction">
+    <value>Von allen Beiträgen abmelden</value>
+  </data>
+  <data name="UserActivity_AddComment">
+    <value>Kommentar hinzugefügt</value>
+  </data>
+  <data name="UserActivity_AddPost">
+    <value>Beitrag verfasst</value>
+  </data>
+  <data name="UserActivity_AddPullPost">
+    <value>Umfrage eröffnet</value>
+  </data>
+  <data name="UserActivity_DeleteComment">
+    <value>Kommentar gelöscht</value>
+  </data>
+  <data name="UserActivity_DeletePost">
+    <value>Beitrag gelöscht</value>
+  </data>
+  <data name="UserActivity_EditComment">
+    <value>Kommentar bearbeitet</value>
+  </data>
+  <data name="UserActivity_EditPost">
+    <value>Beitrag bearbeitet</value>
+  </data>
+  <data name="UserActivity_Vote">
+    <value>Umfrage hinzugefügt</value>
+  </data>
+  <data name="ViewsTitle">
+    <value>Gelesen</value>
+  </data>
+  <data name="WidgetDescriptionResourceKey">
+    <value>zeigt letzte Blogbeiträge an</value>
+  </data>
+</root>

@@ -1,0 +1,147 @@
+﻿.calendar-navigation-panel
+{
+    margin-bottom:5px;
+    z-index:10;
+    width: 99.4% !important;
+}
+.wbs_week, .wbs_month, .calendar-week-days, .calendar-navigation-panel
+{
+    position:relative;
+    width:100%;
+    z-index:1;
+}
+.calendar-font-11
+{
+    font-size:11px;
+}
+a.r
+{
+    -moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	
+    border:1px solid #DDDDDD;
+    color:#444444 !important;
+    font-size:11px;
+    font-weight:bold;
+    margin-right:1px;
+    padding:4px 9px;
+}
+a.r:hover
+{
+	color:#444444;
+	border: 1px solid #AAAAAA;
+}
+.calendar-navigation-panel-left
+{
+    left:0;
+    position:absolute;
+    top:0;
+    z-index:9;
+}
+.calendar-navigation-panel-right
+{
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:9;
+}
+*
+{
+    outline:medium none;
+}
+.calendar-navigation-panel-drop
+{
+    background:none repeat scroll 0 0 #FFFFFF;
+    margin-left:0;
+    margin-top:-5px;
+    position:absolute;
+    z-index:11;
+}
+.calendar-navigation-panel-title
+{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:5px;
+    text-align:center;
+}
+.wbs_month .wbs_day
+{
+    border-bottom:1px solid #EEEEEE;
+    border-right:1px solid #EEEEEE;
+    border-top:1px solid #DDDDDD;
+    height:100%;
+    margin-right:-1px;
+}
+.wbs_week
+{
+    float:left;
+    height:100px;
+}
+.calendar-week-days div, .wbs_month .wbs_day
+{
+    float:left;
+    font-size:11px;
+    text-align:center;
+    width:14.2%;
+}
+.wbs_number
+{
+    background:none repeat scroll 0 0 #F1F1F1;
+    height:15px;
+    padding-right:5px;
+    text-align:right;
+}
+.calendar-week-days div
+{
+    border-bottom:1px solid #CCCCCC;
+    border-top:1px solid #DDDDDD;
+    font-size:11px;
+    padding:3px 0;
+}
+.wbs_weekend
+{
+    background:#EFEFEF;
+}
+.wbs_event
+{
+    color:white;
+    font-size:11px;
+    height:15px;
+    overflow:hidden;
+    position:absolute;
+    width:14.2%;
+    z-index:5;
+    
+    -moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+    
+    background-color: rgb(220, 98, 166);
+    background-position: right top;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#popup
+{
+    position:absolute;
+    width:360px;
+    z-index:10;
+    display:none;
+}
+.wbs_day.today
+{
+    background-color:#FFFDDD;
+}
+.wbs_day.selected
+{
+    background-color:#FFFCCC;
+}
+.headerPanelSmall
+{
+	margin-bottom: 5px;
+}
+.pm-headerPanelSmall-splitter
+{
+	margin-bottom: 10px;
+}

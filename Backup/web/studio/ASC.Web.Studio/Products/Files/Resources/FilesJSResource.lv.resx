@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AceStatusEnum_DiffRoles">
+    <value>Dažādas tiesības</value>
+  </data>
+  <data name="AceStatusEnum_Owner">
+    <value>Īpašnieks</value>
+  </data>
+  <data name="AceStatusEnum_Read">
+    <value>Tikai lasīšana</value>
+  </data>
+  <data name="AceStatusEnum_ReadWrite">
+    <value>Pilna piekļuve</value>
+  </data>
+  <data name="AceStatusEnum_Restrict">
+    <value>Aizliegt piekļuvi</value>
+  </data>
+  <data name="AddToFavorites">
+    <value>Pievienot izlasei</value>
+  </data>
+  <data name="BreadCrumbsSeparator">
+    <value>&gt;</value>
+  </data>
+  <data name="ButtonAddFiles">
+    <value>Pievienot failus</value>
+  </data>
+  <data name="ButtonSelectFiles">
+    <value>Izvēlēties failus</value>
+  </data>
+  <data name="ButtonShowMore">
+    <value>Rādīt vairāk {0}</value>
+  </data>
+  <data name="ButtonShowMoreLoad">
+    <value>Augšupladēšana</value>
+  </data>
+  <data name="ButtonShowMoreOf">
+    <value>Rādīt vairāk {0} no {1}</value>
+  </data>
+  <data name="ChangedItemHeader">
+    <value>{0} izmaiņas {1}</value>
+  </data>
+  <data name="ConfirmEmptyTrash">
+    <value>Vai jūs tiešām gribat iztukšot atkritni?</value>
+  </data>
+  <data name="ConfirmRemoveFile">
+    <value>Vai jūs tiešām gribat izdzēst šo dokumentu?</value>
+  </data>
+  <data name="ConfirmRemoveFolder">
+    <value>Vai jūs tiešām gribat izdzēst šo mapi?</value>
+  </data>
+  <data name="ConfirmRemoveList">
+    <value>Vai jūs tiešām gribat izdzēst šos elementus?</value>
+  </data>
+  <data name="CorporateFiles">
+    <value>Dokumenti koplietošanai</value>
+  </data>
+  <data name="CreateGroup">
+    <value>Izveidot grupu</value>
+  </data>
+  <data name="DescriptBulkdownload">
+    <value>Arhīvdublējums</value>
+  </data>
+  <data name="DescriptCopy">
+    <value>Kopēšana</value>
+  </data>
+  <data name="DescriptCreate">
+    <value>Izveidošana</value>
+  </data>
+  <data name="DescriptLoadVersion">
+    <value>Notiekt versiju ielāde...</value>
+  </data>
+  <data name="DescriptMove">
+    <value>Pārvietošana</value>
+  </data>
+  <data name="DescriptRemove">
+    <value>Dzešana...</value>
+  </data>
+  <data name="DescriptRename">
+    <value>Pārdevēšana</value>
+  </data>
+  <data name="DescriptSetVersion">
+    <value>Versijas atjaunošana</value>
+  </data>
+  <data name="EditGroup">
+    <value>Grupas rediģēšana</value>
+  </data>
+  <data name="EmptyDataToImport">
+    <value>Nav datu importam</value>
+  </data>
+  <data name="EmptyListSelectedForDownload">
+    <value>Iezīmējiet vismaz vienu mapi/dokumentu lejuplādēšanai</value>
+  </data>
+  <data name="EmptyListSelectedForImport">
+    <value>Iezīmējiet vismaz vienu dokumentu importam</value>
+  </data>
+  <data name="EmptyListUpload">
+    <value>Nospiediet uz 'Izvēlēties dokumentu' un izvēlieties failu augšuplādēšanai</value>
+  </data>
+  <data name="ErrorMassage_AuthentificatedFalse">
+    <value>Nepareizs pieteikumvārds vai parole</value>
+  </data>
+  <data name="ErrorMassage_DnDError">
+    <value>Nevar augšuplādēt failu</value>
+  </data>
+  <data name="ErrorMassage_EmptyFile">
+    <value>Tukšs dokuments</value>
+  </data>
+  <data name="ErrorMassage_FiledsIsEmpty">
+    <value>Ir jāaizpild visi lauki</value>
+  </data>
+  <data name="ErrorMassage_FileTypeText">
+    <value>Šis faila tips nav atbalstīts</value>
+  </data>
+  <data name="ErrorMassage_LimitFileSize">
+    <value>Maksimālais faila izmērs {0} MB bija pārsniegts</value>
+  </data>
+  <data name="ErrorMassage_SecondDownload">
+    <value>Sagaidiet iepriekšējas lejuplādēšanas izbeigšanu vai atceliet to</value>
+  </data>
+  <data name="ErrorMassage_SecurityException">
+    <value>Nepietiek tiesību operācijas veikšanai</value>
+  </data>
+  <data name="FavoritesRemove">
+    <value>Vai jūs tiešām gribat idzēst  {0} no izlases?</value>
+  </data>
+  <data name="FileAlreadyEdit">
+    <value>Fails jau tiek rediģēts</value>
+  </data>
+  <data name="FileAlreadyExist">
+    <value>Fails ar nosaukumu {0} jau eksistē mapē {1}.</value>
+  </data>
+  <data name="FileNameIsNotEqual">
+    <value>Izvēlēta faila nosaukums nesakrīt ar iepriekšējas faila versijas nosaukumu!</value>
+  </data>
+  <data name="FilesAlreadyExist">
+    <value>{0} dokumentu ar vienādiem nosaukumiem jau ir mapē {1}. Pārrakstīt failus?</value>
+  </data>
+  <data name="FileUploading">
+    <value>Faila augšuplādēšana</value>
+  </data>
+  <data name="FileVersionRecovery">
+    <value>Faila {0} versija ir veiksmīgi atjaunota</value>
+  </data>
+  <data name="ImportFromBoxNet">
+    <value>Imports no Box.Net</value>
+  </data>
+  <data name="ImportFromGoogle">
+    <value>Imports no Google Docs</value>
+  </data>
+  <data name="ImportFromZoho">
+    <value>Imports no Zoho</value>
+  </data>
+  <data name="InfoActionInTrash">
+    <value>Atjaunojiet no Atkritnes, lai izpildītu to</value>
+  </data>
+  <data name="InfoAddFavorite">
+    <value>Pievienots izlasei '{0}'</value>
+  </data>
+  <data name="InfoCommingSoon">
+    <value>Atrodās izstrādāšanā</value>
+  </data>
+  <data name="InfoCopyGroup">
+    <value>Nokopēti {0} elementi</value>
+  </data>
+  <data name="InfoCopyItem">
+    <value>Kopēti {0}</value>
+  </data>
+  <data name="InfoCrateFile">
+    <value>Izveidots jauns fails '{0}'</value>
+  </data>
+  <data name="InfoCrateFolder">
+    <value>Izveidota jauna mape '{0}'</value>
+  </data>
+  <data name="InfoEmptyForShare">
+    <value>Iezīmējiet vismaz vienu mapi/dokumentu pieejas piešķiršanai</value>
+  </data>
+  <data name="InfoFinishImprot">
+    <value>Imports pabeigts</value>
+  </data>
+  <data name="InfoFolderCopyError">
+    <value>Direktoriju nevar kopēt viņa zem-direktorijā</value>
+  </data>
+  <data name="InfoFolderMoveError">
+    <value>Direktoriju nevar pārnest viņa zem-direktorijā</value>
+  </data>
+  <data name="InfoImprotNotFinish">
+    <value>Sagaidiet iepriekšēja importa izbeigšanu</value>
+  </data>
+  <data name="InfoMoveGroup">
+    <value>Tika pārvietoti {0} elementi</value>
+  </data>
+  <data name="InfoMoveItem">
+    <value>Pārvietoti {0}</value>
+  </data>
+  <data name="InfoOrderByAuthor">
+    <value>Šķirot pēc autora</value>
+  </data>
+  <data name="InfoOrderByModified">
+    <value>Šķirot pēc datuma</value>
+  </data>
+  <data name="InfoOrderBySize">
+    <value>Šķirot pēc izmēra</value>
+  </data>
+  <data name="InfoOrderByTitle">
+    <value>Šķirot pēc nosaukuma</value>
+  </data>
+  <data name="InfoRemoveFavorites">
+    <value>Idzēsts no izlases '{0}'</value>
+  </data>
+  <data name="InfoRemoveFile">
+    <value>Dokuments '{0}' ir izdzēsts</value>
+  </data>
+  <data name="InfoRemoveFolder">
+    <value>Mape '{0}' ir izdzēsta</value>
+  </data>
+  <data name="InfoRemoveGroup">
+    <value>{0} bija veiksmīgi izdzēsts no {1}</value>
+  </data>
+  <data name="InfoRenameFile">
+    <value>Dokuments '{0}' tika pārdevēts uz '{1}'</value>
+  </data>
+  <data name="InfoRenameFolder">
+    <value>Mape '{0}' tika pārdevēta '{1}'</value>
+  </data>
+  <data name="InfoSelectCount">
+    <value>Elementu skaits: {0}</value>
+  </data>
+  <data name="InfoSelectForShare">
+    <value>Izvēlēties 1 elementu piekļuves konfigurācijai</value>
+  </data>
+  <data name="InfoSelectingDescribe">
+    <value>{0}Pārvietojiet elementu(s) ar peli, lai pievienotu tos mapē</value>
+  </data>
+  <data name="InfoUploadedSuccess">
+    <value>{0} dokumentu bija veiksmīgi augšuplādēti</value>
+  </data>
+  <data name="InfoViewFolderGallery">
+    <value>Galerijas tipa attēlošana</value>
+  </data>
+  <data name="InfoViewFolderList">
+    <value>Saraksta tipa attēlošana</value>
+  </data>
+  <data name="InstallOpenOfficeButton">
+    <value>Lejupielādēt</value>
+  </data>
+  <data name="InstallOpenOfficeCongratulation">
+    <value>Buferizācija ir pabeigta. Var palaist Open Office.</value>
+  </data>
+  <data name="InstallOpenOfficeDescription">
+    <value>Uzziniet, kā tas strādā?</value>
+  </data>
+  <data name="InstallOpenOfficeHeader">
+    <value>Lai veidot un rediģēt dokumentus jūsu portālā, lūdzu lejupielādējiet virtuālizētu Open Office.</value>
+  </data>
+  <data name="InstallPluginButton">
+    <value>Instalēt</value>
+  </data>
+  <data name="InstallPluginDescription">
+    <value>ASC Spraudnis ļaus jums palaist Open Office uzreiz portālā. {0}Apskatīties, kā tas strādā.{1}</value>
+  </data>
+  <data name="InstallPluginHeader">
+    <value>Lai veidot un rediģēt dokumentus jūsu portālā, lūdzu lejupielādējiet virtuālizētu Open Office.</value>
+  </data>
+  <data name="LoadingProcessing">
+    <value>Notiek ielāde...</value>
+  </data>
+  <data name="LoadingWait">
+    <value>Lūdzu, uzgaidiet!</value>
+  </data>
+  <data name="MyFiles">
+    <value>Mani dokumenti</value>
+  </data>
+  <data name="NewInShare">
+    <value>({0} Jaunas)</value>
+  </data>
+  <data name="OpenOfficeDownloading">
+    <value>Notiek Open Office lejuplāde. Lūdzu uzgaidiet...</value>
+  </data>
+  <data name="OpenOfficeDownloadingInfo">
+    <value>Lejuplādēts {0} Mb no {1} Mb</value>
+  </data>
+  <data name="OpenOfficeUnpacking">
+    <value>Notiek Open Office izpakošana. Lūdzu uzgaidiet...</value>
+  </data>
+  <data name="OrDragDrop">
+    <value>vai pārceliet tos šajā logā</value>
+  </data>
+  <data name="OverallProgress">
+    <value>Progress</value>
+  </data>
+  <data name="ProcessUploadCountFiles">
+    <value>augšuplādēts {0} no {1}</value>
+  </data>
+  <data name="ProjectFiles">
+    <value>Projekta dokumenti</value>
+  </data>
+  <data name="RemoveFavorites">
+    <value>Dzēst no izlases</value>
+  </data>
+  <data name="SelectedFiles">
+    <value>Izvēlēti {0} faili</value>
+  </data>
+  <data name="SelectFilesToUpload">
+    <value>Izvēlieties failus augšuplādēšanai</value>
+  </data>
+  <data name="SelectFilterValue">
+    <value>Izvēlēties</value>
+  </data>
+  <data name="SelectRight">
+    <value>izvēlieties</value>
+  </data>
+  <data name="TasksOperationBulkdownload">
+    <value>Arhīvdublējums</value>
+  </data>
+  <data name="TasksOperationCopy">
+    <value>Kopēšana</value>
+  </data>
+  <data name="TasksOperationDelete">
+    <value>Dzēšana</value>
+  </data>
+  <data name="TasksOperationMixed">
+    <value>{0} operāciju</value>
+  </data>
+  <data name="TasksOperationMove">
+    <value>Pārvietošana</value>
+  </data>
+  <data name="TitleCancel">
+    <value>Atcelt</value>
+  </data>
+  <data name="TitleCreate">
+    <value>Izveidot</value>
+  </data>
+  <data name="TitleNewFilePresentation">
+    <value>Jauna prezentācija</value>
+  </data>
+  <data name="TitleNewFileSpreadsheet">
+    <value>Jauna tabula</value>
+  </data>
+  <data name="TitleNewFileText">
+    <value>Jauns dokuments</value>
+  </data>
+  <data name="TitleNewFolder">
+    <value>Jauna mape</value>
+  </data>
+  <data name="TitleRename">
+    <value>Pārdevēt</value>
+  </data>
+  <data name="UpdateFileVersionFor">
+    <value>Atjaunot dokumenta versiju</value>
+  </data>
+  <data name="UpdateOpenOfficeHeader">
+    <value>Open Office jaunā versija ir pieejama. Lejupielādēt tagad.</value>
+  </data>
+  <data name="UploadedOf">
+    <value>{0} / {1} augšuplādētu failu</value>
+  </data>
+  <data name="UploadFileTo">
+    <value>Augšuplādēt failu uz</value>
+  </data>
+  <data name="Uploading">
+    <value>augšuplādēšana</value>
+  </data>
+  <data name="UploadProcess">
+    <value>Notiek failu augšuplādēšana</value>
+  </data>
+</root>

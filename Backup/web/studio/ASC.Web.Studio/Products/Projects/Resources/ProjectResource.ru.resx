@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Access">
+    <value>Доступ</value>
+  </data>
+  <data name="ActiveProject">
+    <value>Активный Проект</value>
+  </data>
+  <data name="ActiveProjects">
+    <value>Активные проекты</value>
+  </data>
+  <data name="AddNewProject">
+    <value>Добавить этот проект</value>
+  </data>
+  <data name="AddThisTemplate">
+    <value>Добавить этот шаблон</value>
+  </data>
+  <data name="AllProjects">
+    <value>Все проекты</value>
+  </data>
+  <data name="AllProjectTemplates">
+    <value>Все шаблоны проекта</value>
+  </data>
+  <data name="AppliedTemplate">
+    <value>Применен шаблон {0}</value>
+  </data>
+  <data name="ArchiveProjects">
+    <value>Завершенные проекты</value>
+  </data>
+  <data name="ChoosenUsers">
+    <value>Участники</value>
+  </data>
+  <data name="Clear">
+    <value>Очистить</value>
+  </data>
+  <data name="ClosedProject">
+    <value>Завершенный Проект</value>
+  </data>
+  <data name="ClosedProjectTeamAllTasksInfoPanel">
+    <value>Включение этой опции дает право участнику проекта просматривать все задачи и ставить задачи другим участникам проекта. Отключение данной опции ограничивает область видимости для участника проекта только своими задачами.</value>
+  </data>
+  <data name="ClosedProjectTeamDiscussionsInfoPanel">
+    <value>Включение этой опции дает право участнику проекта просматривать и добавлять обсуждения.</value>
+  </data>
+  <data name="ClosedProjectTeamDocumentButtonTooltip">
+    <value>включить/выключить доступ к документам проекта</value>
+  </data>
+  <data name="ClosedProjectTeamDocumentsInfoPanel">
+    <value>Включение этой опции дает право участнику проекта просматривать и добавлять документы.</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermission">
+    <value>Менеджер проекта может</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleA">
+    <value>добавлять пользователей в команду проекта или удалять их</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleB">
+    <value>настраивать права участникам проекта (только для приватного проекта)</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleC">
+    <value>управлять (создавать, редактировать, удалять) вехами, задачами, дискуссиями, документами, а также ограничивать доступ к ним</value>
+  </data>
+  <data name="ClosedProjectTeamMessageButtonTooltip">
+    <value>включить/выключить доступ к обсуждениям проекта</value>
+  </data>
+  <data name="ClosedProjectTeamMilestoneButtonTooltip">
+    <value>включить/выключить доступ к вехам проекта</value>
+  </data>
+  <data name="ClosedProjectTeamMilestonesInfoPanel">
+    <value>Включение этой опции дает право участнику проекта просматривать все вехи проекта, а не только те, в которых у него есть задачи.</value>
+  </data>
+  <data name="ClosedProjectTeamTaskButtonTooltip">
+    <value>включить/выключить доступ к задачам команды проекта</value>
+  </data>
+  <data name="ClosedProjectTeamWriteInMessenger">
+    <value>Написать в мессенджер</value>
+  </data>
+  <data name="ClosedProjectTeamWriteMail">
+    <value>Написать письмо</value>
+  </data>
+  <data name="Create">
+    <value>Создать</value>
+  </data>
+  <data name="CreateFromTemplate">
+    <value>Создать по шаблону</value>
+  </data>
+  <data name="CreateNewProject">
+    <value>Создать новый проект</value>
+  </data>
+  <data name="CreateProjectFromTemplate">
+    <value>Создать проект по шаблону</value>
+  </data>
+  <data name="CreateProjectTemplate">
+    <value>Создать шаблон проекта</value>
+  </data>
+  <data name="Dashboard">
+    <value>Главная</value>
+  </data>
+  <data name="DeleteProjectTemplate">
+    <value>Удалить шаблон проекта</value>
+  </data>
+  <data name="EmployeesAndPermissions">
+    <value>{!Users} и права доступа</value>
+  </data>
+  <data name="EmptyScreenAllActiveProjectsHeaderContent">
+    <value>Нет ни одного активного проекта</value>
+  </data>
+  <data name="EmptyScreenAllProjectsHeaderContent">
+    <value>Нет ни одного проекта</value>
+  </data>
+  <data name="EmptyScreenByLabelActiveProjectsHeaderContent">
+    <value>Нет ни одного активного проекта с таким тэгом</value>
+  </data>
+  <data name="EmptyScreenByLabelProjectsHeaderContent">
+    <value>Нет ни одного проекта с таким тэгом</value>
+  </data>
+  <data name="EmptyScreenHeaderContent">
+    <value>Создать первый проект</value>
+  </data>
+  <data name="EmptyScreenHeaderDescribe">
+    <value>Отправляйте сообщения, добавляйте задачи, планируйте вехи, управляйте командой.</value>
+  </data>
+  <data name="EmptyScreenKeepTrackActiveProjectsHeaderContent">
+    <value>Нет ни одного активного отслеживаемого проекта</value>
+  </data>
+  <data name="EmptyScreenKeepTrackProjectsHeaderContent">
+    <value>Нет отслеживаемых проектов</value>
+  </data>
+  <data name="EmptyScreenMyActiveProjectsHeaderContent">
+    <value>Вы не участвуете ни в одном проекте</value>
+  </data>
+  <data name="EmptyScreenMyProjectsHeaderContent">
+    <value>Вы не участвуете ни в одном проекте</value>
+  </data>
+  <data name="EmptyScreenProjectTemplates">
+    <value>Создать первый шаблон проекта</value>
+  </data>
+  <data name="EmptyScreenProjectTemplatesDescribe">
+    <value>Отправляйте сообщения, добавляйте задачи, планируйте вехи, управляйте командой.</value>
+  </data>
+  <data name="EmptyScreenProjectTemplateTeam">
+    <value>Собрать команду для этого шаблона проекта</value>
+  </data>
+  <data name="EmptyScreenProjectTemplateTeamDescription">
+    <value>Выберите участников проекта</value>
+  </data>
+  <data name="EnterTheTags">
+    <value>Введите необходимые теги в поле через запятую</value>
+  </data>
+  <data name="Example">
+    <value>Как правило, название проекта, клиента, отдела...</value>
+  </data>
+  <data name="FollowingLinkTitle">
+    <value>Новости проекта будут включены в Вашу рассылку о Новостях за день, проект будет доступен на вкладке Проекты в группе Отслеживаемые проекты и из раскрывающегося списка Все проекты в верхней части.</value>
+  </data>
+  <data name="FollowingProjects">
+    <value>Подписаться на новости по проекту</value>
+  </data>
+  <data name="HiddenProject">
+    <value>Приватный проект</value>
+  </data>
+  <data name="HideClosedProjects">
+    <value>Скрыть закрытые проекты</value>
+  </data>
+  <data name="InfoMessageText">
+    <value>Данная информация будет отправлена Администратору в виде Запроса на добавление проекта.</value>
+  </data>
+  <data name="InfoMessageText2">
+    <value>Данная информация будет отправлена Администратору в виде Запроса на редактирование проекта.</value>
+  </data>
+  <data name="Information">
+    <value>При удалении проекта Вы должны понимать, что проект будет удален полностью, без каких-либо возможностей его восстановления в будущем.</value>
+  </data>
+  <data name="InformationForHidden">
+    <value>Приватный проект доступен только менеджеру проекта и участникам проекта с соответствующими правами.</value>
+  </data>
+  <data name="InvalidProjectTemplateTitle">
+    <value>Некорректное название шаблона проекта</value>
+  </data>
+  <data name="IUnerstand">
+    <value>Я понимаю это - УДАЛИТЬ этот проект.</value>
+  </data>
+  <data name="IUnerstandForEditHidden">
+    <value>Да, я понимаю это - Сохранить проект как приватный</value>
+  </data>
+  <data name="IUnerstandForHidden">
+    <value>Да, я понимаю это - Добавить проект как приватный</value>
+  </data>
+  <data name="LastActivity">
+    <value>Последняя активность</value>
+  </data>
+  <data name="LeadPerson">
+    <value>Ответственный</value>
+  </data>
+  <data name="ManagmentTeam">
+    <value>Управление командой</value>
+  </data>
+  <data name="Milestones">
+    <value>вех(и)</value>
+  </data>
+  <data name="MyProjects">
+    <value>Мои Проекты</value>
+  </data>
+  <data name="NewProject">
+    <value>Новый проект</value>
+  </data>
+  <data name="NewProjects">
+    <value>Новые Проекты</value>
+  </data>
+  <data name="NingNoActivity">
+    <value>Нет активности</value>
+  </data>
+  <data name="NoActivity">
+    <value>Нет активности</value>
+  </data>
+  <data name="NotifyProjectLeader">
+    <value>Оповестить менеджера проекта по E-mail</value>
+  </data>
+  <data name="NotifyProjectTeam">
+    <value>Оповестить команду проекта</value>
+  </data>
+  <data name="NotInvolvedInAnyProject">
+    <value>Не участвует ни в одном проекте</value>
+  </data>
+  <data name="PeopleOnThisProject">
+    <value>Люди в проекте</value>
+  </data>
+  <data name="Project">
+    <value>Проект</value>
+  </data>
+  <data name="ProjectAdded">
+    <value>Добавление проекта</value>
+  </data>
+  <data name="ProjectDeleteButton">
+    <value>Удалить этот проект</value>
+  </data>
+  <data name="ProjectDeleted">
+    <value>Удаление проекта</value>
+  </data>
+  <data name="ProjectDescription">
+    <value>Описание</value>
+  </data>
+  <data name="ProjectLeader">
+    <value>Менеджер проекта</value>
+  </data>
+  <data name="ProjectOverview">
+    <value>Обзор</value>
+  </data>
+  <data name="Projects">
+    <value>Проекты</value>
+  </data>
+  <data name="ProjectsByLabel">
+    <value>Проекты по тэгу</value>
+  </data>
+  <data name="ProjectsByLabelCaption">
+    <value>Проекты по тэгу  «{0}»</value>
+  </data>
+  <data name="ProjectsKeepTrack">
+    <value>Отслеживаемые проекты</value>
+  </data>
+  <data name="ProjectTeam">
+    <value>Команда</value>
+  </data>
+  <data name="ProjectTemplate">
+    <value>Шаблон проекта</value>
+  </data>
+  <data name="ProjectTemplates">
+    <value>Шаблоны проекта</value>
+  </data>
+  <data name="ProjectTemplateSetUpDescription">
+    <value>Шаблон проекта содержит ряд сообщений, вех, участников и задач и служит основой для нового проекта. {0}Когда Вы создаете новый проект, все шаблоны доступны из выпадающего меню, экономя Ваше время и силы.</value>
+  </data>
+  <data name="ProjectTemplateSetupDiscussion">
+    <value>Начните первое обсуждение</value>
+  </data>
+  <data name="ProjectTemplateSetUpLabel">
+    <value>Пора настроить шаблон проекта!</value>
+  </data>
+  <data name="ProjectTemplateSetupMilestone">
+    <value>Назначьте первую веху</value>
+  </data>
+  <data name="ProjectTemplateSetupTask">
+    <value>Поставьте первую задачу</value>
+  </data>
+  <data name="ProjectTemplateSetupTeam">
+    <value>Создайте команду</value>
+  </data>
+  <data name="ProjectTemplateTitleExample">
+    <value>Например, шаблон редизайна или шаблон семинара и т.д.</value>
+  </data>
+  <data name="ProjectTitle">
+    <value>Название</value>
+  </data>
+  <data name="SaveProject">
+    <value>Сохранение проекта</value>
+  </data>
+  <data name="SeeAllProjectsMilestone">
+    <value>Просмотреть все вехи в проекте</value>
+  </data>
+  <data name="SeeHistory">
+    <value>Просмотреть историю</value>
+  </data>
+  <data name="SeeMore">
+    <value>Просмотреть все</value>
+  </data>
+  <data name="SelectProjectTemplate">
+    <value>Выбрать шаблон проекта</value>
+  </data>
+  <data name="Settings">
+    <value>Настройки проекта</value>
+  </data>
+  <data name="ShowClosedProjects">
+    <value>Показать закрытые проекты</value>
+  </data>
+  <data name="Statistics">
+    <value>Статистика</value>
+  </data>
+  <data name="Tags">
+    <value>Тэги</value>
+  </data>
+  <data name="Tasks">
+    <value>задач(и)</value>
+  </data>
+  <data name="Team">
+    <value>Команда</value>
+  </data>
+  <data name="TemplateCreationIsInProgress">
+    <value>Шаблон создается</value>
+  </data>
+  <data name="TemplateModeAttention">
+    <value>Примечание: шаблоны - это не сами проекты</value>
+  </data>
+  <data name="UnFollowingProjects">
+    <value>Отписаться от новостей по проекту</value>
+  </data>
+</root>

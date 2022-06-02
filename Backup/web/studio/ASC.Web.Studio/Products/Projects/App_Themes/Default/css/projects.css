@@ -1,0 +1,78 @@
+﻿.pm-projectSettings-container
+{
+	padding:10px;
+}
+
+.pm-projectLabelBox
+{
+	padding-top: 5px;
+    padding-bottom:10px;
+}
+
+.pm-projectTeamContainer
+{
+	margin-left:25px;
+    width:300px;
+}
+
+.pm-newFont
+{
+	font-size:14px !important;
+    font-weight:bold !important;
+}
+
+.tagAutocompleteItem
+{
+	height:18px;
+	border:1px solid #C7C7C7;
+	cursor:pointer;
+	background-color:#FFFFFF;
+}
+
+.tagAutocompleteSelectedItem
+{
+	background-color: #EDF6FD !important;
+}
+
+#TagsAutocompleteContainer
+{
+	width:722px;
+	z-index:auto;
+	overflow:auto;
+	max-height:105px;
+}
+
+.sortTableColumnHeader
+{
+    border-bottom: 1px dotted;
+    cursor: pointer;
+    text-decoration: none;
+    
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    MozUserSelect:none
+}
+
+.pm-tablebase thead tr td.sorttable_sorted,
+.pm-tablebase thead tr td.sorttable_sorted_reverse
+{
+	padding-right:3px;
+	padding-right:0px \9;
+}
+
+@-moz-document url-prefix() {
+.pm-tablebase thead tr td.sorttable_sorted,
+.pm-tablebase thead tr td.sorttable_sorted_reverse
+{
+    padding-right:2px;
+}
+}
+
+#sorttable_sortrevind, #sorttable_sortfwdind
+{
+	font-size:10px;
+}
+

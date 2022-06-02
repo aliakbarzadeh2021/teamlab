@@ -1,0 +1,26 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\TeamLabSvc.exe.config
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\TeamLabSvc.exe
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\TeamLabSvc.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\ASC.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\ASC.Core.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\log4net.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\MySql.Data.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\System.Data.SQLite.DLL
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\log4net.xml
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\System.Data.SQLite.xml
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\obj\Debug\TeamLabSvc.exe
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\obj\Debug\TeamLabSvc.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\TeamLabSvc.exe.config
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\TeamLabSvc.exe
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\TeamLabSvc.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\ASC.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\ASC.Core.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\log4net.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\MySql.Data.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\System.Data.SQLite.DLL
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\log4net.xml
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\bin\Debug\System.Data.SQLite.xml
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\obj\Debug\TeamLabSvc.exe
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.TeamLabSvc\ASC.TeamLabSvc\obj\Debug\TeamLabSvc.pdb

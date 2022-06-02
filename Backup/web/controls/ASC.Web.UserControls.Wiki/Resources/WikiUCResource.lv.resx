@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditSectionCaption">
+    <value>Rediģēt</value>
+  </data>
+  <data name="EditSectionTitleFormat">
+    <value>Rediģēt sadaļu:{0}</value>
+  </data>
+  <data name="editWiki_File">
+    <value>Fails</value>
+  </data>
+  <data name="editWiki_FileName">
+    <value>Faila Nosaukums</value>
+  </data>
+  <data name="editWiki_PageBody">
+    <value>Teksts</value>
+  </data>
+  <data name="editWiki_PageName">
+    <value>Lapas Nosaukums</value>
+  </data>
+  <data name="editWiki_PagePreview">
+    <value>Priekšskatījums</value>
+  </data>
+  <data name="editWiki_UploadCaption">
+    <value>Augšuplādēt failu</value>
+  </data>
+  <data name="editWiki_UploadFileName">
+    <value>Augšuplādēta faila nosaukums</value>
+  </data>
+  <data name="Enlarge">
+    <value>Pietuvināt</value>
+  </data>
+  <data name="HelpPage_DefaultBody">
+    <value>Viki lapu veidošana ir ļoti viegla, pat ja jūs to nekad nedarījāt. Tālāk ir nedaudz vieglu noteikumu. Mēs ceram, ka jums tie palīdzēs.
+
+@@TOC@@
+
+==Sadaļas, Panti, Saraksti, Rindas==
+
+Lai iesāktu jaunu sadaļu, izmantojiet = simbolu panta sākumā:
+
+&lt;nowiki&gt;
+&lt;p&gt;
+=Sadaļa=&lt;br&gt;
+==Apakšnodaļa==&lt;br&gt;
+===Apakš-apakšnodaļa===&lt;br&gt;
+
+&lt;p&gt;
+Lai apvienotu visas sadaļas in apakšnodaļas vienā satura rādītājā, ielieciet @TOC@.
+&lt;/p&gt;
+
+Viki marķēšana neredz līniju pārrāvumus. Jūs varat tos izmantot, lai atdalīt teikumus pantos. 
+
+&lt;p&gt;
+Izmantojiet «br» atzīmi, lai nesākt jaunu pantu.
+&lt;/p&gt;
+
+Lai iesāktu jaunu paragrāfu, divreiz nospiediet Enter uz tastatūras. 
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+Izveidot sarakstu arī ir viegli:
+
+&lt;nowiki&gt;
+&lt;p&gt;
+* katra punkta sākumā ielieciet zvaigznīti;&lt;br&gt;
+** jo vairāk zvaigznīšu,&lt;br&gt;
+** jo dziļāk ir saraksta līmenis.&lt;br&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+# Var izveidot arī numurētu sarakstu:&lt;br&gt;
+## tie izskatās strukturizēti;&lt;br&gt;
+## un viņus ir viegli lasīt.&lt;br&gt;
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+ JA rindas sākumā ir atstarpe,
+ TAD saglabāsies tāds pats fORMatējums, kāds BiJa ievadīts; 
+ tādā pašā fontā; bez līniju pārrāvumiem;[[nav linku]].
+
+Jūs varat izmantot atstārpi rindas sākumā, ja jums vajag: 
+
+*ielīmēt iepriekšēji formatētu tekstu;
+*parādīt pirmkodu; 
+*izveidot/ielīmēt ascii (bilžu veidošana ar teksta simboliem).
+
+Horizontālu līniju var izveidot ar četram domuzīmēm: 
+&lt;nowiki&gt;
+&lt;p&gt;
+---- 
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+==Linku Ielikšana==
+
+&lt;nowiki&gt;
+&lt;p&gt;
+Lai ieliktu linku uz citu viki lapu, ielieciet lapas nosaukumu divos kvadrātiekavās: &lt;br&gt; [[Palīdzība]]&lt;/p&gt;
+
+&lt;p&gt;
+Gadījumā, ja links un nosaukums, kurus jūs gribat parādīt vienā lapā atšķirās, ievadiet linka nosaukumu pēc | simbola: &lt;br&gt; [[Viki Marķēšanas Palīdzības Lapa|Palīdzības Lapa]] &lt;/p&gt; 
+
+&lt;p&gt;
+Ārējus linkus var ielikt tekstā:: &lt;br&gt; http://TeamLab.com&lt;/p&gt; 
+
+&lt;p&gt;
+Ja jūs gribat izmainīt ārēja linka nosaukumu, ielieciet to kvadrātiekavās un ievadiet jūsu nosaukumu uzreiz pēc atstarpes: &lt;br&gt; [http://TeamLab.com TeamLab]&lt;/p&gt; 
+
+&lt;p&gt;
+Lai ieliktu e-pasta adresi, izmantojiet kvadrātiekavas: &lt;br&gt; [mailto:support@teamlab.com]&lt;/p&gt; 
+
+&lt;p&gt; 
+Lai pievienotu lapas kategoriju, pievienojiet vēlamo kategoriju [[Kategorija: Vēlamā kategorija]] lapas beigās.
+&lt;/p&gt;
+&lt;/nowiki&gt; 
+
+==Teksta Formatēšana==
+
+Izmantojiet šos padomus jūsu teksta formatēšanai::
+
+''Kursīvs'
+
+&lt;nowiki&gt;
+&lt;p&gt;
+''te jābūt jūsu tekstam kursīvā''
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+'''Treknraksts'''
+
+&lt;nowiki&gt;
+&lt;p&gt;
+'''te jābūt jūsu tekstam treknrakstā'''
+ &lt;/p&gt;
+&lt;/nowiki&gt; 
+
+'''''Treknraksta Kursīvs'''''
+&lt;nowiki&gt;
+&lt;p&gt;
+'''''te jābūt jūsu tekstam treknraksta kursīvā'''''
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+__Pasvītrots__
+
+&lt;nowiki&gt;
+&lt;p&gt;
+__te jābūt jūsu pasvītrotam tekstam__
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+--Nosvītrots--
+
+&lt;nowiki&gt;
+
+&lt;p&gt;
+--te jābūt jūsu nosvītrotam  tekstam--
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+Indeksi: &lt;sup&gt;augšraksts&lt;/sup&gt; and &lt;sub&gt;apakšraksts&lt;/sub&gt;
+
+&lt;nowiki&gt;
+
+&lt;p&gt;
+&amp;lt;sub&amp;gt;jūsu augšraksts&amp;lt;/sub&amp;gt&lt;br&gt;
+&amp;lt;sub&amp;gt;jūsu apakšraksts&amp;lt;/sub&amp;gt
+&lt;/p&gt;
+
+
+&lt;p&gt;
+Jūs varat arī lietot &amp;lt;mazu&amp;gt mazu tekstu &amp;lt;/mazu&amp;gt komentāriem, īpašai formatēšanai, lai attēlot &amp;lt;code lang="language"&amp;gt;programmas kodu&amp;lt;/code&amp;gt; fragmentus un noteiktu tekstu  &amp;lt;tt&amp;gt;tehniskai terminoloģijai&amp;lt;/tt&amp;gt;.
+&lt;/p&gt; 
+
+&lt;/nowiki&gt;
+
+==Bilžu ielikšana==
+
+Lai varētu ielikt bildi viki lapā, vispirms jums vajag augšuplādēt to.
+
+Lietojiet šos linkus, lai augšuplādēt bildes:
+
+&lt;nowiki&gt;
+&lt;p&gt;
+Bilde = [[Image:Image Title]]&lt;/p&gt;
+&lt;p&gt;
+Bilde ar noteiktu platumu = [[Image: Image Title | Width_px]]&lt;/p&gt;
+&lt;p&gt;
+Bilde ar aprakstu = [[Image:Image Title  | Description]]&lt;/p&gt;
+&lt;p&gt;
+Sīktēls =  [[Image:Image Name  | thumb]] – bilde būs samazināta un attēlotā labājā pusē.
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+==HTML Viki Vietnē==
+
+Ja jums ir html-formātēts teksts, kuru jūs gribētu ielikt te, to var izdarīt viegli un ātri. Uzklikšķiniet uz “Izveidot jaunu lapu” uz “Darbības” paneļa. Tad ielīmējiet jūsu tekstu reģīdētajā un pārslēdzēties uz viki marķēšanu, uzklikšķinot uz Viki vietnes ikonu uz formatēšanas paneļa. Html atzīmes būs aizvietoti ar viki marķēšanu. Pārbaudiet rezultātus, izlabojiet kļūdas, ja tādas ir un nospiediet “Publicēt”. Jūsu lapa ir gatava.</value>
+  </data>
+  <data name="HelpPageCaption">
+    <value>Palīdzība</value>
+  </data>
+  <data name="MainPage_DefaultBody">
+    <value>'''Laipni Lūdzam TeamLab Viki Vietnē!''' 
+
+Šeit jūs varat veidot lapas, savienot tos kategorijās jūsu pārlukprogrammā. Viki vietne ir ērts instruments, kas palīdz glabāt ar projektu saistītu dokumentāciju. Viki vietnei piemīt šādas īpašības:
+
+*vairāki autori. Katrs '''TeamLab''' loceklis var rediģēt jebkūras lapas saturu.
+*ātra rediģēšāna. Uzklikšķiniet uz  '''Rediģēt''' linku, kas ir piejejams uz katras lapas un varat sākt rediģēt lapu uzreiz.
+*viegla pārviedošana no HTML uz Viki marķēšanu. Iemācēties [[Internal:Help#HTML to Wiki Transfer|kā]] 
+*versiju apskats. Pārbaudiet, kas bija rediģēts, atgriežoties uz iepriekšējo lapas versiju.
+
+@@TOC@@
+
+==Viki Navigācija un Struktūra==
+
+Jūs varat pārvietoties viki vietnē ar '''Navigācijas Paneļa''' palīdzību, kas vienmēr ir pieejams, kas jūs esat '''TeamLab''' viki vietnē. 
+
+===Lapas===
+
+Visas viki lapas ir attēlotas alfabeta kārtībā [[Internal:Index|Indekss]] lapā.&amp;lt;br&amp;gt; 
+Visas jaunas lapas ir attēlotas hronoloģiskā kārtībā  [[Internal:NewPages|Jaunas Lapas]] lapā.&amp;lt;br&amp;gt;
+Nesen rediģētu lapu saraksts atrodas [[Internal:Recently|Nesen rediģēti]] lapā.
+
+===Kategorijas===
+
+Jūs varat apvienot vairākas lapas vienā kategorijā. Visas kategorijas ir attēlotas [[Internal:Categories|Kategorijas]] lapā. Jūs varat pievienot lapu jebkādai kategorijai, vai izveidot jaunu. Uzklikšķiniet Click [[Internal:Help|šeit]], lai izlasīt vairāk par lapu pievienošanu kategorijai.
+
+===Faili===
+
+Jūs varat augšuplādēt jebkāda izmēra failus viki vietnē, kā arī ielikt linkus uz augšuplādētiem failiem viki lapās. Lasīt vairāk par to [[Internal:Palīdzība#Bilžu ielikšana|šeit]].
+
+===Palīdzība===
+
+Lapu veidošana viki vietnē ir viegla. Jums ir vajadzīgi tikai pāris noteikumi. Lasiet [[Internal:Palīdzība|viki marķēšanas padomus]], lai uzzināt par to.
+
+
+==Veidojiet Savu Viki Vietni==
+
+Lai izveidot jūsu viki vietni, sāciet ar jaunas lapas veidošanu un uzklikšķiniet uz '''Izveidot jaunu lapu''' linku uz '''Darbības''' paneļa. Tagad ievadiet jūsu tekstu. Izmantojiet  [[Internal:Palīdzība|viki marķēšanas padomus]].
+
+Atceraties, ka viki vietnē jūs varat organizēt visu tā, kā jums ir ērti. Pat šis lapas saturs var būt rediģēts. Even the contents of this page is editable. Piemēram, jūs varat izdzēst visu, kas te ir rakstīts un publicēt linkus uz jūsu projektiem. Visu labu!</value>
+  </data>
+  <data name="MainPage_EmptyPage">
+    <value>Šī lapa neeksistē. Uzklikšķiniet {šeit} lai izveidot un rediģēt to.</value>
+  </data>
+  <data name="miniToolBar_Anchor">
+    <value>Enkors</value>
+  </data>
+  <data name="miniToolBar_Bold">
+    <value>Treknraksts</value>
+  </data>
+  <data name="miniToolBar_CodeEscaped">
+    <value>Preblock</value>
+  </data>
+  <data name="miniToolBar_CodeInline">
+    <value>Lai vizuāli iezīmēt citu kodu</value>
+  </data>
+  <data name="miniToolBar_Comment">
+    <value>Komentēt</value>
+  </data>
+  <data name="miniToolBar_Escape">
+    <value>HTML koda piemērs</value>
+  </data>
+  <data name="miniToolBar_ExternalLink">
+    <value>Ārējais links</value>
+  </data>
+  <data name="miniToolBar_FileLink">
+    <value>Lokala faila links</value>
+  </data>
+  <data name="miniToolBar_H1">
+    <value>H1</value>
+  </data>
+  <data name="miniToolBar_H2">
+    <value>H2</value>
+  </data>
+  <data name="miniToolBar_H3">
+    <value>H3</value>
+  </data>
+  <data name="miniToolBar_H4">
+    <value>H4 (izmantot ar moderāciju)</value>
+  </data>
+  <data name="miniToolBar_HR">
+    <value>Horizontāla rinda</value>
+  </data>
+  <data name="miniToolBar_Image">
+    <value>Bilde</value>
+  </data>
+  <data name="miniToolBar_Italic">
+    <value>Kursīvs</value>
+  </data>
+  <data name="miniToolBar_LineBreak">
+    <value>Jauna rinda</value>
+  </data>
+  <data name="miniToolBar_NoBr">
+    <value>Tag NoBR</value>
+  </data>
+  <data name="miniToolBar_NoWiki">
+    <value>Viki vietnes valodai neatbilst</value>
+  </data>
+  <data name="miniToolBar_PageLink">
+    <value>Lapas Links</value>
+  </data>
+  <data name="miniToolBar_SpetialTags">
+    <value>Īpašas atzīmes</value>
+  </data>
+  <data name="miniToolBar_Striked">
+    <value>Nosvītrots</value>
+  </data>
+  <data name="miniToolBar_Subscript">
+    <value>Apakšteksts</value>
+  </data>
+  <data name="miniToolBar_Superscript">
+    <value>Augšteksts</value>
+  </data>
+  <data name="miniToolBar_Symbols">
+    <value>Īpaši simboli</value>
+  </data>
+  <data name="miniToolBar_Underlined">
+    <value>Pasvītrot</value>
+  </data>
+  <data name="miniToolBar_WrapperBox">
+    <value>Bloķēt</value>
+  </data>
+  <data name="wikiErrorFileSizeLimitText">
+    <value>Maksimāls augšuplādēta faila izmērs ir pārsniegts</value>
+  </data>
+  <data name="wikiFileDownloadCaption">
+    <value>Lejuplādēt failu</value>
+  </data>
+  <data name="wikiInternalCategoriesKeyCaption">
+    <value>Kategorijas</value>
+  </data>
+  <data name="wikiMaxUploadSizeFormat">
+    <value>Maksimāls faila izmērs {0}</value>
+  </data>
+  <data name="wikiPageEditSectionCaptionFormat">
+    <value>, Sadaļa: "{0}"</value>
+  </data>
+  <data name="wikiPageMoved">
+    <value>=Lapa ir pārvietota=
+Lapas nosaukums mainīts uz [[{0}|{0}]].
+Jūs varat atrast jaunāko versiju [[{0}|šeit]]</value>
+  </data>
+  <data name="wikiTOCFakeCaption">
+    <value>Satura Rādītājs</value>
+  </data>
+</root>

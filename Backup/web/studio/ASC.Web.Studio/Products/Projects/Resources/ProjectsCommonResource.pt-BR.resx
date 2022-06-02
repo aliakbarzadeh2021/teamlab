@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About">
+    <value>Ajuda</value>
+  </data>
+  <data name="Action">
+    <value>Ações</value>
+  </data>
+  <data name="ActionText_Add">
+    <value>Adicionado</value>
+  </data>
+  <data name="Add">
+    <value>Adicionar</value>
+  </data>
+  <data name="AddComment">
+    <value>Adicionar comentario</value>
+  </data>
+  <data name="AddTime">
+    <value>Adicionar tempo</value>
+  </data>
+  <data name="All">
+    <value>Tudo</value>
+  </data>
+  <data name="AllDepartments">
+    <value>Todos os departamentos</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>Todos os projetos da equipe</value>
+  </data>
+  <data name="AllUsers">
+    <value>Todos os usuários</value>
+  </data>
+  <data name="Apply">
+    <value>Aplicar</value>
+  </data>
+  <data name="Author">
+    <value>Autor</value>
+  </data>
+  <data name="Calendar">
+    <value>Calendar</value>
+  </data>
+  <data name="Cancel">
+    <value>Cancelar</value>
+  </data>
+  <data name="ChangesSaved">
+    <value>As mudanças foram salvas</value>
+  </data>
+  <data name="ChooseaFileToUpload">
+    <value>Selecionar um arquivo para enviar</value>
+  </data>
+  <data name="Collapse">
+    <value>Esconder</value>
+  </data>
+  <data name="Comment">
+    <value>Comentar</value>
+  </data>
+  <data name="Complete">
+    <value>Completar</value>
+  </data>
+  <data name="ConfirmEmailNotify">
+    <value>Sim, notificar todos subescritores sobre mudanças por e-mail</value>
+  </data>
+  <data name="CustomizeDashboardLink">
+    <value>Customizar widgets</value>
+  </data>
+  <data name="CustomizeWidgets">
+    <value>Customizar Widgets</value>
+  </data>
+  <data name="Dashboard">
+    <value>Painel</value>
+  </data>
+  <data name="Date">
+    <value>Data</value>
+  </data>
+  <data name="Delete">
+    <value>Deletar</value>
+  </data>
+  <data name="Edit">
+    <value>Editar</value>
+  </data>
+  <data name="Employees">
+    <value>{!Users}</value>
+  </data>
+  <data name="Expand">
+    <value>Mostrar</value>
+  </data>
+  <data name="FollowingProjectsWidget_Description">
+    <value>mostrar os seguimentos dos projetos</value>
+  </data>
+  <data name="FollowingProjectsWidget_EmptyString">
+    <value>Sem projetos a seguir</value>
+  </data>
+  <data name="FollowingProjectsWidget_ErrorMessage">
+    <value>Contagem invalida de projetos</value>
+  </data>
+  <data name="FollowingProjectsWidget_Title">
+    <value>Número de projetos a mostrar (1 a 30)</value>
+  </data>
+  <data name="History">
+    <value>Histórico</value>
+  </data>
+  <data name="Hours">
+    <value>horas</value>
+  </data>
+  <data name="HoursCount">
+    <value>Horas</value>
+  </data>
+  <data name="In">
+    <value>dentro</value>
+  </data>
+  <data name="Late">
+    <value>Tarde</value>
+  </data>
+  <data name="LearnMore">
+    <value>Saiba mais</value>
+  </data>
+  <data name="LogTime">
+    <value>Add time</value>
+  </data>
+  <data name="MessagesWidget_Description">
+    <value>mostrar as ultimas discussões</value>
+  </data>
+  <data name="MessagesWidget_ErrorMessage">
+    <value>Contagem de mensagens invalida</value>
+  </data>
+  <data name="MessagesWidget_Title">
+    <value>Numero de postagens a mostrar (1 a 30)</value>
+  </data>
+  <data name="MessageWidget_EmptyString">
+    <value>Sem discussões</value>
+  </data>
+  <data name="MilestonesWidget_CountMilestones_Title">
+    <value>Numero de relatórios a mostrar (1 a 30)</value>
+  </data>
+  <data name="MilestonesWidget_ErrorMessage">
+    <value>Contagem de relatórios invalida</value>
+  </data>
+  <data name="MilestonesWidget_Overdue_Description">
+    <value>mostrar relatórios vencidos</value>
+  </data>
+  <data name="MilestonesWidget_ShowLate_Title">
+    <value>Mostrar relatórios atrasados</value>
+  </data>
+  <data name="MilestonesWidget_Upcoming_Description">
+    <value>mostrar proximos relatórios</value>
+  </data>
+  <data name="ModuleName">
+    <value>Projetos</value>
+  </data>
+  <data name="MoveTo">
+    <value>Mover para</value>
+  </data>
+  <data name="MoveToTrash">
+    <value>Deletar</value>
+  </data>
+  <data name="MyNewTasksWidget_EmptyString">
+    <value>Você não tem tarefas</value>
+  </data>
+  <data name="MyProjectsWidget_Description">
+    <value>mostrar os projetos que você faz parte</value>
+  </data>
+  <data name="MyProjectsWidget_EmptyString">
+    <value>Você não faz parte de nenhum projeto.</value>
+  </data>
+  <data name="MyProjectsWidget_ErrorMessage">
+    <value>Contagem de projetos invalida</value>
+  </data>
+  <data name="MyProjectsWidget_Title">
+    <value>Número de projetos a mostrar (1 a 30)</value>
+  </data>
+  <data name="MyTasksWidget_Description">
+    <value>mostrar suas tarefas ativas</value>
+  </data>
+  <data name="MyTasksWidget_ErrorMessage">
+    <value>Contagem de tarefas invalida</value>
+  </data>
+  <data name="MyTasksWidget_Title">
+    <value>Numero de tarefas a mostrar (1 a 30)</value>
+  </data>
+  <data name="NewCommentForMessage">
+    <value>Novos comentários em discussão</value>
+  </data>
+  <data name="NewCommentForMilestone">
+    <value>New comments in milestones</value>
+  </data>
+  <data name="NewCommentForTask">
+    <value>Novo comentário em tarefa</value>
+  </data>
+  <data name="NewProjectsWidget_Description">
+    <value>mostrar os projetos recentes</value>
+  </data>
+  <data name="NewProjectsWidget_EmptyString">
+    <value>Sem projeto adicionado</value>
+  </data>
+  <data name="NewProjectsWidget_ErrorMessage">
+    <value>Contagem de projetos invalida</value>
+  </data>
+  <data name="NewProjectsWidget_Title">
+    <value>Numero de projetos a mostrar (1 a 30)</value>
+  </data>
+  <data name="NewsTitle">
+    <value>Titulo</value>
+  </data>
+  <data name="NextMonth">
+    <value>Próximo mês</value>
+  </data>
+  <data name="NoData">
+    <value>Sem data</value>
+  </data>
+  <data name="NothingHasBeenFound">
+    <value>Nada foi encontrado</value>
+  </data>
+  <data name="NotifyPeopleViaEmail">
+    <value>Notificar</value>
+  </data>
+  <data name="Or">
+    <value>ou</value>
+  </data>
+  <data name="PepleSubscribedToMessage">
+    <value>Esta subscrição a discutir</value>
+  </data>
+  <data name="Position">
+    <value>Posição</value>
+  </data>
+  <data name="Preview">
+    <value>Previsão</value>
+  </data>
+  <data name="PrevMonth">
+    <value>Mês anterior</value>
+  </data>
+  <data name="ProductDescription">
+    <value>Construir seu time projeto em equipe, organizar tarefas e planos de metas.
+Discutir questões importantes relacionadas ao trabalho, ver estatus do projeto e gerar relatórios</value>
+  </data>
+  <data name="ProductName">
+    <value>Projetos</value>
+  </data>
+  <data name="RecentActivity">
+    <value>Atividades Recentes</value>
+  </data>
+  <data name="RecentActivityContainerTitle">
+    <value>Atividade</value>
+  </data>
+  <data name="RecentActivityWidget_Description">
+    <value>Mostrar as ultimas atividades sobre todos os projetos</value>
+  </data>
+  <data name="RecentActivityWidget_EmptyString">
+    <value>Sem atividade recente</value>
+  </data>
+  <data name="RecentActivityWidget_ErrorMessage">
+    <value>Contagem de atividades invalido</value>
+  </data>
+  <data name="RecentActivityWidget_Title">
+    <value>Número de ações a mostrar (1 a 30)</value>
+  </data>
+  <data name="Save">
+    <value>Salvar</value>
+  </data>
+  <data name="SaveChanges">
+    <value>Salvar mudanças</value>
+  </data>
+  <data name="Saving">
+    <value>Salvando...</value>
+  </data>
+  <data name="ScreenBlock_Content">
+    <value>Seguir 6 faceis passos para gerenciar seu projeto efetivamente</value>
+  </data>
+  <data name="ScreenBlock1_Content">
+    <value>Adicionar descrição, atribuir a gerente de projeto</value>
+  </data>
+  <data name="ScreenBlock1_Header">
+    <value>Criar o Projeto</value>
+  </data>
+  <data name="ScreenBlock2_Content">
+    <value>Trabalhar no projeto juntos</value>
+  </data>
+  <data name="ScreenBlock2_Header">
+    <value>Gerenciar seu Grupo</value>
+  </data>
+  <data name="ScreenBlock3_Content">
+    <value>Seguir o progresso de seu projeto</value>
+  </data>
+  <data name="ScreenBlock3_Header">
+    <value>Plano de Metas</value>
+  </data>
+  <data name="ScreenBlock4_Content">
+    <value>Dividir tarefas entre membros da equipe</value>
+  </data>
+  <data name="ScreenBlock4_Header">
+    <value>Assinar tarefas</value>
+  </data>
+  <data name="ScreenBlock5_Content">
+    <value>Trocar informação com seu time</value>
+  </data>
+  <data name="ScreenBlock5_Header">
+    <value>Começar Discussão, Enviar Arquivo</value>
+  </data>
+  <data name="ScreenBlock6_Content">
+    <value>Reportar estatus do projeto e fluxo de trabalho</value>
+  </data>
+  <data name="ScreenBlock6_Header">
+    <value>Gerar Respostas</value>
+  </data>
+  <data name="SearchResults">
+    <value>Resultado da Busca: "{0}"</value>
+  </data>
+  <data name="SearchText">
+    <value>Busca</value>
+  </data>
+  <data name="Show">
+    <value>Mostrar</value>
+  </data>
+  <data name="ShowAllResults">
+    <value>Mostrar Todos os Resultados</value>
+  </data>
+  <data name="ShowOnlyForMyProjects">
+    <value>Mostrar apenas meus projetos e os projetos que sigo</value>
+  </data>
+  <data name="SortBy">
+    <value>Organizar por:</value>
+  </data>
+  <data name="SpentTotally">
+    <value>Tempo empregado</value>
+  </data>
+  <data name="StartURL">
+    <value>~/Products/Projects/</value>
+  </data>
+  <data name="Status">
+    <value>Estatus</value>
+  </data>
+  <data name="SubscribeOnNewComment">
+    <value>Subscrever aos comentários</value>
+  </data>
+  <data name="Time">
+    <value>Tempo</value>
+  </data>
+  <data name="TimeTracking">
+    <value>Controle de tempo</value>
+  </data>
+  <data name="Title">
+    <value>Titulo</value>
+  </data>
+  <data name="Today">
+    <value>Hoje</value>
+  </data>
+  <data name="Total">
+    <value>Total</value>
+  </data>
+  <data name="TotalFound">
+    <value>Total encontrado</value>
+  </data>
+  <data name="TotalOnPage">
+    <value>Total na página</value>
+  </data>
+  <data name="ToTrash">
+    <value>Para Lixo</value>
+  </data>
+  <data name="Type">
+    <value>Tipo</value>
+  </data>
+  <data name="UnSubscribeOnNewComment">
+    <value>Deixar de seguir comentários</value>
+  </data>
+  <data name="UpcomingMilestonesWidget_EmptyString">
+    <value>Nenhuma metas adicionada</value>
+  </data>
+  <data name="UploadTheFile">
+    <value>Enviar arquivo</value>
+  </data>
+  <data name="UploadTheNewVersion">
+    <value>Atualizar Versão de Arquivo</value>
+  </data>
+  <data name="UpToDate">
+    <value>Atualizar</value>
+  </data>
+  <data name="With">
+    <value>Com</value>
+  </data>
+  <data name="WithSelected">
+    <value>Com o selecionado...</value>
+  </data>
+  <data name="Yesterday">
+    <value>Ontem</value>
+  </data>
+</root>

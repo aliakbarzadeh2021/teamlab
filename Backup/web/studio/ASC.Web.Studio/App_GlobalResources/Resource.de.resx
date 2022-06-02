@@ -1,0 +1,1966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountControlPageTitle">
+    <value>Bestätigung</value>
+  </data>
+  <data name="AccountDeactivation">
+    <value>Deaktivierung des Kontos</value>
+  </data>
+  <data name="AccountDeactivationMsg">
+    <value>Der Link zum Bestätigen der Operation wurde an :email geschickt (die E-Mail-Adresse des Portalbesitzers).</value>
+  </data>
+  <data name="AccountDeletion">
+    <value>Löschen des Kontos</value>
+  </data>
+  <data name="AccountDeletionMsg">
+    <value>Der Link zum Bestätigen der Operation wurde an :email geschickt (die E-Mail-Adresse des Portalbesitzers).</value>
+  </data>
+  <data name="Action">
+    <value>Aktion</value>
+  </data>
+  <data name="Actions">
+    <value>Aktionen</value>
+  </data>
+  <data name="ActiveDirectory">
+    <value>Aktives Verzeichnis</value>
+  </data>
+  <data name="ActiveDirectoryImportDescription">
+    <value>Import der Benutzer aus der Domain</value>
+  </data>
+  <data name="ActiveDirectoryImportName">
+    <value>Import der Benutzer aus aktivem Verzeichnis</value>
+  </data>
+  <data name="ActiveDirectoryImportStepDescription">
+    <value>Importieren Sie Ihre Mitarbeiter aus aktivem Verzeichnis mit Hilfe von Ihrer Domain und dem Domainkennwort. Um die Operation erfolgreich durchzuführen, muss man die Berechtigung für Sicherheitspolitik "Lokales Einloggen" haben. Klicken Sie auf "Weiter", um den Import zu beginnen.</value>
+  </data>
+  <data name="ActiveEmployeesTitle">
+    <value>Aktive {!Users}</value>
+  </data>
+  <data name="AddButton">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="AddContentTitle">
+    <value>Inhalt hinzufügen</value>
+  </data>
+  <data name="AddCurrentPage">
+    <value>Aktuelle Seite hinzufügen</value>
+  </data>
+  <data name="AddDepartmentDlgTitle">
+    <value>{!Group} hinzufügen</value>
+  </data>
+  <data name="AddEmailButton">
+    <value>E-Mail-Adresse hinzufügen</value>
+  </data>
+  <data name="AddEmployeesButton">
+    <value>Kontakte importieren</value>
+  </data>
+  <data name="AddNewCommentButton">
+    <value>Kommentar hinzufügen</value>
+  </data>
+  <data name="AddQuickLink">
+    <value>Schnelllink hinzufügen</value>
+  </data>
+  <data name="AddTo">
+    <value>Hinzufügen zu</value>
+  </data>
+  <data name="AddTrustedDomainButton">
+    <value>Sichere Domain hinzufügen</value>
+  </data>
+  <data name="Administration">
+    <value>Einstellungen</value>
+  </data>
+  <data name="AdministrationDescription">
+    <value>Administrator- und SMTP-Einstellungen</value>
+  </data>
+  <data name="AdministratorNotifySenderTypeName">
+    <value>Benachrichtigung der Administratoren</value>
+  </data>
+  <data name="Admins">
+    <value>Administratoren</value>
+  </data>
+  <data name="AdminSelectorTitle">
+    <value>Administratorauswahl</value>
+  </data>
+  <data name="AdminSettings">
+    <value>Administratoren</value>
+  </data>
+  <data name="ADUserListTitle">
+    <value>Liste mit neuen Benutzern aus aktivem Verzeichnis</value>
+  </data>
+  <data name="AdvancedFilesUploadFeature">
+    <value>Erweitertes Hochladen der Dateien</value>
+  </data>
+  <data name="AdvancedFilesUploadFeatureDesc">
+    <value>Genießen Sie hohe Geschwindigkeit beim Hochladen erweiterter Dateien bis zu 100 MB.</value>
+  </data>
+  <data name="AfterRegistryMessagePopupText">
+    <value>Die Registrierungsdaten wurden Ihnen per E-Mail geschickt. Sie können Ihr Standard-Kennwort ändern, indem Sie auf den Link "Kennwort ändern" im Hauptfeld klicken.</value>
+  </data>
+  <data name="AfterRegistryMessagePopupTitle">
+    <value>Ihr Portal wurde erfolgreich erstellt</value>
+  </data>
+  <data name="AllEmployees">
+    <value>Alle {!Users}</value>
+  </data>
+  <data name="AllMailDomains">
+    <value>Alle Domains</value>
+  </data>
+  <data name="AllMailDomainsDescription">
+    <value>Melden Sie sich mit allen Mail-Domains an</value>
+  </data>
+  <data name="AllUsersSynchronised">
+    <value>Alle Benutzer sind synchronisiert</value>
+  </data>
+  <data name="AlreadyExistingUsersCountLabel">
+    <value>Anzahl der bereits hinzugefügten Benutzer aus der Originalkontaktliste: {0}</value>
+  </data>
+  <data name="AnswerButton">
+    <value>Antworten</value>
+  </data>
+  <data name="AnswerMessage">
+    <value>Antworten</value>
+  </data>
+  <data name="AssociateAccount">
+    <value>Link zum sozialen Netz</value>
+  </data>
+  <data name="AssociateAccountConnect">
+    <value>Anschließen</value>
+  </data>
+  <data name="AssociateAccountConnected">
+    <value>Angeschlossen</value>
+  </data>
+  <data name="AssociateAccountDisconnect">
+    <value>Anschluss aufheben</value>
+  </data>
+  <data name="AssociateAccountHint">
+    <value>* Sie können Ihre Konten in sozialen Netzwerken für ein alternatives Login verwenden</value>
+  </data>
+  <data name="AssociateAccountNotConnected">
+    <value>Nicht angeschlossen</value>
+  </data>
+  <data name="AtTime">
+    <value>um</value>
+  </data>
+  <data name="Authorization">
+    <value>Autorisation</value>
+  </data>
+  <data name="AuthPageWelcomeHeader">
+    <value>Willkommen!</value>
+  </data>
+  <data name="BackButton">
+    <value>&amp;#8592;  Zurück</value>
+  </data>
+  <data name="BackToHomeLink">
+    <value>Zur Startseite übergehen</value>
+  </data>
+  <data name="Backup">
+    <value>Backup/Deaktivierung</value>
+  </data>
+  <data name="BackupDesc">
+    <value>Verwenden Sie diese Option, wenn Sie alle Daten vom Portal auf lokalen Datenträger übertragen möchten.{0}Wichtig! Die Backup-Dateien können ins Portal nicht wieder importiert werden.</value>
+  </data>
+  <data name="BackupError">
+    <value>Fehler beim Backup-Erstellen. Bitte später noch einmal versuchen.</value>
+  </data>
+  <data name="BackupReadyText">
+    <value>{0}Man kann das Backup auf Ihren lokalen Datenträger mit einem Klick auf den oberen Link herunterladen.
+                                        Der Link wird innerhalb von 24 Stunden nach der Anfrage verfügbar sein.{1}
+                                        Eine E-Mail mit dem Link und den Hinweisen wurde an Ihre E-Mail-Adresse geschickt.
+                                    {2}</value>
+  </data>
+  <data name="Birthdate">
+    <value>Geburtsdatum</value>
+  </data>
+  <data name="BtnAddNewContact">
+    <value>Neuen Kontakt hinzufügen</value>
+  </data>
+  <data name="CancelButton">
+    <value>Abbrechen</value>
+  </data>
+  <data name="CancelConfirmMessage">
+    <value>Alle angegebenen Daten werden verloren gehen. Möchten Sie wirklich fortsetzen?</value>
+  </data>
+  <data name="CEO">
+    <value>{!CEO}</value>
+  </data>
+  <data name="CeoNameEditCaption">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="ChangeButton">
+    <value>Ändern</value>
+  </data>
+  <data name="ChangeLogoButton">
+    <value>Logo ändern</value>
+  </data>
+  <data name="ChangeOwnerDescription">
+    <value>Wird nach der Bestätigung per E-Mail erfolgen</value>
+  </data>
+  <data name="ChangeOwnerTitle">
+    <value>Wechseln auf:</value>
+  </data>
+  <data name="ChangePortalOwnerMsg">
+    <value>Der Link zum Bestätigen der Operation wurde an :email geschickt (die E-Mail-Adresse des Portalbesitzers).</value>
+  </data>
+  <data name="ChangePwd">
+    <value>Kennwort ändern</value>
+  </data>
+  <data name="ChangeSelfPwd">
+    <value>Mein Kennwort ändern</value>
+  </data>
+  <data name="ChartDateFormat">
+    <value>%b %d</value>
+  </data>
+  <data name="ChartMonthNames">
+    <value>Jan., Febr., Mrz., Apr., Mai, Jun., Jul., Aug., Sept., Okt., Nov., Dez.</value>
+  </data>
+  <data name="ClearButton">
+    <value>Leeren</value>
+  </data>
+  <data name="CloseButton">
+    <value>Schließen</value>
+  </data>
+  <data name="ComfirmImportName">
+    <value>Prüfen Sie, ob importierte Daten korrekt sind</value>
+  </data>
+  <data name="ComfirmImportStepDescription">
+    <value>Prüfen Sie, ob importierte Daten korrekt sind. Deaktivieren Sie die Benutzer, die Sie nicht importieren möchten. Stellen Sie sicher, dass alle Felder (Vorname, Nachname, E-Mail-Adresse) für jeden Benutzer ausgefüllt sind. Die Benutzer mit leeren Feldern werden nicht importiert. Wenn E-Mail-Adressen von zwei Benutzern zusammenfallen, wird nur der erste importiert. Sobald alles fertig ist, klicken Sie auf "Importieren", um die Importierung zu beginnen.</value>
+  </data>
+  <data name="CommentRemovedMessage">
+    <value>Kommentar gelöscht</value>
+  </data>
+  <data name="Comments">
+    <value>Kommentare</value>
+  </data>
+  <data name="CommentSendingMessage">
+    <value>Der Kommentar wird gesendet...</value>
+  </data>
+  <data name="CommentWasRemoved">
+    <value>Kommentar gelöscht</value>
+  </data>
+  <data name="ConfirmDeactivatePortalTitle">
+    <value>Bitte bestätigen Sie, dass Sie Ihr Konto deaktivieren möchten</value>
+  </data>
+  <data name="ConfirmDeleteMessage">
+    <value>Möchten Sie wirklich diese Nachricht löschen?</value>
+  </data>
+  <data name="ConfirmDeleteMessages">
+    <value>Möchten Sie wirklich gewählte Nachrichten löschen?</value>
+  </data>
+  <data name="ConfirmDeletePortalTitle">
+    <value>Bitte bestätigen Sie, dass Sie Ihr Konto löschen möchten.</value>
+  </data>
+  <data name="ConfirmDnsUpdateTitle">
+    <value>Möchten Sie wirklich die Portaladresse auf {0} ändern?</value>
+  </data>
+  <data name="ConfirmEmpInviteTitle">
+    <value>Um beizutreten, füllen Sie bitte die unten gegebenen Felder aus.</value>
+  </data>
+  <data name="ConfirmMessage">
+    <value>Möchten Sie fortsetzen?</value>
+  </data>
+  <data name="ConfirmMoveMessage">
+    <value>Möchten Sie wirklich gewählte Nachrichten verlegen?</value>
+  </data>
+  <data name="ConfirmOwnerPortalSuccessMessage">
+    <value>Der Portalbesitzer wurde erfolgreich geändert. {0} In 10 Sekunden werden Sie {1} hier {2} umgeleitet werden</value>
+  </data>
+  <data name="ConfirmOwnerPortalTitle">
+    <value>Bitte bestätigen Sie, dass Sie den Portalbesitzer auf {0} ändern wollen</value>
+  </data>
+  <data name="ConfirmReactivatePortalTitle">
+    <value>Bitte bestätigen Sie, dass Sie Ihr Konto wieder aktivieren möchten.</value>
+  </data>
+  <data name="ConfirmRemoveCommentMessage">
+    <value>Möchten Sie wirklich Ihren Kommentar löschen?</value>
+  </data>
+  <data name="Contacts">
+    <value>Kontakte</value>
+  </data>
+  <data name="ContactUs">
+    <value>Kontakt</value>
+  </data>
+  <data name="ContinueButton">
+    <value>Fortsetzen</value>
+  </data>
+  <data name="CorporateSMTP">
+    <value>Unternehmensinterne Post</value>
+  </data>
+  <data name="CreateButton">
+    <value>Erstellen</value>
+  </data>
+  <data name="CreatedDate">
+    <value>Erstellungsdatum</value>
+  </data>
+  <data name="CreatingBackup">
+    <value>Das Backup wird erstellt</value>
+  </data>
+  <data name="Creator">
+    <value>Erstellt von</value>
+  </data>
+  <data name="CredentialsDomain">
+    <value>Domain zum Identifizieren</value>
+  </data>
+  <data name="CredentialsUserName">
+    <value>Benutzer zum Bestätigen</value>
+  </data>
+  <data name="CredentialsUserPassword">
+    <value>Kennwort zum Bestätigen</value>
+  </data>
+  <data name="CSV">
+    <value>CSV</value>
+  </data>
+  <data name="CSVImportDescription">
+    <value>Benutzer aus einer CSV-Datei importieren</value>
+  </data>
+  <data name="CSVImportName">
+    <value>Benutzer aus einer CSV-Datei importieren</value>
+  </data>
+  <data name="CSVImportStepDescription">
+    <value>Importieren Sie Ihre Mitarbeiter aus einer CSV-Datei. Jede Linie der Datei muss das folgende Format haben: Vorname;Nachname;E-Mail-Adresse;{0}Laden Sie die gewünschte Datei und klicken Sie auf "Weiter", um die Importierung zu beginnen.</value>
+  </data>
+  <data name="CtrlEnterKeys">
+    <value>Strg+Eingabetaste</value>
+  </data>
+  <data name="Custom">
+    <value>Benutzerdefiniert</value>
+  </data>
+  <data name="CustomDomainName">
+    <value>Benutzerdefinierter Domain-Name</value>
+  </data>
+  <data name="Customization">
+    <value>Individuelle Einrichtung</value>
+  </data>
+  <data name="CustomNamingPeopleSchema">
+    <value>Einstellbar</value>
+  </data>
+  <data name="DataBackup">
+    <value>Daten-Backup</value>
+  </data>
+  <data name="DaysBeforeBirthdaySettingsTitle">
+    <value>Tage vorher an Geburtstage erinnern (von 1 bis 30)</value>
+  </data>
+  <data name="DeactivateButton">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="DeactivatePortalButton">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="DeactivatePortalSuccessMessage">
+    <value>Ihr Konto wurde erfolgreich deaktiviert.{0}In 10 Sekunden werden Sie {1}hierher{2} umadressiert</value>
+  </data>
+  <data name="DeactivationDesc">
+    <value>{0}
+                Man kann das Portal vorläufig deaktivieren, so dass niemand innerhalb einer Periode darauf zugreifen kann.
+          {1}Klicken Sie auf den Button "Deaktivieren", um fortzufahren. Ein Link zum Bestätigen dieser Operation wird an die E-Mail-Adresse des Portalbesitzers geschickt. Um das Portal wieder zu benutzen, muss man den zweiten Link aus der Bestätigungsmail verwenden.
+            {2}</value>
+  </data>
+  <data name="Default">
+    <value>Standard</value>
+  </data>
+  <data name="DeleteButton">
+    <value>Löschen</value>
+  </data>
+  <data name="DeleteDepartmentConfirmation">
+    <value>Diese Aktion kann nicht rückgängig gemacht werden. Fortsetzen?</value>
+  </data>
+  <data name="DeletePortalButton">
+    <value>Löschen</value>
+  </data>
+  <data name="DeletePortalSuccessMessage">
+    <value>Ihr Konto wurde erfolgreich gelöscht.{0}In 10 Sekunden werden Sie {1}hierher{2} umadressiert</value>
+  </data>
+  <data name="DeleteSelectedButton">
+    <value>Auswahl löschen</value>
+  </data>
+  <data name="DeletionDesc">
+    <value>Man kann das Portal unwiederruflich löschen. In diesem Fall werden alle Daten ohne Wiederherstellungsmöglichkeit verloren gehen.</value>
+  </data>
+  <data name="DemoEnterButton">
+    <value>Demo-Login</value>
+  </data>
+  <data name="DemoModeText">
+    <value>DEMO-Modus</value>
+  </data>
+  <data name="Department">
+    <value>{!Group}</value>
+  </data>
+  <data name="DepartmentComposition">
+    <value>Personal</value>
+  </data>
+  <data name="DepartmentHeadCount">
+    <value>{0} Mitarbeiter</value>
+  </data>
+  <data name="DepartmentMaster">
+    <value>{!Head}</value>
+  </data>
+  <data name="Departments">
+    <value>{!Groups}</value>
+  </data>
+  <data name="DepartmentTitle">
+    <value>Name bearbeiten</value>
+  </data>
+  <data name="DepEditComposition">
+    <value>Personal bearbeiten</value>
+  </data>
+  <data name="DepEditMaster">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="DepNameEditCaption">
+    <value>Titel bearbeiten</value>
+  </data>
+  <data name="Description">
+    <value>Beschreibung</value>
+  </data>
+  <data name="DescriptionThumbnail">
+    <value>Wählen Sie einen Bildbereich, der als Ihr Avatar angezeigt wird</value>
+  </data>
+  <data name="DisabledEmployeeTitle">
+    <value>Deaktiviert</value>
+  </data>
+  <data name="DisableEmployeesTitle">
+    <value>Deaktivierte {!Users}</value>
+  </data>
+  <data name="DisableUserButton">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="DisableUserHelp">
+    <value>Der Benutzer wird nicht mehr in der Liste mit aktiven Benutzern angezeigt</value>
+  </data>
+  <data name="DiskUsageTitle">
+    <value>Festplattennutzung</value>
+  </data>
+  <data name="DnsChangeMsg">
+    <value>Der Link zum Bestätigen der Operation wurde an {0} geschickt (die E-Mail-Adresse des Portalbesitzers).</value>
+  </data>
+  <data name="DnsSettings">
+    <value>DNS-Einstellungen</value>
+  </data>
+  <data name="DnsSettingsLabel">
+    <value>Portal DNS-Adresse</value>
+  </data>
+  <data name="DomainName">
+    <value>Name der Domain</value>
+  </data>
+  <data name="DomainUserName">
+    <value>Domainbenutzername</value>
+  </data>
+  <data name="DontShowOnStartupText">
+    <value>Beim Start nicht anzeigen</value>
+  </data>
+  <data name="DrnAgo">
+    <value>vor {0}</value>
+  </data>
+  <data name="DrnAgoDaysI">
+    <value>{0} Tag</value>
+  </data>
+  <data name="DrnAgoDaysR1">
+    <value>{0} Tagen</value>
+  </data>
+  <data name="DrnAgoDaysRm">
+    <value>{0} Tagen</value>
+  </data>
+  <data name="DrnAgoFewMoments">
+    <value>gerade</value>
+  </data>
+  <data name="DrnAgoHoursI">
+    <value>{0} Stunde</value>
+  </data>
+  <data name="DrnAgoHoursR1">
+    <value>{0} Stunden</value>
+  </data>
+  <data name="DrnAgoHoursRm">
+    <value>{0} Stunden</value>
+  </data>
+  <data name="DrnAgoMinutesI">
+    <value>{0} Minute</value>
+  </data>
+  <data name="DrnAgoMinutesR1">
+    <value>{0} Minuten</value>
+  </data>
+  <data name="DrnAgoMinutesRm">
+    <value>{0} Minuten</value>
+  </data>
+  <data name="DrnAgoMonthsI">
+    <value>{0} Monat</value>
+  </data>
+  <data name="DrnAgoMonthsR1">
+    <value>{0} Monaten</value>
+  </data>
+  <data name="DrnAgoMonthsRm">
+    <value>{0} Monaten</value>
+  </data>
+  <data name="DrnAgoYearsI">
+    <value>{0} Jahr</value>
+  </data>
+  <data name="DrnAgoYearsR1">
+    <value>{0} Jahre</value>
+  </data>
+  <data name="DrnAgoYearsRm">
+    <value>{0} Jahre</value>
+  </data>
+  <data name="DrnDayBeforeYesterday">
+    <value>Vorgestern</value>
+  </data>
+  <data name="DrnToday">
+    <value>Heute</value>
+  </data>
+  <data name="DrnTomorrow">
+    <value>Morgen</value>
+  </data>
+  <data name="DrnYesterday">
+    <value>Gestern</value>
+  </data>
+  <data name="EditButton">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="EditQuickLink">
+    <value>Schnelllink bearbeiten</value>
+  </data>
+  <data name="EditSelfProfile">
+    <value>Mein Profil bearbeiten</value>
+  </data>
+  <data name="EditThumbnailPhoto">
+    <value>Avatare bearbeiten</value>
+  </data>
+  <data name="EditUserDialogTitle">
+    <value>Profil bearbeiten</value>
+  </data>
+  <data name="Email">
+    <value>E-Mail</value>
+  </data>
+  <data name="EmailAsLogin">
+    <value>E-Mail (wird als Login verwendet)</value>
+  </data>
+  <data name="EmailForReminder">
+    <value>E-Mail-Adresse, die bei der Registrierung im System angegeben wurde</value>
+  </data>
+  <data name="EmailHint">
+    <value>Diese E-Mail-Adresse ist Ihr Login</value>
+  </data>
+  <data name="EmailInviteImportDescription">
+    <value>Geben Sie die Liste mit E-Mail-Adressen an, an die Sie Einladungen schicken möchten</value>
+  </data>
+  <data name="EmailInviteImportName">
+    <value>Einladen</value>
+  </data>
+  <data name="Employee">
+    <value>{!User}</value>
+  </data>
+  <data name="EmployeeAllDepartments">
+    <value>Alle {!Groups}</value>
+  </data>
+  <data name="Employees">
+    <value>{!Users}</value>
+  </data>
+  <data name="EmployeesSearch">
+    <value>Suche in Personal</value>
+  </data>
+  <data name="EmployeesShowAsCards">
+    <value>Karten</value>
+  </data>
+  <data name="EmployeesShowAsList">
+    <value>Liste</value>
+  </data>
+  <data name="EmployeeStatusActive">
+    <value>Arbeitet</value>
+  </data>
+  <data name="EmployeeStatusLeaveOfAbsence">
+    <value>Login angehalten</value>
+  </data>
+  <data name="EmployeeStatusTerminated">
+    <value>Entlassen</value>
+  </data>
+  <data name="EmptyRecipientAlert">
+    <value>Das Feld "An" ist leer!</value>
+  </data>
+  <data name="EmptyTitleAlert">
+    <value>Das Feld "Betreff" ist leer!</value>
+  </data>
+  <data name="EnabledDemoEnter">
+    <value>Demo-Login zulassen</value>
+  </data>
+  <data name="EnableSSL">
+    <value>SSL Aktivieren</value>
+  </data>
+  <data name="EnableUserButton">
+    <value>Aktivieren</value>
+  </data>
+  <data name="EnableUserHelp">
+    <value>Der Benutzer wird als aktiv wieder angezeigt</value>
+  </data>
+  <data name="EnterSettings">
+    <value>Login-Einstellungen</value>
+  </data>
+  <data name="Error404Text">
+    <value>Die angefragte Seite ist nicht vorhanden. Sie konnte verlegt werden oder hat nie existiert.</value>
+  </data>
+  <data name="Error404Title">
+    <value>Fehler 404 - Seite nicht gefunden</value>
+  </data>
+  <data name="ErrorAccessDenied">
+    <value>Keine Berechtigung zum Durchführen dieser Aktion</value>
+  </data>
+  <data name="ErrorAuthAD">
+    <value>Unmöglich aktives Verzeichnis zu bestätigen</value>
+  </data>
+  <data name="ErrorConfirmURLError">
+    <value>Ungültige E-Mail-Adresse oder der Link ist abgelaufen</value>
+  </data>
+  <data name="ErrorDisallowRemoveYourselfFromAdmins">
+    <value>Sie können sich selbst aus der Liste mit Administratoren nicht entfernen</value>
+  </data>
+  <data name="ErrorEditingCategoryNotFound">
+    <value>Die bearbeitete Kategorie wurde nicht gefunden</value>
+  </data>
+  <data name="ErrorEditingGroupNotFound">
+    <value>Die bearbeitete Gruppe wurde nicht gefunden</value>
+  </data>
+  <data name="ErrorEditingUserNotFound">
+    <value>Der bearbeitete Benutzer wurde nicht gefunden, bitte wählen Sie einen Benutzer in der Liste...</value>
+  </data>
+  <data name="ErrorEmailAlreadyExists">
+    <value>Ein Benutzer mit dieser E-Mail-Adresse ist bereits registriert</value>
+  </data>
+  <data name="ErrorEmptyFields">
+    <value>Bitte alle Felder ausfüllen</value>
+  </data>
+  <data name="ErrorEmptyName">
+    <value>Geben Sie einen Namen ein</value>
+  </data>
+  <data name="ErrorEmptyUploadFileSelected">
+    <value>Der hochgeladene Datei konnte nicht gefunden werden</value>
+  </data>
+  <data name="ErrorEmptyUserFirstName">
+    <value>Geben Sie Ihren Vornamen ein</value>
+  </data>
+  <data name="ErrorEmptyUserLastName">
+    <value>Geben Sie Ihren Nachnamen ein</value>
+  </data>
+  <data name="ErrorFileEmptyText">
+    <value>Leere Datei</value>
+  </data>
+  <data name="ErrorFileSizeLimitText">
+    <value>Die max. Größe der hochgeladenen Datei ist überschritten</value>
+  </data>
+  <data name="ErrorMissMatchPwd">
+    <value>Das neue Kennwort und seine Bestätigung fallen nicht zusammen.</value>
+  </data>
+  <data name="ErrorNoEmailsForInvite">
+    <value>Bitte geben Sie zumindest eine E-Mail-Adresse für Einladung ein</value>
+  </data>
+  <data name="ErrorNotCorrectCountActivities">
+    <value>Ungültige Anzahl der Aktivitäten</value>
+  </data>
+  <data name="ErrorNotCorrectDaysBeforeBirthdaySettings">
+    <value>Ungültige Anzahl der Tage</value>
+  </data>
+  <data name="ErrorNotCorrectEmail">
+    <value>Ungültige E-Mail-Adresse</value>
+  </data>
+  <data name="ErrorNotCorrectNewWorkerCountSettings">
+    <value>Ungültige Anzahl</value>
+  </data>
+  <data name="ErrorNotCorrectPassword">
+    <value>Falsches Kennwort</value>
+  </data>
+  <data name="ErrorNotCorrectTrustedDomain">
+    <value>Ungültiger Domain-Name</value>
+  </data>
+  <data name="ErrorParseUserImportFile">
+    <value>Die Datei mit den Benutzerimportdaten wurde nicht gefunden oder hat ein ungültiges Format</value>
+  </data>
+  <data name="ErrorPasswordEmpty">
+    <value>Das Feld "Kennwort" ist leer.</value>
+  </data>
+  <data name="ErrorPasswordToShort">
+    <value>Das Kennwort ist zu kurz. Es muss zumindest 6 Zeichen enthalten.</value>
+  </data>
+  <data name="ErrorSaveSettings">
+    <value>Ein unbekannter Fehler ist beim Speichern der Einstellungen aufgetreten</value>
+  </data>
+  <data name="ErrorSaveWidgetSettings">
+    <value>Fehler beim Speichern der Einstellungen</value>
+  </data>
+  <data name="ErrorUserNotFoundByEmail">
+    <value>Der Benutzer mit der Adresse {0} wurde nicht gefunden</value>
+  </data>
+  <data name="ErrorUserNotSelected">
+    <value>Wählen Sie einen Benutzer</value>
+  </data>
+  <data name="ErrorWizardAlreadyCompleted">
+    <value>Der Administrator wurde bereits benannt</value>
+  </data>
+  <data name="FemaleSexStatus">
+    <value>Weiblich</value>
+  </data>
+  <data name="FileSharingFeature">
+    <value>Selektive Dateifreigabe</value>
+  </data>
+  <data name="FileSharingFeatureDesc">
+    <value>Wählen Sie einen Zugriffsmodus für Ihre Dokumente.</value>
+  </data>
+  <data name="FileSizePostfix">
+    <value>B,KB,MB,GB</value>
+  </data>
+  <data name="FilterInPeriod">
+    <value>in der Periode</value>
+  </data>
+  <data name="FilterInPeriodFromLabel">
+    <value>von</value>
+  </data>
+  <data name="FilterInPeriodToLabel">
+    <value>bis</value>
+  </data>
+  <data name="FilterLast3Months">
+    <value>letzte 3 Monate</value>
+  </data>
+  <data name="FilterLastMonth">
+    <value>letzten Monat</value>
+  </data>
+  <data name="FilterLastWeek">
+    <value>letzte Woche</value>
+  </data>
+  <data name="FinishImportUserStepDescription">
+    <value>Der Benutzerimport wurde erfolgreich abgeschlossen. Um die Arbeit zu beginnen, klicken Sie auf den Button "Einstieg in die Bedienung".</value>
+  </data>
+  <data name="FinishImportUserTitle">
+    <value>Herzlichen Glückwunsch! Die Benutzer wurden erfolgreich importiert.</value>
+  </data>
+  <data name="FinishInviteEmailStepDescription">
+    <value>Die Einladungen wurden erfolgreich gesendet. Um die Arbeit zu beginnen, klicken Sie auf den Button "Einstieg in die Bedienung".</value>
+  </data>
+  <data name="FinishInviteEmailTitle">
+    <value>Herzlichen Glückwunsch! Die Benutzer wurden erfolgreich eingeladen.</value>
+  </data>
+  <data name="FinishInviteJoinEmailMessage">
+    <value>Der Link zum Bestätigen Ihres Kontos wurde an die angegebene E-Mail-Adresse geschickt</value>
+  </data>
+  <data name="FirstName">
+    <value>Vorname</value>
+  </data>
+  <data name="ForgotPassword">
+    <value>Kennwort vergessen?</value>
+  </data>
+  <data name="ForSignInFollowMessage">
+    <value>Um einzuloggen, folgen Sie dem {0}Link{1}</value>
+  </data>
+  <data name="FromTime">
+    <value>von</value>
+  </data>
+  <data name="FromTitle">
+    <value>Von</value>
+  </data>
+  <data name="GeneralProperties">
+    <value>Allgemein</value>
+  </data>
+  <data name="GeneralSettings">
+    <value>Allgemein</value>
+  </data>
+  <data name="GetContacts">
+    <value>Kontakte importieren</value>
+  </data>
+  <data name="GetPremiumTitle">
+    <value>Um die Vorteile der TeamLab-Premium-Funktionen zu nutzen, wechseln Sie auf TeamLab-Premium.</value>
+  </data>
+  <data name="GettingStartingHeader">
+    <value>Einstieg in die Bedienung</value>
+  </data>
+  <data name="GlobalHeadCaption">
+    <value>Oberhaupt</value>
+  </data>
+  <data name="GreetingInviteUserMessage">
+    <value>Sie sind der einzige TeamLab-Benutzer. Klicken Sie {0}hier{1}, um Mitarbeiter einzuladen oder hinzuzufügen.</value>
+  </data>
+  <data name="GreetingLogo">
+    <value>Logo</value>
+  </data>
+  <data name="GreetingSettingsTitle">
+    <value>Begrüßungseinstellungen</value>
+  </data>
+  <data name="GreetingTitle">
+    <value>Titel</value>
+  </data>
+  <data name="GroupCaption">
+    <value>Gruppe</value>
+  </data>
+  <data name="GroupHeadCaption">
+    <value>Gruppenleiter</value>
+  </data>
+  <data name="GroupsCaption">
+    <value>Gruppen</value>
+  </data>
+  <data name="Help">
+    <value>Hilfe</value>
+  </data>
+  <data name="HideButton">
+    <value>Ausblenden</value>
+  </data>
+  <data name="HintAim">
+    <value>Geben Sie Ihr AIM-Konto ein</value>
+  </data>
+  <data name="HintBlogger">
+    <value>Geben Sie Ihr Blogger-Profil ein</value>
+  </data>
+  <data name="HintEmail">
+    <value>Geben Sie Ihre E-Mail-Adresse ein</value>
+  </data>
+  <data name="HintFacebook">
+    <value>Geben Sie Ihr Facebook-Profil ein</value>
+  </data>
+  <data name="HintGogglemail">
+    <value>Geben Sie Ihr Google-Konto ein</value>
+  </data>
+  <data name="HintGoggletalk">
+    <value>Geben Sie Ihr GoogleTalk-Konto ein</value>
+  </data>
+  <data name="HintGooglebuzz">
+    <value>Geben Sie Ihr GoogleBuzz-Konto ein</value>
+  </data>
+  <data name="HintGooglemail">
+    <value>Geben Sie Ihr Google-Konto ein</value>
+  </data>
+  <data name="HintIcq">
+    <value>Geben Sie Ihr ICQ-Konto ein</value>
+  </data>
+  <data name="HintJabber">
+    <value>Geben Sie Ihr Jabber-Konto ein</value>
+  </data>
+  <data name="HintLivejournal">
+    <value>Geben Sie Ihr LiveJournal-Konto ein</value>
+  </data>
+  <data name="HintMobphone">
+    <value>Geben Sie Ihr Mobiltelefonnummer ein</value>
+  </data>
+  <data name="HintMsn">
+    <value>Geben Sie Ihr MSN-Konto ein</value>
+  </data>
+  <data name="HintMyspace">
+    <value>Geben Sie Ihr MySpace-Profil ein</value>
+  </data>
+  <data name="HintPhone">
+    <value>Geben Sie Ihr Mobiltelefonnummer ein</value>
+  </data>
+  <data name="HintSkype">
+    <value>Geben Sie Ihr Skype-Konto ein</value>
+  </data>
+  <data name="HintTwitter">
+    <value>Geben Sie Ihr Twitter-Profil ein</value>
+  </data>
+  <data name="HintYahoo">
+    <value>Geben Sie Ihr Yahoo-Konto ein</value>
+  </data>
+  <data name="Host">
+    <value>SMTP-Server-Adresse</value>
+  </data>
+  <data name="ImportADButton">
+    <value>Mit aktivem Verzeichnis synchronisieren</value>
+  </data>
+  <data name="ImportButton">
+    <value>Importieren</value>
+  </data>
+  <data name="ImportFromBaseCamp">
+    <value>Von Basecamp importieren</value>
+  </data>
+  <data name="ImportSelectorStepDescription">
+    <value>Bitte wählen Sie eine entsprechende Methode zum Importieren der Daten über die Benutzer.</value>
+  </data>
+  <data name="InboxLink">
+    <value>Posteingang</value>
+  </data>
+  <data name="InboxMessage">
+    <value>Eingehende Nachricht</value>
+  </data>
+  <data name="InboxMessagesTitle">
+    <value>Eingehende Nachrichten</value>
+  </data>
+  <data name="InvalidUsernameOrPassword">
+    <value>Ungültiger Name oder Kennwort.</value>
+  </data>
+  <data name="InviteButton">
+    <value>Einladen</value>
+  </data>
+  <data name="InviteDefaultText">
+    <value>Bitte treten Sie dem Portal unseres Unternehmens bei.</value>
+  </data>
+  <data name="InviteEmloyeesButton">
+    <value>Einladen</value>
+  </data>
+  <data name="InviteEmployeesWidgetTitle">
+    <value>Klicken Sie hier, um {0}neue Benutzer einzuladen{1}</value>
+  </data>
+  <data name="InviteFullAccessPrivilegesTitle">
+    <value>mit Administratorprivilegien</value>
+  </data>
+  <data name="InviteImportFrom">
+    <value>Einladen/Importieren aus...</value>
+  </data>
+  <data name="InviteMailBoxTitle">
+    <value>E-Mail-Adresse</value>
+  </data>
+  <data name="InviteNamelessContactsLabel">
+    <value>*Die Kontakte, die keinen Vor- oder Nachnamen haben, können nicht hinzugefügt werden. Man kann Sie nur einladen.</value>
+  </data>
+  <data name="InvitePassword">
+    <value>Kennwort wählen</value>
+  </data>
+  <data name="InviteToJoinTitle">
+    <value>Diesem Netzwerk beitreten</value>
+  </data>
+  <data name="InviteUserEmailList">
+    <value>Bitte geben Sie die E-Mail-Adresse eines Benutzers ein, dem Sie eine Einladung schicken möchten. Um weitere Benutzer einzuladen, klicken Sie auf "E-Mail-Adresse hinzufügen".</value>
+  </data>
+  <data name="InviteUserTextTitle">
+    <value>Nachricht</value>
+  </data>
+  <data name="IsLogicCateroryLabel">
+    <value>Logische Kategorie</value>
+  </data>
+  <data name="IsLogicCateroryLabelHelp">
+    <value>Die Gruppen dieser Kategorie können die gleichen Benutzer nicht enthalten.</value>
+  </data>
+  <data name="JoinTitle">
+    <value>Willkommen bei Ihrem Unternehmensportal!</value>
+  </data>
+  <data name="Language">
+    <value>Sprache</value>
+  </data>
+  <data name="LastName">
+    <value>Nachname</value>
+  </data>
+  <data name="LearnMoreLink">
+    <value>Mehr erfahren</value>
+  </data>
+  <data name="Links">
+    <value>Links</value>
+  </data>
+  <data name="Location">
+    <value>Standort</value>
+  </data>
+  <data name="Login">
+    <value>Login</value>
+  </data>
+  <data name="LoginButton">
+    <value>Einloggen</value>
+  </data>
+  <data name="LoginRegistryButton">
+    <value>Beitreten</value>
+  </data>
+  <data name="LoginWithAccount">
+    <value>oder Anmelden durch:</value>
+  </data>
+  <data name="LoginWithAccountNotFound">
+    <value>Kein angeschlossenes fremdes Konto kann gefunden werden </value>
+  </data>
+  <data name="LogoSettingsLimits">
+    <value>Das Bild zum Hochladen muss 250x100 Pixel groß sein, sonst wird die Größenänderung erfolgen.</value>
+  </data>
+  <data name="LogoutButton">
+    <value>Ausloggen</value>
+  </data>
+  <data name="Mail">
+    <value>Post</value>
+  </data>
+  <data name="MailSearch">
+    <value>Suche nach Mails</value>
+  </data>
+  <data name="MainPageTitle">
+    <value>TeamLab</value>
+  </data>
+  <data name="MainTitle">
+    <value>Startseite</value>
+  </data>
+  <data name="MaleSexStatus">
+    <value>Männlich</value>
+  </data>
+  <data name="ManageQuickLinks">
+    <value>Schnelllinks verwalten</value>
+  </data>
+  <data name="Message">
+    <value>Nachricht</value>
+  </data>
+  <data name="MessageFromUserLabel">
+    <value>Nachricht von Benutzer</value>
+  </data>
+  <data name="MessageInviteSendedOnEmails">
+    <value>Die Einladung wurde an die Adresse {0} erfolgreich gesendet.</value>
+  </data>
+  <data name="MessageNotSelectedAlert">
+    <value>Wählen Sie Nachricht(en)</value>
+  </data>
+  <data name="Messages">
+    <value>Talk</value>
+  </data>
+  <data name="MessageSendTitle">
+    <value>Die Nachricht wurde gesendet</value>
+  </data>
+  <data name="MessageTitle">
+    <value>Nachrichten</value>
+  </data>
+  <data name="MessageToUserTitle">
+    <value>Nachricht an Benutzer</value>
+  </data>
+  <data name="MessageYourPasswordSuccessfullySendedToEmail">
+    <value>Das Kennwort des Benutzers wurde erfolgreich an die Adresse {0} geschickt</value>
+  </data>
+  <data name="MobileVersion">
+    <value>Mobile Version</value>
+  </data>
+  <data name="ModuleProductSettingsDescription">
+    <value>Hier kann man bestimmte TeamLab-Modulen deaktivieren oder ihre Reihenfolge festlegen</value>
+  </data>
+  <data name="More">
+    <value>Mehr</value>
+  </data>
+  <data name="MyProfile">
+    <value>Mein Profil</value>
+  </data>
+  <data name="MyStaff">
+    <value>Meine Tools</value>
+  </data>
+  <data name="MySubscriptions">
+    <value>Meine Anmeldungen</value>
+  </data>
+  <data name="Name">
+    <value>Name</value>
+  </data>
+  <data name="NamingPeopleSchema">
+    <value>Vorlage</value>
+  </data>
+  <data name="NamingPeopleSettings">
+    <value>Teamvorlage</value>
+  </data>
+  <data name="Navigation">
+    <value>Navigation</value>
+  </data>
+  <data name="NewCategoryButton">
+    <value>Neue Kategorie</value>
+  </data>
+  <data name="NewGroupButton">
+    <value>Neue Untergruppe</value>
+  </data>
+  <data name="NewPassword">
+    <value>Neues Kennwort</value>
+  </data>
+  <data name="NewTitle">
+    <value>Neuer Titel</value>
+  </data>
+  <data name="NewUserDialogTitle">
+    <value>Neuer Benutzer</value>
+  </data>
+  <data name="NewWorkerCountSettingsTitle">
+    <value>Anzahl angezeigter Benutzer (von 1 bis 20)</value>
+  </data>
+  <data name="NextButton">
+    <value>Weiter &amp;#8594;</value>
+  </data>
+  <data name="NoMessageTitle">
+    <value>Keine Nachrichten</value>
+  </data>
+  <data name="NoNewEmployees">
+    <value>Keine neuen {!Users}</value>
+  </data>
+  <data name="NoNewMessageMessage">
+    <value>Sie haben keine neuen Nachrichten</value>
+  </data>
+  <data name="NoNewNotifiesMessage">
+    <value>Sie haben keine neuen Benachrichtigungen</value>
+  </data>
+  <data name="NoRecentActivity">
+    <value>Keine Aktivität in letzter Zeit</value>
+  </data>
+  <data name="NoSoonBirthday">
+    <value>Keine kommenden Geburtstage</value>
+  </data>
+  <data name="NoSubscriptions">
+    <value>Sie haben keine neuen Anmeldungen</value>
+  </data>
+  <data name="NoSyncUsersMessage">
+    <value>Alle Benutzer sind synchronisiert</value>
+  </data>
+  <data name="NotFoundEmployeesMessage">
+    <value>Keine {!Users} wurden gefunden.</value>
+  </data>
+  <data name="NotifyBy">
+    <value>Benachrichtigungstyp:</value>
+  </data>
+  <data name="NotifyByEmail">
+    <value>E-Mail</value>
+  </data>
+  <data name="NotifyByEmailAndTMTalk">
+    <value>E-Mail &amp; Chat</value>
+  </data>
+  <data name="NotifyByTMTalk">
+    <value>Chat</value>
+  </data>
+  <data name="Offline">
+    <value>Offline</value>
+  </data>
+  <data name="OffMailDomains">
+    <value>Deaktiviert</value>
+  </data>
+  <data name="Online">
+    <value>Online</value>
+  </data>
+  <data name="Organizer">
+    <value>Terminplaner</value>
+  </data>
+  <data name="OrPress">
+    <value>oder drücken Sie auf</value>
+  </data>
+  <data name="OutboxLink">
+    <value>Postausgang</value>
+  </data>
+  <data name="OutboxMessage">
+    <value>Ausgehende Nachricht</value>
+  </data>
+  <data name="OutboxMessagesTitle">
+    <value>Ausgehende Nachrichten</value>
+  </data>
+  <data name="Outlook">
+    <value>Outlook</value>
+  </data>
+  <data name="OutlookImportDescription">
+    <value>Benutzer aus dem Adressbuch von Microsoft Outlook importieren</value>
+  </data>
+  <data name="OutlookImportName">
+    <value>Benutzer aus dem Adressbuch von Microsoft Outlook importieren</value>
+  </data>
+  <data name="OutlookImportStepDescription">
+    <value>Importieren Sie Ihre Mitarbeiter aus dem Adressbuch von Microsoft Outlook. Bitte exportieren Sie zuerst die Adressen in eine Textdatei. Dann laden Sie diese Datei und klicken Sie auf "Weiter", um die Importierung zu beginnen.</value>
+  </data>
+  <data name="Password">
+    <value>Kennwort</value>
+  </data>
+  <data name="PasswordRemindTitle">
+    <value>Kennworterinnerung</value>
+  </data>
+  <data name="PasswordSettingsTitle">
+    <value>Kennwort ändern</value>
+  </data>
+  <data name="PaymentsTitle">
+    <value>Zahlungschronik</value>
+  </data>
+  <data name="People">
+    <value>Mitarbeiter</value>
+  </data>
+  <data name="PerformBackupButton">
+    <value>Backup erstellen</value>
+  </data>
+  <data name="PersonalInfo">
+    <value>Persönliche Daten</value>
+  </data>
+  <data name="PersonalProperties">
+    <value>Persönlich</value>
+  </data>
+  <data name="PersonalSMTP">
+    <value>Persönliche Post</value>
+  </data>
+  <data name="PhoneOffice">
+    <value>Arbeitstelefon</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Bitte warten...</value>
+  </data>
+  <data name="Port">
+    <value>Port</value>
+  </data>
+  <data name="PortalAddress">
+    <value>Portal-Adresse</value>
+  </data>
+  <data name="PortalOwner">
+    <value>Portalbesitzer</value>
+  </data>
+  <data name="PortalSettings">
+    <value>Portal-Einstellungen</value>
+  </data>
+  <data name="PremiumAccessRightsLimitation">
+    <value>Die Möglichkeit, Zugriffsrechte zu verwalten, ist eine kostenpflichtige Premium-Funktion.</value>
+  </data>
+  <data name="PremiumFeatureDescription">
+    <value>Bitte wechseln Sie auf TeamLab-Premium, um die folgenden Premium-Vorteile zu nutzen:</value>
+  </data>
+  <data name="PremiumPrivateProjectLimitation">
+    <value>Die Möglichkeit, private Projekte zu erstellen, ist eine kostenpflichtige Premium-Funktion.</value>
+  </data>
+  <data name="PremiumShareDocsLimitation">
+    <value>Die Möglichkeit, persönliche Dokumente freizugeben, ist eine kostenpflichtige Premium-Funktion.</value>
+  </data>
+  <data name="PremiumStubButton">
+    <value>Jetzt kaufen</value>
+  </data>
+  <data name="PremiumStubTitle">
+    <value>TeamLab-Premium-Funktionen</value>
+  </data>
+  <data name="PremiumTariffEndDateTitle">
+    <value>TeamLab-Premium-Funktionen sind verfügbar bis {0}</value>
+  </data>
+  <data name="PreviewButton">
+    <value>Vorschau</value>
+  </data>
+  <data name="PrioritySupportFeature">
+    <value>Bevorzugter Support</value>
+  </data>
+  <data name="PrioritySupportFeatureDesc">
+    <value>Ihre Fragen werden bevorzugt beantwortet.</value>
+  </data>
+  <data name="PrivatePortal">
+    <value>Privates Portal</value>
+  </data>
+  <data name="PrivatePortalDescription">
+    <value>Das Portal ist nur für autorisierte Benutzer zugänglich</value>
+  </data>
+  <data name="PrivateProjectsFeature">
+    <value>Private Projekte</value>
+  </data>
+  <data name="PrivateProjectsFeatureDesc">
+    <value>Erstellen Sie private Projekte, die für eine begrenzte Benutzeranzahl zugänglich sind, und stellen Sie Teamrechte ein. </value>
+  </data>
+  <data name="ProductActivityCount">
+    <value>Anzahl angezeigter Aktionen</value>
+  </data>
+  <data name="Profile">
+    <value>Profil</value>
+  </data>
+  <data name="ProfileRemoved">
+    <value>Das Profil wurde gelöscht</value>
+  </data>
+  <data name="ProlongPremiumTitle">
+    <value>TeamLab-Premium-Funktionen sind auf Ihrem Portal nicht verfügbar</value>
+  </data>
+  <data name="PublicPortal">
+    <value>Öffentliches Portal</value>
+  </data>
+  <data name="PublicPortalDescription">
+    <value>Das Portal ist für alle Benutzer sichtbar. Die für unautorisierte Benutzer verfügbaren Produkte:</value>
+  </data>
+  <data name="PublishButton">
+    <value>Veröffentlichen</value>
+  </data>
+  <data name="QuickLinkDeletingIsInProgress">
+    <value>Der Schnelllink wird gelöscht...</value>
+  </data>
+  <data name="QuickLinkEditIsInProgress">
+    <value>Die Schnelllinks werden gespeichert...</value>
+  </data>
+  <data name="QuickLinks">
+    <value>Schnelllinks</value>
+  </data>
+  <data name="QuickLinksAddButton">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="QuickLinksAddQuickLinkIsInProgressLabel">
+    <value>Der Schnelllink wird hinzugefügt...</value>
+  </data>
+  <data name="QuickLinksAddressLabel">
+    <value>Adresse</value>
+  </data>
+  <data name="QuickLinksCancelButton">
+    <value>Abbrechen</value>
+  </data>
+  <data name="QuickLinksCaptionLabel">
+    <value>Titel</value>
+  </data>
+  <data name="QuickLinksDeleteLink">
+    <value>Löschen</value>
+  </data>
+  <data name="QuickSearch">
+    <value>Schnellsuche</value>
+  </data>
+  <data name="QuotaInfoTemplate">
+    <value>Insgesamt eingestellt {0}</value>
+  </data>
+  <data name="ReactivatePortalButton">
+    <value>Wieder aktivieren</value>
+  </data>
+  <data name="ReactivatePortalSuccessMessage">
+    <value>Ihr Konto wurde erfolgreich wieder aktiviert.{0}In 10 Sekunden werden Sie {1}hierher{2} umadressiert</value>
+  </data>
+  <data name="RecentActivity">
+    <value>Aktivität</value>
+  </data>
+  <data name="RecipientAddress">
+    <value>Empfänger</value>
+  </data>
+  <data name="RegDateCaption">
+    <value>Registrierungsdatum</value>
+  </data>
+  <data name="RegistryButton">
+    <value>Registrierung</value>
+  </data>
+  <data name="RegistryNewDepartmentButton">
+    <value>{!Group} hinzufügen</value>
+  </data>
+  <data name="RegistryNewEmployeeButton">
+    <value>Neuer Benutzer</value>
+  </data>
+  <data name="Remember">
+    <value>Merken</value>
+  </data>
+  <data name="RemindPwdButton">
+    <value>Kennwort an die angegebene E-Mail senden</value>
+  </data>
+  <data name="RePassword">
+    <value>Kennwort bestätigen</value>
+  </data>
+  <data name="ReplyMessageTemplate">
+    <value>Benutzer «Benutzer» hat geschrieben:</value>
+  </data>
+  <data name="ReplyTitle">
+    <value>Re</value>
+  </data>
+  <data name="ReplyToUserTitle">
+    <value>Antwort dem Benutzer</value>
+  </data>
+  <data name="RequestOnEditEmployee">
+    <value>Mitarbeiter ändern</value>
+  </data>
+  <data name="ResponseMessageLink">
+    <value>Antworten</value>
+  </data>
+  <data name="RestoreDefaultButton">
+    <value>Auf Standard setzen</value>
+  </data>
+  <data name="RightsRestrictionNote">
+    <value>Nur für Premium-Administratoren verfügbar.</value>
+  </data>
+  <data name="SaveButton">
+    <value>Speichern</value>
+  </data>
+  <data name="SavedTitle">
+    <value>Gespeichert</value>
+  </data>
+  <data name="SchemaSettingsTitle">
+    <value>Spaltenlayout</value>
+  </data>
+  <data name="Search">
+    <value>Suche</value>
+  </data>
+  <data name="SearchNotFoundMessage">
+    <value>Nichts wurde gefunden.</value>
+  </data>
+  <data name="SearchResult">
+    <value>Suchergebnisse</value>
+  </data>
+  <data name="SeeHereLabel">
+    <value>bitte hier prüfen</value>
+  </data>
+  <data name="SelectAll">
+    <value>Alle wählen</value>
+  </data>
+  <data name="SelectButton">
+    <value>wählen</value>
+  </data>
+  <data name="Selected">
+    <value>Gewählt</value>
+  </data>
+  <data name="SelectFileButton">
+    <value>Datei wählen</value>
+  </data>
+  <data name="SelectSelfFromUserList">
+    <value>Wählen Sie sich selbst in der Liste</value>
+  </data>
+  <data name="SendButton">
+    <value>Senden</value>
+  </data>
+  <data name="SenderAddress">
+    <value>E-Mail des Absenders</value>
+  </data>
+  <data name="SenderDisplayName">
+    <value>Name des Absenders</value>
+  </data>
+  <data name="SendInviteToJoinButton">
+    <value>Einladung senden</value>
+  </data>
+  <data name="SendTestMailButton">
+    <value>Testnachricht senden</value>
+  </data>
+  <data name="SendTitle">
+    <value>Wann</value>
+  </data>
+  <data name="SendToEmail">
+    <value>An E-Mail senden</value>
+  </data>
+  <data name="ServerErrorText">
+    <value>Ein Fehler ist in der Server-Software beim Bearbeiten Ihrer Anfrage aufgetreten. Bitte warten Sie und versuchen Sie noch einmal. Wenn der Fehler besteht, wenden Sie sich an den Website-Administrator.</value>
+  </data>
+  <data name="ServerErrorTitle">
+    <value>Server-Fehler</value>
+  </data>
+  <data name="SetAdminPageTitle">
+    <value>Einstieg in die Bedienung</value>
+  </data>
+  <data name="SetAdminStepDescription">
+    <value>Stellen Sie ein paar einfache Parameter ein, so dass Sie und Ihre Mitarbeiter das TeamLab sofort benutzern könnten.{0}Momentan sind Sie der einzige Benutzer und Administrator. Bitte geben Sie Ihre persönlichen Daten an:</value>
+  </data>
+  <data name="Sex">
+    <value>Geschlecht</value>
+  </data>
+  <data name="ShowAllButton">
+    <value>Alle anzeigen</value>
+  </data>
+  <data name="ShowAllSearchResult">
+    <value>Alle Ergebnisse anzeigen</value>
+  </data>
+  <data name="SidePanelLeftView">
+    <value>Links</value>
+  </data>
+  <data name="SidePanelRightView">
+    <value>Rechts</value>
+  </data>
+  <data name="SignInFromAnyDomainAuthTitle">
+    <value>Die Registrierung ist für Benutzer mit einem E-Mail-Konto bei einer beliebigen Domain möglich. Um sich jetzt zu registrieren, klicken Sie bitte auf "Beitreten".</value>
+  </data>
+  <data name="SignInFromAnyDomainInviteTitle">
+    <value>Die Registrierung ist für Benutzer mit einem E-Mail-Konto bei einer beliebigen Domain möglich. Um sich zu registrieren, geben Sie Ihre E-Mail-Adresse ein und klicken Sie auf "Einladung senden". Eine E-Mail-Nachricht mit einem Link für die Aktivierung Ihres TeamLab-Kontos wird an die angegebene E-Mail-Adresse geschickt.</value>
+  </data>
+  <data name="SkinSettings">
+    <value>Skin-Einstellungen</value>
+  </data>
+  <data name="SmlAmazement">
+    <value>Überraschung</value>
+  </data>
+  <data name="SmlBomb">
+    <value>Bombe</value>
+  </data>
+  <data name="SmlCrazy">
+    <value>Verrückt</value>
+  </data>
+  <data name="SmlCry">
+    <value>Weinen</value>
+  </data>
+  <data name="SmlDance">
+    <value>Tanz</value>
+  </data>
+  <data name="SmlDrink">
+    <value>Trinkspruch</value>
+  </data>
+  <data name="SmlEvil">
+    <value>Verärgert</value>
+  </data>
+  <data name="SmlEye">
+    <value>Zwinkern</value>
+  </data>
+  <data name="SmlGreen">
+    <value>Grün</value>
+  </data>
+  <data name="SmlHollywood">
+    <value>Hollywood-Lächeln</value>
+  </data>
+  <data name="SmlMourning">
+    <value>Traurig</value>
+  </data>
+  <data name="SmlMusic">
+    <value>Musik</value>
+  </data>
+  <data name="SmlOK">
+    <value>OK</value>
+  </data>
+  <data name="SmlSmile">
+    <value>Lächeln</value>
+  </data>
+  <data name="SmlSmirk">
+    <value>Grinsen</value>
+  </data>
+  <data name="SmlSorry">
+    <value>Entschuldigung</value>
+  </data>
+  <data name="SmlSOS">
+    <value>SOS</value>
+  </data>
+  <data name="SmlSpectacles">
+    <value>Brille</value>
+  </data>
+  <data name="SmlSuper">
+    <value>Super</value>
+  </data>
+  <data name="SmlTongue">
+    <value>Zunge</value>
+  </data>
+  <data name="SmlYAHOO">
+    <value>Hurra!</value>
+  </data>
+  <data name="SmtpSettings">
+    <value>SMTP-Einstellungen</value>
+  </data>
+  <data name="SourceForDiskUsage">
+    <value>Quelle</value>
+  </data>
+  <data name="Statistic">
+    <value>Statistiken</value>
+  </data>
+  <data name="StatisticsTitle">
+    <value>Statistiken</value>
+  </data>
+  <data name="StudioDomainSettings">
+    <value>Einstellungen sicherer Mail-Domains</value>
+  </data>
+  <data name="StudioFooterCopyright">
+    <value>(c) Copyright Ascensio System Limited 2008-2010</value>
+  </data>
+  <data name="StudioProductModulesViewSettings">
+    <value>Modul- und Produkteinstellungen</value>
+  </data>
+  <data name="StudioTimeLanguageSettings">
+    <value>Sprach- und Zeitzoneneinstellungen</value>
+  </data>
+  <data name="StudioVisualSettings">
+    <value>Seitenfeldeinstellungen</value>
+  </data>
+  <data name="StudioWelcomeHeader">
+    <value>Labor für Teamarbeit und Projektverwaltung</value>
+  </data>
+  <data name="SubjectTitle">
+    <value>Betreff</value>
+  </data>
+  <data name="SubmitButton">
+    <value>Senden</value>
+  </data>
+  <data name="SubscribeButton">
+    <value>Anmelden</value>
+  </data>
+  <data name="Subscriptions">
+    <value>Anmeldungen</value>
+  </data>
+  <data name="SuccessfullyAddUserInfoMessage">
+    <value>Die Benutzerdaten wurden erfolgreich hinzugefügt</value>
+  </data>
+  <data name="SuccessfullyAddUserToGroupInfoMessage">
+    <value>Der Benutzer wurde erfolgreich zur Gruppe hinzugefügt</value>
+  </data>
+  <data name="SuccessfullyChangePasswordMessage">
+    <value>Das Kennwort wurde erfolgreich geändert</value>
+  </data>
+  <data name="SuccessfullyCreateCategoryInfoMessage">
+    <value>Die Kategorie wurde erfolgreich erstellt</value>
+  </data>
+  <data name="SuccessfullyCreateGroupInfoMessage">
+    <value>Die Gruppe wurde erfolgreich erstellt</value>
+  </data>
+  <data name="SuccessfullyDeleteCategoryInfoMessage">
+    <value>Die Kategorie wurde erfolgreich gelöscht</value>
+  </data>
+  <data name="SuccessfullyDeleteGroupInfoMessage">
+    <value>Die Gruppe wurde erfolgreich gelöscht</value>
+  </data>
+  <data name="SuccessfullyDeleteUserInfoMessage">
+    <value>Der Benutzer wurde erfolgreich gelöscht</value>
+  </data>
+  <data name="SuccessfullyDeleteUserPhotoMessage">
+    <value>Das Foto des Benutzers wurde erfolgreich gelöscht</value>
+  </data>
+  <data name="SuccessfullyInstalTitle">
+    <value>Herzlichen Glückwunsch! Das TeamLab wurde erfolgreich installiert und gestartet.</value>
+  </data>
+  <data name="SuccessfullySavCategoryInfoMessage">
+    <value>Die Information über die Kategorie wurde erfolgreich gespeichert</value>
+  </data>
+  <data name="SuccessfullySaveEnterSettingsMessage">
+    <value>Die Login-Einstellungen wurden erfolgreich gespeichert</value>
+  </data>
+  <data name="SuccessfullySaveGreetingSettingsMessage">
+    <value>Die Begrüßungseinstellungen wurden erfolgreich gespeichert</value>
+  </data>
+  <data name="SuccessfullySaveGroupInfoMessage">
+    <value>Die Informationen über die Gruppe wurden erfolgreich gespeichert</value>
+  </data>
+  <data name="SuccessfullySaveSettingsMessage">
+    <value>Die Einstellungen wurden erfolgreich aktualisiert</value>
+  </data>
+  <data name="SuccessfullySaveSmtpSettingsMessage">
+    <value>Die SMTP-Einstellungen wurden erfolgreich gespeichert</value>
+  </data>
+  <data name="SuccessfullySaveUserInfoMessage">
+    <value>Die Benutzerdaten wurden erfolgreich gespeichert</value>
+  </data>
+  <data name="SuccessfullySMTPTestMessage">
+    <value>Die SMTP-Einstellungen wurden erfolgreich getestet</value>
+  </data>
+  <data name="SuccessfullyUploadUserPhotoMessage">
+    <value>Das Foto des Benutzers wurde erfolgreich hochgeladen</value>
+  </data>
+  <data name="SwitchUploadToFlashMode">
+    <value>{0}Auf {1}Flash-Uploader umschalten{2}</value>
+  </data>
+  <data name="SwitchUploadToHtmlMode">
+    <value>{0}Probleme? Schalten Sie auf den {1}gewöhnlichen Uploader um{2}</value>
+  </data>
+  <data name="SyncADUserLimit">
+    <value>Sie brauchen eine Berechtigung auf die Sicherheitspolitik "Lokales Einloggen"</value>
+  </data>
+  <data name="SynchronizeButton">
+    <value>Synchronisieren</value>
+  </data>
+  <data name="SynchronizedADTitle">
+    <value>Synchronisierung mit aktivem Verzeichnis</value>
+  </data>
+  <data name="SystemNotify">
+    <value>Benachrichtigung</value>
+  </data>
+  <data name="TariffDescriptionFree">
+    <value>Um automatisch die TeamLab-Premium-Nutzung zu verlängern, stellen Sie sicher, dass das Kontrollkästchen für turnusmäßige Zahlung aktiviert ist.</value>
+  </data>
+  <data name="TariffDescriptionPremium">
+    <value>Bitte verlängern Sie die TeamLab-Premium-Nutzung. {0} Um es automatisch zu tun, stellen Sie sicher, dass das Kontrollkästchen für turnusmäßige Zahlung aktiviert ist.</value>
+  </data>
+  <data name="TariffSettings">
+    <value>Zahlungen</value>
+  </data>
+  <data name="TeamLabSiteTitle">
+    <value>TeamLab-Website</value>
+  </data>
+  <data name="TenantCreated">
+    <value>Erstellt am</value>
+  </data>
+  <data name="TenantUsedSpace">
+    <value>Verbrauchter Speicherplatz</value>
+  </data>
+  <data name="TenantUsedSpaceFreeDescription">
+    <value>{0} ist der maximale Speicherplatz, der gratis zur Verfügung steht. Um einen 10 GB Speicher zu erhalten, wechseln Sie auf TeamLab-Premium.</value>
+  </data>
+  <data name="TenantUsedSpacePremiumDescription">
+    <value>{0} ist der maximale Speicherplatz fürs Portal.</value>
+  </data>
+  <data name="TenantUsersTotal">
+    <value>Benutzer insgesamt</value>
+  </data>
+  <data name="TestSMTPEmailBody">
+    <value>Die SMTP-Einstellungen fürs TeamLab wurden erfolgreich geändert!</value>
+  </data>
+  <data name="TestSMTPEmailSubject">
+    <value>Test der SMTP-Einstellungen auf dem TeamLab</value>
+  </data>
+  <data name="TimePeriod">
+    <value>Zeitperiode</value>
+  </data>
+  <data name="TimeZone">
+    <value>Zeitzone</value>
+  </data>
+  <data name="Title">
+    <value>Titel</value>
+  </data>
+  <data name="TitleAim">
+    <value>AIM</value>
+  </data>
+  <data name="TitleBlogger">
+    <value>Blogger</value>
+  </data>
+  <data name="TitleEmail">
+    <value>E-Mail</value>
+  </data>
+  <data name="TitleFacebook">
+    <value>Facebook</value>
+  </data>
+  <data name="TitleGooglebuzz">
+    <value>GoogleBuzz</value>
+  </data>
+  <data name="TitleGooglemail">
+    <value>GMail</value>
+  </data>
+  <data name="TitleGoogletalk">
+    <value>GoogleTalk</value>
+  </data>
+  <data name="TitleIcq">
+    <value>ICQ</value>
+  </data>
+  <data name="TitleJabber">
+    <value>Jabber</value>
+  </data>
+  <data name="TitleLiveJournal">
+    <value>LiveJournal</value>
+  </data>
+  <data name="TitleMobphone">
+    <value>Mobiltelefonnummer</value>
+  </data>
+  <data name="TitleMsn">
+    <value>MSN</value>
+  </data>
+  <data name="TitleMyspace">
+    <value>MySpace</value>
+  </data>
+  <data name="TitlePhone">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="TitleSkype">
+    <value>Skype</value>
+  </data>
+  <data name="TitleThumbnailPhoto">
+    <value>Vorschaubilder ändern</value>
+  </data>
+  <data name="TitleTwitter">
+    <value>Twitter</value>
+  </data>
+  <data name="TitleYahoo">
+    <value>Yahoo!!</value>
+  </data>
+  <data name="Top10Title">
+    <value>Top 10</value>
+  </data>
+  <data name="TotalFinded">
+    <value>Insgesamt gefunden</value>
+  </data>
+  <data name="ToTime">
+    <value>bis</value>
+  </data>
+  <data name="ToTitle">
+    <value>An</value>
+  </data>
+  <data name="ToWhatsNewPage">
+    <value>Vollständige Liste</value>
+  </data>
+  <data name="TrustedDomainAuthTitle">
+    <value>Die Registrierung ist für die Benutzer verfügbar, die ein E-Mail-Konto auf {0} haben.  Um sich zu registrieren, klicken Sie auf "Beitreten".</value>
+  </data>
+  <data name="TrustedDomainDescription">
+    <value>Diese Option erlaubt Ihren Mitarbeitern dem Portal beizutreten, indem Sie auf den Link "Beitreten" klicken und ihre E-Mail-Adressen mit dem sicheren von Ihnen hinzugefügten Domainnamen eingeben.</value>
+  </data>
+  <data name="TrustedDomainSignInTitle">
+    <value>Login von sicheren Domains zulassen</value>
+  </data>
+  <data name="TrustedDomainsInviteTitle">
+    <value>Die Registrierung ist für die Benutzer verfügbar, die ein E-Mail-Konto auf {0} haben. 
+Um sich zu registrieren, geben Sie Ihre E-Mail-Adresse ein und klicken Sie auf "Einladung senden". Eine E-Mail mit dem Link zum Aktivieren Ihres TeamLab-Kontos wird an die angegebene Adresse geschickt.</value>
+  </data>
+  <data name="UnconfirmButton">
+    <value>Ablehnen</value>
+  </data>
+  <data name="UnknownError">
+    <value>Ein unbekannter Fehler ist aufgetreten</value>
+  </data>
+  <data name="UnsubscribeButton">
+    <value>Abmelden</value>
+  </data>
+  <data name="UpgradeTariffPlanButton">
+    <value>Aktualisieren Sie Ihren Plan jetzt!</value>
+  </data>
+  <data name="UploadButton">
+    <value>Hochladen</value>
+  </data>
+  <data name="UploadFiles">
+    <value>Dateien hochladen</value>
+  </data>
+  <data name="URL">
+    <value>URL</value>
+  </data>
+  <data name="UserCaption">
+    <value>Benutzer</value>
+  </data>
+  <data name="UserCommunication">
+    <value>Status</value>
+  </data>
+  <data name="UserImport">
+    <value>Kontakte importieren</value>
+  </data>
+  <data name="UserMakerAddUser">
+    <value>Der Benutzer wurde erfolgreich hinzugefügt</value>
+  </data>
+  <data name="UserMakerEditUser">
+    <value>Das Benutzerprofil wurde erfolgreich geändert.</value>
+  </data>
+  <data name="UserName">
+    <value>Benutzername</value>
+  </data>
+  <data name="UserPhotoLimitationMessage">
+    <value>Das Bild zum Hochladen muss 200x300 Pixel groß sein, sonst wird die Größenänderung erfolgen. Die max. Dateigröße beträgt {0} MB.</value>
+  </data>
+  <data name="UserPost">
+    <value>{!Userpost}</value>
+  </data>
+  <data name="UserRequest">
+    <value>Anfragen des Benutzers</value>
+  </data>
+  <data name="UsersCaption">
+    <value>Benutzer</value>
+  </data>
+  <data name="UserSelectDialogTitle">
+    <value>{!Users} wählen</value>
+  </data>
+  <data name="UserStatus">
+    <value>Status</value>
+  </data>
+  <data name="UserStatusCaption">
+    <value>Stellung/Titel</value>
+  </data>
+  <data name="VastStorageCapacityFeature">
+    <value>Große Speicherkapazität</value>
+  </data>
+  <data name="VastStorageCapacityFeatureDesc">
+    <value>Erhalten Sie einen 10 GB Speicherplatz.</value>
+  </data>
+  <data name="ViewAs">
+    <value>Anzeigen als:</value>
+  </data>
+  <data name="Visited">
+    <value>Besucher heute</value>
+  </data>
+  <data name="VisitorsChartHitLabel">
+    <value>Klicks</value>
+  </data>
+  <data name="VisitorsChartHostLabel">
+    <value>Hosts</value>
+  </data>
+  <data name="VisitorsChartTitle">
+    <value>Besucherdiagramm</value>
+  </data>
+  <data name="VisitorsChartVisitsLabel">
+    <value>Besuche</value>
+  </data>
+  <data name="WatchVideoButton">
+    <value>Video sehen</value>
+  </data>
+  <data name="WebItemsSettings">
+    <value>Produkte &amp; Module</value>
+  </data>
+  <data name="WebStudioName">
+    <value>TeamLab</value>
+  </data>
+  <data name="Welcome">
+    <value>Eingeloggt als</value>
+  </data>
+  <data name="WelcomeUserMessage">
+    <value>Willkommen, {0}</value>
+  </data>
+  <data name="WhatsNewSubscriptionName">
+    <value>Neues</value>
+  </data>
+  <data name="WidgetPanelTitle">
+    <value>Meine Widgets</value>
+  </data>
+  <data name="WidgetSettings">
+    <value>Einstellen</value>
+  </data>
+  <data name="WidgetSettingsDialogTitle">
+    <value>Widgets einrichten</value>
+  </data>
+  <data name="WidgetSettingsTitle">
+    <value>Verfügbare Widgets</value>
+  </data>
+  <data name="WidgetTabName">
+    <value>Name des Feldes</value>
+  </data>
+  <data name="WizardFinishButton">
+    <value>Einstieg in die Bedienung</value>
+  </data>
+  <data name="WorkFromDate">
+    <value>{!Regdate}</value>
+  </data>
+  <data name="WriteMessageLink">
+    <value>Nachricht schreiben</value>
+  </data>
+</root>

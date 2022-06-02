@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Module ID="3CFD481B-46F2-4a4a-B55C-B8C0C9DEF02C"
+  NameResourceKey="AddonName"
+  DescriptionResourceKey="AddonDescriptionResourceKey"
+  GlobalHandlerFullTypeName="ASC.Web.Community.News.Code.Module.GlobalHandler, ASC.Web.Community.News"
+  SubscriptionManagerFullTypeName="ASC.Web.Community.News.Code.Module.SubscriptionManager, ASC.Web.Community.News"
+  ShortcutProviderFullTypeName="ASC.Web.Community.News.Code.Module.ShortcutProvider, ASC.Web.Community.News"
+  SearchHandlerFullTypeName="ASC.Web.Community.News.Code.Module.SearchHandler, ASC.Web.Community.News"
+  SmallIconFileName="newslogo.png"
+  IconFileName="32x_newsline.png"
+  ResourceClassTypeName="ASC.Web.Community.News.Resources.NewsResource, ASC.Web.Community.News"
+  ImageFolder="newsimages"
+  StatisticProviderFullTypeName="ASC.Web.Community.News.Code.Module.StatisticProvider, ASC.Web.Community.News"
+  UserActivityPublisherFullTypeName="ASC.Web.Community.News.Code.Module.ActivityPublisher, ASC.Web.Community.News"
+  ThemesFolderVirtualPath="~/products/community/modules/news/app_themes"
+  >
+
+  <MainWidget
+  ID="DF8F2054-FB17-4f65-ABF4-EFA0B7624DBC"
+  NameResourceKey="NewsWidgetName"
+  DescriptionResourceKey="NewsWidgetDescription"
+  WidgetVirtualURL="~/products/community/modules/news/"
+  FullTypeName="ASC.Web.Community.News.Code.Module.FeedWidget, ASC.Web.Community.News"
+  SettingsProviderFullTypeName="ASC.Web.Community.News.Code.Module.WidgetSettingsProvider, ASC.Web.Community.News"
+  ImageFileName="32x_newsline.png"/>
+
+  <GetCreateContentPageAbsoluteUrlMethod MethodName="GetCreateContentPageUrl" ClassType="ASC.Web.Community.News.Code.Module.ShortcutProvider, ASC.Web.Community.News"/>
+
+  <MainShortcutCategory ID="307009EC-09AC-414e-8BD4-791146FF2794"
+                        StartURL="~/products/community/modules/news/"
+                        NameResourceKey="InfoPageName">
+  </MainShortcutCategory>
+
+  <WidgetCollection>
+    <Widget
+      ID="442BFA43-E8A2-4b37-A2D5-5CD51FB50CBA"
+      NameResourceKey="PollWidgetName"
+      DescriptionResourceKey="PollWidgetDescription"
+      WidgetVirtualURL="~/products/community/modules/news/?type=poll"
+      FullTypeName="ASC.Web.Community.News.Code.Module.PollWidget, ASC.Web.Community.News"
+      ImageFileName="votingiconwg.png"
+      />
+  </WidgetCollection>
+</Module>

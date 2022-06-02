@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddNewTask">
+    <value>Προσθήκη νέας εργασίας</value>
+  </data>
+  <data name="AddThisTask">
+    <value>Προσθέστε αυτό το έργο</value>
+  </data>
+  <data name="B">
+    <value>B</value>
+  </data>
+  <data name="CategoryChangedSuccessfully">
+    <value>Η κατηγορία έχει αλλάξει με επιτυχία</value>
+  </data>
+  <data name="ChooseAFileToUpload">
+    <value>Επιλέξτε ένα αρχείο για φόρτωση</value>
+  </data>
+  <data name="ClosedStatusFunctionIsLocked">
+    <value>Δεν μπορείτε να ολοκληρώσετε αυτό το ορόσημο, καθώς υπάρχουν ενεργές εργασίες που της έχουν ανατεθεί.</value>
+  </data>
+  <data name="Collapse">
+    <value>Απόκρυψη</value>
+  </data>
+  <data name="ConfirmClearTrash">
+    <value>Όλες οι εργασίες θα διαγραφούν \ nΣημείωση:. Αυτή η δράση δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="ConfirmDelete">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε το {0} αρχείο \ nΣημείωση:; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="ConfirmTemplateDeleting">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε το πρότυπο (-α);</value>
+  </data>
+  <data name="CreateNewTask">
+    <value>Προσθήκη νέας εργασίας</value>
+  </data>
+  <data name="DeleteThisFile">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε το {0} αρχείο \ nΣημείωση:; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="DeleteThisMessage">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το μήνυμα \ nΣημείωση:; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="DeleteThisMilectone">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το ορόσημο \ nΣημείωση:; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="DeleteThisProject">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε το έργο \ nΣημείωση:; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="DeleteThisProjectTemplate">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το πρότυπο έργο \ nΣημείωση:; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="DeleteThisTask">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε την {0} εργασία \ nΣημείωση: Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</value>
+  </data>
+  <data name="EditCategories">
+    <value>Επεξεργασία Κατηγοριών</value>
+  </data>
+  <data name="EditFunctionIsLocked">
+    <value>Δεν μπορείτε να επεξεργαστείτε το ορόσημο, δεδομένου ότι περιέχει ήδη τις εργασίες.</value>
+  </data>
+  <data name="EditThisTask">
+    <value>Επεξεργασία έργου</value>
+  </data>
+  <data name="EmptyDescription">
+    <value>Παρακαλείστε να περιγράψετε με τι περάσατε αυτην την περίοδο</value>
+  </data>
+  <data name="EmptyHoursCount">
+    <value>Παρακαλούμε να ορίσετε ένα χρόνο</value>
+  </data>
+  <data name="EmptyMessageTitle">
+    <value>Κάθε μήνυμα πρέπει να έχει έναν τίτλο</value>
+  </data>
+  <data name="EmptyProjectManager">
+    <value>Κάθε έργο πρέπει να έχει ένας υπεύθυνο</value>
+  </data>
+  <data name="EmptyProjectTitle">
+    <value>Κάθε έργο πρέπει να έχει έναν τίτλο</value>
+  </data>
+  <data name="EmptyTaskTitle">
+    <value>Κάθε έργο πρέπει να έχει έναν τίτλο</value>
+  </data>
+  <data name="ErrorCategoryNotChanged">
+    <value>Σφάλμα! Δεν μπορούσε να αλλάξει η κατηγορία. Ανανεώστε την σελίδα και προσπαθήστε πάλι.</value>
+  </data>
+  <data name="Expand">
+    <value>Εμφάνιση</value>
+  </data>
+  <data name="FileSizeNote">
+    <value>Σημείωση: το μέγεθος του αρχείου δεν μπορεί να υπερβαίνει τα 100 MB.</value>
+  </data>
+  <data name="HideFilters">
+    <value>Απόκρυψη φίλτρων</value>
+  </data>
+  <data name="HideTemplate">
+    <value>Απόκρυψη Προτύπου</value>
+  </data>
+  <data name="IncorrectDate">
+    <value>Η μορφή της ημερομηνίας δεν είναι έγκυρη</value>
+  </data>
+  <data name="kB">
+    <value>Kb</value>
+  </data>
+  <data name="MB">
+    <value>Mb</value>
+  </data>
+  <data name="NotifyManagerAboutIssueCompleted">
+    <value>Ο διαχειριστής του έργου έχει σταλεί μια ειδοποίηση για ολοκλήρωση και αντιμετώπιση των προβλημάτων.</value>
+  </data>
+  <data name="NotifyManagerAboutTaskCompleted">
+    <value>Ο διαχειριστής του έργου έχει σταλεί μια ειδοποίηση σχετικά με την ολοκλήρωση του έργου</value>
+  </data>
+  <data name="NotifyResponsibleAboutTask">
+    <value>Ο υπεύθυνος έχει σταλεί μια ειδοποίηση</value>
+  </data>
+  <data name="OnlyOneMilestone">
+    <value>Μπορείτε να θέσετε μόνο ένα ορόσημο την ημέρα</value>
+  </data>
+  <data name="ProjectTeamIsNull">
+    <value>Δεν υπάρχουν εργαζόμενοι στο έργο</value>
+  </data>
+  <data name="Remove">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="SavingMessage">
+    <value>Άποθήκευση μηνύματος ...</value>
+  </data>
+  <data name="SelectedActionInfo">
+    <value>Επιλέξτε μια ενέργεια</value>
+  </data>
+  <data name="SelectedTasksInfo">
+    <value>Επιλέξτε τα καθήκοντα</value>
+  </data>
+  <data name="SelectedTemplatesInfo">
+    <value>Επιλέξτε πρότυπα</value>
+  </data>
+  <data name="SwitchToTaskList">
+    <value>Εναλλαγή σε εργασίες του έργου</value>
+  </data>
+  <data name="TaskActionCreateInfoBlock">
+    <value>Ο διαχειριστής του έργου θα λάβει ειδοποίηση μέσω ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="TrashEmpty">
+    <value>Τα σκουπίδια είναι άδεια.</value>
+  </data>
+  <data name="UntitledMilestone">
+    <value>Απεριόριστα ορόσημα</value>
+  </data>
+  <data name="Uploading">
+    <value>Φόρτωση ...</value>
+  </data>
+  <data name="UploadingCompleted">
+    <value>Καταχωρήθηκε</value>
+  </data>
+  <data name="UploadingFile">
+    <value>Φόρτωση αρχείου {0 }....</value>
+  </data>
+  <data name="ViewFilters">
+    <value>Προβολή Φίλτρων </value>
+  </data>
+  <data name="ViewTemplate">
+    <value>Προβολή προτύπου</value>
+  </data>
+</root>

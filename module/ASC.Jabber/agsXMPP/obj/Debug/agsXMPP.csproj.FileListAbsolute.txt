@@ -1,0 +1,10 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\agsXMPP\bin\Debug\agsXMPP.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\agsXMPP\bin\Debug\agsXMPP.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\agsXMPP\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\agsXMPP\obj\Debug\agsXMPP.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\agsXMPP\obj\Debug\agsXMPP.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\agsXMPP\bin\Debug\agsXMPP.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\agsXMPP\bin\Debug\agsXMPP.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\agsXMPP\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\agsXMPP\obj\Debug\agsXMPP.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\agsXMPP\obj\Debug\agsXMPP.pdb

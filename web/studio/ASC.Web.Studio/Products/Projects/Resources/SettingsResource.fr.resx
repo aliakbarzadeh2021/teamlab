@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDenied">
+    <value>Pas d'autorisation pour importer les données</value>
+  </data>
+  <data name="Close">
+    <value>Fermer la fenêtre</value>
+  </data>
+  <data name="CompanyURL">
+    <value>URL de la société, par exemple {0}https://mycompany.basecamphq.com{1}</value>
+  </data>
+  <data name="DefaultTab">
+    <value>Onglet par défaut</value>
+  </data>
+  <data name="DefaultTabInfo">
+    <value>Sélectionnez l'onglet qui sera utilisé en tant que la page d'accueil par défaut</value>
+  </data>
+  <data name="EmptyToken">
+    <value>Le champ API Token est vide</value>
+  </data>
+  <data name="EmptyURL">
+    <value>Le champ URL est vide</value>
+  </data>
+  <data name="FailedToSaveComment">
+    <value>Impossible d'enregistrer le commentaire "{0}"</value>
+  </data>
+  <data name="FailedToSaveFile">
+    <value>Impossible de charger le fichier {0}</value>
+  </data>
+  <data name="FailedToSaveFileCategory">
+    <value>Impossible d'enregistrer la catégorie du fichier"{0}"</value>
+  </data>
+  <data name="FailedToSaveMessage">
+    <value>Impossible d'enregistrer le message "{0}"</value>
+  </data>
+  <data name="FailedToSaveMilestone">
+    <value>Impossible d'enregistrer le jalon "{0}"</value>
+  </data>
+  <data name="FailedToSaveProject">
+    <value>Impossible d'enregistrer le projet "{0}"</value>
+  </data>
+  <data name="FailedToSaveTask">
+    <value>Impossible d'enregistrer la tâche "{0}"</value>
+  </data>
+  <data name="FailedToSaveTimeSpend">
+    <value>Impossible d'enregistrer le temps passé "{0}"</value>
+  </data>
+  <data name="FailedToSaveUser">
+    <value>Impossible d'enregistrer l'utilisateur "{0}"</value>
+  </data>
+  <data name="Files">
+    <value>Fichiers</value>
+  </data>
+  <data name="ImportAttantionPanelAgreement">
+    <value>Oui, je comprends</value>
+  </data>
+  <data name="ImportAttantionPanelBody">
+    <value>Tous les projets Basecamp seront importés dans TeamLab en tant que projets privés. Ces projets seront disponibles seulement aux administrateurs de portail. Les chefs de projets et les membres des équipes auront accès seulement aux projets correspondants.</value>
+  </data>
+  <data name="ImportAttantionPanelTitle">
+    <value>Attention !</value>
+  </data>
+  <data name="ImportClosedTasks">
+    <value>importer des tâches et des projets fermés</value>
+  </data>
+  <data name="ImportCompleted">
+    <value>Import terminé</value>
+  </data>
+  <data name="ImportFailed">
+    <value>Une erreur s'est produite lors de l'import</value>
+  </data>
+  <data name="ImportFileStarted">
+    <value>Importation de {0} fichiers depuis tous les projets</value>
+  </data>
+  <data name="ImportFromBasecamp">
+    <value>Import depuis Basecamp</value>
+  </data>
+  <data name="ImportInfo_Attention">
+    <value>Il est à noter que toutes les données importées depuis votre compte Basecamp seront disponibles pour tous les membres du portail car TeamLab n'impose pas de restrictions d'accès.</value>
+  </data>
+  <data name="ImportInfo_Attention_PopUp">
+    <value>Attention! Une fois que l'importation est terminée, tous les membres du portail auront accès à TOUTES les données de compte Basecamp. Acceptez-vous de procéder?</value>
+  </data>
+  <data name="ImportInfo_Notyfy">
+    <value>Tous les membres de votre portail recevront des invitations à TeamLab par email.</value>
+  </data>
+  <data name="ImportInfoPanelContent">
+    <value>Import en cours...</value>
+  </data>
+  <data name="ImportProjectDataStarted">
+    <value>Importation des données du projet  "{0}" en cours</value>
+  </data>
+  <data name="ImportProjectsFromTheBaseCamp">
+    <value>Importer les projets depuis Basecamp</value>
+  </data>
+  <data name="ImportProjectStarted">
+    <value>Importation du projet "{0}" en cours</value>
+  </data>
+  <data name="ImportStarted">
+    <value>Importation en cours</value>
+  </data>
+  <data name="InfoModuleSettings">
+    <value>Vous pouvez bloquer certains modules de Projects ici</value>
+  </data>
+  <data name="InfoToken">
+    <value>L'information sur l'accès à Basecamp n'est utilisée qu'une fois pour un seul import et n'est pas stockée dans le système</value>
+  </data>
+  <data name="InfoURL">
+    <value>Vérifiez si {0}Basecamp API{1} est activé dans vos paramètres du site Basecamp</value>
+  </data>
+  <data name="MalformedUrl">
+    <value>L'URL que vous avez entré est incorrect</value>
+  </data>
+  <data name="ModuleSettings">
+    <value>Paramètres de module</value>
+  </data>
+  <data name="MoreErrors">
+    <value>plus d'erreurs</value>
+  </data>
+  <data name="NotBasecampUrl">
+    <value>L'URL que vous avez entré n'est pas une URL de la société Basecamp</value>
+  </data>
+  <data name="OutOfThree">
+    <value>de 3</value>
+  </data>
+  <data name="People">
+    <value>Personnes</value>
+  </data>
+  <data name="PleaseWait">
+    <value>Veuillez patienter lors de l'import de la partie la plus importante</value>
+  </data>
+  <data name="PopupPanelBody">
+    <value>Il est recommandé de ne pas appliquer de changements à votre portail pendant que les utilisateurs{0}
+                            et les projets sont importés.{0}{0}
+                            Vous pouvez fermer cette fenêtre et continuer à travailler avec votre portail TeamLab{0}
+                            dès que l'import de la section Fichiers sera lancé.</value>
+  </data>
+  <data name="PopupPanelHeader">
+    <value>Import depuis Basecamp</value>
+  </data>
+  <data name="Projects">
+    <value>Projets</value>
+  </data>
+  <data name="SendInvitations">
+    <value>envoyer les messages d'invitation à TeamLab à tous les membres du portail</value>
+  </data>
+  <data name="Settings">
+    <value>Paramètres</value>
+  </data>
+  <data name="StartImport">
+    <value>Lancer l'import</value>
+  </data>
+  <data name="StatusAwaiting">
+    <value>en attente</value>
+  </data>
+  <data name="StatusImporting">
+    <value>en cours d'import</value>
+  </data>
+  <data name="UserToken">
+    <value>Votre API Token de Basecamp</value>
+  </data>
+  <data name="ViewCalendar">
+    <value>Afficher le module Calendrier</value>
+  </data>
+  <data name="ViewDetails">
+    <value>Voir détails</value>
+  </data>
+  <data name="ViewFiles">
+    <value>Afficher le module Fichiers</value>
+  </data>
+  <data name="ViewIssueTracker">
+    <value>Afficher le module Problèmes</value>
+  </data>
+  <data name="ViewTimeTracking">
+    <value>Afficher le module Suivi du temps</value>
+  </data>
+  <data name="YesStartImport">
+    <value>Oui, lancer l'import</value>
+  </data>
+</root>

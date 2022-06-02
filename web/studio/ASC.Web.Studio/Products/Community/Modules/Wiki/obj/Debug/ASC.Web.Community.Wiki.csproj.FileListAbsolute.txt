@@ -1,0 +1,39 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternsResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.csproj.GenerateResource.Cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternsResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Common.Patterns.WikiPatternResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\ASC.Web.Community.Wiki.Resources.WikiResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\GenerateResource.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\obj\Debug\GenerateResource.write.1.tlog

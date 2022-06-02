@@ -1,0 +1,147 @@
+﻿/*******************************************************************************
+   AddIssueDialogView.ascx
+*******************************************************************************/
+
+
+#addIssuePanel dt
+{
+    width: 110px;
+}
+
+#addIssuePanel dd
+{
+    margin-left: 130px;
+    padding-bottom: 10px;
+}
+
+
+/*******************************************************************************
+  Misc
+*******************************************************************************/
+#group_manager_popup dt
+{
+    width: 100px;
+}
+
+#group_manager_popup ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#group_manager_popup ul li
+{
+    padding-bottom: 5px;
+}
+
+#group_manager_popup dd
+{
+    margin-left: 110px;
+}
+dl.pm-issueStatus dt
+{
+    width: 0px;
+}
+
+dl.pm-issueStatus
+{
+    padding: 6px;
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+
+dl.pm-issueStatus dd
+{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+    position: relative;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+dl.pm-issueStatus
+{
+    border: 1px solid #D1D1D1;
+    
+}
+
+div.pm-milestoneWithIssueBlock
+{
+    padding-bottom: 55px;
+}
+
+
+/*******************************************************************************
+   IssueTracker.aspx
+*******************************************************************************/
+
+
+#mainpanel dl
+{
+
+}
+
+#mainpanel dt
+{
+    width: 150px;
+    padding-bottom:15px;
+}
+
+
+#mainpanel dd
+{
+    margin-left: 160px;
+    padding-bottom:15px;
+}
+
+#participants_dropdown_switch
+{
+  color:#272727;
+  border-bottom: 1px dotted #8E908F;
+  cursor:pointer;
+  display:inline;
+
+}
+
+
+
+table.pm-issue-block  tbody .pm-issue-checkbox
+{ 
+  padding:5px;
+  padding-left: 10px;  
+}
+
+table.pm-issue-block  tbody .pm-issue-status
+{
+  padding:5px;
+  width:100px;
+  
+}
+
+table.pm-issue-block .pm-issue-id
+{
+    text-align: right;
+	width: 90px;
+}
+
+table.pm-issue-block .pm-timetracking
+{
+	width:20px;
+}
+
+table.pm-issue-block .pm-issue-assignedOn
+{
+	width:130px;
+	
+}
+
+table.pm-issue-block thead td
+{
+
+  border-left:none !important;
+  border-right:none !important;
+  padding: 5px 15px ;
+
+}

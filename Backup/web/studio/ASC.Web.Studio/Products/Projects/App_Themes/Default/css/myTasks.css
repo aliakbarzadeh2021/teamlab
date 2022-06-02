@@ -1,0 +1,62 @@
+﻿        a.linkTaskAction
+        {
+            border-bottom: 1px dotted;
+            color: #272727 !important;
+            font-size: 12px !important;
+            text-decoration: none;
+        }
+        table.pm-tablebase tr td
+        {
+        	border-left: medium none;
+            border-right: medium none;
+            border-top: medium none;
+        }
+        .timeImg
+        {
+        	border: medium none;
+        	cursor: pointer;
+        }
+        .pm_projectName a
+        {
+	        font-size:18px;	
+            color:#323232 !important;
+            text-decoration:none;
+        }
+        .pm_projectName a:hover
+        {
+	        font-size:18px;	
+            color:#323232 !important;
+            text-decoration:underline;
+        }
+        #filterBlock
+        {
+            text-align:right;
+            border-left: medium none; 
+            border-right: medium none; 
+            border-top: medium none;
+            padding: 10px 0px;
+            margin-bottom: 30px;
+        }
+        .linkHeader
+        {
+            font-size:14px !important;
+            font-weight:bolder;
+        }
+        .pm_projectName
+        {
+            padding-bottom:0px;
+            padding-top:10px;
+            font-size:18px !important;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .pm-milestoneWithTasksBlock
+        {
+            padding-top:5px !important;
+            padding-bottom:15px !important;
+        }
+        a.linkHeaderLightMedium
+        {
+	        font-size:12px !important;
+	        font-weight:normal !important;
+        }

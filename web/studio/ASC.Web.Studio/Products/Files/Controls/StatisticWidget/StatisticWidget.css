@@ -1,0 +1,36 @@
+﻿/*******************************************************************************
+   quota
+*******************************************************************************/
+#quotaBarContainer
+{
+    margin: 5px 0;
+}
+div.quotaUsage
+{
+    float: left;
+    font-weight: bold;
+}
+div.quotaValue
+{
+    float: right;
+}
+div.quotaContainer
+{
+    margin-top: 10px;
+}
+div.quotaProgressBorder
+{
+    background-color: #FFFFFF;
+    border: 1px solid #787878;
+    font-size: 1px;
+    height: 8px;
+    line-height: 8px;
+    margin-top: 2px;
+}
+div.quotaProgressBorder div.quotaProgressBar
+{
+    background-color: #3186AF;
+    font-size: 1px;
+    height: 8px;
+    line-height: 8px;
+}

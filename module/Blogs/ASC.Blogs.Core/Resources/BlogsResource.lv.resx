@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddonDescriptionResourceKey">
+    <value>Korporatīvs blogs</value>
+  </data>
+  <data name="AddonName">
+    <value>Blogi</value>
+  </data>
+  <data name="AddTagMessage">
+    <value>Jūs varat atzīmēt tikai savus ierakstus</value>
+  </data>
+  <data name="AllBlogs">
+    <value>Visi Blogi</value>
+  </data>
+  <data name="AllBlogsMenuTitle">
+    <value>Bloga Reitings</value>
+  </data>
+  <data name="BackLink">
+    <value>Atpakaļ</value>
+  </data>
+  <data name="BlogOfTitle">
+    <value>Blogs</value>
+  </data>
+  <data name="Blogs">
+    <value>Blogi</value>
+  </data>
+  <data name="BlogTitleEmptyMessage">
+    <value>Ieraksta tēmas laukam jābūt aizpildītam</value>
+  </data>
+  <data name="BlogTitleLabel">
+    <value>Nosaukums</value>
+  </data>
+  <data name="CancelButton">
+    <value>Atcelt</value>
+  </data>
+  <data name="CommentsTitle">
+    <value>Komentāri</value>
+  </data>
+  <data name="ConfirmRemovePostMessage">
+    <value>Vai Jūs tiešām gribat dzēst šo ierakstu?</value>
+  </data>
+  <data name="ContentTitle">
+    <value>Teksts</value>
+  </data>
+  <data name="CreateBlogsWidgetMessage">
+    <value>Lūdzu pievienojiet pirmu bloga ierakstu {0}šeit{1}.</value>
+  </data>
+  <data name="DeleteBlogLink">
+    <value>Dzēst</value>
+  </data>
+  <data name="EditBlogLink">
+    <value>Rediģēt</value>
+  </data>
+  <data name="EditPostTitle">
+    <value>Rediģēt ierakstu</value>
+  </data>
+  <data name="EnterTagsMessage">
+    <value>Ievadiet nepieciešamas atzīmes, atdalot tos ar komatiem</value>
+  </data>
+  <data name="ErrorAccessDenied">
+    <value>Pieeja atraidīta</value>
+  </data>
+  <data name="ErrorNotCorrectMaxBlogsSettings">
+    <value>Nepareizs ierakstu skaits</value>
+  </data>
+  <data name="GroupTitle">
+    <value>Kur ierakstīt:</value>
+  </data>
+  <data name="HideButton">
+    <value>Aizvērt</value>
+  </data>
+  <data name="InGroupBlogLabel">
+    <value>blogs</value>
+  </data>
+  <data name="InPersonalBlogLabel">
+    <value>personīgs blogs</value>
+  </data>
+  <data name="ListBlogsPageName">
+    <value>Titullapa</value>
+  </data>
+  <data name="LiveBroadcastTitle">
+    <value>Pēdējas aktivitātes</value>
+  </data>
+  <data name="MainStatisticName">
+    <value>Ierakstu kopsumma</value>
+  </data>
+  <data name="MarksToolTipText">
+    <value>Atzīmes</value>
+  </data>
+  <data name="MaxPostsCountSettingsTitle">
+    <value>Ierakstu skaits radīšanai (no 1 līdz 30)</value>
+  </data>
+  <data name="MenuItems">
+    <value>Visi;Korporatīvi;Personīgi</value>
+  </data>
+  <data name="MenuItemsTargets">
+    <value>default.aspx;default.aspx?mode=corporate;default.aspx?mode=personal</value>
+  </data>
+  <data name="MyBlogsProfile">
+    <value>Mans profils blogos</value>
+  </data>
+  <data name="NewPoll">
+    <value>Jauna aptauja</value>
+  </data>
+  <data name="NewPost">
+    <value>Pievienot jaunu ierakstu</value>
+  </data>
+  <data name="NoBlogsWidgetMessage">
+    <value>Blogos nav neviena ieraksts</value>
+  </data>
+  <data name="NoBlogsWidgetTitle">
+    <value>Uzklikšķiniet šeit lai {0}Pievienot jaunu ierakstu{1}</value>
+  </data>
+  <data name="NoGroupItem">
+    <value>Personīgs blogs</value>
+  </data>
+  <data name="NotFoundMessage">
+    <value>Nekas nebija atrasts</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Lūdzu uzgaidiet...</value>
+  </data>
+  <data name="PostButton">
+    <value>Publicēt</value>
+  </data>
+  <data name="PostedTitle">
+    <value>Autors</value>
+  </data>
+  <data name="PostsTitle">
+    <value>Ieraksts</value>
+  </data>
+  <data name="PreviewButton">
+    <value>Priekšskatījums</value>
+  </data>
+  <data name="RatingsMenuTitle">
+    <value>Reitings</value>
+  </data>
+  <data name="ReadMoreLink">
+    <value>Lasīt tālāk</value>
+  </data>
+  <data name="SaveButton">
+    <value>Saglabāt</value>
+  </data>
+  <data name="SearchDefaultString">
+    <value>Meklēt blogos</value>
+  </data>
+  <data name="SubmitButton">
+    <value>Sūtīt</value>
+  </data>
+  <data name="SubscribeOnAuthorAction">
+    <value>Parakstīties uz visu lietotāju ierakstiem</value>
+  </data>
+  <data name="SubscribeOnAuthorDescription">
+    <value>Parakstīšanās ļauj jums sēkot līdz jauno lietotāju ierakstiem blogos</value>
+  </data>
+  <data name="SubscribeOnAuthorTitle">
+    <value>Parakstīšanās uz lietotāju ierakstiem</value>
+  </data>
+  <data name="SubscribeOnNewCommentsAction">
+    <value>Parakstīties uz ierakstu komentāriem</value>
+  </data>
+  <data name="SubscribeOnNewCommentsDescription">
+    <value>Parakstīšanās ļauj jums sēkot līdz jauniem komentāriem</value>
+  </data>
+  <data name="SubscribeOnNewCommentsTitle">
+    <value>Parakstīšanās uz ieraksta komentāriem</value>
+  </data>
+  <data name="SubscribeOnNewPostAction">
+    <value>Parakstīties uz visiem ierakstiem</value>
+  </data>
+  <data name="SubscribeOnNewPostDescription">
+    <value>Parakstīšanās ļauj jums sēkot līdz jauniem ierakstiem blogos</value>
+  </data>
+  <data name="SubscribeOnNewPostTitle">
+    <value>Parakstīšanās uz visiem ierakstiem</value>
+  </data>
+  <data name="TagCloudTitle">
+    <value>Atzīmju mākonis</value>
+  </data>
+  <data name="TagsTitle">
+    <value>Atzīmes</value>
+  </data>
+  <data name="UnSubscribeOnAuthorAction">
+    <value>Atrakstīties no lietotāju ierakstiem</value>
+  </data>
+  <data name="UnSubscribeOnNewCommentsAction">
+    <value>Atrakstīties no ierakstu komentāriem</value>
+  </data>
+  <data name="UnSubscribeOnNewPostAction">
+    <value>Atrakstīties no visiem ierakstiem</value>
+  </data>
+  <data name="UserActivity_AddComment">
+    <value>komentārs pievienots</value>
+  </data>
+  <data name="UserActivity_AddPost">
+    <value>ieraksts izveidots</value>
+  </data>
+  <data name="UserActivity_AddPullPost">
+    <value>aptauja izveidota</value>
+  </data>
+  <data name="UserActivity_DeleteComment">
+    <value>komentārs izdzēsts</value>
+  </data>
+  <data name="UserActivity_DeletePost">
+    <value>ieraksts izdzēsts</value>
+  </data>
+  <data name="UserActivity_EditComment">
+    <value>komentārs rediģēts</value>
+  </data>
+  <data name="UserActivity_EditPost">
+    <value>ieraksts rediģēts</value>
+  </data>
+  <data name="UserActivity_Vote">
+    <value>balsojums pievienots</value>
+  </data>
+  <data name="ViewsTitle">
+    <value>Skatīt</value>
+  </data>
+  <data name="WidgetDescriptionResourceKey">
+    <value>parādīt pēdējus ierakstus blogos</value>
+  </data>
+</root>

@@ -1,0 +1,14 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\bin\Debug\ASC.Xmpp.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\bin\Debug\ASC.Xmpp.Common.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\bin\Debug\ASC.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\bin\Debug\ASC.Core.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\obj\Debug\ASC.Xmpp.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\obj\Debug\ASC.Xmpp.Common.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\bin\Debug\ASC.Xmpp.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\bin\Debug\ASC.Xmpp.Common.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\bin\Debug\ASC.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\bin\Debug\ASC.Core.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\obj\Debug\ASC.Xmpp.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Common\obj\Debug\ASC.Xmpp.Common.pdb

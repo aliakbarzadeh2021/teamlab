@@ -1,0 +1,46 @@
+﻿#namingPeopleTitle
+{
+    margin-top: 20px; 
+    padding-left: 15px; 
+    padding-bottom: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#studio_namingPeopleBox
+{
+    padding: 20px 15px;
+}
+
+#namingPeopleSchema
+{
+    width:200px;    
+}
+
+#studio_namingPeopleBox .schemaCaption
+{      
+    padding-bottom:30px;  
+}
+
+#studio_namingPeopleBox .caption
+{
+    text-align:right;
+    padding-right:10px;   
+}
+
+#studio_namingPeopleBox .textEdit
+{
+    width:200px;
+    margin-right:20px;
+}
+
+#saveNamingPeopleBtn
+{
+    float:left;
+}
+
+#studio_namingPeopleBox .btnBox
+{
+    margin-top:20px;
+}

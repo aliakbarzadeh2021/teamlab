@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!-- Import the task -->
+  <UsingTask AssemblyFile="MSBuild.ExtensionPack.dll" TaskName="MSBuild.ExtensionPack.Framework.AssemblyInfo"/>
+  <UsingTask AssemblyFile="MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.Subversion.SvnVersion"/>
+
+  <!-- Properties for controlling the Assembly Version -->
+  <PropertyGroup>
+    <MajorVersion>1</MajorVersion>
+    <MinorVersion>0</MinorVersion>
+    <FileBuildNumber>0</FileBuildNumber>
+    <FileRevision>0</FileRevision>
+  </PropertyGroup>
+
+  <!-- Re-define CoreCompileDependsOn to ensure the assemblyinfo files are updated before compilation. -->
+  <PropertyGroup>
+    <CoreCompileDependsOn>
+      $(CoreCompileDependsOn);
+      UpdateAssemblyInfoFiles
+    </CoreCompileDependsOn>
+  </PropertyGroup>
+
+  <Target Name="UpdateAssemblyInfoFiles">
+
+    <AssemblyInfo AssemblyInfoFiles="Properties\AssemblyInfo.cs"
+                  AssemblyMajorVersion="$(MajorVersion)" AssemblyMinorVersion="$(MinorVersion)" AssemblyBuildNumber="0" AssemblyRevision="0"
+                  AssemblyCompany="Ascensio System SIA"
+                  AssemblyCopyright="Ascensio System SIA 2011"/>
+
+    <CreateItem Include="//Auto-generated. Changes to this file may cause incorrect behavior and will be lost if the code is regenerated.
+using System.Reflection%3B;
+[assembly: AssemblyFileVersion(&quot;1.0.0.1&quot;)]">
+      <Output TaskParameter="Include" ItemName="Lines"/>
+    </CreateItem>
+
+    <WriteLinesToFile File="AssemblyFileVersionInfo.cs" Lines="@(Lines)" Overwrite="true" Condition="!Exists('AssemblyFileVersionInfo.cs')"/>
+
+    <CreateItem Include="AssemblyFileVersionInfo.cs">
+      <Output TaskParameter="Include" ItemName="Compile"/>
+    </CreateItem>
+
+    <SvnVersion LocalPath="$(ProjectDir)" ToolPath="$(TrunkDir)_ci\msbuild\SvnClient" Condition="Exists('$(TrunkDir)_ci\msbuild\SvnClient\svnversion.exe')">
+      <Output TaskParameter="Revision" PropertyName="FileBuildNumber" />
+    </SvnVersion>
+
+    <AssemblyInfo AssemblyInfoFiles="AssemblyFileVersionInfo.cs"
+                  AssemblyFileMajorVersion="$(MajorVersion)" AssemblyFileMinorVersion="$(MinorVersion)"
+                  AssemblyFileBuildNumber="$(FileBuildNumber)" AssemblyFileRevision="$(FileRevision)"/>
+  </Target>
+
+</Project>

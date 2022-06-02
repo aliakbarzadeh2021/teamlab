@@ -1,0 +1,37 @@
+﻿#skinSettingsTitle
+{
+    margin-top: 20px; 
+    padding-left: 15px; 
+    padding-bottom: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.sampleSkinBox
+{
+    padding:0px;
+    width:20px;
+    height:20px;
+    margin-right:10px;
+    float:left;
+    cursor:pointer;   
+    display:block;             
+}
+
+#studio_skinSettingsBox
+{
+    padding: 20px 15px;
+}
+
+#saveSkinSettingBtn
+{
+    float:left;
+}
+
+#studio_skinPreview
+{
+    float:left;
+    width:250px;
+    margin-left:160px;
+}

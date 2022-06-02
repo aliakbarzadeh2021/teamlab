@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Access">
+    <value>Acceso</value>
+  </data>
+  <data name="ActiveProject">
+    <value>Proyecto activo</value>
+  </data>
+  <data name="ActiveProjects">
+    <value>Proyectos activos</value>
+  </data>
+  <data name="AddNewProject">
+    <value>Añadir este proyecto</value>
+  </data>
+  <data name="AddThisTemplate">
+    <value>Añadir esta plantilla</value>
+  </data>
+  <data name="AllProjects">
+    <value>Todos los proyectos</value>
+  </data>
+  <data name="AllProjectTemplates">
+    <value>Todos las plantillas de proyecto</value>
+  </data>
+  <data name="AppliedTemplate">
+    <value>Plantilla {0} aplicada</value>
+  </data>
+  <data name="ArchiveProjects">
+    <value>Proyectos terminados</value>
+  </data>
+  <data name="ChoosenUsers">
+    <value>Miembros</value>
+  </data>
+  <data name="Clear">
+    <value>Borrar</value>
+  </data>
+  <data name="ClosedProject">
+    <value>Proyecto terminado</value>
+  </data>
+  <data name="ClosedProjectTeamAllTasksInfoPanel">
+    <value>Si esta opción está activada, miembro de proyecto puede ver todas las tareas y asignar tareas a otros compañeros. Si esta opción está desactivada, un miembro de proyecto puede acceder sólo tareas que han sido asignados a él.</value>
+  </data>
+  <data name="ClosedProjectTeamDiscussionsInfoPanel">
+    <value>Si esta opción está activada, miembro de proyecto puede ver y añadir discusiones.</value>
+  </data>
+  <data name="ClosedProjectTeamDocumentButtonTooltip">
+    <value>activar/desactivar documentos</value>
+  </data>
+  <data name="ClosedProjectTeamDocumentsInfoPanel">
+    <value>Si esta opción está activada, miembro de proyecto puede ver y añadir documentos.</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermission">
+    <value>Gerente de proyecto puede</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleA">
+    <value>añadir o borrar usuarios a/de equipo de proyecto</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleB">
+    <value>asignar derechos de acceso para miembros de proyecto (sólo para proyecto privado)</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleC">
+    <value>manejar (crear, editar, borrar) hitos, tareas, discusiones, documentos y limitat acceso</value>
+  </data>
+  <data name="ClosedProjectTeamMessageButtonTooltip">
+    <value>activar/desactivar discusiones</value>
+  </data>
+  <data name="ClosedProjectTeamMilestoneButtonTooltip">
+    <value>activar/desactivar hitos</value>
+  </data>
+  <data name="ClosedProjectTeamMilestonesInfoPanel">
+    <value>Si esta opción está activada, miembro de proyecto puede ver todos los hitos en el proyecto.Si esta opción está desactivada, miembro de proyecto puede acceder todos los hitos con tareas asignadas sólo a él.</value>
+  </data>
+  <data name="ClosedProjectTeamTaskButtonTooltip">
+    <value>activar/desactivar tareas</value>
+  </data>
+  <data name="ClosedProjectTeamWriteInMessenger">
+    <value>Ponerse en contacto por Chat</value>
+  </data>
+  <data name="ClosedProjectTeamWriteMail">
+    <value>Enviar email</value>
+  </data>
+  <data name="Create">
+    <value>Crear</value>
+  </data>
+  <data name="CreateFromTemplate">
+    <value>Crear sobre la plantilla</value>
+  </data>
+  <data name="CreateNewProject">
+    <value>Crear nuevo proyecto</value>
+  </data>
+  <data name="CreateProjectFromTemplate">
+    <value>Crear el proyecto sobre la plantilla</value>
+  </data>
+  <data name="CreateProjectTemplate">
+    <value>Crear plantilla de proyecto</value>
+  </data>
+  <data name="Dashboard">
+    <value>Dashboard</value>
+  </data>
+  <data name="DeleteProjectTemplate">
+    <value>Borrar la plantilla de proyecto</value>
+  </data>
+  <data name="EmployeesAndPermissions">
+    <value>Empleados y derechos de acceso</value>
+  </data>
+  <data name="EmptyScreenAllActiveProjectsHeaderContent">
+    <value>Ningún proyecto activo</value>
+  </data>
+  <data name="EmptyScreenAllProjectsHeaderContent">
+    <value>Ningún proyecto</value>
+  </data>
+  <data name="EmptyScreenByLabelActiveProjectsHeaderContent">
+    <value>Ningún proyecto activo con esta etiqueta</value>
+  </data>
+  <data name="EmptyScreenByLabelProjectsHeaderContent">
+    <value>Ningún proyecto con esta etiqueta</value>
+  </data>
+  <data name="EmptyScreenHeaderContent">
+    <value>Cree el primer proyecto</value>
+  </data>
+  <data name="EmptyScreenHeaderDescribe">
+    <value>Prepare plantillas para proyectos semejantes: planifique hitos, crer equipos y añada tareas.
+</value>
+  </data>
+  <data name="EmptyScreenKeepTrackActiveProjectsHeaderContent">
+    <value>Ningún proyecto activo a seguir</value>
+  </data>
+  <data name="EmptyScreenKeepTrackProjectsHeaderContent">
+    <value>Ningún proyecto a seguir</value>
+  </data>
+  <data name="EmptyScreenMyActiveProjectsHeaderContent">
+    <value>Usted no participa en ningún proyecto activo</value>
+  </data>
+  <data name="EmptyScreenMyProjectsHeaderContent">
+    <value>Usted no participa en ningún proyecto </value>
+  </data>
+  <data name="EmptyScreenProjectTemplates">
+    <value>Crear la primera plantilla de proyecto</value>
+  </data>
+  <data name="EmptyScreenProjectTemplatesDescribe">
+    <value>Envia mensajes, añada las tareas, planea hitos, gestiona el equipo.</value>
+  </data>
+  <data name="EmptyScreenProjectTemplateTeam">
+    <value>Crear el equipo para esta plantilla de proyecto</value>
+  </data>
+  <data name="EmptyScreenProjectTemplateTeamDescription">
+    <value>Sellecione participantes de proyecto.</value>
+  </data>
+  <data name="EnterTheTags">
+    <value>Introduzca las etiquetas deseadas separándolas con comas</value>
+  </data>
+  <data name="Example">
+    <value>Normalmente el nombre del proyecto, cliente, departamento...</value>
+  </data>
+  <data name="FollowingLinkTitle">
+    <value>Las noticias del proyecto serán incluidas en el e-mail de notificación llamado Noticias. El proyecto mismo estará disponible en la sección Proyectos a seguir de la pestaña Proyectos, así como en la lista desplegable Todos los proyectos.</value>
+  </data>
+  <data name="FollowingProjects">
+    <value>Seguir este proyecto</value>
+  </data>
+  <data name="HiddenProject">
+    <value>Proyecto privado</value>
+  </data>
+  <data name="HideClosedProjects">
+    <value>Ocultar proyectos terminados</value>
+  </data>
+  <data name="InfoMessageText">
+    <value>Esta información será enviada al administrador como una solicitud de creación de un nuevo proyecto.</value>
+  </data>
+  <data name="InfoMessageText2">
+    <value>Esta información será enviada al administrador como una solicitud de modificación del proyecto.</value>
+  </data>
+  <data name="Information">
+    <value>Al eliminar el proyecto, tenga en cuenta que éste será borrado completamente sin posibilidad alguna de recuperación.</value>
+  </data>
+  <data name="InformationForHidden">
+    <value>Proyecto privado está disponible sólo al gerente de proyecto y miembros de proyecto con los derechos correspondientes</value>
+  </data>
+  <data name="InvalidProjectTemplateTitle">
+    <value>Nombre incorrecto para la plantilla de proyecto.</value>
+  </data>
+  <data name="IUnerstand">
+    <value>Lo entiendo - ELIMINAR este proyecto.</value>
+  </data>
+  <data name="IUnerstandForEditHidden">
+    <value>Sí, lo entiendo - Guardar proyecto como privado</value>
+  </data>
+  <data name="IUnerstandForHidden">
+    <value>Sí, lo entiendo - Añadir proyecto como privado</value>
+  </data>
+  <data name="LastActivity">
+    <value>Actividad reciente</value>
+  </data>
+  <data name="LeadPerson">
+    <value>Responsable</value>
+  </data>
+  <data name="ManagmentTeam">
+    <value>Gestionar equipo</value>
+  </data>
+  <data name="Milestones">
+    <value>hito(s)</value>
+  </data>
+  <data name="MyProjects">
+    <value>Mis proyectos</value>
+  </data>
+  <data name="NewProject">
+    <value>Nuevo proyecto</value>
+  </data>
+  <data name="NewProjects">
+    <value>Nuevos proyectos</value>
+  </data>
+  <data name="NingNoActivity">
+    <value>Ninguna actividad</value>
+  </data>
+  <data name="NoActivity">
+    <value>Ninguna actividad</value>
+  </data>
+  <data name="NotifyProjectLeader">
+    <value>Notificar al gerente del proyecto por e-mail</value>
+  </data>
+  <data name="NotifyProjectTeam">
+    <value>Notificar al equipo</value>
+  </data>
+  <data name="NotInvolvedInAnyProject">
+    <value>No participa en ningún proyecto</value>
+  </data>
+  <data name="PeopleOnThisProject">
+    <value>Equipo del proyecto</value>
+  </data>
+  <data name="Project">
+    <value>Proyecto</value>
+  </data>
+  <data name="ProjectAdded">
+    <value>Añadir proyecto</value>
+  </data>
+  <data name="ProjectDeleteButton">
+    <value>Eliminar este proyecto</value>
+  </data>
+  <data name="ProjectDeleted">
+    <value>Eliminar proyecto</value>
+  </data>
+  <data name="ProjectDescription">
+    <value>Descripción</value>
+  </data>
+  <data name="ProjectLeader">
+    <value>Gerente de proyecto</value>
+  </data>
+  <data name="ProjectOverview">
+    <value>Inicio</value>
+  </data>
+  <data name="Projects">
+    <value>Proyectos</value>
+  </data>
+  <data name="ProjectsByLabel">
+    <value>Proyectos etiquetados</value>
+  </data>
+  <data name="ProjectsByLabelCaption">
+    <value>Proyectos etiquetados con «{0}»</value>
+  </data>
+  <data name="ProjectsKeepTrack">
+    <value>Proyectos a seguir</value>
+  </data>
+  <data name="ProjectTeam">
+    <value>Equipo</value>
+  </data>
+  <data name="ProjectTemplate">
+    <value>Plantilla de proyecto</value>
+  </data>
+  <data name="ProjectTemplates">
+    <value>Plantillas de proyecto</value>
+  </data>
+  <data name="ProjectTemplateSetUpDescription">
+    <value>Plantilla de proyecto contiene un número de mensajes, hitos, participantes y tareas que pueden servir de base para un proyecto nuevo. {0}Cuando usted crea un proyecto nuevo, todas las plantillas están disponibles en el menú desplegable. Esto le permite ahorrar tiempo y esfuerzos.</value>
+  </data>
+  <data name="ProjectTemplateSetupDiscussion">
+    <value>Empieza la primera discusión</value>
+  </data>
+  <data name="ProjectTemplateSetUpLabel">
+    <value>¡Ya es hora de personalizar su plantilla de proyecto!</value>
+  </data>
+  <data name="ProjectTemplateSetupMilestone">
+    <value>Establece el primer hito</value>
+  </data>
+  <data name="ProjectTemplateSetupTask">
+    <value>Asigna la primer tarea</value>
+  </data>
+  <data name="ProjectTemplateSetupTeam">
+    <value>Crea el equipo</value>
+  </data>
+  <data name="ProjectTemplateTitleExample">
+    <value>Por ejemplo, Plantilla de rediseño o Plantilla de seminario, etc.</value>
+  </data>
+  <data name="ProjectTitle">
+    <value>Título</value>
+  </data>
+  <data name="SaveProject">
+    <value>Guardar proyecto</value>
+  </data>
+  <data name="SeeAllProjectsMilestone">
+    <value>Ver todos los hitos del proyecto</value>
+  </data>
+  <data name="SeeHistory">
+    <value>Ver historial</value>
+  </data>
+  <data name="SeeMore">
+    <value>Ver todo</value>
+  </data>
+  <data name="SelectProjectTemplate">
+    <value>Seleccionar la plantilla de proyecto.</value>
+  </data>
+  <data name="Settings">
+    <value>Ajustes del proyecto</value>
+  </data>
+  <data name="ShowClosedProjects">
+    <value>Mostrar proyectos terminados</value>
+  </data>
+  <data name="Statistics">
+    <value>Estadísticas</value>
+  </data>
+  <data name="Tags">
+    <value>Etiquetas</value>
+  </data>
+  <data name="Tasks">
+    <value>tarea(s)</value>
+  </data>
+  <data name="Team">
+    <value>Equipo</value>
+  </data>
+  <data name="TemplateCreationIsInProgress">
+    <value>La plantilla esta creándose</value>
+  </data>
+  <data name="TemplateModeAttention">
+    <value>Nota: las plantillas no son los proyectos mismos</value>
+  </data>
+  <data name="UnFollowingProjects">
+    <value>Anular suscripción a noticias del proyecto - Dejar de seguir este proyecto</value>
+  </data>
+</root>

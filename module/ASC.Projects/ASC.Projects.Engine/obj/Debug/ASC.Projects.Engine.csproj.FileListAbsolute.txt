@@ -1,0 +1,27 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.el.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.csproj.GenerateResource.Cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.el.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\ASC.Projects.Engine.EngineResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Engine\obj\Debug\GenerateResource-ResGen.write.1.tlog

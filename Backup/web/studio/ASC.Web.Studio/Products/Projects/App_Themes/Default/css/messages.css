@@ -1,0 +1,51 @@
+﻿div.pm-progress-wrapper
+{
+    width: 100px !important;
+}
+
+#message-text
+{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.message-details
+{
+    padding-right: 10px;
+    float: left;
+}
+
+    .pm-message-left-side
+    {
+    	float:left;
+        text-align:center;
+        width:120px;
+    }
+    .pm-message-left-side ul
+    {
+        list-style:none outside none;
+        margin:0;
+        padding:0;
+    }
+    .pm-message-left-side ul li
+    {
+        margin:0;
+        padding:0 0 5px;
+    }
+    .pm-message-right-side
+    {
+        margin-left:130px;
+    }
+    .pm-message-text-container
+    {
+        overflow:auto;
+        padding-top:10px;
+
+    }
+    .pm-messageRecipient
+    {
+    	padding: 0px 10px 7px 0px;
+    	float:left;
+    }
+
+

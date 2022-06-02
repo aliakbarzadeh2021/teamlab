@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AceStatusEnum_DiffRoles">
+    <value>Unterschiedliche Berechtigungen</value>
+  </data>
+  <data name="AceStatusEnum_Owner">
+    <value>Besitzer</value>
+  </data>
+  <data name="AceStatusEnum_Read">
+    <value>Schreibgeschützt</value>
+  </data>
+  <data name="AceStatusEnum_ReadWrite">
+    <value>Voller Zugriff</value>
+  </data>
+  <data name="AceStatusEnum_Restrict">
+    <value>Zugriff verweigern</value>
+  </data>
+  <data name="AddToFavorites">
+    <value>Zu Favoriten hinzufügen</value>
+  </data>
+  <data name="BreadCrumbsSeparator">
+    <value>&gt;</value>
+  </data>
+  <data name="ButtonAddFiles">
+    <value>Dateien hinzufügen</value>
+  </data>
+  <data name="ButtonSelectFiles">
+    <value>Dateien wählen</value>
+  </data>
+  <data name="ButtonShowMore">
+    <value>Mehr anzeigen {0}</value>
+  </data>
+  <data name="ButtonShowMoreLoad">
+    <value>Hochladevorgang...</value>
+  </data>
+  <data name="ButtonShowMoreOf">
+    <value>Mehr anzeigen {0} von {1}</value>
+  </data>
+  <data name="ChangedItemHeader">
+    <value>{0} Änderungen in {1}</value>
+  </data>
+  <data name="ConfirmEmptyTrash">
+    <value>Möchten Sie wirklich den Papierkorb leeren?</value>
+  </data>
+  <data name="ConfirmRemoveFile">
+    <value>Möchten Sie wirklich das Dokument löschen?</value>
+  </data>
+  <data name="ConfirmRemoveFolder">
+    <value>Möchten Sie wirklich den Ordner löschen?</value>
+  </data>
+  <data name="ConfirmRemoveList">
+    <value>Möchten Sie wirklich diese Elemente löschen?</value>
+  </data>
+  <data name="CorporateFiles">
+    <value>Freigegebene Dokumente</value>
+  </data>
+  <data name="CreateGroup">
+    <value>Gruppe erstellen</value>
+  </data>
+  <data name="DescriptBulkdownload">
+    <value>Archivieren der Daten</value>
+  </data>
+  <data name="DescriptCopy">
+    <value>Kopieren</value>
+  </data>
+  <data name="DescriptCreate">
+    <value>Erstellen</value>
+  </data>
+  <data name="DescriptLoadVersion">
+    <value>Die Versionen werden geladen...</value>
+  </data>
+  <data name="DescriptMove">
+    <value>Verschieben</value>
+  </data>
+  <data name="DescriptRemove">
+    <value>Löschvorgang...</value>
+  </data>
+  <data name="DescriptRename">
+    <value>Umbenennen</value>
+  </data>
+  <data name="DescriptSetVersion">
+    <value>Version wird aktualisiert...</value>
+  </data>
+  <data name="EditGroup">
+    <value>Gruppe bearbeiten</value>
+  </data>
+  <data name="EmptyDataToImport">
+    <value>Keine Daten zum Importieren</value>
+  </data>
+  <data name="EmptyListSelectedForDownload">
+    <value>Wählen Sie zumindest einen Ordner bzw. ein Dokument zum Herunterladen</value>
+  </data>
+  <data name="EmptyListSelectedForImport">
+    <value>Wählen Sie zumindest ein Dokument zum Importieren</value>
+  </data>
+  <data name="EmptyListUpload">
+    <value>Klicken Sie auf den Button 'Dokument wählen', um Ihre Dateien hochzuladen</value>
+  </data>
+  <data name="ErrorMassage_AuthentificatedFalse">
+    <value>Falsches Login oder Kennwort</value>
+  </data>
+  <data name="ErrorMassage_DnDError">
+    <value>Unmöglich die Datei hochzuladen</value>
+  </data>
+  <data name="ErrorMassage_EmptyFile">
+    <value>Leere Datei</value>
+  </data>
+  <data name="ErrorMassage_FiledsIsEmpty">
+    <value>Alle Felder müssen ausgefüllt werden</value>
+  </data>
+  <data name="ErrorMassage_FileTypeText">
+    <value>Der Dateityp wird nicht unterstützt</value>
+  </data>
+  <data name="ErrorMassage_LimitFileSize">
+    <value>Die maximale Dateigröße von {0} MB ist überschritten</value>
+  </data>
+  <data name="ErrorMassage_SecondDownload">
+    <value>Bitte warten Sie, bis der vorherige Download zu Ende ist, oder brechen Sie ihn ab</value>
+  </data>
+  <data name="ErrorMassage_SecurityException">
+    <value>Sie haben keine Berechtigung, diese Operation durchzuführen</value>
+  </data>
+  <data name="FavoritesRemove">
+    <value>Möchten Sie wirklich {0} von Favoriten entfernen?</value>
+  </data>
+  <data name="FileAlreadyEdit">
+    <value>Die Datei wird bereits bearbeitet</value>
+  </data>
+  <data name="FileAlreadyExist">
+    <value>Die Datei mit dem Namen {0} ist bereits im Ordner {1} vorhanden.</value>
+  </data>
+  <data name="FileNameIsNotEqual">
+    <value>Der Name der gewählten Datei entspricht dem Namen der vorherigen Version nicht.</value>
+  </data>
+  <data name="FilesAlreadyExist">
+    <value>{0} Dokumente mit demselben Namen sind bereits im Ordner '{1}' vorhanden. Dateien überschreiben?</value>
+  </data>
+  <data name="FileUploading">
+    <value>Datei hochladen</value>
+  </data>
+  <data name="FileVersionRecovery">
+    <value>Die Version der Datei {0} wurde erfolgreich wiederhergestellt</value>
+  </data>
+  <data name="ImportFromBoxNet">
+    <value>Von Box.Net importieren</value>
+  </data>
+  <data name="ImportFromGoogle">
+    <value>Von Google Docs importieren</value>
+  </data>
+  <data name="ImportFromZoho">
+    <value>Von Zoho importieren</value>
+  </data>
+  <data name="InfoActionInTrash">
+    <value>Stellen Sie dieses Element aus dem Papierkorb wieder her, um diese Aktion durchzuführen</value>
+  </data>
+  <data name="InfoAddFavorite">
+    <value>'{0}' zu Favoriten hinzugefügt</value>
+  </data>
+  <data name="InfoCommingSoon">
+    <value>Kommt bald</value>
+  </data>
+  <data name="InfoCopyGroup">
+    <value>{0} Elemente wurden kopiert</value>
+  </data>
+  <data name="InfoCopyItem">
+    <value>'{0}' kopiert</value>
+  </data>
+  <data name="InfoCrateFile">
+    <value>Neue Datei '{0}' ist erstellt</value>
+  </data>
+  <data name="InfoCrateFolder">
+    <value>Neuer Ordner '{0}' ist erstellt</value>
+  </data>
+  <data name="InfoEmptyForShare">
+    <value>Wählen Sie zumindest einen Ordner bzw. ein Dokument zum Freigeben</value>
+  </data>
+  <data name="InfoFinishImprot">
+    <value>Die Importierung ist abgeschlossen</value>
+  </data>
+  <data name="InfoFolderCopyError">
+    <value>Unmöglich das Verzeichnis in sein Unterverzeichnis zu kopieren</value>
+  </data>
+  <data name="InfoFolderMoveError">
+    <value>Unmöglich das Verzeichnis in sein Unterverzeichnis zu verschieben</value>
+  </data>
+  <data name="InfoImprotNotFinish">
+    <value>Bitte warten, bis die vorherige Importierung zu Ende ist</value>
+  </data>
+  <data name="InfoMoveGroup">
+    <value>{0} Elemente wurden verlegt</value>
+  </data>
+  <data name="InfoMoveItem">
+    <value>'{0}' verlegt</value>
+  </data>
+  <data name="InfoOrderByAuthor">
+    <value>Nach Verfasser geordnet</value>
+  </data>
+  <data name="InfoOrderByModified">
+    <value>Nach Datum geordnet</value>
+  </data>
+  <data name="InfoOrderBySize">
+    <value>Nach Größe geordnet</value>
+  </data>
+  <data name="InfoOrderByTitle">
+    <value>Nach Namen geordnet</value>
+  </data>
+  <data name="InfoRemoveFavorites">
+    <value>'{0}' von Favoriten entfernt</value>
+  </data>
+  <data name="InfoRemoveFile">
+    <value>Das Dokument '{0}' ist gelöscht</value>
+  </data>
+  <data name="InfoRemoveFolder">
+    <value>Der Ordner '{0}' ist gelöscht</value>
+  </data>
+  <data name="InfoRemoveGroup">
+    <value>{0} ist erfolgreich von {1} gelöscht</value>
+  </data>
+  <data name="InfoRenameFile">
+    <value>Der Name des Dokuments '{0}' ist auf '{1}' geändert</value>
+  </data>
+  <data name="InfoRenameFolder">
+    <value>Der Name des Ordners '{0}' ist auf '{1}' geändert</value>
+  </data>
+  <data name="InfoSelectCount">
+    <value>Elemente: {0}</value>
+  </data>
+  <data name="InfoSelectForShare">
+    <value>Wählen Sie ein Element, um Zugriffsrechte zu bestimmen</value>
+  </data>
+  <data name="InfoSelectingDescribe">
+    <value>{0}Ziehen Sie die Elemente mit der Maus, um sie in den Ordner hinzuzufügen</value>
+  </data>
+  <data name="InfoUploadedSuccess">
+    <value>{0} Dokumente sind erfolgreich hochgeladen</value>
+  </data>
+  <data name="InfoViewFolderGallery">
+    <value>Miniaturansicht</value>
+  </data>
+  <data name="InfoViewFolderList">
+    <value>Listenansicht</value>
+  </data>
+  <data name="InstallOpenOfficeButton">
+    <value>Herunterladen</value>
+  </data>
+  <data name="InstallOpenOfficeCongratulation">
+    <value>Die Pufferung ist zu Ende. OpenOffice kann ausgeführt werden.</value>
+  </data>
+  <data name="InstallOpenOfficeDescription">
+    <value>Sehen Sie, wie es funktioniert?</value>
+  </data>
+  <data name="InstallOpenOfficeHeader">
+    <value>Um Dokumente auf Ihrem Portal erstellen und bearbeiten zu können, laden Sie die virtualisierte Anwendung OpenOffice herunter.</value>
+  </data>
+  <data name="InstallPluginButton">
+    <value>Installieren</value>
+  </data>
+  <data name="InstallPluginDescription">
+    <value>Das ASC-Plugin ermöglicht es Ihnen, OpenOffice auf Ihrem Portal auszuführen. {0}Erfahren Sie, wie es funktioniert.{1}</value>
+  </data>
+  <data name="InstallPluginHeader">
+    <value>Um Dokumente auf Ihrem Portal erstellen und bearbeiten zu können, installieren Sie das Ascensio-System-Plugin.</value>
+  </data>
+  <data name="LoadingProcessing">
+    <value>Ladevorgang...</value>
+  </data>
+  <data name="LoadingWait">
+    <value>Bitte warten...</value>
+  </data>
+  <data name="MyFiles">
+    <value>Meine Dokumente</value>
+  </data>
+  <data name="NewInShare">
+    <value>({0} neu)</value>
+  </data>
+  <data name="OpenOfficeDownloading">
+    <value>OpenOffice wird heruntergeladen. Bitte warten...</value>
+  </data>
+  <data name="OpenOfficeDownloadingInfo">
+    <value>{0} MB von {1} MB heruntergeladen</value>
+  </data>
+  <data name="OpenOfficeUnpacking">
+    <value>OpenOffice wird entpackt. Bitte warten...</value>
+  </data>
+  <data name="OrDragDrop">
+    <value>oder ziehen und legen Sie diese in dem Fenster ab</value>
+  </data>
+  <data name="OverallProgress">
+    <value>Gesamtfortschritt</value>
+  </data>
+  <data name="ProcessUploadCountFiles">
+    <value>{0} von {1} hochgeladen</value>
+  </data>
+  <data name="ProjectFiles">
+    <value>Dokumente des Projekts</value>
+  </data>
+  <data name="RemoveFavorites">
+    <value>Von Favoriten entfernen</value>
+  </data>
+  <data name="SelectedFiles">
+    <value>{0} Dateien gewählt</value>
+  </data>
+  <data name="SelectFilesToUpload">
+    <value>Wählen Sie Dateien zum Hochladen</value>
+  </data>
+  <data name="SelectFilterValue">
+    <value>Wählen</value>
+  </data>
+  <data name="SelectRight">
+    <value>Wählen</value>
+  </data>
+  <data name="TasksOperationBulkdownload">
+    <value>Archivieren der Daten</value>
+  </data>
+  <data name="TasksOperationCopy">
+    <value>Kopieren</value>
+  </data>
+  <data name="TasksOperationDelete">
+    <value>Löschen</value>
+  </data>
+  <data name="TasksOperationMixed">
+    <value>{0} Operationen</value>
+  </data>
+  <data name="TasksOperationMove">
+    <value>Verlegen</value>
+  </data>
+  <data name="TitleCancel">
+    <value>Abbrechen</value>
+  </data>
+  <data name="TitleCreate">
+    <value>Erstellen</value>
+  </data>
+  <data name="TitleNewFilePresentation">
+    <value>Neue Präsentation</value>
+  </data>
+  <data name="TitleNewFileSpreadsheet">
+    <value>Neue Tabelle</value>
+  </data>
+  <data name="TitleNewFileText">
+    <value>Neues Dokument</value>
+  </data>
+  <data name="TitleNewFolder">
+    <value>Neuer Ordner</value>
+  </data>
+  <data name="TitleRename">
+    <value>Umbenennen</value>
+  </data>
+  <data name="UpdateFileVersionFor">
+    <value>Dateiversion aktualisieren</value>
+  </data>
+  <data name="UpdateOpenOfficeHeader">
+    <value>Die Updates für OpenOffice sind verfügbar. Jetzt herunterladen.</value>
+  </data>
+  <data name="UploadedOf">
+    <value>{0} / {1} hochgeladene Dateien</value>
+  </data>
+  <data name="UploadFileTo">
+    <value>Dokument hochladen in</value>
+  </data>
+  <data name="Uploading">
+    <value>Hochladen</value>
+  </data>
+  <data name="UploadProcess">
+    <value>Dateien werden hochgeladen...</value>
+  </data>
+</root>

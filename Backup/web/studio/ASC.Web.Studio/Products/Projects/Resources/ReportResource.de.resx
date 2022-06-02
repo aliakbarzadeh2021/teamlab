@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions">
+    <value>Aktionen</value>
+  </data>
+  <data name="ActiveTasks">
+    <value>Aktive Aufgaben</value>
+  </data>
+  <data name="ActiveTaskStatus">
+    <value>Im Gang</value>
+  </data>
+  <data name="AdditionalOptions">
+    <value>Zusätzliche Optionen</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>Alle Mitglieder des Projektteams</value>
+  </data>
+  <data name="Any">
+    <value>Jeder</value>
+  </data>
+  <data name="AnyType">
+    <value>Jeder Typ</value>
+  </data>
+  <data name="ApplyFilter">
+    <value>Übernehmen</value>
+  </data>
+  <data name="At">
+    <value>um</value>
+  </data>
+  <data name="AutogenReports">
+    <value>Automatische Erstellung der Berichte</value>
+  </data>
+  <data name="AutomaticallyGenerate">
+    <value>Solchen Bericht automatisch erstellen</value>
+  </data>
+  <data name="BuildingReport">
+    <value>Bericht wird erstellt...</value>
+  </data>
+  <data name="Category">
+    <value>Kategorie</value>
+  </data>
+  <data name="ChangeFilterData">
+    <value>Berichtsfilter ändern</value>
+  </data>
+  <data name="ChangeSettings">
+    <value>Berichteinstellungen ändern</value>
+  </data>
+  <data name="ChooseDate">
+    <value>Datum wählen</value>
+  </data>
+  <data name="ChooseReportType">
+    <value>Wählen Sie den Typ des Berichts</value>
+  </data>
+  <data name="ChooseTemplate">
+    <value>Vorlage wählen</value>
+  </data>
+  <data name="ChooseTimeInterval">
+    <value>Zeitperiode</value>
+  </data>
+  <data name="ClearAllTemplates">
+    <value>Alle Vorlagen leeren</value>
+  </data>
+  <data name="ClearReportHistory">
+    <value>Berichtshistorie leeren</value>
+  </data>
+  <data name="ClickToSortByThisColumn">
+    <value>Klicken Sie hier, um diese Spalte zu ordnen</value>
+  </data>
+  <data name="ClosedTaskStatus">
+    <value>Geschlossen</value>
+  </data>
+  <data name="CreateNewReport">
+    <value>Neuen Bericht erstellen</value>
+  </data>
+  <data name="CrteateTemplate">
+    <value>Vorlage erstellen</value>
+  </data>
+  <data name="CsvColumnMilestoneDeadline">
+    <value>Fristablauf des Meilensteins</value>
+  </data>
+  <data name="CsvColumnMilestoneStatus">
+    <value>Status des Meilensteins</value>
+  </data>
+  <data name="CsvColumnMilestoneTitle">
+    <value>Titel des Meilensteins</value>
+  </data>
+  <data name="CsvColumnProjectjTitle">
+    <value>Titel des Projekts</value>
+  </data>
+  <data name="CsvColumnTaskDueDate">
+    <value>Fristablauf der Aufgabe</value>
+  </data>
+  <data name="CsvColumnTaskStatus">
+    <value>Status der Aufgabe</value>
+  </data>
+  <data name="CsvColumnTaskTitle">
+    <value>Titel der Aufgabe</value>
+  </data>
+  <data name="CsvColumnUserName">
+    <value>Benutzername</value>
+  </data>
+  <data name="DaleteAllAutogen">
+    <value>Alle automatisch erstellten Berichte leeren</value>
+  </data>
+  <data name="DeadLine">
+    <value>Fristablauftermin</value>
+  </data>
+  <data name="DeleteAllTemplates">
+    <value>Alle Vorlagen löschen</value>
+  </data>
+  <data name="Department">
+    <value>{!Group}</value>
+  </data>
+  <data name="Edit">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="EditTemplate">
+    <value>Vorlage bearbeiten</value>
+  </data>
+  <data name="Empty">
+    <value>Keine Vorlagen wurden gefunden</value>
+  </data>
+  <data name="EmptyTemplateTitle">
+    <value>Ein Name muss für die Vorlage angeben werden</value>
+  </data>
+  <data name="EveryDay">
+    <value>Jeden Tag</value>
+  </data>
+  <data name="EveryMonth">
+    <value>Jeden Monat</value>
+  </data>
+  <data name="EveryWeek">
+    <value>Jede Woche</value>
+  </data>
+  <data name="EveryYear">
+    <value>Jedes Jahr</value>
+  </data>
+  <data name="ExportToCSV">
+    <value>In CSV exportieren</value>
+  </data>
+  <data name="ExportToHTML">
+    <value>In HTML exportieren</value>
+  </data>
+  <data name="ExportToXML">
+    <value>In XML exportieren</value>
+  </data>
+  <data name="Filter">
+    <value>Filter</value>
+  </data>
+  <data name="From">
+    <value>Aus</value>
+  </data>
+  <data name="Generate">
+    <value>Erstellen</value>
+  </data>
+  <data name="GenerateFromTemplate">
+    <value>Anhand der Vorlage erstellen</value>
+  </data>
+  <data name="GenerateReport">
+    <value>Bericht erstellen</value>
+  </data>
+  <data name="GenerationDate">
+    <value>Erstelldatum</value>
+  </data>
+  <data name="LastMonth">
+    <value>Vorheriger Monat</value>
+  </data>
+  <data name="LastWeek">
+    <value>Vorherige Woche</value>
+  </data>
+  <data name="LastYear">
+    <value>Vorheriges Jahr</value>
+  </data>
+  <data name="MainReportPage">
+    <value>Hauptseite der Berichte</value>
+  </data>
+  <data name="MilestonesStatus">
+    <value>Status der Meilensteine</value>
+  </data>
+  <data name="MyTemplates">
+    <value>Meine Vorlagen</value>
+  </data>
+  <data name="NoMilestonesAndTasks">
+    <value>Dieses Projekt enthält keine Meilensteine und Aufgaben</value>
+  </data>
+  <data name="Notification">
+    <value>Benachrichtigung</value>
+  </data>
+  <data name="OrThePlannedDate">
+    <value>oder das geplante Datum</value>
+  </data>
+  <data name="Other">
+    <value>Sonstiges</value>
+  </data>
+  <data name="OutOfMilestone">
+    <value>Außerhalb vom Meilenstein</value>
+  </data>
+  <data name="Participiants">
+    <value>Mitglieder</value>
+  </data>
+  <data name="PepleSubscribedToReport">
+    <value>Angemeldet für Bericht</value>
+  </data>
+  <data name="PeriodOfGeneration">
+    <value>Erstellungszeit</value>
+  </data>
+  <data name="PrintReport">
+    <value>Bericht drucken</value>
+  </data>
+  <data name="Project">
+    <value>Projekt</value>
+  </data>
+  <data name="ProjectsStatus">
+    <value>Status der Projekte</value>
+  </data>
+  <data name="ReportClosedTasks">
+    <value>Bericht über geschlossene Aufgaben</value>
+  </data>
+  <data name="ReportCompletedTasks_InfoLine">
+    <value>Bericht erstellt: {0} {1} für die Periode von {2} bis {3}</value>
+  </data>
+  <data name="ReportCompletedTasks_Title">
+    <value>Beendete Aufgaben</value>
+  </data>
+  <data name="ReportDetailed_Title">
+    <value>Detaillierte Berichte</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Description">
+    <value>{0}{2}Der Bericht über die Benutzer ohne aktive Aufgaben enthält die Liste der Benutzer, die momentan keine aktiven Aufgaben haben.{3}{2}Um alle Benutzer ohne aktive Aufgaben bei allen Projekten zu sehen, klicken Sie sofort auf "Bericht erstellen".{3}{2}Um eine bestimmte Gruppe oder einen Benutzer zu wählen, stellen Sie zuerst die Berichtparameter in der Sektion "Filter" ein und klicken Sie dann auf "Bericht erstellen".{3}{1}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_InfoLine">
+    <value>Bericht erstellt: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Title">
+    <value>Benutzer ohne aktive Aufgaben</value>
+  </data>
+  <data name="ReportEmployment_Description">
+    <value>{0}{2}Der Bericht über die Belastung enthält die Anzahl der einem Benutzer zugewiesenen Aufgaben, die nach ihrem Status gruppiert sind.{3}{2}Um die Daten für alle Benutzer zu sehen, klicken Sie sofort auf "Bericht erstellen".{3}{2}Um eine bestimmte Gruppe oder einen Benutzer zu wählen, stellen Sie zuerst die Berichtparameter in der Sektion "Filter" ein, und klicken Sie dann auf "Bericht erstellen".{3}{1}</value>
+  </data>
+  <data name="ReportEmployment_InfoLine">
+    <value>Bericht erstellt: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployment_Title">
+    <value>Belastung</value>
+  </data>
+  <data name="ReportHistory">
+    <value>Berichtshistorie</value>
+  </data>
+  <data name="ReportLateMilestones_Description">
+    <value>{0}{2}Der Bericht Überfällige Meilensteine enthält die Liste der überfälligen Meilensteine. {3}{2}Um überfällige Meilensteine bei allen Projekten zu sehen, klicken Sie sofort auf Bericht erstellen.{3}{2}Um überfällige Meilensteine nur bei einem bestimmten Projekt zu sehen, wählen Sie zuerst das gewünschte Projekt aus dem Abrollmenü in der Sektion Filter und klicken Sie dann auf Bericht erstellen.{3}{1}</value>
+  </data>
+  <data name="ReportLateMilestones_InfoLine">
+    <value>Bericht erstellt: {0} {1} {2}</value>
+  </data>
+  <data name="ReportLateMilestones_Title">
+    <value>Überfällige Meilensteine</value>
+  </data>
+  <data name="ReportLateTasks_Description">
+    <value>{0}{2}Der Bericht über überfällige Aufgaben zeigt eine Liste mit aufgeschobenen Aufgaben.{3}{2}Um überfällige Aufgaben in allen Projekten zu sehen, klicken Sie auf den Button 'Bericht erstellen'.{3}{2}Um überfällige Aufgaben nur in einem Projekt zu sehen, wählen Sie zuerst das gewünschte Projekt im Listenmenü in der Sektion 'Filter' und klicken Sie dann auf den Button 'Bericht erstellen'.{3}{1}</value>
+  </data>
+  <data name="ReportLateTasks_Title">
+    <value>Überfällige Aufgaben</value>
+  </data>
+  <data name="ReportMilestoneList_Description">
+    <value>{0}{2}Der Bericht Liste mit Meilensteinen enthält die Liste der Meilensteine, die nach ihrer Zugehörigkeit zu einem der Projekte gruppiert sind. Der Standardbericht wird die Liste der Meilensteine bei allen Projekten mit den angegebenen Fristablaufterminen enthalten.{3}{2}Um einen Bericht zu generieren, klicken Sie auf den Button Bericht erstellen.{3}{2}Klicken Sie auf den Link Filter anzeigen, um die Standardeinstellungen zu ändern. Man kann nur Meilensteine eines bestimmten Projekts oder eines bestimmten Status wählen. Sobald das Filter eingestellt ist, klicken Sie noch einmal auf Bericht erstellen, um einen neuen Bericht zu generieren.{3}{1}</value>
+  </data>
+  <data name="ReportMilestoneList_InfoLine">
+    <value>Bericht erstellt: {0} {1} {2}</value>
+  </data>
+  <data name="ReportMilestoneList_Title">
+    <value>Liste der Meilensteine</value>
+  </data>
+  <data name="ReportName">
+    <value>Name des Berichts</value>
+  </data>
+  <data name="ReportOpenTasks">
+    <value>Bericht über offene Aufgaben</value>
+  </data>
+  <data name="ReportPageTitle">
+    <value>Bericht «{0}»</value>
+  </data>
+  <data name="ReportProblemTracking_Title">
+    <value>Problemverfolgungsberichte</value>
+  </data>
+  <data name="ReportProjectList_Description">
+    <value>{0}{2}Der Bericht über die Liste mit Projekten enthält die Liste mit allen Projekten.{3}{2}Um alle aktiven Projekte mit den entsprechenden zuständigen Personen, Aufgaben, Meilensteinen, Aktionen und Projektteilnehmern zu sehen, klicken Sie sofort auf "Bericht erstellen".{3}{2}Um Projekte einer bestimmten Gruppe und/oder aktive und beendete Projekte zu sehen, stellen Sie zuerst die Berichtparameter in der Sektion "Filter" ein und klicken Sie dann auf "Bericht erstellen".{3}{1}</value>
+  </data>
+  <data name="ReportProjectList_InfoLine">
+    <value>Bericht erstellt: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectList_Title">
+    <value>Liste mit Projekten</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Description">
+    <value>{0}{2}Der Bericht über Projekte ohne aktive Meilensteine zeigt eine Liste mit Projekten ohne aktive Meilensteine.{3}{2}Um alle Projekte ohne aktive Meilensteine zu sehen, klicken Sie sofort auf "Bericht erstellen".{3}{2}Um solche Projekte bei einer Gruppe oder einem Benutzer zu sehen, wählen Sie zuerst die gewünschte Gruppe und/oder einen Benutzer in der Sektion "Filter" und klicken Sie dann auf "Bericht erstellen".{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_InfoLine">
+    <value>Bericht erstellt: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Title">
+    <value>Projekte ohne geöffnete Meilensteine</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Description">
+    <value>{0}{2}Der Bericht über Projekte ohne aktive Aufgaben enthält die Liste der Projekte, die keine aktiven Aufgaben haben.{3}{2}Um alle Projekte ohne aktive Aufgaben zu sehen, klicken Sie sofort auf "Bericht erstellen".{3}{2}Um solche Projekte bei einer bestimmten Gruppe oder einem Benutzer zu sehen, wählen Sie zuerst die gewünschte Gruppe und/oder einen Benutzer in der Sektion "Filter" und klicken Sie dann auf "Bericht erstellen".{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_InfoLine">
+    <value>Bericht erstellt: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Title">
+    <value>Projekte ohne aktive Aufgaben</value>
+  </data>
+  <data name="Reports">
+    <value>Berichte</value>
+  </data>
+  <data name="ReportStatistics_Title">
+    <value>Statistische Berichte</value>
+  </data>
+  <data name="ReportTaskList_Description">
+    <value>{0}{2}Der Bericht Aufgaben in Projekten enthält die Liste der Aufgaben, die nach ihrer Zugehörigkeit zu einem Projekt und Meilenstein gruppiert sind.{3}{2}Um die Liste der Aufgaben bei allen Projekten mit der Angabe der zuständigen Person und des Status zu sehen, klicken Sie sofort auf Bericht erstellen.{3}{2}Um Aufgaben in einem bestimmten Projekt oder von einem Status zu sehen, stellen Sie zuerst die Berichtparameter in der Sektion Filter ein und klicken Sie dann auf Bericht erstellen.{3}{1}</value>
+  </data>
+  <data name="ReportTaskList_InfoLine">
+    <value>Bericht erstellt: {0} {1} {2}</value>
+  </data>
+  <data name="ReportTaskList_Title">
+    <value>Aufgaben in Projekten</value>
+  </data>
+  <data name="ReportTimeSpend_Description">
+    <value>{0}{2}Der Bericht über die Zeitaufwendung enthält die Liste der Aufgaben mit angegebener wirklicher Arbeitszeit, die für ihre Erfüllung aufgrund der Zeitverfolgung aufgewandt wurde.{3}{2}Durch diesen Bericht kann man den Fortschritt der Aufgabenerfüllung nach aufgewandter Zeit verfolgen.{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpend_InfoLine">
+    <value>Bericht erstellt: {0} {1} für die Periode von {2} bis {3}</value>
+  </data>
+  <data name="ReportTimeSpend_Title">
+    <value>Aufgewandte Zeit</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Description">
+    <value>{0}{2}Der Bericht über die Zeitaufwendung zeigt eine Liste der Benutzer mit ihrer Gesamtarbeitszeit an, die auf dem Registrierungstagebuch basiert.{3}{2}Dieser Bericht hilft die Gesamtzeit zu kalkulieren, die von einem Benutzer für die Ausführung seiner Aufgaben aufgewandt wurde.{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_InfoLine">
+    <value>Bericht erstellt: {0} {1} für die Periode von {2} bis {3}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Title">
+    <value>Bericht über Zeitaufwendung</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Description">
+    <value>{0}{2}Der Bericht Kommende Meilensteine enthält die Liste der kommenden Meilensteine.{3}{2}Um kommende Meilensteine bei allen Projekten für eine Woche zu sehen, klicken Sie sofort auf Bericht erstellen.{3}{2}Um kommende Meilensteine für ein bestimmtes Projekt und/oder eine andere Zeitperiode zu sehen, wählen Sie zuerst das gewünschte Projekt im Abrollmenü und/oder legen Sie eine andere Zeitperiode im Feld Bis zum Datum fest und klicken Sie dann auf Bericht erstellen.{3}{1}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_InfoLine">
+    <value>Bericht erstellt: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Title">
+    <value>Kommende Meilensteine</value>
+  </data>
+  <data name="ReportUserActivity_Descripton">
+    <value>{0}{2}Der Bericht über die Aktivität des Benutzers enthält die Aktionen eines bestimmten Projektteilnehmers für eine bestimmte Zeitperiode.{3}{2}Um Ihre eigene Aktivität für letzte Woche zu sehen, klicken Sie sofort auf "Bericht erstellen".{3}{2}Um eine andere Zeitperiode festzulegen oder einen anderen Benutzer zu wählen, stellen Sie zuerst die Berichtparameter in der Sektion "Filter" ein und klicken Sie auf "Bericht erstellen".{3}{1}</value>
+  </data>
+  <data name="ReportUserActivity_InfoLine">
+    <value>Bericht erstellt: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserActivity_Title">
+    <value>Aktivität des Mitarbeiters</value>
+  </data>
+  <data name="ReportUserTasks_Description">
+    <value>{0}{2}Der Bericht über die Aufgaben des Benutzers enthält die Liste der Aufgaben, die nach den Teilnehmern gruppiert sind, den sie zugewiesen sind.{3}{2}Um die Aufgaben aller Benutzer mit dem angegebenen Status zu sehen, klicken Sie sofort auf "Bericht erstellen".{3}{2}Um Aufgaben für ein bestimmtes Projekt oder mit einem bestimmten Status zu sehen, stellen Sie zuerst die Berichtparameter in der Sektion "Filter" ein und klicken Sie auf "Bericht erstellen".{3}{1}</value>
+  </data>
+  <data name="ReportUserTasks_InfoLine">
+    <value>Bericht erstellt: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserTasks_Title">
+    <value>Aufgaben des Mitarbeiters</value>
+  </data>
+  <data name="SaveAsTemplate">
+    <value>Als Vorlage speichern</value>
+  </data>
+  <data name="SendOnEmail">
+    <value>Per E-Mail senden</value>
+  </data>
+  <data name="ShowTasks">
+    <value>Aufgaben einblenden</value>
+  </data>
+  <data name="ShowUserActivityReport">
+    <value>Bericht über Benutzeraktivität anzeigen</value>
+  </data>
+  <data name="ShowUserTasksReport">
+    <value>Bericht über Aufgaben des Mitarbeiters anzeigen</value>
+  </data>
+  <data name="TaskDone">
+    <value>Aufgaben beendet</value>
+  </data>
+  <data name="TaskReport">
+    <value>Bericht über Aufgaben</value>
+  </data>
+  <data name="TasksDone">
+    <value>Beendete Aufgaben</value>
+  </data>
+  <data name="TasksStatus">
+    <value>Status der Aufgaben</value>
+  </data>
+  <data name="TasksWorkingOn">
+    <value>Aufgaben im Gang</value>
+  </data>
+  <data name="TemplateAndAutogen">
+    <value>Vorlage und automatische Erstellung</value>
+  </data>
+  <data name="TemplateName">
+    <value>Name der Vorlage</value>
+  </data>
+  <data name="TemplateNotFound_Body">
+    <value>Es könnte sein, dass die Vorlage gelöscht wurde, oder es gibt keine Vorlage mit dieser Nummer</value>
+  </data>
+  <data name="TemplateNotFound_Header">
+    <value>Vorlage nicht gefunden</value>
+  </data>
+  <data name="TemplateNotFound_RedirectTitle">
+    <value>Zur Liste mit Vorlagen übergehen</value>
+  </data>
+  <data name="Templates">
+    <value>Vorlagen</value>
+  </data>
+  <data name="TemplateTitle">
+    <value>Name der Vorlage</value>
+  </data>
+  <data name="ThisMonth">
+    <value>Aktueller Monat</value>
+  </data>
+  <data name="ThisWeek">
+    <value>Aktuelle Woche</value>
+  </data>
+  <data name="ThisYear">
+    <value>Aktuelles Jahr</value>
+  </data>
+  <data name="Today">
+    <value>Heute</value>
+  </data>
+  <data name="User">
+    <value>Mitarbeiter</value>
+  </data>
+  <data name="UseTemplate">
+    <value>Vorlage verwenden</value>
+  </data>
+  <data name="ViewByDepartments">
+    <value>{!Groups}</value>
+  </data>
+  <data name="ViewByParticipant">
+    <value>Nach Mitarbeiter anzeigen</value>
+  </data>
+  <data name="ViewByProjects">
+    <value>Nach Projekt anzeigen</value>
+  </data>
+  <data name="ViewByUsers">
+    <value>Nach Mitarbeiter anzeigen</value>
+  </data>
+  <data name="ViewByUserTasks">
+    <value>Nach Aufgaben des Benutzers anzeigen</value>
+  </data>
+  <data name="ViewClosedMilestones">
+    <value>Beendete Meilensteine anzeigen</value>
+  </data>
+  <data name="ViewClosedProjects">
+    <value>Beendete Projekte anzeigen</value>
+  </data>
+  <data name="ViewInfo">
+    <value>Berichtdaten anzeigen</value>
+  </data>
+  <data name="ViewOnlyMyProjecs">
+    <value>Nur meine Projekte anzeigen</value>
+  </data>
+  <data name="Week">
+    <value>Woche</value>
+  </data>
+  <data name="Weeks">
+    <value>Wochen</value>
+  </data>
+  <data name="Yesterday">
+    <value>Gestern</value>
+  </data>
+</root>

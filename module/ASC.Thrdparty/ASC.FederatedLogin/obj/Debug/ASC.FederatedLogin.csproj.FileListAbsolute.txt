@@ -1,0 +1,20 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\callback.htm
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\ASC.FederatedLogin.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\ASC.FederatedLogin.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\ASC.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\ASC.Thrdparty.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\DotNetOpenAuth.ApplicationBlock.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\DotNetOpenAuth.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\obj\Debug\ASC.FederatedLogin.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\obj\Debug\ASC.FederatedLogin.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\callback.htm
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\ASC.FederatedLogin.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\ASC.FederatedLogin.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\ASC.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\ASC.Thrdparty.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\DotNetOpenAuth.ApplicationBlock.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\bin\Debug\DotNetOpenAuth.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\obj\Debug\ASC.FederatedLogin.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.FederatedLogin\obj\Debug\ASC.FederatedLogin.pdb

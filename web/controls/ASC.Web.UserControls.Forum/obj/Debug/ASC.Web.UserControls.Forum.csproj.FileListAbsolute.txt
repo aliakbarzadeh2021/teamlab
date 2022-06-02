@@ -1,0 +1,21 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.csproj.GenerateResource.Cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\ASC.Web.UserControls.Forum.Resources.ForumUCResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\GenerateResource.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Forum\obj\Debug\GenerateResource.write.1.tlog

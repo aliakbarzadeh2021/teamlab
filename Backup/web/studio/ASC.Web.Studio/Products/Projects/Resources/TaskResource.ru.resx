@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accept">
+    <value>Начать выполнение</value>
+  </data>
+  <data name="ActiveTaskCheckBoxTooltip">
+    <value>Щелкните здесь, чтобы закрыть задачу</value>
+  </data>
+  <data name="AddNewTask">
+    <value>Поставить новую задачу</value>
+  </data>
+  <data name="AddTask">
+    <value>Поставить задачу</value>
+  </data>
+  <data name="AddThisTask">
+    <value>Поставить эту задачу</value>
+  </data>
+  <data name="AddToDo">
+    <value>Добавить</value>
+  </data>
+  <data name="All">
+    <value>Все</value>
+  </data>
+  <data name="AllActiveTasks">
+    <value>Все активные задачи</value>
+  </data>
+  <data name="AllTasks">
+    <value>Все задачи</value>
+  </data>
+  <data name="AssociateToMilestone">
+    <value>Связать с вехой</value>
+  </data>
+  <data name="BrowseClosed">
+    <value>Показать закрытые личные задачи</value>
+  </data>
+  <data name="ChangeStatus">
+    <value>Сменить статус</value>
+  </data>
+  <data name="ClosedTaskCheckBoxTooltip">
+    <value>Щелкните здесь, чтобы возобновить задачу</value>
+  </data>
+  <data name="CompleteTask">
+    <value>Завершить задачу</value>
+  </data>
+  <data name="CreatingDate">
+    <value>Дата создания</value>
+  </data>
+  <data name="DaysLeft">
+    <value>дней осталось</value>
+  </data>
+  <data name="DeadLine">
+    <value>Срок выполнения</value>
+  </data>
+  <data name="EmptyScreenAllActiveTasksHeaderContent">
+    <value>Нет активных задач в проекте</value>
+  </data>
+  <data name="EmptyScreenAllTasksHeaderContent">
+    <value>Нет задач в проекте</value>
+  </data>
+  <data name="EmptyScreenByUserActiveTasksHeaderContent">
+    <value>Нет активных задач, назначенных на «{0}»</value>
+  </data>
+  <data name="EmptyScreenByUserTasksHeaderContent">
+    <value>Нет задач, назначенных на «{0}»</value>
+  </data>
+  <data name="EmptyScreenHeaderContent">
+    <value>Добавить первую задачу в этот проект</value>
+  </data>
+  <data name="EmptyScreenHeaderDescribe">
+    <value>Добавляйте задачи, выполняйте их, назначайте ответственных, организуйте командную работу.</value>
+  </data>
+  <data name="EmptyScreenMyActiveTasksHeaderContent">
+    <value>Нет активных задач, назначенных на Вас</value>
+  </data>
+  <data name="EmptyScreenMyTasksHeaderContent">
+    <value>Нет задач, назначенных на Вас</value>
+  </data>
+  <data name="EmptyScreenTaskTemplate">
+    <value>Добавить первую задачу в этот шаблон проекта</value>
+  </data>
+  <data name="EmptyScreenTaskTemplateDescription">
+    <value>Поставьте задачи, свяжите их с вехами, назначьте ответственных.</value>
+  </data>
+  <data name="ExampleToDo">
+    <value>Пример: Встретиться с Джоном Доу сегодня с 15:00 до 16:00</value>
+  </data>
+  <data name="ExecuteGroupOperation">
+    <value>Выполнить груповую операцию</value>
+  </data>
+  <data name="ExecutingGroupOperation">
+    <value>Выполнение групповой операции...</value>
+  </data>
+  <data name="FilesToTheTask">
+    <value>Файлы к задаче</value>
+  </data>
+  <data name="Future">
+    <value>Будущее</value>
+  </data>
+  <data name="GroupTaskConfirm">
+    <value>Вы уверены, что хотите выполнить груповую операцию?</value>
+  </data>
+  <data name="HideClosedTasks">
+    <value>Скрыть закрытые задачи</value>
+  </data>
+  <data name="HighPriority_Title">
+    <value>Высокий приоритет</value>
+  </data>
+  <data name="LowPriority_Title">
+    <value>Низкий приоритет</value>
+  </data>
+  <data name="MarkedAS">
+    <value>Помечена как</value>
+  </data>
+  <data name="MarkingAsNB">
+    <value>Пометить как {0}NB{1}</value>
+  </data>
+  <data name="MoveTaskToAnotherMilestone">
+    <value>Перемещение задачи в другую веху</value>
+  </data>
+  <data name="MoveToMilestone">
+    <value>Переместить в веху</value>
+  </data>
+  <data name="MyNewTasks">
+    <value>Мои новые задачи</value>
+  </data>
+  <data name="MyTasks">
+    <value>Мои задачи</value>
+  </data>
+  <data name="NB">
+    <value>Обрати внимание</value>
+  </data>
+  <data name="None">
+    <value>нет</value>
+  </data>
+  <data name="NotifyManagerAboutTaskCreate">
+    <value>Менеджеру проекта и ответственному отправлено оповещение о создании задачи «{0}»</value>
+  </data>
+  <data name="NotifyResponsibleInfo">
+    <value>Ответственное лицо будет оповещено по e-mail</value>
+  </data>
+  <data name="NotifyTaskResponsible">
+    <value>{0} получит напоминание о задаче «{1}»</value>
+  </data>
+  <data name="OneList">
+    <value>Общий список</value>
+  </data>
+  <data name="PersonalToDo">
+    <value>Список личных задач</value>
+  </data>
+  <data name="Priority">
+    <value>Приоритет</value>
+  </data>
+  <data name="ProjectsMilestones">
+    <value>Проекты / Вехи</value>
+  </data>
+  <data name="Remind">
+    <value>Напомнить ответственному о задаче</value>
+  </data>
+  <data name="SavingTask">
+    <value>Сохранение задачи...</value>
+  </data>
+  <data name="ShowClosedTasks">
+    <value>Показать закрытые задачи</value>
+  </data>
+  <data name="ShowMore">
+    <value>Показать еще</value>
+  </data>
+  <data name="ShowTasksWithoutResponsible">
+    <value>Включать задачи без ответственного</value>
+  </data>
+  <data name="Start">
+    <value>Запустить</value>
+  </data>
+  <data name="SwitchToTaskList">
+    <value>Перейти к задачам проекта</value>
+  </data>
+  <data name="SwitchToToDoList">
+    <value>Перейти к личным задачам</value>
+  </data>
+  <data name="Task">
+    <value>Задача</value>
+  </data>
+  <data name="TaskClosed">
+    <value>Завершить</value>
+  </data>
+  <data name="TaskDeadlineLateInfo">
+    <value>Просрочена с</value>
+  </data>
+  <data name="TaskDescription">
+    <value>Описание задачи</value>
+  </data>
+  <data name="TaskList">
+    <value>Список задач</value>
+  </data>
+  <data name="TaskNotFound_Body">
+    <value>Возможно, она была удалена, либо в проекте не существует задачи с таким ID</value>
+  </data>
+  <data name="TaskNotFound_Header">
+    <value>Задача не найдена</value>
+  </data>
+  <data name="TaskNotFound_RedirectTitle">
+    <value>Перейти к списку задач</value>
+  </data>
+  <data name="TaskOpen">
+    <value>Начать выполнение</value>
+  </data>
+  <data name="TaskProducer">
+    <value>Постановщик</value>
+  </data>
+  <data name="TaskReopen">
+    <value>Возобновить</value>
+  </data>
+  <data name="TaskResponsible">
+    <value>Ответственный</value>
+  </data>
+  <data name="Tasks">
+    <value>Задачи</value>
+  </data>
+  <data name="TasksByParticipant">
+    <value>Задачи по ответственному</value>
+  </data>
+  <data name="TasksByParticipantHeader">
+    <value>Задачи, назначенные на «{0}»</value>
+  </data>
+  <data name="TaskStopExecute">
+    <value>Приостановить </value>
+  </data>
+  <data name="TaskTitle">
+    <value>Название задачи</value>
+  </data>
+  <data name="ThisDay">
+    <value>Сегодня</value>
+  </data>
+  <data name="TitleClosedByPanel">
+    <value>Закрыта пользователем {0} {1}</value>
+  </data>
+  <data name="Tommorow">
+    <value>Завтра</value>
+  </data>
+  <data name="UnsortedTask">
+    <value>Нераспределенные задачи</value>
+  </data>
+  <data name="WhatDoYouWant">
+    <value>Что Вы хотите сделать?</value>
+  </data>
+  <data name="WillBeMovedToMilestone">
+    <value>Будет перемещена в веху</value>
+  </data>
+  <data name="WithoutResponsible">
+    <value>Без ответственного</value>
+  </data>
+</root>

@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_AddComment_Name">
+    <value>发表评论</value>
+  </data>
+  <data name="Action_AddPage_Name">
+    <value>新页面</value>
+  </data>
+  <data name="Action_EditPage_Name">
+    <value>编辑页面</value>
+  </data>
+  <data name="Action_RemoveFile_Name">
+    <value>删除文件</value>
+  </data>
+  <data name="Action_RemovePage_Name">
+    <value>删除页面</value>
+  </data>
+  <data name="Action_UploadFile_Name">
+    <value>上传文件</value>
+  </data>
+  <data name="Actions">
+    <value>操作</value>
+  </data>
+  <data name="Author">
+    <value>作者</value>
+  </data>
+  <data name="cfmDeleteFile">
+    <value>删除文件吗？</value>
+  </data>
+  <data name="cfmDeletePage">
+    <value>删除页面？</value>
+  </data>
+  <data name="cmdCancel">
+    <value>取消</value>
+  </data>
+  <data name="cmdDelete">
+    <value>删除</value>
+  </data>
+  <data name="cmdEdit">
+    <value>编辑</value>
+  </data>
+  <data name="cmdHide">
+    <value>关闭</value>
+  </data>
+  <data name="cmdPreview">
+    <value>预览</value>
+  </data>
+  <data name="cmdPrint">
+    <value>打印</value>
+  </data>
+  <data name="cmdPublish">
+    <value>发布</value>
+  </data>
+  <data name="cmdRevert">
+    <value>还原</value>
+  </data>
+  <data name="cmdSave">
+    <value>保存</value>
+  </data>
+  <data name="cmdUpload">
+    <value>上传</value>
+  </data>
+  <data name="Date">
+    <value>日期</value>
+  </data>
+  <data name="ErrorNotCorrectMaxPageCountSettings">
+    <value>无效的页数</value>
+  </data>
+  <data name="InfoPageName">
+    <value>维基</value>
+  </data>
+  <data name="ListWikiActions">
+    <value>操作</value>
+  </data>
+  <data name="ListWikiFileInfo">
+    <value>文件信息</value>
+  </data>
+  <data name="ListWikiFileName">
+    <value>文件名</value>
+  </data>
+  <data name="ListWikiPageInfo">
+    <value>页面信息</value>
+  </data>
+  <data name="ListWikiPageName">
+    <value>页面标题</value>
+  </data>
+  <data name="MainWikiAddNewFile">
+    <value>新文件</value>
+  </data>
+  <data name="MainWikiAddNewPage">
+    <value>新页面</value>
+  </data>
+  <data name="MainWikiCaption">
+    <value>首页</value>
+  </data>
+  <data name="MainWikiEditFile">
+    <value>编辑文件</value>
+  </data>
+  <data name="MainWikiEditPage">
+    <value>编辑页面</value>
+  </data>
+  <data name="MaxLastPagesCountSettingsTitle">
+    <value>显示的页面数量（1到30）</value>
+  </data>
+  <data name="menu_AddNewFile">
+    <value>上传文件</value>
+  </data>
+  <data name="menu_AddNewPage">
+    <value>创建新页面</value>
+  </data>
+  <data name="menu_CreateThePage">
+    <value>创建页面</value>
+  </data>
+  <data name="menu_DeleteThePage">
+    <value>删除页面</value>
+  </data>
+  <data name="menu_EditThePage">
+    <value>编辑页面</value>
+  </data>
+  <data name="menu_FreshEditPages">
+    <value>最近编辑</value>
+  </data>
+  <data name="menu_Help">
+    <value>帮助</value>
+  </data>
+  <data name="menu_ListCategories">
+    <value>分类</value>
+  </data>
+  <data name="menu_ListFiles">
+    <value>文件</value>
+  </data>
+  <data name="menu_ListPages">
+    <value>索引</value>
+  </data>
+  <data name="menu_MainPage">
+    <value>首页</value>
+  </data>
+  <data name="menu_NewPages">
+    <value>新页面</value>
+  </data>
+  <data name="menu_PrintThePage">
+    <value>打印此页</value>
+  </data>
+  <data name="menu_ShowVersions">
+    <value>查看历史记录</value>
+  </data>
+  <data name="ModuleName">
+    <value>维基</value>
+  </data>
+  <data name="msgInternalError">
+    <value>发生内部错误。请联系管理员。</value>
+  </data>
+  <data name="msgPageNameEmpty">
+    <value>页面标题字段是空的。</value>
+  </data>
+  <data name="msgSamePageExists">
+    <value>已经存在相同的页面标题。</value>
+  </data>
+  <data name="NotifyAction_NewPage">
+    <value>新页面</value>
+  </data>
+  <data name="PagePreview">
+    <value>预览</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>请稍候...</value>
+  </data>
+  <data name="SearchDefaultString">
+    <value>维基搜索</value>
+  </data>
+  <data name="wiki_PageContCaption">
+    <value>页面</value>
+  </data>
+  <data name="wiki_PageContGoButton">
+    <value>搜</value>
+  </data>
+  <data name="WikiBreadcrumbsModuleName">
+    <value>维基</value>
+  </data>
+  <data name="wikiFileUploadSubject">
+    <value>上传文件</value>
+  </data>
+  <data name="wikiSearchCaption">
+    <value>维基搜索</value>
+  </data>
+  <data name="wikiSearchContentFormat">
+    <value>"{0}"</value>
+  </data>
+  <data name="wikiSize">
+    <value>大小</value>
+  </data>
+  <data name="wikiSizeGB">
+    <value>GB</value>
+  </data>
+  <data name="wikiSizeKB">
+    <value>KB</value>
+  </data>
+  <data name="wikiVersion_Number">
+    <value>#</value>
+  </data>
+  <data name="wikiWidgetAllPages">
+    <value>所有页面</value>
+  </data>
+  <data name="WikiWidgetTitle">
+    <value>维基</value>
+  </data>
+</root>

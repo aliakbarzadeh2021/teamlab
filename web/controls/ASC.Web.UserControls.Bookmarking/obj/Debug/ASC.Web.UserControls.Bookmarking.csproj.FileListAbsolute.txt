@@ -1,0 +1,21 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.csproj.GenerateResource.Cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\ASC.Web.UserControls.Bookmarking.Resources.BookmarkingUCResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\GenerateResource.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Bookmarking\obj\Debug\GenerateResource.write.1.tlog

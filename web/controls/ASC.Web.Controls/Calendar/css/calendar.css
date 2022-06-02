@@ -1,0 +1,307 @@
+﻿.calendar-navigation-panel
+{
+    margin-bottom:15px;
+    z-index:10;
+    width: 99.4% !important;
+}
+.wbs_week, .wbs_month, .calendar-week-days, .calendar-navigation-panel
+{
+    position:relative;
+    width:100%;
+    z-index:1;
+}
+.calendar-font-11
+{
+    font-size:11px;
+}
+.button-splitter
+{
+	padding:0 4px;
+}
+.pm-h-line
+{
+	background-color:#D1D1D1;
+	height:1px;
+	line-height:1px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.pm-headerPanel-splitter
+{
+	margin-bottom:20px;
+}
+table.pm-tablebase
+{
+	border-collapse:collapse;
+	width:100%;
+}
+.pm-tablebase thead tr td
+{
+	border-left:medium none !important;
+	border-right:medium none !important;
+	border-top:medium none !important;
+	padding:5px 15px;
+}
+table.pm-tablebase thead td 
+{
+	color:#82878D;
+	font-size:12px;
+	text-align:left;
+}
+table.pm-tablebase tbody td
+{
+	border-left:medium none;
+	border-right:medium none;
+	text-align:left;
+	vertical-align:middle;
+}
+a.r
+{
+    background:none repeat scroll 0 0 #EFEFEF;
+	border:1px solid #AAAAAA;
+	color:#000000 !important;
+	font-size:11px;
+	font-weight:bold;
+	margin-right:1px;
+	padding:4px 0;
+	text-align:center;
+	text-decoration:none;
+	width:120px;
+}
+a.r:hover
+{
+	color:#000000;
+	border: 1px solid #DDDDDD;
+}
+.calendar-navigation-panel-left
+{
+    left:0;
+    position:absolute;
+    top:0;
+    z-index:9;
+}
+.calendar-navigation-panel-right
+{
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:9;
+}
+*
+{
+    outline:medium none;
+}
+.calendar-navigation-panel-drop
+{
+    background:none repeat scroll 0 0 #FFFFFF;
+    margin-left:0;
+    margin-top:-5px;
+    position:absolute;
+    z-index:11;
+}
+.calendar-navigation-panel-title
+{
+    font-size:20px;
+    margin-bottom:5px;
+    text-align:center;
+}
+.wbs_month .wbs_day
+{
+    border-bottom:1px solid #CCCCCC;
+    border-right:1px solid #CCCCCC;
+    height:100%;
+    margin-right:-1px;
+}
+.wbs_week
+{
+    float:left;
+    height:100px;
+    border-left:1px solid #CCCCCC;
+}
+.calendar-week-days div, .wbs_month .wbs_day
+{
+    float:left;
+    font-size:11px;
+    text-align:center;
+    width:14.2%;
+}
+.wbs_number
+{
+    background:none repeat scroll 0 0 #F1F1F1;
+    height:15px;
+    text-align: center;
+    border-bottom:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+}
+.wbs_number_empty
+{
+    height:15px;
+    text-align: center;
+	border-top:1px solid #CCCCCC;
+}
+.calendar-week-days div
+{
+    border-bottom:1px solid #CCCCCC;
+    color:Gray;
+    font-size:11px;
+    padding:6px 0;
+}
+.wbs_weekend
+{
+    background:#EFEFEF;
+}
+.wbs_event
+{
+    color:white;
+    font-size:11px;
+    height:15px;
+    overflow:hidden;
+    position:absolute;
+    width:14.2%;
+    z-index:5;
+    background: #5A30FF;
+    cursor: pointer;
+}
+#popup
+{
+    position:absolute;
+    width:360px;
+    z-index:10;
+    display:none;
+}
+.wbs_day.today
+{
+    background-color:#FFFDDD;
+    border:1px solid Orange;
+    height:98%;
+}
+.wbs_day.week_today
+{
+    background-color:#FFFDDD;
+    border:1px solid Orange;
+    border-right:2px solid Orange;
+    height:98%;
+}
+.wbs_number.today
+{
+    background:Orange;
+    color:#FFFFFF;
+    border-bottom:medium none;
+	border-left:medium none;
+	border-top:medium none;
+}
+.wbs_day.day
+{
+    background:#FFFFFF;
+	border-left:1px solid #CCCCCC;
+}
+.wbs_day.selected
+{
+    background-color:#FFFCCC;
+}
+.headerPanelSmall
+{
+	margin-bottom: 5px;
+}
+.pm-headerPanelSmall-splitter
+{
+	margin-bottom: 10px;
+}
+.pm-tablebase thead tr td
+{
+	padding:5px 15px;
+	border-left:medium none!important;
+	border-right:medium none!important;
+	border-top:medium none!important;
+}
+
+.f11
+{
+font-size:11px;
+line-height:1.6em;
+border-collapse:collapse;
+}
+
+#week_table tr.double
+{
+border-bottom:3px double #CCCCCC;
+}
+
+#week_table tr
+{
+
+}
+
+#week_table tbody
+{
+color:#9B9B9B;
+}
+
+#week_table td
+{
+border-bottom:1px solid #CCCCCC;
+border-right:1px solid #CCCCCC;
+height:24px;
+padding:0;
+width:12.5%;
+text-align:center;
+}
+
+#week_table div
+{
+height:22px;
+position:relative;
+width:90%;
+}
+
+#week_table div.tagged_item
+{
+background:#5A30FF;
+color:white;
+overflow:hidden;
+position:absolute;
+text-align:left;
+top:0;
+}
+
+#week_table div.eventSplitter
+{
+position:absolute;
+top:0;
+}
+
+#week_table .today
+{
+background:none repeat scroll 0 0 #FFFDDD;
+font-weight:bold !important;
+}
+#week_table .week_today
+{
+background:none repeat scroll 0 0 #FFFDDD;
+font-weight:bold !important;
+}
+
+#week_table td.selected
+{
+ 	background-color:#FFFCCC;
+}
+.viewSwitcherItem, .viewSwithcerSelectedItem
+{
+height:17px;
+padding:4px 9px;
+}
+.viewSwithcerSelectedItem
+{
+background-color:#E8F2FC;
+font-weight:bold;
+}
+#filterBlock
+{
+border-left:medium none;
+border-right:medium none;
+margin-bottom:20px;
+padding:10px 0;
+text-align:right;
+height: 15px;
+}

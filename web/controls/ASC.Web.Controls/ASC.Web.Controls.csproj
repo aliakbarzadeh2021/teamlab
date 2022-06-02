@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{205BE118-D0A5-4BFA-A261-E2C42119771F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ASC.Web.Controls</RootNamespace>
+    <AssemblyName>ASC.Web.Controls</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Nonshipping>true</Nonshipping>
+    <SignAssembly>false</SignAssembly>
+    <TrunkDir>..\..\..\</TrunkDir>
+    <AssemblyOriginatorKeyFile>$(TrunkDir)ASC.snk</AssemblyOriginatorKeyFile>
+    <RedDir Condition=" '$(RedDir)' == '' ">$(TrunkDir)redistributable\asc\</RedDir>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxPro.2, Version=9.2.17.1, Culture=neutral, PublicKeyToken=4735ae9824c7d3ec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\redistributable\third-party\Web\AjaxPro.2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\redistributable\asc\ASC.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Core.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\redistributable\asc\ASC.Core.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Data.Storage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\redistributable\asc\ASC.Data.Storage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Web.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\redistributable\asc\ASC.Web.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionButton\ActionButton.cs" />
+    <Compile Include="AdvancedUserSelector\AdvancedUserSelector.cs" />
+    <Compile Include="BBCodeParser\ExpressionReplacement.cs" />
+    <Compile Include="BBCodeParser\InternalHelpClassies.cs" />
+    <Compile Include="BBCodeParser\Node.cs" />
+    <Compile Include="BBCodeParser\Parser.cs" />
+    <Compile Include="BBCodeParser\ParserConfiguration.cs" />
+    <Compile Include="BBCodeParser\RegularExpressionTemplate.cs" />
+    <Compile Include="BBCodeParser\TagConfiguration.cs" />
+    <Compile Include="BBCodeParser\TagParamOption.cs" />
+    <Compile Include="BBCodeTextArea\BBCodeButtons.cs" />
+    <Compile Include="BBCodeTextArea\BBCodeTagType.cs" />
+    <Compile Include="BBCodeTextArea\BBCodeTextArea.cs" />
+    <Compile Include="BBCodeTextArea\Smiles.cs" />
+    <Compile Include="Calendar\Calendar.cs" />
+    <Compile Include="Calendar\CalendarEvent.cs" />
+    <Compile Include="CodeHighlighter\CodeHighlighter.cs" />
+    <Compile Include="CodeHighlighter\CodeLanguage.cs" />
+    <Compile Include="CodeHighlighter\HighlightStyle.cs" />
+    <Compile Include="CodeHighlighter\LanguageHighlightItem.cs" />
+    <Compile Include="ColorPicker\ColorPicker.cs" />
+    <Compile Include="ColorPicker\EventArgs\ColorPickerEA.cs" />
+    <Compile Include="Comments\CommentInfo.cs" />
+    <Compile Include="Comments\Comments.cs" />
+    <Compile Include="Comments\CommentsHelper.cs" />
+    <Compile Include="Container\Classes\BreadCrumb.cs" />
+    <Compile Include="Container\Classes\Enumirations.cs" />
+    <Compile Include="Container\Container.cs" />
+    <Compile Include="Container\Classes\StyleOptions.cs" />
+    <Compile Include="FileUploader\ProgressFileUploader.cs" />
+    <Compile Include="FileUploader\HttpModule\EntityBodyChunkReader.cs" />
+    <Compile Include="FileUploader\HttpModule\EntityBodyChunkStateWaiter.cs" />
+    <Compile Include="FileUploader\HttpModule\EntityBodyInspector.cs" />
+    <Compile Include="FileUploader\HttpModule\HttpUploadWorkerRequest.cs" />
+    <Compile Include="FileUploader\HttpModule\UploadProgressHandler.cs" />
+    <Compile Include="FileUploader\HttpModule\UploadProgressModule.cs">
+    </Compile>
+    <Compile Include="FileUploader\HttpModule\UploadProgressStatistic.cs" />
+    <Compile Include="FileUploader\HttpModule\UploadProgressUtils.cs" />
+    <Compile Include="Highlighter\CodeFormat\CLikeFormat.cs" />
+    <Compile Include="Highlighter\CodeFormat\CodeFormat.cs" />
+    <Compile Include="Highlighter\CodeFormat\CppFormat.cs" />
+    <Compile Include="Highlighter\CodeFormat\CSharpFormat.cs" />
+    <Compile Include="Highlighter\CodeFormat\HtmlFormat.cs" />
+    <Compile Include="Highlighter\CodeFormat\JavaScriptFormat.cs" />
+    <Compile Include="Highlighter\CodeFormat\MshFormat.cs" />
+    <Compile Include="Highlighter\CodeFormat\SourceFormat.cs" />
+    <Compile Include="Highlighter\CodeFormat\TsqlFormat.cs" />
+    <Compile Include="Highlighter\CodeFormat\VisualBasicFormat.cs" />
+    <Compile Include="Highlighter\Highlighter.cs" />
+    <Compile Include="Highlighter\LangType.cs" />
+    <Compile Include="HtmlDocument\crc32.cs" />
+    <Compile Include="HtmlDocument\EncodingFoundException.cs" />
+    <Compile Include="HtmlDocument\HtmlAttribute.cs" />
+    <Compile Include="HtmlDocument\HtmlAttributeCollection.cs" />
+    <Compile Include="HtmlDocument\HtmlCmdLine.cs" />
+    <Compile Include="HtmlDocument\HtmlCommentNode.cs" />
+    <Compile Include="HtmlDocument\HtmlConsoleListener.cs" />
+    <Compile Include="HtmlDocument\HtmlDocument.cs" />
+    <Compile Include="HtmlDocument\HtmlElementFlag.cs" />
+    <Compile Include="HtmlDocument\HtmlEntity.cs" />
+    <Compile Include="HtmlDocument\HtmlNameTable.cs" />
+    <Compile Include="HtmlDocument\HtmlNode.cs" />
+    <Compile Include="HtmlDocument\HtmlNodeCollection.cs" />
+    <Compile Include="HtmlDocument\HtmlNodeNavigator.cs" />
+    <Compile Include="HtmlDocument\HtmlNodeType.cs" />
+    <Compile Include="HtmlDocument\HtmlParseError.cs" />
+    <Compile Include="HtmlDocument\HtmlParseErrorCode.cs" />
+    <Compile Include="HtmlDocument\HtmlTextNode.cs" />
+    <Compile Include="HtmlDocument\HtmlWeb.cs" />
+    <Compile Include="HtmlDocument\HtmlWebException.cs" />
+    <Compile Include="HtmlDocument\IOLibrary.cs" />
+    <Compile Include="HtmlDocument\MixedCodeDocument.cs" />
+    <Compile Include="HtmlDocument\MixedCodeDocumentCodeFragment.cs" />
+    <Compile Include="HtmlDocument\MixedCodeDocumentFragment.cs" />
+    <Compile Include="HtmlDocument\MixedCodeDocumentFragmentList.cs" />
+    <Compile Include="HtmlDocument\MixedCodeDocumentFragmentType.cs" />
+    <Compile Include="HtmlDocument\MixedCodeDocumentTextFragment.cs" />
+    <Compile Include="HtmlDocument\NameValuePair.cs" />
+    <Compile Include="HtmlDocument\NameValuePairList.cs" />
+    <Compile Include="JsHtmlDecoder\JsHtmlDecoder.cs" />
+    <Compile Include="PageNavigator\PageNavigator.cs" />
+    <Compile Include="PollForm\PollFormMaster.cs" />
+    <Compile Include="PollForm\PollForm.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AdvancedUserSelectorResource.Designer.cs">
+      <DependentUpon>AdvancedUserSelectorResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Resources\CalendarResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CalendarResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\CommentsResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommentsResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\PageNavigator.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PageNavigator.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\PollForm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PollForm.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\UserSelectorResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserSelectorResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ViewSwitcherResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ViewSwitcherResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Scroller\Scroller.cs" />
+    <Compile Include="UserSelector\UserSelector.cs" />
+    <Compile Include="Tabs\Tab.cs" />
+    <Compile Include="Tabs\Tabs.cs" />
+    <Compile Include="TagCloud\TagCloud.cs" />
+    <Compile Include="TreeViewPro\TreeViewPro.cs" />
+    <Compile Include="TreeViewPro\TreeViewProScriptManager.cs" />
+    <Compile Include="Utils\HtmlUtility.cs" />
+    <Compile Include="ViewSwitcher\ViewSwitcher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher\ViewSwitcherBaseItem.cs" />
+    <Compile Include="ViewSwitcher\ViewSwitcherCombobox.cs" />
+    <Compile Include="ViewSwitcher\ViewSwitcherComboboxItem.cs" />
+    <Compile Include="ViewSwitcher\ViewSwitcherLinkItem.cs" />
+    <Compile Include="ViewSwitcher\ViewSwitcherTabItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BBCodeTextArea\js\bbcodeeditor.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BBCodeTextArea\Images\text_bold.png" />
+    <EmbeddedResource Include="BBCodeTextArea\Images\text_italic.png" />
+    <EmbeddedResource Include="BBCodeTextArea\Images\text_strike.png" />
+    <EmbeddedResource Include="BBCodeTextArea\Images\text_underline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BBCodeTextArea\Images\code.png" />
+    <EmbeddedResource Include="BBCodeTextArea\Images\comments.png" />
+    <EmbeddedResource Include="BBCodeTextArea\Images\image.png" />
+    <EmbeddedResource Include="BBCodeTextArea\Images\mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BBCodeTextArea\Images\world_link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BBCodeTextArea\css\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CodeHighlighter\css\ascetic.css" />
+    <EmbeddedResource Include="CodeHighlighter\css\dark.css" />
+    <EmbeddedResource Include="CodeHighlighter\css\default.css" />
+    <EmbeddedResource Include="CodeHighlighter\css\far.css" />
+    <EmbeddedResource Include="CodeHighlighter\css\idea.css" />
+    <EmbeddedResource Include="CodeHighlighter\css\magula.css" />
+    <EmbeddedResource Include="CodeHighlighter\css\sunburst.css" />
+    <EmbeddedResource Include="CodeHighlighter\css\vs.css" />
+    <EmbeddedResource Include="CodeHighlighter\css\zenburn.css" />
+    <EmbeddedResource Include="CodeHighlighter\js\highlight.pack.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TreeViewPro\js\treeviewprototype.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TreeViewPro\Images\minus.png" />
+    <EmbeddedResource Include="TreeViewPro\Images\plus.png" />
+    <EmbeddedResource Include="TreeViewPro\css\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Comments\Images\comment_delete.png" />
+    <EmbeddedResource Include="Comments\Images\comment_edit.png" />
+    <EmbeddedResource Include="Comments\Images\comment_response.png" />
+    <EmbeddedResource Include="Comments\Images\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ColorPicker\Css\ColorPicker.css" />
+    <EmbeddedResource Include="ColorPicker\JavaScript\rgbcolor.js" />
+    <EmbeddedResource Include="ColorPicker\ToolboxBitmaps\ColorPicker.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BBCodeTextArea\Images\smile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Comments\Images\comments_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Container\ToolboxBitmaps\Container.bmp" />
+    <EmbeddedResource Include="Scroller\ToolboxBitmaps\Scroller.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Container\Css\ContainerDefault.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Tabs\ToolboxBitmaps\Tabs.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Tabs\Css\TabsDefault.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PollForm\js\pollform.js" />
+    <EmbeddedResource Include="Resources\PollForm.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PollForm\css\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Container\Css\Images\cancelButton.png" />
+    <EmbeddedResource Include="Resources\PollForm.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PollForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Comments\js\comments.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Comments\js\onReady.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FileUploader\js\fileuploader.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FileUploader\js\swfupload.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FileUploader\js\ajaxupload.js" />
+    <EmbeddedResource Include="Resources\PageNavigator.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PageNavigator.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PageNavigator.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSwitcher\js\viewswitcher.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ActionButton\js\actionbutton.js" />
+    <EmbeddedResource Include="ActionButton\images\ajax_progress_loader.gif" />
+    <EmbeddedResource Include="Calendar\css\calendar.css" />
+    <EmbeddedResource Include="Calendar\js\calendar.js" />
+    <EmbeddedResource Include="Calendar\js\jscolor.js" />
+    <EmbeddedResource Include="Calendar\images\arrow.gif" />
+    <EmbeddedResource Include="Calendar\images\cross.gif" />
+    <EmbeddedResource Include="Calendar\images\hs.png" />
+    <EmbeddedResource Include="Calendar\images\hv.png" />
+    <EmbeddedResource Include="AdvancedUserSelector\js\AdvUserSelectorScript.js" />
+    <EmbeddedResource Include="AdvancedUserSelector\css\default.css" />
+    <EmbeddedResource Include="AdvancedUserSelector\images\collapse_down_dark.png" />
+    <EmbeddedResource Include="FileUploader\js\fileHtml5Uploader.js" />
+    <Content Include="Highlighter\CodeFormat\css\codestyle.css" />
+    <EmbeddedResource Include="JsHtmlDecoder\js\decoder.js" />
+    <EmbeddedResource Include="Resources\AdvancedUserSelectorResource.de.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>AdvancedUserSelectorResource.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AdvancedUserSelectorResource.es.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>AdvancedUserSelectorResource.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AdvancedUserSelectorResource.fr.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>AdvancedUserSelectorResource.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AdvancedUserSelectorResource.it.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>AdvancedUserSelectorResource.it.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AdvancedUserSelectorResource.lv.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>AdvancedUserSelectorResource.lv.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AdvancedUserSelectorResource.pl.resx" />
+    <EmbeddedResource Include="Resources\AdvancedUserSelectorResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AdvancedUserSelectorResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AdvancedUserSelectorResource.ru.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>AdvancedUserSelectorResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AdvancedUserSelectorResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\CalendarResource.de.resx" />
+    <EmbeddedResource Include="Resources\CalendarResource.es.resx" />
+    <EmbeddedResource Include="Resources\CalendarResource.fr.resx" />
+    <EmbeddedResource Include="Resources\CalendarResource.it.resx" />
+    <EmbeddedResource Include="Resources\CalendarResource.lv.resx" />
+    <EmbeddedResource Include="Resources\CalendarResource.pl.resx" />
+    <EmbeddedResource Include="Resources\CalendarResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CalendarResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CalendarResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CalendarResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\CommentsResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CommentsResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CommentsResource.pl.resx" />
+    <EmbeddedResource Include="Resources\CommentsResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CommentsResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommentsResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CommentsResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CommentsResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CommentsResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CommentsResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CommentsResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\PageNavigator.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PageNavigator.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PageNavigator.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PageNavigator.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PageNavigator.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PageNavigator.pl.resx" />
+    <EmbeddedResource Include="Resources\PageNavigator.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PollForm.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PollForm.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PollForm.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PollForm.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PollForm.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PollForm.pl.resx" />
+    <EmbeddedResource Include="Resources\PollForm.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PollForm.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\UserSelectorResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UserSelectorResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UserSelectorResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UserSelectorResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UserSelectorResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UserSelectorResource.pl.resx" />
+    <EmbeddedResource Include="Resources\UserSelectorResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UserSelectorResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UserSelectorResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UserSelectorResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UserSelectorResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\ViewSwitcherResource.de.resx" />
+    <EmbeddedResource Include="Resources\ViewSwitcherResource.es.resx" />
+    <EmbeddedResource Include="Resources\ViewSwitcherResource.fr.resx" />
+    <EmbeddedResource Include="Resources\ViewSwitcherResource.it.resx" />
+    <EmbeddedResource Include="Resources\ViewSwitcherResource.lv.resx" />
+    <EmbeddedResource Include="Resources\ViewSwitcherResource.pl.resx" />
+    <EmbeddedResource Include="Resources\ViewSwitcherResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ViewSwitcherResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ViewSwitcherResource.ru.resx" />
+    <EmbeddedResource Include="Resources\ViewSwitcherResource.zh-CN.resx" />
+    <EmbeddedResource Include="ViewSwitcher\css\viewswitcher.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SocialNetwork\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="BeforeBuild">
+    <Exec Command="taskkill /F /IM aspnet_wp.exe" IgnoreExitCode="true" ContinueOnError="true" Condition=" '$(KillAsp)' == '' " />
+    <Exec Command="taskkill /F /IM w3wp.exe" IgnoreExitCode="true" ContinueOnError="true" Condition=" '$(KillAsp)' == '' " />
+  </Target>
+  <Target Name="AfterBuild">
+    <Message Importance="High" Text="Copy assemblies to redistributable: $(MSBuildProjectName) -&gt; @(MainAssembly->'$(RedDir)%(FileName)%(Extension)') @(FinalDocFile->'$(RedDir)%(FileName)%(Extension)') @(IntermediateSatelliteAssembliesWithTargetPath->'$(RedDir)%(Culture)\$(TargetName).resources.dll')" />
+    <!-- Copy the build product (.dll or .exe). -->
+    <Copy SourceFiles="@(IntermediateAssembly)" DestinationFolder="$(RedDir)" SkipUnchangedFiles="true" />
+    <!-- Copy the resulting XML documentation file, if any. -->
+    <Copy SourceFiles="@(DocFileItem)" DestinationFiles="@(FinalDocFile->'$(RedDir)%(FileName)%(Extension)')" SkipUnchangedFiles="true" Condition="'$(_DocumentationFileProduced)'=='true'" />
+    <!-- Copy satellite assemblies. -->
+    <Copy SourceFiles="@(IntermediateSatelliteAssembliesWithTargetPath)" DestinationFiles="@(IntermediateSatelliteAssembliesWithTargetPath->'$(RedDir)%(Culture)\$(TargetName).resources.dll')" SkipUnchangedFiles="true" />
+  </Target>
+  <Import Project="$(TrunkDir)_ci\msbuild\ASC.MSBuild.AssemblyInfo.Targets" />
+</Project>

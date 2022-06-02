@@ -1,0 +1,7 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.Thrdparty\bin\Debug\ASC.Thrdparty.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.Thrdparty\bin\Debug\ASC.Thrdparty.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.Thrdparty\bin\Debug\ASC.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.Thrdparty\bin\Debug\DotNetOpenAuth.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.Thrdparty\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.Thrdparty\obj\Debug\ASC.Thrdparty.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Thrdparty\ASC.Thrdparty\obj\Debug\ASC.Thrdparty.pdb

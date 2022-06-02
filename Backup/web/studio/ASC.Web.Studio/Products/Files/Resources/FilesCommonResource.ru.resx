@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action">
+    <value>Действие</value>
+  </data>
+  <data name="Author">
+    <value>Автор:</value>
+  </data>
+  <data name="Author_Me">
+    <value>Я</value>
+  </data>
+  <data name="ButtonClose">
+    <value>Закрыть</value>
+  </data>
+  <data name="ButtonDelete">
+    <value>Удалить</value>
+  </data>
+  <data name="ButtonDeleteFromShare">
+    <value>Убрать из списка</value>
+  </data>
+  <data name="ButtonDownload">
+    <value>Скачать</value>
+  </data>
+  <data name="ButtonEdit">
+    <value>Редактировать</value>
+  </data>
+  <data name="ButtonEditing">
+    <value>Редактируется</value>
+  </data>
+  <data name="ButtonPreviewBack">
+    <value>Назад в папку</value>
+  </data>
+  <data name="ButtonUploadNewVersions">
+    <value>Обновить документ</value>
+  </data>
+  <data name="CreatingDate">
+    <value>Дата Создания:</value>
+  </data>
+  <data name="DateTime">
+    <value>Дата / Время</value>
+  </data>
+  <data name="Department">
+    <value>Отдел</value>
+  </data>
+  <data name="DocumentName">
+    <value>Название документа:</value>
+  </data>
+  <data name="Documents">
+    <value>Документы</value>
+  </data>
+  <data name="Employees">
+    <value>Cотрудники</value>
+  </data>
+  <data name="ErrorMassage_BadRequest">
+    <value>Неверный запрос.</value>
+  </data>
+  <data name="ErrorMassage_CreateNewFolderInTrash">
+    <value>Запрещено создавать папки в корзине</value>
+  </data>
+  <data name="ErrorMassage_DifferentName">
+    <value>Имя загружаемого файла отличается от исходного</value>
+  </data>
+  <data name="ErrorMassage_EmptyFile">
+    <value>Пустой документ</value>
+  </data>
+  <data name="ErrorMassage_ExceededMaximumFileSize">
+    <value>Превышен максимальный размер файла</value>
+  </data>
+  <data name="ErrorMassage_FileNotFound">
+    <value>Запрашиваемый файл не найден</value>
+  </data>
+  <data name="ErrorMassage_FolderNotFound">
+    <value>Запрашиваемая папка не найдена</value>
+  </data>
+  <data name="ErrorMassage_MoveFolder">
+    <value>Папка с таким именем уже существует. Переименуйте папку и попробуйте заново.</value>
+  </data>
+  <data name="ErrorMassage_NotSupportedFormat">
+    <value>Извините, но данный формат файла не поддерживается</value>
+  </data>
+  <data name="ErrorMassage_SecurityException">
+    <value>Недостаточно прав для совершения операции</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_Create">
+    <value>У Вас недостаточно прав для создания</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_DeleteEditingFile">
+    <value>Невозможно удалить файл, т.к. файл открыт на редактирование</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_DeleteEditingFolder">
+    <value>Невозможно удалить папку, т.к. один из файлов открыт на редактирование</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_DeleteFile">
+    <value>Недостаточно прав для удаления файла</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_DeleteFolder">
+    <value>Недостаточно прав для удаления папки</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_EditFile">
+    <value>Недостаточно прав для редактирования файла</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_ReadFile">
+    <value>Недостаточно прав для просмотра файла</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_ReadFolder">
+    <value>Недостаточно прав для просмотра папки</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_RenameFile">
+    <value>Недостаточно прав для переименования файла</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_RenameFolder">
+    <value>Недостаточно прав для переименования папки</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_UpdateEditingFile">
+    <value>Невозможно обновить файл, т.к. файл открыт на редактирование</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_ViewFolder">
+    <value>Недостаточно прав для просмотра папки</value>
+  </data>
+  <data name="ErrorMassage_UpdateEditingFile">
+    <value>Нельзя обновлять файл, открытый на редактирование</value>
+  </data>
+  <data name="ErrorMassage_ViewTrashItem">
+    <value>Запрещено просматривать элементы корзины</value>
+  </data>
+  <data name="Favorites">
+    <value>Избранное</value>
+  </data>
+  <data name="FlashUploader">
+    <value>Flash загрузка</value>
+  </data>
+  <data name="FlashUploaderDescription">
+    <value>Версия Flash загрузчика ...</value>
+  </data>
+  <data name="Group">
+    <value>Группа</value>
+  </data>
+  <data name="HtmlUploader">
+    <value>Html Загрузка</value>
+  </data>
+  <data name="ImportFromBoxNet">
+    <value>Импорт из Box.Net</value>
+  </data>
+  <data name="ImportFromGoogle">
+    <value>Импорт из Google Docs</value>
+  </data>
+  <data name="ImportFromZoho">
+    <value>Импорт из Zoho</value>
+  </data>
+  <data name="IsNew">
+    <value>новое</value>
+  </data>
+  <data name="MakeCurrent">
+    <value>Восстановить</value>
+  </data>
+  <data name="ManagmentGroup">
+    <value>Управление группами</value>
+  </data>
+  <data name="ModuleName">
+    <value>Документы</value>
+  </data>
+  <data name="NothingFound">
+    <value>Ничего не найдено</value>
+  </data>
+  <data name="OpenFile">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="Position">
+    <value>Должность</value>
+  </data>
+  <data name="PreviewHeader">
+    <value>Предпросмотр документов</value>
+  </data>
+  <data name="ProductDescription">
+    <value>Создавайте, редактируйте, совместно работайте над документами на портале. Импортируйте файлы из Google Docs, Zoho, Box.net.</value>
+  </data>
+  <data name="ProductName">
+    <value>Документы</value>
+  </data>
+  <data name="SearchText">
+    <value>Поиск</value>
+  </data>
+  <data name="SelectRight">
+    <value>выберите</value>
+  </data>
+  <data name="ShowAllResults">
+    <value>Показать все результаты</value>
+  </data>
+  <data name="SignedForMe">
+    <value>Документы для меня</value>
+  </data>
+  <data name="Size">
+    <value>Размер</value>
+  </data>
+  <data name="Statistics">
+    <value>Статистика</value>
+  </data>
+  <data name="TipsAndTricks">
+    <value>Подсказки</value>
+  </data>
+  <data name="TitleActionPanel">
+    <value>Показать действия</value>
+  </data>
+  <data name="TitleCreated">
+    <value>Создана</value>
+  </data>
+  <data name="TitleEditingFile">
+    <value>В данный момент редактируется</value>
+  </data>
+  <data name="TitleFiles">
+    <value>Документов</value>
+  </data>
+  <data name="TitleFolderUp">
+    <value>Вверх</value>
+  </data>
+  <data name="TitleKb">
+    <value>КБ</value>
+  </data>
+  <data name="TitleModified">
+    <value>Обновлён</value>
+  </data>
+  <data name="TitleOwner">
+    <value>Автор:</value>
+  </data>
+  <data name="TitlePage">
+    <value>Документы</value>
+  </data>
+  <data name="TitleRemoved">
+    <value>Удалён</value>
+  </data>
+  <data name="TitleRemoveVersion">
+    <value>Удалить версию</value>
+  </data>
+  <data name="TitleSelectFile">
+    <value>Выделить</value>
+  </data>
+  <data name="TitleShareFile">
+    <value>К документу открыт доступ</value>
+  </data>
+  <data name="TitleSubfolders">
+    <value>Подпапок</value>
+  </data>
+  <data name="TitleUploaded">
+    <value>Загружен</value>
+  </data>
+  <data name="TitleVersions">
+    <value>Предыдущие версии</value>
+  </data>
+  <data name="Tools">
+    <value>Инструменты</value>
+  </data>
+  <data name="TotalFound">
+    <value>Всего найдено</value>
+  </data>
+  <data name="User">
+    <value>Пользователь</value>
+  </data>
+  <data name="Version">
+    <value>вер.</value>
+  </data>
+  <data name="VersionNum">
+    <value>Вер.№</value>
+  </data>
+</root>

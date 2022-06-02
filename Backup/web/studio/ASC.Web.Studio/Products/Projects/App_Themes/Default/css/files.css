@@ -1,0 +1,149 @@
+﻿#pm-files-container
+{
+
+   margin-top:21px;
+   margin-bottom:20px; 
+
+}
+.pm-file-info
+{
+
+  border-left:  none !important;
+  border-right:  none !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top:-1px;
+  
+
+}
+
+
+.pm-file-info-other-version dd, .pm-file-info-description
+{
+   
+    vertical-align: top;
+}
+.pm-file-info-body
+{  
+    margin-left: 40px;
+
+}
+.pm-file-info-other-version-switcher
+{
+
+   display:inline-block;
+   cursor:pointer;
+   margin-top:10px;
+   margin-bottom:10px;  
+   position:relative;
+   left: -13px; 
+   
+}
+
+.pm-file-info-description .pm-file-info-action-block
+{
+  
+   padding-top:16px;
+   padding-bottom:16px; 
+     
+}
+
+.pm-file-info-other-version-switcher img
+{
+
+ float:left;
+
+}
+
+.pm-file-info-other-version-switcher div
+{
+  
+   border-bottom:1px dotted #8E908F; 
+   float:left;
+   margin-right:5px; 
+   margin-left: 2px;
+
+}
+.pm-file-info-description
+{
+    text-align: left;
+    width: 40%;
+    margin-right: auto;
+    margin-top: 10px;
+	float:left;
+	overflow: hidden;
+}
+.pm-table-file-info
+{
+  min-width: 200px; 
+}
+.pm-table-file-info td
+{
+	padding-left:10px;
+}
+.pm-file-info-leftblock
+{
+	width:60%;
+	padding-bottom: 25px; 
+	position: relative; 
+	top: 10px; 
+	float:left;
+	overflow: hidden;
+}
+.pm-file-info-description dl
+{
+}
+.pm-file-info-description dt
+{
+    margin-right: 5px;
+}
+.pm-file-info-description dd
+{
+    padding-bottom: 5px;
+}
+.pm-file-info-header
+{
+    vertical-align: top;
+}
+.pm-file-info-header div
+{
+    line-height: 32px;
+    margin-left: 5px;
+}
+.pm-file-info-other-version table td
+{
+    white-space: nowrap;
+}
+.pm-file-info-other-version table
+{
+    border: 0px; /* border="0" */
+    border-collapse: collapse; /* cellspacing="0" */
+    width: 100%;
+}
+.pm-file-info-other-version td
+{
+    padding: 0px; /* cellpadding="0" */
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+/*******************************************************************************
+   File upload view
+*******************************************************************************/
+
+
+#notify p
+{
+    vertical-align: top;
+    text-align: left;
+}
+#notify
+{
+    border: 0px; /* border="0" */
+}
+#notify td
+{
+    vertical-align: top;
+    text-align: left;
+}
+

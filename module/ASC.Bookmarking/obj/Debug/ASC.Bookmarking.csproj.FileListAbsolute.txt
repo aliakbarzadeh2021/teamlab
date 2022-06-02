@@ -1,0 +1,53 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.csproj.GenerateResource.Cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingBusinessResources.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Resources.BookmarkingSubscriptionPatterns.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\ASC.Bookmarking.Patterns.BookmarkingPatternResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Bookmarking\obj\Debug\GenerateResource-ResGen.write.1.tlog

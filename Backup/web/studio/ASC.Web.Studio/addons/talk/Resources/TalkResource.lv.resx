@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnAccept">
+    <value>Pieņemt</value>
+  </data>
+  <data name="BtnAddToMailing">
+    <value>Pievienot ziņojumu izplatīšanas sarakstam</value>
+  </data>
+  <data name="BtnCloseHistory">
+    <value>Aizvērt vēsturi</value>
+  </data>
+  <data name="BtnCreate">
+    <value>Izveidot</value>
+  </data>
+  <data name="BtnDecline">
+    <value>Atcelt</value>
+  </data>
+  <data name="BtnKick">
+    <value>Izdzīt</value>
+  </data>
+  <data name="BtnRemove">
+    <value>Izdzēst</value>
+  </data>
+  <data name="BtnRemoveConference">
+    <value>Izdzēst</value>
+  </data>
+  <data name="BtnRemoveMailing">
+    <value>Izdzēst ziņojumu izplatīšanu</value>
+  </data>
+  <data name="BtnRemoveMember">
+    <value>Izdzēst biedru</value>
+  </data>
+  <data name="BtnSendInvite">
+    <value>Sūtīt uzaicinājumu</value>
+  </data>
+  <data name="Chat">
+    <value>Tērzēšana</value>
+  </data>
+  <data name="ConferenceGroupName">
+    <value>Čatu istabas</value>
+  </data>
+  <data name="DefaultConferenceSubjectTemplate">
+    <value>Laipni Lūdzam {0}</value>
+  </data>
+  <data name="DefaultContactTitle">
+    <value>Anonīms</value>
+  </data>
+  <data name="ErrorFileSizeLimitText">
+    <value>Maksimālais faila izmērs ir pārsniegts. Maksimālais izmērs: {0}.</value>
+  </data>
+  <data name="FileSizePostfix">
+    <value>bytes,KB,MB,GB</value>
+  </data>
+  <data name="FullDateFormat">
+    <value>% H:% M:% S% d% b% y</value>
+  </data>
+  <data name="HintChangeState">
+    <value>Mainīt statusu</value>
+  </data>
+  <data name="HintClientConnecting">
+    <value>Savienojos...</value>
+  </data>
+  <data name="HintClientDisconnected">
+    <value>Savieno Mani</value>
+  </data>
+  <data name="HintCreateConference">
+    <value>Izveidot konferenci</value>
+  </data>
+  <data name="HintCreateMassend">
+    <value>Izveidot masveida izsūtīšanu</value>
+  </data>
+  <data name="HintCreateShortcutDialog">
+    <value>Create shortcuts and launch Talk as a web application.</value>
+  </data>
+  <data name="HintCtrlEnterSender">
+    <value>Izmantojiet Ctrl+Enter lai nosūtītu ziņu, Enter lai sāktu jaunu rindkopu</value>
+  </data>
+  <data name="HintDisableSounds">
+    <value>Atspējot skaņas</value>
+  </data>
+  <data name="HintEmotions">
+    <value>Smaidiņi</value>
+  </data>
+  <data name="HintEnableSounds">
+    <value>Iespējot skaņas</value>
+  </data>
+  <data name="HintEnterSender">
+    <value>Izmantojiet Ctrl+Enter lai nosūtītu ziņu, Enter lai sāktu jaunu rindkopu</value>
+  </data>
+  <data name="HintFilter">
+    <value>Iespējot/Atspējot filtru</value>
+  </data>
+  <data name="HintFlastPlayerIncorrect">
+    <value>Adobe Flash Player versijair nepareiza</value>
+  </data>
+  <data name="HintGroups">
+    <value>Rādīt/Slēpt grupas</value>
+  </data>
+  <data name="HintHideGroups">
+    <value>Slēpt grupas</value>
+  </data>
+  <data name="HintHideOfflineContacts">
+    <value>Slēpt BEZSAISTES kontaktpersonas</value>
+  </data>
+  <data name="HintHistory">
+    <value>Ziņojumu vēsture</value>
+  </data>
+  <data name="HintNoFlashPlayer">
+    <value>Adobe Flash Player nav instalēts</value>
+  </data>
+  <data name="HintNotifications">
+    <value>Ieslēgt/Atslēgt paziņojumus no pārlūkprogrammas</value>
+  </data>
+  <data name="HintOfflineContacts">
+    <value>Rādīt/Slēpt BEZSAISTES kontaktpersonas</value>
+  </data>
+  <data name="HintPossibleClientConflict">
+    <value>Iespējams konflikts</value>
+  </data>
+  <data name="HintSearch">
+    <value>Meklēšana</value>
+  </data>
+  <data name="HintSearchNextMessage">
+    <value>nākošā sakritība</value>
+  </data>
+  <data name="HintSearchPrevMessage">
+    <value>iepriekšējā sakritība</value>
+  </data>
+  <data name="HintSelectContact">
+    <value>Izvēlieties cilvēku no kontaktpersonu saraksta lai sāktu sarunu</value>
+  </data>
+  <data name="HintSendAddition">
+    <value>Papildus</value>
+  </data>
+  <data name="HintSendFile">
+    <value>Nosūtīt Failu</value>
+  </data>
+  <data name="HintSendInvite">
+    <value>Vilt kontaktu šeit lai pievienotu saņēmēju.</value>
+  </data>
+  <data name="HintSendMessage">
+    <value>Nosūtīt ziņu</value>
+  </data>
+  <data name="HintShowGroups">
+    <value>Rādīt grupas</value>
+  </data>
+  <data name="HintShowLeftTab">
+    <value>Rādīt cilnes kreisajā pūsē</value>
+  </data>
+  <data name="HintShowOfflineContacts">
+    <value>Rādīt BEZSAISTES kontaktpersonas</value>
+  </data>
+  <data name="HintShowRightTab">
+    <value>Rādīt cilnes labajā pūsē</value>
+  </data>
+  <data name="HintSounds">
+    <value>Iespējot/Atspējot skaņas</value>
+  </data>
+  <data name="HintToggleSender">
+    <value>Pārslēgt Enter režīmu</value>
+  </data>
+  <data name="HintUnreadMessages">
+    <value>lasīt</value>
+  </data>
+  <data name="HintUpdateHrefText">
+    <value>jūs varat to lejuplādēt šeit</value>
+  </data>
+  <data name="HistoryFilterAll">
+    <value>viss</value>
+  </data>
+  <data name="HistoryFilterLastDay">
+    <value>pēdējā diena</value>
+  </data>
+  <data name="HistoryFilterLastMonth">
+    <value>pēdējais mēnesis</value>
+  </data>
+  <data name="HistoryFilterLastWeek">
+    <value>pēdējā nedēļa</value>
+  </data>
+  <data name="LabelConferenceSplash">
+    <value>Pārvelciet kontaktu te, lai pievienotu saņēmēju</value>
+  </data>
+  <data name="LabelConnectionBlock">
+    <value>Tekošais statuss:</value>
+  </data>
+  <data name="LabelCurrentStatus">
+    <value>Tekošs statuss</value>
+  </data>
+  <data name="LabelDoNotAsk">
+    <value>Vairs nejautāt</value>
+  </data>
+  <data name="LabelFirstSplash">
+    <value>sākumā izvēlieties lietotāju {0}no saraksta, lai uzsāktu sarunu</value>
+  </data>
+  <data name="LabelFrom">
+    <value>No</value>
+  </data>
+  <data name="LabelKickOccupant">
+    <value>Vai jūs tiešām gribat izdzēst šo lietotāju no konferences?</value>
+  </data>
+  <data name="LabelName">
+    <value>Nosaukums</value>
+  </data>
+  <data name="LabelNewMessage">
+    <value>Jauns ziņojums</value>
+  </data>
+  <data name="LabelReason">
+    <value>Iemesls</value>
+  </data>
+  <data name="LabelRecvInvite">
+    <value>uzaicināja Jūs</value>
+  </data>
+  <data name="LabelRemoveRoom">
+    <value>Vai jūs tiešām gribat izdzēst šo konferenci?</value>
+  </data>
+  <data name="LabelSend">
+    <value>Nosūtīt</value>
+  </data>
+  <data name="LabelSendToCurrent">
+    <value>Tekošais</value>
+  </data>
+  <data name="LabelSendToSelection">
+    <value>Izvēlēties</value>
+  </data>
+  <data name="LabelStatus">
+    <value>Statuss</value>
+  </data>
+  <data name="LabelTemporaryMailing">
+    <value>Īslaicīga ziņojumu izplatīšana</value>
+  </data>
+  <data name="LabelTemporaryRoom">
+    <value>Pagaidu-istaba (būs izdzēsta, kad visi dalībnieki aizies)</value>
+  </data>
+  <data name="LabelTopic">
+    <value>Temats</value>
+  </data>
+  <data name="LabelUnreadMessages">
+    <value>Neizlasīts</value>
+  </data>
+  <data name="LastSelectedGroupTitle">
+    <value>Last selected</value>
+  </data>
+  <data name="MailingsGroupName">
+    <value>Ziņojumu izplatīšana</value>
+  </data>
+  <data name="NoneGroupTitle">
+    <value>Neviena grupa</value>
+  </data>
+  <data name="ProductName">
+    <value>Čats</value>
+  </data>
+  <data name="SelectUserBookmarkTitle">
+    <value>Nosūtīt vairākas</value>
+  </data>
+  <data name="SendFileMessage">
+    <value>Fails: {0}Izmērs: {1}</value>
+  </data>
+  <data name="ShortDateFormat">
+    <value>% H:% M:% S</value>
+  </data>
+  <data name="StatusAway">
+    <value>Prombūtnē</value>
+  </data>
+  <data name="StatusBusy">
+    <value>Aizņemts</value>
+  </data>
+  <data name="StatusFree">
+    <value>Gatavs sarunai</value>
+  </data>
+  <data name="StatusNA">
+    <value>Nav pieejams</value>
+  </data>
+  <data name="StatusOffline">
+    <value>Bezsaistē</value>
+  </data>
+  <data name="StatusOnline">
+    <value>Pieejams </value>
+  </data>
+  <data name="TabsGroupTitle">
+    <value>Atvērtas cilnes</value>
+  </data>
+  <data name="TalkDescription">
+    <value>Sarunājies ar saviem kolēģiem reāllaikā. Jūsu kontaktu saraksts būs automātiski atjaunots. Saņemiet "Kas Jauns?" paziņojumus.</value>
+  </data>
+  <data name="TitleBrowserNotificationsDialog">
+    <value>Paziņojums no pārlūkprogrammas</value>
+  </data>
+  <data name="TitleCreateMailing">
+    <value>Izveidot ziņojumu izplatīšanas sarakstu</value>
+  </data>
+  <data name="TitleCreateRoom">
+    <value>Izveidot čata istabu</value>
+  </data>
+  <data name="TitleKickOccupantDialog">
+    <value>Izdzīt lietotāju no čata</value>
+  </data>
+  <data name="TitleRecvInvite">
+    <value>Uzaicinājums čatā</value>
+  </data>
+  <data name="TitleRemoveRoomDialog">
+    <value>Izdzēst čatu</value>
+  </data>
+  <data name="UpdateFlashPlayerUrl">
+    <value>http://get.adobe.com/flashplayer/</value>
+  </data>
+</root>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<act:accordings xmlns:act="urn:asc.notify.action_pattern.xsd">
+  <action actionID="NewCommentForMessage"  defaultPatternID="NewCommentForMessage">
+    <sender senderName="messanger.sender" patternID="NewCommentForMessage_jabber" />
+  </action>
+
+  <action actionID="NewMessage"  defaultPatternID="NewMessage">
+    <sender senderName="messanger.sender" patternID="NewMessage_jabber" />
+  </action>
+  <action actionID="EditMessage"  defaultPatternID="EditMessage">
+    <sender senderName="messanger.sender" patternID="EditMessage_jabber" />
+  </action>
+
+  <action actionID="NewCommentForTask"  defaultPatternID="NewCommentForTask">
+    <sender senderName="messanger.sender" patternID="NewCommentForTask_jabber" />
+  </action>
+  <action actionID="NewCommentForMilestone"  defaultPatternID="NewCommentForMilestone">
+    <sender senderName="messanger.sender" patternID="NewCommentForMilestone_jabber" />
+  </action>
+
+  <action actionID="UploadFiles"  defaultPatternID="UploadFiles">
+    <sender senderName="messanger.sender" patternID="UploadFiles_jabber" />
+  </action>
+  <action actionID="TaskClosed"  defaultPatternID="TaskClosed">
+    <sender senderName="messanger.sender" patternID="TaskClosed_jabber" />
+  </action>
+  <action actionID="TaskCreated"  defaultPatternID="TaskCreated">
+    <sender senderName="messanger.sender" patternID="TaskCreated_jabber" />
+  </action>
+  <action actionID="MilestoneDeadline"  defaultPatternID="MilestoneDeadline">
+    <sender senderName="messanger.sender" patternID="MilestoneDeadline_jabber" />
+  </action>
+  <action actionID="ResponsibleForProject"  defaultPatternID="ResponsibleForProject">
+    <sender senderName="messanger.sender" patternID="ResponsibleForProject_jabber" />
+  </action>
+  <action actionID="ResponsibleForTask"  defaultPatternID="ResponsibleForTask">
+    <sender senderName="messanger.sender" patternID="ResponsibleForTask_jabber" />
+  </action>
+  <action actionID="ReminderAboutTask"  defaultPatternID="ReminderAboutTask">
+    <sender senderName="messanger.sender" patternID="ReminderAboutTask_jabber" />
+  </action>
+  <action actionID="ReminderAboutTaskDeadline"  defaultPatternID="ReminderAboutTaskDeadline">
+    <sender senderName="messanger.sender" patternID="ReminderAboutTaskDeadline_jabber" />
+  </action>
+  <action actionID="InviteToProject"  defaultPatternID="InviteToProject">
+    <sender senderName="messanger.sender" patternID="InviteToProject_jabber" />
+  </action>
+  <action actionID="RemoveFromProject"  defaultPatternID="RemoveFromProject">
+    <sender senderName="messanger.sender" patternID="RemoveFromProject_jabber" />
+  </action>
+  <action actionID="ProjectCreateRequest"  defaultPatternID="ProjectCreateRequest">
+    <sender senderName="messanger.sender" patternID="ProjectCreateRequest_jabber" />
+  </action>
+  <action actionID="ProjectEditRequest"  defaultPatternID="ProjectEditRequest">
+    <sender senderName="messanger.sender" patternID="ProjectEditRequest_jabber" />
+  </action>
+  <action actionID="ProjectAcceptRequest"  defaultPatternID="ProjectAcceptRequest">
+    <sender senderName="messanger.sender" patternID="ProjectAcceptRequest_jabber" />
+  </action>
+  <action actionID="ProjectRejectRequest"  defaultPatternID="ProjectRejectRequest">
+    <sender senderName="messanger.sender" patternID="ProjectRejectRequest_jabber" />
+  </action>
+  <action actionID="ProjectRemoveRequest"  defaultPatternID="ProjectRemoveRequest">
+    <sender senderName="messanger.sender" patternID="ProjectRemoveRequest_jabber" />
+  </action>
+  <action actionID="ImportData"  defaultPatternID="ImportData">
+    <sender senderName="messanger.sender" patternID="ImportData_jabber" />
+  </action>
+</act:accordings>

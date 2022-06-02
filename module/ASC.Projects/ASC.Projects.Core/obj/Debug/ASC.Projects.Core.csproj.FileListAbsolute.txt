@@ -1,0 +1,109 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\ASC.Projects.Core.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\ASC.Projects.Core.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\el\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\pl\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\zh-CN\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\it\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\de\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\lv\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\pt-BR\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\es\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\fr\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\ru\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.el.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\el\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\pl\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\zh-CN\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\it\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\de\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\lv\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\pt-BR\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\es\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\fr\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ru\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\ASC.Projects.Core.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\ASC.Projects.Core.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\el\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\pl\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\zh-CN\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\it\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\de\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\lv\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\pt-BR\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\es\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\fr\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\bin\Debug\ru\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.el.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsEnumResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Resources.ProjectsPatternResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.Services.NotifyService.PatternResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\el\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\pl\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\zh-CN\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\it\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\de\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\lv\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\pt-BR\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\es\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\fr\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ru\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Core\obj\Debug\ASC.Projects.Core.pdb

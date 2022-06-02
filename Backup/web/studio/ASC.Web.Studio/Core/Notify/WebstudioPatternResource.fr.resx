@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pattern_backup_created">
+    <value>h1.Sauvegarde de portail créée
+
+Cher (chère) $OwnerName,
+
+Le fichier de sauvegarde avec les données depuis votre portail TeamLab a été créé. Il est disponible pour le téléchargement en suivant le lien:
+
+"$BackupUrl":"$BackupUrl"
+
+Le lien expire dans $BackupHours heures.
+
+Meilleures salutations,
+Equipe d'assistance technique TeamLab
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="pattern_change_pwd">
+    <value>h1.Mot de passe changé
+
+Cher (chère) $UserName,
+
+Votre mot de passe à votre portail à "$__VirtualRootPath":"$__VirtualRootPath" a été changé.
+
+Veuillez trouver ci-dessous vos détails de connexion:
+
+Email: *_#SYS_RECIPIENT_ADDRESS#_*
+Mot de passe: *$Password*</value>
+  </data>
+  <data name="pattern_confirm_owner_change">
+    <value>h1.Changement du propriétaire du portail
+
+Cher $OwnerName,
+
+Une demande de changer le propriétaire du portail pour $UserName a été faite.
+
+Suivez le lien ci-dessous pour confirmer l'opération:
+"$ConfirmPortalOwnerUpdate":"$ConfirmPortalOwnerUpdate"
+
+Si vous avez des questions ou vous avez besoin d'aide, n'hésitez pas à nous contacter à
+"support@teamlab.com":"mailto:support@teamlab.com"
+
+Cordialement,
+Equipe TeamLab
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="pattern_dns_change">
+    <value>h1.Modifier l'adresse du portail.
+
+Cher (chère) $OwnerName,
+
+On a créé une demande pour changer l'adresse du portail en "$PortalAddress":"$PortalAddress" #if($PortalDns != "") ("$PortalDns":"$PortalDns" )#end.
+
+S'il vous plaît suivez le lien ci-dessous pour confirmer l'opération:
+"$ConfirmDnsUpdate":"$ConfirmDnsUpdate"
+
+Si vous avez des questions ou besoin d'aide, n'hésitez pas à nous contacter à "support@teamlab.com":"mailto:support@teamlab.com"
+
+Meilleures salutations,
+Equipe d'assistance technique TeamLab
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="pattern_invite">
+    <value>h1.Invitation à se joindre au portail 
+Bonjour,
+
+$__AuthorName vous a invité à vous joindre au portail Teamlab.
+TeamLab est une plate-forme gratuite pour la collaboration d'affaire et la gestion de projets. Joignez-vous à votre portail et commencez à collaborer avec vos collègues tout de suite.
+
+Pour accepter l'invitation, veuillez entrer votre nom et mot de passe en suivant ce lien:
+"$InviteLink":"$InviteLink"</value>
+  </data>
+  <data name="pattern_join">
+    <value>h1.Invitation à se joindre au portail 
+Bonjour,
+
+Vous avez demandé de vous joindre au portail Teamlab.
+TeamLab est une plate-forme gratuite pour la collaboration d'affaire et la gestion de projets. Joignez-vous à votre portail et commencez à collaborer avec vos collègues tout de suite.
+
+Pour accepter l'invitation, veuillez entrer votre nom et mot de passe en suivant ce lien:
+"$InviteLink":"$InviteLink"</value>
+  </data>
+  <data name="pattern_portal_deactivate">
+    <value>h1.Désactivation de compte
+
+Cher (chère) $OwnerName,
+
+Vous avez demandé la désactivation temporaire de votre compte TeamLab. S'il vous plaît suivez le lien ci-dessous pour confirmer l'opération:
+"$DeactivateUrl":"$DeactivateUrl"
+
+Vous pouvez réactiver votre compte à tout moment en cliquant sur le lien suivant:
+"$ActivateUrl":"$ActivateUrl"
+
+Si vous avez des questions ou besoin d'aide, n'hésitez pas à nous contacter à "support@teamlab.com":"mailto:support@teamlab.com"
+
+Meilleures salutations,
+Equipe d'assistance technique TeamLab
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="pattern_portal_delete">
+    <value>h1.Suppression de compte
+
+Cher (chère) $OwnerName,
+
+Vous avez demandé de supprimer définitivement votre compte TeamLab.
+Important ! Toutes les données stockées sur votre portail, ainsi que les détails de votre inscription seront perdus et pas rétablis.
+
+S'il vous plaît suivez le lien ci-dessous pour confirmer l'opération:
+"$DeleteUrl":"$DeleteUrl"
+
+Si vous avez des questions ou besoin d'aide, n'hésitez pas à nous contacter à "support@teamlab.com":"mailto:support@teamlab.com"
+
+Meilleures salutations,
+Equipe d'assistance technique TeamLab
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="pattern_profile_updated">
+    <value>h1.Profil changé
+
+Cher (chère) $UserName,
+
+Votre profil d'utilisateur à "$__VirtualRootPath":"$__VirtualRootPath" a été changé par "$__AuthorName":"$__AuthorUrl" .
+
+Pour visualiser votre profil, suivez le lien ci-dessous:
+"$UserName":"$MyStaffLink"</value>
+  </data>
+  <data name="pattern_pwd_reminder">
+    <value>h1.Rappel de mot de passe
+
+Cher (chère) $UserName,
+
+Vous avez demandé un rappel de mot de passe à votre portail à "$__VirtualRootPath":"$__VirtualRootPath" .
+
+Veuillez trouver ci-dessous vos détails de connexion:
+
+Email: *_#SYS_RECIPIENT_ADDRESS#_*
+Mot de passe: *$Password*</value>
+  </data>
+  <data name="pattern_self_profile_updated">
+    <value>h1.Notification sur le changement de profil
+
+"$__AuthorName":"$__AuthorUrl" a change les détails de son profil à "${__VirtualRootPath}":"${__VirtualRootPath}" .</value>
+  </data>
+  <data name="pattern_send_whats_new">
+    <value>h1.Quoi de neuf pour le $Date
+
+#foreach($activity in $Activities)
+
+h2.$activity.Key
+
+#foreach($whatsNewActivity in $activity.Value)
+
+#foreach($b in $whatsNewActivity.BreadCrumbs) *$b* &gt; #end "$whatsNewActivity.Title":"$whatsNewActivity.URL"
+
+"$whatsNewActivity.UserName":"$whatsNewActivity.UserAbsoluteURL"    $whatsNewActivity.Date.ToShortTimeString()
+
+#end
+#end
+
+Adresse de votre portail: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Modifier paramètres d'abonnement":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_user_has_join">
+    <value>h1.Nouvel utilisateur ajouté
+
+"$__AuthorName":"$__AuthorUrl" s'est joint(e) à votre portail à "${__VirtualRootPath}":"${__VirtualRootPath}" .</value>
+  </data>
+  <data name="pattern_you_added">
+    <value>h1.Bienvenue à TeamLab !
+
+Cher (chère) $UserName,
+
+Votre profil d'utilisateur a été ajouté par $__AuthorName à votre portail TeamLab.
+
+TeamLab est une plate-forme gratuite pour la collaboration d'affaire et la gestion de projets. Pour accéder à votre portail, suivez le lien "$__VirtualRootPath":"$__VirtualRootPath" et commencez à collaborer avec vos collègues tout de suite.
+
+Veuillez trouver ci-dessous vos détails de connexion:
+
+Email: *_#SYS_RECIPIENT_ADDRESS#_*
+Mot de passe: *$Password*
+
+Vous pouvez changer votre mot de passe une fois que vous vous connectez sur votre portail.
+
+h3.Commencez avec votre portail
+
+# "Modifiez votre profil":"$MyStaffLink" pour ajouter des détails personnels et coordonnées.
+# "Entrez à Community":"${__VirtualRootPath}/products/community/" pour poster dans votre blog d'entreprise, ajouter des événements, photos et plus encore.
+# "Entrez à Projects":"${__VirtualRootPath}/products/projects/" pour créer votre projet et le gérer en ajoutant des jalons et tâches.
+# "Lancez Talk":"${__VirtualRootPath}/talk/" pour parler avec vos collègues online.
+
+Si vous avez besoin d'aide en utilisant votre portail, nous vous invitons à prendre connaissance de nos "Guides pratiques":"http://teamlab.com/howto.aspx" .
+Si vous avez des questions supplémentaires ou commentaires, n'hésitez pas à nous contacter à "support@teamlab.com":"mailto:support@teamlab.com"
+
+Meilleures salutations,
+Equipe d'assistance technique TeamLab
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="pattern_you_added_after_invite">
+    <value>h1.Bienvenue à TeamLab !
+
+Cher (chère) $UserName,
+
+Votre profil d'utilisateur a été ajouté avec succès au portail à "$__VirtualRootPath":"$__VirtualRootPath" .
+
+Veuillez trouver ci-dessous vos détails de connexion:
+
+Email: *_#SYS_RECIPIENT_ADDRESS#_*
+Mot de passe: *$Password*
+
+h3.Commencez avec votre portail
+
+# "Modifiez votre profil":"$MyStaffLink" pour ajouter des détails personnels et coordonnées.
+# "Entrez à Community":"${__VirtualRootPath}/products/community/" pour poster dans votre blog d'entreprise, ajouter des événements, photos et plus encore.
+# "Entrez à Projects":"${__VirtualRootPath}/products/projects/" pour créer votre projet et le gérer en ajoutant des jalons et tâches.
+# "Lancez Talk":"${__VirtualRootPath}/talk/" pour parler avec vos collègues online.
+
+Si vous avez besoin d'aide en utilisant votre portail, nous vous invitons à prendre connaissance de nos "Guides pratiques":"http://teamlab.com/howto.aspx" .
+Si vous avez des questions supplémentaires ou commentaires, n'hésitez pas à nous contacter à "support@teamlab.com":"mailto:support@teamlab.com"
+
+Meilleures salutations,
+Equipe d'assistance technique TeamLab
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="subject_backup_created">
+    <value>Sauvegarde de portail TeamLab créée</value>
+  </data>
+  <data name="subject_change_pwd">
+    <value>Mot de passe TeamLab changé</value>
+  </data>
+  <data name="subject_confirm_owner_change">
+    <value>TeamLab. Changement du propriétaire du portail</value>
+  </data>
+  <data name="subject_dns_change">
+    <value>TeamLab. Modifier l'adresse du portail</value>
+  </data>
+  <data name="subject_invite">
+    <value>Invitation à se joindre au portail TeamLab</value>
+  </data>
+  <data name="subject_join">
+    <value>Invitation à se joindre au portail TeamLab</value>
+  </data>
+  <data name="subject_portal_deactivate">
+    <value>Désactivation de compte TeamLab</value>
+  </data>
+  <data name="subject_portal_delete">
+    <value>Suppression de compte TeamLab</value>
+  </data>
+  <data name="subject_profile_updated">
+    <value>Profil TeamLab changé</value>
+  </data>
+  <data name="subject_pwd_reminder">
+    <value>Rappel de mot de passe TeamLab</value>
+  </data>
+  <data name="subject_self_profile_updated">
+    <value>Notification sur le changement de profil TeamLab</value>
+  </data>
+  <data name="subject_send_whats_new">
+    <value>Quoi de neuf au portail TeamLab pour le $Date</value>
+  </data>
+  <data name="subject_user_has_join">
+    <value>Nouvel utilisateur ajouté au portail TeamLab</value>
+  </data>
+  <data name="subject_you_added">
+    <value>Bienvenue à votre portail TeamLab !</value>
+  </data>
+  <data name="subject_you_added_after_invite">
+    <value>Bienvenue à votre portail TeamLab !</value>
+  </data>
+</root>

@@ -1,0 +1,443 @@
+dl,dt,dd{padding:0;margin:0}
+.comming_soon,div.comming_soon,.comming_soon div,.comming_soon a{color:#888!important;opacity:.5!important;background:white!important;border:none!important;cursor:wait!important;display:none!important}
+.blockDialog div.seporator{border-top:1px solid #D1D1D1;margin:10px 0}
+.button-splitter{padding:0 4px}
+.loading{cursor:wait!important}
+.loading a,.loading input,.loading span,.loading div{cursor:wait!important}
+.checkloading div.checkbox div.cornerAll{visibility:hidden}
+.checkloading div.checkbox{background:url("images/throbber.gif") no-repeat 50% 50%;height:24px}
+span.span_space{padding-left:3px}
+.select_action,.select_action a,.select_action input,.select_action span,.select_action div{cursor:default!important}
+.popupModal{display:none}
+.may-row-to{background-color:#FFC}
+.row-to{background-color:#DAF2E2;border:1px solid #98BCA1}
+body.moveRow{user-select:none;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none;MozUserSelect:none}
+.files_popup_win{display:none}
+div.tips_side_container{font-size:14px;margin:15px 0}
+div.files_action_panel{z-index:249;position:absolute;background-color:#fff;border:1px solid #8E908F;padding:10px 15px 15px 15px}
+div.files_action_panel ul{list-style:none;margin:0;padding:0}
+div.files_action_panel div.popup-corner,div.files_treeViewPanel div.popup-corner{background:url("images/popup-corner.png") no-repeat;width:9px;height:5px;margin-top:-15px;position:absolute}
+div.files_action_panel a{color:#4D4D4D;cursor:pointer;text-decoration:none}
+div.files_action_panel a{font-size:11px;display:block;list-style:none;padding:5px 15px 5px 25px;border:1px solid #FFF;background-repeat:no-repeat;background-position:5px 4px;_position:relative}
+div.files_action_panel a:hover{background-color:#DAE8F3;border:1px solid #98BBCB;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+#searchedDocuments div.headerBase{vertical-align:middle;padding-bottom:10px}
+#searchedDocuments div.document{border-left:none!important;border-right:none!important;margin-bottom:-1px!important;padding:10px 5px 10px 30px;overflow:hidden}
+#searchedDocuments div.document div.icon{height:32px;width:32px;float:left}
+#searchedDocuments .sub-folder .icon{background:url("images/content_folder.png") no-repeat}
+span.separator{padding-left:3px;padding-right:3px;padding-top:0;padding-bottom:0}
+div.files_progress_box{background-color:White;border:1px solid #32373B;display:none;margin-left:-200px;overflow:hidden;padding:10px 30px 15px;white-space:nowrap}
+div.files_progress_box .headerBaseMedium{overflow:hidden}
+div.files_progress_box div.progress_wrapper{height:15px;width:100%;border:1px solid #d1d1d1;margin:5px 0;text-align:center;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px}
+div.files_progress_box div.progress{height:15px;background:url("images/back-progress-big.png") repeat-x;text-align:center;color:White;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px}
+div.files_progress_box span.percent{position:relative;top:-1.2em;color:White}
+div.tree{float:left;margin-left:25px;min-height:24px;width:16px}
+div.tree a.tree{background:url("images/tree.png") no-repeat;width:16px;height:16px;display:inline-block;cursor:pointer}
+#files_trewViewContainer a,#files_trewViewSelector a{color:#323232;cursor:pointer;text-decoration:none}
+div.files_treeViewPanel{position:absolute;background-color:#fff;border:1px solid #8E908F;padding:10px 15px 15px;z-index:101;max-width:660px;max-height:310px}
+div.files_treeViewPanel a:hover{background-color:#DAF2E2;border:1px solid #98BCA1}
+div.files_treeViewPanel a.jstree-close-project:hover{background-color:#FFF;border:1px solid #FFF}
+.jstree{max-width:650px;max-height:300px;overflow:auto;padding-right:20px}
+.jstree ul,.jstree li{display:block;margin:0;padding:0;list-style-type:none}
+.jstree li{display:block;min-height:18px;line-height:18px;white-space:nowrap;margin-left:18px}
+.jstree>ul>li{margin-left:0}
+.jstree ins{display:inline-block;text-decoration:none;width:12px;height:20px;margin:0;padding:0;cursor:pointer}
+.jstree a{display:inline-block;line-height:16px;height:16px;color:black;white-space:nowrap;text-decoration:none;padding:1px 2px 1px 0;margin:0}
+.jstree a:focus{outline:0}
+.jstree a>ins{height:16px;width:16px}
+.jstree a>.jstree-icon{margin-right:3px}
+#files_treeViewPanelSelector li.access_read{display:none}
+li.jstree-open>ul{display:block}
+li.jstree-closed>ul{display:none}
+div.jstree ins.jstreeLoadNode{background-image:url("images/loader_12.gif");background-position:center}
+.jstree-default li,.jstree-default ins{background-image:url("images/d.png");background-repeat:no-repeat;background-color:transparent;vertical-align:middle}
+.jstree-default ins.myFiles{background-image:url("images/myfiles.png");background-position:center!important}
+.jstree-default ins.corporateFiles{background-image:url("images/corporatefiles.png");background-position:center!important}
+.jstree-default ins.shareformeFiles{background-image:url("images/sharedforme.png");background-position:center!important}
+.jstree-default ins.projectFiles{background-image:url("images/projectfiles.png");background-position:center!important}
+.jstree-default li{background-position:-92px 0}
+.jstree-default .jstree-open>ins{background-position:-72px 0}
+.jstree-default .jstree-closed>ins{background-position:-54px 0}
+.jstree-default a .jstree-icon{background-position:-56px -19px}
+.jstree a{border:1px solid #FFF;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+.jstree a.selected{background-color:#DAE8F3;border:1px solid #98BBCB}.shareAccessBody{height:300px;list-style:none;margin:0;overflow:auto;padding:9px 0}
+.share_btnManage{float:right}
+li.share_row{padding:5px 10px;border-top:0;border-bottom:1px solid #D1D1D1;border-left:none;border-right:0;margin:0 8px}
+div.share_actions{float:right;padding-top:5px;width:24px}
+div.share_rights{float:right;width:136px}
+div.share_name{float:left;margin-right:5px;overflow:hidden;padding:5px 0;white-space:nowrap;width:295px}
+div.action_active{background-color:#FFF;border:1px solid #A1A1A1;float:right;max-width:129px;padding:3px 0 3px 5px;z-index:250;position:relative;border-bottom-color:#FFF}
+div.action_noactive{float:right;max-width:129px;padding:4px 1px 4px 6px}
+div.action_noactive a.owner,.share_row.locked a{border:0;cursor:default;font-weight:bold;margin-right:15px;text-decoration:none}
+div.action_noactive a{border-bottom:1px dotted;color:#787878;cursor:pointer;float:left;text-decoration:none}
+div.action_noactive a:hover{border:0}
+div.action_active a{float:left;color:#323232;cursor:pointer;text-decoration:none}
+div.share_rights div.combobox{background:url("images/combobox.png") no-repeat scroll 0 2px transparent;cursor:pointer;float:left;height:12px;margin-left:3px;width:12px}
+.share_row.locked div.combobox,.share_row.locked div.share_trash{display:none}
+div.share_trash{cursor:pointer;float:left;width:12px;height:12px;margin-left:10px}
+div.share_trash{background:url("images/trash.png") no-repeat scroll 0 bottom transparent}
+ul.groupUsers{border:1px solid #D7D8DC;height:250px;list-style:none;margin:0;overflow:auto;padding:8px 0}
+ul.groupUsers .user{float:left;max-width:440px;overflow:hidden;white-space:nowrap}
+ul.groupUsers .user_remove{background:url("images/trash.png") no-repeat scroll 0 bottom transparent;cursor:pointer;float:right;width:12px;height:12px;margin-top:2px}
+#share_manage .headerBase{padding:2px 0 5px}
+#selectGroup{width:237px;height:22px}
+#files_rightPopup.files_action_panel a{padding-left:15px}
+div.shareEmptyGroup{padding:143.5px}
+ul.change_table{border:1px solid #D1D1D1;list-style:none;margin:10px 0 15px;padding:15px 7px;height:300px;overflow:auto}
+li.shange_row{padding:5px 10px;border-top:0;border-bottom:1px solid #D1D1D1;border-left:none;border-right:0;margin:0 8px}
+li.shange_row .name,li.shange_row .author,li.shange_row .date{overflow:hidden;white-space:nowrap}
+div.newInShareBody .name{float:left;width:330px;margin-right:10px}
+div.newInShareBody .author{float:left;width:140px;margin-right:10px}
+div.newInShareBody .date{width:100px}
+div.newInShareBody div.header{margin:0 25px;color:#787878}a.file_fav_notyet,a.file_fav_already{padding:3px;display:inline-block}
+a.file_fav_action{border:1px solid #CCC;background-image:url("images/button_grey_bg.gif");background-position:center top;background-repeat:repeat-x;padding:2px!important;display:inline-block}
+a.file_fav_action:hover{background-image:url("images/button_grey_over_bg.gif")}
+div.fileRow a.file_fav_notyet div{cursor:pointer;background:url("images/favorite.png") no-repeat scroll 0 -140px transparent;height:20px;width:20px;display:inline-block}
+div.fileRow a.file_fav_already div{cursor:pointer;background:url("images/favorite.png") no-repeat scroll 0 -70px transparent;height:20px;width:20px}
+div.fileRow a.file_fav_action div{background:url("images/favorite.png") no-repeat scroll 0 0 transparent!important;height:20px;width:20px}
+div.fileRow div.fileFavorites{margin-left:5px;padding-top:7px;float:right!important}
+div.fileRow.newFolder div.fileFavorites,div.fileRow.newFile div.fileFavorites,div.fileRow.rowRename div.fileFavorites{display:none}
+ul.favoritesBody{list-style:none;margin:0 0 15px;padding:0;display:none}
+ul.favoritesBody li.favoritesRow{border:1px solid #FFF;padding:6px 0}
+ul.favoritesBody li.favoritesRow.row-to{border:1px solid #98BCA1}
+ul.favoritesBody li.favoritesRow a{display:block;padding-left:20px;outline:0;color:#111;cursor:pointer;float:left;overflow:hidden;text-decoration:none;white-space:nowrap;width:145px;height:16px;_position:relative}
+ul.favoritesBody li.favoritesRow a.fav_file{background:url("images/favorite_file.png") no-repeat scroll 2px bottom transparent}
+ul.favoritesBody li.favoritesRow a.fav_folder{background:url("images/favorite_folder.png") no-repeat scroll 2px bottom transparent}
+div.favoritesRemoveAction{background:url("images/favorite_trash.png") no-repeat scroll 0 bottom transparent;cursor:pointer;float:right;width:12px;height:12px}
+div.favoritesEmpty{margin:15px 0;cursor:default}
+input.favorites_prompt_input{width:150px;float:left;margin-right:8px}
+#favorites_addcurrent{border-bottom:1px dotted #1A6DB3;outline:medium none;text-decoration:none}
+#favorites_addcurrent:hover{border-bottom:0}#documentViewerToolbox{background-color:#f2f2f2;background:-webkit-gradient(linear,left top,left bottom,from(#f2f2f2),to(#e3e3e3));background:-moz-linear-gradient(top,#f2f2f2,#e3e3e3);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2f2f2,endColorstr=#e3e3e3) progid:DXImageTransform.Microsoft.Shadow(color='#C9CBCC',Direction=135,Strength=2);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2f2f2, endColorstr=#e3e3e3)";-moz-box-shadow:0 1px 0 #C9CBCC;-webkit-box-shadow:0 1px 0 #C9CBCC;box-shadow:0 1px 0 #C9CBCC;border:1px solid #C9CBCC;height:40px;line-height:40px}
+#documentViewerToolbox ul{margin:0;padding:0;width:1000px;margin:0 auto}
+#documentViewerToolbox ul li{float:left;list-style:none;height:40px;margin-right:10px;cursor:pointer}
+#documentViewerToolbox ul li.splitter{margin:0 32px;cursor:pointer}
+#documentViewerToolbox ul li img{vertical-align:middle;border:0}
+#documentBrowser{background-color:#7b7f84;height:150px;width:1000px;margin:0 auto;margin-top:10px}
+#documentBrowser div.sliderBox{height:100px;padding-top:20px}
+#documentBrowser div.sliderBox div.signature{text-align:center}
+#documentViewerScroll{width:1000px;background:url("images/dv_document_scroll.png") no-repeat scroll center center;margin:0 auto;cursor:pointer}
+#documentViewerScroll div{height:30px;background-color:#b6b6b6;-moz-opacity:.2;filter:alpha(opacity=20);opacity:.2}
+#imageViewer{cursor:move}
+#imageViewerToolbox{position:absolute;left:0;width:100%}
+#imageViewerToolbox div.imageInfo{border-bottom:1px solid #1A1A1A;color:#D7D8D8;font-size:14px;font-weight:bold;padding-bottom:10px;text-align:center;padding-top:10px}
+#imageViewerToolbox div.toolboxWrapper ul{padding:0;width:410px;margin:0 auto;display:block}
+#imageViewerToolbox div.toolboxWrapper ul li{float:left;list-style:none;margin-right:15px;cursor:pointer;margin-top:13px}
+#imageViewerToolbox div.toolboxWrapper{background-color:#303030;height:50px;border-top:1px solid #4C4C4C}
+#imageViewerInfo{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;background-color:#303030;color:#FFF;font-size:15px;font-weight:bold;position:absolute;padding:4px 10px}
+#imageViewerContainer{position:absolute;cursor:move!important}
+#imageViewerClose{position:absolute;top:0}
+div.loading_container.loading_container_wrapper{background-color:#4C4C4C;opacity:1}
+#imageViewerClose,#imageViewerInfo,.loading_container_wrapper{z-index:2011!important;cursor:pointer}
+#imageViewerToolbox{z-index:2001}
+#imageViewerContainer{z-index:2000}
+.scroll_fix{overflow:hidden!important}
+#other_actions{position:absolute;z-index:2002;border:1px solid #4C4C4C}
+#other_actions,#other_actions ul{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+#other_actions ul{margin:0;padding:0;border:1px solid #1A1A1A;background-color:#303030}
+#other_actions ul li{list-style:none}
+#other_actions ul span{color:#dfdfdf;cursor:pointer}
+#other_actions ul li a{background-attachment:scroll;background-position:left center;background-repeat:no-repeat;color:#DFDFDF;display:block;line-height:24px;margin:10px;padding:0 15px 0 30px;text-decoration:none}
+#other_actions ul li a:hover{background-color:#424343}
+#other_actions ul li a.action_download{background-image:url("images/iv_download.png")}
+#other_actions ul li a.action_get_link{background-image:url("images/iv_get_link.png")}
+#other_actions ul li a.action_delete{background-image:url("images/iv_delete.png")}
+#other_actions ul li a.action_download:hover{background-image:url("images/iv_download_hover.png")}
+#other_actions ul li a.action_get_link:hover{background-image:url("images/iv_get_link_hover.png")}
+#other_actions ul li a.action_delete:hover{background-image:url("images/iv_delete_hover.png")}#files_import_container{list-style:none;margin:0;padding:0}
+#files_import_container li{padding:0;padding-left:20px;margin:0;margin-top:10px;display:inline-block;text-decoration:none}
+#files_import_container li:hover{cursor:pointer;text-decoration:none}
+#files_import_container li.import_from_boxnet{background:url("images/import_from_box-net_small.png") no-repeat scroll 0 center transparent}
+#files_import_container li.import_from_google{background:url("images/import_from_google_small.png") no-repeat scroll 0 center transparent}
+#files_import_container li.import_from_zoho{background:url("images/import_from_zoho_small.png") no-repeat scroll 0 center transparent}
+table.fl-tablebase{border-collapse:collapse;width:100%}
+table.fl-tablebase thead td{color:#82878D;font-size:12px}
+table.fl-tablebase tbody td{border-left:none;border-right:0;vertical-align:middle}
+table.fl-tablebase tbody td div.import_title{width:560px;overflow:hidden}
+table.fl-tablebase tbody td div.import_author{width:120px;overflow:hidden}
+#ImportDialogTemp table.fl-tablebase td{padding:4px}
+div.import_data_table{height:300px;overflow:auto;padding:8px 10px}
+.import_data_check,.import_head_check{width:30px;text-align:center}
+.import_data_check input,.import_head_check input{cursor:pointer}
+.import_data_author{width:125px}
+.import_data_date,.import_head_date{width:90px;text-align:center}
+#import_to_folder{padding:8px 0}
+a.import_tree{background:url("images/tree.png") no-repeat;width:16px;height:16px;display:inline-block;cursor:pointer}
+#LoginDialogTemp .containerBodyBlock>div{margin-bottom:15px}
+#LoginDialogTemp .containerBodyBlock input{width:350px}
+#ImportDialogTemp .import_progress_panel{width:550px;float:right;position:relative;top:-10px}
+div.import_progress_min{width:160px;margin:-1px 0}
+div.files_minimize_uploader{background-color:#3186AF;height:2px;line-height:2px}
+.studioFileUploaderProgressBorder{border:solid 1px #787878;background-color:#fff;height:8px;line-height:8px;font-size:1px;margin-top:2px}
+#files_import_container div.studioFileUploaderProgressBorder,#files_import_container div.studioFileUploaderProgressBar{line-height:1px!important;height:1px!important;width:150px}
+*+html div.studioFileUploaderProgressBar{z-index:190;max-width:507px}div.folderHeader{padding:18px 0}
+div.headerContainer{position:relative;overflow:hidden}
+div.levelUp{border:1px solid #FFF;height:32px;margin:0 -8px 0 10px;width:32px}
+div.levelUp.row-to{border:1px solid #98BCA1}
+div.levelUp a{background:url("images/level-up.png") no-repeat;width:32px;height:32px;display:inline-block}
+div.folderBigIcon{background:url("images/folder-big.png") no-repeat scroll center 0 transparent;width:32px;height:32px;margin:7px 5px 0 7px}
+div.folderBigIcon.myFiles{background-image:url("images/myfiles_big.png")}
+div.folderBigIcon.corporateFiles{background-image:url("images/corporatefiles_big.png")}
+div.folderBigIcon.sharedformeFiles{background-image:url("images/sharedforme_big.png")}
+div.folderBigIcon.projectFiles{background-image:url("images/projectfiles_big.png")}
+div.folderBigIcon.Trash{background-image:url("images/trash_big.png")}
+div.folderName{color:#2A2A2A;font-family:Arial;font-size:24px;white-space:nowrap;overflow:hidden;width:700px;cursor:default}
+div.folderInfo{color:#787878;font-size:10px;white-space:nowrap;overflow:hidden;cursor:default}
+div.fade_title{height:100%;width:25px;position:absolute;right:0;background-image:url("images/fade.png")}
+*html div.fade_title{display:none}
+div.containerBodyBlock div.files_infoPanel{display:none;left:50%;margin:0;max-width:722px;position:fixed;top:0;z-index:260}
+div.containerBodyBlock div.files_infoPanel div{padding-right:10px;overflow:hidden}
+.jspContainer{overflow:hidden;position:relative}
+.jspPane{position:absolute}
+.jspVerticalBar{position:absolute;top:0;right:0;width:8px;height:100%;background:red}
+.jspHorizontalBar{position:absolute;bottom:0;left:0;width:100%;height:16px;background:#227CA8}
+.jspVerticalBar *,.jspHorizontalBar *{margin:0;padding:0}
+.jspCap{display:none}
+.jspHorizontalBar .jspCap{float:left}
+.jspTrack{background:#3386AF;position:relative}
+.jspDrag{background:#65A6C5;position:relative;top:0;left:0;cursor:pointer}
+.jspHorizontalBar .jspTrack,.jspHorizontalBar .jspDrag{float:left;height:100%}
+.jspArrow{background:#50506d;text-indent:-20000px;display:block;cursor:pointer}
+.jspArrow.jspDisabled{cursor:default;background:#80808d}
+.jspVerticalBar .jspArrow{height:16px}
+.jspHorizontalBar .jspArrow{width:16px;float:left;height:100%}
+.jspVerticalBar .jspArrow:focus{outline:0}
+.jspCorner{background:#eeeef4;float:left;height:100%}
+* html .jspCorner{margin:0 -3px 0 0}
+div.loading_container{background:url("images/loader_big.gif") no-repeat scroll 50% 23px #787C80;color:#FFF;cursor:wait;font-size:18px;font-weight:bold;left:50%;margin:-80px 0 0 -145px;min-width:200px;opacity:.8;filter:alpha(opacity=80)!important;-moz-opacity:.8;-khtml-opacity:.8;padding:104px 5px 25px;position:fixed;text-align:center;top:50%;white-space:nowrap;z-index:300;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px}
+div.loading_container .wait_container{font-size:12px}
+div.files_breadCrumbsContainer.previewBreadCrumbs{margin:0 0 0 42px;width:890px}
+.files_breadCrumbsContainer{line-height:18px;margin:-18px 0 0 26px;overflow:hidden;width:670px}
+.files_breadCrumbsContainer a{color:#000;white-space:nowrap;outline:0}
+.files_breadCrumbsContainer span{color:#000;margin:0 7px}
+.files_breadCrumbsContainer .breadCrumbsContainer_currentFolder{margin:0;white-space:nowrap;cursor:default}
+#mainContentHeader{background:#589EC0;color:#FFF;padding:2px 8px;width:708px;border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0}
+div.mainContentHeader_item{float:left;cursor:default;padding:2px 7px}
+div.mainContentHeader_title{float:left;margin:3px 5px 0 0}
+span.mainContentHeader_value{font-weight:bold;margin:0 3px}
+span.mainContentHeader_value.files_sort_asc{background:url("images/sort_up.png") no-repeat scroll 0 2px transparent;padding-left:16px}
+span.mainContentHeader_value.files_sort_desc{background:url("images/sort_down.png") no-repeat scroll 0 2px transparent;padding-left:16px}
+a.files_sort_asc{background:url("images/sort_up.png") no-repeat scroll 100% 2px transparent;padding-right:15px;font-weight:bold}
+a.files_sort_desc{background:url("images/sort_down.png") no-repeat scroll 100% 2px transparent;padding-right:15px;font-weight:bold}
+div.mainContentHeader_combobtn{background:url("images/combobox-w.png") no-repeat scroll 0 4px transparent;cursor:pointer;float:right;height:18px;width:9px}
+div.files_filter_value{max-width:390px;overflow:hidden;white-space:nowrap}
+div.mainContentHeader_combobtn-b{background:url("images/combobox.png") no-repeat scroll 0 4px transparent;cursor:pointer;float:right;height:18px;width:9px;margin-left:-1px;padding-right:2px;display:none}
+.display div.mainContentHeader_combobtn-b{display:block}
+div.mainContentHeader_item_actions,div.mainContentHeader_item_actions:hover{margin-top:2px;border:1px solid #589EC0}
+div.mainContentHeader_item_actions.display,div.mainContentHeader_item_actions.display:hover{cursor:pointer;background:url("images/back-combo.png") no-repeat scroll transparent;padding:2px}
+div.mainContentHeader_actions{float:left;padding:2px;width:31px;cursor:default}
+div.mainContentHeader_actions input{cursor:pointer;float:left;margin-right:0}
+div.mainContentHeader_actions div.mainContentHeader_combobtn{margin:0 1px 0 -1px}
+div.mainContentHeader_item_sort{float:right!important}
+div.mainContentHeader_sort div.mainContentHeader_combobtn,div.mainContentHeader_filter div.mainContentHeader_combobtn{border:1px solid #589EC0;background-position:right center;float:left;padding:2px 9px 0 3px;width:auto;margin-right:5px}
+div.mainContentHeader_sort div.mainContentHeader_combobtn:hover,div.mainContentHeader_filter div.mainContentHeader_combobtn:hover{background-color:#227CA8;border:1px solid #98BBCB;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+div.mainContentHeader_panel{background-color:#227CA8;width:724px;z-index:102;padding-bottom:10px;max-height:130px;border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px}
+div.mainContentHeader_panel a{color:#FFF;cursor:pointer}
+div.files_topPanel_panel{max-height:130px}
+div.files_topPanel_item{margin:10px 10px 0;float:left}
+div.files_filter_usersPanel,div.files_filter_departmensPanel{margin:10px 10px 0 0;max-height:120px;outline:0}
+div.files_filter_usersPanel div.files_topPanel_item{white-space:nowrap;overflow:hidden;width:20%;max-width:680px}
+div.files_filter_departmensPanel div.files_topPanel_item{white-space:nowrap;overflow:hidden;width:30%}
+div.mainContentHeader_panel div.jspHorizontalBar{display:none}
+div.files_sortPanel div{float:right}
+div.mainContentHeader_item div.select,div.mainContentHeader_item div.select:hover{background-color:#227CA8;border:1px solid #227CA8;border-bottom-width:7px;border-radius:5px 5px 0 0;margin-bottom:-6px;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0}
+div.mainContentHeader_panel a.select{font-weight:bold}
+div.mainContent{min-height:355px;overflow:hidden;width:724px}
+div.fileRow div{float:left}
+div.fileRow{padding:5px 7px;z-index:100;list-style:none outside none;border:1px solid #FFF}
+div.even{border:1px solid #EDF6FD}
+div.fileRow,div.fileRow a,div.fileRow span,div.fileRow div,div.fileRow input{outline:0}
+div.row-over,div.row-selected{background-color:#DAE8F3;border:1px solid #DAE8F3}
+div.row-selected{user-select:none;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none;MozUserSelect:none}
+div.may-row-to{background-color:#FFC}
+div.row-to{background-color:#DAF2E2;border:1px solid #98BCA1}
+#files_mainContent{min-height:355px;margin:0;padding:0;border-style:solid;border-width:1px;border-color:#589EC0 #fff #fff}
+#emptyScreen{border:1px solid #fff}
+#files_mainContent.selected,#emptyScreen.selected{border:1px dotted #a1a1a1}
+div.fileRow div.folder-file{width:32px;height:32px;margin:3px 12px 0 3px;position:relative}
+div.fileRow div.sub-folder{background:url("images/content_folder.png") no-repeat;width:32px;height:32px;margin:3px 12px 0 3px}
+div.fileInfo{color:#787878;font-family:Arial;font-size:10px}
+div.fileInfo.markForMe{margin-left:-4px}
+div.fileInfo.markForMe span.ownerSpan{background-color:#8BA149;border:1px solid #8BA149;border-radius:2px 2px 2px 2px;color:#FFF;margin-right:-4px;padding:0 3px 0 4px;background-color:#8BA149;border:1px solid #8BA149;color:#FFF;margin-right:-4px;padding:0 3px 0 4px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px}
+div.fileRow div.checkbox{width:36px;margin:8px 0 0 0}
+div.fileRow.newFolder div.checkbox,div.fileRow.newFile div.checkbox,div.fileRow.rowRename div.checkbox{visibility:hidden}
+div.fileRow.checkloading.newFolder div.checkbox,div.fileRow.checkloading.newFile div.checkbox,div.fileRow.checkloading.rowRename div.checkbox{visibility:visible}
+div.fileRow.checkloading.newFolder div.fileName,div.fileRow.checkloading.newFile div.fileName,div.fileRow.checkloading.rowRename div.fileName{margin:6px 0 10px}
+div.fileRow div.combobox{padding:2px;background:url("images/back-combo.png") no-repeat scroll transparent;cursor:pointer;width:30px}
+*+html div.fileRow div.combobox input{padding:0;margin:-1px 0 0 0}
+div.fileRow div.combobox div.combobtn{background:url("images/combobox.png") no-repeat scroll 0 4px transparent;width:9px;height:18px;margin:0 1px 0 -1px;cursor:pointer;float:right}
+div.fileRow div.no_combobox{padding:2px;cursor:pointer}
+div.fileRow div.no_combobox div.combobtn{width:9px;height:18px;margin:0 1px 0 -1px;cursor:pointer;float:right}
+div.fileRow div.fileName{float:none;margin-bottom:3px;z-index:90;color:#333;font-family:Arial;font-size:18px;white-space:nowrap;overflow:hidden;width:465px}
+div.fileRow div.fileName a{cursor:pointer;color:#333;font-family:Arial;font-size:18px;text-decoration:none;outline:0}
+div.fileRow div.fileName a:hover{text-decoration:underline}
+div#files_mainContent div.fileRow input.renameInput{width:530px;font-size:16px;height:18px;cursor:text;color:#333;font-family:Arial}
+div#files_mainContent div.newFolder input.renameInput,div#files_mainContent div.newFile input.renameInput,div#files_mainContent div.rowRename input.renameInput{margin:8px 0 5px}
+div.newFolder div.apllyName,div.newFile div.apllyName,div.rowRename div.apllyName{background:url("images/d.png") no-repeat scroll 0 -55px transparent;height:16px;width:17px;margin:10px 0 0 4px;cursor:pointer}
+div.newFolder div.cancelName,div.newFile div.cancelName,div.rowRename div.cancelName{background:url("images/d.png") no-repeat scroll -19px -55px transparent;height:16px;width:17px;margin:10px 0 0 4px;cursor:pointer}
+div.folderRow div.fileName div.name,div.folderRow div.fileName,div.rowRename div.fileName div.name,div.rowRename div.fileName{width:550px!important;max-width:550px!important}
+div.fileRow div.fileName div.name{overflow:hidden;white-space:nowrap;max-width:400px}
+div.fileRow.cannotEdit div.fileName{width:585px}
+div.fileRow.cannotEdit div.fileName div.name{max-width:520px}
+div.rowRename div.fileName a.name,div.rowRename div.parameter,div.rowRename div.fileInfo,div.rowRename div.fileEdit,div.rowRename div.fileEditing{display:none!important}
+div.fileRow div.version{background-color:#4AA4BB;font-size:10px!important;color:#FFF!important;padding:0 2px;margin:5px 0 0 2px;text-decoration:none!important;cursor:pointer;max-width:42px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px}
+div.fileRow.rowRename div.version{display:none}
+div.fileRow div.is_new{background-color:#E35413;font-size:10px!important;color:#FFF!important;cursor:default;padding:0 2px;margin:5px 0 0 2px;text-decoration:none!important;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px}
+div.fileRow div.fileInfo{cursor:default;float:none;z-index:90;width:445px;overflow:hidden;white-space:nowrap}
+div.folderRow div.fileInfo,div.fileRow.cannotEdit div.fileInfo{width:550px}
+div.fileRow div.fileInfo span.create_by{display:inline-block;max-width:220px;overflow:hidden;vertical-align:bottom}
+div.fileRow.cannotEdit div.fileInfo span.create_by{max-width:300px}
+div.fileRow.newFolder div.fileInfo,div.fileRow.newFile div.fileInfo,div.fileRow.newFile div.fileEdit,div.fileRow.newFile div.fileEditing{display:none}
+div.fileEdit,div.fileEditing{float:right!important;padding-top:7px;display:none}
+div.fileEdit a,div.fileEditing a{border:1px solid #FFF;color:#90959A;cursor:pointer;display:inline-block;max-width:110px;overflow:hidden;padding:4px 14px 2px;text-decoration:none;white-space:nowrap}
+div.fileEditing a{cursor:default}
+.even div.fileEdit a,.even div.fileEditing a{border-color:#EDF6FD}
+.row-selected div.fileEdit a,.row-selected div.fileEditing a{border-color:#DAE8F3}
+div.fileRow.row-over div.fileEdit a{border-color:#CCC;background:url("images/button_grey_bg.gif") repeat-x center top transparent;color:#333}
+div.fileRow.row-over div.fileEditing a{border-color:#DAE8f3}
+div.fileRow.row-over div.fileEdit a:hover{background-image:url("images/button_grey_over_bg.gif")}
+#files_mainContent .folder-file{background:url("images/filetype/file_na.png") no-repeat}
+#files_mainContent .sub-folder{background:url("images/content_folder.png") no-repeat}
+div.folder-file div.share_file_icn,div.sub-folder div.share_file_icn,div.folderBigIcon div.share_file_icn{background:url("images/shared.png") no-repeat right bottom transparent;float:right;height:16px;margin-top:17px;width:16px;display:none}
+div.sub-folder div.share_file_icn{margin-top:14px}
+div.folderBigIcon div.share_file_icn{margin-top:13px}
+div.folder-file div.editing_file_icn{background:url("images/pencil.png") no-repeat right bottom transparent;display:none;height:16px;margin-top:16px;position:absolute;right:0;width:16px}
+div.pager_show_more{display:none;padding-top:20px;text-align:center}
+.noContentBlock{padding:75px;display:none}
+div.clear_filter{padding-bottom:30px}
+div.drag_drop_image{background:url("images/empty_screen.png") no-repeat;height:136px;width:322px;display:inline-block;margin-top:-40px;padding-bottom:40px}
+#files_moving{cursor:move}
+#files_moving,#ie#fix{cursor:alias}
+*+html #files_moving{cursor:move}
+#files_moving.copy{cursor:copy}
+#files_moving.copy,#ie#fix{cursor:crosshair}
+#files_moving div.fileRow div.fileEdit,#files_moving div.fileRow div.fileEditing{display:none!important}
+*+html #files_moving.copy{cursor:copy}
+#files_moving_tooltip{border:1px solid #D1D1D1;background-color:#FDF9C9;position:absolute;z-index:301;display:block;color:#333;font-family:Arial;font-size:10px;padding:5px 10px;margin-left:5px;cursor:move;height:auto}
+#files_moving_tooltip,#ie#fix{cursor:alias}
+*+html #files_moving_tooltip{cursor:move}
+li.files_delete_button a{background-image:url("images/delete.png")}
+li.files_open_files a{background-image:url("images/preview.png")}
+li.files_edit_files a{background-image:url("images/edit_action.png")}
+li.files_editOO_files a{background-image:url("images/oo.png")}
+li.files_getlink_files a{background-image:url("images/link.png")}
+li.files_uploads_files a{background-image:url("images/update.png")}
+li.files_versions_files a{background-image:url("images/show_ver.png")}
+li.files_download_button a{background-image:url("images/download_action.png")}
+li.files_moveto_button a{background-image:url("images/move.png")}
+li.files_share_button a{background-image:url("images/share_actions.png")}
+div.files_remove_list{border:1px solid #D1D1D1;line-height:20px;margin:15px 0 0;max-height:300px;overflow-x:hidden;overflow-y:auto;padding:0 15px 15px}
+dd.confirmRemoveFolders,dd.confirmRemoveFiles{padding:10px 0 0 80px}
+dd.confirmRemoveFiles div{overflow:hidden;white-space:nowrap;width:270px}
+dt.confirmRemoveFolders,dt.confirmRemoveFiles{float:left;font-weight:bold;margin-top:10px;text-align:right;width:70px}
+ul.files_overwrite_list{border:1px solid #D1D1D1;line-height:20px;list-style-type:none;margin:15px 0 0;max-height:300px;overflow-x:hidden;overflow-y:auto;padding:15px}
+ul.files_overwrite_list li{width:330px;overflow:hidden;white-space:nowrap}
+input.getLink_text{color:#777;margin:10px 15px 25px 0;padding:2px 8px;width:290px}
+input.getLink_text:focus{border-color:#C7C7C7}
+#files_bottom_loader{background-color:#FFF;bottom:0;left:50%;margin:0;position:fixed;width:200px;z-index:200}
+div.files_progress_box .terminateTasks{background:url("images/cross.png") no-repeat;cursor:pointer;float:right;height:9px;margin-right:-20px;width:9px}
+div.versionsRow{border-top:1px solid #FFF;width:100%;margin-top:10px}
+div.versions_btn{margin:15px 0 0 5px}
+span.versionsTitle{color:#111;font-size:16px;font-weight:bolder;margin:10px 5px 5px 5px}
+div.headerTableVersions{width:100%;padding:10px 0;border-bottom:1px solid #d1d1d1;color:#787878}
+div.headerTableVersions div{float:left}
+div.headerTableVersions .VersionNum{width:70px;text-align:center}
+div.headerTableVersions .Author{width:255px}
+div.headerTableVersions .DateTime{width:140px}
+div.headerTableVersions .Size{width:110px}
+div.headerTableVersions .Action{float:right;width:100px;text-align:right;padding-right:10px}
+div.versionRow{border-bottom:1px solid #D1D1D1;color:#323232;height:16px;padding:8px 0;width:100%}
+div.versionRow a{color:#323232}
+div.version_num{float:left;width:70px;text-align:center}
+div.version_datetime{float:left;width:140px}
+div.version_size{float:left;width:110px}
+div.version_author{float:left;max-width:240px;margin-right:5px;white-space:nowrap;overflow:hidden}
+.versionRow div.version_restore{float:right;max-width:130px;text-align:right;padding-right:10px}
+div.version_restore a{cursor:pointer;font-size:11px;text-decoration:none;border-bottom:1px dotted}
+div.version_restore a:hover{border-bottom:1px none}
+.versionRow .version_restore div{cursor:pointer;display:none;height:16px;width:16px;margin-right:8px}
+.versionRow .version_restore .downloadVersion{background-image:url("images/download_action.png")}
+.versionRow .version_restore .previewVersion{background-image:url("images/preview.png")}
+.versionRow.actionRow .downloadVersion,.versionRow.actionRow .previewVersion{display:block}
+.notPreview .versionRow .previewVersion{display:none}
+div.tableVersionRow{display:none}ul#mainMenuHolder{background-color:white;border-bottom:1px solid #D1D1D1;height:67px;list-style:none;margin:0;padding:0}
+ul#mainMenuHolder li{float:left;width:25%}
+*:first-child+html ul#mainMenuHolder li{width:24%}
+ul#mainMenuHolder.withShare li{width:20%}
+*:first-child+html ul#mainMenuHolder.withShare li{width:19%}
+ul#mainMenuHolder.withShare li a.topShare{display:block}
+ul#mainMenuHolder li a{background-position:center top;background-repeat:no-repeat;color:#333;cursor:pointer;display:block;height:15px;padding:42px 0 10px;text-align:center;text-decoration:none;_position:relative}
+* html ul#mainMenuHolder li a{height:57px}
+ul#mainMenuHolder li a:hover{text-decoration:underline}
+ul#mainMenuHolder li a.topNewFile{background-image:url("images/new_file.png")}
+ul#mainMenuHolder li a.topUpload{background-image:url("images/upload.png")}
+ul#mainMenuHolder li a.topNewFolder{background-image:url("images/createfolder.png")}
+ul#mainMenuHolder li a.topShare{display:none;background-image:url("images/share.png")}
+ul#mainMenuHolder li a.topDownload{background-image:url("images/download.png")}
+ul#mainMenuHolder li a.topGallery{background-image:url("images/gallery.png")}
+ul#mainMenuHolder li a.topList{background-image:url("images/list.png")}
+ul#mainMenuHolder.fixed{background:url("images/shadow.png") no-repeat scroll 0 0 transparent;border:0 none #FFF;margin:0 0 0 -30px;padding:0 30px 8px;position:fixed;top:0;width:724px;z-index:255;border-bottom:0;height:auto}
+ul#mainMenuHolder.fixed li a{background-image:none;padding-top:10px}
+ul#mainMenuHolder li a#files_newdoc_btn:hover{text-decoration:none}
+#files_newdoc_btn:hover span{text-decoration:underline}
+#files_newdoc_btn img{display:inline!important}
+div#mainMenuHolderSpacer{display:none;width:100%}
+li.files_create_text a{background-image:url("images/doc.png")}
+li.files_create_spreadsheet a{background-image:url("images/spreadsheet.png")}
+li.files_create_presentation a{background-image:url("images/presentation.png")}
+.studioFileUploaderFileName{max-height:30px;max-width:290px;overflow:hidden}
+.files_uploadIcon{background:url("images/upload.png") no-repeat;height:32px;width:32px}
+#files_upload_select{padding-top:15px}
+#files_uploadDialogContainer div.header{color:#333;font-family:Arial;font-size:18px}
+#files_uploadDialogContainer div.panelContent{padding:10px;border:1px solid #d1d1d1}
+#files_uploadDialogContainer div.panelButtons{padding-top:16px}
+#files_uploadDialogContainer div.describeUpload{color:#787878}
+#files_uploadDialogContainer div.files_upload_fileList{margin:10px 0 0 0;max-height:150px;width:100%;overflow:auto}
+*+html #files_uploadDialogContainer div.files_upload_fileList table{width:507px!important;z-index:290}
+a.files_upload_btn{float:left;width:100px;cursor:pointer;position:absolute!important}
+*html a.files_upload_btn{margin-left:0!important}
+*+html a.files_upload_btn{margin-left:0!important}
+#asc_fileuploaderSWFContainer{position:static!important}
+.swfupload{width:130px!important;height:20px!important;position:absolute!important}
+.files_overAllProcessBarCssClass{height:8px;width:100%;border:1px solid #d1d1d1;margin-top:10px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px}
+.files_overAllProcessBarCssClass div{height:8px;background:url("images/back-progress.png") repeat-x!important}
+.files_deleteLinkCSSClass{display:inline-block;margin-top:2px;background:url("images/trash.png") no-repeat scroll center center transparent;cursor:pointer;height:12px;width:12px;text-decoration:none!important}
+.files_loadingCSSClass{background:url("images/loader_small.gif") no-repeat scroll center center transparent;cursor:default;height:24px;width:24px;display:inline-block;margin-top:2px;margin-left:-5px;text-decoration:none!important}
+.files_completeCSSClass{background:url("images/complete.png") no-repeat scroll center center transparent;cursor:default;height:12px;width:12px;display:inline-block;margin-top:2px;text-decoration:none!important}ul.files_navigation{list-style:none;margin:0 0 0 -20px;padding:0}
+ul.files_navigation li a{background-position:3px 12px;background-repeat:no-repeat;border-color:#FFF #FFF #D1D1D1;border-style:solid;border-width:1px;color:#333;display:block;font-family:Arial;outline:0;padding:12px 0 12px 22px;text-decoration:none;_position:relative}
+ul.files_navigation li a.current{font-weight:bold}
+ul.files_navigation li a.files_navigation_last{margin-bottom:-10px;border-color:#FFF}
+ul.files_navigation li a.row-to{border:1px solid #98BCA1}
+ul.files_navigation li a.myFiles{background-image:url("images/myfiles.png")}
+ul.files_navigation li a.corporateFiles{background-image:url("images/corporatefiles.png")}
+ul.files_navigation li a.shareformeFiles{background-image:url("images/sharedforme.png")}
+ul.files_navigation li a.trash{background-image:url("images/trash_container.png")}
+span.new_inshare{font-weight:normal;color:#83888D;display:none}#plugin_informer div.btn_close,div.btn_close:hover{cursor:pointer;float:right;background:url("images/close_popup.png") repeat-x scroll 0 0 transparent;width:24px;height:24px;margin-right:15px;margin-top:15px}
+#plugin_informer div.btn_close:hover{background:url("images/close_popup_on.png") repeat-x scroll 0 0 transparent!important}
+div.plugin_informer_wrapper{display:none;background:-webkit-gradient(linear,left top,left bottom,from(#fce490),to(#fbda6f));background:-moz-linear-gradient(top,#fce490,#fbda6f);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fce490,endColorstr=#fbda6f);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#fce490, endColorstr=#fbda6f)";width:100%;z-index:300}
+#plugin_informer div.plugin_informer{margin:0 auto;width:1000px;text-align:left;padding:13px}
+#plugin_informer span.btn_install,span.btn_install:hover{background-attachment:inherit;font-size:16px;color:#FEFEFE;cursor:pointer;display:inline-block;padding:10px;text-align:center;text-decoration:none;width:170px;float:right;padding-right:10px;-moz-box-shadow:1px 1px 1px #000;-webkit-box-shadow:1px 1px 1px #000;box-shadow:1px 1px 1px #000;background:-webkit-gradient(linear,left top,left bottom,from(#20779b),to(#0d4867));background:-moz-linear-gradient(top,#20779b,#0d4867);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#20779b,endColorstr=#0d4867) progid:DXImageTransform.Microsoft.Shadow(color='#000000',Direction=135,Strength=2);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#20779b, endColorstr=#0d4867)";border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+#plugin_informer span.btn_install:hover{background:-webkit-gradient(linear,left top,left bottom,from(#318eb4),to(#135878));background:-moz-linear-gradient(top,#318eb4,#135878);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#318eb4,endColorstr=#135878) progid:DXImageTransform.Microsoft.Shadow(color='#000000',Direction=135,Strength=2);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#318eb4, endColorstr=#135878)"}
+#plugin_informer div.plugin_informer_info{float:left;padding-left:10px;width:750px}
+#plugin_informer div.plugin_informer_info p{margin:0;padding:0}
+#plugin_informer div.plugin_informer_info p span{border-bottom:1px dotted;cursor:pointer;display:inline-block}
+#install_process .files_progress_box{background:White url("images/oo-logo-loader.png") no-repeat;border:0;display:block;margin-left:0;overflow:inherit;padding:10px 0 0 157px;width:300px;white-space:inherit}
+#slider{margin:0 -16px -16px;padding:16px}
+#slider ul{text-align:center;padding:0;margin:0 auto;width:90px}
+#slider ul li{float:left;margin:0 1px;padding:0;list-style:none}
+#slider ul a{background:url("images/grey_slider.png") no-repeat;text-decoration:none;width:11px;height:11px;display:block;float:left;margin:0 1px}
+#slider ul a.slider-active{background:url("images/blue_slider.png") no-repeat!important}
+#how_it_works_box{display:none}
+#how_it_works_box dl{margin-bottom:20px;margin-right:350px}
+#how_it_works_box dl dt{background:url("images/step_blue.png") no-repeat scroll center;width:30px;height:30px;text-align:center;vertical-align:middle;float:left;line-height:30px}
+#how_it_works_box dl dt span{color:White}
+#how_it_works_box dl dd{margin-left:35px;padding-top:9px}
+#how_it_works_box div.video_box{float:right}
+#how_it_works_box div.video_box span{margin-bottom:10px;display:block}
+#install_completed{margin:30px 0}
+#install_completed span{background:url("images/ready_icon.png") no-repeat scroll left center transparent;display:block;padding-left:25px;margin:40px 0}
+#install_completed a.baseLinkButton{margin-left:40%;margin-right:40%}
+#install_process p{text-align:center}#quotaBarContainer{margin:5px 0}
+div.quotaUsage{float:left;font-weight:bold}
+div.quotaValue{float:right}
+div.quotaContainer{margin-top:10px}
+div.quotaProgressBorder{background-color:#FFF;border:1px solid #787878;font-size:1px;height:8px;line-height:8px;margin-top:2px}
+div.quotaProgressBorder div.quotaProgressBar{background-color:#3186AF;font-size:1px;height:8px;line-height:8px}

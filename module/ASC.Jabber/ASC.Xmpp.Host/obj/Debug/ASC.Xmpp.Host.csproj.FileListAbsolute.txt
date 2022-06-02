@@ -1,0 +1,32 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Host.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Host.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\agsXMPP.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Core.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Server.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\log4net.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\System.Data.SQLite.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Server.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\log4net.xml
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Common.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\System.Data.SQLite.xml
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\obj\Debug\ASC.Xmpp.Host.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\obj\Debug\ASC.Xmpp.Host.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Host.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Host.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\agsXMPP.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Core.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Server.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\log4net.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\System.Data.SQLite.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Common.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\ASC.Xmpp.Server.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\log4net.xml
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\bin\Debug\System.Data.SQLite.xml
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\obj\Debug\ASC.Xmpp.Host.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Jabber\ASC.Xmpp.Host\obj\Debug\ASC.Xmpp.Host.pdb

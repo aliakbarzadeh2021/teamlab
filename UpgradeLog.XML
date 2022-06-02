@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TeamLab">
+</Property><Property Name="Solution File" Value="D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\TeamLab.sln">
+</Property><Property Name="Date" Value="الأحد, جوييه 08, 2012">
+</Property><Property Name="Time" Value="11:27 ق.ظ">
+</Property></Properties><Event ErrorLevel="0" Project="ASC.Web.Studio" Source="web\studio\ASC.Web.Studio\ASC.Web.Studio.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Studio" Source="web\studio\ASC.Web.Studio\ASC.Web.Studio.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="ASC.Web.Host" Source="web\host\ASC.Web.Host\ASC.Web.Host.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Host" Source="web\host\ASC.Web.Host\ASC.Web.Host.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Host" Source="web\host\ASC.Web.Host\ASC.Web.Host.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Controls" Source="web\controls\ASC.Web.Controls\ASC.Web.Controls.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Controls" Source="web\controls\ASC.Web.Controls\ASC.Web.Controls.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.UserControls.Bookmarking" Source="web\controls\ASC.Web.UserControls.Bookmarking\ASC.Web.UserControls.Bookmarking.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.UserControls.Bookmarking" Source="web\controls\ASC.Web.UserControls.Bookmarking\ASC.Web.UserControls.Bookmarking.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.UserControls.Forum" Source="web\controls\ASC.Web.UserControls.Forum\ASC.Web.UserControls.Forum.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.UserControls.Forum" Source="web\controls\ASC.Web.UserControls.Forum\ASC.Web.UserControls.Forum.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.UserControls.Wiki" Source="web\controls\ASC.Web.UserControls.Wiki\ASC.Web.UserControls.Wiki.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.UserControls.Wiki" Source="web\controls\ASC.Web.UserControls.Wiki\ASC.Web.UserControls.Wiki.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Common" Source="common\ASC.Common\ASC.Common.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Common" Source="common\ASC.Common\ASC.Common.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Data.Backup" Source="common\ASC.Data.Backup\ASC.Data.Backup.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Data.Backup" Source="common\ASC.Data.Backup\ASC.Data.Backup.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Data.Storage" Source="common\ASC.Data.Storage\ASC.Data.Storage.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Data.Storage" Source="common\ASC.Data.Storage\ASC.Data.Storage.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Bookmarking" Source="module\ASC.Bookmarking\ASC.Bookmarking.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Bookmarking" Source="module\ASC.Bookmarking\ASC.Bookmarking.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.FullTextIndex" Source="module\ASC.FullTextIndex\ASC.FullTextIndex\ASC.FullTextIndex.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.FullTextIndex" Source="module\ASC.FullTextIndex\ASC.FullTextIndex\ASC.FullTextIndex.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Xmpp.Common" Source="module\ASC.Jabber\ASC.Xmpp.Common\ASC.Xmpp.Common.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Xmpp.Common" Source="module\ASC.Jabber\ASC.Xmpp.Common\ASC.Xmpp.Common.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Xmpp.Host" Source="module\ASC.Jabber\ASC.Xmpp.Host\ASC.Xmpp.Host.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Xmpp.Host" Source="module\ASC.Jabber\ASC.Xmpp.Host\ASC.Xmpp.Host.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Xmpp.Server" Source="module\ASC.Jabber\ASC.Xmpp.Server\ASC.Xmpp.Server.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Xmpp.Server" Source="module\ASC.Jabber\ASC.Xmpp.Server\ASC.Xmpp.Server.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Projects.Core" Source="module\ASC.Projects\ASC.Projects.Core\ASC.Projects.Core.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Projects.Core" Source="module\ASC.Projects\ASC.Projects.Core\ASC.Projects.Core.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Projects.Data" Source="module\ASC.Projects\ASC.Projects.Data\ASC.Projects.Data.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Projects.Data" Source="module\ASC.Projects\ASC.Projects.Data\ASC.Projects.Data.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Projects.Engine" Source="module\ASC.Projects\ASC.Projects.Engine\ASC.Projects.Engine.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Projects.Engine" Source="module\ASC.Projects\ASC.Projects.Engine\ASC.Projects.Engine.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Blogs.Core" Source="module\Blogs\ASC.Blogs.Core\ASC.Blogs.Core.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Blogs.Core" Source="module\Blogs\ASC.Blogs.Core\ASC.Blogs.Core.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Forum" Source="module\Forum\ASC.Forum\ASC.Forum.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Forum" Source="module\Forum\ASC.Forum\ASC.Forum.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.PhotoManager" Source="module\PhotoManager\ASC.PhotoManager.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.PhotoManager" Source="module\PhotoManager\ASC.PhotoManager.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community" Source="web\studio\ASC.Web.Studio\Products\Community\ASC.Web.Community.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Community" Source="web\studio\ASC.Web.Studio\Products\Community\ASC.Web.Community.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.Blogs" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Blogs\ASC.Web.Community.Blogs.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Community.Blogs" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Blogs\ASC.Web.Community.Blogs.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.Bookmarking" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Bookmarking\ASC.Web.Community.Bookmarking.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Community.Bookmarking" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Bookmarking\ASC.Web.Community.Bookmarking.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.Forum" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\ASC.Web.Community.Forum.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Community.Forum" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\ASC.Web.Community.Forum.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.News" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\News\ASC.Web.Community.News.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Community.News" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\News\ASC.Web.Community.News.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.PhotoManager" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\PhotoManager\ASC.Web.Community.PhotoManager.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Community.PhotoManager" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\PhotoManager\ASC.Web.Community.PhotoManager.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.Wiki" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\ASC.Web.Community.Wiki.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Community.Wiki" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\ASC.Web.Community.Wiki.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Data.Backup.Restore" Source="common\ASC.Data.Backup.Restore\ASC.Data.Backup.Restore.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Data.Backup.Restore" Source="common\ASC.Data.Backup.Restore\ASC.Data.Backup.Restore.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="agsXMPP" Source="module\ASC.Jabber\agsXMPP\agsXMPP.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="agsXMPP" Source="module\ASC.Jabber\agsXMPP\agsXMPP.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Talk" Source="web\studio\ASC.Web.Studio\addons\talk\ASC.Web.Talk.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Talk" Source="web\studio\ASC.Web.Studio\addons\talk\ASC.Web.Talk.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Core.Common" Source="common\ASC.Core.Common\ASC.Core.Common.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Core.Common" Source="common\ASC.Core.Common\ASC.Core.Common.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.TeamLabSvc" Source="module\ASC.TeamLabSvc\ASC.TeamLabSvc\ASC.TeamLabSvc.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.TeamLabSvc" Source="module\ASC.TeamLabSvc\ASC.TeamLabSvc\ASC.TeamLabSvc.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Core" Source="web\core\ASC.Web.Core\ASC.Web.Core.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Core" Source="web\core\ASC.Web.Core\ASC.Web.Core.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Files" Source="web\studio\ASC.Web.Studio\Products\Files\ASC.Web.Files.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Files" Source="web\studio\ASC.Web.Studio\Products\Files\ASC.Web.Files.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Projects" Source="web\studio\ASC.Web.Studio\Products\Projects\ASC.Web.Projects.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.Web.Projects" Source="web\studio\ASC.Web.Studio\Products\Projects\ASC.Web.Projects.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.FederatedLogin" Source="module\ASC.Thrdparty\ASC.FederatedLogin\ASC.FederatedLogin.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASC.FederatedLogin" Source="module\ASC.Thrdparty\ASC.FederatedLogin\ASC.FederatedLogin.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TeamLab.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TeamLab.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community" Source="web\studio\ASC.Web.Studio\Products\Community\ASC.Web.Community.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.Blogs" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Blogs\ASC.Web.Community.Blogs.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.Bookmarking" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Bookmarking\ASC.Web.Community.Bookmarking.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.Forum" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\ASC.Web.Community.Forum.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.News" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\News\ASC.Web.Community.News.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.PhotoManager" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\PhotoManager\ASC.Web.Community.PhotoManager.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Community.Wiki" Source="web\studio\ASC.Web.Studio\Products\Community\Modules\Wiki\ASC.Web.Community.Wiki.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Talk" Source="web\studio\ASC.Web.Studio\addons\talk\ASC.Web.Talk.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Files" Source="web\studio\ASC.Web.Studio\Products\Files\ASC.Web.Files.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Projects" Source="web\studio\ASC.Web.Studio\Products\Projects\ASC.Web.Projects.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Studio" Source="web\studio\ASC.Web.Studio\ASC.Web.Studio.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Host" Source="web\host\ASC.Web.Host\ASC.Web.Host.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Controls" Source="web\controls\ASC.Web.Controls\ASC.Web.Controls.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.UserControls.Bookmarking" Source="web\controls\ASC.Web.UserControls.Bookmarking\ASC.Web.UserControls.Bookmarking.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.UserControls.Forum" Source="web\controls\ASC.Web.UserControls.Forum\ASC.Web.UserControls.Forum.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.UserControls.Wiki" Source="web\controls\ASC.Web.UserControls.Wiki\ASC.Web.UserControls.Wiki.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Web.Core" Source="web\core\ASC.Web.Core\ASC.Web.Core.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Common" Source="common\ASC.Common\ASC.Common.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Data.Backup" Source="common\ASC.Data.Backup\ASC.Data.Backup.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Data.Storage" Source="common\ASC.Data.Storage\ASC.Data.Storage.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Data.Backup.Restore" Source="common\ASC.Data.Backup.Restore\ASC.Data.Backup.Restore.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Core.Common" Source="common\ASC.Core.Common\ASC.Core.Common.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Bookmarking" Source="module\ASC.Bookmarking\ASC.Bookmarking.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.FullTextIndex" Source="module\ASC.FullTextIndex\ASC.FullTextIndex\ASC.FullTextIndex.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Xmpp.Common" Source="module\ASC.Jabber\ASC.Xmpp.Common\ASC.Xmpp.Common.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Xmpp.Host" Source="module\ASC.Jabber\ASC.Xmpp.Host\ASC.Xmpp.Host.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Xmpp.Server" Source="module\ASC.Jabber\ASC.Xmpp.Server\ASC.Xmpp.Server.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Projects.Core" Source="module\ASC.Projects\ASC.Projects.Core\ASC.Projects.Core.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Projects.Data" Source="module\ASC.Projects\ASC.Projects.Data\ASC.Projects.Data.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Projects.Engine" Source="module\ASC.Projects\ASC.Projects.Engine\ASC.Projects.Engine.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Blogs.Core" Source="module\Blogs\ASC.Blogs.Core\ASC.Blogs.Core.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.Forum" Source="module\Forum\ASC.Forum\ASC.Forum.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.PhotoManager" Source="module\PhotoManager\ASC.PhotoManager.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="agsXMPP" Source="module\ASC.Jabber\agsXMPP\agsXMPP.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.TeamLabSvc" Source="module\ASC.TeamLabSvc\ASC.TeamLabSvc\ASC.TeamLabSvc.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ASC.FederatedLogin" Source="module\ASC.Thrdparty\ASC.FederatedLogin\ASC.FederatedLogin.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,13 @@
+﻿.wisettingsTitle
+{
+    padding-left: 15px;
+    padding-bottom: 5px;
+    border-top: none; 
+    border-right: none; 
+    border-left: none;
+}
+
+#saveItemsSettingsBtn
+{
+    float:left;
+}

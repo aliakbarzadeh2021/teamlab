@@ -1,0 +1,121 @@
+TeamLab uses code from the following 3rd party projects.
+
+
+1. AWSSDK - Amazon Web Services SDK for .NET. (http://aws.amazon.com/sdkfornet/)
+
+License:        Apache 2.0 license
+License File:   redistributable\third-party\Amazon\AWSLicense.txt
+File:           redistributable\third-party\Amazon\AWSSDK.dll
+
+
+2. MySql.Data - Connector/Net is a fully-managed ADO.NET driver for MySQL. (http://dev.mysql.com/downloads/connector/net/)
+
+License:        GPL v2
+License File:   redistributable\third-party\db\mysql\COPYING
+File:           redistributable\third-party\db\mysql\MySql.Data.dll
+
+
+3. System.Data.SQLite - ADO.NET 2.0/3.5 SQLite Data Provider. (http://sqlite.phxsoftware.com/)
+
+License:        Public Domain
+File:           redistributable\third-party\db\sqlite\System.Data.SQLite.DLL
+
+
+4. HtmlAgilityPack - This is an agile HTML parser that builds a read/write DOM and supports plain XPATH or XSLT. (http://htmlagilitypack.codeplex.com/)
+
+License:        Microsoft Public License (Ms-PL)
+License File:   redistributable\third-party\HtmlAgilityPack\HtmlAgilityPack.license
+File:           redistributable\third-party\HtmlAgilityPack\HtmlAgilityPack.dll
+
+
+5. log4net - log4net is a tool to help the programmer output log statements to a variety of output targets. (http://logging.apache.org/log4net/index.html)
+
+License:        Apache 2.0 license
+License File:   redistributable\third-party\log4net\log4net.license
+File:           redistributable\third-party\log4net\log4net.dll
+
+
+6. Lucene.Net - dotLucene/Lucene.Net is the .NET implementation of the Lucene full-text search engine library. (http://sourceforge.net/projects/dotlucene/)
+
+License:        Apache 2.0 license
+License File:   redistributable\third-party\Lucene.Net.1.9\LICENSE.TXT
+File:           redistributable\third-party\Lucene.Net.1.9\Lucene.Net.dll
+
+
+7. NUnit - NUnit is a unit-testing framework for all .Net languages. (http://www.nunit.org/)
+
+License:        AS-IS
+License File:   redistributable\third-party\NUnit 2.4.6\license.txt
+File:           redistributable\third-party\NUnit 2.4.6\nunit.framework.dll
+
+
+8. NVelocity - NVelocity is a port of the excellent Apache Jakarta Velocity project. (http://www.castleproject.org/others/nvelocity/index.html)
+
+License:        Apache 2.0 license
+License File:   redistributable\third-party\NVelocity\ASL - Apache Software Foundation License.txt
+File:           redistributable\third-party\NVelocity\NVelocity.dll
+
+
+9. AjaxPro - Ajax.NET Professional (AjaxPro) is one of the first AJAX frameworks available for Microsoft ASP.NET and is working with .NET 1.1 and 2.0. (http://www.ajaxpro.info/)
+
+License:        AS-IS
+License File:   redistributable\third-party\Web\AjaxPro.2.license
+Files:          redistributable\third-party\Web\AjaxPro.2.dll
+                redistributable\third-party\Web\AjaxControlToolkit.dll
+
+
+10. ICSharpCode.SharpZipLib - The Zip, GZip, BZip2 and Tar Implementation For .NET. (http://www.icsharpcode.net/opensource/sharpziplib/)
+
+License:        GPL v2
+License File:   redistributable\third-party\SharpZipLib\COPYING.txt
+File:           redistributable\third-party\SharpZipLib\ICSharpCode.SharpZipLib.dll
+
+11. FredCK.FCKeditorV2 - FCKeditor is a text editor to be used inside web pages. In 2009 it was renamed CKEditor. (http://ckeditor.com/what-is-ckeditor)
+
+License:        LGPL v3
+License File:   redistributable\third-party\Web\FCKeditor.license
+Files:          redistributable\third-party\Web\FredCK.FCKeditorV2.dll
+                web\studio\ASC.Web.Studio\UserControls\Common\fckeditor
+Modifications:  web\studio\ASC.Web.Studio\UserControls\Common\fckeditor
+
+Used and modified the plugin MediaWiki+FCKeditor.  (http://mediawiki.fckeditor.net/)
+Files:          web\controls\ASC.Web.UserControls.Wiki\UC\fck_wysiwyg
+
+
+12. Microsoft.ServiceModel.Web - WCF REST Starter Kit Preview 2. (http://aspnet.codeplex.com/wikipage?title=WCF%20REST&referringTitle=Home)
+
+License:        Microsoft Source License for ASP.NET Pre-Release Components
+License File:   redistributable\third-party\Microsoft\Microsoft Source License for ASP.NET Pre-Release Components.license
+File:           redistributable\third-party\Microsoft\Microsoft.ServiceModel.Web.dll
+
+
+13. LumiSoft Mail Server - Programm LumiSoft Mail Server is a mailserver. (http://www.lumisoft.ee/)
+
+License:        AS-IS
+License File:   module\ASC.Mail\ASC.Mail.Core\Net\license.txt
+Files:          module\ASC.Mail\ASC.Mail.Core\Net\
+
+
+14. agsXMPP SDK - agsXMPP is a SDK/library for the eXtensible Messaging and Presence Protocol (XMPP) protocol written in managed C# dedicated to .NET and Mono technologies. (http://www.ag-software.de/agsxmpp-sdk.html)
+
+License:        GPL v2
+License File:   module\ASC.Jabber\agsXMPP\agsXMPP.license
+Files:          module\ASC.Jabber\agsXMPP\
+Modifications:  module\ASC.Jabber\agsXMPP\
+
+
+15. jQuery - Query is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. (http://jquery.com/)
+
+License:        MIT License
+License File:   web\studio\ASC.Web.Studio\js\MIT-LICENSE.txt
+Files:          web\studio\ASC.Web.Studio\js\auto\jquery_full.js (merged some files project jQuery)
+                web\studio\ASC.Web.Studio\js\auto\jquery.color.js
+                web\studio\ASC.Web.Studio\js\auto\jquery.cookies.js
+                web\studio\ASC.Web.Studio\js\auto\jquery.dimensions.js
+                web\studio\ASC.Web.Studio\js\auto\jquery.fancyzoom.js
+                web\studio\ASC.Web.Studio\js\auto\jquery.ifixpng.js
+                web\studio\ASC.Web.Studio\js\auto\jquery.shadow.js
+                web\studio\ASC.Web.Studio\js\jquery-jtemplates.js
+                web\studio\ASC.Web.Studio\Products\Community\Modules\PhotoManager\js\jquery.history.js
+                web\studio\ASC.Web.Studio\Products\Projects\js\jquery.fancybox-1.2.6.js
+                web\studio\ASC.Web.Studio\UserControls\Statistics\VisitorsChart\js\jquery.flot.js

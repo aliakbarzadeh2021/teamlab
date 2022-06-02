@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema version="1.0"  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="Guid">
+    <xs:annotation>
+      <xs:documentation>guid type</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ModuleCategory">
+    <xs:annotation>
+      <xs:documentation>module category enum</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ProjectManagement"></xs:enumeration>
+      <xs:enumeration value="HRM"></xs:enumeration>
+      <xs:enumeration value="Community"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ModuleStatus">
+    <xs:annotation>
+      <xs:documentation>module status</xs:documentation>
+	</xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Alpha"></xs:enumeration>
+      <xs:enumeration value="Beta"></xs:enumeration>
+      <xs:enumeration value="Stable"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="ShortcutRef">
+    <xs:attribute name="RefName" use="required" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="Method">
+    <xs:annotation>
+      <xs:documentation>method type</xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="ClassType" use="required" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>full type name of class with method</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="MethodName" use="required" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>method name type</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>    
+    
+  </xs:complexType>
+  
+  
+  <xs:simpleType name="ShortcutType">
+    <xs:restriction base="xs:string">      
+      <xs:enumeration value="Navigation"></xs:enumeration>
+      <xs:enumeration value="Action"></xs:enumeration>      
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="Shortcut">
+    <xs:annotation>
+      <xs:documentation>quick action shortcut</xs:documentation>
+    </xs:annotation>
+
+    <xs:attribute name="ID" use="required" type="Guid">
+    </xs:attribute>
+    
+
+    <xs:attribute name="RefName" use="required" type="xs:string">
+    </xs:attribute>
+
+    <xs:attribute name="NameResourceKey" type="xs:string" use="required">
+    </xs:attribute>
+
+    <xs:attribute name="ImageFileName" type="xs:string" use="optional">
+    </xs:attribute>
+
+    <xs:attribute name="DescriptionResourceKey" type="xs:string" use="optional">
+    </xs:attribute>
+
+    <xs:attribute name="ActionURL" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          virtual url, start with "~/" may and with "?"
+          may content tag "[%uid%]"
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="IsDynamic" type="xs:boolean" use="optional" default="false">
+    </xs:attribute>
+
+    <xs:attribute name="IsMenuOnly" type="xs:boolean" use="optional" default="false">
+    </xs:attribute>
+
+    <xs:attribute name="IsProtected"  type="xs:boolean" use="optional" default="false">
+    </xs:attribute>
+
+    <xs:attribute name="ResourceClassTypeName" use="optional" type="xs:string">
+    </xs:attribute>
+
+    <xs:attribute name="Type" use="optional" type="ShortcutType" default="Action">
+    </xs:attribute>
+
+  </xs:complexType>
+
+  <xs:complexType name="PageShortcutConfig">
+    <xs:all>
+      <xs:element name="AddShortcuts" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="AddShortcut" minOccurs="1" maxOccurs="unbounded" type="ShortcutRef"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DenyShortcuts" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="DenyShortcut" minOccurs="1" maxOccurs="unbounded" type="ShortcutRef"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="URL" type="xs:string" use="required">
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="ShortcutCategory">
+    <xs:all>
+      <xs:element name="CreateShortcuts" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="CreateShortcut" minOccurs="1" maxOccurs="5" type="ShortcutRef"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+
+      <xs:element name="StuffShortcuts" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="StuffShort" minOccurs="1" maxOccurs="5" type="ShortcutRef"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+
+      <xs:element name="NavigationShortcuts" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="NavigationShortcut" minOccurs="1" maxOccurs="unbounded" type="ShortcutRef"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+
+      <xs:element name="PageConfigurations" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="PageShortcutConfig" minOccurs="1" maxOccurs="unbounded" type="PageShortcutConfig" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+
+    </xs:all>
+    <xs:attribute name="ID" type="Guid" use="required">
+    </xs:attribute>
+    <xs:attribute name="StartURL" type="xs:string" use="required" >
+    </xs:attribute>
+    <xs:attribute name="NameResourceKey" type="xs:string" use="required">
+    </xs:attribute>
+
+    <xs:attribute name="DescriptionResourceKey" type="xs:string" use="optional">
+    </xs:attribute>
+
+    <xs:attribute name="ResourceClassTypeName" use="optional" type="xs:string">
+    </xs:attribute>
+
+  </xs:complexType>
+
+  <xs:complexType name="Widget">
+    <xs:attribute name="ID" use="required" type="Guid">
+    </xs:attribute>
+
+    <xs:attribute name="FullTypeName" type="xs:string" use="required">
+    </xs:attribute>
+
+    <xs:attribute name="SettingsProviderFullTypeName" type="xs:string" use="optional">
+    </xs:attribute>
+
+    <xs:attribute name="NameResourceKey" type="xs:string" use="required">
+    </xs:attribute>
+
+    <xs:attribute name="DescriptionResourceKey" type="xs:string" use="optional">
+    </xs:attribute>
+
+    <xs:attribute name="ResourceClassTypeName" use="optional" type="xs:string">
+    </xs:attribute>
+
+    <xs:attribute name="ImageFileName" type="xs:string" use="optional">
+    </xs:attribute>
+
+    <xs:attribute name="WidgetVirtualURL" type="xs:string" use="optional">
+    </xs:attribute>
+
+  </xs:complexType>
+
+  <xs:element name="Module">
+
+    <xs:complexType>
+      <xs:all>
+        
+        <xs:element name="GetCreateContentPageAbsoluteUrlMethod" maxOccurs="1" minOccurs="0" type="Method"/>
+
+        <xs:element name="Shortcuts" maxOccurs="1" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Shortcut" minOccurs="1" maxOccurs="unbounded" type="Shortcut"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="MainShortcutCategory" maxOccurs="1" minOccurs="1" type="ShortcutCategory">
+        </xs:element>
+
+        <xs:element name="ShortcutCategories" maxOccurs="1" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ShortcutCategory" minOccurs="1" maxOccurs="unbounded" type="ShortcutCategory"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="UserProfileShortcut" minOccurs="0" maxOccurs="1" type="ShortcutRef">
+        </xs:element>
+
+        <xs:element name="MainWidget" maxOccurs="1" minOccurs="0" type="Widget"/>
+
+        <xs:element name="WidgetCollection" maxOccurs="1" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Widget" minOccurs="1" maxOccurs="unbounded" type="Widget"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="UserActivityPublisherTypes" maxOccurs="1" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserActivityPublisherFullTypeName" minOccurs="1" maxOccurs="unbounded" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+      </xs:all>
+
+      <xs:attribute name="ID" type="Guid" use="required">
+      </xs:attribute>
+
+      <xs:attribute name="Category" type="ModuleCategory" use="optional" default="Community">
+      </xs:attribute>
+
+      <xs:attribute name="Status" type="ModuleStatus" use="optional" default="Stable">
+      </xs:attribute>		
+
+      <xs:attribute name="NameResourceKey" use="required" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="DescriptionResourceKey" type="xs:string" use="optional">
+      </xs:attribute>
+
+      <xs:attribute name="SmallIconFileName"  use="optional" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="IconFileName" use="optional" type="xs:string">
+      </xs:attribute>      
+
+      <xs:attribute name="AssemblyName" use="optional" type="xs:string">
+       </xs:attribute>
+
+      <xs:attribute name="ResourceClassTypeName" use="required" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="ThemesFolderVirtualPath" use="optional" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="ImageFolder" use="optional" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="GlobalHandlerFullTypeName" use="optional" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="ShortcutProviderFullTypeName" use="optional" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="SearchHandlerFullTypeName" use="optional" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="SubscriptionManagerFullTypeName" use="optional" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="UserActivityPublisherFullTypeName" use="optional" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="StatisticProviderFullTypeName" use="optional" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="AuthCategoriesProviderFullTypeName" use="optional" type="xs:string">
+      </xs:attribute>
+
+      <xs:attribute name="HtmlInjectionProviderFullTypeName" use="optional" type="xs:string">
+      </xs:attribute>
+      
+      <xs:attribute name="SortOrder" use="optional" type="xs:int" default="0">
+      </xs:attribute>
+
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

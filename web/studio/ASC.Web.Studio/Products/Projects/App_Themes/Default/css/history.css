@@ -1,0 +1,13 @@
+﻿
+        #historyFilters dt
+        {
+        	 width: 130px;
+        	 padding-bottom:15px;
+        	 float:left;
+        	 text-align:right;
+        }
+        #historyFilters dd
+        {
+        	 margin-left: 140px;
+        	 padding-bottom:15px;
+        }

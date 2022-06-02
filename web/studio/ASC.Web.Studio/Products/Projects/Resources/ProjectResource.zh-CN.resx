@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActiveProject">
+    <value>正在进行的项目</value>
+  </data>
+  <data name="ActiveProjects">
+    <value>正在进行的项目</value>
+  </data>
+  <data name="AddNewProject">
+    <value>添加这个项目</value>
+  </data>
+  <data name="AllProjects">
+    <value>所有项目</value>
+  </data>
+  <data name="AllProjectTemplates">
+    <value>所有项目模板</value>
+  </data>
+  <data name="ArchiveProjects">
+    <value>已完成项目</value>
+  </data>
+  <data name="ChoosenUsers">
+    <value>成员</value>
+  </data>
+  <data name="Clear">
+    <value>清除</value>
+  </data>
+  <data name="ClosedProject">
+    <value>已完成的项目</value>
+  </data>
+  <data name="ClosedProjectTeamDocumentButtonTooltip">
+    <value>启用/禁用 文档</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermission">
+    <value>项目经理能</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleA">
+    <value>添加用户到项目团队或者从项目团队中删除用户</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleB">
+    <value>设置项目成员的访问权限（仅用于私有项目）</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleC">
+    <value>管理（创建，编辑，删除）里程碑，任务，讨论，文件并限制对他们的访问</value>
+  </data>
+  <data name="ClosedProjectTeamMessageButtonTooltip">
+    <value>启用/禁用 讨论</value>
+  </data>
+  <data name="ClosedProjectTeamMilestoneButtonTooltip">
+    <value>启用/禁用 里程碑</value>
+  </data>
+  <data name="ClosedProjectTeamTaskButtonTooltip">
+    <value>启用/禁用 任务</value>
+  </data>
+  <data name="ClosedProjectTeamWriteMail">
+    <value>发送电​​子邮件</value>
+  </data>
+  <data name="Create">
+    <value>创建</value>
+  </data>
+  <data name="CreateFromTemplate">
+    <value>从模板创建</value>
+  </data>
+  <data name="CreateNewProject">
+    <value>创建新项目</value>
+  </data>
+  <data name="CreateProjectFromTemplate">
+    <value>从模板创建项目</value>
+  </data>
+  <data name="CreateProjectTemplate">
+    <value>创建项目模板</value>
+  </data>
+  <data name="Dashboard">
+    <value>概况</value>
+  </data>
+  <data name="DeleteProjectTemplate">
+    <value>删除项目模板</value>
+  </data>
+  <data name="EmptyScreenAllActiveProjectsHeaderContent">
+    <value>没有正在进行的项目</value>
+  </data>
+  <data name="EmptyScreenAllProjectsHeaderContent">
+    <value>没有项目</value>
+  </data>
+  <data name="EmptyScreenByLabelActiveProjectsHeaderContent">
+    <value>这个标签没有正在进行的项目</value>
+  </data>
+  <data name="EmptyScreenByLabelProjectsHeaderContent">
+    <value>没有带这个标签的项目</value>
+  </data>
+  <data name="EmptyScreenHeaderContent">
+    <value>创建第一个项目</value>
+  </data>
+  <data name="EmptyScreenMyProjectsHeaderContent">
+    <value>您没有加入任何项目</value>
+  </data>
+  <data name="EmptyScreenProjectTemplates">
+    <value>创建第一个项目模板</value>
+  </data>
+  <data name="EmptyScreenProjectTemplateTeam">
+    <value>为此项目模板建立一个团队</value>
+  </data>
+  <data name="EmptyScreenProjectTemplateTeamDescription">
+    <value>选择这个项目的参与者。</value>
+  </data>
+  <data name="EnterTheTags">
+    <value>输入所需的标签，并用逗号分隔它们。</value>
+  </data>
+  <data name="Example">
+    <value>作为一个规则，项目名称，客户，部门...</value>
+  </data>
+  <data name="FollowingProjects">
+    <value>跟踪这个项目</value>
+  </data>
+  <data name="HiddenProject">
+    <value>私有项目</value>
+  </data>
+  <data name="HideClosedProjects">
+    <value>隐藏已结束的项目</value>
+  </data>
+  <data name="InvalidProjectTemplateTitle">
+    <value>无效的项目模板标题</value>
+  </data>
+  <data name="IUnerstand">
+    <value>我明白，删除这个项目。</value>
+  </data>
+  <data name="IUnerstandForEditHidden">
+    <value>是的，我明白，保存为私有项目</value>
+  </data>
+  <data name="IUnerstandForHidden">
+    <value>是的，我明白- 作为私有项目添加</value>
+  </data>
+  <data name="LastActivity">
+    <value>最近的新鲜事</value>
+  </data>
+  <data name="ManagmentTeam">
+    <value>管理团队</value>
+  </data>
+  <data name="Milestones">
+    <value>里程碑</value>
+  </data>
+  <data name="MyProjects">
+    <value>我的项目</value>
+  </data>
+  <data name="NewProject">
+    <value>创建新项目</value>
+  </data>
+  <data name="NewProjects">
+    <value>新项目</value>
+  </data>
+  <data name="NotifyProjectLeader">
+    <value>通过电子邮件通知项目经理</value>
+  </data>
+  <data name="NotifyProjectTeam">
+    <value>通知项目团队</value>
+  </data>
+  <data name="NotInvolvedInAnyProject">
+    <value>不参加任何项目</value>
+  </data>
+  <data name="PeopleOnThisProject">
+    <value>项目团队</value>
+  </data>
+  <data name="Project">
+    <value>项目</value>
+  </data>
+  <data name="ProjectAdded">
+    <value>新增项目</value>
+  </data>
+  <data name="ProjectDeleteButton">
+    <value>删除该项目</value>
+  </data>
+  <data name="ProjectDeleted">
+    <value>删除项目</value>
+  </data>
+  <data name="ProjectDescription">
+    <value>说明</value>
+  </data>
+  <data name="ProjectLeader">
+    <value>项目经理</value>
+  </data>
+  <data name="ProjectOverview">
+    <value>概述</value>
+  </data>
+  <data name="Projects">
+    <value>项目</value>
+  </data>
+  <data name="ProjectsKeepTrack">
+    <value>我跟踪的项目</value>
+  </data>
+  <data name="ProjectTeam">
+    <value>团队</value>
+  </data>
+  <data name="ProjectTemplate">
+    <value>项目模板</value>
+  </data>
+  <data name="ProjectTemplates">
+    <value>项目模板</value>
+  </data>
+  <data name="ProjectTemplateSetupDiscussion">
+    <value>开始第一个讨论</value>
+  </data>
+  <data name="ProjectTemplateSetUpLabel">
+    <value>现在是时间来定制您的项目模板！</value>
+  </data>
+  <data name="ProjectTemplateSetupMilestone">
+    <value>设置第一个里程碑</value>
+  </data>
+  <data name="ProjectTemplateSetupTask">
+    <value>分配首要任务</value>
+  </data>
+  <data name="ProjectTemplateSetupTeam">
+    <value>建立一个团队</value>
+  </data>
+  <data name="ProjectTitle">
+    <value>标题</value>
+  </data>
+  <data name="SaveProject">
+    <value>保存项目</value>
+  </data>
+  <data name="SeeAllProjectsMilestone">
+    <value>查看所有项目的里程碑</value>
+  </data>
+  <data name="SeeHistory">
+    <value>查看历史记录</value>
+  </data>
+  <data name="SeeMore">
+    <value>查看所有</value>
+  </data>
+  <data name="SelectProjectTemplate">
+    <value>选择项目模板</value>
+  </data>
+  <data name="Settings">
+    <value>项目设置</value>
+  </data>
+  <data name="ShowClosedProjects">
+    <value>显示已结束的项目</value>
+  </data>
+  <data name="Statistics">
+    <value>统计</value>
+  </data>
+  <data name="Tags">
+    <value>标签</value>
+  </data>
+  <data name="Team">
+    <value>团队</value>
+  </data>
+  <data name="UnFollowingProjects">
+    <value>取消追踪这个项目</value>
+  </data>
+</root>

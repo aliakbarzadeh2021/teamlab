@@ -1,0 +1,181 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\ASC.Web.Controls.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\ASC.Web.Controls.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\ru\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\de\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\es\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\fr\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\it\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\lv\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\pl\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\zh-CN\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\pt-BR\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ru\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\de\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\es\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\fr\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\it\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\lv\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\pl\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\zh-CN\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\pt-BR\ASC.Web.Controls.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\ASC.Web.Controls.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\ASC.Web.Controls.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\ru\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\de\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\es\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\fr\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\it\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\lv\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\pl\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\zh-CN\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\bin\Debug\pt-BR\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.AdvancedUserSelectorResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CalendarResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.CommentsResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PageNavigator.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.PollForm.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.UserSelectorResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.Resources.ViewSwitcherResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ru\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\de\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\es\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\fr\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\it\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\lv\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\pl\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\zh-CN\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\pt-BR\ASC.Web.Controls.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.Controls\obj\Debug\ASC.Web.Controls.pdb

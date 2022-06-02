@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddButton">
+    <value>Pievienot</value>
+  </data>
+  <data name="AddonDescription">
+    <value>Korporatīva foruma apspriešanas</value>
+  </data>
+  <data name="AddonName">
+    <value>Forumi</value>
+  </data>
+  <data name="AddThreadButton">
+    <value>Izveidot Jaunu Forumu</value>
+  </data>
+  <data name="AddThreadCategoryButton">
+    <value>Izveidot Jaunu Forumu</value>
+  </data>
+  <data name="AddThreadCategoryTitle">
+    <value>Jauns Forums</value>
+  </data>
+  <data name="All">
+    <value>Visi</value>
+  </data>
+  <data name="ApproveTagOnOff">
+    <value>Atļaut/Aizliegt</value>
+  </data>
+  <data name="CancelButton">
+    <value>Atcelt</value>
+  </data>
+  <data name="ConfirmMessage">
+    <value>Vai  jūs tiešām gribat to izdarīt?</value>
+  </data>
+  <data name="CreateButton">
+    <value>Izveidot</value>
+  </data>
+  <data name="CreateForumWidgetMessage">
+    <value>Lūdzu pievienojiet jūsu forumus {0}šeit{1}.</value>
+  </data>
+  <data name="CreateTopicMessage">
+    <value>Lūdzu pievienojiet jūsu tēmu {0}šeit{1}.</value>
+  </data>
+  <data name="CutLongMassageSettingsTitle">
+    <value>Saīsināt garus ierakstus</value>
+  </data>
+  <data name="DeleteButton">
+    <value>Izdzēst</value>
+  </data>
+  <data name="DeleteTagFomTopicButton">
+    <value>Atvienot</value>
+  </data>
+  <data name="EditButton">
+    <value>Rediģēt</value>
+  </data>
+  <data name="EditShortButton">
+    <value>Rediģēt</value>
+  </data>
+  <data name="EditTopicBreadCrumbs">
+    <value>Rediģēt</value>
+  </data>
+  <data name="ErrorAccessDenied">
+    <value>Nav atļaujas šajai darbībai</value>
+  </data>
+  <data name="ErrorCategoryEmptyName">
+    <value>Ievadiet kategorijas nosaukumu</value>
+  </data>
+  <data name="ErrorCreateThreadCategory">
+    <value>Nepazīstama kļūda izveidojot kategoriju</value>
+  </data>
+  <data name="ErrorEditThreadCategory">
+    <value>Kļūda kategorijas rediģēšanas laikā</value>
+  </data>
+  <data name="ErrorEmptyName">
+    <value>Ievadiet nosaukumu</value>
+  </data>
+  <data name="ErrorNotCorrectMaxTopicCountSettings">
+    <value>Nepareizs ierakstu skaits</value>
+  </data>
+  <data name="ErrorSubscription">
+    <value>Kļūda atrakstīšanas/pierakstīšanas laikā</value>
+  </data>
+  <data name="ErrorThreadEmptyName">
+    <value>Ievadiet foruma nosaukumu</value>
+  </data>
+  <data name="FindTopicDescription">
+    <value>Tēma "{0}" forumā</value>
+  </data>
+  <data name="ForumEditorBreadCrumbs">
+    <value>Uzsākt foruma rediģēšanu</value>
+  </data>
+  <data name="ForumEditorTitle">
+    <value>Foruma Rediģēšana</value>
+  </data>
+  <data name="ForumListPageDescription">
+    <value>Foruma nosaukuma lapa</value>
+  </data>
+  <data name="ForumNotCreatedWidgetMessage">
+    <value>Nebija izveidots neviens forums</value>
+  </data>
+  <data name="ForumNotCreatedWidgetMessageForAdmin">
+    <value>Uzklikšķiniet te, lai {0}Izveidot jaunu forumu{1}</value>
+  </data>
+  <data name="ForumsBreadCrumbs">
+    <value>Visi Forumi</value>
+  </data>
+  <data name="MakeModeratorsButton">
+    <value>Izmainīt</value>
+  </data>
+  <data name="MaxLastTopicCountSettingsTitle">
+    <value>Ierakstu skaits attēlošanai (no 1 līdz 30)</value>
+  </data>
+  <data name="Moderators">
+    <value>Moderatori</value>
+  </data>
+  <data name="NameEmptyString">
+    <value>Ievadiet vārdu</value>
+  </data>
+  <data name="NewPollButton">
+    <value>Pievienot jaunu aptauju</value>
+  </data>
+  <data name="NewPostButton">
+    <value>Pievienot jaunu ierakstu</value>
+  </data>
+  <data name="NewTopicButton">
+    <value>Izveidot jaunu tēmu</value>
+  </data>
+  <data name="NewTopicOnForumSubscriptionTitle">
+    <value>Parakstīšanās uz jauniem foruma tēmām</value>
+  </data>
+  <data name="NoForumsWidgetMessage">
+    <value>Nav neviena foruma.</value>
+  </data>
+  <data name="NoTopicsMessage">
+    <value>Nav nevienas tēmas.</value>
+  </data>
+  <data name="PartnershipTopic">
+    <value>Līdzdalība tēmā</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Lūdzu uzgaidiet...</value>
+  </data>
+  <data name="PostCount">
+    <value>Ieraksti</value>
+  </data>
+  <data name="PostCountStatistic">
+    <value>Foruma ierakstu kopsumma</value>
+  </data>
+  <data name="PostedBy">
+    <value>Autors</value>
+  </data>
+  <data name="QuestionEmptyMessage">
+    <value>Ievadiet savu jautājumu</value>
+  </data>
+  <data name="RecentActivityContainerTitle">
+    <value>Pēdēja aktivitāte</value>
+  </data>
+  <data name="RecentForumUpdateWidgetDescription">
+    <value>paradīt pēdējus ierakstus forumos</value>
+  </data>
+  <data name="RecentForumUpdateWidgetTitle">
+    <value>Forumi</value>
+  </data>
+  <data name="RecentPostFromTopic">
+    <value>Pēdējie Ieraksti Tēmā</value>
+  </data>
+  <data name="RecentUpdate">
+    <value>Pēdējas Izmaiņas</value>
+  </data>
+  <data name="SaveButton">
+    <value>Saglabāt</value>
+  </data>
+  <data name="SearchDefaultString">
+    <value>Meklēt Forumos</value>
+  </data>
+  <data name="SearchNotFoundMessage">
+    <value>Nekas nebija atrasts.</value>
+  </data>
+  <data name="ShotPostCount">
+    <value>Ieraksti.</value>
+  </data>
+  <data name="StickyTopicButton">
+    <value>Pielikt</value>
+  </data>
+  <data name="SubjectEmptyMessage">
+    <value>Ievadīt tēmas nosaukumu</value>
+  </data>
+  <data name="SubscribeOnNewTopicInForum">
+    <value>Parakstīties uz jaunām tēmām</value>
+  </data>
+  <data name="SubscribeOnTag">
+    <value>Parakstīties uz atzīmi</value>
+  </data>
+  <data name="SubscribeOnThread">
+    <value>Parakstīties uz šo forumu</value>
+  </data>
+  <data name="SubscribeOnTopic">
+    <value>Parakstīties uz šo tēmu</value>
+  </data>
+  <data name="SubscribeThreadHelp">
+    <value>Paziņojums par visiem ierakstiem forumā un visiem foruma tēmām</value>
+  </data>
+  <data name="SubscribeTopicHelp">
+    <value>Paziņojums par jauniem ierakstiem tēmā</value>
+  </data>
+  <data name="SuccessfullyCreateForumMessage">
+    <value>Forums bija veiksmīgi izveidots</value>
+  </data>
+  <data name="TagCloud">
+    <value>Atzīmju mākonis</value>
+  </data>
+  <data name="TagEditorBreadCrumbs">
+    <value>Atzīmju Rediģētājs</value>
+  </data>
+  <data name="TagName">
+    <value>Atzīmes Nosaukums</value>
+  </data>
+  <data name="Tags">
+    <value>Atzīmes</value>
+  </data>
+  <data name="TagSubscriptionTitle">
+    <value>Parakstīšanās uz atzīmēm</value>
+  </data>
+  <data name="Thread">
+    <value>Forums</value>
+  </data>
+  <data name="ThreadActionText">
+    <value>forums izveidots</value>
+  </data>
+  <data name="ThreadCategory">
+    <value>Kategorija</value>
+  </data>
+  <data name="ThreadCategoryDescription">
+    <value>Apraksts</value>
+  </data>
+  <data name="ThreadCategoryEditor">
+    <value>Kategorijas Rediģētājs</value>
+  </data>
+  <data name="ThreadCategoryName">
+    <value>Nosaukums</value>
+  </data>
+  <data name="ThreadDeleteActionText">
+    <value>forums izdzēsts</value>
+  </data>
+  <data name="ThreadDescription">
+    <value>Foruma apraksts</value>
+  </data>
+  <data name="ThreadEditActionText">
+    <value>Forums rediģēts</value>
+  </data>
+  <data name="ThreadEditor">
+    <value>Foruma Rediģētājs</value>
+  </data>
+  <data name="ThreadName">
+    <value>Foruma Nosaukums</value>
+  </data>
+  <data name="ThreadSubscriptionTitle">
+    <value>Parakstīšanās uz forumiem</value>
+  </data>
+  <data name="Topic">
+    <value>Tēma</value>
+  </data>
+  <data name="TopicCount">
+    <value>Tēmas</value>
+  </data>
+  <data name="TopicSubscriptionTitle">
+    <value>Parakstīšanās uz tēmām</value>
+  </data>
+  <data name="TypeCategoryName">
+    <value>Izveidot jaunu kategoriju</value>
+  </data>
+  <data name="UnsubscribeButton">
+    <value>Atrakstīties no paziņojuma</value>
+  </data>
+  <data name="UnsubscribeOnNewTopicInForum">
+    <value>Atrakstīties no jaunām tēmām</value>
+  </data>
+  <data name="UnSubscribeOnThread">
+    <value>Atrakstīties no ši foruma</value>
+  </data>
+  <data name="UnSubscribeOnTopic">
+    <value>Atrakstīties no šis tēmas</value>
+  </data>
+  <data name="ViewCount">
+    <value>Apskatu skaits</value>
+  </data>
+  <data name="VisibleList">
+    <value>Redzamo lietotāju skaits</value>
+  </data>
+</root>

@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnAccept">
+    <value>Accept</value>
+  </data>
+  <data name="BtnCreate">
+    <value>Create</value>
+  </data>
+  <data name="BtnKick">
+    <value>Kick</value>
+  </data>
+  <data name="BtnRemove">
+    <value>Remove</value>
+  </data>
+  <data name="BtnRemoveConference">
+    <value>Remove</value>
+  </data>
+  <data name="Chat">
+    <value>Falar</value>
+  </data>
+  <data name="ConferenceGroupName">
+    <value>Chat rooms</value>
+  </data>
+  <data name="DefaultContactTitle">
+    <value>Anonimo</value>
+  </data>
+  <data name="FileSizePostfix">
+    <value>bytes,KB,MB,GB</value>
+  </data>
+  <data name="HintChangeState">
+    <value>Mudar estatus</value>
+  </data>
+  <data name="HintClientConnecting">
+    <value>Conectando...</value>
+  </data>
+  <data name="HintClientDisconnected">
+    <value>Me Conecte</value>
+  </data>
+  <data name="HintCtrlEnterSender">
+    <value>Use Ctrl+Enter para enviar mensagens, Enter para começar um novo paragrafo</value>
+  </data>
+  <data name="HintDisableSounds">
+    <value>Desabilitar sons</value>
+  </data>
+  <data name="HintEmotions">
+    <value>Smileys</value>
+  </data>
+  <data name="HintEnableSounds">
+    <value>Abilitar sons</value>
+  </data>
+  <data name="HintEnterSender">
+    <value>Use Enter para enviar mensagens, Ctrl+Enter para começar um novo paragrafo</value>
+  </data>
+  <data name="HintFilter">
+    <value>Abilitar/Desabilitar filtros</value>
+  </data>
+  <data name="HintFlastPlayerIncorrect">
+    <value>A versão do Adobe Flash Player não é a correta</value>
+  </data>
+  <data name="HintGroups">
+    <value>Mostrar/Esconder grupos</value>
+  </data>
+  <data name="HintHideGroups">
+    <value>Esconder grupos</value>
+  </data>
+  <data name="HintHideOfflineContacts">
+    <value>Esconder contatos OFFLINE</value>
+  </data>
+  <data name="HintNoFlashPlayer">
+    <value>Adobe Flash Player não está instalado</value>
+  </data>
+  <data name="HintOfflineContacts">
+    <value>Mostrar/Esconder contatos offline</value>
+  </data>
+  <data name="HintPossibleClientConflict">
+    <value>Conflito possivel</value>
+  </data>
+  <data name="HintSelectContact">
+    <value>Selecione uma pessoa da lista de contatos para começar uma conversa</value>
+  </data>
+  <data name="HintSendAddition">
+    <value>Avançado</value>
+  </data>
+  <data name="HintSendFile">
+    <value>Enviar Arquivo</value>
+  </data>
+  <data name="HintSendInvite">
+    <value>Arraste um contato aqui para adicionar um destinatário.</value>
+  </data>
+  <data name="HintSendMessage">
+    <value>Enviar mensagem</value>
+  </data>
+  <data name="HintShowGroups">
+    <value>Mostrar grupos</value>
+  </data>
+  <data name="HintShowLeftTab">
+    <value>Mostrar tabulação a esquerda</value>
+  </data>
+  <data name="HintShowOfflineContacts">
+    <value>Mostrar contatos OFFLINE</value>
+  </data>
+  <data name="HintShowRightTab">
+    <value>Mostrar tabulação a direita</value>
+  </data>
+  <data name="HintSounds">
+    <value>Abilitar/Desabilitar sons</value>
+  </data>
+  <data name="HintToggleSender">
+    <value>Trocar modo Enter</value>
+  </data>
+  <data name="HintUnreadMessages">
+    <value>Lido</value>
+  </data>
+  <data name="HintUpdateHrefText">
+    <value>você pode baixar isto aqui</value>
+  </data>
+  <data name="LabelConnectionBlock">
+    <value>Estado Atual:</value>
+  </data>
+  <data name="LabelCurrentStatus">
+    <value>Current Status</value>
+  </data>
+  <data name="LabelDoNotAsk">
+    <value>Do not ask next time</value>
+  </data>
+  <data name="LabelFrom">
+    <value>From</value>
+  </data>
+  <data name="LabelName">
+    <value>Name</value>
+  </data>
+  <data name="LabelReason">
+    <value>Reason</value>
+  </data>
+  <data name="LabelSend">
+    <value>Enviar</value>
+  </data>
+  <data name="LabelSendToCurrent">
+    <value>Atual</value>
+  </data>
+  <data name="LabelSendToSelection">
+    <value>Selecionar</value>
+  </data>
+  <data name="LabelStatus">
+    <value>Estatus</value>
+  </data>
+  <data name="LabelTemporaryRoom">
+    <value>Temporary room</value>
+  </data>
+  <data name="LabelTopic">
+    <value>Topic</value>
+  </data>
+  <data name="LabelUnreadMessages">
+    <value>Não lido</value>
+  </data>
+  <data name="LastSelectedGroupTitle">
+    <value>Ultimo selecionado</value>
+  </data>
+  <data name="NoneGroupTitle">
+    <value>Sem equipe</value>
+  </data>
+  <data name="ProductName">
+    <value>Talk</value>
+  </data>
+  <data name="SelectUserBookmarkTitle">
+    <value>Enviar multiplos</value>
+  </data>
+  <data name="SendFileMessage">
+    <value>Arquivo: {0}Tamanho: {1}</value>
+  </data>
+  <data name="StatusAway">
+    <value>Ausente</value>
+  </data>
+  <data name="StatusBusy">
+    <value>Ocupado</value>
+  </data>
+  <data name="StatusFree">
+    <value>Livre para conversar</value>
+  </data>
+  <data name="StatusNA">
+    <value>Não avaliado</value>
+  </data>
+  <data name="StatusOffline">
+    <value>Offline</value>
+  </data>
+  <data name="StatusOnline">
+    <value>Avaliado</value>
+  </data>
+  <data name="TabsGroupTitle">
+    <value>Tabulações abertas</value>
+  </data>
+  <data name="TalkDescription">
+    <value>Iniciar Talk usando o built-in web client ou integra-lo no popular IM clients.
+Começar conversa instantâneamente. Adicione novos contatos automaticamente à sua lista.</value>
+  </data>
+  <data name="TitleBrowserNotificationsDialog">
+    <value>Browser Notifications</value>
+  </data>
+  <data name="TitleCreateRoom">
+    <value>Create chat room</value>
+  </data>
+  <data name="TitleKickOccupantDialog">
+    <value>Kick user from chat</value>
+  </data>
+  <data name="TitleRecvInvite">
+    <value>Invite to chat</value>
+  </data>
+  <data name="TitleRemoveRoomDialog">
+    <value>Delete chat</value>
+  </data>
+  <data name="UpdateFlashPlayerUrl">
+    <value>http://get.adobe.com/flashplayer/</value>
+  </data>
+</root>

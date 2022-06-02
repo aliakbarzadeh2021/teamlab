@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<act:catalog xmlns:act="urn:asc.notify.action.xsd">
+  <action id="act1"/>
+  <action id="act2" name="action 2"/>
+</act:catalog>
+

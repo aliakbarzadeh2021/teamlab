@@ -1,0 +1,193 @@
+/*******************************************************************************
+     Header popup install plugin
+*******************************************************************************/
+
+#plugin_informer div.btn_close, div.btn_close:hover
+{
+    cursor: pointer;
+    float: right;
+    background: url("images/close_popup.png") repeat-x scroll 0 0 transparent;
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+#plugin_informer div.btn_close:hover
+{
+    background: url("images/close_popup_on.png") repeat-x scroll 0 0 transparent !important;
+}
+div.plugin_informer_wrapper
+{
+    display: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fce490), to(#fbda6f));
+    background: -moz-linear-gradient(top, #fce490, #fbda6f);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fce490, endColorstr=#fbda6f);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#fce490, endColorstr=#fbda6f)";
+    width: 100%;
+    z-index: 300;
+}
+#plugin_informer div.plugin_informer
+{
+    margin: 0px auto;
+    width: 1000px;
+    text-align: left;
+    padding: 13px;
+}
+#plugin_informer span.btn_install, span.btn_install:hover
+{
+    background-attachment: inherit;
+    font-size: 16px;
+    color: #FEFEFE;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 170px;
+    float: right;
+    padding-right: 10px;
+    -moz-box-shadow: 1px 1px 1px #000000;
+    -webkit-box-shadow: 1px 1px 1px #000000;
+    box-shadow: 1px 1px 1px #000000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#20779b), to(#0d4867));
+    background: -moz-linear-gradient(top, #20779b, #0d4867);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#20779b, endColorstr=#0d4867) progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=135, Strength=2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#20779b, endColorstr=#0d4867)";
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+#plugin_informer span.btn_install:hover
+{
+    background: -webkit-gradient(linear, left top, left bottom, from(#318eb4), to(#135878));
+    background: -moz-linear-gradient(top, #318eb4, #135878);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#318eb4, endColorstr=#135878) progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=135, Strength=2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#318eb4, endColorstr=#135878)";
+}
+#plugin_informer div.plugin_informer_info
+{
+    float: left;
+    padding-left: 10px;
+    width: 750px;
+}
+#plugin_informer div.plugin_informer_info p
+{
+    margin: 0px;
+    padding: 0px;
+}
+#plugin_informer div.plugin_informer_info p span
+{
+    border-bottom: 1px dotted;
+    cursor: pointer;
+    display: inline-block;
+}
+#install_process .files_progress_box
+{
+    background: White url("images/oo-logo-loader.png") no-repeat;
+    border: none;
+    display:block;
+    margin-left: 0;
+    overflow: inherit;
+    padding: 10px 0 0 157px;
+    width: 300px;
+    white-space: inherit;
+}
+#slider
+{
+    margin: 0 -16px -16px;
+    padding: 16px;
+}
+#slider ul
+{
+    text-align: center;
+    padding: 0px;
+    margin: 0px auto;
+    width: 90px;
+}
+#slider ul li
+{
+    float: left;
+    margin: 0px 1px;
+    padding: 0px;
+    list-style: none;
+}
+#slider ul a
+{
+    background: url("images/grey_slider.png") no-repeat;
+    text-decoration: none;
+    width: 11px;
+    height: 11px;
+    display: block;
+    float: left;
+    margin: 0 1px;
+}
+#slider ul a.slider-active
+{
+    background: url("images/blue_slider.png") no-repeat !important;
+}
+
+#how_it_works_box 
+{
+    display: none;
+}
+
+#how_it_works_box  dl
+{
+    margin-bottom: 20px;
+    margin-right: 350px;
+}
+
+#how_it_works_box  dl dt
+{
+    background: url("images/step_blue.png") no-repeat scroll center;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    line-height: 30px;
+}
+
+#how_it_works_box  dl dt span
+{
+    color: White;
+}
+
+#how_it_works_box  dl dd
+{
+    margin-left: 35px;
+    padding-top: 9px;
+}
+
+#how_it_works_box div.video_box
+{
+ float: right;
+}
+
+#how_it_works_box div.video_box span
+{
+
+  margin-bottom: 10px;
+  display:block;
+}
+#install_completed
+{
+    margin: 30px 0;
+}
+
+#install_completed span
+{
+    background: url("images/ready_icon.png") no-repeat scroll left center transparent;
+    display: block;
+    padding-left: 25px;
+    margin: 40px 0;
+}
+#install_completed a.baseLinkButton
+{
+    margin-left:40%;
+    margin-right:40%;
+}
+#install_process p
+{
+    text-align: center;
+}

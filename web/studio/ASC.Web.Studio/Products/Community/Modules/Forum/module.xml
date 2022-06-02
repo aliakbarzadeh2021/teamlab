@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--EB7D247B-DF3C-46d2-AD21-6F93D59B83E4-->
+<Module ID="853B6EB9-73EE-438d-9B09-8FFEEDF36234"
+        Category="Community"
+        NameResourceKey="AddonName"
+        SortOrder="2"              
+        DescriptionResourceKey="AddonDescription"
+        ThemesFolderVirtualPath="~/products/community/modules/forum/app_themes"
+        ImageFolder="forumimages"
+        ResourceClassTypeName="ASC.Web.Community.Forum.Resources.ForumResource, ASC.Web.Community.Forum"
+        SmallIconFileName="forum_mini_icon.png"
+		    IconFileName="forum_icon.png"
+        ShortcutProviderFullTypeName="ASC.Web.Community.Forum.ForumShortcutProvider, ASC.Web.Community.Forum"
+        GlobalHandlerFullTypeName="ASC.Web.Community.Forum.ForumGlobalHandler, ASC.Web.Community.Forum"
+        SearchHandlerFullTypeName="ASC.Web.Community.Forum.ForumSearchHandler, ASC.Web.Community.Forum"
+        SubscriptionManagerFullTypeName="ASC.Web.Community.Forum.ForumSubscriptionManager, ASC.Web.Community.Forum"
+        StatisticProviderFullTypeName="ASC.Web.Community.Forum.ForumStatisticProvider, ASC.Web.Community.Forum"
+        UserActivityPublisherFullTypeName="ASC.Web.Community.Forum.ForumActivityPublisher, ASC.Web.Community.Forum"
+		AuthCategoriesProviderFullTypeName="ASC.Web.Community.Forum.ForumAuthCategoriesProvider, ASC.Web.Community.Forum">
+  
+
+  <MainWidget ID="4F5C69D0-7F12-48fd-AA62-5DDAC62B2F70"
+              NameResourceKey="RecentForumUpdateWidgetTitle"
+              DescriptionResourceKey="RecentForumUpdateWidgetDescription"
+              ImageFileName="forum_icon.png"
+              WidgetVirtualURL="~/products/community/modules/forum/default.aspx"
+              SettingsProviderFullTypeName="ASC.Web.Community.Forum.LastUpdateSettingsProvider, ASC.Web.Community.Forum"
+              FullTypeName ="ASC.Web.Community.Forum.ForumLastUpdatesWidget, ASC.Web.Community.Forum"/>
+
+  <GetCreateContentPageAbsoluteUrlMethod MethodName="GetCreateContentPageUrl" ClassType="ASC.Web.Community.Forum.ForumShortcutProvider, ASC.Web.Community.Forum"/>
+  
+  <Shortcuts>    
+    
+    <Shortcut ID="17AB51E9-4A8A-49d4-BC03-3235887E12BB"
+              RefName="ForumList"
+              Type="Navigation"
+              NameResourceKey="ForumList"
+              ActionURL="~/products/community/modules/forum/default.aspx"/>    
+   
+    <Shortcut ID="A04A7DBF-6B73-4579-BECE-3F6E346133DB"
+              RefName="ForumEditor"
+              Type="Action"
+              ActionURL="~/products/community/modules/forum/managementcenter.aspx"
+              IsProtected="true"
+              NameResourceKey="ForumEditorBreadCrumbs"/>    
+
+    <Shortcut ID="87A6B7FC-E872-49db-A327-CEA9CBA59CCC"
+              RefName="TagEditor"
+              Type="Navigation"
+              ActionURL="~/products/community/modules/forum/managementcenter.aspx?type=1"
+              IsProtected="true"
+              NameResourceKey="TagEditorBreadCrumbs"/>
+
+    <Shortcut ID="FA5C4BD5-25E7-41c8-A0DC-64DC2A977391"
+              RefName="NewMessage"
+              Type="Action"
+              ActionURL=""
+              NameResourceKey="NewPostButton"
+              IsDynamic="true"
+              IsProtected="true"/>
+
+    <Shortcut ID="24CD48B2-C40F-43ec-B3A6-3212C51B8D34"
+              RefName="NewTopic"
+              Type="Action"
+              ActionURL=""
+              NameResourceKey="NewTopicButton"
+              IsDynamic="true"
+              IsProtected="true"
+              ImageFileName="topic.png"/>
+
+    <Shortcut ID="84DF7BE7-315B-4ba3-9BE1-1E348F6697A5"
+              RefName="NewPoll"
+              Type="Action"
+              ActionURL=""
+              NameResourceKey="NewPollButton"
+              IsDynamic="true"
+              IsProtected="true"
+              />
+    
+  </Shortcuts>
+
+  <MainShortcutCategory ID="84813D4F-3249-468e-97C4-ACB631957C5B"
+                        StartURL="~/products/community/modules/forum/"
+                        NameResourceKey="AddonName">
+    
+    <NavigationShortcuts>
+      <NavigationShortcut RefName="ForumEditor"/>
+      <NavigationShortcut RefName="NewTopic"/>
+      <NavigationShortcut RefName="NewPoll"/>
+    </NavigationShortcuts>
+
+    <PageConfigurations>
+      
+
+      <PageShortcutConfig URL="~/products/community/modules/forum/posts.aspx">
+        <AddShortcuts>
+          <AddShortcut RefName="NewMessage"/>
+        </AddShortcuts>
+      </PageShortcutConfig>
+
+      <PageShortcutConfig URL="~/products/community/modules/forum/edittopic.aspx">
+        <AddShortcuts>
+          <AddShortcut RefName="NewMessage"/>
+        </AddShortcuts>
+      </PageShortcutConfig>
+
+      <PageShortcutConfig URL="~/products/community/modules/forum/newpost.aspx">
+        <AddShortcuts>
+          <AddShortcut RefName="NewMessage"/>
+        </AddShortcuts>
+      </PageShortcutConfig>      
+      
+    </PageConfigurations>
+    
+  </MainShortcutCategory>
+  
+</Module>

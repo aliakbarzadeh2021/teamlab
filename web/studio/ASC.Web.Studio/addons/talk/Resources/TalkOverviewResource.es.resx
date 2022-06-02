@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoupdateContactListDescription">
+    <value>La lista de contactos se actualiza automáticamente a medida que más personas se añaden/eliminan de la lista de empleados, con lo cual usted no tendrá que verificar la lista manualmente.</value>
+  </data>
+  <data name="ChatTabs">
+    <value>Pestañas de conversación</value>
+  </data>
+  <data name="ContactListWithOptions">
+    <value>Opciones de la lista de contactos</value>
+  </data>
+  <data name="IntegrationWith3rdPartyAppsSectionContent">
+    <value>Usted puede usar un cliente IM de terceros para acceder a Talk. Para hacerlo, se deberá integrar Talk en cualquier cliente de mensajería instantánea que tenga soporte para Jabber/XMPP. </value>
+  </data>
+  <data name="IntegrationWith3rdPartyAppsSectionTitle">
+    <value>Soporte para clientes de terceros</value>
+  </data>
+  <data name="MessageFieldOptions">
+    <value>Opciones del campo de mensaje</value>
+  </data>
+  <data name="MirandaIMLink">
+    <value>Miranda IM - la página del cliente Miranda IM.  Más pequeño, más rápido, más fácil</value>
+  </data>
+  <data name="OverviewContent">
+    <value>Talk es un sistema corporativo de mensajería instantánea diseñado para intercambiar mensajes de texto entre empleados en tiempo real.</value>
+  </data>
+  <data name="OverviewContentDescription">
+    <value>Talk dispone de todas las funciones tradicionales de un messenger - elección de estado, archivación de historial, transferencia de archivos, soporte para conversaciones multiusuario, y más. </value>
+  </data>
+  <data name="OverviewSectionTitle">
+    <value>Descripción de Talk</value>
+  </data>
+  <data name="OverviewWebClientDescription">
+    <value>Arranque el cliente web para empezar a usar Talk ahora mismo sin ajuste previo de parámetros.</value>
+  </data>
+  <data name="PidginLink">
+    <value>Un cliente de mensajería gratuito utilizado por millones de personas. Conéctate fácilmente a MSN, Google Talk, Yahoo, AIM y otros redes de mensajería a la vez.</value>
+  </data>
+  <data name="PsiLink">
+    <value>El cliente multiplataforma JabberXMPP para usuarios avanzados</value>
+  </data>
+  <data name="Recommended">
+    <value>Clientes recomendados</value>
+  </data>
+  <data name="ScreenshotsSectionTitle">
+    <value>Capturas de pantalla</value>
+  </data>
+  <data name="StartWebClientLink">
+    <value>Arrancar cliente web</value>
+  </data>
+  <data name="StartWebClientLinkDescription">
+    <value>¡No hace falta ningún ajuste previo! Pulse para iniciar el cliente web y empezar a conversar ahora mismo</value>
+  </data>
+  <data name="ThirdPartyAppsSettingsSectionContent">
+    <value>Para integrar Talk en un cliente de terceros usted necesitará los siguientes ajustes:{0}
+Nombre de servidor:{1}
+Dirección de servidor:{2}
+Puerto de conexión: {3}
+Su nombre de usuario: {4}
+Para conectarse usted deberá introducr su identificación Jabber {5} y la contraseña de su cuenta.</value>
+  </data>
+  <data name="TrillianLink">
+    <value>Trillian - un cliente de mensajería instantánea para usar con Windows, iPhone, o en la Web.  Tiene soporte para Astra, Windows Live, Facebook, Twitter, Yahoo, MySpace, AIM, Email, Google Talk, Skype, ICQ, Jabber, IRC, Bonjour, ¡y más!</value>
+  </data>
+  <data name="YourStatusChanger">
+    <value>Cambiador de estado</value>
+  </data>
+</root>

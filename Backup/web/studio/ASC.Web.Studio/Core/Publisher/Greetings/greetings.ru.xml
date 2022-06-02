@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<greetings>
+  <!--special tags :
+  {username} - curretn user name
+  {personalcount}
+  {joindays}
+
+  other tags - attributes
+  -->
+
+  <!-- http://www.geocities.com/SouthBeach/Lagoon/4092/greeting.html -->
+  <form phrase="{greeting}, {username}!" description="Now you know how to say Hello in {country}.">
+    <phrase country="Afrikaans" greeting="Goeie More"/>
+    <phrase country="Arabic" greeting="Marhaba"/>
+    <phrase country="Bahasa Malaysia" greeting="Selamat tengah hari"/>
+    <phrase country="Bahasa Indonesia" greeting="Selamat Siang"/>
+    <phrase country="Cherokee" greeting="O'siyo"/>
+    <phrase country="Chinese" greeting="Ni Hao"/>
+    <phrase country="Farsi" greeting="Salaam"/>
+    <phrase country="French" greeting="Bonjour"/>
+    <phrase country="Greek" greeting="Geia sou"/>
+    <phrase country="Irish" greeting="Dia duit"/>
+    <phrase country="Japanese" greeting="Konnichiwa"/>
+    <phrase country="Russian" greeting="Privet"/>
+  </form>
+
+</greetings>

@@ -1,0 +1,13 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\bin\Debug\ASC.Notify.Textile.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\bin\Debug\ASC.Notify.Textile.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\bin\Debug\ASC.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\bin\Debug\HtmlSanitizationLibrary.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\bin\Debug\Textile.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\bin\Debug\HtmlSanitizationLibrary.xml
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\obj\Debug\ASC.Notify.Textile.Resources.TemplateResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\obj\Debug\ASC.Notify.Textile.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\obj\Debug\ASC.Notify.Textile.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\common\ASC.Notify.Textile\obj\Debug\ASC.Notify.Textile.pdb

@@ -1,0 +1,49 @@
+<pt:catalog xmlns:pt="urn:asc.notify.pattern.xsd">
+  <block>
+    <formatter type="ASC.Notify.Patterns.NVelocityPatternFormatter, ASC.Common" />
+    <patterns>
+      <pattern id="ShareDocument" name="share document" contentType="html">
+        <subject resource="|subject_ShareDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ShareDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></body>
+      </pattern>
+      <pattern id="ShareDocument_jabber" name="share document jabber" contentType="text">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ShareDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></body>
+      </pattern>
+      <pattern id="ShareFolder" name="share folder" contentType="html">
+        <subject resource="|subject_ShareFolder|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ShareFolder|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></body>
+      </pattern>
+      <pattern id="ShareFolder_jabber" name="share folder jabber" contentType="text">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ShareFolder|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></body>
+      </pattern>
+      <pattern id="UpdateDocument" name="update document" contentType="html">
+        <subject resource="|subject_UpdateDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_UpdateDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></body>
+      </pattern>
+      <pattern id="UpdateDocument_jabber" name="update document jabber" contentType="text">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_UpdateDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></body>
+      </pattern>
+      
+      
+      <!--<pattern id="UploadDocument" name="upload document" contentType="html">
+        <subject resource="|subject_UploadDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_UploadDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></body>
+      </pattern>
+      <pattern id="UploadDocument_jabber" name="upload document jabber" contentType="text">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_UploadDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></body>
+      </pattern>
+      <pattern id="DeleteDocument" contentType="html" name="delete document">
+        <subject resource="|subject_DeleteDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_DeleteDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></body>
+      </pattern>
+      <pattern id="DeleteDocument_jabber" name="delete document jabber" contentType="text">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_DeleteDocument|ASC.Web.Files.Services.NotifyService.FilesPatternResource,ASC.Web.Files"></body>
+      </pattern>-->
+    </patterns>
+  </block>
+</pt:catalog>

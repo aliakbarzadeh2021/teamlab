@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pattern_EditMessage">
+    <value>h1.讨论编辑: "$EntityTitle":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" 编辑了讨论:
+
+$AdditionalData.get_item("MessagePreview")
+
+#foreach($fileInfo in $AdditionalData.get_item("Files").Keys)
+
+#beforeall
+
+----------------------------------------
+
+#each
+
+"$fileInfo":"$AdditionalData.get_item("Files").get_item($fileInfo)"
+
+#end
+
+"了解更多":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+您的网站地址: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"编辑订阅设置":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_LateMilestone">
+    <value>h1.逾期的里程碑通知: "$EntityTitle":"${__VirtualRootPath}/products/projects/milestones.aspx?prjID=$ProjectID&amp;ID=$EntityID" 项目里程碑 ["$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"] is overdue: "$EntityTitle":"${__VirtualRootPath}/products/projects/milestones.aspx?prjID=$ProjectID&amp;ID=$EntityID" . 您的网站地址: "$__VirtualRootPath":"$__VirtualRootPath" "编辑订阅设置":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_MilestoneDeadline">
+    <value>h1.里程碑截止日期通知: "$EntityTitle":"${__VirtualRootPath}/products/projects/milestones.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+距离项目里程碑截止日期剩下不到48小时 ["$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"].
+
+您的网站地址: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"编辑订阅地址":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_NewCommentForMessage">
+    <value>h1.讨论有新的评论: "$EntityTitle":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" 在讨论发表了一条新的评论:
+
+$AdditionalData
+
+"了解更多":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+您的网站地址: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"编辑订阅设置":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_NewCommentForMilestone">
+    <value>h1.里程碑有新评论: "$EntityTitle":"${__VirtualRootPath}/products/projects/milestones.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" 在里程碑发表了一条新评论:
+
+$AdditionalData
+
+"了解更多":"${__VirtualRootPath}/products/projects/milestones.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+您的网站地址: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"编辑订阅设置":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_NewCommentForTask">
+    <value>h1.任务有新评论: "$EntityTitle":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" 发表了一条新评论在任务:
+
+$AdditionalData
+
+"了解更多":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+您的网站地址: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"编辑订阅设置":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_NewMessage">
+    <value>h1.新的讨论: "$EntityTitle":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" 开始了一个新讨论:
+
+$AdditionalData.get_item("MessagePreview")
+
+#foreach($fileInfo in $AdditionalData.get_item("Files").Keys)
+
+#beforeall
+
+----------------------------------------
+
+#each
+
+"$fileInfo":"$AdditionalData.get_item("Files").get_item($fileInfo)"
+
+#end
+
+"了解更多":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+您的网站地址: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"编辑订阅设置":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_ProjectAcceptRequest">
+    <value>h1.请求确认.
+
+用户 "$__AuthorName":"$__AuthorUrl" 确认了您的请求在项目 "$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID" .
+
+您的网站地址: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"编辑订阅设置":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_UploadFiles">
+    <value>h1.有新文件上传: "$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" 为项目上传了一个新文件["$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"].
+
+#foreach($fileInfo in $AdditionalData.Keys)
+
+#each
+
+"$fileInfo":"$AdditionalData.get_item($fileInfo)"
+
+#end
+
+您的网站地址: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"编辑订阅设置":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="subject_ResponsibleForProject">
+    <value>项目 [$ProjectTitle]. 您被任命为项目经理</value>
+  </data>
+  <data name="subject_TaskClosed">
+    <value>项目 [$ProjectTitle]. 任务关闭: $EntityTitle</value>
+  </data>
+</root>

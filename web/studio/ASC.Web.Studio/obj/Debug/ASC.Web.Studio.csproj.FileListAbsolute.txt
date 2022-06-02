@@ -1,0 +1,55 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebPatternResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Publisher.Greetings.GreetingsResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Publisher.Greetings.GreetingsResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.csproj.GenerateResource.Cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebPatternResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Publisher.Greetings.GreetingsResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Notify.WebstudioPatternResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Publisher.Greetings.GreetingsResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.Core.Users.NamingPeopleResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\ASC.Web.Studio.PublicResources.SkinNameResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\GenerateResource.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\obj\Debug\GenerateResource.write.1.tlog

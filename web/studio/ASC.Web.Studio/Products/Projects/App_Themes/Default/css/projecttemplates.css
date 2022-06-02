@@ -1,0 +1,96 @@
+﻿.projectTemplateContainer
+{
+	border-top: solid 1px #d1d1d1;
+	border-bottom: solid 1px #d1d1d1;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: -1px;
+}
+
+.projectTemplateBorder
+{
+	border-top: solid 1px #d1d1d1;
+}
+
+.projectTemplateMetaContainer
+{
+	margin-top: 5px;
+}
+
+.projectTemplateMetaContainer a
+{
+	float: left;
+	margin-right: 10px;
+}
+
+.createProjectTemplateTitleArea
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.projectTemplatesInput
+{
+	width: 100%;
+	background-color: #FFFFFF;
+	border: 1px solid #C7C7C7;
+	height: 16px;
+}
+
+.projectMilestoneTemplateHolder
+{
+	border-left: 0px !important;
+	border-right: 0px !important;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+.projectTemplatesCheckboxContainer label, input[type="checkbox"]
+{
+	float: left;
+}
+
+.projectTemplatesCheckboxContainer label
+{
+	margin-top: 2px;
+	margin-left: 6px;
+}
+
+.projectTemplatesTextDescribe
+{
+	color: #646567;
+	font-family: Arial;
+	font-size: 11px;
+}
+
+.projectTemplatesDottedLink
+{
+	border-bottom: 1px dotted #1A6DB3 !important;
+	color: #1A6DB3 !important;
+	cursor: pointer;
+}
+
+.projectTemplatesCreateProjectComboLink
+{	
+	display: block;
+	font-size: 11px;
+	padding: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+.projectTemplatesTableItemActive
+{
+	background-color: #F5F5F5 !important;
+}
+
+.projectTemplatesTaskResponsible
+{
+	width:150px;
+	padding-left:0px;
+	white-space:nowrap;
+}

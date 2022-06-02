@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="CompressorTask" AssemblyFile="..\..\..\..\..\redistributable\third-party\YUICompressor\Yahoo.Yui.Compressor.dll" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C534AF7-5696-4E68-9FF4-FFC311893C10}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ASC.Web.Files</RootNamespace>
+    <AssemblyName>ASC.Web.Files</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxPro.2, Version=7.7.31.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\third-party\Web\AjaxPro.2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Core.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.Core.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Data.Storage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.Data.Storage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.FullTextIndex, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.FullTextIndex.dll</HintPath>
+    </Reference>
+    <Reference Include="ASC.Thrdparty, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.Thrdparty.dll</HintPath>
+    </Reference>
+    <Reference Include="ASC.Web.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.Web.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Web.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.Web.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Web.Studio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\ASC.Web.Studio.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DotNetOpenAuth, Version=3.5.0.10357, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\third-party\DotNetOpenAuth\3.5 CTP\DotNetOpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.ApplicationBlock, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\DotNetOpenAuth.ApplicationBlock.dll</HintPath>
+    </Reference>
+    <Reference Include="FredCK.FCKeditorV2, Version=2.6.3.29869, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\third-party\Web\FredCK.FCKeditorV2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\third-party\SharpZipLib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\third-party\log4net\log4net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.ServiceModel.Web, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\third-party\Microsoft\Microsoft.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.4.6.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\third-party\NUnit 2.4.6\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\BasePage.cs">
+    </Compile>
+    <Compile Include="Classes\JavaScriptResourcePublisher.cs" />
+    <Compile Include="Classes\FilesIntegration.cs" />
+    <Compile Include="Classes\FilesSpaceUsageStatManager.cs" />
+    <Compile Include="Classes\FilesUploader.cs" />
+    <Compile Include="Classes\Global.cs" />
+    <Compile Include="Classes\GlobalHandler.cs" />
+    <Compile Include="Classes\PathProvider.cs" />
+    <Compile Include="Classes\ProductEntryPoint.cs" />
+    <Compile Include="Classes\SearchHandler.cs" />
+    <Compile Include="Classes\SubscriptionManager.cs" />
+    <Compile Include="Classes\UrlConstant.cs" />
+    <Compile Include="Controls\AccessRights\AccessRights.ascx.cs">
+      <DependentUpon>AccessRights.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AccessRights\AccessRights.ascx.designer.cs">
+      <DependentUpon>AccessRights.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FavoriteWidget\FavoriteWidget.ascx.cs">
+      <DependentUpon>FavoriteWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FavoriteWidget\FavoriteWidget.ascx.designer.cs">
+      <DependentUpon>FavoriteWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FileViewer\FileViewer.ascx.cs">
+      <DependentUpon>FileViewer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FileViewer\FileViewer.ascx.designer.cs">
+      <DependentUpon>FileViewer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImportWidget\ImportWidget.ascx.cs">
+      <DependentUpon>ImportWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ImportWidget\ImportWidget.ascx.designer.cs">
+      <DependentUpon>ImportWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MainMenu\MainMenu.ascx.cs">
+      <DependentUpon>MainMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MainMenu\MainMenu.ascx.designer.cs">
+      <DependentUpon>MainMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MainContent\MainContent.ascx.cs">
+      <DependentUpon>MainContent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MainContent\MainContent.ascx.designer.cs">
+      <DependentUpon>MainContent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NavigationWidget\NavigationWidget.ascx.cs">
+      <DependentUpon>NavigationWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\NavigationWidget\NavigationWidget.ascx.designer.cs">
+      <DependentUpon>NavigationWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PluginBox\PluginBox.ascx.cs">
+      <DependentUpon>PluginBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\PluginBox\PluginBox.ascx.designer.cs">
+      <DependentUpon>PluginBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StatisticWidget\StatisticWidget.ascx.cs">
+      <DependentUpon>StatisticWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\StatisticWidget\StatisticWidget.ascx.designer.cs">
+      <DependentUpon>StatisticWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Security\IFileSecurityProvider.cs" />
+    <Compile Include="DocEditor.aspx.cs">
+      <DependentUpon>DocEditor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DocEditor.aspx.designer.cs">
+      <DependentUpon>DocEditor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Favorite.cs" />
+    <Compile Include="Core\File.cs" />
+    <Compile Include="Core\FileConst.cs" />
+    <Compile Include="Core\FileEntry.cs" />
+    <Compile Include="Core\FileEntryType.cs" />
+    <Compile Include="Core\FileFormats.cs" />
+    <Compile Include="Core\FilterType.cs" />
+    <Compile Include="Core\Folder.cs" />
+    <Compile Include="Core\IDaoFactory.cs" />
+    <Compile Include="Core\IFileDao.cs" />
+    <Compile Include="Core\IFolderDao.cs" />
+    <Compile Include="Core\IPreviewDao.cs" />
+    <Compile Include="Core\ITagDao.cs" />
+    <Compile Include="Core\OrderBy.cs" />
+    <Compile Include="Core\PreviewFile.cs" />
+    <Compile Include="Core\PreviewStatus.cs" />
+    <Compile Include="Core\Tag.cs" />
+    <Compile Include="Core\Data\AbstractDao.cs" />
+    <Compile Include="Core\Data\DaoFactory.cs" />
+    <Compile Include="Core\Data\FileDao.cs" />
+    <Compile Include="Core\Data\FolderDao.cs" />
+    <Compile Include="Core\Data\PreviewDao.cs" />
+    <Compile Include="Core\Data\SecurityDao.cs" />
+    <Compile Include="Core\Data\TagDao.cs" />
+    <Compile Include="Core\Security\FileSecurity.cs" />
+    <Compile Include="Core\Security\FileShare.cs" />
+    <Compile Include="Core\Security\FileShareRecord.cs" />
+    <Compile Include="Core\Security\IFileSecurity.cs" />
+    <Compile Include="Core\Security\ISecurityDao.cs" />
+    <Compile Include="DocViewer.aspx.cs">
+      <DependentUpon>DocViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DocViewer.aspx.designer.cs">
+      <DependentUpon>DocViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileHandler.ashx.cs">
+      <DependentUpon>FileHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Import\Boxnet\BoxLogin.aspx.cs">
+      <DependentUpon>BoxLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Import\Boxnet\BoxLogin.aspx.designer.cs">
+      <DependentUpon>BoxLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Import\Boxnet\BoxDocumentProvider.cs" />
+    <Compile Include="Import\Google\GoogleDocumentProvider.cs" />
+    <Compile Include="Import\IDocumentProvider.cs" />
+    <Compile Include="Import\Google\OAuth.aspx.cs">
+      <DependentUpon>OAuth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Import\Google\OAuth.aspx.designer.cs">
+      <DependentUpon>OAuth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Import\ImportConfiguration.cs" />
+    <Compile Include="Import\OAuthBase.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Import\Utils.cs" />
+    <Compile Include="Import\Zoho\ZohoDocumentProvider.cs" />
+    <Compile Include="Masters\BasicTemplate.Master.cs">
+      <DependentUpon>BasicTemplate.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\BasicTemplate.Master.designer.cs">
+      <DependentUpon>BasicTemplate.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\FilesCommonResource.Designer.cs">
+      <DependentUpon>FilesCommonResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Resources\FilesJSResource.Designer.cs">
+      <DependentUpon>FilesJSResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Resources\FilesUCResource.Designer.cs">
+      <DependentUpon>FilesUCResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\DocService.asmx.cs">
+      <DependentUpon>DocService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Import\Document.cs" />
+    <Compile Include="Services\NotifyService\FilesPatternResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FilesPatternResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\NotifyService\NotifyClient.cs" />
+    <Compile Include="Services\NotifyService\NotifyConstants.cs" />
+    <Compile Include="Services\NotifyService\NotifySource.cs" />
+    <Compile Include="Services\WCFService\BaseTypeWrapper.cs" />
+    <Compile Include="Services\WCFService\GroupInfoWrapper.cs" />
+    <Compile Include="Services\WCFService\ServiceErrorLoggingBehavior.cs" />
+    <Compile Include="Services\WCFService\ServiceFactory.cs" />
+    <Compile Include="Services\WCFService\FileImportOperation.cs" />
+    <Compile Include="Services\WCFService\FileOperationType.cs" />
+    <Compile Include="Services\WCFService\FileOperationResult.cs" />
+    <Compile Include="Services\WCFService\FileDownloadOperation.cs" />
+    <Compile Include="Services\WCFService\FileConflictResolveType.cs" />
+    <Compile Include="Services\WCFService\FileDeleteOperation.cs" />
+    <Compile Include="Services\WCFService\DataWrapper.cs" />
+    <Compile Include="Services\WCFService\FileMoveCopyOperation.cs" />
+    <Compile Include="Services\WCFService\FileOperation.cs" />
+    <Compile Include="Services\WCFService\FileQuotaController.cs" />
+    <Compile Include="Services\WCFService\IFileStorageService.cs" />
+    <Compile Include="Services\WCFService\DataToImport.cs" />
+    <Compile Include="Services\WCFService\MultipartParser.cs" />
+    <Compile Include="Services\WCFService\UriTemplates.cs" />
+    <Content Include="Services\DocService.asmx" />
+    <Compile Include="Services\WCFService\Service.svc.cs">
+      <DependentUpon>Service.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\BaseTest.cs" />
+    <Compile Include="Tests\DemoData.cs" />
+    <Compile Include="Tests\Files.cs" />
+    <Compile Include="Tests\Folders.cs" />
+    <Compile Include="Tests\SecurityTest.cs" />
+    <Compile Include="Tests\WCFServieTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Masters\BasicTemplate.Master" />
+    <Content Include="Services\WCFService\Service.svc" />
+    <Content Include="Templates\getsharedinfo.xsl" />
+    <Content Include="Templates\getfavorite.xsl" />
+    <Content Include="Templates\getfilehistory.xsl" />
+    <Content Include="Templates\getfolderitem.xsl" />
+    <Content Include="Templates\getfolderinfo.xsl" />
+    <Content Include="Templates\getfolderitems.xsl" />
+    <Content Include="Templates\getfolderstree.xsl" />
+    <Content Include="Templates\getgroups.xsl" />
+    <Content Include="Templates\getimportdata.xsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\FilesCommonResource.de.resx" />
+    <EmbeddedResource Include="Resources\FilesCommonResource.es.resx" />
+    <EmbeddedResource Include="Resources\FilesCommonResource.fr.resx" />
+    <EmbeddedResource Include="Resources\FilesCommonResource.it.resx" />
+    <EmbeddedResource Include="Resources\FilesCommonResource.lv.resx" />
+    <EmbeddedResource Include="Resources\FilesCommonResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>FilesCommonResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\FilesCommonResource.ru.resx" />
+    <EmbeddedResource Include="Resources\FilesCommonResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\FilesJSResource.de.resx" />
+    <EmbeddedResource Include="Resources\FilesJSResource.es.resx" />
+    <EmbeddedResource Include="Resources\FilesJSResource.fr.resx" />
+    <EmbeddedResource Include="Resources\FilesJSResource.it.resx" />
+    <EmbeddedResource Include="Resources\FilesJSResource.lv.resx" />
+    <EmbeddedResource Include="Resources\FilesJSResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>FilesJSResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\FilesJSResource.ru.resx" />
+    <EmbeddedResource Include="Resources\FilesJSResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\FilesUCResource.de.resx" />
+    <EmbeddedResource Include="Resources\FilesUCResource.es.resx" />
+    <EmbeddedResource Include="Resources\FilesUCResource.fr.resx" />
+    <EmbeddedResource Include="Resources\FilesUCResource.it.resx" />
+    <EmbeddedResource Include="Resources\FilesUCResource.lv.resx" />
+    <EmbeddedResource Include="Resources\FilesUCResource.pl.resx" />
+    <EmbeddedResource Include="Resources\FilesUCResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>FilesUCResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\FilesUCResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\FilesUCResource.zh-CN.resx" />
+    <EmbeddedResource Include="Services\NotifyService\action_pattern.xml" />
+    <EmbeddedResource Include="Services\NotifyService\FilesPatternResource.de.resx" />
+    <EmbeddedResource Include="Services\NotifyService\FilesPatternResource.es.resx" />
+    <EmbeddedResource Include="Services\NotifyService\FilesPatternResource.fr.resx" />
+    <EmbeddedResource Include="Services\NotifyService\FilesPatternResource.it.resx" />
+    <EmbeddedResource Include="Services\NotifyService\FilesPatternResource.lv.resx" />
+    <EmbeddedResource Include="Services\NotifyService\FilesPatternResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>FilesPatternResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\NotifyService\FilesPatternResource.ru.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\tips\tips.de.xml" />
+    <Content Include="App_Data\tips\tips.en.xml" />
+    <Content Include="App_Data\tips\tips.es.xml" />
+    <Content Include="App_Data\tips\tips.fr.xml" />
+    <Content Include="App_Data\tips\tips.it.xml" />
+    <Content Include="App_Data\tips\tips.lv.xml" />
+    <Content Include="App_Data\tips\tips.ru.xml" />
+    <Content Include="App_Themes\Default\common.css" />
+    <Content Include="App_Themes\Default\Images\back-progress-big.png" />
+    <Content Include="App_Themes\Default\Images\content_folder.png" />
+    <Content Include="App_Themes\Default\Images\corporatefiles.png" />
+    <Content Include="App_Themes\Default\Images\d.png" />
+    <Content Include="App_Themes\Default\Images\favorites.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_avi.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_djvu.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_doc.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_ebook.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_flv.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_html.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_iaf.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_image.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_m2ts.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_mkv.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_mov.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_mp4.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_mpg.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_na.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_odp.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_ods.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_odt.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_pdf.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_ppt.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_rtf.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_sound.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_txt.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_vob.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_xls.png" />
+    <Content Include="App_Themes\Default\Images\filetype\file_zip.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_avi.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_djvu.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_doc.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_ebook.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_flv.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_html.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_iaf.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_image.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_m2ts.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_mkv.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_mov.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_mp4.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_mpg.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_na.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_odp.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_ods.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_odt.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_pdf.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_ppt.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_rtf.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_sound.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_txt.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_vob.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_xls.png" />
+    <Content Include="App_Themes\Default\Images\filetype\thumb_file_zip.png" />
+    <Content Include="App_Themes\Default\Images\loader_12.gif" />
+    <Content Include="App_Themes\Default\Images\myfiles.png" />
+    <Content Include="App_Themes\Default\Images\popup-corner.png" />
+    <Content Include="App_Themes\Default\Images\product_logo.png" />
+    <Content Include="App_Themes\Default\Images\product_logolarge.png" />
+    <Content Include="App_Themes\Default\Images\projectfiles.png" />
+    <Content Include="App_Themes\Default\Images\sharedforme.png" />
+    <Content Include="App_Themes\Default\Images\sharedforme_big.png" />
+    <Content Include="App_Themes\Default\Images\statistics.png" />
+    <Content Include="App_Themes\Default\Images\throbber.gif" />
+    <Content Include="App_Themes\Default\Images\tips.png" />
+    <Content Include="App_Themes\Default\Images\tools_container.png" />
+    <Content Include="App_Themes\Default\Images\tree.png" />
+    <Content Include="Controls\AccessRights\AccessRights.ascx" />
+    <Content Include="Controls\AccessRights\AccessRights.css" />
+    <Content Include="Controls\AccessRights\accessrights.js" />
+    <Content Include="Controls\FavoriteWidget\FavoriteWidget.ascx" />
+    <Content Include="Controls\FavoriteWidget\FavoriteWidget.css" />
+    <Content Include="Controls\FavoriteWidget\favoritewidget.js" />
+    <Content Include="Controls\FileViewer\FileViewer.ascx" />
+    <Content Include="Controls\FileViewer\fileviewer.css" />
+    <Content Include="Controls\FileViewer\fileviewer.js" />
+    <Content Include="Controls\ImportWidget\ImportWidget.ascx" />
+    <Content Include="Controls\ImportWidget\ImportWidget.css" />
+    <Content Include="Controls\ImportWidget\importwidget.js" />
+    <Content Include="Controls\MainContent\MainContent.css" />
+    <Content Include="Controls\MainMenu\MainMenu.ascx" />
+    <Content Include="Controls\MainMenu\MainMenu.css" />
+    <Content Include="Controls\MainContent\MainContent.ascx" />
+    <Content Include="Controls\MainMenu\mainmenu.js" />
+    <Content Include="Controls\MainMenu\uploadmanager.js" />
+    <Content Include="Controls\NavigationWidget\NavigationWidget.ascx" />
+    <Content Include="Controls\NavigationWidget\NavigationWidget.css" />
+    <Content Include="Controls\PluginBox\PluginBox.ascx" />
+    <Content Include="Controls\PluginBox\PluginBox.css" />
+    <Content Include="Controls\PluginBox\pluginbox.js" />
+    <Content Include="Controls\StatisticWidget\StatisticWidget.ascx" />
+    <Content Include="Controls\StatisticWidget\StatisticWidget.css" />
+    <Content Include="DocEditor.aspx" />
+    <Content Include="DocViewer.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="FileHandler.ashx" />
+    <Content Include="Import\Boxnet\BoxLogin.aspx" />
+    <Content Include="Import\Google\OAuth.aspx" />
+    <Content Include="js\actionmanager.js" />
+    <Content Include="js\common.js" />
+    <Content Include="js\dragdrop.js" />
+    <Content Include="js\eventhandler.js" />
+    <Content Include="js\foldermanager.js" />
+    <Content Include="js\servicemanager.js" />
+    <Content Include="js\templatemanager.js" />
+    <Content Include="js\tree.js" />
+    <Content Include="js\ui.js" />
+    <Content Include="js\zeroclipboard.js" />
+    <Content Include="Search.aspx" />
+    <Content Include="Services\NotifyService\patterns.xml" />
+    <None Include="App_Data\template\0648530C-71B0-47c2-ADE2-593D6F286783.doc" />
+    <None Include="App_Data\template\0648530C-71B0-47c2-ADE2-593D6F286783.odp" />
+    <None Include="App_Data\template\0648530C-71B0-47c2-ADE2-593D6F286783.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageFromControls Include="$(ProjectDir)Controls\**\Images\*.*" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="BeforeBuild">
+    <Exec Command="taskkill /F /IM aspnet_wp.exe" IgnoreExitCode="true" ContinueOnError="true" Condition=" '$(KillAsp)' == '' " />
+    <Exec Command="taskkill /F /IM w3wp.exe" IgnoreExitCode="true" ContinueOnError="true" Condition=" '$(KillAsp)' == '' " />
+    <Copy SourceFiles="@(ImageFromControls)" DestinationFolder="$(ProjectDir)App_Themes\Default\Images" />
+    <ItemGroup>
+      <CssFiles Include="$(ProjectDir)App_Themes\Default\common.css" />
+      <CssFiles Include="$(ProjectDir)Controls\**\*.css" />
+      <JavaScriptFiles Include="$(ProjectDir)js\zeroclipboard.js" />
+      <JavaScriptFiles Include="$(ProjectDir)js\common.js" />
+      <JavaScriptFiles Include="$(ProjectDir)js\templatemanager.js" />
+      <JavaScriptFiles Include="$(ProjectDir)js\servicemanager.js" />
+      <JavaScriptFiles Include="$(ProjectDir)js\ui.js" />
+      <JavaScriptFiles Include="$(ProjectDir)js\eventhandler.js" />
+      <JavaScriptFiles Include="$(ProjectDir)js\foldermanager.js" />
+      <JavaScriptFiles Include="$(ProjectDir)js\actionmanager.js" />
+      <JavaScriptFiles Include="$(ProjectDir)js\tree.js" />
+      <JavaScriptFiles Include="$(ProjectDir)js\dragdrop.js" />
+      <JavaScriptFiles Include="$(ProjectDir)Controls\PluginBox\pluginbox.js" />
+      <JavaScriptFiles Include="$(ProjectDir)Controls\MainMenu\mainmenu.js" />
+      <JavaScriptFiles Include="$(ProjectDir)Controls\MainMenu\uploadmanager.js" />
+      <JavaScriptFiles Include="$(ProjectDir)Controls\FavoriteWidget\favoritewidget.js" />
+      <JavaScriptFiles Include="$(ProjectDir)Controls\ImportWidget\importwidget.js" />
+      <JavaScriptFiles Include="$(ProjectDir)Controls\MainMenu\mainmenu.js" />
+      <JavaScriptFiles Include="$(ProjectDir)Controls\MainMenu\uploadmanager.js" />
+      <JavaScriptFiles Include="$(ProjectDir)Controls\AccessRights\accessrights.js" />
+      <JavaScriptFiles Include="$(ProjectDir)Controls\FileViewer\fileviewer.js" />
+    </ItemGroup>
+    <CompressorTask CssFiles="@(CssFiles)" DeleteCssFiles="false" CssOutputFile="$(ProjectDir)App_Themes\Default\files-min.css" CssCompressionType="YuiStockCompression" JavaScriptFiles="@(JavaScriptFiles)" ObfuscateJavaScript="True" PreserveAllSemicolons="False" DisableOptimizations="Nope" EncodingType="Default" DeleteJavaScriptFiles="false" LineBreakPosition="-1" JavaScriptOutputFile="$(ProjectDir)\js\files-min.js" LoggingType="ALittleBit" ThreadCulture="en-au" IsEvalIgnored="false" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1789</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/ASC.Web.Files</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

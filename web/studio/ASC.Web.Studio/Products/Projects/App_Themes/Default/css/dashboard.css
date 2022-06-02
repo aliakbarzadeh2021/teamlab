@@ -1,0 +1,108 @@
+﻿/*******************************************************************************
+   MyTasksWidget
+*******************************************************************************/
+    
+    .pm-dashboard-MyTasksWidget-projectTasksContainer
+    {
+    	margin-left:20px;
+    }
+    .pm-dashboard-MyTasksWidget-taskTitleContainer
+    {
+    	padding:10px 0px 3px 0px;
+    }
+    .pm-dashboard-MyTasksWidget-seeMoreContainer
+    {
+    	padding:10px 0px 0px 0px
+    }
+    
+/*******************************************************************************
+   MessagesWidget
+*******************************************************************************/
+
+    .pm-dashboard-MessagesWidget-dateTimeContainer
+    {
+    	padding: 4px 0px 0px;
+    }
+
+/*******************************************************************************
+   LastActivityWidget
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+   MilestonesViewWidget
+*******************************************************************************/
+
+    .pm-dashboard-MilestonesViewWidget-dateTimeContainer
+    {
+    	float:left;
+    	text-align:right;
+    	width:50px;
+    }
+    .pm-dashboard-MilestonesViewWidget-infoContainer
+    {
+    	margin-left:60px;
+    }     
+
+/*******************************************************************************
+   pm-dashboard
+*******************************************************************************/
+
+    .pm-dashboard-leftIndent-small
+    {
+    	padding-left: 5px;
+    }
+    .pm-dashboard-leftIndent
+    {
+    	padding-left: 10px;
+    }
+    .pm-dashboard-bottomIndent
+    {
+    	padding-bottom:3px
+    }
+    .pm-dashboard-container
+    {
+    	padding:7px 0px;
+    }
+    
+    /*----for internet explorer 6--------*/
+    *html .pm-dashboard-fadeParent
+    {
+		overflow:hidden;
+		position:static;
+		white-space:nowrap;
+		
+	} 
+	
+    *html .pm-dashboard-fade
+    {
+		height:20px;
+		width:25px;
+		position:absolute;
+		filter: alpha(style=1, opacity=0, finishopacity=100);
+		background-color:#ffffff;
+		left: expression(getLeftByElement(this));
+	} 
+	
+	/*-----------------------------------*/
+	
+    .pm-dashboard-fadeParent
+    {
+		white-space:nowrap;
+		overflow:hidden;
+		position:relative;
+	} 
+    .pm-dashboard-fade
+    {
+		height:20px;
+		width:25px;
+		position:absolute;
+		right:0px;
+		background-image: url('../images/fade.png');
+	}
+	 
+    
+/*******************************************************************************
+
+*******************************************************************************/

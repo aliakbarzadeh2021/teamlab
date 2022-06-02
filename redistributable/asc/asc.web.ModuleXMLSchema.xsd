@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema version="1.0"  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="Guid">
+    <xs:annotation>
+      <xs:documentation>Тип определяющий Guid</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ModuleCategory">
+    <xs:annotation>
+      <xs:documentation>Категория к которой относится модуль</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ProjectManagement"></xs:enumeration>
+      <xs:enumeration value="HRM"></xs:enumeration>
+      <xs:enumeration value="Community"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="ShortcutRef">
+    <xs:annotation>
+      <xs:documentation>Ссылка на ярлык</xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="RefName" use="required" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>Имя ссылки для ярлыка</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  
+  
+  <xs:simpleType name="ShortcutType">
+    <xs:annotation>
+      <xs:documentation>Тип ярлыка</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">      
+      <xs:enumeration value="Navigation"></xs:enumeration>
+      <xs:enumeration value="Action"></xs:enumeration>      
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="Shortcut">
+    <xs:annotation>
+      <xs:documentation>Ярлык для быстрого действия или меню навигации</xs:documentation>
+    </xs:annotation>
+
+    <xs:attribute name="ID" use="required" type="Guid">
+      <xs:annotation>
+        <xs:documentation>
+          Уникальный идентификатор ярлыка - Guid
+          Используется IShortcutProvider, если ярлыки одинаковые - то ID должны быть одинаковыми
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    
+
+    <xs:attribute name="RefName" use="required" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>
+          Имя для ссылки на ярлык
+          Должно быть без пробелов, уникальным, английскими буквами
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="NameResourceKey" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>Ключ для название ярлыка из файла с ресурсами</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="ImageFileName" type="xs:string" use="optional">
+      <xs:annotation>
+        <xs:documentation>Имя файла картинки для ярлыка, если пустое, то ярлык будет без картики</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="DescriptionResourceKey" type="xs:string" use="optional">
+      <xs:annotation>
+        <xs:documentation>Ключ для краткого описания ярлыка из файла с ресурсами</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="ActionURL" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          Абсолютный адрес действия, начинается с "~/" может содержать строку запроса после "?"
+          Если в строку запроса необходимо подставлять идентификатор текущего пользователя, то использовать "[%uid%]"
+          Если ярдык динамический, то ActionURL учитваться не будет
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="IsDynamic" type="xs:boolean" use="optional" default="false">
+      <xs:annotation>
+        <xs:documentation>Нужно вычислять веб-адрес действия или нет, если нет то будет браться AbsoluteWebPath</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="IsMenuOnly" type="xs:boolean" use="optional" default="false">
+      <xs:annotation>
+        <xs:documentation>Показывать только в меню</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="IsProtected"  type="xs:boolean" use="optional" default="false">
+      <xs:annotation>
+        <xs:documentation>Защищенный или нет (если да то будут проверять права доступа через IShortcutProvider)</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="ResourceClassTypeName" use="optional" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>
+          Имя типа класса ресурсов, из которого будут браться ключи
+          Если отсутствует, то ключи будут браться из ресурсов модуля
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="Type" use="optional" type="ShortcutType" default="Action">
+      <xs:annotation>
+        <xs:documentation>
+          Тип ярлыка, по-умолчанию действие
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+  </xs:complexType>
+
+  <xs:complexType name="PageShortcutConfig">
+    <xs:annotation>
+      <xs:documentation>Настройки ярлыков для конкретной страницы</xs:documentation>
+    </xs:annotation>
+    <xs:all>
+      <xs:element name="AddShortcuts" maxOccurs="1" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Дополнительные ярлыки для страницы
+          </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="AddShortcut" minOccurs="1" maxOccurs="unbounded" type="ShortcutRef"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DenyShortcuts" maxOccurs="1" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Запрещенные ярлыки для страницы
+            Не будут отображаться
+          </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="DenyShortcut" minOccurs="1" maxOccurs="unbounded" type="ShortcutRef"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="URL" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>Web-адрес страницы относительно корня сайта, начинается с "~/"</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="ShortcutCategory">
+    <xs:annotation>
+      <xs:documentation>Категория ярлыков навигации</xs:documentation>
+    </xs:annotation>
+    <xs:all>
+      <xs:element name="CreateShortcuts" maxOccurs="1" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Ярлыки ведущие к созданию какого-либо объекта</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="CreateShortcut" minOccurs="1" maxOccurs="5" type="ShortcutRef"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+
+      <xs:element name="StuffShortcuts" maxOccurs="1" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Ярлыки для ведущии к каким либо вещам пользователя
+          </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="StuffShort" minOccurs="1" maxOccurs="5" type="ShortcutRef"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+
+      <xs:element name="NavigationShortcuts" maxOccurs="1" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Ярлыки для навигации внутри подкатегории модуля, могут сочетаться с другими
+          </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="NavigationShortcut" minOccurs="1" maxOccurs="unbounded" type="ShortcutRef"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+
+      <xs:element name="PageConfigurations" maxOccurs="1" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Настройки для страниц</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="PageShortcutConfig" minOccurs="1" maxOccurs="unbounded" type="PageShortcutConfig" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+
+    </xs:all>
+    <xs:attribute name="ID" type="Guid" use="required">
+      <xs:annotation>
+        <xs:documentation>Уникальный идентификатор категории ярлыков - Guid</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="StartURL" type="xs:string" use="required" >
+      <xs:annotation>
+        <xs:documentation>Web-адрес стартовой страницы относительно корня сайта, начинается с "~/"</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="NameResourceKey" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>Ключ для название из файла с ресурсами</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="DescriptionResourceKey" type="xs:string" use="optional">
+      <xs:annotation>
+        <xs:documentation>Ключ для описания из файла с ресурсами</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="ResourceClassTypeName" use="optional" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>
+          Имя типа класса ресурсов, из которого будут браться ключи
+          Если отсутствует, то ключи будут браться из ресурсов модуля
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+  </xs:complexType>
+
+  <xs:complexType name="Widget">
+    <xs:annotation>
+      <xs:documentation>Информация о виджете</xs:documentation>
+    </xs:annotation>
+
+    <xs:attribute name="ID" use="required" type="Guid">
+      <xs:annotation>
+        <xs:documentation>Уникальный идентификатор виджета - Guid</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="FullTypeName" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>Полное имя типа веб-контрола (вместе с namespace). Тип должен быть наследником WebControl</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="SettingsProviderFullTypeName" type="xs:string" use="optional">
+      <xs:annotation>
+        <xs:documentation>Полное имя типа типа который реализует интерфейс IWidgetSettingsProvider из сборки ASC.Web.Studio</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="NameResourceKey" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>Ключ для название виджета из файла с ресурсами</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="DescriptionResourceKey" type="xs:string" use="optional">
+      <xs:annotation>
+        <xs:documentation>Ключ для описания виджета из файла с ресурсами</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="ResourceClassTypeName" use="optional" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>
+          Имя типа класса ресурсов, из которого будут браться ключи
+          Если отсутствует, то ключи будут браться из ресурсов модуля
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="ImageFileName" type="xs:string" use="optional">
+      <xs:annotation>
+        <xs:documentation>Имя файла картинки для виджета, если пустое, то виджет будет без картики или с картинкой модуля</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="WidgetVirtualURL" type="xs:string" use="optional">
+      <xs:annotation>
+        <xs:documentation>Вирутуальный URL на который будет вести ссылка с названием виджета</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+
+  </xs:complexType>
+
+  <xs:element name="Module">
+    <xs:annotation>
+      <xs:documentation>Тег-контейнер для описания модуля</xs:documentation>
+      <xs:appinfo>Тег-контейнер для описания модуля</xs:appinfo>
+    </xs:annotation>
+
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="Shortcuts" maxOccurs="1" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>Коллекция ярлыков</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Shortcut" minOccurs="1" maxOccurs="unbounded" type="Shortcut"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="MainShortcutCategory" maxOccurs="1" minOccurs="1" type="ShortcutCategory">
+          <xs:annotation>
+            <xs:documentation>Главная категория ярлыков навигации</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+
+        <xs:element name="ShortcutCategories" maxOccurs="1" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>Коллекция категорий ярлыков для модуля</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ShortcutCategory" minOccurs="1" maxOccurs="unbounded" type="ShortcutCategory"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="UserProfileShortcut" minOccurs="0" maxOccurs="1" type="ShortcutRef">
+          <xs:annotation>
+            <xs:documentation>Ярлык для перехода на профиль пользователя в текуще модуле</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+
+        <xs:element name="MainWidget" maxOccurs="1" minOccurs="0" type="Widget"/>
+
+        <xs:element name="WidgetCollection" maxOccurs="1" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>Коллекция виджетов дополнения</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Widget" minOccurs="1" maxOccurs="unbounded" type="Widget"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="UserActivityPublisherTypes" maxOccurs="1" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>Коллекция типов пользовательской активности</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserActivityPublisherFullTypeName" minOccurs="1" maxOccurs="unbounded" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+      </xs:all>
+
+      <xs:attribute name="ID" type="Guid" use="required">
+        <xs:annotation>
+          <xs:documentation>Уникальный идентификатор модуля - Guid</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="Category" type="ModuleCategory" use="optional" default="Community">
+        <xs:annotation>
+          <xs:documentation>Категория которой принадлежит модуль</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="NameResourceKey" use="required" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Название модуля - ключ из ресурсов</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="DescriptionResourceKey" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>Описание модуля - ключ из ресурсов</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="SmallIconFileName"  use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Маленькая иконка для модуля желательно 16x16px</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="IconFileName" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Иконка для модуля</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="AssemblyName" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Название сборки с web-интерфейсом модуля
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="ResourceClassTypeName" use="required" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Имя типа класса ресурсов, из которого будут браться ключи
+            Если отсутствует, то ключи будут браться из ресурсов модуля
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="ThemesFolderVirtualPath" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Виртуальный путь к папке с темами
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="ImageFolder" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Название папки с картинками модуля
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="GlobalHandlerFullTypeName" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Полное имя типа для обработки глобальных событий (вместе с namespace).
+            Тип должен реализовывать интерфейс  ASC.Web.Core.IGlobalHandler
+            И иметь конструктор без параметров
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="ShortcutProviderFullTypeName" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Полное имя типа для получения дополнительной информации о ярлыках (права доступа, динамический адрес)
+            Тип должен реализовывать интерфейс  ASC.Web.Core.ModuleManagement.Common.IShortcutProvider
+            И иметь конструктор без параметров
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="SearchHandlerFullTypeName" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Полное имя типа для поиска по модулю
+            Тип должен реализовывать интерфейс  ASC.Web.Core.ModuleManagement.Common.ISearchHandler
+            И иметь конструктор без параметров
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="SubscriptionManagerFullTypeName" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Полное имя типа для управления подписками
+            Тип должен реализовывать интерфейс  ASC.Web.Core.ModuleManagement.Common.ISubscriptionManager
+            И иметь конструктор без параметров
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="UserActivityPublisherFullTypeName" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Полное имя типа для управления подписками
+            Тип должен реализовывать интерфейс  ASC.Web.Core.ModuleManagement.Common.IUserActivityPublisher
+            И иметь конструктор без параметров
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="StatisticProviderFullTypeName" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Полное имя типа для получение статистики от модуля
+            Тип должен реализовывать интерфейс  ASC.Web.Core.ModuleManagement.Common.IStatisticPublisher
+            И иметь конструктор без параметров
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="AuthCategoriesProviderFullTypeName" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Полное имя типа для получения категорий авторизаций от модуля.
+            Тип должен реализовывать интерфейс  ASC.Web.Core.ModuleManagement.Common.IAuthCategoriesProvider и иметь конструктор без параметров
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="HtmlInjectionProviderFullTypeName" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Полное имя типа для получения поставщика html вставок.
+            Тип должен реализовывать интерфейс  ASC.Web.Core.IHtmlInjectionProvider и иметь конструктор без параметров
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      
+      <xs:attribute name="SortOrder" use="optional" type="xs:int" default="0">
+        <xs:annotation>
+          <xs:documentation>
+            Порядок сортировки модуля в общем списке
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

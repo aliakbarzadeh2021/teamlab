@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accept">
+    <value>Aceitar</value>
+  </data>
+  <data name="ActiveTaskCheckBoxTooltip">
+    <value>Click here to close the task</value>
+  </data>
+  <data name="AddNewTask">
+    <value>Adicionar nova tarefa</value>
+  </data>
+  <data name="AddTask">
+    <value>Adicionar tarefa</value>
+  </data>
+  <data name="AddThisTask">
+    <value>Adicionar esta tarefa</value>
+  </data>
+  <data name="AddToDo">
+    <value>Add ToDo</value>
+  </data>
+  <data name="All">
+    <value>All</value>
+  </data>
+  <data name="AllActiveTasks">
+    <value>Todas as tarefas ativas</value>
+  </data>
+  <data name="AllTasks">
+    <value>Todas Tarefas</value>
+  </data>
+  <data name="AssociateToMilestone">
+    <value>Associar esta metas</value>
+  </data>
+  <data name="BrowseClosed">
+    <value>Show closed To-Do</value>
+  </data>
+  <data name="ChangeStatus">
+    <value>Mudar Estatus</value>
+  </data>
+  <data name="ClosedTaskCheckBoxTooltip">
+    <value>Click here to resume the task</value>
+  </data>
+  <data name="CompleteTask">
+    <value>Tarefas completadas</value>
+  </data>
+  <data name="CreatingDate">
+    <value>Data de Criação</value>
+  </data>
+  <data name="DaysLeft">
+    <value>days left</value>
+  </data>
+  <data name="DeadLine">
+    <value>Due date</value>
+  </data>
+  <data name="EmptyScreenAllActiveTasksHeaderContent">
+    <value>Sem tarefas ativas no projeto</value>
+  </data>
+  <data name="EmptyScreenAllTasksHeaderContent">
+    <value>Sem tarefas no projeto</value>
+  </data>
+  <data name="EmptyScreenByUserActiveTasksHeaderContent">
+    <value>Sem tarefas ativas para «{0}»</value>
+  </data>
+  <data name="EmptyScreenByUserTasksHeaderContent">
+    <value>Sem tarefas associadas a «{0}»</value>
+  </data>
+  <data name="EmptyScreenHeaderContent">
+    <value>Adicionar primeira tarefa a este projeto</value>
+  </data>
+  <data name="EmptyScreenHeaderDescribe">
+    <value>Adicionar tarefas, obte-los feito, indicar quem é responsavel, gerente de equipe de trabalho.</value>
+  </data>
+  <data name="EmptyScreenMyActiveTasksHeaderContent">
+    <value>Não há tarefas ativas associadas a você</value>
+  </data>
+  <data name="EmptyScreenMyTasksHeaderContent">
+    <value>Não há tarefas associadas a você</value>
+  </data>
+  <data name="EmptyScreenTaskTemplate">
+    <value>Add the first task to this project template</value>
+  </data>
+  <data name="EmptyScreenTaskTemplateDescription">
+    <value>Add tasks, assign them to milestones, set who's responsible.</value>
+  </data>
+  <data name="ExampleToDo">
+    <value>Example: Meet John Doe today from 3:00 PM to 4:00 PM</value>
+  </data>
+  <data name="ExecuteGroupOperation">
+    <value>Executar uma operação do equipe</value>
+  </data>
+  <data name="ExecutingGroupOperation">
+    <value>Executando uma operação do equipe...</value>
+  </data>
+  <data name="FilesToTheTask">
+    <value>Files to the task</value>
+  </data>
+  <data name="Future">
+    <value>Future</value>
+  </data>
+  <data name="GroupTaskConfirm">
+    <value>Tem certeza que deseja executar uma operação do equipe?</value>
+  </data>
+  <data name="HideClosedTasks">
+    <value>Esconder Fechar Tarefas</value>
+  </data>
+  <data name="HighPriority_Title">
+    <value>Alta prioridade</value>
+  </data>
+  <data name="LowPriority_Title">
+    <value>Baixa prioridade</value>
+  </data>
+  <data name="MarkedAS">
+    <value>Indicado como</value>
+  </data>
+  <data name="MarkingAsNB">
+    <value>Marcar como &lt;strong&gt;NB&lt;/strong&gt;</value>
+  </data>
+  <data name="MoveTaskToAnotherMilestone">
+    <value>Move task to another Milestone</value>
+  </data>
+  <data name="MoveToMilestone">
+    <value>Mover para metas</value>
+  </data>
+  <data name="MyNewTasks">
+    <value>Minhas Novas Tarefas</value>
+  </data>
+  <data name="MyTasks">
+    <value>Minhas Tarefas</value>
+  </data>
+  <data name="NB">
+    <value>NB</value>
+  </data>
+  <data name="None">
+    <value>none</value>
+  </data>
+  <data name="NotifyManagerAboutTaskCreate">
+    <value>The project manager and the responsible party have been sent a notification about creating the «{0}» task.</value>
+  </data>
+  <data name="NotifyResponsibleInfo">
+    <value>O responsável receberá uma notificação por e-mail</value>
+  </data>
+  <data name="NotifyTaskResponsible">
+    <value>{0} will get a reminder about the task «{1}»</value>
+  </data>
+  <data name="OneList">
+    <value>lista única</value>
+  </data>
+  <data name="PersonalToDo">
+    <value>Personal To-Do list</value>
+  </data>
+  <data name="Priority">
+    <value>Prioridade</value>
+  </data>
+  <data name="ProjectsMilestones">
+    <value>Projetos / Metas</value>
+  </data>
+  <data name="Remind">
+    <value>Remind the responsible person about the task</value>
+  </data>
+  <data name="SavingTask">
+    <value>Salvando tarefa...</value>
+  </data>
+  <data name="ShowClosedTasks">
+    <value>Mostrar Fechar Tarefas</value>
+  </data>
+  <data name="ShowMore">
+    <value>Show more</value>
+  </data>
+  <data name="ShowTasksWithoutResponsible">
+    <value>Show tasks without responsible</value>
+  </data>
+  <data name="Start">
+    <value>Começar</value>
+  </data>
+  <data name="SwitchToTaskList">
+    <value>Switch to Project Tasks</value>
+  </data>
+  <data name="SwitchToToDoList">
+    <value>Switch to Personal To-Do</value>
+  </data>
+  <data name="Task">
+    <value>Tarefa</value>
+  </data>
+  <data name="TaskClosed">
+    <value>Completo</value>
+  </data>
+  <data name="TaskDeadlineLateInfo">
+    <value>Delayed since</value>
+  </data>
+  <data name="TaskDescription">
+    <value>Descrição deTarefas</value>
+  </data>
+  <data name="TaskList">
+    <value>Tarefas Listadas</value>
+  </data>
+  <data name="TaskNotFound_Body">
+    <value>TarefaNãoEncontrada_Corpo</value>
+  </data>
+  <data name="TaskNotFound_Header">
+    <value>TarefaNãoEncontrada_Cabeça</value>
+  </data>
+  <data name="TaskNotFound_RedirectTitle">
+    <value>TarefaNãoEncontrada_Redirecionar Titulo</value>
+  </data>
+  <data name="TaskOpen">
+    <value>Começar Tarefas</value>
+  </data>
+  <data name="TaskProducer">
+    <value>Criado por</value>
+  </data>
+  <data name="TaskReopen">
+    <value>Retomar</value>
+  </data>
+  <data name="TaskResponsible">
+    <value>Responsável</value>
+  </data>
+  <data name="Tasks">
+    <value>Tarefas</value>
+  </data>
+  <data name="TasksByParticipant">
+    <value>Tarefas por membros da equipe</value>
+  </data>
+  <data name="TasksByParticipantHeader">
+    <value>Tarefas associadas a «{0}»</value>
+  </data>
+  <data name="TaskStopExecute">
+    <value>Suspender</value>
+  </data>
+  <data name="TaskTitle">
+    <value>Titulo de tarefa</value>
+  </data>
+  <data name="ThisDay">
+    <value>This Day</value>
+  </data>
+  <data name="TitleClosedByPanel">
+    <value>Closed by {0} {1}</value>
+  </data>
+  <data name="Tommorow">
+    <value>Tommorow</value>
+  </data>
+  <data name="UnsortedTask">
+    <value>Tarefas aleatorias</value>
+  </data>
+  <data name="WhatDoYouWant">
+    <value>What do you want to do?</value>
+  </data>
+  <data name="WillBeMovedToMilestone">
+    <value>Will be moved to milestone</value>
+  </data>
+  <data name="WithoutResponsible">
+    <value>Sem Responsável</value>
+  </data>
+</root>

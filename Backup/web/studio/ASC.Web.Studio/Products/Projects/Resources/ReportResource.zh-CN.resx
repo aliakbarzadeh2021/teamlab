@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions">
+    <value>操作</value>
+  </data>
+  <data name="ActiveTasks">
+    <value>正在进行的任务</value>
+  </data>
+  <data name="ActiveTaskStatus">
+    <value>进行中</value>
+  </data>
+  <data name="AdditionalOptions">
+    <value>其他选项</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>所有项目团队</value>
+  </data>
+  <data name="Any">
+    <value>任何</value>
+  </data>
+  <data name="AnyType">
+    <value>任何类型</value>
+  </data>
+  <data name="AutogenReports">
+    <value>自动生成报告</value>
+  </data>
+  <data name="AutomaticallyGenerate">
+    <value>自动生成这样的报告</value>
+  </data>
+  <data name="BuildingReport">
+    <value>正在创建报告...</value>
+  </data>
+  <data name="Category">
+    <value>分类</value>
+  </data>
+  <data name="ChangeFilterData">
+    <value>修改报告过滤设置</value>
+  </data>
+  <data name="ChangeSettings">
+    <value>更改报告设置</value>
+  </data>
+  <data name="ChooseDate">
+    <value>选择日期</value>
+  </data>
+  <data name="ChooseReportType">
+    <value>选择报告类型</value>
+  </data>
+  <data name="ChooseTemplate">
+    <value>选择模板</value>
+  </data>
+  <data name="ChooseTimeInterval">
+    <value>时间周期</value>
+  </data>
+  <data name="ClearAllTemplates">
+    <value>清除所有模板</value>
+  </data>
+  <data name="ClearReportHistory">
+    <value>清除报告历史记录</value>
+  </data>
+  <data name="ClickToSortByThisColumn">
+    <value>点击此列进行排序</value>
+  </data>
+  <data name="ClosedTaskStatus">
+    <value>关闭</value>
+  </data>
+  <data name="CreateNewReport">
+    <value>创建新的报告</value>
+  </data>
+  <data name="CrteateTemplate">
+    <value>创建模板</value>
+  </data>
+  <data name="CsvColumnMilestoneDeadline">
+    <value>里程碑截止日期</value>
+  </data>
+  <data name="CsvColumnMilestoneStatus">
+    <value>里程碑状态</value>
+  </data>
+  <data name="CsvColumnMilestoneTitle">
+    <value>里程碑标题</value>
+  </data>
+  <data name="CsvColumnProjectjTitle">
+    <value>项目名称</value>
+  </data>
+  <data name="CsvColumnTaskDueDate">
+    <value>任务截止日期</value>
+  </data>
+  <data name="CsvColumnTaskStatus">
+    <value>任务状态</value>
+  </data>
+  <data name="CsvColumnTaskTitle">
+    <value>任务标题</value>
+  </data>
+  <data name="CsvColumnUserName">
+    <value>用户名</value>
+  </data>
+  <data name="DeadLine">
+    <value>截止日期</value>
+  </data>
+  <data name="DeleteAllTemplates">
+    <value>删除所有模板</value>
+  </data>
+  <data name="Department">
+    <value>{!Group}</value>
+  </data>
+  <data name="Edit">
+    <value>编辑</value>
+  </data>
+  <data name="EditTemplate">
+    <value>编辑模板</value>
+  </data>
+  <data name="Empty">
+    <value>未找到模板</value>
+  </data>
+  <data name="EmptyTemplateTitle">
+    <value>您需要为模板指定一个名称</value>
+  </data>
+  <data name="EveryDay">
+    <value>每天</value>
+  </data>
+  <data name="EveryMonth">
+    <value>每个月</value>
+  </data>
+  <data name="EveryWeek">
+    <value>每周</value>
+  </data>
+  <data name="EveryYear">
+    <value>每年</value>
+  </data>
+  <data name="ExportToCSV">
+    <value>导出为CSV</value>
+  </data>
+  <data name="ExportToHTML">
+    <value>导出为HTML</value>
+  </data>
+  <data name="ExportToXML">
+    <value>导出为XML</value>
+  </data>
+  <data name="Filter">
+    <value>过滤器</value>
+  </data>
+  <data name="Generate">
+    <value>生成</value>
+  </data>
+  <data name="GenerateFromTemplate">
+    <value>从模板生成</value>
+  </data>
+  <data name="GenerateReport">
+    <value>生成报告</value>
+  </data>
+  <data name="GenerationDate">
+    <value>生成日期</value>
+  </data>
+  <data name="LastMonth">
+    <value>上个月</value>
+  </data>
+  <data name="LastWeek">
+    <value>上星期</value>
+  </data>
+  <data name="LastYear">
+    <value>去年</value>
+  </data>
+  <data name="MainReportPage">
+    <value>报告首页</value>
+  </data>
+  <data name="MilestonesStatus">
+    <value>里程碑状态</value>
+  </data>
+  <data name="MyTemplates">
+    <value>我的模板</value>
+  </data>
+  <data name="NoMilestonesAndTasks">
+    <value>这个项目未包含里程碑和任务</value>
+  </data>
+  <data name="Notification">
+    <value>通知</value>
+  </data>
+  <data name="Other">
+    <value>其他</value>
+  </data>
+  <data name="Participiants">
+    <value>成员</value>
+  </data>
+  <data name="PeriodOfGeneration">
+    <value>生成时间</value>
+  </data>
+  <data name="PrintReport">
+    <value>打印报告</value>
+  </data>
+  <data name="Project">
+    <value>项目</value>
+  </data>
+  <data name="ProjectsStatus">
+    <value>项目状态</value>
+  </data>
+  <data name="ReportClosedTasks">
+    <value>关闭任务报告</value>
+  </data>
+  <data name="ReportCompletedTasks_Title">
+    <value>已完成的任务</value>
+  </data>
+  <data name="ReportDetailed_Title">
+    <value>详细报告</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Title">
+    <value>没有工作任务的{!Users}</value>
+  </data>
+  <data name="ReportEmployment_Title">
+    <value>工作量</value>
+  </data>
+  <data name="ReportHistory">
+    <value>报表历史记录</value>
+  </data>
+  <data name="ReportLateMilestones_Title">
+    <value>逾期的里程碑</value>
+  </data>
+  <data name="ReportLateTasks_Title">
+    <value>逾期的任务</value>
+  </data>
+  <data name="ReportMilestoneList_Title">
+    <value>里程碑列表</value>
+  </data>
+  <data name="ReportName">
+    <value>报告名称</value>
+  </data>
+  <data name="ReportOpenTasks">
+    <value>打开任务报告</value>
+  </data>
+  <data name="ReportPageTitle">
+    <value>报告 «{0}»</value>
+  </data>
+  <data name="ReportProblemTracking_Title">
+    <value>问题跟踪报告</value>
+  </data>
+  <data name="ReportProjectList_Title">
+    <value>项目列表</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Title">
+    <value>未包含正在进行中的里程碑的项目</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Title">
+    <value>未包含正在进行中的任务的项目</value>
+  </data>
+  <data name="Reports">
+    <value>报告</value>
+  </data>
+  <data name="ReportStatistics_Title">
+    <value>统计报告</value>
+  </data>
+  <data name="ReportTaskList_Title">
+    <value>项目任务</value>
+  </data>
+  <data name="ReportTimeSpend_Description">
+    <value>{0}{2}时间跟踪报告是一个列表 of tasks that indicates 用户实际花费的工作时间 on their accomplishment basing on a time tracking register.{3}{2}这个报告允许你通过当前任务实际花费时间跟踪任务进度 .{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpend_InfoLine">
+    <value>报告生成: {0} {1} 为周期 {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpend_Title">
+    <value>花费的时间</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Title">
+    <value>时间跟踪报告</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Title">
+    <value>即将开始的里程碑</value>
+  </data>
+  <data name="ReportUserActivity_Title">
+    <value>用户活动</value>
+  </data>
+  <data name="ReportUserTasks_Title">
+    <value>用户任务</value>
+  </data>
+  <data name="SaveAsTemplate">
+    <value>另存为模板</value>
+  </data>
+  <data name="ShowTasks">
+    <value>显示任务</value>
+  </data>
+  <data name="ShowUserTasksReport">
+    <value>显示用户任务报告</value>
+  </data>
+  <data name="TaskDone">
+    <value>完成的任务</value>
+  </data>
+  <data name="TaskReport">
+    <value>任务报告</value>
+  </data>
+  <data name="TasksDone">
+    <value>已完成的任务</value>
+  </data>
+  <data name="TasksStatus">
+    <value>任务状态</value>
+  </data>
+  <data name="TasksWorkingOn">
+    <value>正在进行的任务</value>
+  </data>
+  <data name="TemplateAndAutogen">
+    <value>模板和自动生成</value>
+  </data>
+  <data name="TemplateName">
+    <value>模板名称</value>
+  </data>
+  <data name="TemplateNotFound_Header">
+    <value>模板不存在</value>
+  </data>
+  <data name="TemplateNotFound_RedirectTitle">
+    <value>转到模板列表</value>
+  </data>
+  <data name="Templates">
+    <value>模板</value>
+  </data>
+  <data name="TemplateTitle">
+    <value>模板标题</value>
+  </data>
+  <data name="ThisMonth">
+    <value>这个月</value>
+  </data>
+  <data name="ThisWeek">
+    <value>这星期</value>
+  </data>
+  <data name="ThisYear">
+    <value>今年</value>
+  </data>
+  <data name="Today">
+    <value>今天</value>
+  </data>
+  <data name="User">
+    <value>用户</value>
+  </data>
+  <data name="UseTemplate">
+    <value>使用模板</value>
+  </data>
+  <data name="ViewByDepartments">
+    <value>按{!group}查看</value>
+  </data>
+  <data name="ViewByParticipant">
+    <value>按参与者查看</value>
+  </data>
+  <data name="ViewByProjects">
+    <value>按项目查看</value>
+  </data>
+  <data name="ViewByUsers">
+    <value>按用户查看</value>
+  </data>
+  <data name="ViewByUserTasks">
+    <value>按用户任务查看</value>
+  </data>
+  <data name="ViewClosedMilestones">
+    <value>显示关闭的里程碑</value>
+  </data>
+  <data name="ViewClosedProjects">
+    <value>显示已结束的项目</value>
+  </data>
+  <data name="ViewInfo">
+    <value>显示报告信息</value>
+  </data>
+  <data name="ViewOnlyMyProjecs">
+    <value>只显示我的项目</value>
+  </data>
+  <data name="Week">
+    <value>周</value>
+  </data>
+  <data name="Weeks">
+    <value>周</value>
+  </data>
+  <data name="Yesterday">
+    <value>昨天</value>
+  </data>
+</root>

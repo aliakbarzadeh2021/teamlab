@@ -1,0 +1,81 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\ASC.Forum.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\ASC.Forum.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\de\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\es\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\fr\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\it\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\lv\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\pt-BR\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\ru\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\ASC.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\ASC.Core.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\log4net.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\log4net.xml
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\de\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\es\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\fr\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\it\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\lv\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\pt-BR\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ru\ASC.Forum.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\ASC.Forum.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\ASC.Forum.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\de\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\es\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\fr\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\it\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\lv\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\pt-BR\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\ru\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\ASC.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\ASC.Core.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\log4net.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\bin\Debug\log4net.xml
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.ForumPatternResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.Module.Patterns.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\de\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\es\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\fr\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\it\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\lv\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\pt-BR\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ru\ASC.Forum.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\Forum\ASC.Forum\obj\Debug\ASC.Forum.pdb

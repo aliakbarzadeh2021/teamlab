@@ -1,0 +1,1971 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountControlPageTitle">
+    <value>Подтверждение</value>
+  </data>
+  <data name="AccountDeactivation">
+    <value>Деактивация учетной записи</value>
+  </data>
+  <data name="AccountDeactivationMsg">
+    <value>Ссылка для подтверждения операции была отправлена на :email (адрес электронной почты владельца портала).</value>
+  </data>
+  <data name="AccountDeletion">
+    <value>Удаление учетной записи</value>
+  </data>
+  <data name="AccountDeletionMsg">
+    <value>Ссылка для подтверждения операции была отправлена на :email (адрес электронной почты владельца портала).</value>
+  </data>
+  <data name="Action">
+    <value>Действие</value>
+  </data>
+  <data name="Actions">
+    <value>Действия</value>
+  </data>
+  <data name="ActiveDirectory">
+    <value>Active Directory</value>
+  </data>
+  <data name="ActiveDirectoryImportDescription">
+    <value>Импорт пользователей из домена</value>
+  </data>
+  <data name="ActiveDirectoryImportName">
+    <value>Импорт пользователей из Active Directory</value>
+  </data>
+  <data name="ActiveDirectoryImportStepDescription">
+    <value>Импортируйте Ваших коллег из Active Directory, используя Ваше доменное имя и доменный пароль. Для успешного выполнения операции у Вас должны быть права на политику безопасности "log on locally". Нажмите кнопку "Далее", чтобы начать импорт.</value>
+  </data>
+  <data name="ActiveEmployeesTitle">
+    <value>Активные  {!users}</value>
+  </data>
+  <data name="AddButton">
+    <value>Добавить</value>
+  </data>
+  <data name="AddContentTitle">
+    <value>Добавить контент</value>
+  </data>
+  <data name="AddCurrentPage">
+    <value>Добавить текущую страницу</value>
+  </data>
+  <data name="AddDepartmentDlgTitle">
+    <value>Новый {!group}</value>
+  </data>
+  <data name="AddEmailButton">
+    <value>Добавить e-mail</value>
+  </data>
+  <data name="AddEmployeesButton">
+    <value>Импортировать контакты</value>
+  </data>
+  <data name="AddNewCommentButton">
+    <value>Добавить комментарий</value>
+  </data>
+  <data name="AddQuickLink">
+    <value>Добавить быструю ссылку</value>
+  </data>
+  <data name="AddTo">
+    <value>Добавить в</value>
+  </data>
+  <data name="AddTrustedDomainButton">
+    <value>Добавить доверенный домен</value>
+  </data>
+  <data name="Administration">
+    <value>Настройки</value>
+  </data>
+  <data name="AdministrationDescription">
+    <value>Настройка администраторов и SMTP настройки</value>
+  </data>
+  <data name="AdministratorNotifySenderTypeName">
+    <value>Извещения администраторов</value>
+  </data>
+  <data name="Admins">
+    <value>Администраторы</value>
+  </data>
+  <data name="AdminSelectorTitle">
+    <value>Выбор администраторов</value>
+  </data>
+  <data name="AdminSettings">
+    <value>Администраторы</value>
+  </data>
+  <data name="ADUserListTitle">
+    <value>Список новых пользователей из Active Directory</value>
+  </data>
+  <data name="AdvancedFilesUploadFeature">
+    <value>Улучшенная загрузка файлов</value>
+  </data>
+  <data name="AdvancedFilesUploadFeatureDesc">
+    <value>Пользуйтесь ускоренной загрузкой с увеличением максимального размера файла до 100 Мб.</value>
+  </data>
+  <data name="AfterRegistryMessagePopupText">
+    <value>На Ваш e-mail было отправлено письмо с регистрационными данными. Вы можете изменить пароль, назначенный по умолчанию, нажав на ссылку Сменить пароль, расположенную на главной панели.</value>
+  </data>
+  <data name="AfterRegistryMessagePopupTitle">
+    <value>Ваш портал успешно создан</value>
+  </data>
+  <data name="AllEmployees">
+    <value>Все {!users}</value>
+  </data>
+  <data name="AllMailDomains">
+    <value>Любые домены</value>
+  </data>
+  <data name="AllMailDomainsDescription">
+    <value>Вход со всех почтовых доменов</value>
+  </data>
+  <data name="AllUsersSynchronised">
+    <value>Все пользователи синхронизированы</value>
+  </data>
+  <data name="AlreadyExistingUsersCountLabel">
+    <value>Пользователей из оригинального списка контактов уже добавлено: {0}</value>
+  </data>
+  <data name="AnswerButton">
+    <value>Ответить</value>
+  </data>
+  <data name="AnswerMessage">
+    <value>Ответить</value>
+  </data>
+  <data name="AssociateAccount">
+    <value>Социальные сети</value>
+  </data>
+  <data name="AssociateAccountConnect">
+    <value>Подключить</value>
+  </data>
+  <data name="AssociateAccountConnected">
+    <value>Подключен</value>
+  </data>
+  <data name="AssociateAccountDisconnect">
+    <value>Отключить</value>
+  </data>
+  <data name="AssociateAccountHint">
+    <value>*Вы можете использовать аккаунты этих социальных сетей для альтернативного входа</value>
+  </data>
+  <data name="AssociateAccountNotConnected">
+    <value>Не подключен</value>
+  </data>
+  <data name="AtTime">
+    <value>в</value>
+  </data>
+  <data name="Authorization">
+    <value>Авторизация</value>
+  </data>
+  <data name="AuthPageWelcomeHeader">
+    <value>Добро пожаловать!</value>
+  </data>
+  <data name="BackButton">
+    <value>&amp;#8592;  Назад</value>
+  </data>
+  <data name="BackToHomeLink">
+    <value>Перейти на главную страницу</value>
+  </data>
+  <data name="Backup">
+    <value>Резервная копия/Деактивация</value>
+  </data>
+  <data name="BackupDesc">
+    <value>Используйте эту опцию, если Вы хотите получить все данные, содержащиеся в портале, на локальный диск.{0}Важно! Резервные файлы не могут быть импортированы обратно в портал.</value>
+  </data>
+  <data name="BackupError">
+    <value>Ошибка при создании резервной копии. Попробуйте повторить позже.</value>
+  </data>
+  <data name="BackupReadyText">
+    <value>{0}Вы можете загрузить резервную копию на локальный диск, используя ссылку ниже.
+                                        Ссылка будет действительна в течение 24 часов после запроса.{1}
+                                        Сообщение со ссылкой и инструкциями было отправлено на Ваш e-mail.
+                                    {2}</value>
+  </data>
+  <data name="Birthdate">
+    <value>Дата рождения</value>
+  </data>
+  <data name="BtnAddNewContact">
+    <value>Добавить новый контакт</value>
+  </data>
+  <data name="CancelButton">
+    <value>Отмена</value>
+  </data>
+  <data name="CancelConfirmMessage">
+    <value>Все введенные данные будут потеряны. Вы уверены, что хотите продолжить?</value>
+  </data>
+  <data name="CEO">
+    <value>{!CEO}</value>
+  </data>
+  <data name="CeoNameEditCaption">
+    <value>Редактирование</value>
+  </data>
+  <data name="ChangeButton">
+    <value>Изменить</value>
+  </data>
+  <data name="ChangeLogoButton">
+    <value>Сменить логотип</value>
+  </data>
+  <data name="ChangeOwnerDescription">
+    <value>Будет выполнено после подтверждения по email</value>
+  </data>
+  <data name="ChangeOwnerTitle">
+    <value>Изменить на:</value>
+  </data>
+  <data name="ChangePortalOwnerMsg">
+    <value>Ссылка для подтверждения операции была отправлена на :email (адрес электронной почты владельца портала).</value>
+  </data>
+  <data name="ChangePwd">
+    <value>Сменить пароль</value>
+  </data>
+  <data name="ChangeSelfPwd">
+    <value>Сменить мой пароль</value>
+  </data>
+  <data name="ChartDateFormat">
+    <value>%d %b</value>
+  </data>
+  <data name="ChartMonthNames">
+    <value>Янв, Фев, Мар, Апр, Май, Июнь, Июль, Авг, Сен, Окт, Ноя, Дек</value>
+  </data>
+  <data name="ClearButton">
+    <value>Очистить</value>
+  </data>
+  <data name="CloseButton">
+    <value>Закрыть</value>
+  </data>
+  <data name="ComfirmImportName">
+    <value>Проверьте правильность импортируемых данных</value>
+  </data>
+  <data name="ComfirmImportStepDescription">
+    <value>Проверьте правильность импортируемых данных. Снимите выделение с пользователей, которые не должны быть импортированы. Убедитесь, что все поля (Имя, Фамилия, адрес почты) заполнены для каждого пользователя, иначе пользователь не будет импортирован. Если адреса почты пользователей совпадают, то будет импортирован только первый. Чтобы завершить процесс, нажмите кнопку "Импорт".</value>
+  </data>
+  <data name="CommentRemovedMessage">
+    <value>комментарий удалён</value>
+  </data>
+  <data name="Comments">
+    <value>Комментарии</value>
+  </data>
+  <data name="CommentSendingMessage">
+    <value>отправка комментария...</value>
+  </data>
+  <data name="CommentWasRemoved">
+    <value>комментарий удалён</value>
+  </data>
+  <data name="ConfirmDeactivatePortalTitle">
+    <value>Пожалуйста, подтвердите приостановление работы Вашей учетной записи</value>
+  </data>
+  <data name="ConfirmDeleteMessage">
+    <value>Вы действительно хотите удалить сообщение?</value>
+  </data>
+  <data name="ConfirmDeleteMessages">
+    <value>Вы действительно хотите удалить отмеченные сообщения?</value>
+  </data>
+  <data name="ConfirmDeletePortalTitle">
+    <value>Пожалуйста, подтвердите удаление Вашей учетной записи</value>
+  </data>
+  <data name="ConfirmDnsUpdateTitle">
+    <value>Вы уверены, что хотите сменить адрес портала на {0}?</value>
+  </data>
+  <data name="ConfirmEmpInviteTitle">
+    <value>Чтобы присоединиться, пожалуйста, заполните поля ниже.</value>
+  </data>
+  <data name="ConfirmMessage">
+    <value>Хотите продолжить?</value>
+  </data>
+  <data name="ConfirmMoveMessage">
+    <value>Вы действительно хотите переместить выбранные сообщения?</value>
+  </data>
+  <data name="ConfirmOwnerPortalSuccessMessage">
+    <value>Владелец портала успешно изменен. {0}Через 10 секунд Вы будете перенаправлены {1}сюда{2}</value>
+  </data>
+  <data name="ConfirmOwnerPortalTitle">
+    <value>Пожалуйста, подтвердите, что Вы хотите изменить владельца портала на {0}</value>
+  </data>
+  <data name="ConfirmReactivatePortalTitle">
+    <value>Пожалуйста, подтвердите возобновление работы Вашей учетной записи</value>
+  </data>
+  <data name="ConfirmRemoveCommentMessage">
+    <value>Вы действительно хотите удалить комментарий?</value>
+  </data>
+  <data name="Contacts">
+    <value>Контакты</value>
+  </data>
+  <data name="ContactUs">
+    <value>Обратная связь</value>
+  </data>
+  <data name="ContinueButton">
+    <value>Продолжить</value>
+  </data>
+  <data name="CorporateSMTP">
+    <value>Корпоративная почта</value>
+  </data>
+  <data name="CreateButton">
+    <value>Создать</value>
+  </data>
+  <data name="CreatedDate">
+    <value>Дата создания</value>
+  </data>
+  <data name="CreatingBackup">
+    <value>создание резервной копии</value>
+  </data>
+  <data name="Creator">
+    <value>Создатель</value>
+  </data>
+  <data name="CredentialsDomain">
+    <value>Домен для удостоверения</value>
+  </data>
+  <data name="CredentialsUserName">
+    <value>Пользователь для удостоверения</value>
+  </data>
+  <data name="CredentialsUserPassword">
+    <value>Пароль для удостоверения</value>
+  </data>
+  <data name="CSV">
+    <value>CSV</value>
+  </data>
+  <data name="CSVImportDescription">
+    <value>Импорт пользователей из файла формата CSV</value>
+  </data>
+  <data name="CSVImportName">
+    <value>Импорт пользователей из файла CSV</value>
+  </data>
+  <data name="CSVImportStepDescription">
+    <value>Импортируйте Ваших коллег из файла формата CSV. Каждая строка файла должна быть следующего формата: Имя;Фамилия;Email; {0}Загрузите требуемый файл и нажмите кнопку "Далее", чтобы начать импорт.</value>
+  </data>
+  <data name="CtrlEnterKeys">
+    <value>Ctrl+Enter</value>
+  </data>
+  <data name="Custom">
+    <value>Заказные</value>
+  </data>
+  <data name="CustomDomainName">
+    <value>Пользовательское доменное имя</value>
+  </data>
+  <data name="Customization">
+    <value>Персонализация</value>
+  </data>
+  <data name="CustomNamingPeopleSchema">
+    <value>Пользовательский</value>
+  </data>
+  <data name="DataBackup">
+    <value>Резервная копия данных</value>
+  </data>
+  <data name="DaysBeforeBirthdaySettingsTitle">
+    <value>За сколько дней оповещать о Дне Рождения (от 1 до 30)</value>
+  </data>
+  <data name="DeactivateButton">
+    <value>Деактивировать</value>
+  </data>
+  <data name="DeactivatePortalButton">
+    <value>Деактивировать</value>
+  </data>
+  <data name="DeactivatePortalSuccessMessage">
+    <value>Ваша учетная запись успешно деактивирована.{0}Через 10 секунд Вы будете перенаправлены {1}сюда{2}</value>
+  </data>
+  <data name="DeactivationDesc">
+    <value>{0}
+                Вы можете деактивировать свой портал временно, чтобы ни у кого не было доступа к порталу
+                на определенный срок.
+            {1}Нажмите кнопку Деактивировать, чтобы продолжить. Ссылка для подтверждения операции будет отправлена на адрес электронной почты владельца портала. Чтобы возобновить использование портала, Вам надо воспользоваться второй ссылкой, данной
+                в сообщении с подтверждением.{2}</value>
+  </data>
+  <data name="Default">
+    <value>По умолчанию</value>
+  </data>
+  <data name="DeleteButton">
+    <value>Удалить</value>
+  </data>
+  <data name="DeleteDepartmentConfirmation">
+    <value>Данное действие нельзя отменить. Продолжить?</value>
+  </data>
+  <data name="DeletePortalButton">
+    <value>Удалить</value>
+  </data>
+  <data name="DeletePortalSuccessMessage">
+    <value>Ваша учетная запись успешно удалена. {0}Через 10 секунд Вы будете перенаправлены {1}сюда{2}</value>
+  </data>
+  <data name="DeleteSelectedButton">
+    <value>Удалить отмеченные</value>
+  </data>
+  <data name="DeletionDesc">
+    <value>Вы можете удалить свой портал навсегда. В этом случае все данные будут потеряны без возможности восстановления.</value>
+  </data>
+  <data name="DemoEnterButton">
+    <value>Демо-вход</value>
+  </data>
+  <data name="DemoModeText">
+    <value>Режим DEMO</value>
+  </data>
+  <data name="Department">
+    <value>{!Group}</value>
+  </data>
+  <data name="DepartmentComposition">
+    <value>Состав</value>
+  </data>
+  <data name="DepartmentEdit">
+    <value>Редактирование отдела</value>
+  </data>
+  <data name="DepartmentHeadCount">
+    <value>{0} человек</value>
+  </data>
+  <data name="DepartmentMaster">
+    <value>{!Head}</value>
+  </data>
+  <data name="Departments">
+    <value>{!Groups}</value>
+  </data>
+  <data name="DepartmentTitle">
+    <value>Редактирование названия</value>
+  </data>
+  <data name="DepEditComposition">
+    <value>Редактировать состав</value>
+  </data>
+  <data name="DepEditMaster">
+    <value>Сменить руководителя</value>
+  </data>
+  <data name="DepNameEditCaption">
+    <value>Редактировать название</value>
+  </data>
+  <data name="Description">
+    <value>Описание</value>
+  </data>
+  <data name="DescriptionThumbnail">
+    <value>Выберите область на основном изображении, которая будет отображаться в миниатюрах.</value>
+  </data>
+  <data name="DisabledEmployeeTitle">
+    <value>Заблокирован</value>
+  </data>
+  <data name="DisableEmployeesTitle">
+    <value>Заблокированные {!users}</value>
+  </data>
+  <data name="DisableUserButton">
+    <value>Заблокировать</value>
+  </data>
+  <data name="DisableUserHelp">
+    <value>{!User} не будет отображаться в списке активных</value>
+  </data>
+  <data name="DiskUsageTitle">
+    <value>Загрузка диска</value>
+  </data>
+  <data name="DnsChangeMsg">
+    <value>Ссылка для подтверждения операции была отправлена на {0} (адрес электронной почты владельца портала).</value>
+  </data>
+  <data name="DnsSettings">
+    <value>Настройка DNS </value>
+  </data>
+  <data name="DnsSettingsLabel">
+    <value>DNS-адрес портала</value>
+  </data>
+  <data name="DomainName">
+    <value>Имя домена</value>
+  </data>
+  <data name="DomainUserName">
+    <value>Доменное имя</value>
+  </data>
+  <data name="DontShowOnStartupText">
+    <value>Не показывать при старте</value>
+  </data>
+  <data name="DrnAgo">
+    <value>{0} назад</value>
+  </data>
+  <data name="DrnAgoDaysI">
+    <value>{0} день</value>
+  </data>
+  <data name="DrnAgoDaysR1">
+    <value>{0} дня</value>
+  </data>
+  <data name="DrnAgoDaysRm">
+    <value>{0} дней</value>
+  </data>
+  <data name="DrnAgoFewMoments">
+    <value>только что</value>
+  </data>
+  <data name="DrnAgoHoursI">
+    <value>{0} час</value>
+  </data>
+  <data name="DrnAgoHoursR1">
+    <value>{0} часа</value>
+  </data>
+  <data name="DrnAgoHoursRm">
+    <value>{0} часов</value>
+  </data>
+  <data name="DrnAgoMinutesI">
+    <value>{0} минута</value>
+  </data>
+  <data name="DrnAgoMinutesR1">
+    <value>{0} минуты</value>
+  </data>
+  <data name="DrnAgoMinutesRm">
+    <value>{0} минут</value>
+  </data>
+  <data name="DrnAgoMonthsI">
+    <value>{0} месяц</value>
+  </data>
+  <data name="DrnAgoMonthsR1">
+    <value>{0} месяца</value>
+  </data>
+  <data name="DrnAgoMonthsRm">
+    <value>{0} месяцев</value>
+  </data>
+  <data name="DrnAgoYearsI">
+    <value>{0} год</value>
+  </data>
+  <data name="DrnAgoYearsR1">
+    <value>{0} года</value>
+  </data>
+  <data name="DrnAgoYearsRm">
+    <value>{0} лет</value>
+  </data>
+  <data name="DrnDayBeforeYesterday">
+    <value>Позавчера</value>
+  </data>
+  <data name="DrnToday">
+    <value>Сегодня</value>
+  </data>
+  <data name="DrnTomorrow">
+    <value>Завтра</value>
+  </data>
+  <data name="DrnYesterday">
+    <value>Вчера</value>
+  </data>
+  <data name="EditButton">
+    <value>Редактировать</value>
+  </data>
+  <data name="EditQuickLink">
+    <value>Редактировать быструю ссылку</value>
+  </data>
+  <data name="EditSelfProfile">
+    <value>Изменить мой профиль</value>
+  </data>
+  <data name="EditThumbnailPhoto">
+    <value>Изменить миниатюры</value>
+  </data>
+  <data name="EditUserDialogTitle">
+    <value>Редактировать профиль</value>
+  </data>
+  <data name="Email">
+    <value>E-mail</value>
+  </data>
+  <data name="EmailAsLogin">
+    <value>E-mail (будет использоваться как логин)</value>
+  </data>
+  <data name="EmailForReminder">
+    <value>E-mail, под которым Вы зарегистрированы в системе</value>
+  </data>
+  <data name="EmailHint">
+    <value>Этот email - Ваш логин</value>
+  </data>
+  <data name="EmailInviteImportDescription">
+    <value>Указать список адресов e-mail, на которые будут отправлены письма с приглашением зарегистрироваться в системе</value>
+  </data>
+  <data name="EmailInviteImportName">
+    <value>Пригласить</value>
+  </data>
+  <data name="Employee">
+    <value>{!User}</value>
+  </data>
+  <data name="EmployeeAllDepartments">
+    <value>Все {!groups}</value>
+  </data>
+  <data name="Employees">
+    <value>{!Users}</value>
+  </data>
+  <data name="EmployeesSearch">
+    <value>Поиск сотрудников</value>
+  </data>
+  <data name="EmployeesShowAsCards">
+    <value>Карточками</value>
+  </data>
+  <data name="EmployeesShowAsList">
+    <value>Списком</value>
+  </data>
+  <data name="EmployeeStatusActive">
+    <value>Работает</value>
+  </data>
+  <data name="EmployeeStatusLeaveOfAbsence">
+    <value>Вход приостановлен</value>
+  </data>
+  <data name="EmployeeStatusTerminated">
+    <value>Уволен</value>
+  </data>
+  <data name="EmptyRecipientAlert">
+    <value>Поле "Кому" пустое!</value>
+  </data>
+  <data name="EmptyTitleAlert">
+    <value>Поле "Тема" пустое!</value>
+  </data>
+  <data name="EnabledDemoEnter">
+    <value>Разрешить демо-вход</value>
+  </data>
+  <data name="EnableSSL">
+    <value>Использовать SSL</value>
+  </data>
+  <data name="EnableUserButton">
+    <value>Разблокировать</value>
+  </data>
+  <data name="EnableUserHelp">
+    <value>{!User} снова перейдет в статус активных</value>
+  </data>
+  <data name="EnterSettings">
+    <value>Настройки входа в систему</value>
+  </data>
+  <data name="Error404Text">
+    <value>Запрашиваемая Вами страница не найдена. Возможно, она была перемещена в другое место или никогда не существовала.</value>
+  </data>
+  <data name="Error404Title">
+    <value>Ошибка 404 - Страница не найдена</value>
+  </data>
+  <data name="ErrorAccessDenied">
+    <value>Недостаточно прав для выполнения данной операции</value>
+  </data>
+  <data name="ErrorAuthAD">
+    <value>Не удалось пройти авторизацию Active Directory</value>
+  </data>
+  <data name="ErrorConfirmURLError">
+    <value>Неправильный e-mail или истек срок действия ссылки</value>
+  </data>
+  <data name="ErrorDisallowRemoveYourselfFromAdmins">
+    <value>Нельзя удалить себя из списка администраторов</value>
+  </data>
+  <data name="ErrorEditingCategoryNotFound">
+    <value>Редактируемая категория не найдена</value>
+  </data>
+  <data name="ErrorEditingGroupNotFound">
+    <value>Редактируемая группа не найдена</value>
+  </data>
+  <data name="ErrorEditingUserNotFound">
+    <value>Редактируемый пользователь не найден, пожалуйста, выберите его из списка...</value>
+  </data>
+  <data name="ErrorEmailAlreadyExists">
+    <value>{!User} с таким e-mail уже зарегистрирован</value>
+  </data>
+  <data name="ErrorEmptyFields">
+    <value>Пожалуйста, заполните все поля</value>
+  </data>
+  <data name="ErrorEmptyName">
+    <value>Введите название</value>
+  </data>
+  <data name="ErrorEmptyUploadFileSelected">
+    <value>Загружаемый файл не найден</value>
+  </data>
+  <data name="ErrorEmptyUserFirstName">
+    <value>Введите имя</value>
+  </data>
+  <data name="ErrorEmptyUserLastName">
+    <value>Введите фамилию</value>
+  </data>
+  <data name="ErrorFileEmptyText">
+    <value>Пустой документ</value>
+  </data>
+  <data name="ErrorFileSizeLimitText">
+    <value>Превышен максимальный размер загружаемого файла</value>
+  </data>
+  <data name="ErrorMissMatchPwd">
+    <value>Новый пароль и подтверждение не совпадают</value>
+  </data>
+  <data name="ErrorNoEmailsForInvite">
+    <value>Введите хотя бы один e-mail для приглашения</value>
+  </data>
+  <data name="ErrorNotCorrectCountActivities">
+    <value>Недопустимое количество активностей</value>
+  </data>
+  <data name="ErrorNotCorrectDaysBeforeBirthdaySettings">
+    <value>Неверное количество дней</value>
+  </data>
+  <data name="ErrorNotCorrectEmail">
+    <value>Неправильный e-mail</value>
+  </data>
+  <data name="ErrorNotCorrectNewWorkerCountSettings">
+    <value>Недопустимое значение</value>
+  </data>
+  <data name="ErrorNotCorrectPassword">
+    <value>Неправильный пароль</value>
+  </data>
+  <data name="ErrorNotCorrectTrustedDomain">
+    <value>Неправильное имя домена</value>
+  </data>
+  <data name="ErrorParseUserImportFile">
+    <value>Файл с данными для импорта пользователя не найден или имеет неправильный формат</value>
+  </data>
+  <data name="ErrorPasswordEmpty">
+    <value>Пустой пароль.</value>
+  </data>
+  <data name="ErrorPasswordToShort">
+    <value>Слишком короткий пароль. Он должен быть не менее 6 символов.</value>
+  </data>
+  <data name="ErrorSaveSettings">
+    <value>Произошла неизвестная ошибка при сохранении настроек</value>
+  </data>
+  <data name="ErrorSaveWidgetSettings">
+    <value>Ошибка при сохранении настроек</value>
+  </data>
+  <data name="ErrorUserNotFoundByEmail">
+    <value>Пользователь с e-mail "{0}" не найден</value>
+  </data>
+  <data name="ErrorUserNotSelected">
+    <value>Выберите пользователя</value>
+  </data>
+  <data name="ErrorWizardAlreadyCompleted">
+    <value>Администратор ранее уже был успешно установлен</value>
+  </data>
+  <data name="FemaleSexStatus">
+    <value>Женский</value>
+  </data>
+  <data name="FileSharingFeature">
+    <value>Выборочный совместный доступ к документам</value>
+  </data>
+  <data name="FileSharingFeatureDesc">
+    <value>Выберите подходящий режим доступа к своим документам.</value>
+  </data>
+  <data name="FileSizePostfix">
+    <value>байт,Кб,Мб,Гб</value>
+  </data>
+  <data name="FilterInPeriod">
+    <value>за период</value>
+  </data>
+  <data name="FilterInPeriodFromLabel">
+    <value>от</value>
+  </data>
+  <data name="FilterInPeriodToLabel">
+    <value>до</value>
+  </data>
+  <data name="FilterLast3Months">
+    <value>за 3 месяца</value>
+  </data>
+  <data name="FilterLastMonth">
+    <value>за месяц</value>
+  </data>
+  <data name="FilterLastWeek">
+    <value>за неделю</value>
+  </data>
+  <data name="FinishImportUserStepDescription">
+    <value>Импорт пользователей в систему успешно завершен. Чтобы приступить к работе, нажмите кнопку "Начать работу".</value>
+  </data>
+  <data name="FinishImportUserTitle">
+    <value>Поздравляем! Пользователи успешно импортированы.</value>
+  </data>
+  <data name="FinishInviteEmailStepDescription">
+    <value>Письма с приглашением зарегистироваться в системе были успешно отправлены. Чтобы приступить к работе, нажмите кнопку "Начать работу".</value>
+  </data>
+  <data name="FinishInviteEmailTitle">
+    <value>Поздравляем! Пользователи успешно приглашены.</value>
+  </data>
+  <data name="FinishInviteJoinEmailMessage">
+    <value>На указанный e-mail была выслана ссылка для подтверждения новой учетной записи</value>
+  </data>
+  <data name="FirstName">
+    <value>Имя</value>
+  </data>
+  <data name="ForgotPassword">
+    <value>Забыли пароль?</value>
+  </data>
+  <data name="ForSignInFollowMessage">
+    <value>Для авторизации перейдите по {0}ссылке{1}</value>
+  </data>
+  <data name="FromTime">
+    <value>с</value>
+  </data>
+  <data name="FromTitle">
+    <value>От кого</value>
+  </data>
+  <data name="GeneralProperties">
+    <value>Общие</value>
+  </data>
+  <data name="GeneralSettings">
+    <value>Общие</value>
+  </data>
+  <data name="GetContacts">
+    <value>Импорт контактов</value>
+  </data>
+  <data name="GetPremiumTitle">
+    <value>Чтобы воспользоваться преимуществом премиум-функций TeamLab, перейдите на TeamLab Премиум.</value>
+  </data>
+  <data name="GettingStartingHeader">
+    <value>Быстрый старт</value>
+  </data>
+  <data name="GlobalHeadCaption">
+    <value>Главный руководитель</value>
+  </data>
+  <data name="GreetingInviteUserMessage">
+    <value>Вы единственный пользователь TeamLab. Пригласите или добавьте пользователей {0}здесь{1}.</value>
+  </data>
+  <data name="GreetingLogo">
+    <value>Логотип</value>
+  </data>
+  <data name="GreetingSettingsTitle">
+    <value>Настройки приветствия</value>
+  </data>
+  <data name="GreetingTitle">
+    <value>Заголовок</value>
+  </data>
+  <data name="GroupCaption">
+    <value>Группа</value>
+  </data>
+  <data name="GroupHeadCaption">
+    <value>Руководитель группы</value>
+  </data>
+  <data name="GroupsCaption">
+    <value>Группы</value>
+  </data>
+  <data name="Help">
+    <value>Справка</value>
+  </data>
+  <data name="HideButton">
+    <value>Скрыть</value>
+  </data>
+  <data name="HintAim">
+    <value>Введите свою учетную запись AIM</value>
+  </data>
+  <data name="HintBlogger">
+    <value>Введите свой профиль Blogger</value>
+  </data>
+  <data name="HintEmail">
+    <value>Введите свой E-mail</value>
+  </data>
+  <data name="HintFacebook">
+    <value>Введите свой профиль Facebook</value>
+  </data>
+  <data name="HintGogglemail">
+    <value>Введите свою учетную запись Google</value>
+  </data>
+  <data name="HintGoggletalk">
+    <value>Введите свою учетную запись GoogleTalk</value>
+  </data>
+  <data name="HintGooglebuzz">
+    <value>Введите свой профиль GoogleBuzz</value>
+  </data>
+  <data name="HintGooglemail">
+    <value>Введите свою учетную запись Google</value>
+  </data>
+  <data name="HintIcq">
+    <value>Введите свою учетную запись ICQ</value>
+  </data>
+  <data name="HintJabber">
+    <value>Введите свою учетную запись Jabber</value>
+  </data>
+  <data name="HintLivejournal">
+    <value>Введите свой профиль LiveJournal</value>
+  </data>
+  <data name="HintMobphone">
+    <value>Введите номер своего мобильного телефона</value>
+  </data>
+  <data name="HintMsn">
+    <value>Введите свою учетную запись MSN</value>
+  </data>
+  <data name="HintMyspace">
+    <value>Введите свой профиль MySpace</value>
+  </data>
+  <data name="HintPhone">
+    <value>Введите номер своего телефона</value>
+  </data>
+  <data name="HintSkype">
+    <value>Введите свою учетную запись Skype</value>
+  </data>
+  <data name="HintTwitter">
+    <value>Введите свой профиль Twitter</value>
+  </data>
+  <data name="HintYahoo">
+    <value>Введите свою учетную запись Yahoo</value>
+  </data>
+  <data name="Host">
+    <value>Адрес SMTP сервера</value>
+  </data>
+  <data name="ImportADButton">
+    <value>Синхронизировать с Active Directory</value>
+  </data>
+  <data name="ImportButton">
+    <value>Импорт</value>
+  </data>
+  <data name="ImportFromBaseCamp">
+    <value>Импорт из BaseCamp</value>
+  </data>
+  <data name="ImportSelectorStepDescription">
+    <value>Пожалуйста, выберите подходящий способ импорта информации о пользователях.</value>
+  </data>
+  <data name="InboxLink">
+    <value>Входящие</value>
+  </data>
+  <data name="InboxMessage">
+    <value>Входящее сообщение</value>
+  </data>
+  <data name="InboxMessagesTitle">
+    <value>Входящие сообщения</value>
+  </data>
+  <data name="InvalidUsernameOrPassword">
+    <value>Неверный логин или пароль.</value>
+  </data>
+  <data name="InviteButton">
+    <value>Пригласить</value>
+  </data>
+  <data name="InviteDefaultText">
+    <value>Мы приглашаем Вас присоединиться к нашему корпоративному порталу.</value>
+  </data>
+  <data name="InviteEmloyeesButton">
+    <value>Пригласить</value>
+  </data>
+  <data name="InviteEmployeesWidgetTitle">
+    <value>Нажмите сюда, чтобы {0}Пригласить новых пользователей{1}</value>
+  </data>
+  <data name="InviteFullAccessPrivilegesTitle">
+    <value>с правами администратора</value>
+  </data>
+  <data name="InviteImportFrom">
+    <value>Пригласить/Импортировать из...</value>
+  </data>
+  <data name="InviteMailBoxTitle">
+    <value>Адреса e-mail</value>
+  </data>
+  <data name="InviteNamelessContactsLabel">
+    <value>*Контакты без имени или фамилии не могут быть добавлены. Разрешено только приглашать.</value>
+  </data>
+  <data name="InvitePassword">
+    <value>Выбрать пароль</value>
+  </data>
+  <data name="InviteToJoinTitle">
+    <value>Присоединяйтесь к сети</value>
+  </data>
+  <data name="InviteUserEmailList">
+    <value>Введите, пожалуйста, адрес электронной почты пользователя, которому нужно выслать приглашение. Чтобы пригласить большее число пользователей, нажмите Добавить e-mail.</value>
+  </data>
+  <data name="InviteUserTextTitle">
+    <value>Сообщение</value>
+  </data>
+  <data name="IsLogicCateroryLabel">
+    <value>Логическая категория</value>
+  </data>
+  <data name="IsLogicCateroryLabelHelp">
+    <value>Группы данной категории не могут содержать одинаковых пользователей</value>
+  </data>
+  <data name="JoinTitle">
+    <value>Добро пожаловать в наш корпоративный портал!</value>
+  </data>
+  <data name="Language">
+    <value>Язык</value>
+  </data>
+  <data name="LastName">
+    <value>Фамилия</value>
+  </data>
+  <data name="LearnMoreLink">
+    <value>Подробнее</value>
+  </data>
+  <data name="Links">
+    <value>Ссылки</value>
+  </data>
+  <data name="Location">
+    <value>Местоположение</value>
+  </data>
+  <data name="Login">
+    <value>Логин</value>
+  </data>
+  <data name="LoginButton">
+    <value>Войти</value>
+  </data>
+  <data name="LoginRegistryButton">
+    <value>Присоединиться</value>
+  </data>
+  <data name="LoginWithAccount">
+    <value>или войти через:</value>
+  </data>
+  <data name="LoginWithAccountNotFound">
+    <value>Связанный аккаунт не найден</value>
+  </data>
+  <data name="LogoSettingsLimits">
+    <value>Загружаемое изображение должно иметь разрешение не более 250x100 пикселей, иначе файл будет автоматически пережат.</value>
+  </data>
+  <data name="LogoutButton">
+    <value>Выйти</value>
+  </data>
+  <data name="Mail">
+    <value>Почта</value>
+  </data>
+  <data name="MailSearch">
+    <value>Поиск писем</value>
+  </data>
+  <data name="MainPageTitle">
+    <value>TeamLab</value>
+  </data>
+  <data name="MainTitle">
+    <value>Главная</value>
+  </data>
+  <data name="MaleSexStatus">
+    <value>Мужской</value>
+  </data>
+  <data name="ManageQuickLinks">
+    <value>Редактировать быстрые ссылки</value>
+  </data>
+  <data name="Message">
+    <value>Сообщение</value>
+  </data>
+  <data name="MessageFromUserLabel">
+    <value>Сообщение от пользователя</value>
+  </data>
+  <data name="MessageInviteSendedOnEmails">
+    <value>Приглашения на адреса {0} успешно разосланы</value>
+  </data>
+  <data name="MessageNotSelectedAlert">
+    <value>Выберите сообщение(я)</value>
+  </data>
+  <data name="Messages">
+    <value>Чат</value>
+  </data>
+  <data name="MessageSendTitle">
+    <value>Сообщение отправлено</value>
+  </data>
+  <data name="MessageTitle">
+    <value>Сообщения</value>
+  </data>
+  <data name="MessageToUserTitle">
+    <value>Сообщение пользователю</value>
+  </data>
+  <data name="MessageYourPasswordSuccessfullySendedToEmail">
+    <value>Пароль пользователя успешно выслан на e-mail {0}</value>
+  </data>
+  <data name="MobileVersion">
+    <value>Мобильная версия</value>
+  </data>
+  <data name="ModuleProductSettingsDescription">
+    <value>Здесь Вы можете отключить определенные модули TeamLab и отсортировать их</value>
+  </data>
+  <data name="More">
+    <value>Ещё</value>
+  </data>
+  <data name="MyProfile">
+    <value>Мой профиль</value>
+  </data>
+  <data name="MyStaff">
+    <value>Мои вещи</value>
+  </data>
+  <data name="MySubscriptions">
+    <value>Мои подписки</value>
+  </data>
+  <data name="Name">
+    <value>Имя</value>
+  </data>
+  <data name="NamingPeopleSchema">
+    <value>Шаблон</value>
+  </data>
+  <data name="NamingPeopleSettings">
+    <value>Шаблон группы</value>
+  </data>
+  <data name="Navigation">
+    <value>Навигация</value>
+  </data>
+  <data name="NewCategoryButton">
+    <value>Новая категория</value>
+  </data>
+  <data name="NewGroupButton">
+    <value>Новая подгруппа</value>
+  </data>
+  <data name="NewPassword">
+    <value>Новый пароль</value>
+  </data>
+  <data name="NewTitle">
+    <value>Новое название</value>
+  </data>
+  <data name="NewUserDialogTitle">
+    <value>Новый {!user}</value>
+  </data>
+  <data name="NewWorkerCountSettingsTitle">
+    <value>Сколько новых пользователей показывать (от 1 до 20)</value>
+  </data>
+  <data name="NextButton">
+    <value>Далее  &amp;#8594;</value>
+  </data>
+  <data name="NoMessageTitle">
+    <value>Нет сообщений</value>
+  </data>
+  <data name="NoNewEmployees">
+    <value>Новые {!users} отсутствуют</value>
+  </data>
+  <data name="NoNewMessageMessage">
+    <value>У Вас нет новых сообщений</value>
+  </data>
+  <data name="NoNewNotifiesMessage">
+    <value>У Вас нет новых уведомлений</value>
+  </data>
+  <data name="NoRecentActivity">
+    <value>Нет никакой активности</value>
+  </data>
+  <data name="NoSoonBirthday">
+    <value>В ближайшее время нет Дней рождения</value>
+  </data>
+  <data name="NoSubscriptions">
+    <value>Вы ни на что не подписаны</value>
+  </data>
+  <data name="NoSyncUsersMessage">
+    <value>Все пользователи синхронизированы</value>
+  </data>
+  <data name="NotFoundEmployeesMessage">
+    <value>{!Users} не найдены.</value>
+  </data>
+  <data name="NotifyBy">
+    <value>Тип оповещения:</value>
+  </data>
+  <data name="NotifyByEmail">
+    <value>Email</value>
+  </data>
+  <data name="NotifyByEmailAndTMTalk">
+    <value>Email и Чат</value>
+  </data>
+  <data name="NotifyByTMTalk">
+    <value>Чат</value>
+  </data>
+  <data name="Offline">
+    <value>Не в сети</value>
+  </data>
+  <data name="OffMailDomains">
+    <value>Отключено</value>
+  </data>
+  <data name="Online">
+    <value>В сети</value>
+  </data>
+  <data name="Organizer">
+    <value>Органайзер</value>
+  </data>
+  <data name="OrPress">
+    <value>или нажмите</value>
+  </data>
+  <data name="OutboxLink">
+    <value>Исходящие</value>
+  </data>
+  <data name="OutboxMessage">
+    <value>Исходящее сообщение</value>
+  </data>
+  <data name="OutboxMessagesTitle">
+    <value>Исходящие сообщения</value>
+  </data>
+  <data name="Outlook">
+    <value>Outlook</value>
+  </data>
+  <data name="OutlookImportDescription">
+    <value>Импорт пользователей из адресной книги Microsoft Outlook</value>
+  </data>
+  <data name="OutlookImportName">
+    <value>Импорт пользователей из адресной книги Microsoft Outlook</value>
+  </data>
+  <data name="OutlookImportStepDescription">
+    <value>Импортируйте Ваших коллег из адресной книги Microsoft Outlook. Сначала экспортируйте адреса в текстовый файл. Затем загрузите экспортированный файл и нажмите кнопку "Далее", чтобы начать импорт.</value>
+  </data>
+  <data name="Password">
+    <value>Пароль</value>
+  </data>
+  <data name="PasswordRemindTitle">
+    <value>Напоминание пароля</value>
+  </data>
+  <data name="PasswordSettingsTitle">
+    <value>Смена пароля</value>
+  </data>
+  <data name="PaymentsTitle">
+    <value>История платежей</value>
+  </data>
+  <data name="People">
+    <value>Люди</value>
+  </data>
+  <data name="PerformBackupButton">
+    <value>Резервная копия</value>
+  </data>
+  <data name="PersonalInfo">
+    <value>Личная информация</value>
+  </data>
+  <data name="PersonalProperties">
+    <value>Личные</value>
+  </data>
+  <data name="PersonalSMTP">
+    <value>Личная почта</value>
+  </data>
+  <data name="PhoneOffice">
+    <value>Рабочий телефон</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Пожалуйста, подождите...</value>
+  </data>
+  <data name="Port">
+    <value>Порт</value>
+  </data>
+  <data name="PortalAddress">
+    <value>Адрес портала</value>
+  </data>
+  <data name="PortalOwner">
+    <value>Владелец портала</value>
+  </data>
+  <data name="PortalSettings">
+    <value>Настройки портала</value>
+  </data>
+  <data name="PremiumAccessRightsLimitation">
+    <value>Возможность управления правами доступа - это платная премиум-функция.</value>
+  </data>
+  <data name="PremiumFeatureDescription">
+    <value>Перейдите на TeamLab Премиум, чтобы воспользоваться следующими преимуществами:</value>
+  </data>
+  <data name="PremiumPrivateProjectLimitation">
+    <value>Возможность создания приватных проектов - это платная премиум-функция.</value>
+  </data>
+  <data name="PremiumShareDocsLimitation">
+    <value>Возможность совместного использования персональных документов - это платная премиум-функция.</value>
+  </data>
+  <data name="PremiumStubButton">
+    <value>Купить сейчас</value>
+  </data>
+  <data name="PremiumStubTitle">
+    <value>Премиум-функции TeamLab</value>
+  </data>
+  <data name="PremiumTariffEndDateTitle">
+    <value>Премиум-функции TeamLab доступны до {0}</value>
+  </data>
+  <data name="PreviewButton">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="PrioritySupportFeature">
+    <value>Приоритетная техническая поддержка</value>
+  </data>
+  <data name="PrioritySupportFeatureDesc">
+    <value>Получайте ответы на свои вопросы в первоочередном порядке.</value>
+  </data>
+  <data name="PrivatePortal">
+    <value>Приватный портал</value>
+  </data>
+  <data name="PrivatePortalDescription">
+    <value>Портал доступен только авторизованным пользователям</value>
+  </data>
+  <data name="PrivateProjectsFeature">
+    <value>Приватные проекты</value>
+  </data>
+  <data name="PrivateProjectsFeatureDesc">
+    <value>Создавайте приватные проекты, доступные ограниченному числу пользователей, и управляйте правами команды.</value>
+  </data>
+  <data name="ProductActivityCount">
+    <value>Число отображаемых действий</value>
+  </data>
+  <data name="Profile">
+    <value>Профиль</value>
+  </data>
+  <data name="ProfileRemoved">
+    <value>Профиль удален</value>
+  </data>
+  <data name="ProlongPremiumTitle">
+    <value>Премиум-функции TeamLab недоступны на Вашем портале</value>
+  </data>
+  <data name="PublicPortal">
+    <value>Публичный портал</value>
+  </data>
+  <data name="PublicPortalDescription">
+    <value>Портал доступен для чтения всем пользователям. Продукты, доступные неавторизованным пользователям:</value>
+  </data>
+  <data name="PublishButton">
+    <value>Опубликовать</value>
+  </data>
+  <data name="QuickLinkDeletingIsInProgress">
+    <value>Удаление быстрой ссылки...</value>
+  </data>
+  <data name="QuickLinkEditIsInProgress">
+    <value>Сохранение быстрой ссылки...</value>
+  </data>
+  <data name="QuickLinks">
+    <value>Быстрые ссылки</value>
+  </data>
+  <data name="QuickLinksAddButton">
+    <value>Добавить</value>
+  </data>
+  <data name="QuickLinksAddQuickLinkIsInProgressLabel">
+    <value>Добавление быстрой ссылки...</value>
+  </data>
+  <data name="QuickLinksAddressLabel">
+    <value>Адрес</value>
+  </data>
+  <data name="QuickLinksCancelButton">
+    <value>Отмена</value>
+  </data>
+  <data name="QuickLinksCaptionLabel">
+    <value>Название</value>
+  </data>
+  <data name="QuickLinksDeleteLink">
+    <value>Удалить</value>
+  </data>
+  <data name="QuickSearch">
+    <value>Быстрый поиск</value>
+  </data>
+  <data name="QuotaInfoTemplate">
+    <value>Всего занято {0}</value>
+  </data>
+  <data name="ReactivatePortalButton">
+    <value>Восстановить</value>
+  </data>
+  <data name="ReactivatePortalSuccessMessage">
+    <value>Действие Вашей учетной записи успешно возобновлено. {0}Через 10 секунд Вы будете перенаправлены {1}сюда{2}</value>
+  </data>
+  <data name="RecentActivity">
+    <value>Активность</value>
+  </data>
+  <data name="RecipientAddress">
+    <value>Адресат</value>
+  </data>
+  <data name="RegDateCaption">
+    <value>Дата регистрации</value>
+  </data>
+  <data name="RegistryButton">
+    <value>Регистрация</value>
+  </data>
+  <data name="RegistryNewDepartmentButton">
+    <value>Новый {!group}</value>
+  </data>
+  <data name="RegistryNewEmployeeButton">
+    <value>Новый {!user}</value>
+  </data>
+  <data name="Remember">
+    <value>Запомнить</value>
+  </data>
+  <data name="RemindPwdButton">
+    <value>Выслать пароль на указанный e-mail</value>
+  </data>
+  <data name="RePassword">
+    <value>Подтверждение пароля</value>
+  </data>
+  <data name="ReplyMessageTemplate">
+    <value>пользователь «user» написал:</value>
+  </data>
+  <data name="ReplyTitle">
+    <value>Re</value>
+  </data>
+  <data name="ReplyToUserTitle">
+    <value>Ответ пользователю</value>
+  </data>
+  <data name="RequestOnEditEmployee">
+    <value>Изменение сотрудников</value>
+  </data>
+  <data name="ResponseMessageLink">
+    <value>Ответить</value>
+  </data>
+  <data name="RestoreDefaultButton">
+    <value>Восстановить по умолчанию</value>
+  </data>
+  <data name="RightsRestrictionNote">
+    <value>Доступно только в TeamLab Премиум.</value>
+  </data>
+  <data name="SaveButton">
+    <value>Сохранить</value>
+  </data>
+  <data name="SavedTitle">
+    <value>Сохранено</value>
+  </data>
+  <data name="SchemaSettingsTitle">
+    <value>Схема расположения столбцов</value>
+  </data>
+  <data name="Search">
+    <value>Поиск</value>
+  </data>
+  <data name="SearchNotFoundMessage">
+    <value>Ничего не найдено.</value>
+  </data>
+  <data name="SearchResult">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="SeeHereLabel">
+    <value>посмотреть можно здесь</value>
+  </data>
+  <data name="SelectAll">
+    <value>Выбрать все</value>
+  </data>
+  <data name="SelectButton">
+    <value>Выбрать</value>
+  </data>
+  <data name="Selected">
+    <value>Выбраны</value>
+  </data>
+  <data name="SelectFileButton">
+    <value>Выбрать файл</value>
+  </data>
+  <data name="SelectSelfFromUserList">
+    <value>Выберите себя из списка</value>
+  </data>
+  <data name="SendButton">
+    <value>Отправить</value>
+  </data>
+  <data name="SenderAddress">
+    <value>E-mail отправителя</value>
+  </data>
+  <data name="SenderDisplayName">
+    <value>Имя отправителя</value>
+  </data>
+  <data name="SendInviteToJoinButton">
+    <value>Выслать приглашение</value>
+  </data>
+  <data name="SendTestMailButton">
+    <value>Отправить тестовое письмо</value>
+  </data>
+  <data name="SendTitle">
+    <value>Когда</value>
+  </data>
+  <data name="SendToEmail">
+    <value>Отправить на e-mail</value>
+  </data>
+  <data name="ServerErrorText">
+    <value>К сожалению, при обработке Вашего запроса в програмном обеспечении на сайте произошла ошибка. Пожалуйста, подождите некоторое время и попробуйте еще раз. Если ошибка сохраняется, обратитесь к администратору сайта, на котором данная ошибка возникла.</value>
+  </data>
+  <data name="ServerErrorTitle">
+    <value>Ошибка сервера</value>
+  </data>
+  <data name="SetAdminPageTitle">
+    <value>Начало работы</value>
+  </data>
+  <data name="SetAdminStepDescription">
+    <value>Сделайте несколько простых настроек, чтобы Вы и Ваши коллеги смогли начать использовать TeamLab прямо сейчас.{0}На данный момент Вы являетесь единственным пользователем и администратором системы. Представьтесь, пожалуйста:</value>
+  </data>
+  <data name="Sex">
+    <value>Пол</value>
+  </data>
+  <data name="ShowAllButton">
+    <value>Показать все</value>
+  </data>
+  <data name="ShowAllSearchResult">
+    <value>Показать все результаты</value>
+  </data>
+  <data name="SidePanelLeftView">
+    <value>Слева</value>
+  </data>
+  <data name="SidePanelRightView">
+    <value>Справа</value>
+  </data>
+  <data name="SignInFromAnyDomainAuthTitle">
+    <value>Регистрация доступна для пользователей с электронной почтой в любом домене. Для регистрации нажмите Присоединиться.</value>
+  </data>
+  <data name="SignInFromAnyDomainInviteTitle">
+    <value>Регистрация доступна для пользователей с электронной почтой в любом домене. 
+Для регистрации введите свой email и нажмите Выслать приглашение. Сообщение со ссылкой для активации Вашего аккаунта TeamLab будет отправлено на указанный адрес.</value>
+  </data>
+  <data name="SkinSettings">
+    <value>Настройки тем оформления</value>
+  </data>
+  <data name="SmlAmazement">
+    <value>Удивление</value>
+  </data>
+  <data name="SmlBomb">
+    <value>Бомба</value>
+  </data>
+  <data name="SmlCrazy">
+    <value>Сумасшедший</value>
+  </data>
+  <data name="SmlCry">
+    <value>Плач</value>
+  </data>
+  <data name="SmlDance">
+    <value>Танцующий</value>
+  </data>
+  <data name="SmlDrink">
+    <value>Тост</value>
+  </data>
+  <data name="SmlEvil">
+    <value>Сердитый</value>
+  </data>
+  <data name="SmlEye">
+    <value>Подмигивание</value>
+  </data>
+  <data name="SmlGreen">
+    <value>Зеленый</value>
+  </data>
+  <data name="SmlHollywood">
+    <value>Голливудская улыбка</value>
+  </data>
+  <data name="SmlMourning">
+    <value>Грустный</value>
+  </data>
+  <data name="SmlMusic">
+    <value>Музыка</value>
+  </data>
+  <data name="SmlOK">
+    <value>Ok</value>
+  </data>
+  <data name="SmlSmile">
+    <value>Улыбка</value>
+  </data>
+  <data name="SmlSmirk">
+    <value>Смех</value>
+  </data>
+  <data name="SmlSorry">
+    <value>Извинение</value>
+  </data>
+  <data name="SmlSOS">
+    <value>Sos</value>
+  </data>
+  <data name="SmlSpectacles">
+    <value>Очки</value>
+  </data>
+  <data name="SmlSuper">
+    <value>Супер</value>
+  </data>
+  <data name="SmlTongue">
+    <value>Язык</value>
+  </data>
+  <data name="SmlYAHOO">
+    <value>Ура!</value>
+  </data>
+  <data name="SmtpSettings">
+    <value>Настройки SMTP</value>
+  </data>
+  <data name="SourceForDiskUsage">
+    <value>Источник</value>
+  </data>
+  <data name="Statistic">
+    <value>Статистика</value>
+  </data>
+  <data name="StatisticsTitle">
+    <value>Статистика</value>
+  </data>
+  <data name="StudioDomainSettings">
+    <value>Настройка доверенных почтовых доменов</value>
+  </data>
+  <data name="StudioFooterCopyright">
+    <value>(c) Copyright Ascensio System Limited 2008-2010</value>
+  </data>
+  <data name="StudioProductModulesViewSettings">
+    <value>Настройки продуктов и модулей</value>
+  </data>
+  <data name="StudioTimeLanguageSettings">
+    <value>Настройки языка и часового пояса</value>
+  </data>
+  <data name="StudioVisualSettings">
+    <value>Настройки боковой панели</value>
+  </data>
+  <data name="StudioWelcomeHeader">
+    <value>Командная работа &amp; Управление проектами</value>
+  </data>
+  <data name="SubjectTitle">
+    <value>Тема</value>
+  </data>
+  <data name="SubmitButton">
+    <value>Отправить</value>
+  </data>
+  <data name="SubscribeButton">
+    <value>Подписаться</value>
+  </data>
+  <data name="Subscriptions">
+    <value>Подписки</value>
+  </data>
+  <data name="SuccessfullyAddUserInfoMessage">
+    <value>Информация о пользователе была успешно добавлена</value>
+  </data>
+  <data name="SuccessfullyAddUserToGroupInfoMessage">
+    <value>Пользователь успешно добавлен в группу</value>
+  </data>
+  <data name="SuccessfullyChangePasswordMessage">
+    <value>Пароль был успешно изменен</value>
+  </data>
+  <data name="SuccessfullyCreateCategoryInfoMessage">
+    <value>Категория успешно создана</value>
+  </data>
+  <data name="SuccessfullyCreateGroupInfoMessage">
+    <value>Группа успешно создана</value>
+  </data>
+  <data name="SuccessfullyDeleteCategoryInfoMessage">
+    <value>Категория успешно удалена</value>
+  </data>
+  <data name="SuccessfullyDeleteGroupInfoMessage">
+    <value>Группа успешно удалена</value>
+  </data>
+  <data name="SuccessfullyDeleteUserInfoMessage">
+    <value>Информация о пользователе была успешно удалена</value>
+  </data>
+  <data name="SuccessfullyDeleteUserPhotoMessage">
+    <value>Фото пользователя успешно удалено</value>
+  </data>
+  <data name="SuccessfullyInstalTitle">
+    <value>Поздравляем! Система TeamLab успешно установлена и запущена</value>
+  </data>
+  <data name="SuccessfullySavCategoryInfoMessage">
+    <value>Информация о категории успешно сохранена</value>
+  </data>
+  <data name="SuccessfullySaveEnterSettingsMessage">
+    <value>Настройки входа успешно сохранены</value>
+  </data>
+  <data name="SuccessfullySaveGreetingSettingsMessage">
+    <value>Настройки приветствия успешно сохранены</value>
+  </data>
+  <data name="SuccessfullySaveGroupInfoMessage">
+    <value>Информация о группе была успешно сохранена</value>
+  </data>
+  <data name="SuccessfullySaveSettingsMessage">
+    <value>Настройки успешно обновлены</value>
+  </data>
+  <data name="SuccessfullySaveSmtpSettingsMessage">
+    <value>Настройки SMTP успешно сохранены</value>
+  </data>
+  <data name="SuccessfullySaveUserInfoMessage">
+    <value>Информация о пользователе была успешно сохранена</value>
+  </data>
+  <data name="SuccessfullySMTPTestMessage">
+    <value>Тест SMTP настроек успешно пройден</value>
+  </data>
+  <data name="SuccessfullyUploadUserPhotoMessage">
+    <value>Фото пользователя успешно загружено</value>
+  </data>
+  <data name="SwitchUploadToFlashMode">
+    <value>{0}Переключиться на {1}Флеш аплоадер{2}</value>
+  </data>
+  <data name="SwitchUploadToHtmlMode">
+    <value>{0}Проблемы? переключитесь на {1}Обычный аплоадер{2}</value>
+  </data>
+  <data name="SyncADUserLimit">
+    <value>Должны быть права на политику безопасности "log on locally"</value>
+  </data>
+  <data name="SynchronizeButton">
+    <value>Синхронизировать</value>
+  </data>
+  <data name="SynchronizedADTitle">
+    <value>Синхронизация с Active Directory</value>
+  </data>
+  <data name="SystemNotify">
+    <value>Уведомление</value>
+  </data>
+  <data name="TariffDescriptionFree">
+    <value>Для автоматического продления использования TeamLab Премиум убедитесь, что включена опция регулярных платежей.</value>
+  </data>
+  <data name="TariffDescriptionPremium">
+    <value>Продлите использование TeamLab Премиум.{0} Для автоматического продления использования TeamLab Премиум убедитесь, что включена опция регулярных платежей.</value>
+  </data>
+  <data name="TariffSettings">
+    <value>Оплата</value>
+  </data>
+  <data name="TeamLabSiteTitle">
+    <value>Сайт TeamLab </value>
+  </data>
+  <data name="TenantCreated">
+    <value>Создан</value>
+  </data>
+  <data name="TenantUsedSpace">
+    <value>Используемая область хранилища</value>
+  </data>
+  <data name="TenantUsedSpaceFreeDescription">
+    <value>{0} - это максимальный объем хранилища, доступный бесплатно. Для получения хранилища объемом 10 Гб перейдите на TeamLab Премиум.</value>
+  </data>
+  <data name="TenantUsedSpacePremiumDescription">
+    <value>{0} - максимальный объем хранилища, доступный для портала.</value>
+  </data>
+  <data name="TenantUsersTotal">
+    <value>Всего пользователей</value>
+  </data>
+  <data name="TestSMTPEmailBody">
+    <value>SMTP настройки TeamLab успешно настроены!</value>
+  </data>
+  <data name="TestSMTPEmailSubject">
+    <value>Тест SMTP настроек TeamLab</value>
+  </data>
+  <data name="TimePeriod">
+    <value>Промежуток времени</value>
+  </data>
+  <data name="TimeZone">
+    <value>Часовой пояс</value>
+  </data>
+  <data name="Title">
+    <value>Название</value>
+  </data>
+  <data name="TitleAim">
+    <value>AIM</value>
+  </data>
+  <data name="TitleBlogger">
+    <value>Blogger</value>
+  </data>
+  <data name="TitleEmail">
+    <value>E-mail</value>
+  </data>
+  <data name="TitleFacebook">
+    <value>Facebook</value>
+  </data>
+  <data name="TitleGooglebuzz">
+    <value>GoogleBuzz</value>
+  </data>
+  <data name="TitleGooglemail">
+    <value>GMail</value>
+  </data>
+  <data name="TitleGoogletalk">
+    <value>GoogleTalk</value>
+  </data>
+  <data name="TitleIcq">
+    <value>ICQ</value>
+  </data>
+  <data name="TitleJabber">
+    <value>Jabber</value>
+  </data>
+  <data name="TitleLiveJournal">
+    <value>LiveJournal</value>
+  </data>
+  <data name="TitleMobphone">
+    <value>Мобильный телефон</value>
+  </data>
+  <data name="TitleMsn">
+    <value>MSN</value>
+  </data>
+  <data name="TitleMyspace">
+    <value>MySpace</value>
+  </data>
+  <data name="TitlePhone">
+    <value>Телефон</value>
+  </data>
+  <data name="TitleSkype">
+    <value>Skype</value>
+  </data>
+  <data name="TitleThumbnailPhoto">
+    <value>Изменение миниатюр</value>
+  </data>
+  <data name="TitleTwitter">
+    <value>Twitter</value>
+  </data>
+  <data name="TitleYahoo">
+    <value>Yahoo!!</value>
+  </data>
+  <data name="Top10Title">
+    <value>Топ-10</value>
+  </data>
+  <data name="TotalFinded">
+    <value>Всего найдено</value>
+  </data>
+  <data name="ToTime">
+    <value>до</value>
+  </data>
+  <data name="ToTitle">
+    <value>Кому</value>
+  </data>
+  <data name="ToWhatsNewPage">
+    <value>Весь список</value>
+  </data>
+  <data name="TrustedDomainAuthTitle">
+    <value>Регистрация доступна для пользователей, которые имеют почтовый ящик на: {0}. Чтобы зарегистрироваться, нажмите Присоединиться.</value>
+  </data>
+  <data name="TrustedDomainDescription">
+    <value>Эта опция позволяет Вашим коллегам присоединиться к порталу, нажав ссылку Присоединиться на странице входа и введя адрес e-mail с доверенным доменным именем, которое Вы добавили.</value>
+  </data>
+  <data name="TrustedDomainSignInTitle">
+    <value>Разрешить вход с доверенных доменов</value>
+  </data>
+  <data name="TrustedDomainsInviteTitle">
+    <value>Регистрация доступна для пользователей, которые имеют почтовый ящик на {0}.
+Чтобы зарегистрироваться, введите свой e-mail и нажмите Выслать приглашение. Сообщение со ссылкой для активации Вашей учётной записи TeamLab будет отправлено на указанный адрес.</value>
+  </data>
+  <data name="UnconfirmButton">
+    <value>Отклонить</value>
+  </data>
+  <data name="UnknownError">
+    <value>Произошла неизвестная ошибка</value>
+  </data>
+  <data name="UnsubscribeButton">
+    <value>Отписаться</value>
+  </data>
+  <data name="UpgradeTariffPlanButton">
+    <value>Обновите свой план сейчас!</value>
+  </data>
+  <data name="UploadButton">
+    <value>Загрузить</value>
+  </data>
+  <data name="UploadFiles">
+    <value>Загрузка файлов</value>
+  </data>
+  <data name="URL">
+    <value>URL-адрес</value>
+  </data>
+  <data name="UserCaption">
+    <value>Пользователь</value>
+  </data>
+  <data name="UserCommunication">
+    <value>Статус</value>
+  </data>
+  <data name="UserImport">
+    <value>Импорт контактов</value>
+  </data>
+  <data name="UserMakerAddUser">
+    <value>{!User} успешно добавлен</value>
+  </data>
+  <data name="UserMakerEditUser">
+    <value>Профиль успешно изменен</value>
+  </data>
+  <data name="UserName">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="UserPhotoLimitationMessage">
+    <value>Загружаемое изображение должно иметь разрешение не более 200x300 пикселей, иначе файл будет автоматически пережат. Максимальный размер загружаемого файла {0}Мб.</value>
+  </data>
+  <data name="UserPost">
+    <value>{!Userpost}</value>
+  </data>
+  <data name="UserRequest">
+    <value>Запросы пользователя</value>
+  </data>
+  <data name="UsersCaption">
+    <value>Пользователи</value>
+  </data>
+  <data name="UserSelectDialogTitle">
+    <value>Выбор пользователей</value>
+  </data>
+  <data name="UserStatus">
+    <value>Статус</value>
+  </data>
+  <data name="UserStatusCaption">
+    <value>Должность/Позиция</value>
+  </data>
+  <data name="VastStorageCapacityFeature">
+    <value>Большой объем хранилища</value>
+  </data>
+  <data name="VastStorageCapacityFeatureDesc">
+    <value>Получите в свое распоряжение 10 Гб рабочего пространства.</value>
+  </data>
+  <data name="ViewAs">
+    <value>Показать:</value>
+  </data>
+  <data name="Visited">
+    <value>Посетители сегодня</value>
+  </data>
+  <data name="VisitorsChartHitLabel">
+    <value>хиты</value>
+  </data>
+  <data name="VisitorsChartHostLabel">
+    <value>хосты</value>
+  </data>
+  <data name="VisitorsChartTitle">
+    <value>Посещаемость</value>
+  </data>
+  <data name="VisitorsChartVisitsLabel">
+    <value>Посещения</value>
+  </data>
+  <data name="WatchVideoButton">
+    <value>Смотреть видео</value>
+  </data>
+  <data name="WebItemsSettings">
+    <value>Продукты и модули</value>
+  </data>
+  <data name="WebStudioName">
+    <value>TeamLab</value>
+  </data>
+  <data name="Welcome">
+    <value>Вы вошли как</value>
+  </data>
+  <data name="WelcomeUserMessage">
+    <value>Добро пожаловать, {0}</value>
+  </data>
+  <data name="WhatsNewSubscriptionName">
+    <value>Новенькое</value>
+  </data>
+  <data name="WidgetPanelTitle">
+    <value>Мои виджеты</value>
+  </data>
+  <data name="WidgetSettings">
+    <value>Настроить</value>
+  </data>
+  <data name="WidgetSettingsDialogTitle">
+    <value>Настройка виджетов</value>
+  </data>
+  <data name="WidgetSettingsTitle">
+    <value>Доступные виджеты</value>
+  </data>
+  <data name="WidgetTabName">
+    <value>Название панели</value>
+  </data>
+  <data name="WizardFinishButton">
+    <value>Начать работу</value>
+  </data>
+  <data name="WorkFromDate">
+    <value>{!Regdate}</value>
+  </data>
+  <data name="WriteMessageLink">
+    <value>Написать сообщение</value>
+  </data>
+</root>

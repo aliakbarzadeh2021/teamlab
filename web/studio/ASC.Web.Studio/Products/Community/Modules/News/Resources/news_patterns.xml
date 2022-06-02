@@ -1,0 +1,26 @@
+<pt:catalog xmlns:pt="urn:asc.notify.pattern.xsd">
+  <block>
+    <formatter type="ASC.Notify.Patterns.NVelocityPatternFormatter, ASC.Common" />
+    <patterns>
+      <pattern id="new_text" name="new feed" contentType="html">
+        <subject resource="|subject_new_text|ASC.Web.Community.News.Resources.NewsPatternResource,ASC.Web.Community.News"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_new_text|ASC.Web.Community.News.Resources.NewsPatternResource,ASC.Web.Community.News"></body>
+      </pattern>
+      <!--New Event Added-->
+      <pattern id="new_text_jabber" name="new feed" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_new_text|ASC.Web.Community.News.Resources.NewsPatternResource,ASC.Web.Community.News"></body>
+      </pattern>
+      <!--new feed comment-->
+      <pattern id="new_text_comment" name="new feed comment" contentType="html">
+        <subject resource="|subject_new_text_comment|ASC.Web.Community.News.Resources.NewsPatternResource,ASC.Web.Community.News"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_new_text_comment|ASC.Web.Community.News.Resources.NewsPatternResource,ASC.Web.Community.News"></body>
+      </pattern>
+      <!--new feed comment-->
+      <pattern id="new_text_comment_jabber" name="new feed comment" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_new_text_comment|ASC.Web.Community.News.Resources.NewsPatternResource,ASC.Web.Community.News"></body>
+      </pattern>
+    </patterns>
+  </block>
+</pt:catalog>

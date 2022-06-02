@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddNewTask">
+    <value>Aggiungi nuovo compito</value>
+  </data>
+  <data name="AddThisTask">
+    <value>Agguingi questo compito</value>
+  </data>
+  <data name="B">
+    <value>B</value>
+  </data>
+  <data name="CategoryChangedSuccessfully">
+    <value>La categoria è stata cambiata con successo</value>
+  </data>
+  <data name="ChooseAFileToUpload">
+    <value>Seleziona file da caricare</value>
+  </data>
+  <data name="ClosedStatusFunctionIsLocked">
+    <value>E' impossibile completare questa milestone, perchè ci sono i compiti attivi assegnati.</value>
+  </data>
+  <data name="Collapse">
+    <value>Nascondi</value>
+  </data>
+  <data name="ConfirmClearTrash">
+    <value>Vengono eliminati tutti i compiti.\nNota: è impossibile annullare questa azione.</value>
+  </data>
+  <data name="ConfirmDelete">
+    <value>Sei sicuro di voler eliminare il file {0} ?\nNota: è impossibile annullare questa azione.</value>
+  </data>
+  <data name="ConfirmTemplateDeleting">
+    <value>Sei sicuro di voler eliminare modello (i)?</value>
+  </data>
+  <data name="CreateNewTask">
+    <value>Aggiungi nuovo compito</value>
+  </data>
+  <data name="DeleteThisFile">
+    <value>Sei sicuro di voler eliminare il file {0} ?\nNota: è impossibile annullare questa azione.</value>
+  </data>
+  <data name="DeleteThisMessage">
+    <value>Sei sicuro di voler eliminare questo messaggio?\nNota: è impossibile annullare questa azione.</value>
+  </data>
+  <data name="DeleteThisMilectone">
+    <value>Sei sicuro di voler eliminare questa milestone?\nNota: è impossibile annullare questa azione.</value>
+  </data>
+  <data name="DeleteThisProject">
+    <value>Sei sicuro di voler eliminare questo progetto ?\nNota: è impossibile annullare questa azione.</value>
+  </data>
+  <data name="DeleteThisProjectTemplate">
+    <value>Sei sicuro di voler eliminare questo modello di progetto?\nNota: è impossibile annullare questa azione.</value>
+  </data>
+  <data name="DeleteThisTask">
+    <value>Sei sicuro di voler eliminare il compito {0} ?\nNota: è impossibile annullare questa azione.</value>
+  </data>
+  <data name="EditCategories">
+    <value>Modifica categorie</value>
+  </data>
+  <data name="EditFunctionIsLocked">
+    <value>E' impossibile modificare questa milestone, perchè contiene già i compiti.</value>
+  </data>
+  <data name="EditThisTask">
+    <value>Modifica compito</value>
+  </data>
+  <data name="EmptyDescription">
+    <value>Descrivi che cosa hai fatto durante questo periodo di tempo.</value>
+  </data>
+  <data name="EmptyHoursCount">
+    <value>Determina il tempo passato</value>
+  </data>
+  <data name="EmptyMessageTitle">
+    <value>Ogni messaggio deve avere un titolo</value>
+  </data>
+  <data name="EmptyProjectManager">
+    <value>Ogni progetto deve avere un capo</value>
+  </data>
+  <data name="EmptyProjectTitle">
+    <value>Ogni progetto deve avere un titolo</value>
+  </data>
+  <data name="EmptyTaskTitle">
+    <value>Ogni compito deve avere un titolo</value>
+  </data>
+  <data name="ErrorCategoryNotChanged">
+    <value>Errore! E' impossibile cambiare la categoria. Aggiorna la pagina e riprova.</value>
+  </data>
+  <data name="Expand">
+    <value>Visualizza</value>
+  </data>
+  <data name="FileSizeNote">
+    <value>Nota: la dimensione file non può superare 100 MB.</value>
+  </data>
+  <data name="HideFilters">
+    <value>Nascondi filtri</value>
+  </data>
+  <data name="HideTemplate">
+    <value>Nascondi modello</value>
+  </data>
+  <data name="IncorrectDate">
+    <value>Il formato data non è valido</value>
+  </data>
+  <data name="kB">
+    <value>Kb</value>
+  </data>
+  <data name="MB">
+    <value>Mb</value>
+  </data>
+  <data name="NotifyManagerAboutIssueCompleted">
+    <value>Una notifica sulla risoluzione del problema è stata inviata al capo progetto.</value>
+  </data>
+  <data name="NotifyManagerAboutTaskCompleted">
+    <value>Una notifica sul completamento del compito è stata inviata al capo progetto</value>
+  </data>
+  <data name="NotifyResponsibleAboutTask">
+    <value>Una notifica è stata inviata al responsabile</value>
+  </data>
+  <data name="OnlyOneMilestone">
+    <value>E' possibile pianificare una sola milestone per giorno</value>
+  </data>
+  <data name="ProjectTeamIsNull">
+    <value>Nessun impiegato in progetto</value>
+  </data>
+  <data name="Remove">
+    <value>Elimina</value>
+  </data>
+  <data name="SaveChanges">
+    <value>Salva modifiche</value>
+  </data>
+  <data name="SavingMessage">
+    <value>Salvataggio di messaggio...</value>
+  </data>
+  <data name="SelectedActionInfo">
+    <value>Seleziona azione</value>
+  </data>
+  <data name="SelectedTasksInfo">
+    <value>Seleziona compiti</value>
+  </data>
+  <data name="SelectedTemplatesInfo">
+    <value>Seleziona modelli</value>
+  </data>
+  <data name="SwitchToTaskList">
+    <value>Vai ai compiti di progetto</value>
+  </data>
+  <data name="SwitchToToDoList">
+    <value>Visualizza lista personale di cose da fare</value>
+  </data>
+  <data name="TaskActionCreateInfoBlock">
+    <value>Il capo progetto riceverà una notifica per email</value>
+  </data>
+  <data name="TrashEmpty">
+    <value>Il cestino è vuoto.</value>
+  </data>
+  <data name="UntitledMilestone">
+    <value>Milestone senza titolo</value>
+  </data>
+  <data name="Uploading">
+    <value>Caricamento in corso....</value>
+  </data>
+  <data name="UploadingCompleted">
+    <value>Caricato</value>
+  </data>
+  <data name="UploadingFile">
+    <value>Caricamento file «{0}» in corso....</value>
+  </data>
+  <data name="ViewFilters">
+    <value>Visualizza filtri</value>
+  </data>
+  <data name="ViewTemplate">
+    <value>Visualizza modello</value>
+  </data>
+</root>

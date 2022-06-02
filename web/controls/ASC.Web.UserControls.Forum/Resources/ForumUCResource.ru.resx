@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="All">
+    <value>Все</value>
+  </data>
+  <data name="ApproveButton">
+    <value>Разрешить</value>
+  </data>
+  <data name="AttachFiles">
+    <value>Присоединенные файлы</value>
+  </data>
+  <data name="BackLink">
+    <value>Назад</value>
+  </data>
+  <data name="CancelButton">
+    <value>Отмена</value>
+  </data>
+  <data name="ClearStickyTopicButton">
+    <value>Открепить</value>
+  </data>
+  <data name="CloseTopicButton">
+    <value>Закрыть</value>
+  </data>
+  <data name="ConfirmMessage">
+    <value>Вы действительно хотите выполнить это действие?</value>
+  </data>
+  <data name="DeleteButton">
+    <value>Удалить</value>
+  </data>
+  <data name="EditButton">
+    <value>Редактировать</value>
+  </data>
+  <data name="Edited">
+    <value>Отредактировано</value>
+  </data>
+  <data name="ErrorAccessDenied">
+    <value>Недостаточно прав для выполнения данной операции</value>
+  </data>
+  <data name="ErrorDeletePost">
+    <value>Произошла ошибка при удалении сообщения</value>
+  </data>
+  <data name="ErrorDeleteTopic">
+    <value>Произошла ошибка при удалении темы</value>
+  </data>
+  <data name="ErrorPollVariantCount">
+    <value>Введите хотя бы 2 варианта ответа</value>
+  </data>
+  <data name="ErrorSubjectEmpty">
+    <value>Введите название темы</value>
+  </data>
+  <data name="ErrorTextEmpty">
+    <value>Введите сообщение</value>
+  </data>
+  <data name="ErrorUnknownCreateAttachment">
+    <value>Неизвестная ошибка присоединения файлов</value>
+  </data>
+  <data name="ErrorUnknownCreatePost">
+    <value>Неизвестная ошибка при создании сообщения</value>
+  </data>
+  <data name="ErrorUnknownCreateQuestion">
+    <value>Неизвестная ошибка при создании опроса</value>
+  </data>
+  <data name="ErrorUnknownCreateTopic">
+    <value>Неизвестная ошибка при создании темы</value>
+  </data>
+  <data name="ExistsReferencesChildPosts">
+    <value>Сообщение не может быть удалено, т.к. есть сообщения, ссылающиеся на него</value>
+  </data>
+  <data name="FileUploadAddButton">
+    <value>Прикрепить файл</value>
+  </data>
+  <data name="FileUploadPleaseWait">
+    <value>Пожалуйста, подождите...</value>
+  </data>
+  <data name="HelpForTags">
+    <value>Введите необходимые теги в поле через запятую</value>
+  </data>
+  <data name="HideButton">
+    <value>Закрыть</value>
+  </data>
+  <data name="MaximumAttachmentSize">
+    <value>Максимальный размер присоединяемого файла не может превышать {0} МБ</value>
+  </data>
+  <data name="Message">
+    <value>Сообщение</value>
+  </data>
+  <data name="ModeratorFunctions">
+    <value>Функции модератора</value>
+  </data>
+  <data name="NameEmptyString">
+    <value>Введите название</value>
+  </data>
+  <data name="NewPostButton">
+    <value>Добавить новое сообщение</value>
+  </data>
+  <data name="OpenTopicButton">
+    <value>Открыть</value>
+  </data>
+  <data name="OverallProgress">
+    <value>Общий прогресс</value>
+  </data>
+  <data name="PagePreview">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Пожалуйста, подождите...</value>
+  </data>
+  <data name="PollActionText">
+    <value>создан опрос</value>
+  </data>
+  <data name="PollVoteActionText">
+    <value>проголосовано</value>
+  </data>
+  <data name="PostActionText">
+    <value>добавлено сообщение</value>
+  </data>
+  <data name="PostCount">
+    <value>Сообщений</value>
+  </data>
+  <data name="PreviewButton">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="PublishButton">
+    <value>Опубликовать</value>
+  </data>
+  <data name="QuestionEmptyMessage">
+    <value>Введите вопрос</value>
+  </data>
+  <data name="Quote">
+    <value>Цитировать</value>
+  </data>
+  <data name="QuoteCaptioon_Wrote">
+    <value>написал</value>
+  </data>
+  <data name="RecentPostFromTopic">
+    <value>Последние сообщения в теме</value>
+  </data>
+  <data name="RecentUpdate">
+    <value>Последнее обновление</value>
+  </data>
+  <data name="Reply">
+    <value>Ответить</value>
+  </data>
+  <data name="SaveButton">
+    <value>Сохранить</value>
+  </data>
+  <data name="SendMessageButton">
+    <value>Отправить</value>
+  </data>
+  <data name="StickyTopicButton">
+    <value>Прикрепить</value>
+  </data>
+  <data name="SubjectEmptyMessage">
+    <value>Введите название темы</value>
+  </data>
+  <data name="SubscribeOnTopic">
+    <value>Подписаться на сообщения в этой теме</value>
+  </data>
+  <data name="SuccessfullyClearStickyTopicMessage">
+    <value>Тема была успешно откреплена</value>
+  </data>
+  <data name="SuccessfullyCloseTopicMessage">
+    <value>Тема была успешно закрыта</value>
+  </data>
+  <data name="SuccessfullyDeleteAttachmentMessage">
+    <value>Присоединенный файл успешно удален</value>
+  </data>
+  <data name="SuccessfullyDeletePostMessage">
+    <value>Сообщение успешно удалено</value>
+  </data>
+  <data name="SuccessfullyDeleteTopicMessage">
+    <value>Тема была успешно удалена</value>
+  </data>
+  <data name="SuccessfullyEditTopicMessage">
+    <value>Тема была успешно отредактирована</value>
+  </data>
+  <data name="SuccessfullyOpenTopicMessage">
+    <value>Тема была успешно открыта</value>
+  </data>
+  <data name="SuccessfullyStickyTopicMessage">
+    <value>Тема была успешно прикреплена</value>
+  </data>
+  <data name="Tags">
+    <value>Теги</value>
+  </data>
+  <data name="TextEmptyMessage">
+    <value>Введите сообщение</value>
+  </data>
+  <data name="Thread">
+    <value>Форум</value>
+  </data>
+  <data name="Today">
+    <value>Сегодня</value>
+  </data>
+  <data name="Topic">
+    <value>Тема</value>
+  </data>
+  <data name="TopicActionText">
+    <value>создана тема</value>
+  </data>
+  <data name="TopicClearStickyActionText">
+    <value>откреплена тема</value>
+  </data>
+  <data name="TopicCloseActionText">
+    <value>закрыта тема</value>
+  </data>
+  <data name="TopicEditActionText">
+    <value>отредактирована тема</value>
+  </data>
+  <data name="TopicOpenActionText">
+    <value>открыта тема</value>
+  </data>
+  <data name="TopicRemoveActionText">
+    <value>удалена тема</value>
+  </data>
+  <data name="TopicStickyActionText">
+    <value>прикреплена тема</value>
+  </data>
+  <data name="ViewCount">
+    <value>Просмотров</value>
+  </data>
+  <data name="Yesterday">
+    <value>Вчера</value>
+  </data>
+</root>

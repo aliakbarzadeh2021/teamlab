@@ -1,0 +1,15 @@
+﻿
+\Products\
+\addons\
+\logs\
+\Data\
+\_source\
+.log
+.afp
+.cfc
+.cfm
+.lasso
+.php
+.pl
+.py
+.txt

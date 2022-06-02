@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accept">
+    <value>接受任务</value>
+  </data>
+  <data name="ActiveTaskCheckBoxTooltip">
+    <value>点击这里关闭任务</value>
+  </data>
+  <data name="AddNewTask">
+    <value>添加新任务</value>
+  </data>
+  <data name="AddTask">
+    <value>添加新任务</value>
+  </data>
+  <data name="AddThisTask">
+    <value>添加此任务</value>
+  </data>
+  <data name="AddToDo">
+    <value>新增待办事项</value>
+  </data>
+  <data name="All">
+    <value>所有</value>
+  </data>
+  <data name="AllActiveTasks">
+    <value>所有正在进行的任务</value>
+  </data>
+  <data name="AllTasks">
+    <value>所有任务</value>
+  </data>
+  <data name="AssociateToMilestone">
+    <value>分配到里程碑</value>
+  </data>
+  <data name="BrowseClosed">
+    <value>显示关闭的待办事项</value>
+  </data>
+  <data name="ChangeStatus">
+    <value>切换状态</value>
+  </data>
+  <data name="ClosedTaskCheckBoxTooltip">
+    <value>点击这里恢复任务</value>
+  </data>
+  <data name="CompleteTask">
+    <value>完成任务</value>
+  </data>
+  <data name="CreatingDate">
+    <value>创建日期</value>
+  </data>
+  <data name="DaysLeft">
+    <value>天剩余时间</value>
+  </data>
+  <data name="DeadLine">
+    <value>截止日期</value>
+  </data>
+  <data name="EmptyScreenAllActiveTasksHeaderContent">
+    <value>项目中没有正在进行的任务</value>
+  </data>
+  <data name="EmptyScreenAllTasksHeaderContent">
+    <value>项目中没有任务</value>
+  </data>
+  <data name="EmptyScreenByUserActiveTasksHeaderContent">
+    <value>没有正在进行的任务分配给«{0}»</value>
+  </data>
+  <data name="EmptyScreenByUserTasksHeaderContent">
+    <value>没有任务分配给 «{0}»</value>
+  </data>
+  <data name="EmptyScreenHeaderContent">
+    <value>为这个项目添加第一个任务</value>
+  </data>
+  <data name="EmptyScreenHeaderDescribe">
+    <value>添加任务，并完成任务，规定由谁来负责任务，管理团队的工作。</value>
+  </data>
+  <data name="EmptyScreenMyTasksHeaderContent">
+    <value>没有任务分配给您</value>
+  </data>
+  <data name="EmptyScreenTaskTemplate">
+    <value>为这个项目模板添加第一个任务</value>
+  </data>
+  <data name="EmptyScreenTaskTemplateDescription">
+    <value>添加任务，把他们分配给里程碑，规定由谁来负责。</value>
+  </data>
+  <data name="ExampleToDo">
+    <value>例如: 今天下午3:00到下午4:00约见John Doe</value>
+  </data>
+  <data name="FilesToTheTask">
+    <value>任务的文件</value>
+  </data>
+  <data name="HideClosedTasks">
+    <value>隐藏关闭的任务</value>
+  </data>
+  <data name="HighPriority_Title">
+    <value>高优先级</value>
+  </data>
+  <data name="LowPriority_Title">
+    <value>低优先级</value>
+  </data>
+  <data name="MarkedAS">
+    <value>标示为</value>
+  </data>
+  <data name="MoveTaskToAnotherMilestone">
+    <value>移动任务到其他的里程碑</value>
+  </data>
+  <data name="MoveToMilestone">
+    <value>移动到里程碑</value>
+  </data>
+  <data name="MyNewTasks">
+    <value>我的新任务</value>
+  </data>
+  <data name="MyTasks">
+    <value>我的任务</value>
+  </data>
+  <data name="None">
+    <value>没有</value>
+  </data>
+  <data name="OneList">
+    <value>一个列表</value>
+  </data>
+  <data name="PersonalToDo">
+    <value>个人待办事项列表</value>
+  </data>
+  <data name="Priority">
+    <value>优先级</value>
+  </data>
+  <data name="ProjectsMilestones">
+    <value>项目/里程碑</value>
+  </data>
+  <data name="Remind">
+    <value>提醒任务有关的责任人</value>
+  </data>
+  <data name="SavingTask">
+    <value>正在保存任务...</value>
+  </data>
+  <data name="ShowClosedTasks">
+    <value>显示关闭的任务</value>
+  </data>
+  <data name="ShowMore">
+    <value>显示更多</value>
+  </data>
+  <data name="ShowTasksWithoutResponsible">
+    <value>显示没有人负责的任务</value>
+  </data>
+  <data name="Start">
+    <value>开始</value>
+  </data>
+  <data name="SwitchToTaskList">
+    <value>切换到项目任务</value>
+  </data>
+  <data name="SwitchToToDoList">
+    <value>切换到个人待办事项</value>
+  </data>
+  <data name="Task">
+    <value>任务</value>
+  </data>
+  <data name="TaskClosed">
+    <value>完成</value>
+  </data>
+  <data name="TaskDeadlineLateInfo">
+    <value>延迟自</value>
+  </data>
+  <data name="TaskDescription">
+    <value>任务描述</value>
+  </data>
+  <data name="TaskList">
+    <value>任务列表</value>
+  </data>
+  <data name="TaskNotFound_Body">
+    <value>它可能已经被删除，或者项目里没有这个ID的任务</value>
+  </data>
+  <data name="TaskNotFound_Header">
+    <value>没有找到任务</value>
+  </data>
+  <data name="TaskNotFound_RedirectTitle">
+    <value>转到任务列表</value>
+  </data>
+  <data name="TaskOpen">
+    <value>启动任务</value>
+  </data>
+  <data name="TaskProducer">
+    <value>创建者</value>
+  </data>
+  <data name="TaskReopen">
+    <value>恢复</value>
+  </data>
+  <data name="TaskResponsible">
+    <value>分配给</value>
+  </data>
+  <data name="Tasks">
+    <value>任务</value>
+  </data>
+  <data name="TasksByParticipant">
+    <value>团队成员的任务</value>
+  </data>
+  <data name="TasksByParticipantHeader">
+    <value>任务分配给 «{0}»</value>
+  </data>
+  <data name="TaskStopExecute">
+    <value>暂停</value>
+  </data>
+  <data name="TaskTitle">
+    <value>任务标题</value>
+  </data>
+  <data name="Tommorow">
+    <value>明天</value>
+  </data>
+  <data name="UnsortedTask">
+    <value>未分类的任务</value>
+  </data>
+  <data name="WhatDoYouWant">
+    <value>您想做什么？</value>
+  </data>
+  <data name="WillBeMovedToMilestone">
+    <value>将会被移动到里程碑</value>
+  </data>
+  <data name="WithoutResponsible">
+    <value>没有人</value>
+  </data>
+</root>

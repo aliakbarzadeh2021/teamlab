@@ -1,0 +1,1480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{11ACB4CA-A305-4CAA-8546-392C6DAFC7C4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ASC.Web.Projects</RootNamespace>
+    <AssemblyName>ASC.Web.Projects</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <TrunkDir>..\..\..\..\..\</TrunkDir>
+    <RedDir Condition=" '$(RedDir)' == '' ">$(TrunkDir)redistributable\asc\</RedDir>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxPro.2, Version=7.7.31.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\third-party\Web\AjaxPro.2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Core.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.Core.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Data.Storage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.Data.Storage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Web.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.Web.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Web.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\asc\ASC.Web.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Web.Files, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Files\bin\ASC.Web.Files.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASC.Web.Studio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\ASC.Web.Studio.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BasecampRestAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\third-party\BaseCampRestAPI-1.1.0\BasecampRestAPI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FredCK.FCKeditorV2, Version=2.6.3.22451, Culture=neutral, PublicKeyToken=4f86767c9b519a06, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\FredCK.FCKeditorV2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\redistributable\third-party\log4net\log4net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="js\common.js" />
+    <Content Include="js\controls.js" />
+    <Content Include="js\files.js" />
+    <Content Include="js\messages.js" />
+    <Content Include="js\milestones.js" />
+    <Content Include="js\projects.js" />
+    <Content Include="js\tasks.js" />
+    <Content Include="Messages.aspx" />
+    <Content Include="Milestones.aspx" />
+    <Content Include="Projects.aspx" />
+    <Content Include="Tasks.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\FileEngine2.cs" />
+    <Compile Include="Configuration\JavaScriptResourceSerialize.cs" />
+    <Compile Include="Classes\ModuleManager.cs" />
+    <Compile Include="Classes\ReportHelper.cs" />
+    <Compile Include="Classes\Global.cs" />
+    <Compile Include="Classes\PathProvider.cs" />
+    <Compile Include="Classes\ReportInfo.cs" />
+    <Compile Include="Classes\ReportTransformer.cs" />
+    <Compile Include="Classes\RequestContext.cs" />
+    <Compile Include="Classes\TaskHelper.cs" />
+    <Compile Include="Classes\UrlConstant.cs" />
+    <Compile Include="Classes\UrlParameters.cs" />
+    <Compile Include="Configuration\GlobalHandler.cs" />
+    <Compile Include="Classes\BasePage.cs">
+    </Compile>
+    <Compile Include="Classes\BaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuration\ImportFromBasecamp.cs" />
+    <Compile Include="Configuration\ProductEntryPoint.cs" />
+    <Compile Include="Classes\FileUploaderHandler.cs" />
+    <Compile Include="Configuration\ProductSubscriptionManager.cs" />
+    <Compile Include="Configuration\ProjectsSpaceUsageStatManager.cs" />
+    <Compile Include="Configuration\SearchHandler.cs" />
+    <Compile Include="Configuration\WhatsNewHandler.cs" />
+    <Compile Include="Controls\Common\ChoiseOfTimeInterval.ascx.cs">
+      <DependentUpon>ChoiseOfTimeInterval.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Common\ChoiseOfTimeInterval.ascx.designer.cs">
+      <DependentUpon>ChoiseOfTimeInterval.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Common\ElementNotFoundControl.cs" />
+    <Compile Include="Controls\Common\EmptyScreenControl.cs" />
+    <Compile Include="Controls\Common\PopUpRequest.ascx.cs">
+      <DependentUpon>PopUpRequest.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Common\PopUpRequest.ascx.designer.cs">
+      <DependentUpon>PopUpRequest.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Common\RecentActivitySideBoxBody.ascx.cs">
+      <DependentUpon>RecentActivitySideBoxBody.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Common\RecentActivitySideBoxBody.ascx.designer.cs">
+      <DependentUpon>RecentActivitySideBoxBody.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Common\Request.ascx.cs">
+      <DependentUpon>Request.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Common\Request.ascx.designer.cs">
+      <DependentUpon>Request.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Common\SearchView.ascx.cs">
+      <DependentUpon>SearchView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Common\SearchView.ascx.designer.cs">
+      <DependentUpon>SearchView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Common\TimeLineView.ascx.cs">
+      <DependentUpon>TimeLineView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Common\TimeLineView.ascx.designer.cs">
+      <DependentUpon>TimeLineView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Dashboard\AddContentDialogView.ascx.cs">
+      <DependentUpon>AddContentDialogView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Dashboard\AddContentDialogView.ascx.designer.cs">
+      <DependentUpon>AddContentDialogView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Dashboard\DashboardEmptyScreen.ascx.cs">
+      <DependentUpon>DashboardEmptyScreen.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Dashboard\DashboardEmptyScreen.ascx.designer.cs">
+      <DependentUpon>DashboardEmptyScreen.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Dashboard\FollowingProjectsWidget.ascx.cs">
+      <DependentUpon>FollowingProjectsWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Dashboard\FollowingProjectsWidget.ascx.designer.cs">
+      <DependentUpon>FollowingProjectsWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Dashboard\RecentActivityWidget.ascx.cs">
+      <DependentUpon>RecentActivityWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Dashboard\RecentActivityWidget.ascx.designer.cs">
+      <DependentUpon>RecentActivityWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Dashboard\MessagesWidget.ascx.cs">
+      <DependentUpon>MessagesWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Dashboard\MessagesWidget.ascx.designer.cs">
+      <DependentUpon>MessagesWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Dashboard\LateMilestonesWidget.ascx.cs">
+      <DependentUpon>LateMilestonesWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Dashboard\LateMilestonesWidget.ascx.designer.cs">
+      <DependentUpon>LateMilestonesWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Dashboard\MyProjectsWidget.ascx.cs">
+      <DependentUpon>MyProjectsWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Dashboard\MyProjectsWidget.ascx.designer.cs">
+      <DependentUpon>MyProjectsWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Dashboard\NewProjectsWidget.ascx.cs">
+      <DependentUpon>NewProjectsWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Dashboard\NewProjectsWidget.ascx.designer.cs">
+      <DependentUpon>NewProjectsWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Dashboard\UpcomingMilestonesWidget.ascx.cs">
+      <DependentUpon>UpcomingMilestonesWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Dashboard\UpcomingMilestonesWidget.ascx.designer.cs">
+      <DependentUpon>UpcomingMilestonesWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Dashboard\MyNewTasksWidget.ascx.cs">
+      <DependentUpon>MyNewTasksWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Dashboard\MyNewTasksWidget.ascx.designer.cs">
+      <DependentUpon>MyNewTasksWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\ProjectsWidgetSettingsProvider.cs" />
+    <Compile Include="Controls\IssueTracker\AddIssueDialogView.ascx.cs">
+      <DependentUpon>AddIssueDialogView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\IssueTracker\AddIssueDialogView.ascx.designer.cs">
+      <DependentUpon>AddIssueDialogView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IssueTracker\IssueDetailsView.ascx.cs">
+      <DependentUpon>IssueDetailsView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\IssueTracker\IssueDetailsView.ascx.designer.cs">
+      <DependentUpon>IssueDetailsView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IssueTracker\IssueItemView.ascx.cs">
+      <DependentUpon>IssueItemView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\IssueTracker\IssueItemView.ascx.designer.cs">
+      <DependentUpon>IssueItemView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IssueTracker\ListIssueTrackerView.ascx.cs">
+      <DependentUpon>ListIssueTrackerView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\IssueTracker\ListIssueTrackerView.ascx.designer.cs">
+      <DependentUpon>ListIssueTrackerView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Messages\ListMessageView.ascx.cs">
+      <DependentUpon>ListMessageView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Messages\ListMessageView.ascx.designer.cs">
+      <DependentUpon>ListMessageView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Messages\MessageActionView.ascx.cs">
+      <DependentUpon>MessageActionView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Messages\MessageActionView.ascx.designer.cs">
+      <DependentUpon>MessageActionView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Messages\MessageDetailsView.ascx.cs">
+      <DependentUpon>MessageDetailsView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Messages\MessageDetailsView.ascx.designer.cs">
+      <DependentUpon>MessageDetailsView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Messages\MessageView.ascx.cs">
+      <DependentUpon>MessageView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Messages\MessageView.ascx.designer.cs">
+      <DependentUpon>MessageView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Milestones\ListMilestonesView.ascx.cs">
+      <DependentUpon>ListMilestonesView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Milestones\ListMilestonesView.ascx.designer.cs">
+      <DependentUpon>ListMilestonesView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Milestones\MilestoneActionView.ascx.cs">
+      <DependentUpon>MilestoneActionView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Milestones\MilestoneActionView.ascx.designer.cs">
+      <DependentUpon>MilestoneActionView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Milestones\MilestoneDetailsView.ascx.cs">
+      <DependentUpon>MilestoneDetailsView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Milestones\MilestoneDetailsView.ascx.designer.cs">
+      <DependentUpon>MilestoneDetailsView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Projects\ClosedProjectTeamView.ascx.cs">
+      <DependentUpon>ClosedProjectTeamView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Projects\ClosedProjectTeamView.ascx.designer.cs">
+      <DependentUpon>ClosedProjectTeamView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Projects\ListMilestonesViewForProjectPage.ascx.cs">
+      <DependentUpon>ListMilestonesViewForProjectPage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Projects\ListMilestonesViewForProjectPage.ascx.designer.cs">
+      <DependentUpon>ListMilestonesViewForProjectPage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Projects\ListProjectView.ascx.cs">
+      <DependentUpon>ListProjectView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Projects\ListProjectView.ascx.designer.cs">
+      <DependentUpon>ListProjectView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Projects\ProjectActionView.ascx.cs">
+      <DependentUpon>ProjectActionView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Projects\ProjectActionView.ascx.designer.cs">
+      <DependentUpon>ProjectActionView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Projects\ProjectActivity.ascx.cs">
+      <DependentUpon>ProjectActivity.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Projects\ProjectActivity.ascx.designer.cs">
+      <DependentUpon>ProjectActivity.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Projects\ProjectDetailsView.ascx.cs">
+      <DependentUpon>ProjectDetailsView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Projects\ProjectDetailsView.ascx.designer.cs">
+      <DependentUpon>ProjectDetailsView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Projects\ProjectTeamView.ascx.cs">
+      <DependentUpon>ProjectTeamView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Projects\ProjectTeamView.ascx.designer.cs">
+      <DependentUpon>ProjectTeamView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Messages\ListMessageTemplateView.ascx.cs">
+      <DependentUpon>ListMessageTemplateView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Messages\ListMessageTemplateView.ascx.designer.cs">
+      <DependentUpon>ListMessageTemplateView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Messages\MessagePreviewTemplate.ascx.cs">
+      <DependentUpon>MessagePreviewTemplate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Messages\MessagePreviewTemplate.ascx.designer.cs">
+      <DependentUpon>MessagePreviewTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Messages\MessageTemplateDetails.ascx.cs">
+      <DependentUpon>MessageTemplateDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Messages\MessageTemplateDetails.ascx.designer.cs">
+      <DependentUpon>MessageTemplateDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Messages\MessageViewTemplate.ascx.cs">
+      <DependentUpon>MessageViewTemplate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Messages\MessageViewTemplate.ascx.designer.cs">
+      <DependentUpon>MessageViewTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Milestones\ListMilestonesTemplate.ascx.cs">
+      <DependentUpon>ListMilestonesTemplate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Milestones\ListMilestonesTemplate.ascx.designer.cs">
+      <DependentUpon>ListMilestonesTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Milestones\MilestoneDetailsTemplateView.ascx.cs">
+      <DependentUpon>MilestoneDetailsTemplateView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Milestones\MilestoneDetailsTemplateView.ascx.designer.cs">
+      <DependentUpon>MilestoneDetailsTemplateView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\ProjectTemplateItem.ascx.cs">
+      <DependentUpon>ProjectTemplateItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\ProjectTemplateItem.ascx.designer.cs">
+      <DependentUpon>ProjectTemplateItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\ProjectTemplatesConst.cs" />
+    <Compile Include="Controls\ProjectTemplates\ProjectTemplatesUtil.cs" />
+    <Compile Include="Controls\ProjectTemplates\Tasks\ListTaskTemplateView.ascx.cs">
+      <DependentUpon>ListTaskTemplateView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Tasks\ListTaskTemplateView.ascx.designer.cs">
+      <DependentUpon>ListTaskTemplateView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Tasks\MoveTaskTemplateView.ascx.cs">
+      <DependentUpon>MoveTaskTemplateView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Tasks\MoveTaskTemplateView.ascx.designer.cs">
+      <DependentUpon>MoveTaskTemplateView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Tasks\TaskActionTemplateView.ascx.cs">
+      <DependentUpon>TaskActionTemplateView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Tasks\TaskActionTemplateView.ascx.designer.cs">
+      <DependentUpon>TaskActionTemplateView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Tasks\TaskBlockTemplateView.ascx.cs">
+      <DependentUpon>TaskBlockTemplateView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Tasks\TaskBlockTemplateView.ascx.designer.cs">
+      <DependentUpon>TaskBlockTemplateView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Tasks\TaskBlockViewTemplateRow.ascx.cs">
+      <DependentUpon>TaskBlockViewTemplateRow.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Tasks\TaskBlockViewTemplateRow.ascx.designer.cs">
+      <DependentUpon>TaskBlockViewTemplateRow.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Tasks\TaskDetailsTemplateView.ascx.cs">
+      <DependentUpon>TaskDetailsTemplateView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectTemplates\Tasks\TaskDetailsTemplateView.ascx.designer.cs">
+      <DependentUpon>TaskDetailsTemplateView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Reports\ReportFilters.ascx.cs">
+      <DependentUpon>ReportFilters.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Reports\ReportFilters.ascx.designer.cs">
+      <DependentUpon>ReportFilters.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Reports\ReportTemplateView.ascx.cs">
+      <DependentUpon>ReportTemplateView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Reports\ReportTemplateView.ascx.designer.cs">
+      <DependentUpon>ReportTemplateView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tasks\ClosedTaskBlockViewRow.ascx.cs">
+      <DependentUpon>ClosedTaskBlockViewRow.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\ClosedTaskBlockViewRow.ascx.designer.cs">
+      <DependentUpon>ClosedTaskBlockViewRow.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tasks\ListTaskView.ascx.cs">
+      <DependentUpon>ListTaskView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\ListTaskView.ascx.designer.cs">
+      <DependentUpon>ListTaskView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tasks\MoveTaskView.ascx.cs">
+      <DependentUpon>MoveTaskView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\MoveTaskView.ascx.designer.cs">
+      <DependentUpon>MoveTaskView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tasks\TaskActionView.ascx.cs">
+      <DependentUpon>TaskActionView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\TaskActionView.ascx.designer.cs">
+      <DependentUpon>TaskActionView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tasks\OpenTaskBlockViewRow.ascx.cs">
+      <DependentUpon>OpenTaskBlockViewRow.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\OpenTaskBlockViewRow.ascx.designer.cs">
+      <DependentUpon>OpenTaskBlockViewRow.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tasks\TaskDetailsView.ascx.cs">
+      <DependentUpon>TaskDetailsView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\TaskDetailsView.ascx.designer.cs">
+      <DependentUpon>TaskDetailsView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tasks\TaskBlockView.ascx.cs">
+      <DependentUpon>TaskBlockView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\TaskBlockView.ascx.designer.cs">
+      <DependentUpon>TaskBlockView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Reports\TemplateList.ascx.cs">
+      <DependentUpon>TemplateList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Reports\TemplateList.ascx.designer.cs">
+      <DependentUpon>TemplateList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TimeSpends\TimeSpendActionView.ascx.cs">
+      <DependentUpon>TimeSpendActionView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TimeSpends\TimeSpendActionView.ascx.designer.cs">
+      <DependentUpon>TimeSpendActionView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TimeSpends\TimeSpendEditView.ascx.cs">
+      <DependentUpon>TimeSpendEditView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TimeSpends\TimeSpendEditView.ascx.designer.cs">
+      <DependentUpon>TimeSpendEditView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TimeSpends\TimeSpendRecord.ascx.cs">
+      <DependentUpon>TimeSpendRecord.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TimeSpends\TimeSpendRecord.ascx.designer.cs">
+      <DependentUpon>TimeSpendRecord.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TimeSpends\TimeSpendTimer.ascx.cs">
+      <DependentUpon>TimeSpendTimer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TimeSpends\TimeSpendTimer.ascx.designer.cs">
+      <DependentUpon>TimeSpendTimer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Trash\TrashActionPanel.ascx.cs">
+      <DependentUpon>TrashActionPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Trash\TrashActionPanel.ascx.designer.cs">
+      <DependentUpon>TrashActionPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\BasicTemplate.Master.cs">
+      <DependentUpon>BasicTemplate.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\BasicTemplate.Master.designer.cs">
+      <DependentUpon>BasicTemplate.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.aspx.cs">
+      <DependentUpon>Messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.aspx.designer.cs">
+      <DependentUpon>Messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Milestones.aspx.cs">
+      <DependentUpon>Milestones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Milestones.aspx.designer.cs">
+      <DependentUpon>Milestones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyTasks.aspx.cs">
+      <DependentUpon>MyTasks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyTasks.aspx.designer.cs">
+      <DependentUpon>MyTasks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Projects.aspx.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Projects.aspx.designer.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectSettings.aspx.cs">
+      <DependentUpon>ProjectSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectSettings.aspx.designer.cs">
+      <DependentUpon>ProjectSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectTeam.aspx.cs">
+      <DependentUpon>ProjectTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectTeam.aspx.designer.cs">
+      <DependentUpon>ProjectTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectTemplates.aspx.cs">
+      <DependentUpon>ProjectTemplates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectTemplates.aspx.designer.cs">
+      <DependentUpon>ProjectTemplates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\IssueTrackerResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IssueTrackerResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ReportResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TMDocs.aspx.cs">
+      <DependentUpon>TMDocs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TMDocs.aspx.designer.cs">
+      <DependentUpon>TMDocs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TProject\Messages.aspx.cs">
+      <DependentUpon>Messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TProject\Messages.aspx.designer.cs">
+      <DependentUpon>Messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TProject\Milestones.aspx.cs">
+      <DependentUpon>Milestones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TProject\Milestones.aspx.designer.cs">
+      <DependentUpon>Milestones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TProject\Overview.aspx.cs">
+      <DependentUpon>Overview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TProject\Overview.aspx.designer.cs">
+      <DependentUpon>Overview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ProjectsCommonResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectsCommonResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ProjectsFileResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectsFileResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\GrammaticalResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GrammaticalResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ProjectsJSResource.Designer.cs">
+      <DependentUpon>ProjectsJSResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Resources\MessageResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MessageResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\MilestoneResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MilestoneResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ProjectResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\RequestResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RequestResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\SettingsResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SettingsResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TaskResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TaskResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.aspx.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.aspx.designer.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks.aspx.cs">
+      <DependentUpon>Tasks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks.aspx.designer.cs">
+      <DependentUpon>Tasks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates.aspx.cs">
+      <DependentUpon>Templates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates.aspx.designer.cs">
+      <DependentUpon>Templates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TimeTracking.aspx.cs">
+      <DependentUpon>TimeTracking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TimeTracking.aspx.designer.cs">
+      <DependentUpon>TimeTracking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TProject\Tasks.aspx.cs">
+      <DependentUpon>Tasks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TProject\Tasks.aspx.designer.cs">
+      <DependentUpon>Tasks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TProject\Team.aspx.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TProject\Team.aspx.designer.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Data\ASC.Projects.db3" />
+    <Content Include="App_Themes\Brick\Images\top_comb_arrow.gif" />
+    <Content Include="App_Themes\Brick\Images\top_split.gif" />
+    <Content Include="App_Themes\Air\Images\top_comb_arrow.gif" />
+    <Content Include="App_Themes\Air\Images\top_split.gif" />
+    <Content Include="App_Themes\Blue\Images\top_comb_arrow.gif" />
+    <Content Include="App_Themes\Blue\Images\top_split.gif" />
+    <Content Include="App_Themes\Chestnut\Images\top_comb_arrow.gif" />
+    <Content Include="App_Themes\Chestnut\Images\top_split.gif" />
+    <Content Include="App_Themes\Default\Images\clock_active.png" />
+    <Content Include="App_Themes\Default\Images\clock_noactive.png" />
+    <Content Include="App_Themes\Default\Images\start-track.png" />
+    <Content Include="App_Themes\Sand\Images\top_comb_arrow.gif" />
+    <Content Include="App_Themes\Sand\Images\top_split.gif" />
+    <Content Include="App_Themes\Gray\Images\top_comb_arrow.gif" />
+    <Content Include="App_Themes\Gray\Images\top_split.gif" />
+    <Content Include="App_Themes\Emerald\Images\top_comb_arrow.gif" />
+    <Content Include="App_Themes\Emerald\Images\top_split.gif" />
+    <Content Include="App_Themes\Default\css\calendar.css" />
+    <Content Include="App_Themes\Default\css\issueTracker.css" />
+    <Content Include="App_Themes\Default\css\myTasks.css" />
+    <Content Include="App_Themes\Default\css\projecttemplates.css" />
+    <Content Include="App_Themes\Default\css\reportsPrint.css" />
+    <Content Include="App_Themes\Default\Images\button_gray_bg.gif" />
+    <Content Include="App_Themes\Default\Images\button_gray_bg_hover.gif" />
+    <Content Include="App_Themes\Default\Images\button_gray_plus.png" />
+    <Content Include="App_Themes\Default\Images\button_gray_plus_hover.png" />
+    <Content Include="App_Themes\Default\Images\complete.png" />
+    <Content Include="App_Themes\Default\Images\green_checkbox.png" />
+    <Content Include="App_Themes\Default\Images\ico_bell_ani.gif" />
+    <Content Include="App_Themes\Default\Images\loader_12.gif" />
+    <Content Include="App_Themes\Default\Images\lock.png" />
+    <Content Include="App_Themes\Default\Images\pause.png" />
+    <Content Include="App_Themes\Default\Images\pic_template.png" />
+    <Content Include="App_Themes\Default\Images\play.png" />
+    <Content Include="App_Themes\Default\Images\plus.png" />
+    <Content Include="App_Themes\Default\Images\arr_right.png" />
+    <Content Include="App_Themes\Default\Images\bell.png" />
+    <Content Include="App_Themes\Default\Images\delete_small.png" />
+    <Content Include="App_Themes\Default\Images\edit_small.png" />
+    <Content Include="App_Themes\Default\Images\drag.png" />
+    <Content Include="App_Themes\Default\Images\info_off.png" />
+    <Content Include="App_Themes\Default\Images\info_on.png" />
+    <Content Include="App_Themes\Default\Images\refresh.png" />
+    <Content Include="App_Themes\Default\Images\reset.png" />
+    <Content Include="App_Themes\Default\Images\stop.png" />
+    <Content Include="App_Themes\Default\Images\zub-top.png" />
+    <Content Include="App_Themes\Default\Images\status_unclass_border.png" />
+    <Content Include="App_Themes\Default\Images\status_unclass.png" />
+    <Content Include="App_Themes\Default\Images\zub_task.png" />
+    <Content Include="bin\ASC.Data.Storage.dll" />
+    <Content Include="bin\ASC.FullTextIndex.dll" />
+    <Content Include="bin\ASC.Projects.Core.dll" />
+    <Content Include="bin\ASC.Projects.Core.pdb" />
+    <Content Include="bin\ASC.Projects.Data.dll" />
+    <Content Include="bin\ASC.Projects.Data.pdb" />
+    <Content Include="bin\ASC.Projects.Engine.dll" />
+    <Content Include="bin\ASC.Projects.Engine.pdb" />
+    <Content Include="bin\ASC.Thrdparty.dll" />
+    <Content Include="bin\DotNetOpenAuth.ApplicationBlock.dll" />
+    <Content Include="bin\DotNetOpenAuth.dll" />
+    <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\log4net.dll" />
+    <Content Include="bin\log4net.xml" />
+    <Content Include="bin\Microsoft.ServiceModel.Web.dll" />
+    <Content Include="bin\nunit.framework.dll" />
+    <Content Include="bin\nunit.framework.xml" />
+    <Content Include="Controls\Dashboard\DashboardEmptyScreen.ascx" />
+    <Content Include="Controls\IssueTracker\AddIssueDialogView.ascx" />
+    <Content Include="Controls\IssueTracker\IssueDetailsView.ascx" />
+    <Content Include="Controls\IssueTracker\IssueItemView.ascx" />
+    <Content Include="Controls\IssueTracker\ListIssueTrackerView.ascx" />
+    <Content Include="Controls\Projects\ClosedProjectTeamView.ascx" />
+    <Content Include="Controls\ProjectTemplates\Messages\ListMessageTemplateView.ascx" />
+    <Content Include="Controls\ProjectTemplates\Messages\MessagePreviewTemplate.ascx" />
+    <Content Include="Controls\ProjectTemplates\Messages\MessageTemplateDetails.ascx" />
+    <Content Include="Controls\ProjectTemplates\Messages\MessageViewTemplate.ascx" />
+    <Content Include="Controls\ProjectTemplates\Milestones\ListMilestonesTemplate.ascx" />
+    <Content Include="Controls\ProjectTemplates\Milestones\MilestoneDetailsTemplateView.ascx" />
+    <Content Include="Controls\ProjectTemplates\ProjectTemplateItem.ascx" />
+    <Content Include="Controls\ProjectTemplates\Tasks\ListTaskTemplateView.ascx" />
+    <Content Include="Controls\ProjectTemplates\Tasks\MoveTaskTemplateView.ascx" />
+    <Content Include="Controls\ProjectTemplates\Tasks\TaskActionTemplateView.ascx" />
+    <Content Include="Controls\ProjectTemplates\Tasks\TaskBlockTemplateView.ascx" />
+    <Content Include="Controls\ProjectTemplates\Tasks\TaskBlockViewTemplateRow.ascx" />
+    <Content Include="Controls\ProjectTemplates\Tasks\TaskDetailsTemplateView.ascx" />
+    <Content Include="Controls\Reports\ReportFilters.ascx" />
+    <Content Include="Controls\Reports\ReportTemplateView.ascx" />
+    <Content Include="Controls\Reports\TemplateList.ascx" />
+    <Content Include="Controls\Tasks\ClosedTaskBlockViewRow.ascx" />
+    <Content Include="Controls\Tasks\MoveTaskView.ascx" />
+    <Content Include="App_Themes\Default\css\common.css" />
+    <Content Include="App_Themes\Default\css\dashboard.css" />
+    <Content Include="App_Themes\Default\css\files.css" />
+    <Content Include="App_Themes\Default\css\history.css" />
+    <Content Include="App_Themes\Default\css\messages.css" />
+    <Content Include="App_Themes\Default\css\milestones.css" />
+    <Content Include="App_Themes\Default\css\projects.css" />
+    <Content Include="App_Themes\Default\css\projectTeam.css" />
+    <Content Include="App_Themes\Default\css\reports.css" />
+    <Content Include="App_Themes\Default\css\tasks.css" />
+    <Content Include="App_Themes\Default\css\timetracking.css" />
+    <Content Include="App_Themes\Default\css\trash.css" />
+    <Content Include="App_Themes\Default\Images\bg_comment.gif" />
+    <Content Include="App_Themes\Default\Images\bg_file.gif" />
+    <Content Include="App_Themes\Default\Images\bg_message.gif" />
+    <Content Include="App_Themes\Default\Images\bg_milestone.gif" />
+    <Content Include="App_Themes\Default\Images\bg_progress.gif" />
+    <Content Include="App_Themes\Default\Images\bg_project.gif" />
+    <Content Include="App_Themes\Default\Images\bg_task.gif" />
+    <Content Include="App_Themes\Default\Images\bg_team.gif" />
+    <Content Include="App_Themes\Default\Images\calendar.gif" />
+    <Content Include="App_Themes\Default\Images\cal_bg_choose.gif" />
+    <Content Include="App_Themes\Default\Images\cal_bg_closed.gif" />
+    <Content Include="App_Themes\Default\Images\cal_bg_current.gif" />
+    <Content Include="App_Themes\Default\Images\cal_bg_inuse.gif" />
+    <Content Include="App_Themes\Default\Images\cal_bg_open.gif" />
+    <Content Include="App_Themes\Default\Images\cal_bg_timeout.gif" />
+    <Content Include="App_Themes\Default\Images\collapce.gif" />
+    <Content Include="App_Themes\Default\Images\collapce_butt.gif" />
+    <Content Include="App_Themes\Default\Images\collapce_butt_right.gif" />
+    <Content Include="App_Themes\Default\Images\edit.png" />
+    <Content Include="App_Themes\Default\Images\expand.gif" />
+    <Content Include="App_Themes\Default\Images\expand_butt.gif" />
+    <Content Include="App_Themes\Default\Images\fade.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_closebox.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_left.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_progress.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_right.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_shadow_e.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_shadow_n.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_shadow_ne.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_shadow_nw.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_shadow_s.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_shadow_se.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_shadow_sw.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_shadow_w.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_title_left.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_title_main.png" />
+    <Content Include="App_Themes\Default\Images\fancybox\fancy_title_right.png" />
+    <Content Include="App_Themes\Default\Images\filetype\archive.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\archive_16.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\excel.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\excel_16.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\image.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\image_16.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\pdf.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\pdf_16.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\txt.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\txt_16.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\unknown.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\unknown_16.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\word_doc.gif" />
+    <Content Include="App_Themes\Default\Images\filetype\word_doc_16.gif" />
+    <Content Include="App_Themes\Default\Images\help.gif" />
+    <Content Include="App_Themes\Default\Images\key.png" />
+    <Content Include="App_Themes\Default\Images\left.gif" />
+    <Content Include="App_Themes\Default\Images\left_s.gif" />
+    <Content Include="App_Themes\Default\Images\lightbox\lightbox-blank.gif" />
+    <Content Include="App_Themes\Default\Images\lightbox\lightbox-btn-close.gif" />
+    <Content Include="App_Themes\Default\Images\lightbox\lightbox-btn-next.gif" />
+    <Content Include="App_Themes\Default\Images\lightbox\lightbox-btn-prev.gif" />
+    <Content Include="App_Themes\Default\Images\lightbox\lightbox-ico-loading.gif" />
+    <Content Include="App_Themes\Default\Images\milestone_widget.png" />
+    <Content Include="App_Themes\Default\Images\min_collapce.gif" />
+    <Content Include="App_Themes\Default\Images\min_expand.gif" />
+    <Content Include="App_Themes\Default\Images\min_expand_white.gif" />
+    <Content Include="App_Themes\Default\Images\noactive_clock.png" />
+    <Content Include="App_Themes\Default\Images\printer.gif" />
+    <Content Include="App_Themes\Default\Images\prior_hi.png" />
+    <Content Include="App_Themes\Default\Images\prior_lo.png" />
+    <Content Include="App_Themes\Default\Images\product_logo.gif" />
+    <Content Include="App_Themes\Default\Images\product_logo.png" />
+    <Content Include="App_Themes\Default\Images\request.gif" />
+    <Content Include="App_Themes\Default\Images\right.gif" />
+    <Content Include="App_Themes\Default\Images\right_s.gif" />
+    <Content Include="App_Themes\Default\Images\skrepka.gif" />
+    <Content Include="App_Themes\Default\Images\skrepka_32.gif" />
+    <Content Include="App_Themes\Default\Images\status_trash.gif" />
+    <Content Include="App_Themes\Default\Images\status_trash_border.gif" />
+    <Content Include="App_Themes\Default\Images\status_trash_combo.gif" />
+    <Content Include="App_Themes\Default\Images\tasks_widget.png" />
+    <Content Include="App_Themes\Default\Images\time_tracking_task.png" />
+    <Content Include="App_Themes\Default\Images\top_comb_arrow.gif" />
+    <Content Include="App_Themes\Default\Images\top_split.gif" />
+    <Content Include="App_Themes\Default\Images\trash.png" />
+    <Content Include="App_Themes\Default\Images\what_to_read.png" />
+    <Content Include="App_Themes\Default\Images\whiteboard_widget.png" />
+    <Content Include="App_Themes\Default\Images\zub.gif" />
+    <Content Include="Controls\Common\ChoiseOfTimeInterval.ascx" />
+    <Content Include="Controls\Common\PopUpRequest.ascx" />
+    <Content Include="Controls\Common\RecentActivitySideBoxBody.ascx" />
+    <Content Include="Controls\Common\Request.ascx" />
+    <Content Include="Controls\Common\SearchView.ascx" />
+    <Content Include="Controls\Common\TimeLineView.ascx" />
+    <Content Include="Controls\Dashboard\AddContentDialogView.ascx" />
+    <Content Include="Controls\Dashboard\FollowingProjectsWidget.ascx" />
+    <Content Include="Controls\Dashboard\RecentActivityWidget.ascx" />
+    <Content Include="Controls\Dashboard\MessagesWidget.ascx" />
+    <Content Include="Controls\Dashboard\LateMilestonesWidget.ascx" />
+    <Content Include="Controls\Dashboard\MyProjectsWidget.ascx" />
+    <Content Include="Controls\Dashboard\NewProjectsWidget.ascx" />
+    <Content Include="Controls\Dashboard\UpcomingMilestonesWidget.ascx" />
+    <Content Include="Controls\Dashboard\MyNewTasksWidget.ascx" />
+    <Content Include="Controls\Messages\ListMessageView.ascx" />
+    <Content Include="Controls\Messages\MessageActionView.ascx" />
+    <Content Include="Controls\Messages\MessageDetailsView.ascx" />
+    <Content Include="Controls\Messages\MessageView.ascx" />
+    <Content Include="Controls\Projects\ListMilestonesViewForProjectPage.ascx" />
+    <Content Include="Controls\Projects\ProjectActivity.ascx" />
+    <Content Include="Controls\Projects\ProjectTeamView.ascx" />
+    <Content Include="Controls\TimeSpends\TimeSpendActionView.ascx" />
+    <Content Include="Controls\TimeSpends\TimeSpendEditView.ascx" />
+    <Content Include="Controls\TimeSpends\TimeSpendRecord.ascx" />
+    <Content Include="Controls\TimeSpends\TimeSpendTimer.ascx" />
+    <Content Include="Controls\Trash\TrashActionPanel.ascx" />
+    <Content Include="Controls\Milestones\ListMilestonesView.ascx" />
+    <Content Include="Controls\Milestones\MilestoneActionView.ascx" />
+    <Content Include="Controls\Milestones\MilestoneDetailsView.ascx" />
+    <Content Include="Controls\Projects\ListProjectView.ascx" />
+    <Content Include="Controls\Projects\ProjectActionView.ascx" />
+    <Content Include="Controls\Projects\ProjectDetailsView.ascx" />
+    <Content Include="Controls\Tasks\ListTaskView.ascx" />
+    <Content Include="Controls\Tasks\TaskActionView.ascx" />
+    <Content Include="Controls\Tasks\OpenTaskBlockViewRow.ascx" />
+    <Content Include="Controls\Tasks\TaskDetailsView.ascx" />
+    <Content Include="Controls\Tasks\TaskBlockView.ascx" />
+    <Content Include="History.aspx" />
+    <Content Include="js\choise_of_time_interval.js" />
+    <Content Include="js\history.js" />
+    <Content Include="js\issueTracker.js" />
+    <Content Include="js\mytasks.js" />
+    <Content Include="js\projecttemplates.js" />
+    <Content Include="js\reports.js" />
+    <Content Include="js\sorttable.js" />
+    <Content Include="js\timetracking.js" />
+    <Content Include="js\todo.js" />
+    <Content Include="js\trash.js" />
+    <Content Include="Masters\BasicTemplate.Master" />
+    <Content Include="MyTasks.aspx" />
+    <Content Include="ProjectSettings.aspx" />
+    <Content Include="ProjectTeam.aspx" />
+    <Content Include="ProjectTemplates.aspx" />
+    <Content Include="Reports.aspx" />
+    <Content Include="templates\MilestonesExpired.csv.xsl" />
+    <Content Include="templates\MilestonesNearest.csv.xsl" />
+    <Content Include="templates\MyTasks.xsl" />
+    <Content Include="templates\ProjectsList.csv.xsl" />
+    <Content Include="templates\ProjectsWithoutActiveMilestones.csv.xsl" />
+    <Content Include="templates\ProjectsWithoutActiveTasks.csv.xsl" />
+    <Content Include="templates\TasksByProjects.csv.xsl" />
+    <Content Include="templates\TasksByUsers.csv.xsl" />
+    <Content Include="templates\TasksExpired.csv.xsl" />
+    <Content Include="templates\TasksExpired.html.xsl" />
+    <Content Include="templates\TimeSpend_0.csv.xsl" />
+    <Content Include="templates\TimeSpend_1.csv.xsl" />
+    <Content Include="templates\UsersActivity.csv.xsl" />
+    <Content Include="templates\UsersWithoutActiveTasks.csv.xsl" />
+    <Content Include="templates\UsersWorkload.csv.xsl" />
+    <Content Include="TMDocs.aspx" />
+    <Content Include="TProject\Messages.aspx" />
+    <Content Include="TProject\Milestones.aspx" />
+    <Content Include="TProject\Overview.aspx" />
+    <Content Include="Search.aspx" />
+    <Content Include="Settings.aspx" />
+    <Content Include="Templates.aspx" />
+    <Content Include="templates\MilestonesExpired.html.xsl" />
+    <Content Include="templates\MilestonesNearest.html.xsl" />
+    <Content Include="templates\UsersWithoutActiveTasks.html.xsl" />
+    <Content Include="templates\ProjectsWithoutActiveMilestones.html.xsl" />
+    <Content Include="templates\ProjectsWithoutActiveTasks.html.xsl" />
+    <Content Include="templates\UsersWorkload.html.xsl" />
+    <Content Include="templates\email.xsl" />
+    <Content Include="templates\csv.xsl" />
+    <Content Include="templates\ProjectsList.html.xsl" />
+    <Content Include="templates\UsersActivity.html.xsl" />
+    <Content Include="templates\TimeSpend_0.html.xsl" />
+    <Content Include="templates\TimeSpend_1.html.xsl" />
+    <Content Include="templates\TasksByProjects.html.xsl" />
+    <Content Include="templates\TasksByUsers.html.xsl" />
+    <Content Include="TimeTracking.aspx" />
+    <Content Include="TProject\Tasks.aspx" />
+    <Content Include="TProject\Team.aspx" />
+    <Content Include="web.config" />
+    <Content Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+    <Content Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\GrammaticalResource.el.resx" />
+    <EmbeddedResource Include="Resources\GrammaticalResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\IssueTrackerResource.el.resx" />
+    <EmbeddedResource Include="Resources\IssueTrackerResource.pl.resx" />
+    <EmbeddedResource Include="Resources\IssueTrackerResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\MessageResource.el.resx" />
+    <EmbeddedResource Include="Resources\MessageResource.pl.resx" />
+    <EmbeddedResource Include="Resources\MessageResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\MilestoneResource.el.resx" />
+    <EmbeddedResource Include="Resources\MilestoneResource.pl.resx" />
+    <EmbeddedResource Include="Resources\MilestoneResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\ProjectResource.el.resx" />
+    <EmbeddedResource Include="Resources\ProjectResource.pl.resx" />
+    <EmbeddedResource Include="Resources\ProjectResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\ProjectsCommonResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsCommonResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsCommonResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsCommonResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsCommonResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjectsCommonResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsCommonResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsCommonResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsCommonResource.ru.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>CommonResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsCommonResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\ProjectsFileResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsFileResource.el.resx" />
+    <EmbeddedResource Include="Resources\ProjectsFileResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsFileResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsFileResource.pl.resx" />
+    <EmbeddedResource Include="Resources\ProjectsFileResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsFileResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjectsFileResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsFileResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsFileResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsFileResource.ru.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>FileResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GrammaticalResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GrammaticalResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GrammaticalResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GrammaticalResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GrammaticalResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>GrammaticalResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GrammaticalResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GrammaticalResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GrammaticalResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\IssueTrackerResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\IssueTrackerResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\IssueTrackerResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\IssueTrackerResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\IssueTrackerResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\IssueTrackerResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\IssueTrackerResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>IssueTrackerResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\IssueTrackerResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsFileResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\ProjectsJSResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsJSResource.el.resx" />
+    <EmbeddedResource Include="Resources\ProjectsJSResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsJSResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsJSResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsJSResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjectsJSResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsJSResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsJSResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsJSResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MessageResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MessageResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MessageResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MessageResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MessageResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>MessageResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MessageResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MessageResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MessageResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MilestoneResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MilestoneResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MilestoneResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MilestoneResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MilestoneResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>MilestoneResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MilestoneResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MilestoneResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MilestoneResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjectResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ProjectsJSResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\ReportResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ReportResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ReportResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\RequestResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\RequestResource.el.resx" />
+    <EmbeddedResource Include="Resources\RequestResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\RequestResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\RequestResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\RequestResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\RequestResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\RequestResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RequestResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\RequestResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\RequestResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\SettingsResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SettingsResource.el.resx" />
+    <EmbeddedResource Include="Resources\SettingsResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SettingsResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SettingsResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SettingsResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SettingsResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SettingsResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SettingsResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SettingsResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SettingsResource.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\TaskResource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TaskResource.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TaskResource.lv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TaskResource.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TaskResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TaskResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TaskResource.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TaskResource.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TaskResource.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TaskResource.zh-CN.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\module\ASC.Projects\ASC.Projects.Core\ASC.Projects.Core.csproj">
+      <Project>{98330417-CF62-4624-94DC-271433945E27}</Project>
+      <Name>ASC.Projects.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\module\ASC.Projects\ASC.Projects.Data\ASC.Projects.Data.csproj">
+      <Project>{10A65F6E-7C34-4EB7-BB9C-C3CC27D979E8}</Project>
+      <Name>ASC.Projects.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\module\ASC.Projects\ASC.Projects.Engine\ASC.Projects.Engine.csproj">
+      <Project>{64C8B39D-5DCD-4EEB-A5DD-BFE7CA24FA6A}</Project>
+      <Name>ASC.Projects.Engine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="AfterBuild">
+    <Message Importance="High" Text="Copy assemblies to redistributable: $(MSBuildProjectName) -&gt; @(MainAssembly->'$(RedDir)%(FileName)%(Extension)') @(FinalDocFile->'$(RedDir)%(FileName)%(Extension)') @(IntermediateSatelliteAssembliesWithTargetPath->'$(RedDir)%(Culture)\$(TargetName).resources.dll')" />
+    <!-- Copy the build product (.dll or .exe). -->
+    <Copy SourceFiles="@(IntermediateAssembly)" DestinationFolder="$(RedDir)" SkipUnchangedFiles="true" />
+    <!-- Copy the resulting XML documentation file, if any. -->
+    <Copy SourceFiles="@(DocFileItem)" DestinationFiles="@(FinalDocFile->'$(RedDir)%(FileName)%(Extension)')" SkipUnchangedFiles="true" Condition="'$(_DocumentationFileProduced)'=='true'" />
+    <!-- Copy satellite assemblies. -->
+    <Copy SourceFiles="@(IntermediateSatelliteAssembliesWithTargetPath)" DestinationFiles="@(IntermediateSatelliteAssembliesWithTargetPath->'$(RedDir)%(Culture)\$(TargetName).resources.dll')" SkipUnchangedFiles="true" />
+  </Target>
+  <Import Project="$(TrunkDir)_ci\msbuild\ASC.MSBuild.AssemblyInfo.Targets" />
+  <Target Name="BeforeBuild">
+    <Exec Command="taskkill /F /IM aspnet_wp.exe" IgnoreExitCode="true" ContinueOnError="true" Condition=" '$(KillAsp)' == '' " />
+    <Exec Command="taskkill /F /IM w3wp.exe" IgnoreExitCode="true" ContinueOnError="true" Condition=" '$(KillAsp)' == '' " />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1035</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/ASC.Web.Projects</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

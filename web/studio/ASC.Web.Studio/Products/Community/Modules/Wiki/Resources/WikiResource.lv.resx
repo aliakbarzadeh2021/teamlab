@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_AddComment_Name">
+    <value>Pievienot Komentāru</value>
+  </data>
+  <data name="Action_AddPage_Name">
+    <value>Jauna Lapa</value>
+  </data>
+  <data name="Action_EditPage_Name">
+    <value>Rediģēt lapu</value>
+  </data>
+  <data name="Action_EditRemoveComment_Name">
+    <value>Rediģēt/Dzēst komentāru</value>
+  </data>
+  <data name="Action_RemoveFile_Name">
+    <value>Izdzēst failu</value>
+  </data>
+  <data name="Action_RemovePage_Name">
+    <value>Izdzēst lapu</value>
+  </data>
+  <data name="Action_UploadFile_Name">
+    <value>Augšuplādēt failu</value>
+  </data>
+  <data name="Actions">
+    <value>Darbības</value>
+  </data>
+  <data name="AuthCategory_Base_Description">
+    <value>Galveno darbību kategorija</value>
+  </data>
+  <data name="AuthCategory_Base_Name">
+    <value>Galvenās darbības</value>
+  </data>
+  <data name="Author">
+    <value>Autors</value>
+  </data>
+  <data name="BackLink">
+    <value>Atpakaļ</value>
+  </data>
+  <data name="cfmDeleteFile">
+    <value>Izdzēst failu?</value>
+  </data>
+  <data name="cfmDeletePage">
+    <value>Izdzēst lapu?</value>
+  </data>
+  <data name="cmdCancel">
+    <value>Atcelt</value>
+  </data>
+  <data name="cmdDelete">
+    <value>Izdzēst</value>
+  </data>
+  <data name="cmdDiff">
+    <value>Salīdzināt izvēlētas versijas</value>
+  </data>
+  <data name="cmdEdit">
+    <value>Rediģēt</value>
+  </data>
+  <data name="cmdHide">
+    <value>Aizvērt</value>
+  </data>
+  <data name="cmdPreview">
+    <value>Priekšskatījums</value>
+  </data>
+  <data name="cmdPrint">
+    <value>Printēt</value>
+  </data>
+  <data name="cmdPublish">
+    <value>Publicēt</value>
+  </data>
+  <data name="cmdRevert">
+    <value>Atgriezties</value>
+  </data>
+  <data name="cmdSave">
+    <value>Saglabāt</value>
+  </data>
+  <data name="cmdUpload">
+    <value>Augšuplādēt</value>
+  </data>
+  <data name="cmdVersionTemplate">
+    <value>Versija {0}</value>
+  </data>
+  <data name="Date">
+    <value>Datums</value>
+  </data>
+  <data name="ErrorNotCorrectMaxPageCountSettings">
+    <value>Nepareizs lapu skaits</value>
+  </data>
+  <data name="InfoPageName">
+    <value>Viki vietne</value>
+  </data>
+  <data name="ListWikiActions">
+    <value>Darbības</value>
+  </data>
+  <data name="ListWikiFileInfo">
+    <value>Faila Informācija</value>
+  </data>
+  <data name="ListWikiFileName">
+    <value>Faila Nosaukums</value>
+  </data>
+  <data name="ListWikiPageInfo">
+    <value>Lapas Informācija</value>
+  </data>
+  <data name="ListWikiPageName">
+    <value>Lapas Nosaukums</value>
+  </data>
+  <data name="MainWikiAddNewFile">
+    <value>Jauns Fails</value>
+  </data>
+  <data name="MainWikiAddNewPage">
+    <value>Jauna Lapa</value>
+  </data>
+  <data name="MainWikiCaption">
+    <value>Mājas</value>
+  </data>
+  <data name="MainWikiEditFile">
+    <value>Rediģēt failu</value>
+  </data>
+  <data name="MainWikiEditPage">
+    <value>Rediģēt lapu</value>
+  </data>
+  <data name="MainWikiFileIsNotExists">
+    <value>Tāds fails neeksistē.  {0Izveidot} failu ar šādu vārdu[[ vai apskatīt {1meklēšanas rezultātu}]]?</value>
+  </data>
+  <data name="MainWikiPageIsNotExists">
+    <value>&lt;div class="wikiEmptyPage"&gt;&lt;div class="secondaryCaption"&gt;Pieprasīta lapa neeksistē. &lt;/div&gt;Vai jūs gribētu{0izveidot} to[[ vai apskatīt {1meklēšanas rezultātu}]]?&lt;/div&gt;</value>
+  </data>
+  <data name="MaxLastPagesCountSettingsTitle">
+    <value>Lapu skaits attēlošanai (no 1 līdz 30)</value>
+  </data>
+  <data name="menu_AddNewFile">
+    <value>Augšuplādēt failu</value>
+  </data>
+  <data name="menu_AddNewPage">
+    <value>Izveidot jaunu lapu</value>
+  </data>
+  <data name="menu_byUserPagesFormat">
+    <value>Lietotāja lapas {0}</value>
+  </data>
+  <data name="menu_CreateThePage">
+    <value>Izveidot lapu</value>
+  </data>
+  <data name="menu_DeleteThePage">
+    <value>Izdzēst lapu</value>
+  </data>
+  <data name="menu_EditThePage">
+    <value>Rediģēt lapu</value>
+  </data>
+  <data name="menu_FreshEditPages">
+    <value>Nesen rediģētas</value>
+  </data>
+  <data name="menu_Help">
+    <value>Palīdzība</value>
+  </data>
+  <data name="menu_ListCategories">
+    <value>Kategorijas</value>
+  </data>
+  <data name="menu_ListFiles">
+    <value>Faili</value>
+  </data>
+  <data name="menu_ListPages">
+    <value>Indekss</value>
+  </data>
+  <data name="menu_ListPagesCatFormat">
+    <value>Kategorija: {0}</value>
+  </data>
+  <data name="menu_MainPage">
+    <value>Mājas</value>
+  </data>
+  <data name="menu_NewPages">
+    <value>Jaunas Lapas</value>
+  </data>
+  <data name="menu_PrintThePage">
+    <value>Izprintēt Lapu</value>
+  </data>
+  <data name="menu_ShowVersions">
+    <value>Skatīties vēsturi</value>
+  </data>
+  <data name="ModuleDescription">
+    <value>Korporatīva viki vietne</value>
+  </data>
+  <data name="ModuleName">
+    <value>Viki vietne</value>
+  </data>
+  <data name="ModuleVersion">
+    <value>0.2</value>
+  </data>
+  <data name="msgFileEmpty">
+    <value>Nav izvēlēts fails augšuplādēšanai.</value>
+  </data>
+  <data name="msgInternalError">
+    <value>Iekšēja kļūda. Lūdzam sazināties ar administratoru.</value>
+  </data>
+  <data name="msgNoChanges">
+    <value>Nebija nekādu izmaiņu.</value>
+  </data>
+  <data name="msgOldVersion">
+    <value>Cits lietotājs rediģēja šo lapu. Lūdzu atsvaidziniet lapu, lai apskatīt pēdējo versiju.</value>
+  </data>
+  <data name="msgPageNameEmpty">
+    <value>Lapas Nosaukums ir tukšs.</value>
+  </data>
+  <data name="msgPageNameIncorrect">
+    <value>Lapai ir nepareizs nosaukums. Ievadiet citu.</value>
+  </data>
+  <data name="msgSamePageExists">
+    <value>Lapa ar tādu nosaukumu jau eksistē.</value>
+  </data>
+  <data name="msgSaveSucess">
+    <value>Izmaiņas ir saglabātas.</value>
+  </data>
+  <data name="NoPagesWidgetMessage">
+    <value>Uzklikšķiniet šeit, lai {0}Izveidot jaunu lapu{1}</value>
+  </data>
+  <data name="NotifyAction_AddPageToCat">
+    <value>Pievienot lapu kategorijai</value>
+  </data>
+  <data name="NotifyAction_ChangePage">
+    <value>Rediģēt/Komentēt</value>
+  </data>
+  <data name="NotifyAction_NewPage">
+    <value>Jauna Lapa</value>
+  </data>
+  <data name="NotifyOnEditPage">
+    <value>Parakstīties uz Lapu</value>
+  </data>
+  <data name="NotifyOnNewPage">
+    <value>Parakstīties uz jaunām lapām</value>
+  </data>
+  <data name="NotifyOnPageCat">
+    <value>Parakstīties uz kategoriju</value>
+  </data>
+  <data name="PagePreview">
+    <value>Priekšskatījums</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Lūdzu uzgaidiet</value>
+  </data>
+  <data name="SearchDefaultString">
+    <value>Meklēt Viki Vietnē</value>
+  </data>
+  <data name="UnNotifyOnEditPage">
+    <value>Atrakstīties no lapas</value>
+  </data>
+  <data name="UnNotifyOnNewPage">
+    <value>Atrakstīties no jaunām lapām</value>
+  </data>
+  <data name="UnNotifyOnPageCat">
+    <value>Atrakstīties no kategorijām</value>
+  </data>
+  <data name="wiki_PageContCaption">
+    <value>Lapa</value>
+  </data>
+  <data name="wiki_PageContGoButton">
+    <value>Aiziet</value>
+  </data>
+  <data name="wikiAction_CommentAdded">
+    <value>komentārs pievienots</value>
+  </data>
+  <data name="wikiAction_CommentDeleted">
+    <value>komentārs izdzēsts</value>
+  </data>
+  <data name="wikiAction_CommentEdited">
+    <value>komentārs rediģēts</value>
+  </data>
+  <data name="wikiAction_FileAdded">
+    <value>fails pievienots</value>
+  </data>
+  <data name="wikiAction_FileDeleted">
+    <value>fails izdzēsts</value>
+  </data>
+  <data name="wikiAction_PageAdded">
+    <value>lapa pievienota</value>
+  </data>
+  <data name="wikiAction_PageEdited">
+    <value>lapa rediģēta</value>
+  </data>
+  <data name="wikiAction_VersionRevert">
+    <value>lapa atgriezta uz iepriekšēju versiju</value>
+  </data>
+  <data name="WikiBreadcrumbsModuleName">
+    <value>Viki vietne</value>
+  </data>
+  <data name="wikiCategoryAlfaList">
+    <value>#,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</value>
+  </data>
+  <data name="wikiDiffDescriptionFormat">
+    <value>Salīdzināt Ver.{0} with Ver.{1}</value>
+  </data>
+  <data name="wikiFileUploadSubject">
+    <value>Augšuplādēt Failu</value>
+  </data>
+  <data name="wikiHistoryCaption">
+    <value>Vēsture</value>
+  </data>
+  <data name="WikiPageCount">
+    <value>Lapu kopsumma</value>
+  </data>
+  <data name="wikiPageInfoFormat">
+    <value>Pēdējas izmaiņas veica {0} {1}</value>
+  </data>
+  <data name="wikiRevertConfirm">
+    <value>Vai jūs gribat atgriezties iepriekšējā versijā?</value>
+  </data>
+  <data name="wikiSearchCaption">
+    <value>Wiki Search</value>
+  </data>
+  <data name="wikiSearchContentFormat">
+    <value>"{0}"</value>
+  </data>
+  <data name="wikiSize">
+    <value>Izmērs</value>
+  </data>
+  <data name="wikiSizeB">
+    <value>B</value>
+  </data>
+  <data name="wikiSizeGB">
+    <value>GB</value>
+  </data>
+  <data name="wikiSizeKB">
+    <value>KB</value>
+  </data>
+  <data name="wikiSizeMB">
+    <value>MB</value>
+  </data>
+  <data name="wikiSizeTB">
+    <value>TB</value>
+  </data>
+  <data name="wikiVersion_Number">
+    <value>#</value>
+  </data>
+  <data name="wikiVersionCaption">
+    <value>Ver.</value>
+  </data>
+  <data name="wikiWidgetAllPages">
+    <value>Visas Lapas</value>
+  </data>
+  <data name="WikiWidgetDescription">
+    <value>tikai izveidotas lapas</value>
+  </data>
+  <data name="WikiWidgetTitle">
+    <value>Viki vietne</value>
+  </data>
+</root>

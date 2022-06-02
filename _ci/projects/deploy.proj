@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Deploy">
+  <UsingTask AssemblyFile="..\msbuild\MSBuild.ExtensionPack.dll" TaskName="MSBuild.ExtensionPack.Computer.EnvironmentVariable" />
+  <UsingTask AssemblyFile="..\msbuild\MSBuild.ExtensionPack.dll" TaskName="MSBuild.ExtensionPack.FileSystem.FindUnder" />
+  <UsingTask AssemblyFile="..\msbuild\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.XmlUpdate" />
+  <PropertyGroup>
+    <ASCDir>..\..\</ASCDir>
+    <Community Condition=" '$(Community)' == ''      ">1</Community>
+    <PM Condition=" '$(PM)' == ''             ">1</PM>
+    <Files Condition=" '$(Files)' == ''          ">1</Files>
+    <CRM Condition=" '$(CRM)' == ''            ">0</CRM>
+    <Tools Condition=" '$(Tools)' == ''          ">0</Tools>
+    <Talk Condition=" '$(Talk)' == ''           ">1</Talk>
+    <Mail Condition=" '$(Mail)' == ''           ">0</Mail>
+    <Organizer Condition=" '$(Organizer)' == ''      ">0</Organizer>
+    <Quicklinks Condition=" '$(Quicklinks)' == ''     ">0</Quicklinks>
+    <Todo Condition=" '$(Todo)' == ''           ">0</Todo>
+    <Calendar Condition=" '$(Calendar)' == ''       ">1</Calendar>
+  </PropertyGroup>
+  <ItemGroup>
+    <SrvDeployCopyFiles Include="$(ASCDir)redistributable\asc\ASC.Common.dll" />
+    <SrvDeployCopyFiles Include="$(ASCDir)redistributable\asc\ASC.Core.Common.dll" />
+    <SrvDeployCopyFiles Include="$(ASCDir)redistributable\asc\ASC.Data.Storage.dll" />
+    <SrvDeployCopyFiles Include="$(ASCDir)redistributable\asc\ASC.Data.Backup.dll" />
+    <SrvDeployCopyFiles Include="$(ASCDir)redistributable\asc\TeamLabSvc.exe" />
+    <SrvDeployCopyFiles Include="$(ASCDir)redistributable\asc\ASC.Data.Backup.Restore.exe" />
+    <SrvDeployCopyFiles Include="$(ASCDir)redistributable\third-party\SharpZipLib\ICSharpCode.SharpZipLib.dll" />
+    <SrvDeployCopyFiles Include="$(ASCDir)redistributable\third-party\log4net\log4net.dll" />
+    <SrvDeployCopyFiles Include="$(ASCDir)redistributable\third-party\db\sqlite\System.Data.SQLite.dll" />
+    <SrvDeployCopyFiles Include="$(ASCDir)redistributable\third-party\db\mysql\MySql.Data.dll" />
+    <SrvDeployCopyFiles Include="$(ASCDir)_ci\additionals\core.db3" />
+    <SrvDeployCopyFiles Include="$(ASCDir)_ci\additionals\TeamLabSvc.exe.Config" />
+    <SrvDeployIncludeFilesJabber Include="$(ASCDir)redistributable\asc\agsXMPP.dll" />
+    <SrvDeployIncludeFilesJabber Include="$(ASCDir)redistributable\asc\ASC.Xmpp.Common.dll" />
+    <SrvDeployIncludeFilesJabber Include="$(ASCDir)redistributable\asc\ASC.Xmpp.Server.dll" />
+    <SrvDeployIncludeFilesJabber Include="$(ASCDir)redistributable\asc\ASC.Xmpp.Host.dll" />
+    <SrvDeployIncludeFilesJabber Include="$(ASCDir)module\ASC.Jabber\ASC.Xmpp.Server\crossdomain.xml" />
+    <SrvDeployIncludeFilesIndex Include="$(ASCDir)redistributable\asc\ASC.FullTextIndex.dll" />
+    <SrvDeployIncludeFilesIndex Include="$(ASCDir)redistributable\asc\ASC.FullTextIndex.Service.exe" />
+    <SrvDeployIncludeFilesIndex Include="$(ASCDir)redistributable\third-party\Lucene.Net.1.9\Lucene.Net.dll" />
+    <SrvDeployIncludeFilesWeb Include="$(ASCDir)redistributable\asc\ASC.Web.Host.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebDeployIncludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\Community\**\*.*" Condition=" '$(Community)' != '1' " />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\Projects\**\*.*" Condition=" '$(PM)' != '1' " />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\Files\**\*.*" Condition=" '$(Files)' != '1' " />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\Tools\**\*.*" Condition=" '$(Tools)' != '1' " />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\CRM\**\*.*" Condition=" '$(CRM)' != '1' " />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\addons\talk\**\*.*" Condition=" '$(Talk)' != '1' " />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\addons\organizer\**\*.*" Condition=" '$(Organizer)' != '1' " />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\addons\quicklinks\**\*.*" Condition=" '$(Quicklinks)' != '1' " />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\addons\mail\**\*.*" Condition=" '$(Mail)' != '1' " />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\addons\todo\**\*.*" Condition=" '$(Todo)' != '1' " />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\addons\calendar\**\*.*" Condition=" '$(Calendar)' != '1' " />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\Data\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\Community\**\Resources\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Notify\**\*.xml" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Notify\**\*.resx" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Messages\**\*.xml" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\logs\**\*.txt" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\*.cs" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\*.csproj" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\*.sln" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\*.suo" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\*.user" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\*.pdb" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\obj\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\bin\*.xml" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\.svn\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\*.log" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\ModuleManagement\generate.bat" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\ModuleManagement\xsd.exe" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\**\Thumbs.db" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.Common.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.Core.Common.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.Data.Storage.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.Data.Backup.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.FullTextIndex.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.Mail.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.Xmpp.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.Web.Core.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.Web.Studio.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.Web.Controls.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\**\ASC.Web.Controls.resources.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.FederatedLogin.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ASC.Thrdparty.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\AjaxControlToolkit.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\AjaxPro.2.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\FredCK.FCKeditorV2.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\FUA.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\NVelocity.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\System.Web.Extensions.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\System.Web.Extensions.Design.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\System.Data.SQLite.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\MySql.Data.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\log4net.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\NUnit.Framework.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\HtmlAgilityPack.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\ICSharpCode.SharpZipLib.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\Microsoft.*.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\DotNetOpenAuth.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\DotNetOpenAuth.ApplicationBlock.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\Products\**\bin\HtmlAgilityPack.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\addons\**\bin\HtmlAgilityPack.dll" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\**\*.afp" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\**\*.cfc" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\**\*.cfm" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\**\*.lasso" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\**\*.php" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\**\*.pl" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\**\*.py" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\**\*.txt" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\**\_DEF__*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\fckpackager.xml" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\editor\_source\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\editor\skins\office2003\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\editor\skins\silver\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\editor\plugins\autogrow\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\editor\plugins\bbcode\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\editor\plugins\dragresizetable\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\editor\plugins\placeholder\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\editor\plugins\simplecommands\**\*.*" />
+    <WebDeployExludeFiles Include="$(ASCDir)web\studio\ASC.Web.Studio\UserControls\Common\fckeditor\editor\plugins\tablecommands\**\*.*" />
+    <WebDeployCopyFiles Include="@(WebDeployIncludeFiles)" Exclude="@(WebDeployExludeFiles)" />
+  </ItemGroup>
+  <Target Name="Deploy">
+    <Message Text="Deploy parameters:" />
+    <Message Text="   Community = $(Community)" />
+    <Message Text="   Projects = $(PM)" />
+    <Message Text="   Files = $(Files)" />
+    <Message Text="   CRM = $(CRM)" />
+    <Message Text="   Tools = $(Tools)" />
+    <Message Text="   Mail = $(Mail)" />
+    <Message Text="   Talk = $(Talk)" />
+    <Message Text="   Organizer = $(Organizer)" />
+    <Message Text="   Quicklinks = $(Quicklinks)" />
+    <Message Text="   Todo = $(Todo)" />
+    <RemoveDir Directories="$(ASCDir)_ci\deploy\service\" ContinueOnError="true" />
+    <MakeDir Directories="$(ASCDir)_ci\deploy\service\" />
+    <Copy SourceFiles="@(SrvDeployCopyFiles)" DestinationFiles="@(SrvDeployCopyFiles-&gt;'$(ASCDir)_ci\deploy\service\%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(SrvDeployIncludeFilesJabber)" DestinationFiles="@(SrvDeployIncludeFilesJabber-&gt;'$(ASCDir)_ci\deploy\service\Jabber\%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(SrvDeployIncludeFilesIndex)" DestinationFiles="@(SrvDeployIncludeFilesIndex-&gt;'$(ASCDir)_ci\deploy\service\Index\%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(SrvDeployIncludeFilesWeb)" DestinationFiles="@(SrvDeployIncludeFilesWeb-&gt;'$(ASCDir)_ci\deploy\service\%(Filename)%(Extension)')" />
+    <RemoveDir Directories="$(ASCDir)_ci\deploy\web.studio\" ContinueOnError="true" />
+    <MakeDir Directories="$(ASCDir)_ci\deploy\web.studio\" />
+    <Copy SourceFiles="@(WebDeployCopyFiles)" DestinationFiles="@(WebDeployCopyFiles-&gt;'$(ASCDir)_ci\deploy\web.studio\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <!-- Configure Web.Studio -->
+    <FindUnder TaskAction="FindDirectories" Recursive="true" Path="$(ASCDir)_ci\deploy\web.studio\" SearchPattern="bin">
+      <Output TaskParameter="FoundItems" ItemName="WebBinDirs" />
+    </FindUnder>
+    <XmlUpdate XmlFileName="$(ASCDir)_ci\deploy\web.studio\Web.Config" Prefix="n" Namespace="urn:schemas-microsoft-com:asm.v1" XPath="//n:probing/@privatePath" Value="@(WebBinDirs-&gt;'%(RelativeDirectoryName)')" />
+    <!-- x86 or x64 System.Data.SQLite.dll -->
+    <EnvironmentVariable TaskAction="Get" Variable="PROCESSOR_ARCHITECTURE">
+      <Output PropertyName="ProcArch" TaskParameter="Value" />
+    </EnvironmentVariable>
+    <EnvironmentVariable TaskAction="Get" Variable="PROCESSOR_ARCHITEW6432">
+      <Output PropertyName="ProcArch64" TaskParameter="Value" />
+    </EnvironmentVariable>
+    <Copy SourceFiles="$(ASCDir)redistributable\third-party\db\sqlite\x64\System.Data.SQLite.dll" DestinationFolder="$(ASCDir)_ci\deploy\service\" Condition=" '$(ProcArch)' != 'x86' Or '$(ProcArch64)' != '' " />
+    <Copy SourceFiles="$(ASCDir)redistributable\third-party\db\sqlite\x64\System.Data.SQLite.dll" DestinationFolder="$(ASCDir)_ci\deploy\web.studio\bin" Condition=" '$(ProcArch)' != 'x86' Or '$(ProcArch64)' != '' " />
+  </Target>
+</Project>

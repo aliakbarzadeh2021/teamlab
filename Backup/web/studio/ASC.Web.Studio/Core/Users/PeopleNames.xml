@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <item>
+    <id>Default</id>
+    <sortorder>1</sortorder>
+    <names>
+      <schemaname>DefaultSchemaName</schemaname>
+      <user>DefaultUser</user>
+      <users>DefaultUsers</users>
+      <group>DefaultGroup</group>
+      <groups>DefaultGroups</groups>
+      <userpost>DefaultUserTitle</userpost>
+      <globalhead>DefaultMainHead</globalhead>
+      <grouphead>DefaultGroupHead</grouphead>
+      <regdate>DefaultRegDate</regdate>
+    </names>    
+  </item>
+
+  <item>
+    <id>Common</id>
+    <sortorder>2</sortorder>
+    <names>
+      <schemaname>CommonSchemaName</schemaname>
+      <user>CommonUser</user>
+      <users>CommonUsers</users>
+      <group>CommonGroup</group>
+      <groups>CommonGroups</groups>
+      <userpost>CommonUserTitle</userpost>
+      <globalhead>CommonMainHead</globalhead>
+      <grouphead>CommonGroupHead</grouphead>
+      <regdate>CommonRegDate</regdate>
+    </names>
+    
+    <exceptions>
+      <ru>
+        <item key="ASC.Web.Studio.Resources.Resource.RegistryNewDepartmentButton">Новая группа</item>
+        <item key="ASC.Web.Studio.Resources.Resource.AddDepartmentDlgTitle">Новая группа</item>
+      </ru>
+    </exceptions>
+    
+  </item>
+</root>

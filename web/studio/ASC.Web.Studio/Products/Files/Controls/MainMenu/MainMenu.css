@@ -1,0 +1,259 @@
+﻿
+/*******************************************************************************
+    Main Menu Holder
+*******************************************************************************/
+ul#mainMenuHolder
+{
+    background-color: white;
+    border-bottom: 1px solid #D1D1D1;
+    height: 67px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul#mainMenuHolder li
+{
+    float: left;
+    width: 25%;
+}
+*:first-child+html ul#mainMenuHolder li
+{
+    width: 24%;
+}
+ul#mainMenuHolder.withShare li
+{
+    width: 20%;
+}
+*:first-child+html ul#mainMenuHolder.withShare li
+{
+    width: 19%;
+}
+ul#mainMenuHolder.withShare li a.topShare
+{
+    display:block;
+}
+ul#mainMenuHolder li a
+{
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #333333;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    padding: 42px 0 10px;
+    text-align: center;
+    text-decoration: none;
+    _position: relative;
+}
+* html ul#mainMenuHolder li a
+{
+    height: 57px;
+}
+ul#mainMenuHolder li a:hover
+{
+    text-decoration: underline;
+}
+ul#mainMenuHolder li a.topNewFile
+{
+    background-image: url("images/new_file.png");
+}
+ul#mainMenuHolder li a.topUpload
+{
+    background-image: url("images/upload.png");
+}
+ul#mainMenuHolder li a.topNewFolder
+{
+    background-image: url("images/createfolder.png");
+}
+ul#mainMenuHolder li a.topShare
+{
+    display:none;
+    background-image: url("images/share.png");
+}
+ul#mainMenuHolder li a.topDownload
+{
+    background-image: url("images/download.png");
+}
+ul#mainMenuHolder li a.topGallery
+{
+    background-image: url("images/gallery.png");
+}
+ul#mainMenuHolder li a.topList
+{
+    background-image: url("images/list.png");
+}
+ul#mainMenuHolder.fixed
+{
+    background: url("images/shadow.png") no-repeat scroll 0 0 transparent;
+    border: 0 none #FFFFFF;
+    margin: 0 0 0 -30px;
+    padding: 0 30px 8px;
+    position: fixed;
+    top: 0;
+    width: 724px;
+    z-index: 255;
+    border-bottom: none;
+    height: auto;
+}
+ul#mainMenuHolder.fixed li a
+{
+    background-image: none;
+    padding-top: 10px;
+}
+ul#mainMenuHolder li a#files_newdoc_btn:hover
+{
+    text-decoration: none;
+}
+
+#files_newdoc_btn:hover span
+{
+    text-decoration: underline;
+}
+#files_newdoc_btn img
+{
+    display: inline !important;
+}
+div#mainMenuHolderSpacer
+{
+    display: none;
+    width: 100%;
+}
+/*******************************************************************************
+    Create action panel
+*******************************************************************************/
+
+li.files_create_text a
+{
+    background-image: url("images/doc.png");
+}
+li.files_create_spreadsheet a
+{
+    background-image: url("images/spreadsheet.png");
+}
+li.files_create_presentation a
+{
+    background-image: url("images/presentation.png");
+}
+
+
+/*******************************************************************************
+    Uploader
+*******************************************************************************/
+.studioFileUploaderFileName
+{
+    max-height: 30px;
+    max-width: 290px;
+    overflow: hidden;
+}
+.files_uploadIcon
+{
+    background: url("images/upload.png") no-repeat;
+    height: 32px;
+    width: 32px;
+}
+#files_upload_select
+{
+    padding-top: 15px;
+}
+#files_uploadDialogContainer div.header
+{
+    color: #333333;
+    font-family: Arial;
+    font-size: 18px;
+}
+#files_uploadDialogContainer div.panelContent
+{
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+}
+#files_uploadDialogContainer div.panelButtons
+{
+    padding-top: 16px;
+}
+#files_uploadDialogContainer div.describeUpload
+{
+    color: #787878;
+}
+#files_uploadDialogContainer div.files_upload_fileList
+{
+    margin: 10px 0 0 0;
+    max-height: 150px;
+    width: 100%;
+    overflow: auto;
+}
+* + html #files_uploadDialogContainer div.files_upload_fileList table
+{
+    width: 507px !important;
+    z-index: 290;
+}
+a.files_upload_btn
+{
+    float: left;
+    width: 100px;
+    cursor: pointer;
+    position: absolute !important;
+}
+*html a.files_upload_btn
+{
+    margin-left: 0px !important;
+}
+* + html a.files_upload_btn
+{
+    margin-left: 0px !important;
+}
+#asc_fileuploaderSWFContainer
+{
+    position: static !important;
+}
+.swfupload
+{
+    width: 130px !important;
+    height: 20px !important;
+    position: absolute !important;
+}
+.files_overAllProcessBarCssClass
+{
+    height: 8px;
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    margin-top: 10px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+.files_overAllProcessBarCssClass div
+{
+    height: 8px;
+    background: url("images/back-progress.png") repeat-x !important;
+}
+.files_deleteLinkCSSClass
+{
+    display: inline-block;
+    margin-top: 2px;
+    background: url("images/trash.png") no-repeat scroll center center transparent;
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    text-decoration: none !important;
+}
+.files_loadingCSSClass
+{
+    background: url("images/loader_small.gif") no-repeat scroll center center transparent;
+    cursor: default;
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: -5px;
+    text-decoration: none !important;
+}
+.files_completeCSSClass
+{
+    background: url("images/complete.png") no-repeat scroll center center transparent;
+    cursor: default;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    margin-top: 2px;
+    text-decoration: none !important;
+}

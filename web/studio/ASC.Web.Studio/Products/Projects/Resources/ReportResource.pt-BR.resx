@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions">
+    <value>Ações</value>
+  </data>
+  <data name="ActiveTasks">
+    <value>Tarefas Ativas</value>
+  </data>
+  <data name="ActiveTaskStatus">
+    <value>In progress</value>
+  </data>
+  <data name="AdditionalOptions">
+    <value>Opções Adiicionais</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>Todos os projetos do equipe</value>
+  </data>
+  <data name="Any">
+    <value>Qualquer</value>
+  </data>
+  <data name="AnyType">
+    <value>Qualquer digito</value>
+  </data>
+  <data name="ApplyFilter">
+    <value>Aplicar</value>
+  </data>
+  <data name="At">
+    <value>at</value>
+  </data>
+  <data name="AutogenReports">
+    <value>Autogenerating Reports</value>
+  </data>
+  <data name="AutomaticallyGenerate">
+    <value>Generate such report automatically</value>
+  </data>
+  <data name="BuildingReport">
+    <value>Creating report...</value>
+  </data>
+  <data name="Category">
+    <value>Categoria</value>
+  </data>
+  <data name="ChangeFilterData">
+    <value>Change the report filter</value>
+  </data>
+  <data name="ChangeSettings">
+    <value>change the report settings</value>
+  </data>
+  <data name="ChooseDate">
+    <value>Selecionar Data</value>
+  </data>
+  <data name="ChooseReportType">
+    <value>Selecionar um tipo de relatório</value>
+  </data>
+  <data name="ChooseTemplate">
+    <value>Choose Template</value>
+  </data>
+  <data name="ChooseTimeInterval">
+    <value>Período de tempo</value>
+  </data>
+  <data name="ClearAllTemplates">
+    <value>Clear all templates</value>
+  </data>
+  <data name="ClearReportHistory">
+    <value>Clear report history</value>
+  </data>
+  <data name="ClickToSortByThisColumn">
+    <value>Click to sort by this column</value>
+  </data>
+  <data name="ClosedTaskStatus">
+    <value>Closed</value>
+  </data>
+  <data name="CreateNewReport">
+    <value>Criar novo relatório</value>
+  </data>
+  <data name="CrteateTemplate">
+    <value>Create Template</value>
+  </data>
+  <data name="CsvColumnMilestoneDeadline">
+    <value>Milestone Deadline</value>
+  </data>
+  <data name="CsvColumnMilestoneStatus">
+    <value>Milestone Status</value>
+  </data>
+  <data name="CsvColumnMilestoneTitle">
+    <value>Milestone Title</value>
+  </data>
+  <data name="CsvColumnProjectjTitle">
+    <value>Project Title</value>
+  </data>
+  <data name="CsvColumnTaskDueDate">
+    <value>Task Due date</value>
+  </data>
+  <data name="CsvColumnTaskStatus">
+    <value>Task Status</value>
+  </data>
+  <data name="CsvColumnTaskTitle">
+    <value>Task Title</value>
+  </data>
+  <data name="CsvColumnUserName">
+    <value>User Name</value>
+  </data>
+  <data name="DaleteAllAutogen">
+    <value>Clear all autogenerated</value>
+  </data>
+  <data name="DeadLine">
+    <value>Prazo</value>
+  </data>
+  <data name="DeleteAllTemplates">
+    <value>Delete all templates</value>
+  </data>
+  <data name="Department">
+    <value>Departamento</value>
+  </data>
+  <data name="Edit">
+    <value>Edit</value>
+  </data>
+  <data name="EditTemplate">
+    <value>Edit Template</value>
+  </data>
+  <data name="Empty">
+    <value>No templates could be found</value>
+  </data>
+  <data name="EmptyTemplateTitle">
+    <value>You need to assign a name to the template</value>
+  </data>
+  <data name="EveryDay">
+    <value>Every day</value>
+  </data>
+  <data name="EveryMonth">
+    <value>Every month</value>
+  </data>
+  <data name="EveryWeek">
+    <value>Every week</value>
+  </data>
+  <data name="EveryYear">
+    <value>Every year</value>
+  </data>
+  <data name="ExportToCSV">
+    <value>Exportar para csv</value>
+  </data>
+  <data name="ExportToHTML">
+    <value>Export to html</value>
+  </data>
+  <data name="ExportToXML">
+    <value>Export to xml</value>
+  </data>
+  <data name="Filter">
+    <value>Filtros</value>
+  </data>
+  <data name="From">
+    <value>De</value>
+  </data>
+  <data name="Generate">
+    <value>Generate</value>
+  </data>
+  <data name="GenerateFromTemplate">
+    <value>Generate from Template</value>
+  </data>
+  <data name="GenerateReport">
+    <value>Gerar Relatório</value>
+  </data>
+  <data name="GenerationDate">
+    <value>Generation date</value>
+  </data>
+  <data name="LastMonth">
+    <value>Mês anterior</value>
+  </data>
+  <data name="LastWeek">
+    <value>Semana anterior</value>
+  </data>
+  <data name="LastYear">
+    <value>Ano anterior</value>
+  </data>
+  <data name="MainReportPage">
+    <value>Reports Main Page</value>
+  </data>
+  <data name="MilestonesStatus">
+    <value>Estatus de Metas</value>
+  </data>
+  <data name="MyTemplates">
+    <value>Meus modelos</value>
+  </data>
+  <data name="NoMilestonesAndTasks">
+    <value>This project contains no milestones and tasks</value>
+  </data>
+  <data name="Notification">
+    <value>Notification</value>
+  </data>
+  <data name="OrThePlannedDate">
+    <value>or the date planned</value>
+  </data>
+  <data name="Other">
+    <value>Outros</value>
+  </data>
+  <data name="OutOfMilestone">
+    <value>Out of Milestone</value>
+  </data>
+  <data name="Participiants">
+    <value>Membros</value>
+  </data>
+  <data name="PepleSubscribedToReport">
+    <value>Those subscribed to report</value>
+  </data>
+  <data name="PeriodOfGeneration">
+    <value>Generation Time</value>
+  </data>
+  <data name="PrintReport">
+    <value>Imprimir Relatório</value>
+  </data>
+  <data name="Project">
+    <value>Projeto</value>
+  </data>
+  <data name="ProjectsStatus">
+    <value>Estatus dos Projetos</value>
+  </data>
+  <data name="ReportClosedTasks">
+    <value>Relatório de Tarefas Encerradas</value>
+  </data>
+  <data name="ReportCompletedTasks_InfoLine">
+    <value>Relatório gerado: {0} {1} Para este período {2} - {3}</value>
+  </data>
+  <data name="ReportCompletedTasks_Title">
+    <value>Tarefas completadas</value>
+  </data>
+  <data name="ReportDetailed_Title">
+    <value>Relatórios Detalhados</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Description">
+    <value>&lt;ul&gt;&lt;li&gt;O relatório Projetos sem metas abertos mostrará uma lista de contatos que não tem tarefas ativas no momento. &lt;/li&gt;&lt;li&gt;Para visualizar todos os contatos sem tarefas ativas nos projetos, clique em Gerar Relatório.&lt;/li&gt;&lt;li&gt;Para selecionar um departamento em particular ou checar um contato em particular, configure o parametro de relatório em Filtros, e então clique em Generate Report.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_InfoLine">
+    <value>Relatório gerado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Title">
+    <value>Projetos sem metas abertos</value>
+  </data>
+  <data name="ReportEmployment_Description">
+    <value>&lt;ul&gt;&lt;li&gt;O Relatório Contato de Trabalho irá mostrar o numero de tarefas assinadas para um contato, agrupando de acordo com seus estatus.&lt;/li&gt;&lt;li&gt;Para visualizar a data para todos os contatos, clique em Gerar Relatóriot.&lt;/li&gt;&lt;li&gt;Para selecionar um departamento em particular ou contato, configure os paremetros de relatório no s Filtros , e então clique em Gerar Relatóriot.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportEmployment_InfoLine">
+    <value>Relatório gerado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployment_Title">
+    <value>Carga de trabalho dos empregados</value>
+  </data>
+  <data name="ReportHistory">
+    <value>Report History</value>
+  </data>
+  <data name="ReportLateMilestones_Description">
+    <value>&lt;ul&gt;&lt;li&gt;O relatório Metas atrasados mostrará uma lista de metas atrasadas.&lt;/li&gt;&lt;li&gt;Para visualizar as metas atrasadas em todos os projetos, clique em Gerar Relatório.&lt;/li&gt;&lt;li&gt;Para visualizar as metas atrasadas apenas de um certo projeto, selecione o projeto desejado de uma lista em Filtros, e então clique em Gerenciar Relatório.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportLateMilestones_InfoLine">
+    <value>Relatório gerado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportLateMilestones_Title">
+    <value>Metas atrasados</value>
+  </data>
+  <data name="ReportLateTasks_Description">
+    <value>&lt;ul&gt;&lt;li&gt;The Overdue Tasks report will display a list of overdue tasks.&lt;/li&gt;&lt;li&gt;To view the overdue tasks across all projects, click the Generate Report link.&lt;/li&gt;&lt;li&gt;To view the overdue tasks for a given project only, select the desired project from the dropdown list in the Filter section first, and then click the Generate Report link.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportLateTasks_Title">
+    <value>Tarefas atrasadas</value>
+  </data>
+  <data name="ReportMilestoneList_Description">
+    <value>&lt;ul&gt;&lt;li&gt;O Relatório Lista de Metas mostra a lista de metas do equipe de acordo com o projeto que eles estão anexados. O relatório padrão mostrará a lista de todas as metas ao longo dos projetos, com os respectivos prazos indicados.&lt;/li&gt;&lt;li&gt;Para gerar um relatório, clique no botão Gerar Relatório.&lt;/li&gt;&lt;li&gt;Clique no link Visualizar filtros para mudar as opções padrão. Você pode selecionar para visualizar apenas a metas de um projeto em particular e seu estatus. Uma vez que filtro for configurado, clique em Gerar Relatório novamente para gerar um novo relatório com as configurações desejadas.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportMilestoneList_InfoLine">
+    <value>Relatório gerado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportMilestoneList_Title">
+    <value>Lista de Metas</value>
+  </data>
+  <data name="ReportName">
+    <value>Report Name</value>
+  </data>
+  <data name="ReportOpenTasks">
+    <value>Relatório de Tarefas Abertas</value>
+  </data>
+  <data name="ReportPageTitle">
+    <value>Report «{0}»</value>
+  </data>
+  <data name="ReportProblemTracking_Title">
+    <value>Relatórios de Rastreamento de Problemas</value>
+  </data>
+  <data name="ReportProjectList_Description">
+    <value>&lt;ul&gt;&lt;li&gt;O relatório Lista de Projeto mostrará uma lista de projetos.&lt;/li&gt;&lt;li&gt;Para visualizaar todos os projetos ativos com seus gerentes respectivos, numero de tarefas, metas, ações, e membros do equipe, clique em Gerar Relatório.&lt;/li&gt;&lt;li&gt;Para visualizar projetos em um departamento em particular e/ou visualizar os projetos ativos e completos, configure os parametos ro relatório em Filtro, e então clique em Gerar Relatório.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportProjectList_InfoLine">
+    <value>Relatório gerado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectList_Title">
+    <value>Lista de Projetos</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Description">
+    <value>&lt;ul&gt;&lt;li&gt;O relatório Projetos sem Metas Abertas mostrará uma lista de projetos sem metas abertas anexadas.&lt;/li&gt;&lt;li&gt;Para visualizar todos os projetos sem metas abertas, clique em Gerar Relatório.&lt;/li&gt;&lt;li&gt;Para checar semelhantes projetos com um departamento particular ou chcar um contato em particular, selecione o departamento desejado e/ou contato em Filtros, e então clique em Gerar Relatório.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_InfoLine">
+    <value>Relatório gerado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Title">
+    <value>Projetos sem Metas Abertas</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Description">
+    <value>&lt;ul&gt;&lt;li&gt;O relatório Projetos sem Tarefas Ativas mostrará uma lista de projetos sem tarefas associadas.&lt;/li&gt;&lt;li&gt;Para visualizar todos os projetos sem tarefas ativas, clique em Gerar Relatório.&lt;/li&gt;&lt;li&gt;Para checar semelhantes projetos em um departamento particular ou checar um contato em particular, selecione o departamento desejado e/ou contato em Filtrar, e então clique em Gerar Relatório.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_InfoLine">
+    <value>Relatório gerado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Title">
+    <value>Projetos sem Tarefas Ativas</value>
+  </data>
+  <data name="Reports">
+    <value>Relatorios</value>
+  </data>
+  <data name="ReportStatistics_Title">
+    <value>Estatisticas de Relatórios</value>
+  </data>
+  <data name="ReportTaskList_Description">
+    <value>&lt;ul&gt;&lt;li&gt;O Relatório Tarefas de Projetos mostrará uma lista de tarefas por equipe de acordo com as metas do projeto que são anexas.&lt;/li&gt;&lt;li&gt;Para visualizar a lista de todas as tareffas dos projetos com o responsavel e indicações de estatus, clique em Gerar Relatório.&lt;/li&gt;&lt;li&gt;Para visualizar apenas as tarefas para um projeto particular ou de um dado estatus, configure os parametos em Filtros, e então clique em Gerar Relatório.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportTaskList_InfoLine">
+    <value>Relatório gerado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportTaskList_Title">
+    <value>Tarefas de Projetos</value>
+  </data>
+  <data name="ReportTimeSpend_Description">
+    <value>O Relatório de tempo gasto é uma lista que indica o tempo de trabalho gasto pelos contatos em uma base de acompanhamento registrado. Este relatorio permite acompanhar o progresso de tempo gasto sobre uma tarefa.</value>
+  </data>
+  <data name="ReportTimeSpend_InfoLine">
+    <value>Relatório gerado: {0} {1} para o período {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpend_Title">
+    <value>Tempo gasto</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Description">
+    <value>&lt;ul&gt;&lt;li&gt;The Time Tracking Report displays a list of employees with their total work time calculated basing on a time register.&lt;/li&gt;&lt;li&gt;This report helps track the total amount of time spent by an employee on performing his tasks.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportTimeSpendSummary_InfoLine">
+    <value>Relatório gerado: {0} {1} para o período {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Title">
+    <value>Relatório de tempo gasto</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Description">
+    <value>&lt;ul&gt;&lt;li&gt;O relatório Próximos Metas mostrará uma lista das proximas metas.&lt;/li&gt;&lt;li&gt;Para visualizar as próximas metas entre os projetos para um período de semanas, clique em Gerar Relatório.&lt;/li&gt;&lt;li&gt;Para visualizar as próximas metas por um dado projeto e/ou outro período de tempo, selecione o projeto desejado de uma lista e/ou indique outra data limite em Até a data, e então clique em Gerar Relatório.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportUpcomingMilestones_InfoLine">
+    <value>Relatório gerado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Title">
+    <value>Próximos Metas</value>
+  </data>
+  <data name="ReportUserActivity_Descripton">
+    <value>&lt;ul&gt;&lt;li&gt;O relatório Atividade de Usuário mostrará as ações de um contato em particular em Projects em um dado período.&lt;/li&gt;&lt;li&gt;Para mostrar suas próprias atividades na semana anterior, clique em Gerar Relatório.&lt;/li&gt;&lt;li&gt;Para indicar outro período de tempo ou selecionar outro contato, configure os parâmetos do relatório em Filtros, e então clique em Gerar Relatório.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportUserActivity_InfoLine">
+    <value>Relatório gerado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserActivity_Title">
+    <value>Atividade de Usuário</value>
+  </data>
+  <data name="ReportUserTasks_Description">
+    <value>&lt;ul&gt;&lt;li&gt;O relatório Tarefas de Usuário mostrará a lista de tarefas em equipe de acordo com os contatos que estão associados.&lt;/li&gt;&lt;li&gt;Para visualizar todas as tarefas dos contatos com seus estatus, clique em Gerar Relatório.&lt;/li&gt;&lt;li&gt;Para visualizar apenas as tarefas para um projeto em particular ou um dado estatus, configure o parametro de relatório em Filtro, e então clique em Gerar Relatório.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ReportUserTasks_InfoLine">
+    <value>Relatório gerado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserTasks_Title">
+    <value>Tarefas de Usuário</value>
+  </data>
+  <data name="SaveAsTemplate">
+    <value>Salvar como modelo</value>
+  </data>
+  <data name="SendOnEmail">
+    <value>Send via e-mail</value>
+  </data>
+  <data name="ShowTasks">
+    <value>Show Tasks</value>
+  </data>
+  <data name="ShowUserActivityReport">
+    <value>Mostrar relatório de atividades do usuário</value>
+  </data>
+  <data name="ShowUserTasksReport">
+    <value>Show User Tasks report</value>
+  </data>
+  <data name="TaskDone">
+    <value>Tarefas completadas</value>
+  </data>
+  <data name="TaskReport">
+    <value>Relatório da Tarefa</value>
+  </data>
+  <data name="TasksDone">
+    <value>Tarefas Completadas</value>
+  </data>
+  <data name="TasksStatus">
+    <value>Estatus das tarefas</value>
+  </data>
+  <data name="TasksWorkingOn">
+    <value>Tarefas em progresso</value>
+  </data>
+  <data name="TemplateAndAutogen">
+    <value>Template and autogeneration</value>
+  </data>
+  <data name="TemplateName">
+    <value>Template Name</value>
+  </data>
+  <data name="TemplateNotFound_Body">
+    <value>It might have been deleted, or there is no template with such ID</value>
+  </data>
+  <data name="TemplateNotFound_Header">
+    <value>Template not found</value>
+  </data>
+  <data name="TemplateNotFound_RedirectTitle">
+    <value>Go to the template list</value>
+  </data>
+  <data name="Templates">
+    <value>Templates</value>
+  </data>
+  <data name="TemplateTitle">
+    <value>Template  Title</value>
+  </data>
+  <data name="ThisMonth">
+    <value>Mês corrente</value>
+  </data>
+  <data name="ThisWeek">
+    <value>Semana corrente</value>
+  </data>
+  <data name="ThisYear">
+    <value>Ano corrente</value>
+  </data>
+  <data name="Today">
+    <value>Hoje</value>
+  </data>
+  <data name="User">
+    <value>Usuário</value>
+  </data>
+  <data name="UseTemplate">
+    <value>Use template</value>
+  </data>
+  <data name="ViewByDepartments">
+    <value>Visualizar por departamento</value>
+  </data>
+  <data name="ViewByParticipant">
+    <value>Visualizar por participantes</value>
+  </data>
+  <data name="ViewByProjects">
+    <value>Visualizar por projeto</value>
+  </data>
+  <data name="ViewByUsers">
+    <value>Visualizar por usuário</value>
+  </data>
+  <data name="ViewByUserTasks">
+    <value>View by user tasks</value>
+  </data>
+  <data name="ViewClosedMilestones">
+    <value>Mostrar Metas fechadas</value>
+  </data>
+  <data name="ViewClosedProjects">
+    <value>Mostrar projetos fechados</value>
+  </data>
+  <data name="ViewInfo">
+    <value>Show report information</value>
+  </data>
+  <data name="ViewOnlyMyProjecs">
+    <value>Mostrar apenas meus projetos</value>
+  </data>
+  <data name="Week">
+    <value>Week</value>
+  </data>
+  <data name="Weeks">
+    <value>Week</value>
+  </data>
+  <data name="Yesterday">
+    <value>Ontem</value>
+  </data>
+</root>

@@ -1,0 +1,204 @@
+/*******************************************************************************
+    shareaccess
+*******************************************************************************/
+.shareAccessBody
+{
+    height: 300px;
+    list-style: none;
+    margin: 0;
+    overflow: auto;
+    padding: 9px 0;
+}
+.share_btnManage
+{
+    float: right;
+}
+li.share_row
+{
+    padding: 5px 10px;
+    border-top: none;
+    border-bottom: 1px solid #D1D1D1;
+    border-left:none;
+    border-right:none;
+    margin: 0 8px;
+}
+div.share_actions
+{
+    float: right;
+    padding-top: 5px;
+    width: 24px;
+}
+div.share_rights
+{
+    float: right;
+    width: 136px;
+}
+div.share_name
+{
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+    padding: 5px 0;
+    white-space: nowrap;
+    width: 295px;
+}
+div.action_active
+{
+    background-color: #FFF;
+    border: 1px solid #A1A1A1;
+    float: right;
+    max-width: 129px;
+    padding: 3px 0 3px 5px;
+    z-index: 250;
+    position:relative;
+    border-bottom-color:#FFF;
+}
+div.action_noactive
+{
+    float: right;
+    max-width: 129px;
+    padding: 4px 1px 4px 6px;
+}
+div.action_noactive a.owner,
+.share_row.locked a
+{
+    border:none;
+    cursor: default;
+    font-weight: bold;
+    margin-right: 15px;
+    text-decoration: none;
+}
+div.action_noactive a
+{
+    border-bottom: 1px dotted;
+    color: #787878;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+}
+div.action_noactive a:hover
+{
+    border:none;
+}
+div.action_active a
+{
+    float: left;
+    color: #323232;
+    cursor: pointer;
+    text-decoration: none;
+}
+div.share_rights div.combobox
+{
+    background: url("images/combobox.png") no-repeat scroll 0 2px transparent;
+    cursor: pointer;
+    float: left;
+    height: 12px;
+    margin-left: 3px;
+    width: 12px;
+}
+.share_row.locked div.combobox,
+.share_row.locked div.share_trash
+{
+    display:none;
+}
+div.share_trash
+{
+    cursor: pointer;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+}
+div.share_trash
+{
+    background: url("images/trash.png") no-repeat scroll 0 bottom transparent;
+}
+ul.groupUsers
+{
+    border: 1px solid #D7D8DC;
+    height: 250px;
+    list-style: none;
+    margin: 0;
+    overflow: auto;
+    padding: 8px 0;
+}
+ul.groupUsers .user
+{
+    float: left;
+    max-width: 440px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+ul.groupUsers .user_remove
+{
+    background: url("images/trash.png") no-repeat scroll 0 bottom transparent;
+    cursor: pointer;
+    float: right;
+    width: 12px;
+    height: 12px;
+    margin-top: 2px;
+}
+#share_manage .headerBase
+{
+    padding:2px 0 5px;
+}
+#selectGroup
+{
+    width: 237px;
+    height:22px;
+}
+#files_rightPopup.files_action_panel a
+{
+    padding-left:15px;
+}
+div.shareEmptyGroup
+{
+    padding: 143.5px;
+}
+/*******************************************************************************
+    changed file
+*******************************************************************************/
+ul.change_table
+{
+    border: 1px solid #D1D1D1;
+    list-style: none ;
+    margin: 10px 0 15px;
+    padding: 15px 7px;
+    height:300px;
+    overflow:auto;
+}
+li.shange_row
+{
+    padding: 5px 10px;
+    border-top: none;
+    border-bottom: 1px solid #D1D1D1;
+    border-left:none;
+    border-right:none;
+    margin: 0 8px;
+}
+li.shange_row .name, li.shange_row .author, li.shange_row .date
+{
+    overflow: hidden;
+    white-space: nowrap;
+}
+div.newInShareBody .name
+{
+    float: left;
+    width: 330px;
+    margin-right:10px;
+}
+div.newInShareBody .author
+{
+    float: left;
+    width: 140px;
+    margin-right:10px;
+}
+div.newInShareBody .date
+{
+    width: 100px;
+}
+div.newInShareBody div.header
+{
+    margin: 0 25px;
+    color:#787878;
+}

@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions">
+    <value>Acciones</value>
+  </data>
+  <data name="ActiveTasks">
+    <value>Tareas activas</value>
+  </data>
+  <data name="ActiveTaskStatus">
+    <value>En progreso</value>
+  </data>
+  <data name="AdditionalOptions">
+    <value>Opciones adicionales</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>Todo el equipo del proyecto</value>
+  </data>
+  <data name="Any">
+    <value>Cualquiera</value>
+  </data>
+  <data name="AnyType">
+    <value>Cualquier tipo</value>
+  </data>
+  <data name="ApplyFilter">
+    <value>Aplicar</value>
+  </data>
+  <data name="At">
+    <value>en</value>
+  </data>
+  <data name="AutogenReports">
+    <value>Informes de autogeneración</value>
+  </data>
+  <data name="AutomaticallyGenerate">
+    <value>Generar tal informe automáticamente</value>
+  </data>
+  <data name="BuildingReport">
+    <value>Creando informe...</value>
+  </data>
+  <data name="Category">
+    <value>Categoría</value>
+  </data>
+  <data name="ChangeFilterData">
+    <value>Cambiar el filtro del reporte</value>
+  </data>
+  <data name="ChangeSettings">
+    <value>modificación de los parametros de reporte</value>
+  </data>
+  <data name="ChooseDate">
+    <value>Seleccione una fecha</value>
+  </data>
+  <data name="ChooseReportType">
+    <value>Seleccione un tipo de informe</value>
+  </data>
+  <data name="ChooseTemplate">
+    <value>Seleccionar plantilla</value>
+  </data>
+  <data name="ChooseTimeInterval">
+    <value>Período de tiempo</value>
+  </data>
+  <data name="ClearAllTemplates">
+    <value>Limpiar todas las plantillas</value>
+  </data>
+  <data name="ClearReportHistory">
+    <value>Limpiar historial de informes</value>
+  </data>
+  <data name="ClickToSortByThisColumn">
+    <value>Haga clic para clasificar sobre esta columna</value>
+  </data>
+  <data name="ClosedTaskStatus">
+    <value>Cerrado</value>
+  </data>
+  <data name="CreateNewReport">
+    <value>Crear nuevo informe</value>
+  </data>
+  <data name="CrteateTemplate">
+    <value>Crear plantilla</value>
+  </data>
+  <data name="CsvColumnMilestoneDeadline">
+    <value>Plazo de hito</value>
+  </data>
+  <data name="CsvColumnMilestoneStatus">
+    <value>Estado de hito</value>
+  </data>
+  <data name="CsvColumnMilestoneTitle">
+    <value>Título de hito</value>
+  </data>
+  <data name="CsvColumnProjectjTitle">
+    <value>Título de proyecto</value>
+  </data>
+  <data name="CsvColumnTaskDueDate">
+    <value>Fecha de plazo</value>
+  </data>
+  <data name="CsvColumnTaskStatus">
+    <value>Estado de tarea</value>
+  </data>
+  <data name="CsvColumnTaskTitle">
+    <value>Título de tarea</value>
+  </data>
+  <data name="CsvColumnUserName">
+    <value>Nombre de usuario</value>
+  </data>
+  <data name="DaleteAllAutogen">
+    <value>Limpiar toda la autogeneración</value>
+  </data>
+  <data name="DeadLine">
+    <value>Fecha límite</value>
+  </data>
+  <data name="DeleteAllTemplates">
+    <value>Eliminar todas las plantillas</value>
+  </data>
+  <data name="Department">
+    <value>{!Group}</value>
+  </data>
+  <data name="Edit">
+    <value>Editar</value>
+  </data>
+  <data name="EditTemplate">
+    <value>Editar el modelo</value>
+  </data>
+  <data name="Empty">
+    <value>Plantillas no encontradas</value>
+  </data>
+  <data name="EmptyTemplateTitle">
+    <value>Hay que nombrar la plantilla.</value>
+  </data>
+  <data name="EveryDay">
+    <value>Cada día</value>
+  </data>
+  <data name="EveryMonth">
+    <value>Cada mes</value>
+  </data>
+  <data name="EveryWeek">
+    <value>Cada semana</value>
+  </data>
+  <data name="EveryYear">
+    <value>Cada año</value>
+  </data>
+  <data name="ExportToCSV">
+    <value>Exportar  a csv</value>
+  </data>
+  <data name="ExportToHTML">
+    <value>Exportar a html</value>
+  </data>
+  <data name="ExportToXML">
+    <value>Exportar a xml</value>
+  </data>
+  <data name="Filter">
+    <value>Filtro</value>
+  </data>
+  <data name="From">
+    <value>De</value>
+  </data>
+  <data name="Generate">
+    <value>Generar</value>
+  </data>
+  <data name="GenerateFromTemplate">
+    <value>Generar a partir de la plantilla</value>
+  </data>
+  <data name="GenerateReport">
+    <value>Generar informe</value>
+  </data>
+  <data name="GenerationDate">
+    <value>Fecha de generación</value>
+  </data>
+  <data name="LastMonth">
+    <value>Mes anterior</value>
+  </data>
+  <data name="LastWeek">
+    <value>Semana anterior</value>
+  </data>
+  <data name="LastYear">
+    <value>Año anterior</value>
+  </data>
+  <data name="MainReportPage">
+    <value>Pagina principal de informes</value>
+  </data>
+  <data name="MilestonesStatus">
+    <value>Estado de hitos</value>
+  </data>
+  <data name="MyTemplates">
+    <value>Mis plantillas</value>
+  </data>
+  <data name="NoMilestonesAndTasks">
+    <value>Este proyecto no contiene hitos y tareas</value>
+  </data>
+  <data name="Notification">
+    <value>Notificación</value>
+  </data>
+  <data name="OrThePlannedDate">
+    <value>o la fecha planificada</value>
+  </data>
+  <data name="Other">
+    <value>Otro</value>
+  </data>
+  <data name="OutOfMilestone">
+    <value>Fuera de hito</value>
+  </data>
+  <data name="Participiants">
+    <value>Miembros</value>
+  </data>
+  <data name="PepleSubscribedToReport">
+    <value>Los suscritos al informe</value>
+  </data>
+  <data name="PeriodOfGeneration">
+    <value>Tiempo de generación</value>
+  </data>
+  <data name="PrintReport">
+    <value>Imprimir informe</value>
+  </data>
+  <data name="Project">
+    <value>Proyecto</value>
+  </data>
+  <data name="ProjectsStatus">
+    <value>Estado de proyectos</value>
+  </data>
+  <data name="ReportClosedTasks">
+    <value>Informe Tareas cerradas</value>
+  </data>
+  <data name="ReportCompletedTasks_InfoLine">
+    <value>Informe generado: {0} {1} por el período {2} - {3}</value>
+  </data>
+  <data name="ReportCompletedTasks_Title">
+    <value>Tareas terminadas</value>
+  </data>
+  <data name="ReportDetailed_Title">
+    <value>Detallados</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Description">
+    <value>{0}{2}El informe Usuarios sin tareas activas mostrará una lista de usuarios que por el momento no tienen ninguna tarea activa asignada.{3}{2}Para ver todos los usuarios sin tareas en todos los proyectos, simplemente pulse en Generar informe.{3}{2}Para seleccionar un determinado grupo o verificar a un determinado usuario, primero configure los parámetros del informe en la sección Filtro, y luego pulse en Generar informe.{3}{1}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_InfoLine">
+    <value>Informe generado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Title">
+    <value>Empleados sin tareas activas</value>
+  </data>
+  <data name="ReportEmployment_Description">
+    <value>{0}{2}El informe Carga de trabajo mostrará el número de tareas asignadas a un usuario, organizadas según el estado.{3}{2}Para ver los datos sobre todos los usuarios de la empresa, simplemente pulse en Generar informe.{3}{2}Para seleccionar un determinado grupo o usuario, configure los parámetros del informe en la sección Filtro primero, y luego pulse en Generar informe.{3}{1}</value>
+  </data>
+  <data name="ReportEmployment_InfoLine">
+    <value>Informe generado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployment_Title">
+    <value>Carga de trabajo</value>
+  </data>
+  <data name="ReportHistory">
+    <value>Historial de informes</value>
+  </data>
+  <data name="ReportLateMilestones_Description">
+    <value>{0}{2}El informe Hitos caducados mostrará una lista de hitos caducados.{3}{2}Para ver los hitos caducados en todos los proyectos, simplemente pulse en Generar informe.{3}{2}Para ver los hitos caducados dentro de algún proyecto en particular, primero seleccione el proyecto deseado de la lista desplegable en la sección Filtro, y luego pulse en Generar informe.{3}{1}</value>
+  </data>
+  <data name="ReportLateMilestones_InfoLine">
+    <value>Informe generado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportLateMilestones_Title">
+    <value>Hitos caducados</value>
+  </data>
+  <data name="ReportLateTasks_Description">
+    <value>{0}{2}Reporte Tareas caducadas están mostradas por la lista de las tareas caducadas.{3}{2}Para ver las tareas caducadas dentro todos los proyectos pulsa el enlace Generar reporte.{3}{2}Para ver las tareas caducadas solo dentro de proyecto elegido, primero, elija el proyecto necesario de la lista desplegable en la sección de Filtro y luego pulsa el enlace Generar reporte.{3}{1}</value>
+  </data>
+  <data name="ReportLateTasks_Title">
+    <value>Tareas caducadas</value>
+  </data>
+  <data name="ReportMilestoneList_Description">
+    <value>{0}{2}Reporte Lista de hitos muestra la lista de todos los hitos, elegidos dentro de proyecto, a lo cual pertenecen. El reporte por defecto muestra la lista de todos los hitos en todos los proyectos junto con los plazos fijados.{3}{2}Para generar el reporte, pulsa el enlace Generar el reporte. 
+{3}{2}Pulsa el enlace Mostrar filtros para cambiar los propiedades de reporte predeterminado. Usted puede seleccionar la vista solo de los hitos de un proyecto en concreto o con el estatus elegido. Cuando el filtro esta configurado, pulsa Generar reporte una vez mas para generar un reporte nuevo con los ajustes necesarios.{3}{1}
+</value>
+  </data>
+  <data name="ReportMilestoneList_InfoLine">
+    <value>Informe generado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportMilestoneList_Title">
+    <value>Lista de hitos</value>
+  </data>
+  <data name="ReportName">
+    <value>Nombre de informe</value>
+  </data>
+  <data name="ReportOpenTasks">
+    <value>Informe de tareas abiertas</value>
+  </data>
+  <data name="ReportPageTitle">
+    <value>Informe «{0}»</value>
+  </data>
+  <data name="ReportProblemTracking_Title">
+    <value>De detección de problemas</value>
+  </data>
+  <data name="ReportProjectList_Description">
+    <value>{0}{2}El informe Lista de proyectos mostrará una lista de proyectos.{3}{2}Para ver todos los proyectos con sus respectivos gerente, número de tareas, hitos, acciones y miembos del equipo, simplemente pulse en Generar informe.{3}{2}Para ver sólo los proyectos de algún departamento en particular y/o ver los proyectos activos, así como terminados, primero configure los parámetros del informe en la sección Filtro, y luego pulse en Generar informe.{3}{1}</value>
+  </data>
+  <data name="ReportProjectList_InfoLine">
+    <value>Informe generado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectList_Title">
+    <value>Lista de proyectos</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Description">
+    <value>{0}{2}El informe Proyectos sin hitos activos mostrará una lista de proyectos sin ningún hito activo.{3}{2}Para ver todos los proyectos sin hitos activos, simplemente pulse en Generar informe.{3}{2}Para ver tales proyectos dentro de algún grupo en particular o verificar a un determinado usuario, primero seleccione el deseado grupo y/o usuario en la sección Filtro, y luego pulse en Generar informe.{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_InfoLine">
+    <value>Informe generado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Title">
+    <value>Proyectos sin hitos activos</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Description">
+    <value>{0}{2}El informe Proyectos sin tareas activas mostrará una lista de proyectos que no tienen ninguna tarea activa asignada.{3}{2}Para ver todos los proyectos sin tareas activas, simplemente pulse en Generar informe.{3}{2}Para ver tales proyectos dentro de algún grupo en particular o verificar a un determinado usuario, seleccione el deseado grupo y/o usuario en la sección Filtro, y luego pulse en Generar informe.{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_InfoLine">
+    <value>Informe generado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Title">
+    <value>Proyectos sin tareas activas</value>
+  </data>
+  <data name="Reports">
+    <value>Informes</value>
+  </data>
+  <data name="ReportStatistics_Title">
+    <value>De estadísticas</value>
+  </data>
+  <data name="ReportTaskList_Description">
+    <value>{0}{2}El informe Tareas de proyecto mostrará una lista de tareas organizadas según el proyecto y hito a los que están asignadas.{3}{2}Para ver la listra de todas las tareas en todos los proyectos con la pate responsable y el estado indicados, simplemente pulse en Generar informe.{3}{2}Para ver sólo las tareas de un determinado proyecto o estado, primero configure los parámetros del informe en la sección Filtro, y luego pulse en Generar informe.{3}{1}</value>
+  </data>
+  <data name="ReportTaskList_InfoLine">
+    <value>Informe generado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportTaskList_Title">
+    <value>Tareas de proyecto</value>
+  </data>
+  <data name="ReportTimeSpend_Description">
+    <value>{0}{2}El informe Registro de tiempo es una lista de tareas con el tiempo laboral tardado por los usuarios para efectuarlas. El tiempo tardado muestra los datos del registro de tiempo correspondiente.{3}{2}Este informe permite controlar el progreso de tareas según el tiempo tardado en las tareas corrientes.{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpend_InfoLine">
+    <value>Informe generado: {0} {1} por el período {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpend_Title">
+    <value>Tiempo tardado</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Description">
+    <value>{0}{2}El informe Registro de tiempo muestra una lista de usuarios y su tiempo total de trabajo.{3}{2}Este informe permite calcualar el tiempo total gastado por un usuario en realizar sus respectivas tareas.{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_InfoLine">
+    <value>Informe generado: {0} {1} por el período {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Title">
+    <value>Informe del registro de tiempo</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Description">
+    <value>{0}{2}El informe Próximos hitos mostrará una lista de hitos próximos.{3}{2}Para ver los próximos hitos de todos los proyectos por el período de una semana, simplemente pulse en Generar informe.{3}{2}Para ver los hitos próximos de algún proyecto en particular y/o otro período de tiempo, primero seleccione el proyecto deseado de la lista desplegable y/o introduzca otra fecha en el campo Hasta la fecha y luego pulse en Generar informe.{3}{1}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_InfoLine">
+    <value>Informe generado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Title">
+    <value>Próximos hitos</value>
+  </data>
+  <data name="ReportUserActivity_Descripton">
+    <value>{0}{2}El informe Actividad de usuario mostrará las acciones de un determinado usuario dentro de Proyectos por un período de tiempo seleccionado.{3}{2}Para ver sus propias acciones  durante la semana pasada,  simplemente pulse en Generar informe.{3}{2}Para cambiar el período de tiempo o seleccionar al otro usuario,  primero configure los parámetros del informe en la sección Filtro, y luego pulse en Generar informe.{3}{1}</value>
+  </data>
+  <data name="ReportUserActivity_InfoLine">
+    <value>Informe generado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserActivity_Title">
+    <value>Actividad de usuario</value>
+  </data>
+  <data name="ReportUserTasks_Description">
+    <value>{0}{2}El informe Tareas de usuario mostrará una lista de tareas organizadas según el usuario al que están asignadas.{3}{2}Para ver las tareas de todos los usuarios con su estado indicado, simplemente pulse en Generar informe.{3}{2}Para ver las tareas de algún proyecto en particular o de un determinado estado,  primero configure los parámetros del informe en la sección Filtro, y luego pulse en Generar informe.{3}{1}</value>
+  </data>
+  <data name="ReportUserTasks_InfoLine">
+    <value>Informe generado: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserTasks_Title">
+    <value>Tareas de usuario</value>
+  </data>
+  <data name="SaveAsTemplate">
+    <value>Guardar como plantilla</value>
+  </data>
+  <data name="SendOnEmail">
+    <value>Enviar por e-mail</value>
+  </data>
+  <data name="ShowTasks">
+    <value>Mostrar tareas</value>
+  </data>
+  <data name="ShowUserActivityReport">
+    <value>Mostrar informe Acciones de usuario</value>
+  </data>
+  <data name="ShowUserTasksReport">
+    <value>Mostrar informe de tareas de usuario</value>
+  </data>
+  <data name="TaskDone">
+    <value>Tareas terminadas</value>
+  </data>
+  <data name="TaskReport">
+    <value>Informe de tareas</value>
+  </data>
+  <data name="TasksDone">
+    <value>Tareas terminadas</value>
+  </data>
+  <data name="TasksStatus">
+    <value>Estado de tareas</value>
+  </data>
+  <data name="TasksWorkingOn">
+    <value>Tareas en marcha</value>
+  </data>
+  <data name="TemplateAndAutogen">
+    <value>Plantilla y autogeneración</value>
+  </data>
+  <data name="TemplateName">
+    <value>Título de plantilla</value>
+  </data>
+  <data name="TemplateNotFound_Body">
+    <value>Puede haber sido eliminado o no existe algun modelo con este ID</value>
+  </data>
+  <data name="TemplateNotFound_Header">
+    <value>El modelo no encontrado</value>
+  </data>
+  <data name="TemplateNotFound_RedirectTitle">
+    <value>Pasar a la lista de modelos</value>
+  </data>
+  <data name="Templates">
+    <value>Plantillas</value>
+  </data>
+  <data name="TemplateTitle">
+    <value>Título de plantilla</value>
+  </data>
+  <data name="ThisMonth">
+    <value>Este mes </value>
+  </data>
+  <data name="ThisWeek">
+    <value>Esta semana</value>
+  </data>
+  <data name="ThisYear">
+    <value>Este año</value>
+  </data>
+  <data name="Today">
+    <value>Hoy</value>
+  </data>
+  <data name="User">
+    <value>Usuario</value>
+  </data>
+  <data name="UseTemplate">
+    <value>Usar plantilla</value>
+  </data>
+  <data name="ViewByDepartments">
+    <value>{!Groups}</value>
+  </data>
+  <data name="ViewByParticipant">
+    <value>Ver por participante</value>
+  </data>
+  <data name="ViewByProjects">
+    <value>Ver por proyecto</value>
+  </data>
+  <data name="ViewByUsers">
+    <value>Ver por usuario</value>
+  </data>
+  <data name="ViewByUserTasks">
+    <value>Ver según tareas de usuario</value>
+  </data>
+  <data name="ViewClosedMilestones">
+    <value>Ver hitos terminados</value>
+  </data>
+  <data name="ViewClosedProjects">
+    <value>Ver proyectos terminados</value>
+  </data>
+  <data name="ViewInfo">
+    <value>Mostrar información del informe</value>
+  </data>
+  <data name="ViewOnlyMyProjecs">
+    <value>Mostrar sólo mis proyectos</value>
+  </data>
+  <data name="Week">
+    <value>Semana</value>
+  </data>
+  <data name="Weeks">
+    <value>Semanas</value>
+  </data>
+  <data name="Yesterday">
+    <value>Ayer</value>
+  </data>
+</root>

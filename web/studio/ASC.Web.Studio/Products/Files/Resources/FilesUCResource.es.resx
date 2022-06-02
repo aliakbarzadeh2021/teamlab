@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AceStatusEnum_Read">
+    <value>Sólo lectura</value>
+  </data>
+  <data name="AceStatusEnum_ReadWrite">
+    <value>Acceso completo</value>
+  </data>
+  <data name="AceStatusEnum_Restrict">
+    <value>Prohibir acceso</value>
+  </data>
+  <data name="Administrators">
+    <value>Administradores</value>
+  </data>
+  <data name="Author">
+    <value>Autor</value>
+  </data>
+  <data name="ButtonAdd">
+    <value>Añadir</value>
+  </data>
+  <data name="ButtonAddGroup">
+    <value>Añadir grupo</value>
+  </data>
+  <data name="ButtonAddUser">
+    <value>Añadir Usuario</value>
+  </data>
+  <data name="ButtonCancel">
+    <value>Cancelar</value>
+  </data>
+  <data name="ButtonClearFilter">
+    <value>Limpiar el filtro</value>
+  </data>
+  <data name="ButtonClose">
+    <value>Cerrar</value>
+  </data>
+  <data name="ButtonCopyTo">
+    <value>Copiar</value>
+  </data>
+  <data name="ButtonCreateFolder">
+    <value>Crear Carpeta</value>
+  </data>
+  <data name="ButtonCreateGroup">
+    <value>Crear Grupo</value>
+  </data>
+  <data name="ButtonCreatePresentation">
+    <value>Crear Presentación</value>
+  </data>
+  <data name="ButtonCreateSpreadsheet">
+    <value>Crear Tabla</value>
+  </data>
+  <data name="ButtonCreateText">
+    <value>Crear Documento</value>
+  </data>
+  <data name="ButtonDelete">
+    <value>Eliminar</value>
+  </data>
+  <data name="ButtonDownload">
+    <value>Descargar</value>
+  </data>
+  <data name="ButtonEdit">
+    <value>Editar</value>
+  </data>
+  <data name="ButtonEditOO">
+    <value>Editar en OpenOffice</value>
+  </data>
+  <data name="ButtonEmailLink">
+    <value>Enviar por e-mail</value>
+  </data>
+  <data name="ButtonEmptyGroup">
+    <value>Añadir grupo</value>
+  </data>
+  <data name="ButtonEmptyTrash">
+    <value>Vaciar papelera de reciclaje </value>
+  </data>
+  <data name="ButtonFavoritesAdd">
+    <value>Añadir en corriente carpeta</value>
+  </data>
+  <data name="ButtonFilterDocument">
+    <value>Documentos</value>
+  </data>
+  <data name="ButtonFilterFile">
+    <value>Archivos</value>
+  </data>
+  <data name="ButtonFilterFolder">
+    <value>Carpetas</value>
+  </data>
+  <data name="ButtonFilterPicture">
+    <value>Fotos</value>
+  </data>
+  <data name="ButtonFilterPresentation">
+    <value>Presentaciones</value>
+  </data>
+  <data name="ButtonFilterSpreadsheet">
+    <value>Tablas</value>
+  </data>
+  <data name="ButtonFullScale">
+    <value>Tamaño completo</value>
+  </data>
+  <data name="ButtonGallery">
+    <value>Galería</value>
+  </data>
+  <data name="ButtonGetLink">
+    <value>Recibir enlace</value>
+  </data>
+  <data name="ButtonImport">
+    <value>Importar</value>
+  </data>
+  <data name="ButtonList">
+    <value>Lista</value>
+  </data>
+  <data name="ButtonMinimize">
+    <value>Minimizar</value>
+  </data>
+  <data name="ButtonMoveTo">
+    <value>Mover a</value>
+  </data>
+  <data name="ButtonNextImg">
+    <value>Imagen siguiente</value>
+  </data>
+  <data name="ButtonOk">
+    <value>OK</value>
+  </data>
+  <data name="ButtonOtherAction">
+    <value>Acciones adicionales</value>
+  </data>
+  <data name="ButtonPrevImg">
+    <value>Imagen anterior</value>
+  </data>
+  <data name="ButtonRename">
+    <value>Renombrar</value>
+  </data>
+  <data name="ButtonRestore">
+    <value>Restaurar</value>
+  </data>
+  <data name="ButtonRewrite">
+    <value>Reemplazar</value>
+  </data>
+  <data name="ButtonRotateLeft">
+    <value>Girar en sentido antihorario</value>
+  </data>
+  <data name="ButtonRotateRight">
+    <value>Girar en sentido horario</value>
+  </data>
+  <data name="ButtonSave">
+    <value>Guardar</value>
+  </data>
+  <data name="ButtonSelectFiles">
+    <value>Seleccionar</value>
+  </data>
+  <data name="ButtonSelectGroup">
+    <value>Seleccionar grupo</value>
+  </data>
+  <data name="ButtonShare">
+    <value>Acceso</value>
+  </data>
+  <data name="ButtonShareAccess">
+    <value>Ajustes de acceso</value>
+  </data>
+  <data name="ButtonShowVersions">
+    <value>Mostrar versiones</value>
+  </data>
+  <data name="ButtonSkip">
+    <value>Saltar </value>
+  </data>
+  <data name="ButtonSlideshow">
+    <value>Mostrar diaporama</value>
+  </data>
+  <data name="ButtonSortAuthor">
+    <value>Autor</value>
+  </data>
+  <data name="ButtonSortModified">
+    <value>Fecha</value>
+  </data>
+  <data name="ButtonSortName">
+    <value>Nombre</value>
+  </data>
+  <data name="ButtonSortSize">
+    <value>Tamaño</value>
+  </data>
+  <data name="ButtonUpload">
+    <value>Cargar</value>
+  </data>
+  <data name="ButtonUploadNewVersions">
+    <value>Actualizar documento</value>
+  </data>
+  <data name="ButtonYesRemove">
+    <value>Si, eliminar</value>
+  </data>
+  <data name="ButtonZoomIn">
+    <value>Acercar</value>
+  </data>
+  <data name="ButtonZoomOut">
+    <value>Alejar</value>
+  </data>
+  <data name="ConfirmOverwrite">
+    <value>Confirmar la sobrescritura</value>
+  </data>
+  <data name="ConfirmRemove">
+    <value>Confirmación</value>
+  </data>
+  <data name="ConfirmRemoveDescription">
+    <value>Nota: Esta acción no puede ser anulada</value>
+  </data>
+  <data name="CopyToClipboard">
+    <value>Copiar</value>
+  </data>
+  <data name="CorporateFiles">
+    <value>Documentos compartidos</value>
+  </data>
+  <data name="CreatingDate">
+    <value>Fecha de creación</value>
+  </data>
+  <data name="Department">
+    <value>Departamento</value>
+  </data>
+  <data name="Departments">
+    <value>Departamentos</value>
+  </data>
+  <data name="DocumentName">
+    <value>Título de documento</value>
+  </data>
+  <data name="Documents">
+    <value>Documentos</value>
+  </data>
+  <data name="DoNotLeavePageLabel">
+    <value>Por favor, no deje esta página durante el proceso
+"</value>
+  </data>
+  <data name="DownloadAndInstall">
+    <value>Descargar y Instalar</value>
+  </data>
+  <data name="DownloadFile">
+    <value>Descargar documento</value>
+  </data>
+  <data name="DownloadFolder">
+    <value>Descargar carpeta</value>
+  </data>
+  <data name="DownloadLink">
+    <value>Descargar documento</value>
+  </data>
+  <data name="DoYouKnow">
+    <value>¿Sabía Usted?</value>
+  </data>
+  <data name="EditingFeatureDescription">
+    <value>Edite documentos directo en vuestro portal TeamLab. Use la versión virtualizada de Open Office sin necesidad de alguna instalación.</value>
+  </data>
+  <data name="EditingFeatureHeader">
+    <value>Edición</value>
+  </data>
+  <data name="EmptyContainer">
+    <value>En esta sección no hay archivos para mostrar.</value>
+  </data>
+  <data name="EmptyFolderDescribe">
+    <value>archivos de texto, tablas, imágenes</value>
+  </data>
+  <data name="ErrorEmptyUploadFileSelected">
+    <value>El fichero cargado no encontrado</value>
+  </data>
+  <data name="Everyone">
+    <value>Todos los usuarios</value>
+  </data>
+  <data name="FavoritesCaption">
+    <value>Añadir a Favoritos</value>
+  </data>
+  <data name="FavoritesCaptionRemove">
+    <value>Eliminar de Favoritos</value>
+  </data>
+  <data name="FavoritesDescribe">
+    <value>Nombre:</value>
+  </data>
+  <data name="FavoritesEmpty">
+    <value>Añadiendo carpetas en la sección de Favoritos, usted siempre tendrá acceso rápido a los archivos y carpetas más usados que se guardan en la sección pública o privada.</value>
+  </data>
+  <data name="FilterAllButton">
+    <value>Todo</value>
+  </data>
+  <data name="FlashUploader">
+    <value>Carga Flash</value>
+  </data>
+  <data name="FlashUploaderDescription">
+    <value>La versión de Flash cargador</value>
+  </data>
+  <data name="Folders">
+    <value>Carpetas</value>
+  </data>
+  <data name="GetLinkDescribe">
+    <value>Enlace para el documento</value>
+  </data>
+  <data name="GetLinkDialog">
+    <value>Recibir el enlace para el fichero</value>
+  </data>
+  <data name="GetShortLink">
+    <value>Enlace corto</value>
+  </data>
+  <data name="Group">
+    <value>Grupo</value>
+  </data>
+  <data name="GroupConfirmRemove">
+    <value>¿Usted está seguro de que desea quitar el grupo?</value>
+  </data>
+  <data name="GroupRemoveHeader">
+    <value>Eliminación</value>
+  </data>
+  <data name="GroupsTabName">
+    <value>Grupos</value>
+  </data>
+  <data name="GroupTitle">
+    <value>Título de Grupo</value>
+  </data>
+  <data name="HowItWorksDescription">
+    <value>La tecnología de virtualización fue especialmente elaborada para la posibilidad de creación y edición de los documentos. En la parte de usuario la dicha tecnología se accione en 3 etapas:</value>
+  </data>
+  <data name="HowItWorksHeader">
+    <value>Como funciona?</value>
+  </data>
+  <data name="HowItWorksOpportunitiesAvailable">
+    <value>Ahora, usted puede lanzar el Open Office directo de vuestro portal</value>
+  </data>
+  <data name="HowItWorksStepOneDescription">
+    <value>Esto es necesario para la correcta descarga, trabajo y actualización de la aplicacion virtualizada Open Office. Instalado una vez {0}ASC Plug-in{1} se actualiza automáticamente en el futuro.</value>
+  </data>
+  <data name="HowItWorksStepOneHeader">
+    <value>Instalación de Ascensio System Plug-in</value>
+  </data>
+  <data name="HowItWorksStepThreeDescription">
+    <value>El archivo de la aplicación esta descomprimido</value>
+  </data>
+  <data name="HowItWorksStepThreeHeader">
+    <value>Descompresión de Open Office</value>
+  </data>
+  <data name="HowItWorksStepTwoDescription">
+    <value>Open Office esta comprimido en un archivo con todos los componentos necesarios para el funcionamiento de la aplicacion en el explorador. Por esta razón la descarga puede durar un tiempo considerable dependiendo de la velocidad de conexión al Internet.</value>
+  </data>
+  <data name="HowItWorksStepTwoHeader">
+    <value>Descarga de Open Office</value>
+  </data>
+  <data name="HowItWorksWatchVideo">
+    <value>Vea el vídeo para ver como funciona</value>
+  </data>
+  <data name="HtmlUploader">
+    <value>Cargrar con Html</value>
+  </data>
+  <data name="IfFileNameConflict">
+    <value>En caso de conflicto entre ficheros</value>
+  </data>
+  <data name="Ignore">
+    <value>Ignorar</value>
+  </data>
+  <data name="ImportFeatureDescription">
+    <value>Importe vuestra base actual de los documentos de Google Docs, Zoho, Box.net a TeamLab Docs en pocos pasos.</value>
+  </data>
+  <data name="ImportFeatureHeader">
+    <value>Importación</value>
+  </data>
+  <data name="ImportFromBoxNet">
+    <value>Importación de Box.Net</value>
+  </data>
+  <data name="ImportFromGoogle">
+    <value>Importación de Google Docs</value>
+  </data>
+  <data name="ImportFromZoho">
+    <value>Importación de Zoho</value>
+  </data>
+  <data name="ImportProgress">
+    <value>Importación está ejecutándose</value>
+  </data>
+  <data name="ImportToFolder">
+    <value>Importar a la carpeta</value>
+  </data>
+  <data name="InstallPluginHeader">
+    <value>Inicio</value>
+  </data>
+  <data name="IntegrationFeatureDescription">
+    <value>Integre documentos en el módulo Gestión de proyectos. Use la área especial en la sección de proyecto para acceder los documentos necesarios.</value>
+  </data>
+  <data name="IntegrationFeatureHeader">
+    <value>Integración</value>
+  </data>
+  <data name="Login">
+    <value>Nombre de usuario</value>
+  </data>
+  <data name="MainHeaderActionsOpen">
+    <value>Mostrar acciones de grupo</value>
+  </data>
+  <data name="MainHeaderFilter">
+    <value>Mostrar:</value>
+  </data>
+  <data name="MainHeaderFilterOpen">
+    <value>Seleccionar valor de filtro</value>
+  </data>
+  <data name="MainHeaderSelectAll">
+    <value>Seleccionar todo</value>
+  </data>
+  <data name="MainHeaderSort">
+    <value>Clasificado por:</value>
+  </data>
+  <data name="MainHeaderSortOpen">
+    <value>Elegir campo de clasificación</value>
+  </data>
+  <data name="ManagementFeatureDescription">
+    <value>Organize su propio almacenamiento de archivos. Comparta documentos con vuestros compañeros de trabajo. Publique la información corporativa para todos los miembros de equipo.</value>
+  </data>
+  <data name="ManagementFeatureHeader">
+    <value>Gestión</value>
+  </data>
+  <data name="ManagmentGroup">
+    <value>Administrar Grupos</value>
+  </data>
+  <data name="MoveFromDesktop">
+    <value>o {0}arrastrarlos{1} de Escritorio</value>
+  </data>
+  <data name="MyFiles">
+    <value>Mis Documentos</value>
+  </data>
+  <data name="NewFile">
+    <value>Nuevo archivo</value>
+  </data>
+  <data name="NoteFileUpload">
+    <value>El tamaño de fichero no puede ser mas de {1}{0} MB{2}.</value>
+  </data>
+  <data name="NotificationFeatureDescription">
+    <value>Reciba mensajes notificando sobre los modificaciones en documentos. Esté informado cuando el archivo fue actualizado o eliminado.</value>
+  </data>
+  <data name="NotificationFeatureHeader">
+    <value>Notificación</value>
+  </data>
+  <data name="OpenFile">
+    <value>Vista previa</value>
+  </data>
+  <data name="OpenFileBlank">
+    <value>Vista previa en nueva ventana</value>
+  </data>
+  <data name="OpenFolder">
+    <value>Abrir carpeta</value>
+  </data>
+  <data name="OpenTree">
+    <value>Mostrar árbol de ficheros</value>
+  </data>
+  <data name="Overwrite">
+    <value>Reemplazar</value>
+  </data>
+  <data name="Password">
+    <value>Contraseña</value>
+  </data>
+  <data name="PreviewError">
+    <value>Atención! Probablemente es un fichero ejecutable renombrado y no puede ser visualizado.</value>
+  </data>
+  <data name="PreviewErrorDownload">
+    <value>En caso Usted confía en el distribuidor del archivo, descargalo y ejecútalo localmente.</value>
+  </data>
+  <data name="PreviewHeader">
+    <value>Vista previa de documentos</value>
+  </data>
+  <data name="PreviewWait">
+    <value>Archivo esta en proceso de conversión. Esto puede durar algún tiempo. Espera, por favor.</value>
+  </data>
+  <data name="ProcessAuthentificate">
+    <value>El proceso de autentificación</value>
+  </data>
+  <data name="ProductDescription">
+    <value>Una aplicación web para el almacenamiento, intercambio y trabajo conjunto con los ficheros</value>
+  </data>
+  <data name="ProjectFiles">
+    <value>Documentos de Proyecto</value>
+  </data>
+  <data name="QuotaUsage">
+    <value>Uso de cuota</value>
+  </data>
+  <data name="Remove">
+    <value>eliminar</value>
+  </data>
+  <data name="Search">
+    <value>Búsqueda</value>
+  </data>
+  <data name="SearchText">
+    <value>Búsqueda</value>
+  </data>
+  <data name="SelectFolder">
+    <value>Elejir carpeta</value>
+  </data>
+  <data name="ShareAccessHeader">
+    <value>Ajustes de acceso</value>
+  </data>
+  <data name="SharedForMe">
+    <value>Compartido para mi</value>
+  </data>
+  <data name="SortingFeatureDescription">
+    <value>Filtre documentos por tipo, usuarios, departamento de autor o ordenelos por nombre, fecha, autor y tamaño.</value>
+  </data>
+  <data name="SortingFeatureHeader">
+    <value>Vista previa</value>
+  </data>
+  <data name="TotalFound">
+    <value>Total encontrado</value>
+  </data>
+  <data name="Trash">
+    <value>Papelera de reciclaje</value>
+  </data>
+  <data name="Types">
+    <value>Tipos</value>
+  </data>
+  <data name="Unsubscribe">
+    <value>No seguir mas</value>
+  </data>
+  <data name="Upload">
+    <value>Cargar</value>
+  </data>
+  <data name="User">
+    <value>Usuario</value>
+  </data>
+  <data name="Users">
+    <value>Usuarios</value>
+  </data>
+  <data name="UsersInGroup">
+    <value>Usuarios de Grupo</value>
+  </data>
+  <data name="UsersTabName">
+    <value>Usuarios</value>
+  </data>
+</root>

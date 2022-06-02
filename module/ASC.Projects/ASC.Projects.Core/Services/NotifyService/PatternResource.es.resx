@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pattern_EditMessage">
+    <value>h1.Discusión editada: "$EntityTitle":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" ha editado la discusión:
+
+$AdditionalData.get_item("MessagePreview")
+
+#foreach($fileInfo in $AdditionalData.get_item("Files").Keys)
+
+#beforeall
+
+----------------------------------------
+
+#each
+
+"$fileInfo":"$AdditionalData.get_item("Files").get_item($fileInfo)"
+
+#end
+
+"Leer más":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_ImportData">
+    <value>h1.Proyectos. Importando datos de Basecamp.
+
+Importe está completado.
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_InviteToProject">
+    <value>h1.Usted ha sido añadido al equipo de proyecto
+
+"$__AuthorName":"$__AuthorUrl" le ha añadido al equipo del proyecto ["$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"]
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_LateMilestone">
+    <value>h1.Notificación sobre el hito caducado: "$EntityTitle":"${__VirtualRootPath}/products/projects/milestones.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+El hito del proyecto ["$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"] se ha caducado: "$EntityTitle":"${__VirtualRootPath}/products/projects/milestones.aspx?prjID=$ProjectID&amp;ID=$EntityID" .
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_MilestoneDeadline">
+    <value>h1.Notificación sobre fecha límite de hito: "$EntityTitle":"${__VirtualRootPath}/products/projects/milestones.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+Queda menos de 48 horas hasta la fecha límite del hito ["$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"].
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_NewCommentForMessage">
+    <value>h1.Nuevo comentario a discusión: "$EntityTitle":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" ha añadido un nuevo comentario a la discusión:
+
+$AdditionalData
+
+"Leer más":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_NewCommentForMilestone">
+    <value>h1.Nuevo comentario a hito: "$EntityTitle":"${__VirtualRootPath}/products/projects/milestones.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" ha añadido un nuevo comentario al hito:
+
+$AdditionalData
+
+"Leer más":"${__VirtualRootPath}/products/projects/milestones.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_NewCommentForTask">
+    <value>h1.Nuevo comentario a tarea: "$EntityTitle":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" ha añadido un nuevo comentario a la tarea:
+
+$AdditionalData
+
+"Leer más":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_NewMessage">
+    <value>h1.Nueva discusión: "$EntityTitle":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" ha creado una nueva discusión:
+
+$AdditionalData.get_item("MessagePreview")
+
+#foreach($fileInfo in $AdditionalData.get_item("Files").Keys)
+
+#beforeall
+
+----------------------------------------
+
+#each
+
+"$fileInfo":"$AdditionalData.get_item("Files").get_item($fileInfo)"
+
+#end
+
+"Leer más":"${__VirtualRootPath}/products/projects/messages.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_ProjectAcceptRequest">
+    <value>h1.Confirmación de solicitud.
+
+Usuario "$__AuthorName":"$__AuthorUrl" ha confirmado su solicitud sobre el proyecto "$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID" .
+
+Su dirección de portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar los parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_ProjectCreateRequest">
+    <value>h1.Solicitud de nuevo proyecto: [$ProjectTitle]
+
+"$__AuthorName":"$__AuthorUrl" ha solicitado crear un nuevo proyecto. Por favor confirme la solicitud.
+
+*Título*
+
+$ProjectTitle
+
+*Descripción*
+
+$AdditionalData.get_item("Description")
+
+*Gerente*
+
+$AdditionalData.get_item("ProjectLeader")
+
+"Moderar":"${__VirtualRootPath}/products/projects/projects.aspx"
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_ProjectEditRequest">
+    <value>h1.Solicitud de cambio de proyecto: "$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"
+
+"$__AuthorName":"$__AuthorUrl" ha solicitado cambiar parámetros del proyecto ["$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"].
+
+table(edit_request).
+||(edit_request_column). Valor anterior |(edit_request_column). Valor actual |
+|(edit_request_title). Título |(edit_request_data). $AdditionalData.get_item("Title_Old") |(edit_request_data). $AdditionalData.get_item("Title_NEW") |
+|(edit_request_title). Descripción |(edit_request_data). $AdditionalData.get_item("Description_Old") |(edit_request_data). $AdditionalData.get_item("Description_NEW") |
+|(edit_request_title). Responsable |(edit_request_data). $AdditionalData.get_item("ProjectLeader_Old") |(edit_request_data). $AdditionalData.get_item("ProjectLeader_NEW") |
+
+"Moderar":"${__VirtualRootPath}/products/projects/projects.aspx"
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_ProjectRejectRequest">
+    <value>h1.Rechazo de solicitud.
+
+Usuario "$__AuthorName":"$__AuthorUrl" ha rechazado la solicitud sobre el proyecto "$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID" .
+
+Su dirección de portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar los parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_ProjectRemoveRequest">
+    <value>h1.Solicitud sobre eliminación del proyecto: [$ProjectTitle]
+
+"$__AuthorName":"$__AuthorUrl" ha solicitado la eliminación del proyecto. Por favor, confirme la solicitud.
+
+*Título*
+
+$ProjectTitle
+
+*Descripción*
+
+$AdditionalData.get_item("Description")
+
+*Gerente*
+
+$AdditionalData.get_item("ProjectLeader")
+
+"Moderar":"${__VirtualRootPath}/products/projects/projects.aspx"
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_ReminderAboutTask">
+    <value>h1.Recordatorio sobre la tarea: "$EntityTitle":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+"$__AuthorName":"$__AuthorUrl" recuerda a Usted sobre la tarea: "$EntityTitle":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID" .
+
+$AdditionalData.get_item("TaskDescription")
+
+#foreach($fileInfo in $AdditionalData.get_item("Files").Keys)
+
+#beforeall
+
+----------------------------------------
+
+#each
+
+"$fileInfo":"$AdditionalData.get_item("Files").get_item($fileInfo)"
+
+#end
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_ReminderAboutTaskDeadline">
+    <value>h1.Recordatorio sobre la tarea: "$EntityTitle":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+Hoy expira el periodo para cumplir la tarea: "$EntityTitle":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID" .
+
+$AdditionalData.get_item("TaskDescription")
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_RemoveFromProject">
+    <value>h1.Usted ha sido eliminado del equipo de proyecto
+
+Usted ha sido eliminado del equipo del proyecto ["$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"]
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_ResponsibleForProject">
+    <value>h1.Usted ha sido designado gerente de proyecto: "$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"
+
+"$__AuthorName":"$__AuthorUrl" le ha designado gerente del proyecto ["$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"].
+
+$AdditionalData
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_ResponsibleForTask">
+    <value>h1.Tarea asignada a usted: "$EntityTitle":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+"$__AuthorName":"$__AuthorUrl" le ha designado responsable por la tarea: "$EntityTitle":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID" .
+
+$AdditionalData.get_item("TaskDescription")
+
+#foreach($fileInfo in $AdditionalData.get_item("Files").Keys)
+
+#beforeall
+
+----------------------------------------
+
+#each
+
+"$fileInfo":"$AdditionalData.get_item("Files").get_item($fileInfo)"
+
+#end
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_TaskClosed">
+    <value>h1.Tarea terminada: "$EntityTitle":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" ha terminado la tarea del proyecto ["$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"].
+
+$AdditionalData
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_TaskCreated">
+    <value>h1.Tarea creada: "$EntityTitle":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID"
+
+"$__AuthorName":"$__AuthorUrl" ha creado tarea: "$EntityTitle":"${__VirtualRootPath}/products/projects/tasks.aspx?prjID=$ProjectID&amp;ID=$EntityID" .
+
+$AdditionalData.get_item("TaskDescription")
+
+Proyecto: "$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"
+
+#foreach($fileInfo in $AdditionalData.get_item("Files").Keys)
+
+#beforeall
+
+----------------------------------------
+
+#each
+
+"$fileInfo":"$AdditionalData.get_item("Files").get_item($fileInfo)"
+
+#end
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_UploadFiles">
+    <value>h1.Nuevo archivo subido: "$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"
+
+$__DateTime "$__AuthorName":"$__AuthorUrl" ha subido un nuevo archivo al proyecto ["$ProjectTitle":"${__VirtualRootPath}/products/projects/projects.aspx?prjID=$ProjectID"].
+
+#foreach($fileInfo in $AdditionalData.Keys)
+
+#each
+
+"$fileInfo":"$AdditionalData.get_item($fileInfo)"
+
+#end
+
+Dirección de su portal: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Editar parámetros de suscripción":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="subject_EditMessage">
+    <value>Proyectos [$ProjectTitle]. Discusión editada: $EntityTitle</value>
+  </data>
+  <data name="subject_ImportData">
+    <value>Proyectos. Importando datos de Basecamp</value>
+  </data>
+  <data name="subject_InviteToProject">
+    <value>Proyectos [$ProjectTitle]. Cambios en equipo de proyecto</value>
+  </data>
+  <data name="subject_LateMilestone">
+    <value>Proyectos [$ProjectTitle]. Notificación hito caducado: $EntityTitle</value>
+  </data>
+  <data name="subject_MilestoneDeadline">
+    <value>Proyectos [$ProjectTitle]. Notificación fecha límite de hito: $EntityTitle</value>
+  </data>
+  <data name="subject_NewCommentForMessage">
+    <value>Proyectos [$ProjectTitle]. Nuevo comentario a discusión: $EntityTitle</value>
+  </data>
+  <data name="subject_NewCommentForMilestone">
+    <value>Proyectos [$ProjectTitle]. Nuevo comentario a hito: $EntityTitle</value>
+  </data>
+  <data name="subject_NewCommentForTask">
+    <value>Proyectos [$ProjectTitle]. Nuevo comentario a tarea: $EntityTitle</value>
+  </data>
+  <data name="subject_NewMessage">
+    <value>Proyectos [$ProjectTitle]. Nueva discusión: $EntityTitle</value>
+  </data>
+  <data name="subject_ProjectAcceptRequest">
+    <value>Proyectos[$ProjectTitle]. Confirmación de solicitud</value>
+  </data>
+  <data name="subject_ProjectCreateRequest">
+    <value>Proyectos [$ProjectTitle]. Solicitud de nuevo proyecto</value>
+  </data>
+  <data name="subject_ProjectEditRequest">
+    <value>Proyectos [$ProjectTitle]. Solicitud de cambio de proyecto</value>
+  </data>
+  <data name="subject_ProjectRejectRequest">
+    <value>Proyectos [$ProjectTitle]. Rechazo de solicitud</value>
+  </data>
+  <data name="subject_ProjectRemoveRequest">
+    <value>Proyectos [$ProjectTitle]. Solicitud sobre eliminación del proyecto</value>
+  </data>
+  <data name="subject_ReminderAboutTask">
+    <value>Proyectos [$ProjectTitle]. Recordatorio sobre la tarea: $EntityTitle</value>
+  </data>
+  <data name="subject_ReminderAboutTaskDeadline">
+    <value>Proyectos [$ProjectTitle]. Recordatorio sobre la tarea: $EntityTitle</value>
+  </data>
+  <data name="subject_RemoveFromProject">
+    <value>Proyectos [$ProjectTitle]. Cambios en equipo de proyecto</value>
+  </data>
+  <data name="subject_ResponsibleForProject">
+    <value>Proyectos [$ProjectTitle]. Usted designado gerente de proyecto</value>
+  </data>
+  <data name="subject_ResponsibleForTask">
+    <value>Proyectos [$ProjectTitle]. Tarea asignada a usted: $EntityTitle</value>
+  </data>
+  <data name="subject_TaskClosed">
+    <value>Proyectos [$ProjectTitle]. Tarea terminada: $EntityTitle</value>
+  </data>
+  <data name="subject_TaskCreated">
+    <value>Proyectos [$ProjectTitle]. Tarea creada: $EntityTitle</value>
+  </data>
+  <data name="subject_UploadFiles">
+    <value>Proyectos [$ProjectTitle]. Nuevo archivo subido</value>
+  </data>
+</root>

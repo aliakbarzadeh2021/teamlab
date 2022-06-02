@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_AddComment_Name">
+    <value>Adicionar comentário</value>
+  </data>
+  <data name="Action_AddPage_Name">
+    <value>Nova Página</value>
+  </data>
+  <data name="Action_EditPage_Name">
+    <value>Editar pagina</value>
+  </data>
+  <data name="Action_EditRemoveComment_Name">
+    <value>Editar/Deletar comentário</value>
+  </data>
+  <data name="Action_RemoveFile_Name">
+    <value>Deletar arquivo</value>
+  </data>
+  <data name="Action_RemovePage_Name">
+    <value>Deletar página</value>
+  </data>
+  <data name="Action_UploadFile_Name">
+    <value>Subir arquivo</value>
+  </data>
+  <data name="Actions">
+    <value>Ações</value>
+  </data>
+  <data name="AuthCategory_Base_Description">
+    <value>Categoria de ações básicas</value>
+  </data>
+  <data name="AuthCategory_Base_Name">
+    <value>Ações básicas</value>
+  </data>
+  <data name="Author">
+    <value>Autor</value>
+  </data>
+  <data name="BackLink">
+    <value>Voltar</value>
+  </data>
+  <data name="cfmDeleteFile">
+    <value>Deletar arquivoDelete file?</value>
+  </data>
+  <data name="cfmDeletePage">
+    <value>Deletar pagina?</value>
+  </data>
+  <data name="cmdCancel">
+    <value>Cancelar</value>
+  </data>
+  <data name="cmdDelete">
+    <value>Deletar</value>
+  </data>
+  <data name="cmdDiff">
+    <value>Comparar versões selecionadas</value>
+  </data>
+  <data name="cmdEdit">
+    <value>Editar</value>
+  </data>
+  <data name="cmdHide">
+    <value>Fechar</value>
+  </data>
+  <data name="cmdPreview">
+    <value>Previsão</value>
+  </data>
+  <data name="cmdPrint">
+    <value>Imprimir</value>
+  </data>
+  <data name="cmdPublish">
+    <value>Publicar</value>
+  </data>
+  <data name="cmdRevert">
+    <value>Reverter</value>
+  </data>
+  <data name="cmdSave">
+    <value>Salvar</value>
+  </data>
+  <data name="cmdUpload">
+    <value>Enviar</value>
+  </data>
+  <data name="cmdVersionTemplate">
+    <value>Versão {0}</value>
+  </data>
+  <data name="Date">
+    <value>Data</value>
+  </data>
+  <data name="ErrorNotCorrectMaxPageCountSettings">
+    <value>Numero invalido de paginas</value>
+  </data>
+  <data name="InfoPageName">
+    <value>Wiki</value>
+  </data>
+  <data name="ListWikiActions">
+    <value>Ações</value>
+  </data>
+  <data name="ListWikiFileInfo">
+    <value>Informações do arquivo</value>
+  </data>
+  <data name="ListWikiFileName">
+    <value>Nome do arquivo</value>
+  </data>
+  <data name="ListWikiPageInfo">
+    <value>Informações da página</value>
+  </data>
+  <data name="ListWikiPageName">
+    <value>Titulo da página</value>
+  </data>
+  <data name="MainWikiAddNewFile">
+    <value>Novo Arquivo</value>
+  </data>
+  <data name="MainWikiAddNewPage">
+    <value>Nova Página</value>
+  </data>
+  <data name="MainWikiCaption">
+    <value>Home</value>
+  </data>
+  <data name="MainWikiEditFile">
+    <value>Editar arquivo</value>
+  </data>
+  <data name="MainWikiEditPage">
+    <value>Editar Pagina</value>
+  </data>
+  <data name="MainWikiFileIsNotExists">
+    <value>O arquivo não existet.  {0Create} Um arquivo com esse nome[[ olhar {1search result}]]?</value>
+  </data>
+  <data name="MainWikiPageIsNotExists">
+    <value>&lt;div class="wikiEmptyPage"&gt;&lt;div class="secondaryCaption"&gt;A pagina requerida não existe. &lt;/div&gt;Gostaria de {0create} [[ ou olhar nos {1search result}]]?&lt;/div&gt;</value>
+  </data>
+  <data name="MaxLastPagesCountSettingsTitle">
+    <value>Numero de páginas a mostrar (1 a 30)</value>
+  </data>
+  <data name="menu_AddNewFile">
+    <value>Enviar Arquivo</value>
+  </data>
+  <data name="menu_AddNewPage">
+    <value>Criar nova pagina</value>
+  </data>
+  <data name="menu_byUserPagesFormat">
+    <value>Paginas do usuário {0}</value>
+  </data>
+  <data name="menu_CreateThePage">
+    <value>Criar pagina</value>
+  </data>
+  <data name="menu_DeleteThePage">
+    <value>Deletar página</value>
+  </data>
+  <data name="menu_EditThePage">
+    <value>Editar página</value>
+  </data>
+  <data name="menu_FreshEditPages">
+    <value>Recentemente Editado</value>
+  </data>
+  <data name="menu_Help">
+    <value>Ajuda</value>
+  </data>
+  <data name="menu_ListCategories">
+    <value>Categorias</value>
+  </data>
+  <data name="menu_ListFiles">
+    <value>Arquivo</value>
+  </data>
+  <data name="menu_ListPages">
+    <value>Index</value>
+  </data>
+  <data name="menu_ListPagesCatFormat">
+    <value>Categoria: {0}</value>
+  </data>
+  <data name="menu_MainPage">
+    <value>Home</value>
+  </data>
+  <data name="menu_NewPages">
+    <value>Novas Páginas</value>
+  </data>
+  <data name="menu_PrintThePage">
+    <value>Imprimir página</value>
+  </data>
+  <data name="menu_ShowVersions">
+    <value>Visualizar historico</value>
+  </data>
+  <data name="ModuleDescription">
+    <value>O wiki corporativo</value>
+  </data>
+  <data name="ModuleName">
+    <value>Wiki</value>
+  </data>
+  <data name="ModuleVersion">
+    <value>0.2</value>
+  </data>
+  <data name="msgFileEmpty">
+    <value>O arquivo a enviar não foi selecionado</value>
+  </data>
+  <data name="msgInternalError">
+    <value>Ocorreu um erro interno. Favor contactar o administrador. </value>
+  </data>
+  <data name="msgNoChanges">
+    <value>Não houve mudanças.</value>
+  </data>
+  <data name="msgOldVersion">
+    <value>Esta pagina foi editada por outro usuário. Favor recarregue a página para ver a ultima versão.</value>
+  </data>
+  <data name="msgPageNameEmpty">
+    <value>O titulo da pagina está vazio</value>
+  </data>
+  <data name="msgPageNameIncorrect">
+    <value>Nome de página incorreto. Tente colocar outro.</value>
+  </data>
+  <data name="msgSamePageExists">
+    <value>A pagina com esse titulo já existe</value>
+  </data>
+  <data name="msgSaveSucess">
+    <value>As mudanças foram salvas</value>
+  </data>
+  <data name="NoPagesWidgetMessage">
+    <value>Clique aqui para {0}Criar nova página{1}</value>
+  </data>
+  <data name="NotifyAction_AddPageToCat">
+    <value>Adicionar pagina a categoria</value>
+  </data>
+  <data name="NotifyAction_ChangePage">
+    <value>Editar/Comentar na Página</value>
+  </data>
+  <data name="NotifyAction_NewPage">
+    <value>Nova Pagina</value>
+  </data>
+  <data name="NotifyOnEditPage">
+    <value>seguir página</value>
+  </data>
+  <data name="NotifyOnNewPage">
+    <value>Seguir novas páginas</value>
+  </data>
+  <data name="NotifyOnPageCat">
+    <value>Subscrever a categoria</value>
+  </data>
+  <data name="PagePreview">
+    <value>Previsão</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Favor esperar...</value>
+  </data>
+  <data name="SearchDefaultString">
+    <value>Wiki Pesquisa</value>
+  </data>
+  <data name="UnNotifyOnEditPage">
+    <value>Remover das paginas</value>
+  </data>
+  <data name="UnNotifyOnNewPage">
+    <value>Remover das novas páginas</value>
+  </data>
+  <data name="UnNotifyOnPageCat">
+    <value>Remover das categorias</value>
+  </data>
+  <data name="wiki_PageContCaption">
+    <value>Páginas</value>
+  </data>
+  <data name="wiki_PageContGoButton">
+    <value>Ir</value>
+  </data>
+  <data name="wikiAction_CommentAdded">
+    <value>comentário adicionado</value>
+  </data>
+  <data name="wikiAction_CommentDeleted">
+    <value>comentário deletado</value>
+  </data>
+  <data name="wikiAction_CommentEdited">
+    <value>comentário editado</value>
+  </data>
+  <data name="wikiAction_FileAdded">
+    <value>arquivo adicionado</value>
+  </data>
+  <data name="wikiAction_FileDeleted">
+    <value>arquivo deletado</value>
+  </data>
+  <data name="wikiAction_PageAdded">
+    <value>pagina adicionada</value>
+  </data>
+  <data name="wikiAction_PageEdited">
+    <value>pagina editada</value>
+  </data>
+  <data name="wikiAction_VersionRevert">
+    <value>versão de pagina revertida</value>
+  </data>
+  <data name="WikiBreadcrumbsModuleName">
+    <value>Wiki</value>
+  </data>
+  <data name="wikiCategoryAlfaList">
+    <value>#,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</value>
+  </data>
+  <data name="wikiDiffDescriptionFormat">
+    <value>Comparando Ver.{0} com Ver.{1}</value>
+  </data>
+  <data name="wikiFileUploadSubject">
+    <value>Enviar Arquivo</value>
+  </data>
+  <data name="wikiHistoryCaption">
+    <value>Historico</value>
+  </data>
+  <data name="WikiPageCount">
+    <value>Total de páginas</value>
+  </data>
+  <data name="wikiPageInfoFormat">
+    <value>Ultimas mudanças por {0} até {1}</value>
+  </data>
+  <data name="wikiRevertConfirm">
+    <value>Você gostaria de reverter esta versão?</value>
+  </data>
+  <data name="wikiSearchCaption">
+    <value>Wiki Pesquisa</value>
+  </data>
+  <data name="wikiSearchContentFormat">
+    <value>"{0}"</value>
+  </data>
+  <data name="wikiSize">
+    <value>Tamanho</value>
+  </data>
+  <data name="wikiSizeB">
+    <value>B</value>
+  </data>
+  <data name="wikiSizeGB">
+    <value>GB</value>
+  </data>
+  <data name="wikiSizeKB">
+    <value>KB</value>
+  </data>
+  <data name="wikiSizeMB">
+    <value>MB</value>
+  </data>
+  <data name="wikiSizeTB">
+    <value>TB</value>
+  </data>
+  <data name="wikiVersion_Number">
+    <value>#</value>
+  </data>
+  <data name="wikiVersionCaption">
+    <value>Ver.</value>
+  </data>
+  <data name="wikiWidgetAllPages">
+    <value>Todas as Páginas</value>
+  </data>
+  <data name="WikiWidgetDescription">
+    <value>mostrar pagina criada mais recente</value>
+  </data>
+  <data name="WikiWidgetTitle">
+    <value>Wiki</value>
+  </data>
+</root>

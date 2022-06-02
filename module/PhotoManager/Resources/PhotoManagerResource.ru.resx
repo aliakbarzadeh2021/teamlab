@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionsTitle">
+    <value>Действия</value>
+  </data>
+  <data name="AddAlbumLink">
+    <value>Добавить альбом</value>
+  </data>
+  <data name="AddButton">
+    <value>Добавить</value>
+  </data>
+  <data name="AddCommentLink">
+    <value>Добавить комментарий</value>
+  </data>
+  <data name="AddEventLink">
+    <value>Создать новое событие</value>
+  </data>
+  <data name="AddMorePhotosLink">
+    <value>Добавить еще фотографий</value>
+  </data>
+  <data name="AddNewCommentLink">
+    <value>Добавить комментарий</value>
+  </data>
+  <data name="AddNewPhotoLink">
+    <value>Добавить новое</value>
+  </data>
+  <data name="AddonDescriptionResourceKey">
+    <value>Корпоративные фотоальбомы</value>
+  </data>
+  <data name="AddonName">
+    <value>Фото</value>
+  </data>
+  <data name="AddonPath">
+    <value>~/products/community/modules/photomanager/</value>
+  </data>
+  <data name="AlbumCoverTitle">
+    <value>Обложка альбома</value>
+  </data>
+  <data name="AlbumNameTitle">
+    <value>Название альбома</value>
+  </data>
+  <data name="AlbumsCountPhoto">
+    <value>Фото</value>
+  </data>
+  <data name="AlbumsTitle">
+    <value>Альбомы</value>
+  </data>
+  <data name="AlbumTitle">
+    <value>Альбом</value>
+  </data>
+  <data name="AlbumTitleR1">
+    <value>Альбома</value>
+  </data>
+  <data name="AlbumTitleRm">
+    <value>Альбомов</value>
+  </data>
+  <data name="AllAuthorAlbumsTitle">
+    <value>Показать все альбомы автора</value>
+  </data>
+  <data name="AllPhotosUploadedTitle">
+    <value>Все Ваши фотографии успешно загружены</value>
+  </data>
+  <data name="AllPhotoTitle">
+    <value>Все фото</value>
+  </data>
+  <data name="AuthorTitle">
+    <value>Автор</value>
+  </data>
+  <data name="ButtonAddFiles">
+    <value>Добавить файлы</value>
+  </data>
+  <data name="ButtonSelectFiles">
+    <value>Выбрать файлы</value>
+  </data>
+  <data name="CancelButton">
+    <value>Отмена</value>
+  </data>
+  <data name="ChooseEventTitle">
+    <value>Выбрать событие</value>
+  </data>
+  <data name="ChoosePhotolink">
+    <value>Выбрать фотографии для загрузки</value>
+  </data>
+  <data name="CommentedTitle">
+    <value>Откомментированные</value>
+  </data>
+  <data name="CommentRemovedMessage">
+    <value>Комментарий удален</value>
+  </data>
+  <data name="CommentsTitle">
+    <value>Комментарии</value>
+  </data>
+  <data name="CommentTitle">
+    <value>Комментарий</value>
+  </data>
+  <data name="CommentTitleR1">
+    <value>Комментария</value>
+  </data>
+  <data name="CommentTitleRm">
+    <value>Комментариев</value>
+  </data>
+  <data name="ConfirmMoveMessage">
+    <value>Вы действительно хотите удалить все фотографии?</value>
+  </data>
+  <data name="ConfirmRemoveAlbumMessage">
+    <value>Вы действительно хотите удалить альбом?</value>
+  </data>
+  <data name="ConfirmRemoveEventMessage">
+    <value>Вы действительно хотите удалить событие?</value>
+  </data>
+  <data name="ConfirmRemoveMessage">
+    <value>Вы действительно хотите удалить выбранное фото?</value>
+  </data>
+  <data name="ConfirmRemovePhotoMessage">
+    <value>Вы действительно хотите удалить фото?</value>
+  </data>
+  <data name="CreateButton">
+    <value>Создать</value>
+  </data>
+  <data name="CreateNewTitle">
+    <value>Создать новое</value>
+  </data>
+  <data name="CreatePhotosWidgetMessage">
+    <value>Пожалуйста, загрузите Ваши фото {0}здесь{1}.</value>
+  </data>
+  <data name="CreateSelectEventMessage">
+    <value>Выбрать событие для загрузки или</value>
+  </data>
+  <data name="CtrlEnterKeysTitle">
+    <value>Ctrl+Enter</value>
+  </data>
+  <data name="DateTitle">
+    <value>Дата</value>
+  </data>
+  <data name="DeleteButton">
+    <value>Удалить</value>
+  </data>
+  <data name="DescriptionTitle">
+    <value>Описание</value>
+  </data>
+  <data name="DownToolTip">
+    <value>Вниз</value>
+  </data>
+  <data name="EditAlbumButton">
+    <value>Редактировать альбом</value>
+  </data>
+  <data name="EditButton">
+    <value>Редактировать</value>
+  </data>
+  <data name="EditEvent">
+    <value>Редактировать событие</value>
+  </data>
+  <data name="EditPhotoNameTitle">
+    <value>Название</value>
+  </data>
+  <data name="EditPhotoTitle">
+    <value>Редактировать фото</value>
+  </data>
+  <data name="EditSmallButton">
+    <value>Ред.</value>
+  </data>
+  <data name="EmptyWidgetMessage">
+    <value>Нажмите сюда, чтобы {0}Загрузить фотографии{1}</value>
+  </data>
+  <data name="ErrorFileTypeText">
+    <value>Тип файла не поддерживается</value>
+  </data>
+  <data name="ErrorNotCorrectMaxAlbumsSettings">
+    <value>Недопустимое число альбомов</value>
+  </data>
+  <data name="ErrorSaveWidgetSettings">
+    <value>Ошибка при сохранении настроек</value>
+  </data>
+  <data name="EventCreationTitle">
+    <value>Создание события</value>
+  </data>
+  <data name="EventHaveNoAlbumsMsg">
+    <value>В этом событии нет альбомов. Хотите :UPLOAD_LINK или :REMOVE_LINK его?</value>
+  </data>
+  <data name="EventsTitle">
+    <value>События</value>
+  </data>
+  <data name="EventTitle">
+    <value>Событие</value>
+  </data>
+  <data name="ExitToolTip">
+    <value>Выход</value>
+  </data>
+  <data name="FinishUploadLink">
+    <value>Завершить загрузку</value>
+  </data>
+  <data name="FullSizeTitle">
+    <value>Оригинал</value>
+  </data>
+  <data name="GoToTitle">
+    <value>и перейти</value>
+  </data>
+  <data name="HideButton">
+    <value>Закрыть</value>
+  </data>
+  <data name="ImagesPath">
+    <value>images/</value>
+  </data>
+  <data name="LastAlbumTitle">
+    <value>Последние альбомы</value>
+  </data>
+  <data name="LastCommentedTitle">
+    <value>Последние комментарии</value>
+  </data>
+  <data name="LastEventsTitle">
+    <value>Другие события</value>
+  </data>
+  <data name="LastPhotoWidgetTitle">
+    <value>Последние альбомы</value>
+  </data>
+  <data name="LastUpdateTitle">
+    <value>Обновлено</value>
+  </data>
+  <data name="MainPageMenuTitle">
+    <value>Главная страница</value>
+  </data>
+  <data name="MainStatisticName">
+    <value>Всего фотографий</value>
+  </data>
+  <data name="MaxLastAlbumsCountSettingsTitle">
+    <value>Число отображаемых альбомов (от 1 до 10)</value>
+  </data>
+  <data name="MyPhotoTitle">
+    <value>Мои фотографии</value>
+  </data>
+  <data name="NameTitle">
+    <value>Имя</value>
+  </data>
+  <data name="NextPhotoButton">
+    <value>След.</value>
+  </data>
+  <data name="NextSlideToolTip">
+    <value>Следующий слайд</value>
+  </data>
+  <data name="NoFoundMessage">
+    <value>Ничего не найдено.</value>
+  </data>
+  <data name="NoPhotosWidgetMessage">
+    <value>Нет ни одной фотографии.</value>
+  </data>
+  <data name="NoteFileUpload">
+    <value>Размер документа не может превышать {1}{0} MB{2}.</value>
+  </data>
+  <data name="NotifyOnNewEventCommentsDescription">
+    <value>Подписка позволяет следить за новыми фотографиями и комментариями в событии</value>
+  </data>
+  <data name="NotifyOnNewEventCommentsMessage">
+    <value>Подписаться на событие</value>
+  </data>
+  <data name="NotifyOnNewEventCommentsTitle">
+    <value>Подписка на событие</value>
+  </data>
+  <data name="NotifyOnUploadsDescription">
+    <value>Подписка позволяет следить за появлением любых новых фотографий</value>
+  </data>
+  <data name="NotifyOnUploadsMessage">
+    <value>Подписаться на новые фотографии</value>
+  </data>
+  <data name="NotifyOnUploadsTitle">
+    <value>Подписка на новые фотографии</value>
+  </data>
+  <data name="OrDragDrop">
+    <value>или перетащите их в это окно</value>
+  </data>
+  <data name="OtherAlbums">
+    <value>Другие альбомы</value>
+  </data>
+  <data name="OtherButton">
+    <value>Остальные</value>
+  </data>
+  <data name="OverallProgress">
+    <value>Общий прогресс</value>
+  </data>
+  <data name="PageTitleDefault">
+    <value>Все события</value>
+  </data>
+  <data name="PageTitleEditPhoto">
+    <value>Редактирование фотографии</value>
+  </data>
+  <data name="PageTitleSlideShow">
+    <value>Слайд-шоу</value>
+  </data>
+  <data name="PhotoManagerPageDescription">
+    <value>Главная страница Фотоменеджера</value>
+  </data>
+  <data name="PhotoManagerPageName">
+    <value>Главная страница</value>
+  </data>
+  <data name="PhotosTitle">
+    <value>Фото</value>
+  </data>
+  <data name="PhotoTitle">
+    <value>Фото</value>
+  </data>
+  <data name="PhotoTitleR1">
+    <value>Фото</value>
+  </data>
+  <data name="PhotoTitleRm">
+    <value>Фото</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>загрузка... пожалуйста, подождите</value>
+  </data>
+  <data name="PleaseWaitShortMessage">
+    <value>Пожалуйста, подождите...</value>
+  </data>
+  <data name="PostedByTitle">
+    <value>Загружено</value>
+  </data>
+  <data name="PostedToTitle">
+    <value>Загружено</value>
+  </data>
+  <data name="PressTitle">
+    <value>или нажмите</value>
+  </data>
+  <data name="PreviewButton">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="PreviousPhotoButton">
+    <value>Пред.</value>
+  </data>
+  <data name="PrevSlideToolTip">
+    <value>Предыдущий слайд</value>
+  </data>
+  <data name="RefreshButton">
+    <value>Обновить</value>
+  </data>
+  <data name="RemoveAlbumButton">
+    <value>Удалить альбом</value>
+  </data>
+  <data name="RemoveAllLink">
+    <value>Удалить все</value>
+  </data>
+  <data name="RemoveButton">
+    <value>Удалить</value>
+  </data>
+  <data name="RemoveCommentToolTipText">
+    <value>Удалить комментарий</value>
+  </data>
+  <data name="RemoveEvent">
+    <value>Удалить событие</value>
+  </data>
+  <data name="ReviewedTitle">
+    <value>Просмотрено</value>
+  </data>
+  <data name="RotateLeftLink">
+    <value>90° влево</value>
+  </data>
+  <data name="RotateRightLink">
+    <value>90° вправо</value>
+  </data>
+  <data name="RunPauseToolTip">
+    <value>Старт/Пауза</value>
+  </data>
+  <data name="SaidTitle">
+    <value>сказал</value>
+  </data>
+  <data name="SaveButton">
+    <value>Сохранить</value>
+  </data>
+  <data name="SavePhotosButton">
+    <value>Сохранить фотографии</value>
+  </data>
+  <data name="SeeAllAlbumsLink">
+    <value>Все альбомы</value>
+  </data>
+  <data name="SelectAuthorMessage">
+    <value>Выбрать автора</value>
+  </data>
+  <data name="SelectedFiles">
+    <value>Выбрано {0} файлов</value>
+  </data>
+  <data name="SelectFilesToUpload">
+    <value>Выберите файлы для загрузки</value>
+  </data>
+  <data name="SelectImagesButton">
+    <value>Выбрать фотографии</value>
+  </data>
+  <data name="SendCommentButton">
+    <value>Отправить комментарий</value>
+  </data>
+  <data name="SlidesShowTooTip">
+    <value>Слайд-шоу</value>
+  </data>
+  <data name="SubmitButton">
+    <value>Отправить</value>
+  </data>
+  <data name="TempPath">
+    <value>temp/</value>
+  </data>
+  <data name="TotalAlbumsTitle">
+    <value>Всего альбомов</value>
+  </data>
+  <data name="TotalPhotoTitle">
+    <value>Всего фотографий</value>
+  </data>
+  <data name="UnNotifyOnNewEventCommentsMessage">
+    <value>Отписаться от события</value>
+  </data>
+  <data name="UnNotifyOnUploadsMessage">
+    <value>Отписаться от новых фотографий</value>
+  </data>
+  <data name="UploadButton">
+    <value>Загрузить</value>
+  </data>
+  <data name="UploadedOf">
+    <value>{0} / {1} загружено файлов</value>
+  </data>
+  <data name="UploadPhotosLink">
+    <value>Загрузить фотографии</value>
+  </data>
+  <data name="UploadPhotosLinkDescription">
+    <value>Загрузите фотографии</value>
+  </data>
+  <data name="UploadPhotoTitle">
+    <value>Загрузка фотографий</value>
+  </data>
+  <data name="UploadsPhotosQuestion">
+    <value>здесь</value>
+  </data>
+  <data name="UpToolTip">
+    <value>Вверх</value>
+  </data>
+  <data name="UserActionCommented">
+    <value>прокомментировано</value>
+  </data>
+  <data name="UserActionUploaded">
+    <value>Загружено</value>
+  </data>
+  <data name="UserActivity_AddComment">
+    <value>добавлен комментарий</value>
+  </data>
+  <data name="UserActivity_AddPhoto">
+    <value>загружены фотографии</value>
+  </data>
+  <data name="UserActivity_DeleteComment">
+    <value>удалён комментарий</value>
+  </data>
+  <data name="UserActivity_DeletePhoto">
+    <value>удалены фотографии</value>
+  </data>
+  <data name="UserActivity_EditComment">
+    <value>отредактирован комментарий</value>
+  </data>
+  <data name="UserActivity_EditPhoto">
+    <value>отредактирована фотография</value>
+  </data>
+  <data name="UserActivity_Evaluate">
+    <value>оценена фотография</value>
+  </data>
+  <data name="UserHaveNoPhotosTitle">
+    <value>У пользователя нет фотографий</value>
+  </data>
+  <data name="ViewTitle">
+    <value>Просмотр</value>
+  </data>
+  <data name="ViewTitleR1">
+    <value>Просмотра</value>
+  </data>
+  <data name="ViewTitleRm">
+    <value>Просмотров</value>
+  </data>
+  <data name="WaitMessage">
+    <value>Пожалуйста, подождите</value>
+  </data>
+  <data name="WidgetDescriptionResourceKey">
+    <value>показывает последние обновления альбомов</value>
+  </data>
+  <data name="YouAlbumTitle">
+    <value>в свой альбом</value>
+  </data>
+  <data name="YouHaveNoPhotosTitle">
+    <value>У Вас нет фотографий.</value>
+  </data>
+</root>

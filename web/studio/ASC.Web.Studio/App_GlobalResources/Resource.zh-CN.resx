@@ -1,0 +1,903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountControlPageTitle">
+    <value>确认</value>
+  </data>
+  <data name="AccountDeactivation">
+    <value>帐户停用</value>
+  </data>
+  <data name="AccountDeletion">
+    <value>删除帐户</value>
+  </data>
+  <data name="Action">
+    <value>行动</value>
+  </data>
+  <data name="Actions">
+    <value>操作</value>
+  </data>
+  <data name="ActiveDirectory">
+    <value>活动目录</value>
+  </data>
+  <data name="AddButton">
+    <value>新增</value>
+  </data>
+  <data name="AddContentTitle">
+    <value>新增内容</value>
+  </data>
+  <data name="AddEmployeesButton">
+    <value>导入联​​系人</value>
+  </data>
+  <data name="AddNewCommentButton">
+    <value>发表评论</value>
+  </data>
+  <data name="Administration">
+    <value>设置</value>
+  </data>
+  <data name="AdministrationDescription">
+    <value>管理员和SMTP设置</value>
+  </data>
+  <data name="AdministratorNotifySenderTypeName">
+    <value>管理员通知</value>
+  </data>
+  <data name="Admins">
+    <value>管理员</value>
+  </data>
+  <data name="AdminSelectorTitle">
+    <value>管理员选择工具</value>
+  </data>
+  <data name="AdminSettings">
+    <value>管理员</value>
+  </data>
+  <data name="AfterRegistryMessagePopupTitle">
+    <value>您的网站已经创建成功</value>
+  </data>
+  <data name="AllEmployees">
+    <value>所有{!users}</value>
+  </data>
+  <data name="AllMailDomains">
+    <value>任意域</value>
+  </data>
+  <data name="AnswerButton">
+    <value>回复</value>
+  </data>
+  <data name="AnswerMessage">
+    <value>回复</value>
+  </data>
+  <data name="AssociateAccount">
+    <value>社区网站链接</value>
+  </data>
+  <data name="AssociateAccountConnect">
+    <value>连接</value>
+  </data>
+  <data name="AssociateAccountDisconnect">
+    <value>断开</value>
+  </data>
+  <data name="AssociateAccountNotConnected">
+    <value>没有连接</value>
+  </data>
+  <data name="Authorization">
+    <value>授权</value>
+  </data>
+  <data name="AuthPageWelcomeHeader">
+    <value>欢迎您！</value>
+  </data>
+  <data name="Backup">
+    <value>备份/停用</value>
+  </data>
+  <data name="Birthdate">
+    <value>出生日期</value>
+  </data>
+  <data name="BtnAddNewContact">
+    <value>添加新的联系方式</value>
+  </data>
+  <data name="CancelButton">
+    <value>取消</value>
+  </data>
+  <data name="CEO">
+    <value>{!CEO}</value>
+  </data>
+  <data name="CeoNameEditCaption">
+    <value>编辑{!CEO}</value>
+  </data>
+  <data name="ChangeButton">
+    <value>修改</value>
+  </data>
+  <data name="ChangeLogoButton">
+    <value>更换标志</value>
+  </data>
+  <data name="ChangeOwnerTitle">
+    <value>更改为：</value>
+  </data>
+  <data name="ChangePwd">
+    <value>修改密码</value>
+  </data>
+  <data name="ChangeSelfPwd">
+    <value>修改我的密码</value>
+  </data>
+  <data name="ClearButton">
+    <value>清除</value>
+  </data>
+  <data name="CloseButton">
+    <value>关闭</value>
+  </data>
+  <data name="Comments">
+    <value>评论</value>
+  </data>
+  <data name="ConfirmOwnerPortalTitle">
+    <value>请确认您要修改网站的拥有者为{0}</value>
+  </data>
+  <data name="Contacts">
+    <value>联系方式</value>
+  </data>
+  <data name="ContactUs">
+    <value>联系我们</value>
+  </data>
+  <data name="ContinueButton">
+    <value>继续</value>
+  </data>
+  <data name="CreatingBackup">
+    <value>创建备份</value>
+  </data>
+  <data name="CredentialsUserName">
+    <value>用户验证</value>
+  </data>
+  <data name="CSV">
+    <value>CSV</value>
+  </data>
+  <data name="CSVImportName">
+    <value>从CSV文件导入用户</value>
+  </data>
+  <data name="Custom">
+    <value>自定义</value>
+  </data>
+  <data name="CustomDomainName">
+    <value>自定义域名</value>
+  </data>
+  <data name="Customization">
+    <value>自定义</value>
+  </data>
+  <data name="CustomNamingPeopleSchema">
+    <value>自定义</value>
+  </data>
+  <data name="DataBackup">
+    <value>数据备份</value>
+  </data>
+  <data name="DeactivateButton">
+    <value>停用</value>
+  </data>
+  <data name="DeactivatePortalButton">
+    <value>停用</value>
+  </data>
+  <data name="DeleteButton">
+    <value>删除</value>
+  </data>
+  <data name="DeletePortalButton">
+    <value>删除</value>
+  </data>
+  <data name="DemoModeText">
+    <value>演示模式</value>
+  </data>
+  <data name="Department">
+    <value>{!Group}</value>
+  </data>
+  <data name="DepartmentMaster">
+    <value>{!Head}</value>
+  </data>
+  <data name="Departments">
+    <value>{!Groups}</value>
+  </data>
+  <data name="DepEditComposition">
+    <value>编辑成员</value>
+  </data>
+  <data name="DepEditMaster">
+    <value>编辑{!Head}</value>
+  </data>
+  <data name="DepNameEditCaption">
+    <value>编辑名称</value>
+  </data>
+  <data name="DisableUserButton">
+    <value>禁用</value>
+  </data>
+  <data name="DiskUsageTitle">
+    <value>磁盘使用情况</value>
+  </data>
+  <data name="DnsSettings">
+    <value>DNS设置</value>
+  </data>
+  <data name="DnsSettingsLabel">
+    <value>网站DNS地址</value>
+  </data>
+  <data name="DomainName">
+    <value>域名</value>
+  </data>
+  <data name="DontShowOnStartupText">
+    <value>不要在启动时显示</value>
+  </data>
+  <data name="DrnToday">
+    <value>今天</value>
+  </data>
+  <data name="DrnTomorrow">
+    <value>明天</value>
+  </data>
+  <data name="DrnYesterday">
+    <value>昨天</value>
+  </data>
+  <data name="EditButton">
+    <value>编辑</value>
+  </data>
+  <data name="EditQuickLink">
+    <value>编辑快捷链接</value>
+  </data>
+  <data name="EditSelfProfile">
+    <value>编辑我的个人资料</value>
+  </data>
+  <data name="EditThumbnailPhoto">
+    <value>编辑头像</value>
+  </data>
+  <data name="EditUserDialogTitle">
+    <value>编辑个人资料</value>
+  </data>
+  <data name="Email">
+    <value>电子邮件</value>
+  </data>
+  <data name="EmailForReminder">
+    <value>您注册网站时使用的电子邮件</value>
+  </data>
+  <data name="EmailHint">
+    <value>这是您登录时使用的电子邮件</value>
+  </data>
+  <data name="Employee">
+    <value>{!User}</value>
+  </data>
+  <data name="EmployeeAllDepartments">
+    <value>所有{!Groups}</value>
+  </data>
+  <data name="Employees">
+    <value>{!Users}</value>
+  </data>
+  <data name="EmployeesSearch">
+    <value>成员搜索</value>
+  </data>
+  <data name="EmployeesShowAsCards">
+    <value>名片</value>
+  </data>
+  <data name="EmployeesShowAsList">
+    <value>列表</value>
+  </data>
+  <data name="EnableSSL">
+    <value>启用S​​SL</value>
+  </data>
+  <data name="EnableUserButton">
+    <value>启用</value>
+  </data>
+  <data name="ErrorDisallowRemoveYourselfFromAdmins">
+    <value>您不能把自己从管理员列表中移除</value>
+  </data>
+  <data name="ErrorEmptyUploadFileSelected">
+    <value>无法找到上传的文件</value>
+  </data>
+  <data name="ErrorFileEmptyText">
+    <value>空文件</value>
+  </data>
+  <data name="ErrorNotCorrectEmail">
+    <value>无效的电子邮件</value>
+  </data>
+  <data name="ErrorNotCorrectPassword">
+    <value>密码错误</value>
+  </data>
+  <data name="ErrorPasswordToShort">
+    <value>密码太短。它不得少于6个字符。</value>
+  </data>
+  <data name="ErrorUserNotSelected">
+    <value>选择一个用户</value>
+  </data>
+  <data name="FemaleSexStatus">
+    <value>女</value>
+  </data>
+  <data name="FilterInPeriod">
+    <value>自定义周期</value>
+  </data>
+  <data name="FilterInPeriodFromLabel">
+    <value>从</value>
+  </data>
+  <data name="FilterInPeriodToLabel">
+    <value>到</value>
+  </data>
+  <data name="FilterLast3Months">
+    <value>过去3个月</value>
+  </data>
+  <data name="FilterLastMonth">
+    <value>上个月</value>
+  </data>
+  <data name="FilterLastWeek">
+    <value>上星期</value>
+  </data>
+  <data name="FirstName">
+    <value>名字</value>
+  </data>
+  <data name="ForgotPassword">
+    <value>忘记密码？</value>
+  </data>
+  <data name="FromTime">
+    <value>从</value>
+  </data>
+  <data name="GeneralProperties">
+    <value>常规</value>
+  </data>
+  <data name="GeneralSettings">
+    <value>常规</value>
+  </data>
+  <data name="GettingStartingHeader">
+    <value>入门</value>
+  </data>
+  <data name="GreetingLogo">
+    <value>标志</value>
+  </data>
+  <data name="GreetingTitle">
+    <value>标题</value>
+  </data>
+  <data name="Help">
+    <value>帮助</value>
+  </data>
+  <data name="HideButton">
+    <value>隐藏</value>
+  </data>
+  <data name="HintEmail">
+    <value>请输入您的电子邮件</value>
+  </data>
+  <data name="Host">
+    <value>SMTP服务器地址</value>
+  </data>
+  <data name="ImportFromBaseCamp">
+    <value>从Basecamp导入</value>
+  </data>
+  <data name="InvalidUsernameOrPassword">
+    <value>用户名或密码无效。</value>
+  </data>
+  <data name="InviteButton">
+    <value>邀请</value>
+  </data>
+  <data name="InviteMailBoxTitle">
+    <value>电子邮件地址</value>
+  </data>
+  <data name="InvitePassword">
+    <value>选择密码</value>
+  </data>
+  <data name="Language">
+    <value>语言</value>
+  </data>
+  <data name="LastName">
+    <value>姓氏</value>
+  </data>
+  <data name="Links">
+    <value>链接</value>
+  </data>
+  <data name="Location">
+    <value>地址</value>
+  </data>
+  <data name="Login">
+    <value>登录</value>
+  </data>
+  <data name="LoginButton">
+    <value>登录</value>
+  </data>
+  <data name="LoginWithAccount">
+    <value>或者使用其他方式登录：</value>
+  </data>
+  <data name="LogoutButton">
+    <value>退出</value>
+  </data>
+  <data name="MailSearch">
+    <value>邮件搜索</value>
+  </data>
+  <data name="MainTitle">
+    <value>首页</value>
+  </data>
+  <data name="MaleSexStatus">
+    <value>男</value>
+  </data>
+  <data name="Message">
+    <value>聊天</value>
+  </data>
+  <data name="Messages">
+    <value>聊天</value>
+  </data>
+  <data name="MobileVersion">
+    <value>手机版</value>
+  </data>
+  <data name="More">
+    <value>更多</value>
+  </data>
+  <data name="MyProfile">
+    <value>我的个人资料</value>
+  </data>
+  <data name="MyStaff">
+    <value>我的工具</value>
+  </data>
+  <data name="MySubscriptions">
+    <value>我的订阅</value>
+  </data>
+  <data name="Name">
+    <value>姓名</value>
+  </data>
+  <data name="NamingPeopleSchema">
+    <value>模板</value>
+  </data>
+  <data name="NamingPeopleSettings">
+    <value>团队模板</value>
+  </data>
+  <data name="Navigation">
+    <value>导航</value>
+  </data>
+  <data name="NewPassword">
+    <value>新密码</value>
+  </data>
+  <data name="NoNewEmployees">
+    <value>没有新的{!users}</value>
+  </data>
+  <data name="NoSoonBirthday">
+    <value>近期没有人过生日</value>
+  </data>
+  <data name="NotifyBy">
+    <value>通知：</value>
+  </data>
+  <data name="NotifyByEmail">
+    <value>电子邮件</value>
+  </data>
+  <data name="NotifyByTMTalk">
+    <value>聊天</value>
+  </data>
+  <data name="Offline">
+    <value>离线</value>
+  </data>
+  <data name="OffMailDomains">
+    <value>未启用</value>
+  </data>
+  <data name="Online">
+    <value>在线用户</value>
+  </data>
+  <data name="Organizer">
+    <value>组织者</value>
+  </data>
+  <data name="OrPress">
+    <value>或按</value>
+  </data>
+  <data name="Outlook">
+    <value>Outlook</value>
+  </data>
+  <data name="Password">
+    <value>密码</value>
+  </data>
+  <data name="PasswordRemindTitle">
+    <value>密码提示</value>
+  </data>
+  <data name="PasswordSettingsTitle">
+    <value>修改密码</value>
+  </data>
+  <data name="PaymentsTitle">
+    <value>付款历史</value>
+  </data>
+  <data name="PersonalInfo">
+    <value>个人信息</value>
+  </data>
+  <data name="PersonalProperties">
+    <value>个人</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>请稍候...</value>
+  </data>
+  <data name="Port">
+    <value>端口</value>
+  </data>
+  <data name="PortalAddress">
+    <value>网站地址</value>
+  </data>
+  <data name="PortalOwner">
+    <value>网站所有者</value>
+  </data>
+  <data name="PortalSettings">
+    <value>网站设置</value>
+  </data>
+  <data name="PremiumStubButton">
+    <value>现在购买</value>
+  </data>
+  <data name="PremiumStubTitle">
+    <value>TeamLab高级功能</value>
+  </data>
+  <data name="PremiumTariffEndDateTitle">
+    <value>TeamLab专业版有效期至{0}</value>
+  </data>
+  <data name="PreviewButton">
+    <value>预览</value>
+  </data>
+  <data name="PrivateProjectsFeature">
+    <value>私有项目</value>
+  </data>
+  <data name="Profile">
+    <value>个人资料</value>
+  </data>
+  <data name="PublishButton">
+    <value>发布</value>
+  </data>
+  <data name="QuickLinksAddButton">
+    <value>新增</value>
+  </data>
+  <data name="QuickLinksAddressLabel">
+    <value>地址</value>
+  </data>
+  <data name="QuickLinksCancelButton">
+    <value>取消</value>
+  </data>
+  <data name="QuickLinksDeleteLink">
+    <value>删除</value>
+  </data>
+  <data name="QuickSearch">
+    <value>快速搜索</value>
+  </data>
+  <data name="ReactivatePortalButton">
+    <value>重新激活</value>
+  </data>
+  <data name="RecentActivity">
+    <value>最近的新鲜事</value>
+  </data>
+  <data name="RegDateCaption">
+    <value>注册日期</value>
+  </data>
+  <data name="RegistryButton">
+    <value>注册</value>
+  </data>
+  <data name="RePassword">
+    <value>确认密码</value>
+  </data>
+  <data name="ResponseMessageLink">
+    <value>回复</value>
+  </data>
+  <data name="RestoreDefaultButton">
+    <value>恢复为默认</value>
+  </data>
+  <data name="SaveButton">
+    <value>保存</value>
+  </data>
+  <data name="Search">
+    <value>搜索</value>
+  </data>
+  <data name="SearchResult">
+    <value>搜索结果</value>
+  </data>
+  <data name="SeeHereLabel">
+    <value>点击这里</value>
+  </data>
+  <data name="SelectButton">
+    <value>选择</value>
+  </data>
+  <data name="SelectFileButton">
+    <value>选择文件</value>
+  </data>
+  <data name="SendButton">
+    <value>发送</value>
+  </data>
+  <data name="SendInviteToJoinButton">
+    <value>发送邀请</value>
+  </data>
+  <data name="ServerErrorTitle">
+    <value>服务器错误</value>
+  </data>
+  <data name="Sex">
+    <value>性别</value>
+  </data>
+  <data name="ShowAllButton">
+    <value>显示所有</value>
+  </data>
+  <data name="ShowAllSearchResult">
+    <value>显示所有结果</value>
+  </data>
+  <data name="SidePanelLeftView">
+    <value>左</value>
+  </data>
+  <data name="SkinSettings">
+    <value>皮肤设置</value>
+  </data>
+  <data name="SmlMusic">
+    <value>音乐</value>
+  </data>
+  <data name="SmlSmile">
+    <value>表情</value>
+  </data>
+  <data name="SmtpSettings">
+    <value>SMTP设置</value>
+  </data>
+  <data name="SourceForDiskUsage">
+    <value>来源</value>
+  </data>
+  <data name="Statistic">
+    <value>统计</value>
+  </data>
+  <data name="StatisticsTitle">
+    <value>统计</value>
+  </data>
+  <data name="StudioDomainSettings">
+    <value>受信任的邮件域设置</value>
+  </data>
+  <data name="StudioTimeLanguageSettings">
+    <value>语言和时区设置</value>
+  </data>
+  <data name="StudioWelcomeHeader">
+    <value>团队合作与项目管理实验室</value>
+  </data>
+  <data name="SubjectTitle">
+    <value>主题</value>
+  </data>
+  <data name="SubmitButton">
+    <value>发送</value>
+  </data>
+  <data name="SubscribeButton">
+    <value>订阅</value>
+  </data>
+  <data name="Subscriptions">
+    <value>我的订阅</value>
+  </data>
+  <data name="SuccessfullyChangePasswordMessage">
+    <value>密码修改成功。</value>
+  </data>
+  <data name="SuccessfullySaveSmtpSettingsMessage">
+    <value>SMTP设置已成功保存</value>
+  </data>
+  <data name="SuccessfullySMTPTestMessage">
+    <value>SMTP设置测试已经成功执行</value>
+  </data>
+  <data name="SwitchUploadToFlashMode">
+    <value>{0}切换到{1}Flash上传{2}</value>
+  </data>
+  <data name="SwitchUploadToHtmlMode">
+    <value>{0}遇到问题了? 试试切换到{1}基本上传{2}</value>
+  </data>
+  <data name="SynchronizeButton">
+    <value>同步</value>
+  </data>
+  <data name="SystemNotify">
+    <value>通知</value>
+  </data>
+  <data name="TariffSettings">
+    <value>付款</value>
+  </data>
+  <data name="TeamLabSiteTitle">
+    <value>TeamLab网站</value>
+  </data>
+  <data name="TenantUsedSpace">
+    <value>已用存储空间</value>
+  </data>
+  <data name="TenantUsersTotal">
+    <value>用户总数</value>
+  </data>
+  <data name="TestSMTPEmailBody">
+    <value>TeamLab的SMTP设置已配置成功！</value>
+  </data>
+  <data name="TestSMTPEmailSubject">
+    <value>TeamLab的SMTP设置测试</value>
+  </data>
+  <data name="TimeZone">
+    <value>时区</value>
+  </data>
+  <data name="Title">
+    <value>标题</value>
+  </data>
+  <data name="TitleEmail">
+    <value>电子邮件</value>
+  </data>
+  <data name="TitleMobphone">
+    <value>手机号码</value>
+  </data>
+  <data name="TitleMsn">
+    <value>MSN</value>
+  </data>
+  <data name="TitleMyspace">
+    <value>MySpace</value>
+  </data>
+  <data name="TitlePhone">
+    <value>固定电话号码</value>
+  </data>
+  <data name="TitleSkype">
+    <value>Skype</value>
+  </data>
+  <data name="TitleThumbnailPhoto">
+    <value>更改缩略图</value>
+  </data>
+  <data name="TotalFinded">
+    <value>共找到</value>
+  </data>
+  <data name="ToWhatsNewPage">
+    <value>完整列表</value>
+  </data>
+  <data name="TrustedDomainSignInTitle">
+    <value>自定义域</value>
+  </data>
+  <data name="UnconfirmButton">
+    <value>拒绝</value>
+  </data>
+  <data name="UnsubscribeButton">
+    <value>退订</value>
+  </data>
+  <data name="UploadButton">
+    <value>上传</value>
+  </data>
+  <data name="UploadFiles">
+    <value>上传文件</value>
+  </data>
+  <data name="URL">
+    <value>网址</value>
+  </data>
+  <data name="UserCaption">
+    <value>用户</value>
+  </data>
+  <data name="UserCommunication">
+    <value>状态</value>
+  </data>
+  <data name="UserName">
+    <value>用户名</value>
+  </data>
+  <data name="UserPost">
+    <value>{!Userpost}</value>
+  </data>
+  <data name="UserRequest">
+    <value>用户请求</value>
+  </data>
+  <data name="UsersCaption">
+    <value>用户</value>
+  </data>
+  <data name="UserStatus">
+    <value>状态</value>
+  </data>
+  <data name="ViewAs">
+    <value>查看方式:</value>
+  </data>
+  <data name="Visited">
+    <value>今日访客</value>
+  </data>
+  <data name="VisitorsChartHitLabel">
+    <value>点击数</value>
+  </data>
+  <data name="VisitorsChartTitle">
+    <value>访问统计图表</value>
+  </data>
+  <data name="WatchVideoButton">
+    <value>观看视频</value>
+  </data>
+  <data name="WebItemsSettings">
+    <value>产品及模块</value>
+  </data>
+  <data name="WelcomeUserMessage">
+    <value>欢迎您, {0}</value>
+  </data>
+  <data name="WhatsNewSubscriptionName">
+    <value>新鲜事</value>
+  </data>
+  <data name="WidgetPanelTitle">
+    <value>我的模块</value>
+  </data>
+  <data name="WidgetSettings">
+    <value>自定义</value>
+  </data>
+  <data name="WidgetSettingsDialogTitle">
+    <value>自定义模块</value>
+  </data>
+  <data name="WorkFromDate">
+    <value>{!Regdate}</value>
+  </data>
+</root>

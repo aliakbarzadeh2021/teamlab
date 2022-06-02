@@ -1,0 +1,59 @@
+﻿/*******************************************************************************
+    Navigation Widget
+*******************************************************************************/
+ul.files_navigation
+{
+    list-style: none;
+    margin: 0 0 0 -20px;
+    padding: 0;
+}
+ul.files_navigation li a
+{
+    background-position: 3px 12px;
+    background-repeat: no-repeat;
+    border-color: #FFF #FFF #D1D1D1;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+    display: block;
+    font-family: Arial;
+    outline: none;
+    padding: 12px 0 12px 22px;
+    text-decoration: none;
+    _position: relative;
+}
+ul.files_navigation li a.current
+{
+    font-weight: bold;
+}
+ul.files_navigation li a.files_navigation_last
+{
+    margin-bottom: -10px;
+    border-color: #FFF;
+}
+ul.files_navigation li a.row-to
+{
+    border: 1px solid #98BCA1;
+}
+ul.files_navigation li a.myFiles
+{
+    background-image: url("images/myfiles.png");
+}
+ul.files_navigation li a.corporateFiles
+{
+    background-image: url("images/corporatefiles.png");
+}
+ul.files_navigation li a.shareformeFiles
+{
+    background-image: url("images/sharedforme.png");
+}
+ul.files_navigation li a.trash
+{
+    background-image: url("images/trash_container.png");
+}
+span.new_inshare
+{
+    font-weight: normal;
+    color: #83888D;
+    display:none;
+}

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Active">
+    <value>Aktīvs</value>
+  </data>
+  <data name="AddNewTask">
+    <value>Pievienot jaunu uzdevumu</value>
+  </data>
+  <data name="AddThisMilestone">
+    <value>Pievienot šo posmu</value>
+  </data>
+  <data name="ChooseYourMilestoneDate">
+    <value>Izvēlēties datumu</value>
+  </data>
+  <data name="Closed">
+    <value>Aizvērts</value>
+  </data>
+  <data name="ClosedMilestone">
+    <value>Pabeigts posms</value>
+  </data>
+  <data name="CreateNewMilestone">
+    <value>Plānot jaunu posmu</value>
+  </data>
+  <data name="Date">
+    <value>Datums</value>
+  </data>
+  <data name="DaysAfterDeadLine">
+    <value>{0} pēc termiņa</value>
+  </data>
+  <data name="DaysBeforeDeadLine">
+    <value>{0} pirms termiņa</value>
+  </data>
+  <data name="DeadLine">
+    <value>termiņš</value>
+  </data>
+  <data name="Delete">
+    <value>Izdzēst posmu</value>
+  </data>
+  <data name="Edit">
+    <value>Rediģēt</value>
+  </data>
+  <data name="EditMilestone">
+    <value>Rediģēt posmu</value>
+  </data>
+  <data name="EmptyScreenHeaderContent">
+    <value>Planot pirmu posmu šajā projektā</value>
+  </data>
+  <data name="EmptyScreenHeaderDescribe">
+    <value>Plānot posmu un izvēlēties datumu - uzdevumi būs izpildīti laicīgi.</value>
+  </data>
+  <data name="EmptyScreenMilestoneTemplate">
+    <value>Izveidojiet pirmo posmu projekta veidnei</value>
+  </data>
+  <data name="EmptyScreenMilestoneTemplateDescription">
+    <value>Ieplanojiet posmu un ievadiet galatermiņu, izmainiet projekta sarakstu.</value>
+  </data>
+  <data name="Example">
+    <value>Piemēram, beta versijas iznākšana.</value>
+  </data>
+  <data name="FinishMilestone">
+    <value>Pabeigt Posmu</value>
+  </data>
+  <data name="InTrash">
+    <value>Atkritnē</value>
+  </data>
+  <data name="KeepShiftedMilestoneOffWeekend">
+    <value>Neveidojiet posmus brīvdienām</value>
+  </data>
+  <data name="LateMilestone">
+    <value>Nokāvēti posmi</value>
+  </data>
+  <data name="Legend">
+    <value>Kalendāra leģenda</value>
+  </data>
+  <data name="Milestone">
+    <value>Posms</value>
+  </data>
+  <data name="MilestoneAdded">
+    <value>Pievienojam posmu....</value>
+  </data>
+  <data name="MilestoneDate">
+    <value>Termiņš</value>
+  </data>
+  <data name="MilestoneDeadlineLateInfo">
+    <value>Pārcelts no {0}</value>
+  </data>
+  <data name="MilestoneNotFound_Body">
+    <value>Iespējams, tas ir dzēsts, vai arī nav ar posma ar šādu ID projektā </value>
+  </data>
+  <data name="MilestoneNotFound_Header">
+    <value>Posms nav atrasts</value>
+  </data>
+  <data name="MilestoneNotFound_RedirectTitle">
+    <value>Iet uz posmu sarakstu</value>
+  </data>
+  <data name="Milestones">
+    <value>Posmi</value>
+  </data>
+  <data name="MilestoneStatusLabel_Active">
+    <value>{0}Aktīvs{1} līdz</value>
+  </data>
+  <data name="MilestoneStatusLabel_Closed">
+    <value>{0}Aizvērts{1} </value>
+  </data>
+  <data name="MilestoneStatusLabel_Late">
+    <value>{0}Nokavēts{1} kopš</value>
+  </data>
+  <data name="MilestoneTitle">
+    <value>Nosaukums</value>
+  </data>
+  <data name="MoveToMilestone">
+    <value>Pārcelt uz posmu</value>
+  </data>
+  <data name="NoOneMilestoneInProject">
+    <value>Projektam nav posmu</value>
+  </data>
+  <data name="OpenMilestone">
+    <value>Aktīvs posms</value>
+  </data>
+  <data name="Progress">
+    <value>Progress</value>
+  </data>
+  <data name="RemindMe">
+    <value>Atgadiniet man 48 stundas pirms termiņa izbeigšanas</value>
+  </data>
+  <data name="RestoreFromTrash">
+    <value>Atjaunot</value>
+  </data>
+  <data name="ResumeMilestone">
+    <value>Atsākt Posmu</value>
+  </data>
+  <data name="RootMilestone">
+    <value>Galvenais posms</value>
+  </data>
+  <data name="SaveMilestone">
+    <value>Posms saglabājās...</value>
+  </data>
+  <data name="ShiftMilestonesAnswer">
+    <value>Jā, pārcelt visus posmus arī</value>
+  </data>
+  <data name="ShiftMilestonesDescription">
+    <value>Jūs izmainījāt datumu tekošam posmam. Vai jūs gribat pārcelt arī pārējus posmus uz tādu pašu dienu skaitu?</value>
+  </data>
+  <data name="ShiftMilestonesQuestion">
+    <value>Pārcelt visus pārējus posmus?</value>
+  </data>
+  <data name="Status">
+    <value>Statuss</value>
+  </data>
+  <data name="StatusClosed">
+    <value>Aizvērts</value>
+  </data>
+  <data name="StatusOpen">
+    <value>Atvērts</value>
+  </data>
+  <data name="TasksInThisMilestone">
+    <value>Uzdevumi posmā</value>
+  </data>
+  <data name="TasksNotDone">
+    <value>neizpildīti uzdevumi</value>
+  </data>
+  <data name="Total">
+    <value>Kopā</value>
+  </data>
+</root>

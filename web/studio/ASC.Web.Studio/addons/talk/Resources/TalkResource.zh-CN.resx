@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnAccept">
+    <value>接受</value>
+  </data>
+  <data name="BtnCloseHistory">
+    <value>关闭历史记录</value>
+  </data>
+  <data name="BtnKick">
+    <value>踢出</value>
+  </data>
+  <data name="BtnRemove">
+    <value>删除</value>
+  </data>
+  <data name="BtnRemoveConference">
+    <value>删除</value>
+  </data>
+  <data name="BtnRemoveMember">
+    <value>删除成员</value>
+  </data>
+  <data name="BtnSendInvite">
+    <value>发送邀请</value>
+  </data>
+  <data name="Chat">
+    <value>聊天</value>
+  </data>
+  <data name="ConferenceGroupName">
+    <value>聊天室</value>
+  </data>
+  <data name="DefaultContactTitle">
+    <value>匿名</value>
+  </data>
+  <data name="ErrorFileSizeLimitText">
+    <value>上传文件大小超过最大尺寸限制。大小限制为{0}。</value>
+  </data>
+  <data name="FileSizePostfix">
+    <value>bytes,KB,MB,GB</value>
+  </data>
+  <data name="HintChangeState">
+    <value>更改状态</value>
+  </data>
+  <data name="HintClientConnecting">
+    <value>正在连接...</value>
+  </data>
+  <data name="HintCreateMassend">
+    <value>群发消息</value>
+  </data>
+  <data name="HintCtrlEnterSender">
+    <value>使用Ctrl + 回车键发送消息，使用回车键开始新的段落</value>
+  </data>
+  <data name="HintDisableSounds">
+    <value>禁用声音</value>
+  </data>
+  <data name="HintEmotions">
+    <value>表情</value>
+  </data>
+  <data name="HintEnableSounds">
+    <value>启用声音</value>
+  </data>
+  <data name="HintEnterSender">
+    <value>使用回车键发送消息，按Ctrl + 回车键开始新的段落</value>
+  </data>
+  <data name="HintFilter">
+    <value>启用/禁用 过滤器</value>
+  </data>
+  <data name="HintFlastPlayerIncorrect">
+    <value>Adobe Flash Player版本不正确</value>
+  </data>
+  <data name="HintGroups">
+    <value>显示/隐藏 组</value>
+  </data>
+  <data name="HintHideGroups">
+    <value>隐藏组</value>
+  </data>
+  <data name="HintHideOfflineContacts">
+    <value>隐藏离线联系人</value>
+  </data>
+  <data name="HintHistory">
+    <value>消息历史记录</value>
+  </data>
+  <data name="HintNoFlashPlayer">
+    <value>没有安装Adobe Flash Player</value>
+  </data>
+  <data name="HintNotifications">
+    <value>启用/禁用 浏览器通知</value>
+  </data>
+  <data name="HintOfflineContacts">
+    <value>显示/隐藏 离线联系人</value>
+  </data>
+  <data name="HintSearch">
+    <value>搜索</value>
+  </data>
+  <data name="HintSearchNextMessage">
+    <value>下一页</value>
+  </data>
+  <data name="HintSearchPrevMessage">
+    <value>上一页</value>
+  </data>
+  <data name="HintSelectContact">
+    <value>从联系人列表中选择一个人开始交谈</value>
+  </data>
+  <data name="HintSendAddition">
+    <value>高级</value>
+  </data>
+  <data name="HintSendFile">
+    <value>发送文件</value>
+  </data>
+  <data name="HintSendMessage">
+    <value>发送消息</value>
+  </data>
+  <data name="HintShowGroups">
+    <value>显示组</value>
+  </data>
+  <data name="HintShowLeftTab">
+    <value>在左侧显示标签</value>
+  </data>
+  <data name="HintShowOfflineContacts">
+    <value>显示离线联系人</value>
+  </data>
+  <data name="HintShowRightTab">
+    <value>在右侧显示标签</value>
+  </data>
+  <data name="HintSounds">
+    <value>启用/禁用 声音</value>
+  </data>
+  <data name="HintToggleSender">
+    <value>切换输入模式</value>
+  </data>
+  <data name="HintUpdateHrefText">
+    <value>您可以在这里下载</value>
+  </data>
+  <data name="HistoryFilterAll">
+    <value>所有</value>
+  </data>
+  <data name="HistoryFilterLastDay">
+    <value>昨天</value>
+  </data>
+  <data name="HistoryFilterLastMonth">
+    <value>上个月</value>
+  </data>
+  <data name="HistoryFilterLastWeek">
+    <value>上星期</value>
+  </data>
+  <data name="LabelConnectionBlock">
+    <value>当前状态：</value>
+  </data>
+  <data name="LabelCurrentStatus">
+    <value>当前状态</value>
+  </data>
+  <data name="LabelDoNotAsk">
+    <value>下一次不要询问</value>
+  </data>
+  <data name="LabelName">
+    <value>名称</value>
+  </data>
+  <data name="LabelReason">
+    <value>原因</value>
+  </data>
+  <data name="LabelRecvInvite">
+    <value>邀请您</value>
+  </data>
+  <data name="LabelSend">
+    <value>发送</value>
+  </data>
+  <data name="LabelSendToCurrent">
+    <value>当前</value>
+  </data>
+  <data name="LabelSendToSelection">
+    <value>选择</value>
+  </data>
+  <data name="LabelStatus">
+    <value>状态</value>
+  </data>
+  <data name="LabelTemporaryRoom">
+    <value>临时房间 (所有用户离开时将会删除聊天室)</value>
+  </data>
+  <data name="LabelTopic">
+    <value>主题</value>
+  </data>
+  <data name="ProductName">
+    <value>聊天</value>
+  </data>
+  <data name="SendFileMessage">
+    <value>文件: {0}大小: {1}</value>
+  </data>
+  <data name="StatusAway">
+    <value>离开</value>
+  </data>
+  <data name="StatusBusy">
+    <value>忙碌</value>
+  </data>
+  <data name="StatusFree">
+    <value>自由交谈</value>
+  </data>
+  <data name="StatusNA">
+    <value>忙碌</value>
+  </data>
+  <data name="StatusOffline">
+    <value>离线</value>
+  </data>
+  <data name="StatusOnline">
+    <value>在线</value>
+  </data>
+  <data name="TabsGroupTitle">
+    <value>打开标签</value>
+  </data>
+  <data name="TitleBrowserNotificationsDialog">
+    <value>浏览器通知</value>
+  </data>
+  <data name="TitleCreateRoom">
+    <value>创建聊天室</value>
+  </data>
+  <data name="TitleKickOccupantDialog">
+    <value>从聊天中踢出用户</value>
+  </data>
+  <data name="TitleRecvInvite">
+    <value>邀请交谈</value>
+  </data>
+  <data name="TitleRemoveRoomDialog">
+    <value>删除聊天</value>
+  </data>
+  <data name="UpdateFlashPlayerUrl">
+    <value>http://get.adobe.com/flashplayer/</value>
+  </data>
+</root>

@@ -1,0 +1,22 @@
+﻿
+.colorpicker
+{
+	visibility: hidden;
+	border: 1px solid #999;
+	background-color: #eee;
+	position: absolute;
+	z-index: 3500;
+}
+.colorpicker td
+{
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+.colorpickerbutton
+{
+	border: 1px solid #999;
+	cursor: pointer;
+}

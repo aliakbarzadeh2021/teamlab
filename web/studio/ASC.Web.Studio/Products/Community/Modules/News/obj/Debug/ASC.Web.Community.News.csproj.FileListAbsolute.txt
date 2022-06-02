@@ -1,0 +1,39 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternsResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.csproj.GenerateResource.Cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternsResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsPatternResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\ASC.Web.Community.News.Resources.NewsResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\GenerateResource.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\News\obj\Debug\GenerateResource.write.1.tlog

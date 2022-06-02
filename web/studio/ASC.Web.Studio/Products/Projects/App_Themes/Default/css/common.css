@@ -1,0 +1,437 @@
+﻿/*******************************************************************************
+   CSS Reset
+*******************************************************************************/
+
+dl, dt, dd
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/*******************************************************************************/
+
+table.pm-tablebase
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+table.pm-tablebase thead td
+{
+    text-align: left;
+    color: #82878D;
+    font-size: 12px;
+}
+table.pm-tablebase tbody td
+{
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    vertical-align: middle;
+}
+
+/*******************************************************************************/
+
+.pm-grayText
+{
+    color: #83888d !important;
+}
+
+.pm-redText
+{
+    color: #bf3a3c !important;
+}
+
+.pm-blueText
+{
+    color: #709fb7 !important;
+}
+
+.pm-greenText
+{
+    color: #6bac8b !important;
+}
+
+/*******************************************************************************
+   Request
+*******************************************************************************/
+
+#requestBody dt
+{ 
+	width:100px
+}
+#requestBody dd
+{ 
+	margin-left:110px;
+	padding-bottom:10px;
+}
+/*******************************************************************************
+   RecentActivity
+*******************************************************************************/
+
+.pm-activityContainer
+{
+	padding: 10px 20px 0;
+}
+
+
+
+
+/*******************************************************************************
+   Misc
+*******************************************************************************/
+.pm-moveHoverBackground
+{
+	background-position:0 center !important;
+	padding:0px;
+	background-color:Transparent !important;
+	border-top:none;
+	border-bottom:none;
+	border-left:none;
+	width:18px;
+}
+
+.pm-grayLink
+{
+	color:#83888C;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	padding:0;
+	vertical-align:middle;
+}
+.pm-grayLink:hover
+{
+	color:#83888C;
+	text-decoration:none;
+}
+
+.button-splitter
+{
+
+  padding: 0 4px;
+
+}
+
+.pm-hidden
+{
+  display:none;
+}
+
+
+.pm-h-line
+{
+    background-color: #D1D1D1;
+    height: 1px;
+    line-height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+dl.pm-flexible dt
+{
+    float: left;
+    text-align: right;
+}
+
+
+.studioSideBoxBodyAbout
+{
+    line-height: 1.5;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.studioSideBoxBodyAbout span.define
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pm-entity-plate
+{
+    font-size: 12px;
+    font-family: Arial;
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.pm-entity-plate-fixed
+{
+    font-size: 12px;
+    font-family: Arial;
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 18px;
+    line-height: 18px;
+    width: 85px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+#linkAllProjectsCombobox, #linkAllProjectsCombobox:visited
+{  
+	color:#b3b3b3;
+	font-size:18px;
+	font-family:Arial;
+	text-decoration:none;
+	
+}
+#linkAllProjectsCombobox:hover
+{
+	color:#b3b3b3;
+	font-size:18px;
+	font-family:Arial;
+		text-decoration:underline;
+
+}
+#linkAllProjectsCombobox:active
+{
+	color:#b3b3b3;
+	font-size:18px;
+	font-family:Arial;
+ text-decoration :none;
+
+}
+
+div.pm-dropdown
+{
+
+   border:1px solid #8E908F;
+   background-color: #FFFFFF;  
+   z-index: 10001;
+   white-space:nowrap;
+
+}
+
+.pm-dropdown-item
+{
+
+   margin:5px 10px;
+
+}
+
+div.pm-dropdown a.pm-dropdown-item,  a.pm-dropdown-item:active, a.pm-dropdown-item:visited, a.pm-dropdown-item:hover
+{
+
+    color:#000000;
+    cursor:pointer;  
+       padding: 2px;
+
+    text-decoration: none;
+    font-size:11px;
+    display:block;    
+}
+
+div.pm-dropdown a.pm-dropdown-item:hover 
+{
+  
+   background-color:#E8E9E9;
+ 
+}
+
+table#notify_participant p, table#another_notify_participant p
+{
+    vertical-align: top;
+    text-align: left;
+}
+table#notify_participant, table#another_notify_participant
+{
+    border: 0px; /* border="0" */
+}
+table#notify_participant td, table#another_notify_participant td
+{
+    vertical-align: top;
+    text-align: left;
+}
+
+table#notify_participant tbody p, table#another_notify_participant tbody p
+{
+    margin: 0;
+    max-width: 240px;
+    overflow: hidden;
+    padding: 10px 0 0;
+}
+
+
+.pm-ajax-info-block
+{
+
+  
+}
+
+.pm-ajax-info-block span
+{
+
+  font-style: italic;   
+}
+
+
+.pm-headerPanel-splitter
+{
+
+  margin-bottom:20px;
+
+}
+
+.headerPanelSmall
+{
+	margin-bottom: 5px;
+}
+
+.pm-headerPanelSmall-splitter
+{
+	margin-bottom: 10px;
+}
+
+.pm-elementNotFoundControl-header
+{
+	color:#111111;
+	font-family:Arial;
+	font-size:24px;
+	padding-bottom:15px;
+}
+
+.tooltip
+{
+
+ position:absolute;
+ z-index:999;
+ left:-9999px;
+ width:400px;
+ padding:10px;
+
+}
+.tooltip p 
+{
+
+ margin:0;
+ padding:0;
+ overflow-x:hidden;
+
+}
+
+
+/* File Uploader css style*/
+
+.pm_deleteLinkCSSClass
+{
+	background:url("../images/trash_fu.png") no-repeat scroll center center transparent;
+	cursor:pointer;
+	height:12px;
+	width:12px;
+	display:inline-block;
+	margin-top:2px;
+	text-decoration:none !important;
+}
+.pm_loadingCSSClass
+{
+	background:url("../images/loader_small.gif") no-repeat scroll center center transparent;
+	cursor:default;
+	height:24px;
+	width:24px;
+	display:inline-block;
+	margin-top:2px;
+	margin-left:-5px;
+	text-decoration:none !important;
+}
+.pm_completeCSSClass
+{
+	background:url("../images/complete.png") no-repeat scroll center center transparent;
+	cursor:default;
+	height:12px;
+	width:12px;
+	display:inline-block;
+	margin-top:2px;
+	text-decoration:none !important;
+}
+.pm_overAllProcessBarCssClass
+{
+	height:8px;
+	width:100%;
+	border: 1px solid #d1d1d1;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	margin-top:10px;
+}
+.pm_overAllProcessBarCssClass div
+{
+	height:8px;
+	background:url("../images/back-progress.png") repeat-x !important;
+}
+ .pm_uploadIcon
+{
+	background: url(../images/upload.png) no-repeat;
+	height:32px;
+	width:32px;
+	}
+
+
+#task_uploadContainer, #message_uploadContainer
+{
+	margin: 10px 0 0 0; 
+	max-height: 120px;
+	width: 100%; 
+	overflow: auto;
+}
+*+html #task_uploadContainer table, *+html #message_uploadContainer table
+{
+	width:507px !important;
+	z-index:290;	
+}
+
+a.pm_upload_btn
+{
+	float:left;
+	width:100px;
+	cursor:pointer;
+	position: absolute !important;
+}
+
+*html a.pm_upload_btn {margin-left:0px !important}
+*+html a.pm_upload_btn {margin-left:0px !important}
+#asc_fileuploaderSWFContainer{position:static !important;}
+.swfupload 
+{
+	width:130px !important; 
+	height:20px !important;
+	position: absolute !important;
+}
+
+.projectIcon_grey
+{
+	background: url(../images/project_g.png) no-repeat;	
+	display:inline-block;
+	padding-left:15px;
+}
+
+.milestoneIcon_grey
+{
+	background: url(../images/flag_g.png) no-repeat;
+	display:inline-block;
+	margin-left: 10px;
+    padding-left: 15px;
+}	
+
+#projTitle
+{
+    color: #FFFFFF; 
+    font-family: Arial; 
+    font-size: 18px;
+}
+
+.nonstretch
+{
+	resize: none;
+}

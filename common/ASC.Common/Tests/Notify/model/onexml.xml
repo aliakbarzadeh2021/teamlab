@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+  <act:catalog xmlns:act="urn:asc.notify.action.xsd">
+    <action id="act1"/>
+    <action id="act2" name="action 2"/>
+  </act:catalog>
+
+  <act:accordings xmlns:act="urn:asc.notify.action_pattern.xsd">
+    <action actionID="act1">
+      <pattern senderName="email" patternID="pat1"/>
+      <pattern senderName="messanger" patternID="pat1"/>
+    </action>
+    <action actionID="act2" defaultPatternID="pat2email">
+      <pattern senderName="email" patternID="pat2email"/>
+      <pattern senderName="messanger" patternID="pat2messanger"/>
+    </action>
+  </act:accordings>

@@ -1,0 +1,473 @@
+﻿/*******************************************************************************
+   TaskActionView.ascx
+*******************************************************************************/
+
+
+#addTaskPanel dt
+{
+    width: 110px;
+}
+
+#addTaskPanel dd
+{
+    margin-left: 130px;
+    padding-bottom: 10px;
+}
+
+#fileUploader
+{
+    margin-top: -12px;
+    position:absolute !important;    
+}
+
+#asc_fileuploaderSWFContainer{position:static !important;}
+/*.swfupload 
+{
+    cursor: pointer;
+    width:218px !important;
+    height:25px !important;
+    margin-top: -12px;
+    position: absolute !important;
+}
+
+#task_uploadContainer div table tbody tr 
+{
+    height: 20px !important;
+}*/
+
+/*******************************************************************************
+  Misc
+*******************************************************************************/
+#group_manager_popup dt
+{
+    width: 100px;
+}
+
+#group_manager_popup ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    max-height:150px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+#group_manager_popup ul li
+{
+    padding-bottom: 5px;
+}
+
+#group_manager_popup dd
+{
+    margin-left: 110px;
+}
+dl.pm-taskStatus dt
+{
+    width: 0px;
+}
+
+dl.pm-taskStatus
+{
+    padding: 6px;
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+
+dl.pm-taskStatus dd
+{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+    position: relative;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+dl.pm-taskStatus
+{
+    border: 1px solid #D1D1D1;
+    
+}
+
+div.pm-milestoneWithTasksBlock
+{
+    padding-bottom: 30px;
+}
+
+a.grayButton{
+    background-image: url("../images/button_gray_bg.gif");
+    background-repeat: repeat;
+    border: 1px solid #B1B1B1;
+    color: #000000;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 11px; 
+    padding: 4px 14px 2px;
+    text-decoration: none;
+    cursor:pointer;
+}
+ a.grayButton:hover {
+    background-image: url("../images/button_gray_bg_hover.gif");
+    background-repeat: repeat;
+    border: 1px solid #B1B1B1;
+    color: #000000;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 11px; 
+    padding: 4px 14px 2px;
+    text-decoration: none;
+    cursor:pointer;
+}
+a.grayButton div {
+    background: url("../images/button_gray_plus.png") no-repeat scroll 0 bottom transparent;
+    height: 18px;
+    margin: -2px 5px 0 0;
+    width: 18px;
+    float: left;
+}
+a.grayButton:hover div {
+    background: url("../images/button_gray_plus_hover.png") no-repeat scroll 0 bottom transparent;
+    height: 18px;
+    margin: -2px 5px 0 0;
+    width: 18px;
+    float: left;
+}
+
+/*******************************************************************************
+   TasklListView.aspx
+*******************************************************************************/
+
+
+#mainpanel dl
+{
+
+}
+
+#mainpanel dt
+{
+    width: 150px;
+    padding-bottom:15px;
+}
+
+
+#mainpanel dd
+{
+    margin-left: 160px;
+    padding-bottom:15px;
+}
+
+#participants_dropdown_switch
+{
+  color:#272727;
+  border-bottom: 1px dotted #8E908F;
+  cursor:pointer;
+  display:inline;
+
+}
+
+.pm-tasksItem-over
+{
+	background-color:#F5F5F5 !important; 
+}
+
+.pm-tasksItem-drag
+{
+	display:none;
+	
+	border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+
+	border-left: 1px solid #D1D1D1 !important;
+	background-color: #FFFFFF !important;
+	background-position: center center !important;
+	background-repeat: no-repeat;
+	width: 15px;
+	position:absolute;
+	left:-22px;
+}
+
+.pm-tasksItem-actionsPointer
+{
+	border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    
+	border-left: medium none !important;
+	background-color: #F5F5F5 !important;
+	background-position: center center !important;
+	background-repeat: no-repeat;
+	width: 15px;
+}
+
+.pm-tasksItem-actions
+{
+	border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    
+	background-color: #F5F5F5 !important;
+	width: 17px;
+}
+
+table.pm-tasks-block  tbody .pm-task-checkbox
+{ 
+  padding-left:5px;
+  padding-right:0px;
+  width: 20px;
+}
+
+table.pm-tasks-block  tbody .pm-task-status
+{
+  padding:5px;
+  width:200px;
+  
+}
+
+table.pm-tasks-block .pm-timetracking
+{
+  padding-left:0px;
+  padding-right:5px;
+  width: 16px;
+}
+
+table.pm-tasks-block .pm-task-responsible
+{
+	width:130px;
+	padding-left:0px;
+	white-space:nowrap;
+}
+
+table.pm-tasks-block .pm-task-title div
+{
+	overflow-x:hidden;
+	overflow-y:hidden;
+	
+}
+
+table.pm-tasks-block thead td
+{
+
+  border-left:none !important;
+  border-right:none !important;
+  border-top:none !important;
+  padding: 5px 15px ;
+
+}
+.pm-projectTeam-userInfoContainer
+{
+    width: 33%;
+    float: left;
+}
+.pm-projectTeam-userPhotoContainer
+{
+    padding-right: 10px;
+    vertical-align: top !important;
+}
+.pm-projectTeam-userAppointmentContainer
+{
+    margin-top: 3px
+}
+
+a.pm-linkClosedTask, a.pm-linkClosedTask:visited {
+    color: #9CA0A4 !important;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a.pm-linkClosedTask:hover {
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pm-taskDeadlineLateInfoContainer
+{
+	border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    
+    background-color: #E34603;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 1px 2px;
+    white-space:nowrap;
+}
+
+a.linkShowLastCompletedTasks, a.linkShowLastCompletedTasks:visited, a.linkShowLastCompletedTasks:hover
+{
+	margin-left:40px;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	color: #111111;
+	cursor:pointer;
+}
+
+.pm-task-row
+{
+	border-right:medium none !important;
+	border-left:medium none !important;
+	border-top:medium none !important;
+}
+
+/* My tasks*/
+
+.pm_projectIcon
+{
+	background:url("../images/project_search_icon.png") no-repeat scroll center center transparent;
+	height:26px;
+	width:30px;
+	display:inline-block;
+	float:left;
+}
+
+.pm_taskBlockDescribe
+{
+	color:#787878;
+	font-size:11px;
+	padding-top:3px;
+}
+
+.pm_spliter
+{
+	padding:0 6px;
+}
+
+a.removeToDo
+{
+	background: url("../images/delete_small.png") no-repeat scroll center center transparent;	
+	width:20px;
+	height:10px;
+	
+	text-decoration:none;
+	cursor:pointer;
+	display:inline-block;
+}
+a.editToDo
+{
+	background: url("../images/edit_small.png") no-repeat scroll center center  transparent;	
+	width:20px;
+	height:10px;
+	text-decoration:none;
+	cursor:pointer;
+	display:inline-block;
+	
+}
+
+.pm_todo_drag
+ {
+ 	background-image: url("../images/drag.png") !important; 
+ 	border-right: medium none !important;
+    height: 29px;
+    left: -36px;
+    top: -7px;
+}
+
+.pm_todoIcon
+{
+	background: url("../images/todo_icon.png") no-repeat scroll center center transparent;
+ 	display: inline-block;
+    float: left;
+    height: 16px;
+    width: 30px;
+}
+.pm_taskIcon
+{
+	background: url("../images/my_task_icon.png") no-repeat scroll center center transparent;
+    display: inline-block;
+    float: left;
+    height: 16px;
+    width: 30px; 	
+}
+.pm_edit_done, .pm_edit_done_list
+{
+	background: url("../images/16_enter.png") no-repeat transparent;
+    margin-left:7px;
+    height: 16px;
+    width: 16px; 	
+    cursor:pointer;
+    display:inline-block;
+    margin-top:-2px;
+}
+
+.pm_todo_loader
+{
+	background: url("../images/loader_small.gif") no-repeat transparent;
+    height: 24px;
+    width: 24px;
+    margin:-4px 0 0 -2px;
+}
+
+.pm_taskTitleClosedByPanel
+{
+	font-family:Arial;
+	font-size:18px;
+	color:#83888d;
+}
+
+.pm_add_todo
+{
+	background: url("../images/add_todo.png") no-repeat transparent;
+    height: 16px;
+    width: 16px;
+    display:inline-block;
+	float:left;
+}
+	
+.pm_add_list
+{
+	margin-left:20px;
+	background: url("../images/add_list.png") no-repeat transparent;
+    height: 16px;
+    width: 16px;
+    display:inline-block;
+	float:left;
+}
+
+.pm_add_link_list, .pm_add_link_todo
+{
+	margin-left:5px;
+	border-bottom: 1px dotted;
+	text-decoration:none;
+	cursor:pointer;
+}
+.pm_add_todo_box
+{
+	background-color:#EDF6FD;
+	display:inline-block;
+	padding: 2px 5px;
+	margin:20px 18px;
+}
+.pm_example_todo
+{
+	background: url("../images/info_16.gif") no-repeat scroll 2px 10px transparent;
+    padding: 10px 0 0px 25px;
+}
+.pm_add_container
+{
+	background-color: #EDF6FD;
+	padding:10px 30px;
+	margin:20px 0;
+}
+
+.pm_collapce_list
+{
+	background: url("../images/collapce-right.gif") no-repeat left bottom transparent;
+	height:18px;
+	width:22px;
+	display:inline-block;
+	margin-bottom:-2px;
+	cursor:pointer;
+}
+.pm_expand_list
+{
+	background: url("../images/expand.gif") no-repeat left bottom transparent;
+	height:18px;
+	width:22px;
+	display:inline-block;
+	margin-bottom:-2px;
+	cursor:pointer;
+}

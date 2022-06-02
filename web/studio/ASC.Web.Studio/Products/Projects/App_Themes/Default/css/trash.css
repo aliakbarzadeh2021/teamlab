@@ -1,0 +1,14 @@
+﻿
+#group_manager_popup dd {
+margin-left:150px;
+padding-bottom:10px;
+}
+#group_manager_popup dt {
+width:140px;
+padding-bottom:10px;
+}
+#scroll
+{
+height:70px;
+overflow:auto;
+}

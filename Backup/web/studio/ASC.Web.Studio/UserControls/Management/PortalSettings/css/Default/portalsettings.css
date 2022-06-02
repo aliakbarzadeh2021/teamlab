@@ -1,0 +1,62 @@
+﻿#portalSettingsTitle
+{
+    margin-top: 20px; 
+    padding-left: 15px; 
+    padding-bottom: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#studio_portalSettingsBox
+{
+    padding: 20px 15px;
+}
+
+#studio_portalSettingsBox input
+{
+    float:left;
+}
+
+#publicPortal
+{
+    margin-left:30px;
+}
+
+#studio_portalSettingsBox label
+{
+    float:left;
+    margin-top:2px;
+    margin-left:9px;
+}
+
+#studio_portalSettingsBox .description
+{
+    margin-top:10px;
+}
+
+#studio_portalSettingsBox .publicItems input
+{
+    float:left;
+} 
+#studio_portalSettingsBox .publicItems label
+{
+    float:left;
+    margin-top:3px;
+    margin-left:9px;    
+}
+
+#studio_portalSettingsBox .publicItems div
+{
+    margin-top:5px;
+}
+
+#studio_portalSettingsBox .btnBox
+{
+    margin-top:20px;
+}
+
+#savePortalSettingsBtn
+{
+    float:left;
+}

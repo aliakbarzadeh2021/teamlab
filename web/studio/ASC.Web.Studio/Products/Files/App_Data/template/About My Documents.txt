@@ -1,0 +1,10 @@
+My Documents folder of TeamLab Docs is a private storage space.
+Each portal's user can use this folder to store files for personal use only. 
+
+My Documents folder allows the user to:
+- upload files from the hard disk drive;
+- get access to files from anywhere;
+- organize files in folders;
+- create new text files, spreadsheets and presentations;
+- edit document content;
+- share files to colleagues, if necessary.

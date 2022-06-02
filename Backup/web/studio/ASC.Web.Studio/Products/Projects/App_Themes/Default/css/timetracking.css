@@ -1,0 +1,60 @@
+﻿
+    .pm-ts-dateColumn
+    {
+    	width: 100px;
+    	text-align:center !important;
+    }
+    .pm-ts-personColumn
+    {
+    	width: 150px;
+    }
+    .pm-ts-hoursColumn
+    {
+    	width: 40px;
+    	text-align:right !important;
+    }
+    .pm-ts-noteColumn
+    {
+    	
+    }
+    .pm-ts-actionsColumn
+    {
+    	text-align: right !important;
+        width: 40px;
+    }
+
+
+
+    .editLogPanel-infoPanel
+    {
+         margin: 0px 0px 25px 0px !important;
+         background-image: url('../images/clock_active.png')!important;
+    }
+    .editLogPanel-infoPanelBody
+    {
+        padding: 7px 0 0 35px !important;
+    }
+    .editLogPanel-elementContainer
+    {
+    	float: left;
+    	margin-right: 30px;
+    }
+    .addLogPanel-infoPanel
+    {
+         margin: 0px 0px 25px 0px !important;
+         background-image: url('../images/clock_active.png')!important;
+    }
+    .addLogPanel-infoPanelBody
+    {
+        padding:7px 0 0 35px !important;
+    }
+    .addLogPanel-elementContainer
+    {
+    	float:left;
+    	margin-right:10px;
+    }
+    #TimeLogTaskTitle
+    {
+    	overflow: hidden;
+    }
+

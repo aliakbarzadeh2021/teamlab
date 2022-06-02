@@ -1,0 +1,63 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\ASC.Web.UserControls.Wiki.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\ASC.Web.UserControls.Wiki.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\de\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\es\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\fr\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\lv\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\pt-BR\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\ru\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\it\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\ASC.Web.Core.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\System.Data.SQLite.DLL
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\System.Data.SQLite.xml
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\de\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\es\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\fr\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\lv\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\pt-BR\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ru\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\it\ASC.Web.UserControls.Wiki.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\ASC.Web.UserControls.Wiki.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\ASC.Web.UserControls.Wiki.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\de\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\es\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\fr\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\lv\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\pt-BR\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\ru\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\it\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\ASC.Web.Core.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\System.Data.SQLite.DLL
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\bin\System.Data.SQLite.xml
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.Resources.WikiUCResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\GenerateResource.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\GenerateResource.write.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\de\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\es\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\fr\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\lv\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\pt-BR\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ru\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\it\ASC.Web.UserControls.Wiki.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\controls\ASC.Web.UserControls.Wiki\obj\Debug\ASC.Web.UserControls.Wiki.pdb

@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions">
+    <value>Действия</value>
+  </data>
+  <data name="ActiveTasks">
+    <value>Активных задач</value>
+  </data>
+  <data name="ActiveTaskStatus">
+    <value>Выполняющиеся</value>
+  </data>
+  <data name="AdditionalOptions">
+    <value>Дополнительные опции</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>Все участники проекта</value>
+  </data>
+  <data name="Any">
+    <value>Любой</value>
+  </data>
+  <data name="AnyType">
+    <value>Любой тип</value>
+  </data>
+  <data name="ApplyFilter">
+    <value>Применить</value>
+  </data>
+  <data name="At">
+    <value>в</value>
+  </data>
+  <data name="AutogenReports">
+    <value>Автогенерирование отчетов</value>
+  </data>
+  <data name="AutomaticallyGenerate">
+    <value>Генерировать такой отчет автоматически</value>
+  </data>
+  <data name="BuildingReport">
+    <value>Построение отчета</value>
+  </data>
+  <data name="Category">
+    <value>Категория</value>
+  </data>
+  <data name="ChangeFilterData">
+    <value>Изменить фильтр отчета</value>
+  </data>
+  <data name="ChangeSettings">
+    <value>изменение параметров отправки отчетов</value>
+  </data>
+  <data name="ChooseDate">
+    <value>Выбор даты</value>
+  </data>
+  <data name="ChooseReportType">
+    <value>Выберите тип отчета</value>
+  </data>
+  <data name="ChooseTemplate">
+    <value>Выберите шаблон</value>
+  </data>
+  <data name="ChooseTimeInterval">
+    <value>Интервал времени</value>
+  </data>
+  <data name="ClearAllTemplates">
+    <value>Очистить все шаблоны</value>
+  </data>
+  <data name="ClearReportHistory">
+    <value>Очистить историю отчетов</value>
+  </data>
+  <data name="ClickToSortByThisColumn">
+    <value>Нажмите для сортировки по этой колонке</value>
+  </data>
+  <data name="ClosedTaskStatus">
+    <value>Закрытые</value>
+  </data>
+  <data name="CreateNewReport">
+    <value>Создать новый отчет</value>
+  </data>
+  <data name="CrteateTemplate">
+    <value>Создать шаблон</value>
+  </data>
+  <data name="CsvColumnMilestoneDeadline">
+    <value>Срок завершения вехи</value>
+  </data>
+  <data name="CsvColumnMilestoneStatus">
+    <value>Статус вехи</value>
+  </data>
+  <data name="CsvColumnMilestoneTitle">
+    <value>Название вехи</value>
+  </data>
+  <data name="CsvColumnProjectjTitle">
+    <value>Название проекта</value>
+  </data>
+  <data name="CsvColumnTaskDueDate">
+    <value>Срок завершения задачи</value>
+  </data>
+  <data name="CsvColumnTaskStatus">
+    <value>Статус задачи</value>
+  </data>
+  <data name="CsvColumnTaskTitle">
+    <value>Название задачи</value>
+  </data>
+  <data name="CsvColumnUserName">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="DaleteAllAutogen">
+    <value>Очистить все автоматически созданные отчеты</value>
+  </data>
+  <data name="DeadLine">
+    <value>Срок завершения</value>
+  </data>
+  <data name="DeleteAllTemplates">
+    <value>Удалить все шаблоны</value>
+  </data>
+  <data name="Department">
+    <value>{!Group}</value>
+  </data>
+  <data name="Edit">
+    <value>Редактировать</value>
+  </data>
+  <data name="EditTemplate">
+    <value>Редактирование шаблона</value>
+  </data>
+  <data name="Empty">
+    <value>Шаблоны не найдены</value>
+  </data>
+  <data name="EmptyTemplateTitle">
+    <value>Шаблон должен иметь название</value>
+  </data>
+  <data name="EveryDay">
+    <value>Каждый день</value>
+  </data>
+  <data name="EveryMonth">
+    <value>Каждый месяц</value>
+  </data>
+  <data name="EveryWeek">
+    <value>Каждую неделю</value>
+  </data>
+  <data name="EveryYear">
+    <value>Каждый год</value>
+  </data>
+  <data name="ExportToCSV">
+    <value>Экспортировать в csv</value>
+  </data>
+  <data name="ExportToHTML">
+    <value>Экспортировать в html</value>
+  </data>
+  <data name="ExportToXML">
+    <value>Экспортировать в xml</value>
+  </data>
+  <data name="Filter">
+    <value>Фильтр</value>
+  </data>
+  <data name="From">
+    <value>Из</value>
+  </data>
+  <data name="Generate">
+    <value>Генерировать</value>
+  </data>
+  <data name="GenerateFromTemplate">
+    <value>Генерировать по шаблону</value>
+  </data>
+  <data name="GenerateReport">
+    <value>Сгенерировать отчет</value>
+  </data>
+  <data name="GenerationDate">
+    <value>Дата генерации</value>
+  </data>
+  <data name="LastMonth">
+    <value>Прошедший месяц</value>
+  </data>
+  <data name="LastWeek">
+    <value>Прошедшая неделя</value>
+  </data>
+  <data name="LastYear">
+    <value>Прошедший год</value>
+  </data>
+  <data name="MainReportPage">
+    <value>Главная страница отчетов</value>
+  </data>
+  <data name="MilestonesStatus">
+    <value>Статус вех</value>
+  </data>
+  <data name="MyTemplates">
+    <value>Мои шаблоны</value>
+  </data>
+  <data name="NoMilestonesAndTasks">
+    <value>В этом проекте пока нет вех и задач</value>
+  </data>
+  <data name="Notification">
+    <value>Оповещение</value>
+  </data>
+  <data name="OrThePlannedDate">
+    <value>или запланированная дата</value>
+  </data>
+  <data name="Other">
+    <value>Другой</value>
+  </data>
+  <data name="OutOfMilestone">
+    <value>Вне вехи</value>
+  </data>
+  <data name="Participiants">
+    <value>Участников</value>
+  </data>
+  <data name="PepleSubscribedToReport">
+    <value>Люди, подписанные на отчет</value>
+  </data>
+  <data name="PeriodOfGeneration">
+    <value>Время генерирования</value>
+  </data>
+  <data name="PrintReport">
+    <value>Печать отчета</value>
+  </data>
+  <data name="Project">
+    <value>Проект</value>
+  </data>
+  <data name="ProjectsStatus">
+    <value>Статус проектов</value>
+  </data>
+  <data name="ReportClosedTasks">
+    <value>Отчет по закрытым задачам</value>
+  </data>
+  <data name="ReportCompletedTasks_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} за период {2} - {3}</value>
+  </data>
+  <data name="ReportCompletedTasks_Title">
+    <value>Завершенные задачи</value>
+  </data>
+  <data name="ReportDetailed_Title">
+    <value>Детализированные отчеты</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Description">
+    <value>{0}{2}Отчет Пользователи без активных задач отобразит список тех пользователей, у которых в данный момент нет активных задач.{3}{2}Чтобы просмотреть всех пользователей без активных задач во всех проектах, сразу нажмите Сгенерировать отчет.{3}{2}Чтобы выбрать конкретную группу или проверить отдельного пользователя, сначала сконфигурируйте параметры отчета в разделе Фильтр, а затем нажмите Сгенерировать отчет.{3}{1}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Title">
+    <value>Пользователи без активных задач</value>
+  </data>
+  <data name="ReportEmployment_Description">
+    <value>{0}{2}Отчет 'Загрузка' отобразит количество задач, назначенных пользователю и сгруппированных по статусу.{3}{2}Чтобы просмотреть данные по всем пользователям, сразу нажмите Сгенерировать отчет.{3}{2}Чтобы выбрать конкретную группу или пользователя, сначала сконфигурируйте параметры отчета в разделе Фильтр, а затем нажмите Сгенерировать отчет.{3}{1}</value>
+  </data>
+  <data name="ReportEmployment_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployment_Title">
+    <value>Загрузка</value>
+  </data>
+  <data name="ReportHistory">
+    <value>История отчетов</value>
+  </data>
+  <data name="ReportLateMilestones_Description">
+    <value>{0}{2}Отчет Просроченные вехи отобразит список просроченных вех.{3}{2}Чтобы просмотреть просроченные вехи во всех проектах, сразу нажмите Сгенерировать отчет.{3}{2}Чтобы просмотреть просроченные вехи только для заданного проекта, сначала выберите требуемый проект из выпадающего списка в разделе Фильтр&gt;, а затем нажмите Сгенерировать отчет.{3}{1}</value>
+  </data>
+  <data name="ReportLateMilestones_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} {2}</value>
+  </data>
+  <data name="ReportLateMilestones_Title">
+    <value>Просроченные вехи</value>
+  </data>
+  <data name="ReportLateTasks_Description">
+    <value>{0}{2}Отчет Просроченные задачи отображает список просроченных задач.{3}{2}Для просмотра просроченных задач во всех проектах нажмите ссылку Сгенерировать отчет.{3}{2}Для просмотра просроченных задач только по заданному проекту сначала выберите нужный проект из выпадающего списка в разделе Фильтр, а затем нажмите ссылку Сгенерировать отчет.{3}{1}</value>
+  </data>
+  <data name="ReportLateTasks_Title">
+    <value>Просроченные задачи</value>
+  </data>
+  <data name="ReportMilestoneList_Description">
+    <value>{0}{2}Отчет Список вех отображает список вех, сгруппированных по проекту, с которым они связаны. Отчет по умолчанию покажет список всех вех во всех проектах, с указанными сроками выполнения.{3}{2}Чтобы сгенерировать отчет, нажмите ниже кнопку Сгенерировать отчет.{3}{2}Нажмите ссылку Показать фильтры, чтобы изменить настройки отчета по умолчанию. Вы можете выбрать просмотр вех только для конкретного проекта или с заданным статусом. Когда фильтр сконфигурирован, нажмите Сгенерировать отчет еще раз, чтобы сгенерировать новый отчет с требуемыми настройками.{3}{1}</value>
+  </data>
+  <data name="ReportMilestoneList_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} {2}</value>
+  </data>
+  <data name="ReportMilestoneList_Title">
+    <value>Список вех</value>
+  </data>
+  <data name="ReportName">
+    <value>Название отчета</value>
+  </data>
+  <data name="ReportOpenTasks">
+    <value>Отчет по открытым задачам</value>
+  </data>
+  <data name="ReportPageTitle">
+    <value>Отчет «{0}»</value>
+  </data>
+  <data name="ReportProblemTracking_Title">
+    <value>Отчеты по проблемам</value>
+  </data>
+  <data name="ReportProjectList_Description">
+    <value>{0}{2}Отчет Список проектов отобразит список проектов.{3}{2}Чтобы просмотреть все активные проекты с их ответственными, рядом задач, вехами, действиями и участниками, сразу нажмите Сгенерировать отчет.{3}{2}Чтобы просмотреть проекты внутри конкретной группы и/или просмотреть как активные, так и завершенные проекты, сначала сконфигурируйте параметры отчета в разделе Фильтр, а затем нажмите Сгенерировать отчет.{3}{1}</value>
+  </data>
+  <data name="ReportProjectList_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectList_Title">
+    <value>Список проектов</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Description">
+    <value>{0}{2}Отчет Проекты без активных вех отобразит список проектов без активных вех.{3}{2}Чтобы просмотреть все проекты без активных вех, сразу нажмите Сгенерировать отчет&gt;.{3}{2}Чтобы проверить такие проекты внутри конкретной группы или проверить отдельного пользователя, сначала выберите нужную группу и/или пользователя в разделе Фильтр, а затем нажмите Сгенерировать отчет.{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Title">
+    <value>Проекты без активных вех</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Description">
+    <value>{0}{2}Отчет Проекты без активных задач отобразит список проектов без назначенных активных задач.{3}{2}Чтобы просмотреть все проекты без активных задач, сразу нажмите Сгенерировать отчет.{3}{2}Чтобы проверить такие проекты внутри конкретной группы или проверить отдельного пользователя, сначала выберите нужную группу и/или пользователя в разделе Фильтр, а затем нажмите Сгенерировать отчет.{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Title">
+    <value>Проекты без активных задач</value>
+  </data>
+  <data name="Reports">
+    <value>Отчеты</value>
+  </data>
+  <data name="ReportStatistics_Title">
+    <value>Сводные отчеты</value>
+  </data>
+  <data name="ReportTaskList_Description">
+    <value>{0}{2}Отчет Задачи проекта отобразит список задач, сгруппированных по проекту и вехе, с которыми они связаны.{3}{2}Чтобы просмотреть список всех задач во всех проектах с указанными участниками и статусом, сразу нажмите Сгенерировать отчет.{3}{2}Чтобы просмотреть задачи только конкретного проекта или заданного статуса, сначала сконфигурируйте параметры отчета в разделе Фильтр, а затем нажмите Сгенерировать отчет.{3}{1}</value>
+  </data>
+  <data name="ReportTaskList_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} {2}</value>
+  </data>
+  <data name="ReportTaskList_Title">
+    <value>Задачи проектов</value>
+  </data>
+  <data name="ReportTimeSpend_Description">
+    <value>{0}{2}Отчет о затратах времени - это список задач  с указанием фактического рабочего времени, базирующегося на журнале учета.{3}{2} Данный отчет помогает отслеживать прогресс выполнения работ по фактическому времени, затраченному на текущие задачи пользователей.{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpend_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} за период {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpend_Title">
+    <value>Затраченное время</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Description">
+    <value>{0}{2}Отчет о затратах времени - это список пользователей с указанием общего рабочего времени, базирующегося на журнале учета.{3}{2}Данный отчет помогает отслеживать общее количество времени, затраченное определенным пользователем.{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} за период {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Title">
+    <value>Отчет о затратах времени</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Description">
+    <value>{0}{2}Отчет Ближайшие вехи отобразит список приближающихся вех.{3}{2}Чтобы просмотреть ближайшие вехи во всех проектах за недельный период, сразу нажмите Сгенерировать отчет.{3}{2}Чтобы просмотреть ближайшие вехи для заданного проекта и/или другого периода времени, сначала выберите требуемый проект из выпадающего списка и/или установите другой крайний срок в поле До даты, а затем нажмите Сгенерировать отчет.{3}{1}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Title">
+    <value>Ближайшие вехи</value>
+  </data>
+  <data name="ReportUserActivity_Descripton">
+    <value>{0}{2}Отчет Активность пользователя отобразит действия конкретного пользователя в рамках Проектов за данный период времени.{3}{2}Чтобы показать Вашу собственную активность за предыдущую неделю, сразу нажмите Сгенерировать отчет.{3}{2}Чтобы задать другой период времени или выбрать другого пользователя, сначала сконфигурируйте параметры отчета в разделе Фильтр, а затем нажмите Сгенерировать отчет.{3}{1}</value>
+  </data>
+  <data name="ReportUserActivity_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserActivity_Title">
+    <value>Активность пользователя</value>
+  </data>
+  <data name="ReportUserTasks_Description">
+    <value>{0}{2}Отчет Задачи пользователя отобразит список задач, сгруппированных по участникам, которым они поручены.{3}{2}Чтобы просмотреть все задачи пользователей с указанием статуса, сразу нажмите Сгенерировать отчет.{3}{2}Чтобы просмотреть задачи только конкретного проекта или заданного статуса, сначала сконфигурируйте параметры отчета в разделе Фильтр, а затем нажмите Сгенерировать отчет.{3}{1}</value>
+  </data>
+  <data name="ReportUserTasks_InfoLine">
+    <value>Сгенерирован отчет: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserTasks_Title">
+    <value>Задачи пользователя</value>
+  </data>
+  <data name="SaveAsTemplate">
+    <value>Сохранить как шаблон</value>
+  </data>
+  <data name="SendOnEmail">
+    <value>Отправить по e-mail</value>
+  </data>
+  <data name="ShowTasks">
+    <value>Показать задачи</value>
+  </data>
+  <data name="ShowUserActivityReport">
+    <value>Показать отчет по активности пользователя</value>
+  </data>
+  <data name="ShowUserTasksReport">
+    <value>Показать отчет по задачам пользователя</value>
+  </data>
+  <data name="TaskDone">
+    <value>Задач выполнено</value>
+  </data>
+  <data name="TaskReport">
+    <value>Отчет по задачам</value>
+  </data>
+  <data name="TasksDone">
+    <value>Завершенные задачи</value>
+  </data>
+  <data name="TasksStatus">
+    <value>Статус задач</value>
+  </data>
+  <data name="TasksWorkingOn">
+    <value>Выполняемые задачи</value>
+  </data>
+  <data name="TemplateAndAutogen">
+    <value>Шаблон и автогенерирование</value>
+  </data>
+  <data name="TemplateName">
+    <value>Название шаблона</value>
+  </data>
+  <data name="TemplateNotFound_Body">
+    <value>Возможно он был удален, либо просто не существует шаблона с таким ID</value>
+  </data>
+  <data name="TemplateNotFound_Header">
+    <value>Шаблон не найден</value>
+  </data>
+  <data name="TemplateNotFound_RedirectTitle">
+    <value>Перейти к списку шаблонов</value>
+  </data>
+  <data name="Templates">
+    <value>Шаблоны</value>
+  </data>
+  <data name="TemplateTitle">
+    <value>Название шаблона</value>
+  </data>
+  <data name="ThisMonth">
+    <value>Текущий месяц</value>
+  </data>
+  <data name="ThisWeek">
+    <value>Текущая неделя</value>
+  </data>
+  <data name="ThisYear">
+    <value>Текущий год</value>
+  </data>
+  <data name="Today">
+    <value>Сегодня</value>
+  </data>
+  <data name="User">
+    <value>Пользователь</value>
+  </data>
+  <data name="UseTemplate">
+    <value>Использовать шаблон</value>
+  </data>
+  <data name="ViewByDepartments">
+    <value>{!Groups}</value>
+  </data>
+  <data name="ViewByParticipant">
+    <value>Просмотр по участнику</value>
+  </data>
+  <data name="ViewByProjects">
+    <value>Просмотр по проектам</value>
+  </data>
+  <data name="ViewByUsers">
+    <value>Просмотр по пользователям</value>
+  </data>
+  <data name="ViewByUserTasks">
+    <value>Просмотр по задачам пользователя</value>
+  </data>
+  <data name="ViewClosedMilestones">
+    <value>Показывать закрытые вехи</value>
+  </data>
+  <data name="ViewClosedProjects">
+    <value>Показывать закрытые проекты</value>
+  </data>
+  <data name="ViewInfo">
+    <value>Показать информацию об отчете</value>
+  </data>
+  <data name="ViewOnlyMyProjecs">
+    <value>Показывать только проекты, в которых я участвую</value>
+  </data>
+  <data name="Week">
+    <value>Неделя</value>
+  </data>
+  <data name="Weeks">
+    <value>Недели</value>
+  </data>
+  <data name="Yesterday">
+    <value>Вчера</value>
+  </data>
+</root>

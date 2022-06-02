@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About">
+    <value>Palīdzība</value>
+  </data>
+  <data name="Action">
+    <value>Darbība</value>
+  </data>
+  <data name="ActionText_Add">
+    <value>Pievienots</value>
+  </data>
+  <data name="Add">
+    <value>Pievienot</value>
+  </data>
+  <data name="AddComment">
+    <value>Pievienot Komentāru</value>
+  </data>
+  <data name="AddTime">
+    <value>Pievienot laiku</value>
+  </data>
+  <data name="All">
+    <value>Visi</value>
+  </data>
+  <data name="AllDepartments">
+    <value>Visas {!groups}</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>Visa projektu komanda</value>
+  </data>
+  <data name="AllUsers">
+    <value>Visi {!users}</value>
+  </data>
+  <data name="Apply">
+    <value>Piemērot</value>
+  </data>
+  <data name="Author">
+    <value>Autors</value>
+  </data>
+  <data name="AutoTimer">
+    <value>Start/Stop taimeris</value>
+  </data>
+  <data name="AutoTimerChangeViewType">
+    <value>Mainīt skata tipu</value>
+  </data>
+  <data name="AutoTimerFirstViewType">
+    <value>(st:min:sek)</value>
+  </data>
+  <data name="AutoTimerLogHours">
+    <value>Pievienot laiku</value>
+  </data>
+  <data name="AutoTimerNullTimeError">
+    <value>Nevar uzstādīt nulles laiku</value>
+  </data>
+  <data name="AutoTimerPause">
+    <value>Pauze</value>
+  </data>
+  <data name="AutoTimerReset">
+    <value>Anulēt</value>
+  </data>
+  <data name="AutoTimerSecondViewType">
+    <value>(stundas)</value>
+  </data>
+  <data name="AutoTimerStart">
+    <value>Start</value>
+  </data>
+  <data name="Calendar">
+    <value>Kalendārs</value>
+  </data>
+  <data name="Cancel">
+    <value>Atcelt</value>
+  </data>
+  <data name="ChangesSaved">
+    <value>Izmaiņas ir saglabātas</value>
+  </data>
+  <data name="ChooseaFileToUpload">
+    <value>Izvēlēties failu augšuplādēšanai</value>
+  </data>
+  <data name="Collapse">
+    <value>Paslēpt</value>
+  </data>
+  <data name="Comment">
+    <value>Komentēt</value>
+  </data>
+  <data name="Complete">
+    <value>Pabeigt</value>
+  </data>
+  <data name="ConfirmEmailNotify">
+    <value>Jā, paziņot visiem, kas pierakstījās, par izmaiņām pa ē-pastu</value>
+  </data>
+  <data name="CustomizeDashboardLink">
+    <value>Modificēt logrīkus</value>
+  </data>
+  <data name="CustomizeWidgets">
+    <value>Modificēt Logrīkus</value>
+  </data>
+  <data name="Dashboard">
+    <value>Infopanelis</value>
+  </data>
+  <data name="Date">
+    <value>Datums</value>
+  </data>
+  <data name="Delete">
+    <value>Izdzēst</value>
+  </data>
+  <data name="Edit">
+    <value>Rediģēt</value>
+  </data>
+  <data name="Employees">
+    <value>{!Users}</value>
+  </data>
+  <data name="Expand">
+    <value>Parādīt</value>
+  </data>
+  <data name="FollowingProjectsWidget_Description">
+    <value>parādīt sekojušus projektus</value>
+  </data>
+  <data name="FollowingProjectsWidget_EmptyString">
+    <value>Nav projektu sekošanai</value>
+  </data>
+  <data name="FollowingProjectsWidget_ErrorMessage">
+    <value>Nepareizs projektu skaits</value>
+  </data>
+  <data name="FollowingProjectsWidget_Title">
+    <value>Projektu skaits attēlošanai (no 1 līdz 30)</value>
+  </data>
+  <data name="History">
+    <value>Vēsture</value>
+  </data>
+  <data name="Hours">
+    <value>stundas</value>
+  </data>
+  <data name="HoursCount">
+    <value>Stundas</value>
+  </data>
+  <data name="In">
+    <value>iekšā</value>
+  </data>
+  <data name="Late">
+    <value>Vēli</value>
+  </data>
+  <data name="LearnMore">
+    <value>Uzzināt vairāk</value>
+  </data>
+  <data name="LogTime">
+    <value>Pievienot laiku</value>
+  </data>
+  <data name="MessagesWidget_Description">
+    <value>skatīties pēdējās apspriešanas</value>
+  </data>
+  <data name="MessagesWidget_ErrorMessage">
+    <value>Nepareizs ziņojumu skaits</value>
+  </data>
+  <data name="MessagesWidget_Title">
+    <value>Ierakstu skaits attēlošanai (no 1 līdz 30)</value>
+  </data>
+  <data name="MessageWidget_EmptyString">
+    <value>Nav iesākta neviena apspriešana</value>
+  </data>
+  <data name="MilestonesWidget_CountMilestones_Title">
+    <value>Posmu skaits attēlošanai (no 1 līdz 30)</value>
+  </data>
+  <data name="MilestonesWidget_ErrorMessage">
+    <value>Nepareizs posmu skaits</value>
+  </data>
+  <data name="MilestonesWidget_Overdue_Description">
+    <value>parādīt nokāvētus posmus</value>
+  </data>
+  <data name="MilestonesWidget_ShowLate_Title">
+    <value>Parādīt nokāvētus posmus</value>
+  </data>
+  <data name="MilestonesWidget_Upcoming_Description">
+    <value>parādīt nākamos posmus</value>
+  </data>
+  <data name="ModuleName">
+    <value>Projekti</value>
+  </data>
+  <data name="MoveTo">
+    <value>Pārvietot uz</value>
+  </data>
+  <data name="MoveToTrash">
+    <value>Izdzēst</value>
+  </data>
+  <data name="MyNewTasksWidget_EmptyString">
+    <value>Jums nav neviena uzdevuma</value>
+  </data>
+  <data name="MyProjectsWidget_Description">
+    <value>projekti, kuros jūs piedalāties</value>
+  </data>
+  <data name="MyProjectsWidget_EmptyString">
+    <value>Jūs nepiedalāties nevienā projektā</value>
+  </data>
+  <data name="MyProjectsWidget_ErrorMessage">
+    <value>Nepareizs projektu skaits</value>
+  </data>
+  <data name="MyProjectsWidget_Title">
+    <value>Projektu skaits attēlošanai (no 1 līdz 30)</value>
+  </data>
+  <data name="MyTasksWidget_Description">
+    <value>parādīt jūsu aktīvus uzdevumus</value>
+  </data>
+  <data name="MyTasksWidget_ErrorMessage">
+    <value>Nepareizs uzdevumu skaits</value>
+  </data>
+  <data name="MyTasksWidget_Title">
+    <value>Uzdevumu skaits attēlošanai (no 1 līdz 30)</value>
+  </data>
+  <data name="NewCommentForMessage">
+    <value>Jauni komentāri apspriešanā</value>
+  </data>
+  <data name="NewCommentForMilestone">
+    <value>Jauni komentāri posmos</value>
+  </data>
+  <data name="NewCommentForTask">
+    <value>Jauni komentāri uzdevumā</value>
+  </data>
+  <data name="NewProjectsWidget_Description">
+    <value>parādīt nesen izveidotus projektus</value>
+  </data>
+  <data name="NewProjectsWidget_EmptyString">
+    <value>Neviens projekts nav pievienots</value>
+  </data>
+  <data name="NewProjectsWidget_ErrorMessage">
+    <value>Nepareizs projektu skaits</value>
+  </data>
+  <data name="NewProjectsWidget_Title">
+    <value>Projektu skaits attēlošanai (no 1 līdz 30)</value>
+  </data>
+  <data name="NewsTitle">
+    <value>Nosaukums</value>
+  </data>
+  <data name="NextMonth">
+    <value>Nākamais mēnesis</value>
+  </data>
+  <data name="NoData">
+    <value>Nav datu</value>
+  </data>
+  <data name="NothingHasBeenFound">
+    <value>Nekas nebija atrasts</value>
+  </data>
+  <data name="NotifyPeopleViaEmail">
+    <value>Paziņot</value>
+  </data>
+  <data name="Or">
+    <value>vai</value>
+  </data>
+  <data name="PepleSubscribedToMessage">
+    <value>Tie, kas parakstījās apspriešanai</value>
+  </data>
+  <data name="Position">
+    <value>Amats</value>
+  </data>
+  <data name="Preview">
+    <value>Priekšskatījums</value>
+  </data>
+  <data name="PrevMonth">
+    <value>Iepriekšējais mēnesis</value>
+  </data>
+  <data name="ProductDescription">
+    <value>Veidojiet komandas un iedodiet darbiniekiem uzdevumus. Sastādiet projektu posmu sarakstu, novērojiet projektu aktivitāti un ģenerējiet atskaites.</value>
+  </data>
+  <data name="ProductName">
+    <value>Projekti</value>
+  </data>
+  <data name="RecentActivity">
+    <value>Pēdēja Aktivitāte</value>
+  </data>
+  <data name="RecentActivityContainerTitle">
+    <value>Aktivitāte</value>
+  </data>
+  <data name="RecentActivityWidget_Description">
+    <value>parādīt pēdējo aktivitāti projektos</value>
+  </data>
+  <data name="RecentActivityWidget_EmptyString">
+    <value>Pēdējās aktivitātes nav</value>
+  </data>
+  <data name="RecentActivityWidget_ErrorMessage">
+    <value>Nepareizs aktivitāšu skaits</value>
+  </data>
+  <data name="RecentActivityWidget_Title">
+    <value>Darbību skaits attēlošanai (no 1 līdz 30)</value>
+  </data>
+  <data name="Save">
+    <value>Saglabāt</value>
+  </data>
+  <data name="SaveChanges">
+    <value>Saglabāt Izmaiņas</value>
+  </data>
+  <data name="Saving">
+    <value>Saglabājās...</value>
+  </data>
+  <data name="ScreenBlock_Content">
+    <value>Izpildiet 6 vieglus soļus, lai efektīvi vadītu savu projektu</value>
+  </data>
+  <data name="ScreenBlock1_Content">
+    <value>Pievienojiet aprakstu, izvēlējaties projekta vadītāju</value>
+  </data>
+  <data name="ScreenBlock1_Header">
+    <value>Izveidojiet Projektu</value>
+  </data>
+  <data name="ScreenBlock2_Content">
+    <value>Sadarbojieties kopā vienā projektā</value>
+  </data>
+  <data name="ScreenBlock2_Header">
+    <value>Vadiet Savu Komandu</value>
+  </data>
+  <data name="ScreenBlock3_Content">
+    <value>Sekojiet jūsu projekta progresam</value>
+  </data>
+  <data name="ScreenBlock3_Header">
+    <value>Plānojiet posmus</value>
+  </data>
+  <data name="ScreenBlock4_Content">
+    <value>Sadaliet uzdevumus starp projektu komandas locekļiem</value>
+  </data>
+  <data name="ScreenBlock4_Header">
+    <value>Nododiet Uzdevumus</value>
+  </data>
+  <data name="ScreenBlock5_Content">
+    <value>Dalieties ar informāciju ar jūsu komandu</value>
+  </data>
+  <data name="ScreenBlock5_Header">
+    <value>Iesāciet Apspriešanu, Augšuplādējiet Failus</value>
+  </data>
+  <data name="ScreenBlock6_Content">
+    <value>Paziņojiet par projekta statusu un darbplūsmu</value>
+  </data>
+  <data name="ScreenBlock6_Header">
+    <value>Ģenerējiet Atskaites</value>
+  </data>
+  <data name="SearchResults">
+    <value>Meklēšanas Rezultāti: "{0}"</value>
+  </data>
+  <data name="SearchText">
+    <value>Meklēt</value>
+  </data>
+  <data name="Show">
+    <value>Parādīt</value>
+  </data>
+  <data name="ShowAllResults">
+    <value>Parādīt visus rezultātus</value>
+  </data>
+  <data name="ShowOnlyForMyProjects">
+    <value>Parādīt tikai maniem projektiem un projektiem, kuriem es sekoju līdz</value>
+  </data>
+  <data name="SortBy">
+    <value>Sakārtot pēc:</value>
+  </data>
+  <data name="SpentTotally">
+    <value>Iztērēta Laika</value>
+  </data>
+  <data name="StartURL">
+    <value>~/Products/Projects/</value>
+  </data>
+  <data name="Status">
+    <value>Statuss</value>
+  </data>
+  <data name="SubscribeOnNewComment">
+    <value>Parakstīties uz komentāriem</value>
+  </data>
+  <data name="Time">
+    <value>Laiks</value>
+  </data>
+  <data name="TimeTracking">
+    <value>Laika Sekošana</value>
+  </data>
+  <data name="Title">
+    <value>Nosaukums</value>
+  </data>
+  <data name="Today">
+    <value>Šodien</value>
+  </data>
+  <data name="Total">
+    <value>Kopā</value>
+  </data>
+  <data name="TotalFound">
+    <value>Kopā atrasts</value>
+  </data>
+  <data name="TotalOnPage">
+    <value>Kopā lapā</value>
+  </data>
+  <data name="ToTrash">
+    <value>Izdzēst</value>
+  </data>
+  <data name="Type">
+    <value>Tips</value>
+  </data>
+  <data name="UnSubscribeOnNewComment">
+    <value>Atrakstīties no komentāriem</value>
+  </data>
+  <data name="UpcomingMilestonesWidget_EmptyString">
+    <value>Neviens posms nav pievienots</value>
+  </data>
+  <data name="UploadTheFile">
+    <value>Augšuplādēt failu</value>
+  </data>
+  <data name="UploadTheNewVersion">
+    <value>Atjaunot Faila Versiju</value>
+  </data>
+  <data name="UpToDate">
+    <value>Laicīgi atjaunots</value>
+  </data>
+  <data name="With">
+    <value>ar</value>
+  </data>
+  <data name="WithSelected">
+    <value>Ar izvēlētiem...</value>
+  </data>
+  <data name="Yesterday">
+    <value>Vakar</value>
+  </data>
+</root>

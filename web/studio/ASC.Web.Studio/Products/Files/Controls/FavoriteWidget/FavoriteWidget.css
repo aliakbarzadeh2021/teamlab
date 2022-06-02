@@ -1,0 +1,121 @@
+﻿/*******************************************************************************
+Favorites
+*******************************************************************************/
+a.file_fav_notyet, a.file_fav_already
+{
+    padding: 3px;
+    display: inline-block;
+}
+a.file_fav_action
+{
+    border: 1px solid #CCC;
+    background-image: url("images/button_grey_bg.gif");
+    background-position: center top;
+    background-repeat: repeat-x;
+    padding: 2px !important;
+    display: inline-block;
+}
+a.file_fav_action:hover
+{
+    background-image: url("images/button_grey_over_bg.gif");
+}
+div.fileRow a.file_fav_notyet div
+{
+    cursor: pointer;
+    background: url("images/favorite.png") no-repeat scroll 0 -140px transparent;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+div.fileRow a.file_fav_already div
+{
+    cursor: pointer;
+    background: url("images/favorite.png") no-repeat scroll 0 -70px transparent;
+    height: 20px;
+    width: 20px;
+}
+div.fileRow a.file_fav_action div
+{
+    background: url("images/favorite.png") no-repeat scroll 0 0 transparent !important;
+    height: 20px;
+    width: 20px;
+}
+div.fileRow div.fileFavorites
+{
+    margin-left: 5px;
+    padding-top: 7px;
+    float: right !important;
+}
+div.fileRow.newFolder div.fileFavorites, div.fileRow.newFile div.fileFavorites, div.fileRow.rowRename div.fileFavorites
+{
+    display: none;
+}
+ul.favoritesBody
+{
+    list-style: none;
+    margin: 0 0 15px;
+    padding: 0;
+    display: none;
+}
+ul.favoritesBody li.favoritesRow
+{
+    border: 1px solid #FFFFFF;
+    padding: 6px 0;
+}
+ul.favoritesBody li.favoritesRow.row-to
+{
+    border: 1px solid #98BCA1;
+}
+ul.favoritesBody li.favoritesRow a
+{
+    display: block;
+    padding-left: 20px;
+    outline: none;
+    color: #111;
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 145px;
+    height: 16px;
+    _position: relative;
+}
+ul.favoritesBody li.favoritesRow a.fav_file
+{
+    background: url("images/favorite_file.png") no-repeat scroll 2px bottom transparent;
+}
+ul.favoritesBody li.favoritesRow a.fav_folder
+{
+    background: url("images/favorite_folder.png") no-repeat scroll 2px bottom transparent;
+}
+div.favoritesRemoveAction
+{
+    background: url("images/favorite_trash.png") no-repeat scroll 0 bottom transparent;
+    cursor: pointer;
+    float: right;
+    width: 12px;
+    height: 12px;
+}
+div.favoritesEmpty
+{
+    margin: 15px 0;
+    cursor: default;
+}
+input.favorites_prompt_input
+{
+    width: 150px;
+    float: left;
+    margin-right: 8px;
+}
+
+#favorites_addcurrent
+{
+    border-bottom: 1px dotted #1A6DB3;
+    outline: medium none;
+    text-decoration: none;
+}
+#favorites_addcurrent:hover
+{
+    border-bottom:none;
+}

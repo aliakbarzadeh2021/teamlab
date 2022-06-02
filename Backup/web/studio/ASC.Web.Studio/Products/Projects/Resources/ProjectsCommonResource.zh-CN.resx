@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About">
+    <value>帮助</value>
+  </data>
+  <data name="AddComment">
+    <value>发表评论</value>
+  </data>
+  <data name="All">
+    <value>所有</value>
+  </data>
+  <data name="AllDepartments">
+    <value>所有{!Groups}</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>所有项目团队成员</value>
+  </data>
+  <data name="AllUsers">
+    <value>所有{!users}</value>
+  </data>
+  <data name="Author">
+    <value>作者</value>
+  </data>
+  <data name="AutoTimerChangeViewType">
+    <value>更改视图类型</value>
+  </data>
+  <data name="AutoTimerPause">
+    <value>暂停</value>
+  </data>
+  <data name="AutoTimerStart">
+    <value>开始</value>
+  </data>
+  <data name="Calendar">
+    <value>日历</value>
+  </data>
+  <data name="Cancel">
+    <value>取消</value>
+  </data>
+  <data name="ChangesSaved">
+    <value>更改已保存</value>
+  </data>
+  <data name="ChooseaFileToUpload">
+    <value>选择要上传的文件</value>
+  </data>
+  <data name="Collapse">
+    <value>隐藏</value>
+  </data>
+  <data name="Comment">
+    <value>评论</value>
+  </data>
+  <data name="Complete">
+    <value>完成</value>
+  </data>
+  <data name="ConfirmEmailNotify">
+    <value>是的，通过电子邮件提醒所有的订阅者关于修改的消息。</value>
+  </data>
+  <data name="CustomizeDashboardLink">
+    <value>自定义模块</value>
+  </data>
+  <data name="CustomizeWidgets">
+    <value>自定义模块</value>
+  </data>
+  <data name="Dashboard">
+    <value>概况</value>
+  </data>
+  <data name="Date">
+    <value>日期</value>
+  </data>
+  <data name="Delete">
+    <value>删除</value>
+  </data>
+  <data name="Edit">
+    <value>编辑</value>
+  </data>
+  <data name="Employees">
+    <value>{!Users}</value>
+  </data>
+  <data name="Expand">
+    <value>显示</value>
+  </data>
+  <data name="FollowingProjectsWidget_Description">
+    <value>显示您跟踪的项目</value>
+  </data>
+  <data name="FollowingProjectsWidget_ErrorMessage">
+    <value>无效的项目数量</value>
+  </data>
+  <data name="FollowingProjectsWidget_Title">
+    <value>显示的项目数量（1到30）</value>
+  </data>
+  <data name="History">
+    <value>历史</value>
+  </data>
+  <data name="Hours">
+    <value>小时</value>
+  </data>
+  <data name="HoursCount">
+    <value>小时</value>
+  </data>
+  <data name="Late">
+    <value>逾期</value>
+  </data>
+  <data name="MessagesWidget_Description">
+    <value>显示最新讨论</value>
+  </data>
+  <data name="MessagesWidget_ErrorMessage">
+    <value>无效的消息数量</value>
+  </data>
+  <data name="MilestonesWidget_CountMilestones_Title">
+    <value>显示里程碑的数量（1到30）</value>
+  </data>
+  <data name="MilestonesWidget_ErrorMessage">
+    <value>无效的里程碑数量</value>
+  </data>
+  <data name="MilestonesWidget_Overdue_Description">
+    <value>显示逾期的里程碑</value>
+  </data>
+  <data name="MilestonesWidget_ShowLate_Title">
+    <value>显示逾期的里程碑</value>
+  </data>
+  <data name="MilestonesWidget_Upcoming_Description">
+    <value>显示即将到来的里程碑</value>
+  </data>
+  <data name="ModuleName">
+    <value>项目</value>
+  </data>
+  <data name="MoveTo">
+    <value>移动到</value>
+  </data>
+  <data name="MoveToTrash">
+    <value>删除</value>
+  </data>
+  <data name="MyNewTasksWidget_EmptyString">
+    <value>您没有任何任务</value>
+  </data>
+  <data name="MyProjectsWidget_Description">
+    <value>显示您参加的项目</value>
+  </data>
+  <data name="MyProjectsWidget_EmptyString">
+    <value>您没有加入任何项目。</value>
+  </data>
+  <data name="MyProjectsWidget_ErrorMessage">
+    <value>无效的项目数量</value>
+  </data>
+  <data name="MyProjectsWidget_Title">
+    <value>显示的项目数量（1到30）</value>
+  </data>
+  <data name="MyTasksWidget_Description">
+    <value>显示您当前的任务</value>
+  </data>
+  <data name="MyTasksWidget_ErrorMessage">
+    <value>无效的任务数</value>
+  </data>
+  <data name="MyTasksWidget_Title">
+    <value>显示的任务数量（1到30）</value>
+  </data>
+  <data name="NewProjectsWidget_Description">
+    <value>显示新创建的项目</value>
+  </data>
+  <data name="NewProjectsWidget_ErrorMessage">
+    <value>无效的项目数量</value>
+  </data>
+  <data name="NewProjectsWidget_Title">
+    <value>显示的项目数量（1到30）</value>
+  </data>
+  <data name="NewsTitle">
+    <value>标题</value>
+  </data>
+  <data name="NextMonth">
+    <value>下个月</value>
+  </data>
+  <data name="NoData">
+    <value>没有数据</value>
+  </data>
+  <data name="NothingHasBeenFound">
+    <value>未找到任何信息</value>
+  </data>
+  <data name="NotifyPeopleViaEmail">
+    <value>通知</value>
+  </data>
+  <data name="Or">
+    <value>或</value>
+  </data>
+  <data name="Position">
+    <value>职位</value>
+  </data>
+  <data name="Preview">
+    <value>预览</value>
+  </data>
+  <data name="PrevMonth">
+    <value>上个月</value>
+  </data>
+  <data name="ProductDescription">
+    <value>建立团队以及分配任务。确定项目里程碑的周期，跟踪项目活动，并生成报告。
+</value>
+  </data>
+  <data name="ProductName">
+    <value>项目</value>
+  </data>
+  <data name="RecentActivity">
+    <value>最近的新鲜事</value>
+  </data>
+  <data name="RecentActivityContainerTitle">
+    <value>活动</value>
+  </data>
+  <data name="Save">
+    <value>保存</value>
+  </data>
+  <data name="SaveChanges">
+    <value>保存更改</value>
+  </data>
+  <data name="Saving">
+    <value>正在保存...</value>
+  </data>
+  <data name="ScreenBlock_Content">
+    <value>按照6个简单步骤有效地管理您的项目</value>
+  </data>
+  <data name="ScreenBlock1_Content">
+    <value>添加描述，指派项目经理</value>
+  </data>
+  <data name="ScreenBlock1_Header">
+    <value>创建一个项目</value>
+  </data>
+  <data name="ScreenBlock2_Content">
+    <value>为项目而一起工作</value>
+  </data>
+  <data name="ScreenBlock2_Header">
+    <value>管理您的团队</value>
+  </data>
+  <data name="ScreenBlock3_Content">
+    <value>跟踪您的项目进展</value>
+  </data>
+  <data name="ScreenBlock3_Header">
+    <value>计划里程碑</value>
+  </data>
+  <data name="ScreenBlock4_Header">
+    <value>分配任务</value>
+  </data>
+  <data name="ScreenBlock5_Header">
+    <value>开始讨论，上传文件</value>
+  </data>
+  <data name="ScreenBlock6_Content">
+    <value>项目状态和工作流程的报告</value>
+  </data>
+  <data name="ScreenBlock6_Header">
+    <value>生成报告</value>
+  </data>
+  <data name="SearchResults">
+    <value>搜索结果: "{0}"</value>
+  </data>
+  <data name="SearchText">
+    <value>搜索</value>
+  </data>
+  <data name="Show">
+    <value>显示</value>
+  </data>
+  <data name="ShowAllResults">
+    <value>显示所有结果</value>
+  </data>
+  <data name="ShowOnlyForMyProjects">
+    <value>只显示我的项目和我跟踪的项目</value>
+  </data>
+  <data name="SortBy">
+    <value>排序方式：</value>
+  </data>
+  <data name="SpentTotally">
+    <value>花费的时间</value>
+  </data>
+  <data name="StartURL">
+    <value>~/Products/Projects/</value>
+  </data>
+  <data name="Status">
+    <value>状态</value>
+  </data>
+  <data name="SubscribeOnNewComment">
+    <value>订阅评论</value>
+  </data>
+  <data name="Time">
+    <value>时间</value>
+  </data>
+  <data name="TimeTracking">
+    <value>时间跟踪</value>
+  </data>
+  <data name="Title">
+    <value>标题</value>
+  </data>
+  <data name="Today">
+    <value>今天</value>
+  </data>
+  <data name="Total">
+    <value>总数</value>
+  </data>
+  <data name="TotalFound">
+    <value>共找到</value>
+  </data>
+  <data name="ToTrash">
+    <value>到回收站</value>
+  </data>
+  <data name="Type">
+    <value>类型</value>
+  </data>
+  <data name="UnSubscribeOnNewComment">
+    <value>退订评论</value>
+  </data>
+  <data name="UploadTheFile">
+    <value>上传文件</value>
+  </data>
+  <data name="UploadTheNewVersion">
+    <value>更新文件版本</value>
+  </data>
+  <data name="With">
+    <value>有</value>
+  </data>
+  <data name="Yesterday">
+    <value>昨天</value>
+  </data>
+</root>

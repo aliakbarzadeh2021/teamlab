@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditSectionCaption">
+    <value>Правка</value>
+  </data>
+  <data name="EditSectionTitleFormat">
+    <value>Править секцию:{0}</value>
+  </data>
+  <data name="editWiki_File">
+    <value>Файл</value>
+  </data>
+  <data name="editWiki_FileName">
+    <value>Имя файла</value>
+  </data>
+  <data name="editWiki_PageBody">
+    <value>Текст</value>
+  </data>
+  <data name="editWiki_PageName">
+    <value>Имя страницы</value>
+  </data>
+  <data name="editWiki_PagePreview">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="editWiki_UploadCaption">
+    <value>Загрузить файл</value>
+  </data>
+  <data name="editWiki_UploadFileName">
+    <value>Имя загруженного файла</value>
+  </data>
+  <data name="Enlarge">
+    <value>Увеличить</value>
+  </data>
+  <data name="HelpPage_DefaultBody">
+    <value>Создать вики-страницу очень просто, даже если Вы никогда не пользовались языком текстовой разметки. Вам понадобится всего несколько простых правил, приведенных на этой странице. Надеемся, что они будут Вам полезны.
+
+@@TOC@@
+
+==Разделы, абзацы, списки, строки==
+
+Чтобы обозначить новый раздел, используйте знак = в начале и в конце заголовка раздела:
+
+&lt;nowiki&gt;
+&lt;p&gt;
+=Раздел=&lt;br&gt;
+==Подраздел==&lt;br&gt;
+===Под-подраздел===&lt;br&gt;
+
+&lt;p&gt;
+Используйте @TOC@ для того, чтобы объединить все разделы и подразделы на странице в содержание. 
+&lt;/p&gt;
+
+Перенос строки не влияет на разметку. Вы можете использовать его для разделения предложений внутри абзаца.  
+
+&lt;p&gt;
+Используйте тег «br», чтобы начать новую строку, не начиная новый абзац.   
+&lt;/p&gt;
+
+Чтобы начать новый абзац, нажмите Enter дважды (оставьте пустую строку) - так же, как в любом текстовом редакторе. 
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+Составляйте списки следующим образом: 
+
+&lt;nowiki&gt;
+&lt;p&gt;
+* начинайте каждый пункт со звездочки;&lt;br&gt;
+** чем больше звездочек;&lt;br&gt;
+** тем глубже уровень списка.&lt;br&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+# Можете использовать нумерованные списки:&lt;br&gt;
+## они хорошо структурированы;&lt;br&gt;
+## и легко читаются.&lt;br&gt;
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+ ЕСЛИ строка начинается с пробела,
+ ТО она будет отформатирована так же, как была набрана; 
+ тем же шрифтом; без переноса строк;[[без ссылок]].
+
+Вы можете использовать пробел в начале строки, если Вам надо: 
+
+*вставить предварительно отформатированный текст;
+*отобразить исходный код; 
+*создать/вставить символьную графику (создание изображений с помощью текстовых символов).
+
+Горизонтальная линия обозначается при помощи четырех тире: 
+&lt;nowiki&gt;
+&lt;p&gt;
+---- 
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+==Добавление ссылок==
+
+&lt;nowiki&gt;
+&lt;p&gt;
+Чтобы добавить ссылку на другую вики-страницу, заключите ее название в двойные квадратные скобки: &lt;br&gt; [[Help]]&lt;/p&gt;
+
+&lt;p&gt;
+Если название страницы и название ссылки не совпадают, напишите желаемое название после знака |: &lt;br&gt; [[Wiki Markup Help Page|Помощь]] &lt;/p&gt; 
+
+&lt;p&gt;
+Внешние ссылки вставляются прямо в текст: &lt;br&gt; http://TeamLab.com&lt;/p&gt; 
+
+&lt;p&gt;
+Если Вам нужно изменить название внешней ссылки, заключите ее в квадратные скобки и напишите желаемое название через пробел:  &lt;br&gt; [http://TeamLab.com TeamLab]&lt;/p&gt; 
+
+&lt;p&gt;
+Чтобы добавить e-mail адрес, используйте квадратные скобки:  &lt;br&gt; [mailto:support@teamlab.com]&lt;/p&gt; 
+
+&lt;p&gt; 
+Чтобы добавить страницу в категорию, создайте ссылку на желаемую категорию [[Category: Желаемая категория]]  внизу страницы. 
+&lt;/p&gt;
+&lt;/nowiki&gt; 
+
+==Форматирование текста==
+
+Для форматирования текста используйте следующие правила: 
+
+''Курсив''
+
+&lt;nowiki&gt;
+&lt;p&gt;
+''Ваш текст курсивом''
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+'''Жирный'''
+
+&lt;nowiki&gt;
+&lt;p&gt;
+'''Ваш текст, выделенный жирным'''
+ &lt;/p&gt;
+&lt;/nowiki&gt; 
+
+'''''Жирный курсив'''''
+&lt;nowiki&gt;
+&lt;p&gt;
+'''''Ваш текст, выделенный курсивом и жирным''''''
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+__Подчеркивание__
+
+&lt;nowiki&gt;
+&lt;p&gt;
+__Ваш подчеркнутый текст__
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+--Зачеркивание--
+
+&lt;nowiki&gt;
+
+&lt;p&gt;
+--Ваш зачеркнутный текст--
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+Знаки: &lt;sup&gt;надстрочные&lt;/sup&gt; и &lt;sub&gt;подстрочные&lt;/sub&gt;
+
+&lt;nowiki&gt;
+
+&lt;p&gt;
+&amp;lt;sub&amp;gt;подстрочный знак&amp;lt;/sub&amp;gt&lt;br&gt;
+&amp;lt;sup&amp;gt;надстрочный знак&amp;lt;/sup&amp;gt
+&lt;/p&gt;
+
+
+&lt;p&gt;
+Вы также можете использовать &amp;lt;small&amp;gt мелкий шрифт &amp;lt;/small&amp;gt для комментариев, специальное форматирование для выведения элементов &amp;lt;code lang="language"&amp;gt;кода программы&amp;lt;/code&amp;gt; и моноширинный текст для &amp;lt;tt&amp;gt;технических терминов&amp;lt;/tt&amp;gt;.
+&lt;/p&gt; 
+
+&lt;/nowiki&gt;
+
+==Добавление картинок==
+
+Чтобы вставить изображение в страницу, предварительно загрузите его в вики, а затем используйте ссылку на его название в том месте страницы, где Вам хотелось бы видеть изображение.
+
+Используйте разные ссылки для добавления разного типа изображений: 
+
+&lt;nowiki&gt;
+&lt;p&gt;
+Изображение = [[Image:Имя изображения]]&lt;/p&gt;
+&lt;p&gt;
+Изображение с фиксированной шириной = [[Image: Имя изображения | Ширина_px]]&lt;/p&gt;
+&lt;p&gt;
+Изображение с описанием = [[Image:Имя изображения  | Описание]]&lt;/p&gt;
+&lt;p&gt;
+Миниатюра = [[Image:Image Name | thumb]] – картинка будет уменьшена и выровнена по правому краю.
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+==Перенос из HTML в Wiki ==
+
+Если у Вас есть текст, отформатированный в HTML, который Вам хотелось бы перенести сюда, Вы можете сделать это легко и быстро. Нажмите '''Создать новую страницу''' на панели действий. Затем вставьте содержимое html-страницы в окно редактора и переключитесь в режим ВИКИ, нажав на кнопку '''Wiki''' на панели форматирования. Html-теги будут преобразованы в вики-разметку. Проверьте правильность расположения текста и картинок на странице, исправьте ошибки и нажмите '''Опубликовать'''. Ваша страница готова!</value>
+  </data>
+  <data name="HelpPageCaption">
+    <value>Помощь</value>
+  </data>
+  <data name="MainPage_DefaultBody">
+    <value>''Добро пожаловать в TeamLab вики! ''' 
+
+Здесь Вы сможете создать неограниченное количество страниц, связанных между собой ссылками, и объединить их в категории прямо через Ваш интернет-браузер. Вики — это удобный инструмент для ведения документации по проекту, обладающий следующими характеристиками:
+
+*здесь каждый - автор. Любой пользователь '''TeamLab''' может редактировать любую страницу;
+*быстрое редактирование. Нажмите на ссылку '''Редактировать''' на странице и внесите Ваши изменения;
+*простой перенос из HTML в Wiki. Подробности [[Internal:Help#Перенос из HTML в Wiki|здесь]] 
+*поддержка версионности страниц. Не согласны с изменениями? Вернитесь к предыдущей версии страницы.
+
+@@TOC@@
+
+==Структура и навигация==
+
+Вы можете перемещаться здесь при помощи панели навигации, доступной в любой момент, пока Вы находитесь в вики.
+
+===Страницы===
+
+Алфавитный список всех созданных страниц располагается в разделе [[Internal:Index|Индекс]]&lt;br&gt;
+Список всех недавно созданных страниц в хронологическом порядке находится в разделе [[Internal:NewPages|Новые страницы]]&lt;br&gt;
+Список всех недавно отредактированных страниц находится в разделе [[Internal:Recently|Недавно отредактированные]]
+
+===Категории===
+
+Вы можете объединить несколько родственных страниц в категорию. Все категории и относящиеся к ним страницы находятся в разделе [[Internal:Categories|Категории]]. Вы можете добавить страницу в уже существующую категорию или создать новую. Подробнее о том, как добавить страницу в категорию, читайте [[Internal:Help|здесь]]
+
+===Файлы===
+
+Вы можете загружать в вики файлы любого формата и размера,  а также давать ссылки на изображения, загруженные в вики, при создании страниц. Подробнее об этом читайте [[Internal:Help#Добавление картинок|здесь]].
+
+===Помощь===
+
+Создание страниц в TeamLab вики — это просто. Вам понадобится всего несколько простых правил, ознакомиться с которыми Вы можете на странице [[Internal:Help|Помощь]]. 
+
+
+==Как создать свою вики==
+
+Начните создание вики с создания новой страницы — нажмите на ссылку '''Создать новую страницу''' на панели действий. В открывшемся окне редактора введите Ваш текст. Для корректного отображения текста на странице воспользуйтесь [[Internal:Help|правилами]] вики-разметки.
+
+Не забывайте, что это Ваше личное пространство, которое Вы можете организовать по своему усмотрению. Даже эта страница может быть отредактирована. Например, Вы можете удалить содержимое и заполнить страницу ссылками на вики-страницы Ваших проектов. &lt;br&gt;Удачи!</value>
+  </data>
+  <data name="MainPage_EmptyPage">
+    <value>Данной страницы не существует. Нажмите {cюда} для ее создания и редактирования.</value>
+  </data>
+  <data name="miniToolBar_Anchor">
+    <value>Якорь</value>
+  </data>
+  <data name="miniToolBar_Bold">
+    <value>Жирный</value>
+  </data>
+  <data name="miniToolBar_CodeEscaped">
+    <value>Pre-блок</value>
+  </data>
+  <data name="miniToolBar_CodeInline">
+    <value>Для визуального выделения строки стороннего кода</value>
+  </data>
+  <data name="miniToolBar_Comment">
+    <value>Комментарий</value>
+  </data>
+  <data name="miniToolBar_Escape">
+    <value>Пример HTML-кода</value>
+  </data>
+  <data name="miniToolBar_ExternalLink">
+    <value>Внешняя ссылка</value>
+  </data>
+  <data name="miniToolBar_FileLink">
+    <value>Ссылка на локальный файл</value>
+  </data>
+  <data name="miniToolBar_H1">
+    <value>H1</value>
+  </data>
+  <data name="miniToolBar_H2">
+    <value>H2</value>
+  </data>
+  <data name="miniToolBar_H3">
+    <value>H3</value>
+  </data>
+  <data name="miniToolBar_H4">
+    <value>H4 (используйте в меру)</value>
+  </data>
+  <data name="miniToolBar_HR">
+    <value>Горизонтальная линия</value>
+  </data>
+  <data name="miniToolBar_Image">
+    <value>Изображение</value>
+  </data>
+  <data name="miniToolBar_Italic">
+    <value>Курсив</value>
+  </data>
+  <data name="miniToolBar_LineBreak">
+    <value>Перевод строки (одинарный)</value>
+  </data>
+  <data name="miniToolBar_NoBr">
+    <value>Тег NoBR</value>
+  </data>
+  <data name="miniToolBar_NoWiki">
+    <value>Не интерпретируется на языке Wiki</value>
+  </data>
+  <data name="miniToolBar_PageLink">
+    <value>Ссылка на страницу</value>
+  </data>
+  <data name="miniToolBar_SpetialTags">
+    <value>Специальные теги</value>
+  </data>
+  <data name="miniToolBar_Striked">
+    <value>Перечёркнутый</value>
+  </data>
+  <data name="miniToolBar_Subscript">
+    <value>Подстрочный</value>
+  </data>
+  <data name="miniToolBar_Superscript">
+    <value>Надстрочный</value>
+  </data>
+  <data name="miniToolBar_Symbols">
+    <value>Специальные символы</value>
+  </data>
+  <data name="miniToolBar_Underlined">
+    <value>Подчёркнутый</value>
+  </data>
+  <data name="miniToolBar_WrapperBox">
+    <value>Блок</value>
+  </data>
+  <data name="wikiErrorFileSizeLimitText">
+    <value>Превышен максимальный размер загружаемого файла</value>
+  </data>
+  <data name="wikiFileDownloadCaption">
+    <value>Скачать файл</value>
+  </data>
+  <data name="wikiInternalCategoriesKeyCaption">
+    <value>Категории</value>
+  </data>
+  <data name="wikiMaxUploadSizeFormat">
+    <value>Максимальный размер загружаемого файла {0}</value>
+  </data>
+  <data name="wikiPageEditSectionCaptionFormat">
+    <value>, Секция: "{0}"</value>
+  </data>
+  <data name="wikiPageMoved">
+    <value>=Страница перемещена=
+Имя страницы изменено на [[{0}|{0}]].
+Вы можете найти последнюю версию [[{0}|здесь]]</value>
+  </data>
+  <data name="wikiTOCFakeCaption">
+    <value>Оглавление</value>
+  </data>
+</root>

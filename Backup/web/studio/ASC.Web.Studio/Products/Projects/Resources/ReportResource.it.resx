@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions">
+    <value>Azioni</value>
+  </data>
+  <data name="ActiveTasks">
+    <value>Compiti attivi</value>
+  </data>
+  <data name="ActiveTaskStatus">
+    <value>In esecuzione</value>
+  </data>
+  <data name="AdditionalOptions">
+    <value>Opzioni addizionali</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>Tutta la squadra di progetto</value>
+  </data>
+  <data name="Any">
+    <value>Qualsiasi</value>
+  </data>
+  <data name="AnyType">
+    <value>Qualsiasi tipo</value>
+  </data>
+  <data name="ApplyFilter">
+    <value>Applica</value>
+  </data>
+  <data name="At">
+    <value>in</value>
+  </data>
+  <data name="AutogenReports">
+    <value>Generazione automatica dei rapporti</value>
+  </data>
+  <data name="AutomaticallyGenerate">
+    <value>Genera tale rapporto automaticamente</value>
+  </data>
+  <data name="BuildingReport">
+    <value>Creazione del rapporto in corso...</value>
+  </data>
+  <data name="Category">
+    <value>Categorie</value>
+  </data>
+  <data name="ChangeFilterData">
+    <value>Cambia filtro</value>
+  </data>
+  <data name="ChangeSettings">
+    <value>cambiare le impostazioni di rapporto</value>
+  </data>
+  <data name="ChooseDate">
+    <value>Seleziona data</value>
+  </data>
+  <data name="ChooseReportType">
+    <value>Seleziona tipo di rapporto</value>
+  </data>
+  <data name="ChooseTemplate">
+    <value>Seleziona modello</value>
+  </data>
+  <data name="ChooseTimeInterval">
+    <value>Periodo di tempo</value>
+  </data>
+  <data name="ClearAllTemplates">
+    <value>Elimina tutti i modelli</value>
+  </data>
+  <data name="ClearReportHistory">
+    <value>Svuota cronologia</value>
+  </data>
+  <data name="ClickToSortByThisColumn">
+    <value>Clicca per ordinare per questa colonna</value>
+  </data>
+  <data name="ClosedTaskStatus">
+    <value>Chiusi</value>
+  </data>
+  <data name="CreateNewReport">
+    <value>Crea nuovo rapporto</value>
+  </data>
+  <data name="CrteateTemplate">
+    <value>Crea modello</value>
+  </data>
+  <data name="CsvColumnMilestoneDeadline">
+    <value>Data di scadenza della milestone</value>
+  </data>
+  <data name="CsvColumnMilestoneStatus">
+    <value>Stato di milestone</value>
+  </data>
+  <data name="CsvColumnMilestoneTitle">
+    <value>Nome milestone</value>
+  </data>
+  <data name="CsvColumnProjectjTitle">
+    <value>Nome progetto</value>
+  </data>
+  <data name="CsvColumnTaskDueDate">
+    <value>Data di scadenza del compito</value>
+  </data>
+  <data name="CsvColumnTaskStatus">
+    <value>Stato di compito</value>
+  </data>
+  <data name="CsvColumnTaskTitle">
+    <value>Nome compito</value>
+  </data>
+  <data name="CsvColumnUserName">
+    <value>Nome utente</value>
+  </data>
+  <data name="DaleteAllAutogen">
+    <value>Elimina tutti i rapporti automaticamente generati</value>
+  </data>
+  <data name="DeadLine">
+    <value>Data di scadenza</value>
+  </data>
+  <data name="DeleteAllTemplates">
+    <value>Elimina tutti i modelli</value>
+  </data>
+  <data name="Department">
+    <value>{!Group}</value>
+  </data>
+  <data name="Edit">
+    <value>Modifica</value>
+  </data>
+  <data name="EditTemplate">
+    <value>Modifica modello</value>
+  </data>
+  <data name="Empty">
+    <value>Nessun modello trovato</value>
+  </data>
+  <data name="EmptyTemplateTitle">
+    <value>Ogni modello richiede un nome</value>
+  </data>
+  <data name="EveryDay">
+    <value>Ogni giorno</value>
+  </data>
+  <data name="EveryMonth">
+    <value>Ogni mese</value>
+  </data>
+  <data name="EveryWeek">
+    <value>Ogni settimana</value>
+  </data>
+  <data name="EveryYear">
+    <value>Ogni anno</value>
+  </data>
+  <data name="ExportToCSV">
+    <value>Esporta in CSV</value>
+  </data>
+  <data name="ExportToHTML">
+    <value>Esporta in HTML</value>
+  </data>
+  <data name="ExportToXML">
+    <value>Esporta in XML</value>
+  </data>
+  <data name="Filter">
+    <value>Filtri</value>
+  </data>
+  <data name="From">
+    <value>Da</value>
+  </data>
+  <data name="Generate">
+    <value>Genera</value>
+  </data>
+  <data name="GenerateFromTemplate">
+    <value>Genera da modelli</value>
+  </data>
+  <data name="GenerateReport">
+    <value>Genera rapporto</value>
+  </data>
+  <data name="GenerationDate">
+    <value>Data di generazione</value>
+  </data>
+  <data name="LastMonth">
+    <value>Mese precedente</value>
+  </data>
+  <data name="LastWeek">
+    <value>Settimana precedente</value>
+  </data>
+  <data name="LastYear">
+    <value>Anno precedente</value>
+  </data>
+  <data name="MainReportPage">
+    <value>Pagina principale di rapporti</value>
+  </data>
+  <data name="MilestonesStatus">
+    <value>Stato di milestone</value>
+  </data>
+  <data name="MyTemplates">
+    <value>I miei modelli</value>
+  </data>
+  <data name="NoMilestonesAndTasks">
+    <value>Questo progetto non contiene milestone e compiti</value>
+  </data>
+  <data name="Notification">
+    <value>Notifica</value>
+  </data>
+  <data name="OrThePlannedDate">
+    <value>o la data preventiva</value>
+  </data>
+  <data name="Other">
+    <value>Altro</value>
+  </data>
+  <data name="OutOfMilestone">
+    <value>Fuori della milestone</value>
+  </data>
+  <data name="Participiants">
+    <value>Membri</value>
+  </data>
+  <data name="PepleSubscribedToReport">
+    <value>Iscritti al rapporto</value>
+  </data>
+  <data name="PeriodOfGeneration">
+    <value>Tempo di generazione</value>
+  </data>
+  <data name="PrintReport">
+    <value>Stampa rapporto</value>
+  </data>
+  <data name="Project">
+    <value>Progetto</value>
+  </data>
+  <data name="ProjectsStatus">
+    <value>Stato di progetti</value>
+  </data>
+  <data name="ReportClosedTasks">
+    <value>Rapporto Compiti chiusi</value>
+  </data>
+  <data name="ReportCompletedTasks_InfoLine">
+    <value>Rapporto generato: {0} {1} per il periodo di tempo {2} - {3}</value>
+  </data>
+  <data name="ReportCompletedTasks_Title">
+    <value>Compiti completati</value>
+  </data>
+  <data name="ReportDetailed_Title">
+    <value>Rapporti dettagliati</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Description">
+    <value>{0}{2}Il rapporto Utenti senza compiti attivi mostra la lista degli utenti che non hanno compiti al presente.{3}{2}Per visualizzare tutti gli utenti senza compiti attivi in tutti i progetti, clicca su Genera rapporto.{3}{2}Per selezionare un certo gruppo o un certo utente, configura i parametri del rapporto nella sezione Filtri, e dopo clicca su Genera progetto.{3}{1}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_InfoLine">
+    <value>Rapporto generato: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Title">
+    <value>Utenti senza compiti attivi</value>
+  </data>
+  <data name="ReportEmployment_Description">
+    <value>{0}{2}Il rapporto Carico di lavoro mostra il numero di compiti assegnati ad un certo utente, raggruppati per il loro stato.{3}{2}Per visualizzare l'informazione relativa a tutti gli utenti, clicca su Genera rapporto.{3}{2}Per selezionare un certo gruppo o un certo utente, configura le impostazioni del rapporto nella sezione Filtri, e dopo clicca su Genera rapporto.{3}{1}</value>
+  </data>
+  <data name="ReportEmployment_InfoLine">
+    <value>Rapporto generato: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployment_Title">
+    <value>Carico di lavoro</value>
+  </data>
+  <data name="ReportHistory">
+    <value>Cronologia di rapporti</value>
+  </data>
+  <data name="ReportLateMilestones_Description">
+    <value>{0}{2}Il rapporto Milestone in ritardo mostra la lista delle milestone in ritardo.{3}{2}Per visualizzare le milestone in ritardo in tutti i progetti, clicca su Genera rapporto.{3}{2}Per visualizzare le milestone in ritardo solo per un certo progetto, seleziona il progetto desiderato dall'elenco a discesa  nella sezone Filtri, e dopo clicca su Genera rapporto.{3}{1}</value>
+  </data>
+  <data name="ReportLateMilestones_InfoLine">
+    <value>Rapporto generato: {0} {1} {2}</value>
+  </data>
+  <data name="ReportLateMilestones_Title">
+    <value>Milestone in ritardo</value>
+  </data>
+  <data name="ReportLateTasks_Description">
+    <value>{0}{2}Il rapporto Compiti in ritardo mostra la lista dei compiti in ritardo.{3}{2}Per visualizzare i compiti in ritardo in tutti i progetti, clicca su Genera rapporto.{3}{2}Per visualizzare i compiti in ritardo solo per un certo progetto, seleziona il progetto desiderato dall′elenco a discesa nella sezione Filtri, e dopo clicca su Genera rapporto.{3}{1}</value>
+  </data>
+  <data name="ReportLateTasks_Title">
+    <value>Compiti in ritardo</value>
+  </data>
+  <data name="ReportMilestoneList_Description">
+    <value>{0}{2}Il rapporto Lista delle milestone mostra la liste delle milestone raggruppate per progetto. Il rapporto predefinito mostra la lista delle milestone di tutti i progetti con la data di scadenza indicata.{3}{2}Per generare un rapporto, clicca sul pulsante Genera rapporto di sotto.{3}{2}Clicca sul collegamento Visualizza filtri per cambiare le impostazioni predefinite. Puoi visualizzare solo le milestone per un certo progetto o con un certo stato. Una volta configurato il filtro, clicca su Genera rapporto ancora una volta per generare un nuovo progetto con le impostazioni desiderate.{3}{1}</value>
+  </data>
+  <data name="ReportMilestoneList_InfoLine">
+    <value>Rapporto generato: {0} {1} {2}</value>
+  </data>
+  <data name="ReportMilestoneList_Title">
+    <value>Lista di milestone</value>
+  </data>
+  <data name="ReportName">
+    <value>Nome rapporto</value>
+  </data>
+  <data name="ReportOpenTasks">
+    <value>Rapporto Compiti aperti</value>
+  </data>
+  <data name="ReportPageTitle">
+    <value>Rapporto «{0}»</value>
+  </data>
+  <data name="ReportProblemTracking_Title">
+    <value>Rapporti sui problemi</value>
+  </data>
+  <data name="ReportProjectList_Description">
+    <value>{0}{2}Il rapporto Lista dei progetti mostra la lista dei progetti.{3}{2}Per visualizzare tutti i progetti attivi con il loro capo indicato, il numero dei compiti, le milestone, le azioni, e i membri della squadra, clicca su Genera rapporto.{3}{2}Per visualizzare i progetti di un certo ufficio e/o i progetti attivi e completati  configura le impostazioni nella sezione Filtri, e dopo clicca su Genera rapporto.{3}{1}</value>
+  </data>
+  <data name="ReportProjectList_InfoLine">
+    <value>Rapporto generato: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectList_Title">
+    <value>Lista dei progetti</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Description">
+    <value>{0}{2}Il rapporto Progetti senza milestone attive mostra la lista dei progetti senza milestone associate.{3}{2}Per visualizzare tutti i progetti senza milestone, clicca su Genera rapporto.{3}{2}Per controllare i rapporti di un certo ufficio o un impiegato, seleziona l'ufficio e/o l'impiegato desiderato nella sezione Filtri, e dopo clicca su Genera rapporto.{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_InfoLine">
+    <value>Rapporto generato: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Title">
+    <value>Progetti senza milestone attive</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Description">
+    <value>{0}{2}Il rapporto Progetti senza compiti attivi mostra la lista dei progetti senza compiti attivi assegnati.{3}{2}Per visualizzare tutti i progetti senza compiti attivi, clicca su Genera progetto.{3}{2}Per controllare i progetti di un certo ufficio o un impiegato, seleziona l'ufficio e/o impiegato desiderato nella sezione Filtri, e dopo clicca su Genera rapporto.{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_InfoLine">
+    <value>Rapporto generato: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Title">
+    <value>Progetti senza compiti attivi</value>
+  </data>
+  <data name="Reports">
+    <value>Rapporti</value>
+  </data>
+  <data name="ReportStatistics_Title">
+    <value>Rapporti statistici</value>
+  </data>
+  <data name="ReportTaskList_Description">
+    <value>{0}{2}Il rapporto Compiti di progetto mostra la lista dei compiti e delle milestone a cui sono associati. {3}{2}Per visualizzare la lista di tutti i compiti in tutti i progetti con il responsabile e lo stato indicato, clicca su Genera progetto.{3}{2}Per visualizzare i compiti di un certo progetto o con un certo stato, configura le impostazioni nella sezione Filtri, e dopo clicca su Genera rapporto.{3}{1}</value>
+  </data>
+  <data name="ReportTaskList_InfoLine">
+    <value>Rapporto generato: {0} {1} {2}</value>
+  </data>
+  <data name="ReportTaskList_Title">
+    <value>Compiti di progetto</value>
+  </data>
+  <data name="ReportTimeSpend_Description">
+    <value>{0}{2}Il rapporto Gestione del tempo è una lista dei compiti che mostra il tempo spento dagli utenti per eseguirli in base ai dati del registratore di tempo.{3}{2}Questo raapporto permette di controllare l'avanzamento dell'esecuzione del compito.{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpend_InfoLine">
+    <value>Rapporto generato: {0} {1} per il periodo di tempo {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpend_Title">
+    <value>Gestione del tempo</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Description">
+    <value>{0}{2}Il rapporto Gestione del tempo mostra una lista degli utenti con il loro tempo di lavoro indicato calcolato in base ai dati del registratore di tempo.{3}{2}Questo rapporto aiuta a controllare il tempo totale spento da un utente per eseguire il compito.{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_InfoLine">
+    <value>Rapporto generato: {0} {1} per il periodo di tempo {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Title">
+    <value>Rapporto sulla gestione del tempo</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Description">
+    <value>{0}{2}Il rapporto Prossime milestone mostra la lista delle prossime milestone.{3}{2}Per visualizzare le prossime milestone in tutti i progetti per una settimana, clicca su Genera rapporto.{3}{2}Per visualizzare le prossime milestone di un certo progetto e/o un certo periodo, seleziona il progetto desiderato dall'elenco a discesa e/o imposta la data nel campo Fino a, e dopo clicca su Genera rapporto.{3}{1}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_InfoLine">
+    <value>Rapporto generato: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Title">
+    <value>Prossime milestone</value>
+  </data>
+  <data name="ReportUserActivity_Descripton">
+    <value>{0}{2}Il rapporto Attività dell'utente mostra le azioni di un certo utente in Progetti per un certo periodo di tempo.{3}{2}Per visualizzare le tue attività nella settimana precedente, clicca su Genera rapporto.{3}{2}Per impostare un altro periodo di tempo o selezionare un altro utente, configura le impostazioni nella sezione Filtri, e dopo clicca su Genera rapporto.{3}{1}</value>
+  </data>
+  <data name="ReportUserActivity_InfoLine">
+    <value>Rapporto generato: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserActivity_Title">
+    <value>Attività dell'utente</value>
+  </data>
+  <data name="ReportUserTasks_Description">
+    <value>{0}{2}Il rapporto Compiti dell'utente mostra la lista dei compiti raggruppati per membri.{3}{2}Per visualizzare tutti i compiti di utenti con lo stato indicato, clicca su Genera rapporto.{3}{2}Per visualizzare solo i compiti di un certo progetto o con un certo stato, configura le impostazioni nella sezione Filtri, e dopo clicca su Genera progetto.{3}{1}</value>
+  </data>
+  <data name="ReportUserTasks_InfoLine">
+    <value>Rapporto generato: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserTasks_Title">
+    <value>Compiti dell'utente</value>
+  </data>
+  <data name="SaveAsTemplate">
+    <value>Salva come modello</value>
+  </data>
+  <data name="SendOnEmail">
+    <value>Invia via email</value>
+  </data>
+  <data name="ShowTasks">
+    <value>Visualizza compiti</value>
+  </data>
+  <data name="ShowUserActivityReport">
+    <value>Visualizza rapporto Attività dell'utente</value>
+  </data>
+  <data name="ShowUserTasksReport">
+    <value>Visualizza rapporto Compiti dell'utente</value>
+  </data>
+  <data name="TaskDone">
+    <value>Compiti completati</value>
+  </data>
+  <data name="TaskReport">
+    <value>Rapporto sui compiti</value>
+  </data>
+  <data name="TasksDone">
+    <value>Compiti completati</value>
+  </data>
+  <data name="TasksStatus">
+    <value>Stato di compito</value>
+  </data>
+  <data name="TasksWorkingOn">
+    <value>Compiti in esecuzione</value>
+  </data>
+  <data name="TemplateAndAutogen">
+    <value>Modello e generazione automatica</value>
+  </data>
+  <data name="TemplateName">
+    <value>Nome modello</value>
+  </data>
+  <data name="TemplateNotFound_Body">
+    <value>Sembra essere eliminato o non c'è nessun modello con questo ID</value>
+  </data>
+  <data name="TemplateNotFound_Header">
+    <value>Modello non trovato</value>
+  </data>
+  <data name="TemplateNotFound_RedirectTitle">
+    <value>Vai alla lista di modelli</value>
+  </data>
+  <data name="Templates">
+    <value>Modelli</value>
+  </data>
+  <data name="TemplateTitle">
+    <value>Nome modello</value>
+  </data>
+  <data name="ThisMonth">
+    <value>Mese attuale</value>
+  </data>
+  <data name="ThisWeek">
+    <value>Settimana attuale</value>
+  </data>
+  <data name="ThisYear">
+    <value>Anno attuale</value>
+  </data>
+  <data name="Today">
+    <value>Oggi</value>
+  </data>
+  <data name="User">
+    <value>Utente</value>
+  </data>
+  <data name="UseTemplate">
+    <value>Utilizza modello</value>
+  </data>
+  <data name="ViewByDepartments">
+    <value>{!Groups}</value>
+  </data>
+  <data name="ViewByParticipant">
+    <value>Visualizza per partecipante</value>
+  </data>
+  <data name="ViewByProjects">
+    <value>Visualizza per progetto</value>
+  </data>
+  <data name="ViewByUsers">
+    <value>Visualizza per utente</value>
+  </data>
+  <data name="ViewByUserTasks">
+    <value>Visualizza per compiti dell'utente</value>
+  </data>
+  <data name="ViewClosedMilestones">
+    <value>Visualizza milestone chiuse</value>
+  </data>
+  <data name="ViewClosedProjects">
+    <value>Visualizza progetti chiusi</value>
+  </data>
+  <data name="ViewInfo">
+    <value>Visualizza informazioni su rapporti</value>
+  </data>
+  <data name="ViewOnlyMyProjecs">
+    <value>Visualizza solo i miei progetti</value>
+  </data>
+  <data name="Week">
+    <value>Settimana</value>
+  </data>
+  <data name="Weeks">
+    <value>Settimana</value>
+  </data>
+  <data name="Yesterday">
+    <value>Ieri</value>
+  </data>
+</root>

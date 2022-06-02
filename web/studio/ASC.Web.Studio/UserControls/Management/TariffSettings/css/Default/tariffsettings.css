@@ -1,0 +1,48 @@
+﻿.tariffPlanBox
+{
+    margin-bottom:40px;
+}
+
+.tariffPlanBox .headerBase .date
+{    
+    color:#e85d11;
+}
+
+.tariffPlanBox .description
+{
+     color:#9da1a5;
+    font-family: Arial;
+    font-size: 14px;
+    margin-top:5px;
+}
+.tariffPlanBox .goBtnBox
+{
+    margin-top:20px;
+}
+
+#paymentsTitle
+{
+    margin-top: 40px; 
+    padding-left: 0px; 
+    padding-bottom: 5px;   
+}
+
+.tariffPlanBox .paymentsTable
+{
+    margin-top:10px;
+    border-collapse: collapse;
+    width:100%;
+}
+
+.tariffPlanBox .paymentsTable tr
+{
+    border-left: none;
+    border-right:none;
+}
+
+.tariffPlanBox .paymentsTable td
+{
+     border-collapse: collapse;
+     padding:10px 20px;
+}
+

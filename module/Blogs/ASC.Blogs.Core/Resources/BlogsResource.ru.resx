@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddonDescriptionResourceKey" xml:space="preserve">
+    <value>Корпоративный блог</value>
+  </data>
+  <data name="AddonName" xml:space="preserve">
+    <value>Блоги</value>
+  </data>
+  <data name="AddTagMessage" xml:space="preserve">
+    <value>Вы можете добавлять теги только к своему блогу</value>
+  </data>
+  <data name="AllBlogs" xml:space="preserve">
+    <value>Все блоги</value>
+  </data>
+  <data name="AllBlogsMenuTitle" xml:space="preserve">
+    <value>Рейтинг блогов</value>
+  </data>
+  <data name="BackLink" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="BlogOfTitle" xml:space="preserve">
+    <value>Блог</value>
+  </data>
+  <data name="Blogs" xml:space="preserve">
+    <value>Блоги</value>
+  </data>
+  <data name="BlogTitleEmptyMessage" xml:space="preserve">
+    <value>Тема записи не может быть пустой</value>
+  </data>
+  <data name="BlogTitleLabel" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="CommentsTitle" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="ConfirmRemovePostMessage" xml:space="preserve">
+    <value>Вы действительно хотите удалить запись?</value>
+  </data>
+  <data name="ContentTitle" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="CreateBlogsWidgetMessage" xml:space="preserve">
+    <value>Пожалуйста, добавьте первую запись в блоге {0}здесь{1}.</value>
+  </data>
+  <data name="DeleteBlogLink" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="EditBlogLink" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="EditPostTitle" xml:space="preserve">
+    <value>Редактирование записи</value>
+  </data>
+  <data name="EnterTagsMessage" xml:space="preserve">
+    <value>Введите необходимые теги в поле через запятую</value>
+  </data>
+  <data name="ErrorAccessDenied" xml:space="preserve">
+    <value>Доступ запрещен</value>
+  </data>
+  <data name="ErrorNotCorrectMaxBlogsSettings" xml:space="preserve">
+    <value>Недопустимое число записей</value>
+  </data>
+  <data name="GroupTitle" xml:space="preserve">
+    <value>Куда публиковать:</value>
+  </data>
+  <data name="HideButton" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="InGroupBlogLabel" xml:space="preserve">
+    <value>блоге</value>
+  </data>
+  <data name="InPersonalBlogLabel" xml:space="preserve">
+    <value>персональном блоге</value>
+  </data>
+  <data name="ListBlogsPageName" xml:space="preserve">
+    <value>Главная страница</value>
+  </data>
+  <data name="LiveBroadcastTitle" xml:space="preserve">
+    <value>Недавняя активность</value>
+  </data>
+  <data name="MainStatisticName" xml:space="preserve">
+    <value>Всего записей в блоге</value>
+  </data>
+  <data name="MarksToolTipText" xml:space="preserve">
+    <value>Теги</value>
+  </data>
+  <data name="MaxPostsCountSettingsTitle" xml:space="preserve">
+    <value>Число отображаемых записей (от 1 до 30)</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>Все;Корпоративные;Личные</value>
+  </data>
+  <data name="MenuItemsTargets" xml:space="preserve">
+    <value>default.aspx;default.aspx?mode=corporate;default.aspx?mode=personal</value>
+  </data>
+  <data name="MyBlogsProfile" xml:space="preserve">
+    <value>Мой профиль в блогах</value>
+  </data>
+  <data name="NewPoll" xml:space="preserve">
+    <value>Новый опрос</value>
+  </data>
+  <data name="NewPost" xml:space="preserve">
+    <value>Добавить новую запись</value>
+  </data>
+  <data name="NoBlogsWidgetMessage" xml:space="preserve">
+    <value>Нет ни одной записи в блогах.</value>
+  </data>
+  <data name="NoBlogsWidgetTitle" xml:space="preserve">
+    <value>Нажмите сюда, чтобы {0}Добавить новую запись{1}</value>
+  </data>
+  <data name="NoGroupItem" xml:space="preserve">
+    <value>Персональный блог</value>
+  </data>
+  <data name="NotFoundMessage" xml:space="preserve">
+    <value>Ничего не найдено.</value>
+  </data>
+  <data name="PleaseWaitMessage" xml:space="preserve">
+    <value>Пожалуйста, подождите...</value>
+  </data>
+  <data name="PostButton" xml:space="preserve">
+    <value>Опубликовать</value>
+  </data>
+  <data name="PostedTitle" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="PostsTitle" xml:space="preserve">
+    <value>Записи</value>
+  </data>
+  <data name="PreviewButton" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="RatingsMenuTitle" xml:space="preserve">
+    <value>Рейтинги</value>
+  </data>
+  <data name="ReadMoreLink" xml:space="preserve">
+    <value>Читать далее</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="SearchDefaultString" xml:space="preserve">
+    <value>Поиск по блогам</value>
+  </data>
+  <data name="SubmitButton" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="SubscribeOnAuthorAction" xml:space="preserve">
+    <value>Подписаться на все записи автора</value>
+  </data>
+  <data name="SubscribeOnAuthorDescription" xml:space="preserve">
+    <value>Подписка позволяет следить за новыми записями автора в блогах</value>
+  </data>
+  <data name="SubscribeOnAuthorTitle" xml:space="preserve">
+    <value>Подписка на записи автора</value>
+  </data>
+  <data name="SubscribeOnNewCommentsAction" xml:space="preserve">
+    <value>Подписаться на комментарии к записи</value>
+  </data>
+  <data name="SubscribeOnNewCommentsDescription" xml:space="preserve">
+    <value>Подписка позволяет следить за новыми комментариями к записи</value>
+  </data>
+  <data name="SubscribeOnNewCommentsTitle" xml:space="preserve">
+    <value>Подпиcка на комментарии к записи</value>
+  </data>
+  <data name="SubscribeOnNewPostAction" xml:space="preserve">
+    <value>Подписаться на все записи</value>
+  </data>
+  <data name="SubscribeOnNewPostDescription" xml:space="preserve">
+    <value>Подписка позволяет следить за всеми новыми записями в блогах</value>
+  </data>
+  <data name="SubscribeOnNewPostTitle" xml:space="preserve">
+    <value>Подписка на все записи</value>
+  </data>
+  <data name="TagCloudTitle" xml:space="preserve">
+    <value>Облако тегов</value>
+  </data>
+  <data name="TagsTitle" xml:space="preserve">
+    <value>Теги</value>
+  </data>
+  <data name="UnSubscribeOnAuthorAction" xml:space="preserve">
+    <value>Отписаться от записей автора</value>
+  </data>
+  <data name="UnSubscribeOnNewCommentsAction" xml:space="preserve">
+    <value>Отписаться от комментариев к записи</value>
+  </data>
+  <data name="UnSubscribeOnNewPostAction" xml:space="preserve">
+    <value>Отписаться от всех записей</value>
+  </data>
+  <data name="UserActivity_AddComment" xml:space="preserve">
+    <value>добавлен комментарий</value>
+  </data>
+  <data name="UserActivity_AddPost" xml:space="preserve">
+    <value>создана запись</value>
+  </data>
+  <data name="UserActivity_AddPullPost" xml:space="preserve">
+    <value>создан опрос</value>
+  </data>
+  <data name="UserActivity_DeleteComment" xml:space="preserve">
+    <value>удалён комментарий</value>
+  </data>
+  <data name="UserActivity_DeletePost" xml:space="preserve">
+    <value>удалена запись</value>
+  </data>
+  <data name="UserActivity_EditComment" xml:space="preserve">
+    <value>отредактирован комментарий</value>
+  </data>
+  <data name="UserActivity_EditPost" xml:space="preserve">
+    <value>отредактирована запись</value>
+  </data>
+  <data name="UserActivity_Vote" xml:space="preserve">
+    <value>проголосовано</value>
+  </data>
+  <data name="ViewsTitle" xml:space="preserve">
+    <value>Просмотры</value>
+  </data>
+  <data name="WidgetDescriptionResourceKey" xml:space="preserve">
+    <value>показывает последние записи в блогах</value>
+  </data>
+</root>

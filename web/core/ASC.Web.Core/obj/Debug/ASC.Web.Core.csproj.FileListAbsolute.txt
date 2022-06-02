@@ -1,0 +1,22 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\ASC.Web.Core.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\ASC.Web.Core.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\AjaxPro.2.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\ASC.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\ASC.Core.Common.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\ASC.Data.Storage.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\log4net.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\log4net.xml
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\obj\Debug\ASC.Web.Core.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\obj\Debug\ASC.Web.Core.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\ASC.Web.Core.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\ASC.Web.Core.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\AjaxPro.2.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\ASC.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\ASC.Core.Common.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\ASC.Data.Storage.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\log4net.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\bin\Debug\log4net.xml
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\obj\Debug\ASC.Web.Core.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\core\ASC.Web.Core\obj\Debug\ASC.Web.Core.pdb

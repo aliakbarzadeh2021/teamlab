@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions">
+    <value>Darbības</value>
+  </data>
+  <data name="ActiveTasks">
+    <value>Aktīvi Uzdevumi</value>
+  </data>
+  <data name="ActiveTaskStatus">
+    <value>Progesā</value>
+  </data>
+  <data name="AdditionalOptions">
+    <value>Papildizvēles</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>Visa projektu komanda</value>
+  </data>
+  <data name="Any">
+    <value>Jebkāds</value>
+  </data>
+  <data name="AnyType">
+    <value>Jebkāds tips</value>
+  </data>
+  <data name="ApplyFilter">
+    <value>Piemērot</value>
+  </data>
+  <data name="At">
+    <value>-</value>
+  </data>
+  <data name="AutogenReports">
+    <value>Automātiski ģenerētas Atskaites</value>
+  </data>
+  <data name="AutomaticallyGenerate">
+    <value>Ģenerēt tādu atskaiti automātiski</value>
+  </data>
+  <data name="BuildingReport">
+    <value>Atskaite tiek veidota...</value>
+  </data>
+  <data name="Category">
+    <value>Kategorija</value>
+  </data>
+  <data name="ChangeFilterData">
+    <value>Nomainīt atskaites filtru</value>
+  </data>
+  <data name="ChangeSettings">
+    <value>izmainīt iestatījumus atskaišu sūtīšanai</value>
+  </data>
+  <data name="ChooseDate">
+    <value>Izvēlēties Datumu</value>
+  </data>
+  <data name="ChooseReportType">
+    <value>Izvēlēties atskaites tipu</value>
+  </data>
+  <data name="ChooseTemplate">
+    <value>Izvēlēties Veidni</value>
+  </data>
+  <data name="ChooseTimeInterval">
+    <value>Laika Periods</value>
+  </data>
+  <data name="ClearAllTemplates">
+    <value>Dzēst visas veidnes</value>
+  </data>
+  <data name="ClearReportHistory">
+    <value>Izdzēst atskaites vēsturi</value>
+  </data>
+  <data name="ClickToSortByThisColumn">
+    <value>Uzklikšķiniet, lai sašķirotu pēc šī stabiņa</value>
+  </data>
+  <data name="ClosedTaskStatus">
+    <value>Aizvērtie</value>
+  </data>
+  <data name="CreateNewReport">
+    <value>Veidot jaunu atskaiti</value>
+  </data>
+  <data name="CrteateTemplate">
+    <value>Izveidot Veidni</value>
+  </data>
+  <data name="CsvColumnMilestoneDeadline">
+    <value>Posma termiņš</value>
+  </data>
+  <data name="CsvColumnMilestoneStatus">
+    <value>Posma Statuss</value>
+  </data>
+  <data name="CsvColumnMilestoneTitle">
+    <value>Posma nosaukums</value>
+  </data>
+  <data name="CsvColumnProjectjTitle">
+    <value>Projekta Nosaukums</value>
+  </data>
+  <data name="CsvColumnTaskDueDate">
+    <value>Uzdevuma termiņš</value>
+  </data>
+  <data name="CsvColumnTaskStatus">
+    <value>Uzdevuma Statuss</value>
+  </data>
+  <data name="CsvColumnTaskTitle">
+    <value>Uzdevuma Nosaukums</value>
+  </data>
+  <data name="CsvColumnUserName">
+    <value>Lietotāja Vārds</value>
+  </data>
+  <data name="DaleteAllAutogen">
+    <value>Dzēst visus automātiski ģenerētas</value>
+  </data>
+  <data name="DeadLine">
+    <value>Galaterminš</value>
+  </data>
+  <data name="DeleteAllTemplates">
+    <value>Dzēst visas veidnes</value>
+  </data>
+  <data name="Department">
+    <value>{!Group}</value>
+  </data>
+  <data name="Edit">
+    <value>Rediģēt</value>
+  </data>
+  <data name="EditTemplate">
+    <value>Rediģēt Veidni</value>
+  </data>
+  <data name="Empty">
+    <value>Neviena veidne nav atrasta</value>
+  </data>
+  <data name="EmptyTemplateTitle">
+    <value>Veidnei jābūt nosaukums</value>
+  </data>
+  <data name="EveryDay">
+    <value>Katru dienu</value>
+  </data>
+  <data name="EveryMonth">
+    <value>Katru mēnesi</value>
+  </data>
+  <data name="EveryWeek">
+    <value>Katru nedēļu</value>
+  </data>
+  <data name="EveryYear">
+    <value>Katru gadu</value>
+  </data>
+  <data name="ExportToCSV">
+    <value>Eksportēt uz csv</value>
+  </data>
+  <data name="ExportToHTML">
+    <value>Eksportēt uz html</value>
+  </data>
+  <data name="ExportToXML">
+    <value>Eksportēt uz xml</value>
+  </data>
+  <data name="Filter">
+    <value>Filtrs</value>
+  </data>
+  <data name="From">
+    <value>No</value>
+  </data>
+  <data name="Generate">
+    <value>Ģenerēt</value>
+  </data>
+  <data name="GenerateFromTemplate">
+    <value>Ģenerēt no Veidnes</value>
+  </data>
+  <data name="GenerateReport">
+    <value>Ģenerēt Atskaiti</value>
+  </data>
+  <data name="GenerationDate">
+    <value>Ģenerācijas datums</value>
+  </data>
+  <data name="LastMonth">
+    <value>Iepriekšējais mēnesis</value>
+  </data>
+  <data name="LastWeek">
+    <value>Iepriekšēja nedēļa</value>
+  </data>
+  <data name="LastYear">
+    <value>Iepriekšējais gads</value>
+  </data>
+  <data name="MainReportPage">
+    <value>Atskaišu Galvenā Lapa</value>
+  </data>
+  <data name="MilestonesStatus">
+    <value>Posma Statuss</value>
+  </data>
+  <data name="MyTemplates">
+    <value>Manas Veidnes</value>
+  </data>
+  <data name="NoMilestonesAndTasks">
+    <value>Projektam nav neviena uzdevuma vai posma</value>
+  </data>
+  <data name="Notification">
+    <value>Paziņojums</value>
+  </data>
+  <data name="OrThePlannedDate">
+    <value>vai ieplanots datums</value>
+  </data>
+  <data name="Other">
+    <value>Citi</value>
+  </data>
+  <data name="OutOfMilestone">
+    <value>Bez posma</value>
+  </data>
+  <data name="Participiants">
+    <value>Locekļi</value>
+  </data>
+  <data name="PepleSubscribedToReport">
+    <value>Parakstīti uz atskaiti:</value>
+  </data>
+  <data name="PeriodOfGeneration">
+    <value>Ģenerēšanas Laiks</value>
+  </data>
+  <data name="PrintReport">
+    <value>Izprintēt Atskaiti</value>
+  </data>
+  <data name="Project">
+    <value>Projekts</value>
+  </data>
+  <data name="ProjectsStatus">
+    <value>Projektu Statuss</value>
+  </data>
+  <data name="ReportClosedTasks">
+    <value>Aizvērtu Uzdevumu Atskaite</value>
+  </data>
+  <data name="ReportCompletedTasks_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} par periodu {2} - {3}</value>
+  </data>
+  <data name="ReportCompletedTasks_Title">
+    <value>Izpildīti Uzdevumi</value>
+  </data>
+  <data name="ReportDetailed_Title">
+    <value>Sīkākas Atskaites</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Description">
+    <value>{0}{2}Darbinieki bez aktīviem uzdevumiem atskaite attēlos lietotājus, kuriem šobrīd nav neviena aktīva uzdevuma.{3}{2}Lai apskatītu visus lietotājus bez aktīviem uzdevumiem, nospiediet uz Ģenerēt Atskaiti uzreiz.{3}{2}Lai izvēlēties grupu vai pārbaudīt kādu lietotāju, izmainiet iestatījumus Filtrs sadaļā un tad uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Title">
+    <value>{!Users} bez aktīviem uzdevumiem</value>
+  </data>
+  <data name="ReportEmployment_Description">
+    <value>{0}{2}Darbinieku Darba Slodze atskaite attēlos uzdevumu skaitu, kas tika piešķirts katram lietotājam, sagrupēts pēc statusa.{3}{2}Lai apskatīt datus par visiem kompanijas lietotājiem, uzklikšķiniet uz Ģenerēt Atskaiti.{3}{2}Lai izvēlētos noteiktu grupu vai lietotāju, izmainiet atskaites parametrus Filtrs sadaļā un tad uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportEmployment_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployment_Title">
+    <value>Lietotāju Darba Slodze</value>
+  </data>
+  <data name="ReportHistory">
+    <value>Atskaišu Vēsture</value>
+  </data>
+  <data name="ReportLateMilestones_Description">
+    <value>{0}{2}Nokāvēti Posmi atskaite attēlos nokāvētu posmu sarakstu.{3}{2}Lai apskatīt nokāvētus posmus visos projektus, uzklikšķiniet uz Ģenerēt Atskaiti.{3}{2}Lai apskatītu nokāvētus posmus tikai par noteiktu projektu, jums jāizvēlās to no saraksta Filtrs sadaļā un tad uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportLateMilestones_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} {2}</value>
+  </data>
+  <data name="ReportLateMilestones_Title">
+    <value>Nokāvēti Posmi</value>
+  </data>
+  <data name="ReportLateTasks_Description">
+    <value>{0}{2}Nokāvētu Uzdevumu atskaite attēlo nokāvētu uzdevumu sarakstu.{3}{2}Lai apskatītu nokāvētus uzdevumus visos projektos, uzklikšķiniet uz Ģenerēt Atskaiti uzreiz.{3}{2}Lai apskatītu nokāvētus uzdevumus noteiktā projektā, jums jāizvēlās to projektu no nolaižamā saraksta Filtrs sadaļā, un tad uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportLateTasks_Title">
+    <value>Nokāvēti Uzdevumi</value>
+  </data>
+  <data name="ReportMilestoneList_Description">
+    <value>{0}{2}Posmu saraksts atskaite attēlo posmu sarakstu sagrupētu pēc attiecīga projekta. Pēc noklusējuma atskaite parādīs posmu sarakstu visos projektos kā arī termiņus.{3}{2}Lai ģenerēt atskaiti, uzklikšķiniet uz Ģenerēt Atskaiti.{3}{2}Uzklikšķiniet uz Apskatīt Filtrus linku, lai izmainīt iestatījumus pēc noklusējuma. Jūs varat izvēlēties apskatīt tikai noteiktus posmus, kas pieder noteiktam projektam, vai kuriem ir noteikts statuss. Kad jūs uzliksiet filtru, uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportMilestoneList_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} {2}</value>
+  </data>
+  <data name="ReportMilestoneList_Title">
+    <value>Posmu saraksts</value>
+  </data>
+  <data name="ReportName">
+    <value>Atskaites Nosaukums</value>
+  </data>
+  <data name="ReportOpenTasks">
+    <value>Atvērtu Uzdevumu Atskaite</value>
+  </data>
+  <data name="ReportPageTitle">
+    <value>Atskaite «{0}»</value>
+  </data>
+  <data name="ReportProblemTracking_Title">
+    <value>Problemu Sekošanas Atskaite</value>
+  </data>
+  <data name="ReportProjectList_Description">
+    <value>{0}{2}Projektu Saraksts atskaite attēlos projektu sarakstu.{3}{2}Lai apskatīt visus aktīvus projektus ar to vādītājiem, uzdevumu, posmu, darbību skaitu un komandu, uzklikšķiniet uz Ģenerēt Atskaiti.{3}{2}Lai apskatīt projektus noteiktā grupā vai/un apskatīt gan aktīvus, gan pabeigtus projektus, izmainiet atskaišu parametrus Filtrs sadaļā un tad uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportProjectList_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectList_Title">
+    <value>Projektu Saraksts</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Description">
+    <value>{0}{2}Projekti bez atvērtiem posmiem atskaite attēlos projektus, kuriem nav atvērtu posmu.{3}{2}Lai apskatīt visus projektus bez atvērtiem posmiem, uzklikšķiniet uz Ģenerēt Atskaiti.{3}{2}Lai apskatītu šādus projektus noteiktā grupā vai pārbaudīt noteiktu  lietotāju, jums jāizvēlās noteiktu grupu vai lietotāju Filtrs sadaļā un tad uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Title">
+    <value>Projekti bez atvērtiem posmiem</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Description">
+    <value>{0}{2}Projekti bez aktīviem uzdevumiem atskaite attēlos tādu projektu sarakstus, kuriem nav aktīvu uzdevumu. {3}{2}Lai apskatīt visus projektus bez aktīviem uzdevumiem, uzklikšķiniet uz Ģenerēt Atskaiti.{3}{2}Lai pārbaudītu tādus projektus noteiktā grupā vai pārbaudīt noteiktu lietotāju, jums jāizvēlās grupu un/vai lietotāju Filtrs sadaļā un tad uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Title">
+    <value>Projekti bez aktīviem uzdevumiem</value>
+  </data>
+  <data name="Reports">
+    <value>Atskaites</value>
+  </data>
+  <data name="ReportStatistics_Title">
+    <value>Statistikas Atskaites</value>
+  </data>
+  <data name="ReportTaskList_Description">
+    <value>{0}{2}Projekta Uzdevumi atskaite attēlos uzdevumu sarakstu sagrupētus pēc attiecīga projekta vai posma.{3}{2}Lai apskatīt uzdevumu sarakstu visos projektos ar norādītu atbildīgu cilvēku un statusu, uzklikšķiniet uz Ģenerēt Atskaiti.{3}{2}Lai apskatīt tikai noteikta projekta uzdevumus un statusu, izmainiet atskaites parametrus Filtrs sadaļā un tad uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportTaskList_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} {2}</value>
+  </data>
+  <data name="ReportTaskList_Title">
+    <value>Projekta Uzdevumi</value>
+  </data>
+  <data name="ReportTimeSpend_Description">
+    <value>{0}{2}Iztērēta laika atskaite ir uzdevumu saraksts, kad parāda cik laika katrs {!user} iztērēja pildot uzdevumus.{3}{2} Ši atskaite ļauj sekot līdz uzdevumu progresam, skaitot laiku iztērētu pildot uzdevumus.{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpend_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} par periodu {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpend_Title">
+    <value>Iztērēts Laiks</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Description">
+    <value>{0}{2}Laika Izsekošanas Atskaite attēlo lietotāju sarakstu kopā ar viņu darba laiku, kas tiek aprēķināts laika pārskatā.{3}{2}Šī atskaite palīdz sekot līdz kopējo laiku iztērētu uz uzdevumu pildīšanu.{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} par periodu {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Title">
+    <value>Iztērēta laika atskaite</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Description">
+    <value>{0}{2}Nākošo Posmu atskaite attēlos nakošo posmu sarakstu.{3}{2}Lai apskatīt nākošus posmus visos projektos nedēļas laikā, uzklikšķiniet uz Ģenerēt Atskaiti.{3}{2}Lai apskatītu nākošos projekta posmus par citu noteiktu laika periodu, jums jāizvēlās projektu no saraksta un izvēlēties citus datumus Līdz datumam laukā un tad uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Title">
+    <value>Nākošie Posmi</value>
+  </data>
+  <data name="ReportUserActivity_Descripton">
+    <value>{0}{2}Lietotāju Aktivitātes atskaite attēlos lietotāja darbības Projects noteiktā laika periodā.{3}{2}Lai apskatīt jūsu aktivitāte par iepriekšējo nedēļu, uzklikšķiniet uz Ģenerēt Atskaiti.{3}{2}Lai izvēlēties citu laika periodu vai citu lietotāju, izmainiet atskaites iestatījumus Filtrs sadaļā un tad uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportUserActivity_InfoLine">
+    <value>Atskaite ģenerēta: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserActivity_Title">
+    <value>Lietotāju Aktivitāte</value>
+  </data>
+  <data name="ReportUserTasks_Description">
+    <value>{0}{2}Lietotāju Uzdevumu atskaite attēlos uzdevumu sarakstu sagrupētu pēc atbildīgiem lietotāju. Lai apskatīt visus lietotāju uzdevumus un to statusus, uzklikšķiniet uz Ģenerēt Atskaiti.{3}{2}Lai apskatītu tikai kāda īpaša projekta uzdevumus un statusu, izmainiet atskaites iestatījumus Filtrs sadaļā un tad uzklikšķiniet uz Ģenerēt Atskaiti.{3}{1}</value>
+  </data>
+  <data name="ReportUserTasks_InfoLine">
+    <value>Ģenerētas atskaites: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserTasks_Title">
+    <value>Lietotāju Uzdevumi</value>
+  </data>
+  <data name="SaveAsTemplate">
+    <value>Saglabāt kā veidni</value>
+  </data>
+  <data name="SendOnEmail">
+    <value>Nosūtīt pa e-pastu</value>
+  </data>
+  <data name="ShowTasks">
+    <value>Rādīt uzdevumus</value>
+  </data>
+  <data name="ShowUserActivityReport">
+    <value>Parādīt Lietotāju Aktivitātes atskaiti</value>
+  </data>
+  <data name="ShowUserTasksReport">
+    <value>Parādīt Lietotāju Uzdevumu atskaiti</value>
+  </data>
+  <data name="TaskDone">
+    <value>Izpildīti Uzdevumi</value>
+  </data>
+  <data name="TaskReport">
+    <value>Uzdevumu Atskaite</value>
+  </data>
+  <data name="TasksDone">
+    <value>Izpildīti Uzdevumi</value>
+  </data>
+  <data name="TasksStatus">
+    <value>Uzdevumu statuss</value>
+  </data>
+  <data name="TasksWorkingOn">
+    <value>Uzdevumi progresā</value>
+  </data>
+  <data name="TemplateAndAutogen">
+    <value>Veidne un autoģenerācija</value>
+  </data>
+  <data name="TemplateName">
+    <value>Veidnes Nosaukums</value>
+  </data>
+  <data name="TemplateNotFound_Body">
+    <value>Tā varētu būt izdzēsta vai uzdevuma ar šādu ID neeksistē</value>
+  </data>
+  <data name="TemplateNotFound_Header">
+    <value>Veidne nav atrasta</value>
+  </data>
+  <data name="TemplateNotFound_RedirectTitle">
+    <value>Aiziet uz veidņu sarakstu</value>
+  </data>
+  <data name="Templates">
+    <value>Veidnes</value>
+  </data>
+  <data name="TemplateTitle">
+    <value>Veidnes Nosaukums</value>
+  </data>
+  <data name="ThisMonth">
+    <value>Tekošs mēnesis</value>
+  </data>
+  <data name="ThisWeek">
+    <value>Tekoša nedēļa</value>
+  </data>
+  <data name="ThisYear">
+    <value>Šogad</value>
+  </data>
+  <data name="Today">
+    <value>Šodien</value>
+  </data>
+  <data name="User">
+    <value>Lietotājs</value>
+  </data>
+  <data name="UseTemplate">
+    <value>Izmantot veidni</value>
+  </data>
+  <data name="ViewByDepartments">
+    <value>{!Groups}</value>
+  </data>
+  <data name="ViewByParticipant">
+    <value>Kārtot pēc dalībnieka</value>
+  </data>
+  <data name="ViewByProjects">
+    <value>Kārtot pēc projekta</value>
+  </data>
+  <data name="ViewByUsers">
+    <value>Kārtot pēc lietotāja</value>
+  </data>
+  <data name="ViewByUserTasks">
+    <value>Sašķirot pēc lietotāju uzdevumiem</value>
+  </data>
+  <data name="ViewClosedMilestones">
+    <value>Rādīt pabeigtus posmus</value>
+  </data>
+  <data name="ViewClosedProjects">
+    <value>Rādīt pabeigtus projektus</value>
+  </data>
+  <data name="ViewInfo">
+    <value>Paradīt atskaites informāciju</value>
+  </data>
+  <data name="ViewOnlyMyProjecs">
+    <value>Rādīt tikai manus projektus</value>
+  </data>
+  <data name="Week">
+    <value>Nedēļa</value>
+  </data>
+  <data name="Weeks">
+    <value>Nedēļas</value>
+  </data>
+  <data name="Yesterday">
+    <value>Vakar</value>
+  </data>
+</root>

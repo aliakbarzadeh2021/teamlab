@@ -1,0 +1,2 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Blogs\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Blogs\obj\Debug\ResolveAssemblyReference.cache

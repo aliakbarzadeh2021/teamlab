@@ -1,0 +1,397 @@
+﻿/*******************************************************************************
+   CSS Reset
+*******************************************************************************/
+
+dl, dt, dd
+{
+    padding: 0px;
+    margin: 0px;
+}
+/*******************************************************************************
+*******************************************************************************/
+.comming_soon, div.comming_soon, .comming_soon div, .comming_soon a
+{
+    color: #888888 !important;
+    opacity: 0.5 !important;
+    background: white !important;
+    border: none !important;
+    cursor: wait !important;
+    display: none !important;
+}
+.blockDialog div.seporator
+{
+    border-top: 1px solid #D1D1D1;
+    margin: 10px 0;
+}
+.button-splitter
+{
+    padding: 0px 4px;
+}
+.loading
+{
+    cursor: wait !important;
+}
+.loading a, .loading input, .loading span, .loading div
+{
+    cursor: wait !important;
+}
+.checkloading div.checkbox div.cornerAll
+{
+    visibility: hidden;
+}
+.checkloading div.checkbox
+{
+    background: url("images/throbber.gif") no-repeat 50% 50%;
+    height: 24px;
+}
+span.span_space
+{
+    padding-left: 3px;
+}
+.select_action,
+.select_action a,
+.select_action input,
+.select_action span,
+.select_action div
+{
+    cursor: default !important;
+}
+.popupModal
+{
+    display: none;
+}
+.may-row-to
+{
+    background-color: #FFC;
+}
+.row-to
+{
+    background-color: #DAF2E2;
+    border: 1px solid #98BCA1;
+}
+body.moveRow
+{
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    MozUserSelect:none
+}
+.files_popup_win
+{
+    display:none;
+}
+/*******************************************************************************
+    Side tips
+*******************************************************************************/
+div.tips_side_container
+{
+    font-size: 14px;
+    margin: 15px 0;
+}
+/*******************************************************************************
+    files_action_panel
+*******************************************************************************/
+div.files_action_panel
+{
+    z-index: 249;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #8E908F;
+    padding: 10px 15px 15px 15px;
+}
+div.files_action_panel ul
+{
+	list-style: none;
+	margin: 0;
+    padding: 0;
+}
+div.files_action_panel div.popup-corner, div.files_treeViewPanel div.popup-corner
+{
+    background: url("images/popup-corner.png") no-repeat;
+    width: 9px;
+    height: 5px;
+    margin-top: -15px;
+    position: absolute;
+}
+div.files_action_panel a
+{
+    color: #4D4D4D;
+    cursor: pointer;
+    text-decoration: none;
+}
+div.files_action_panel a
+{
+    font-size: 11px;
+	display: block;
+    list-style: none;
+    padding: 5px 15px 5px 25px;
+    border: 1px solid #FFF;
+    background-repeat: no-repeat;
+    background-position: 5px 4px;
+	_position: relative;
+}
+div.files_action_panel a:hover
+{
+    background-color: #DAE8F3;
+    border: 1px solid #98BBCB;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/*******************************************************************************
+     Searched documents styles
+*******************************************************************************/
+#searchedDocuments div.headerBase
+{
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+#searchedDocuments div.document
+{
+    border-left: none !important;
+    border-right: none !important;
+    margin-bottom: -1px !important;
+    padding: 10px 5px 10px 30px;
+    overflow: hidden;
+}
+#searchedDocuments div.document div.icon
+{
+    height: 32px;
+    width: 32px;
+    float: left;
+}
+#searchedDocuments .sub-folder .icon
+{
+    background: url("images/content_folder.png") no-repeat;
+}
+span.separator
+{
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/*******************************************************************************
+     Progress
+*******************************************************************************/
+
+div.files_progress_box
+{
+    background-color: White;
+    border: 1px solid #32373B;
+    display: none;
+    margin-left: -200px;
+    overflow: hidden;
+    padding: 10px 30px 15px;
+    white-space: nowrap;
+}
+div.files_progress_box .headerBaseMedium
+{
+    overflow:hidden;
+}
+div.files_progress_box div.progress_wrapper
+{
+    height: 15px;
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    margin: 5px 0px;
+    text-align: center;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+div.files_progress_box div.progress
+{
+    height: 15px;
+    background: url("images/back-progress-big.png") repeat-x;
+    text-align: center;
+    color:White;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+div.files_progress_box span.percent
+{
+    position: relative;
+    top: -1.2em;
+    color: White;
+}
+/*******************************************************************************
+    Tree
+*******************************************************************************/
+div.tree
+{
+    float: left;
+    margin-left: 25px;
+    min-height: 24px;
+    width: 16px;
+}
+div.tree a.tree
+{
+    background: url("images/tree.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    cursor: pointer;
+}
+#files_trewViewContainer a, #files_trewViewSelector a
+{
+    color: #323232;
+    cursor: pointer;
+    text-decoration: none;
+}
+div.files_treeViewPanel
+{
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #8E908F;
+    padding: 10px 15px 15px;
+    z-index: 101;
+    max-width: 660px;
+    max-height: 310px;
+}
+div.files_treeViewPanel a:hover
+{
+    background-color: #DAF2E2;
+    border: 1px solid #98BCA1;
+}
+div.files_treeViewPanel a.jstree-close-project:hover
+{
+    background-color: #FFF;
+    border: 1px solid #FFF;
+}
+.jstree
+{
+    max-width: 650px;
+    max-height: 300px;
+    overflow: auto;
+    padding-right: 20px;
+}
+.jstree ul, .jstree li
+{
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    list-style-type: none;
+}
+.jstree li
+{
+    display: block;
+    min-height: 18px;
+    line-height: 18px;
+    white-space: nowrap;
+    margin-left: 18px;
+}
+.jstree > ul > li
+{
+    margin-left: 0px;
+}
+.jstree ins
+{
+    display: inline-block;
+    text-decoration: none;
+    width: 12px;
+    height: 20px;
+    margin: 0 0 0 0;
+    padding: 0;
+    cursor: pointer;
+}
+.jstree a
+{
+    display: inline-block;
+    line-height: 16px;
+    height: 16px;
+    color: black;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 1px 2px 1px 0;
+    margin: 0;
+}
+.jstree a:focus
+{
+    outline: none;
+}
+.jstree a > ins
+{
+    height: 16px;
+    width: 16px;
+}
+.jstree a > .jstree-icon
+{
+    margin-right: 3px;
+}
+#files_treeViewPanelSelector li.access_read
+{
+    display:none;
+}
+li.jstree-open > ul
+{
+    display: block;
+}
+li.jstree-closed > ul
+{
+    display: none;
+}
+div.jstree ins.jstreeLoadNode
+{
+    background-image: url("images/loader_12.gif");
+    background-position: center;
+}
+.jstree-default li, .jstree-default ins
+{
+    background-image: url("images/d.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    vertical-align: middle;
+}
+.jstree-default ins.myFiles
+{
+    background-image: url("images/myfiles.png");
+    background-position: center !important;
+}
+.jstree-default ins.corporateFiles
+{
+    background-image: url("images/corporatefiles.png");
+    background-position: center !important;
+}
+.jstree-default ins.shareformeFiles
+{
+    background-image: url("images/sharedforme.png");
+    background-position: center !important;
+}
+.jstree-default ins.projectFiles
+{
+    background-image: url("images/projectfiles.png");
+    background-position: center !important;
+}
+.jstree-default li
+{
+    background-position: -92px 0;
+}
+.jstree-default .jstree-open > ins
+{
+    background-position: -72px 0;
+}
+.jstree-default .jstree-closed > ins
+{
+    background-position: -54px 0;
+}
+.jstree-default a .jstree-icon
+{
+    background-position: -56px -19px;
+}
+.jstree a
+{
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.jstree a.selected
+{
+    background-color: #DAE8F3;
+    border: 1px solid #98BBCB;
+}

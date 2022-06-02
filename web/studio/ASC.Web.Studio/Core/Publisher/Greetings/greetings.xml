@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<greetings>
+  <!--Теги
+  специальные:
+  {username} - Имя текущего пользователя
+  {personalcount} - Количество сотрудников в компании
+  {joindays} - Количество дней, проработанных в компании
+
+  остальные теги подставляются по названиям атрибутов
+  -->
+
+  <!-- Приветствие на разных языках
+  по мотивам http://www.everyday.com.ua/digilet/words-languages.htm-->
+  <form phrase="{greeting}, {username}!" description="Теперь ты знаешь, как приветствуют {country}.">
+    <phrase country="в Азербайджане" greeting="Salaam aleihum"/>
+    <phrase country="в Албании" greeting="Tungjatjeta"/>
+    <phrase country="в Хорватии" greeting="Zdravo"/>
+    <phrase country="на Гаваях" greeting="Aloha"/>
+  </form>
+  <!-- Как дела на разных языках
+  по мотивам http://www.everyday.com.ua/digilet/words-languages.htm-->
+  <form phrase="{how_are_you}, {username}?" description="Теперь ты знаешь, как спрашивают о делах в {country}.">
+    <phrase country="Азербайджане" how_are_you="Necainiz"/>
+    <phrase country="Японии" how_are_you="O genki desu ka"/>
+  </form>
+  <!-- поздравления с днём рождения на разных языках
+  по мотивам http://www.pozdrav.ru/stat25.shtml-->
+  <form phrase="{happy_b}!" description="Теперь ты знаешь, как поздравить с Днём Рождения {country}.">
+    <phrase country="англичанина" happy_b="Happy birthday to you"/>
+    <phrase country="немца" happy_b="Herzlichen Gluckwunsh zum Geburtstag"/>
+    <phrase country="француза" happy_b="Bon anniversaire"/>
+    <phrase country="итальянца" happy_b="Mi congratulo con Lie di buon compleanno"/>
+  </form>
+  <!--Перевод величин из одних в другие - просто познавательно )-->
+  <form phrase="В 1 {from} {amount} {to}!" description="Теперь ты знаешь всё о величинах.">
+    <phrase from="метре" amount="3.2808399" to="фута"/>
+    <phrase from="удаве" amount="38" to="попугаев"/>
+    <phrase from="килограмме" amount="2.20462262" to="фунта"/>
+  </form>
+  
+  <!-- СПЕЦИАЛЬНЫЕ -->
+  <!--количество человек в компании-->
+  <form phrase="{personalcount} человек!" description="Теперь ты знаешь сколько сотрудников в нашей компании." />
+  <!--количество отработанных мной дней в компании-->
+  <form phrase="{joindays} дней!" description="Именно столько дней ты проработал в нашей компании." />
+</greetings>

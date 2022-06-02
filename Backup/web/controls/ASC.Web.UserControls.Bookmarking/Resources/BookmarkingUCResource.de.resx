@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddBookmarkLink">
+    <value>Lesezeichen erstellen</value>
+  </data>
+  <data name="AddBookmarkMessage">
+    <value>Bitte fügen Sie Ihre Lesezeichen {0}hier{1} hinzu.</value>
+  </data>
+  <data name="AddBookmarkToFavouriteLinkTitle">
+    <value>Lesezeichen zu Favoriten hinzufügen</value>
+  </data>
+  <data name="AddToFavourite">
+    <value>Zu Favoriten hinzufügen</value>
+  </data>
+  <data name="AllBookmarks">
+    <value>Alle Lesezeichen</value>
+  </data>
+  <data name="AllBookmarksLink">
+    <value>Alle Lesezeichen</value>
+  </data>
+  <data name="AtoZ">
+    <value>A-Z</value>
+  </data>
+  <data name="BookmaredBy">
+    <value>Hinzugefügt von</value>
+  </data>
+  <data name="BookmarkCreationIsInProgressLabel">
+    <value>Das Lesezeichen wird erstellt...</value>
+  </data>
+  <data name="BookmarkDescription">
+    <value>Beschreibung</value>
+  </data>
+  <data name="BookmarkDetailsLinkTitle">
+    <value>Detaillierte Beschreibung des Lesezeichens</value>
+  </data>
+  <data name="BookmarkedBy">
+    <value>Hinzugefügt von</value>
+  </data>
+  <data name="BookmarkingSearch">
+    <value>Suche in Lesezeichen</value>
+  </data>
+  <data name="BookmarkName">
+    <value>Name</value>
+  </data>
+  <data name="BookmarkRaitingLinkTitle">
+    <value>Anzahl der Benutzer, die dieses Lesezeichen zu Favoriten hinzugefügt haben</value>
+  </data>
+  <data name="BookmarksNavigationItem">
+    <value>Lesezeichen</value>
+  </data>
+  <data name="BookmarkTagDescription">
+    <value>Geben Sie gewünschte Schlagwörter ein und trennen sie durch Kommas ab</value>
+  </data>
+  <data name="BookmarkUrl">
+    <value>URL</value>
+  </data>
+  <data name="Cancel">
+    <value>Abbrechen</value>
+  </data>
+  <data name="CheckBookmarkUrlButton">
+    <value>URL prüfen</value>
+  </data>
+  <data name="CheckingUrlIsInProgressLabel">
+    <value>URL wird geprüft...</value>
+  </data>
+  <data name="Comments">
+    <value>Kommentare</value>
+  </data>
+  <data name="CommentsGenitivePlural">
+    <value>Kommentare</value>
+  </data>
+  <data name="CommentsGenitiveSingular">
+    <value>Kommentare</value>
+  </data>
+  <data name="CommentsLabel">
+    <value>Kommentare</value>
+  </data>
+  <data name="CommentsLinkTitle">
+    <value>Zu Kommentaren zum Lesezeichen gehen</value>
+  </data>
+  <data name="CommentsNominative">
+    <value>Kommentar</value>
+  </data>
+  <data name="CreateNewBookmarkLinkTitle">
+    <value>Neues Lesezeichen erstellen</value>
+  </data>
+  <data name="Details">
+    <value>Details</value>
+  </data>
+  <data name="EditFavouriteBookmarkLink">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="EditFavouriteBookmarkLinkTitle">
+    <value>Lesezeichen bearbeiten</value>
+  </data>
+  <data name="EditFavouriteBookmarkTitle">
+    <value>Lesezeichen bearbeiten</value>
+  </data>
+  <data name="EmptyBookmarkUrlErrorMessage">
+    <value>Das Feld der Lesezeichen-URL darf nicht leer sein</value>
+  </data>
+  <data name="ErrorNotCorrectMaxBookmarksSettings">
+    <value>Ungültige Anzahl der Lesezeichen</value>
+  </data>
+  <data name="FavouritesNavigationItem">
+    <value>Favoriten</value>
+  </data>
+  <data name="FavouriteTags">
+    <value>Schlagwörter bei Favoriten</value>
+  </data>
+  <data name="MaxBookmarksCountSettingsTitle">
+    <value>Anzahl angezeigter Lesezeichen (von 1 bis 30)</value>
+  </data>
+  <data name="MonthLabel">
+    <value>Für einen Monat</value>
+  </data>
+  <data name="MostRecentLabel">
+    <value>Letzte</value>
+  </data>
+  <data name="NoBookmarksMessage">
+    <value>Es gibt keine Lesezeichen.</value>
+  </data>
+  <data name="PageTitle">
+    <value>Lesezeichen</value>
+  </data>
+  <data name="PopularityLabel">
+    <value>Populärste</value>
+  </data>
+  <data name="PopularTags">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="RelatedTags">
+    <value>Verwandte Schlagwörter</value>
+  </data>
+  <data name="RemoveBookmarkFromFavouritesLinkTitle">
+    <value>Lesezeichen von Favoriten entfernen</value>
+  </data>
+  <data name="RemoveButton">
+    <value>Entfernen</value>
+  </data>
+  <data name="RemoveFromFavouriteConfirmMessage">
+    <value>Möchten Sie wirklich das Lesezeichen {0} von Favoriten entfernen?</value>
+  </data>
+  <data name="RemoveFromFavouriteTitle">
+    <value>Lesezeichen löschen</value>
+  </data>
+  <data name="RemovingBookmarkFromFavouriteIsInProgressLabel">
+    <value>Das Lesezeichen wird entfernt...</value>
+  </data>
+  <data name="Save">
+    <value>Speichern</value>
+  </data>
+  <data name="SearchByTag">
+    <value>Suche in Schlagwörtern</value>
+  </data>
+  <data name="SearchResults">
+    <value>Suchergebnisse</value>
+  </data>
+  <data name="ShowLabel">
+    <value>Anzeigen:</value>
+  </data>
+  <data name="SubscribeOnBookmarkComments">
+    <value>Für Kommentare anmelden</value>
+  </data>
+  <data name="SubscribeOnRecentBookmarks">
+    <value>Für Lesezeichen anmelden</value>
+  </data>
+  <data name="TagBookmarks">
+    <value>Schlagwort</value>
+  </data>
+  <data name="TagPageTitle">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="Tags">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="TagsCloudLabel">
+    <value>Schlagwortwolke</value>
+  </data>
+  <data name="TagsNavigationItem">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="TopOfTheDayLabel">
+    <value>Top des Tages</value>
+  </data>
+  <data name="UnSubscribeOnBookmarkComments">
+    <value>Von Kommentaren abmelden</value>
+  </data>
+  <data name="UnSubscribeOnRecentBookmarks">
+    <value>Von Lesezeichen abmelden</value>
+  </data>
+  <data name="WeekLabel">
+    <value>Für eine Woche</value>
+  </data>
+  <data name="YearLabel">
+    <value>Für ein Jahr</value>
+  </data>
+</root>

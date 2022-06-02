@@ -1,0 +1,33 @@
+﻿.ftUnknown_16, .ftArchive_16, .ftExcel_16, .ftImage_16, .ftPdf_16, .ftTxt_16, .ftWordDoc_16
+{
+	background-repeat:no-repeat;
+	background-position: left center;
+}
+.ftUnknown_16
+{
+	background-image:url('../WikiImages/filetype/unknown_16.gif');
+}
+.ftArchive_16
+{
+	background-image:url('../WikiImages/filetype/archive_16.gif');
+}
+.ftExcel_16
+{
+	background-image:url('../WikiImages/filetype/excel_16.gif');
+}
+.ftImage_16
+{
+	background-image:url('../WikiImages/filetype/image_16.gif');
+}
+.ftPdf_16
+{
+	background-image:url('../WikiImages/filetype/pdf_16.gif');
+}
+.ftTxt_16
+{
+	background-image:url('../WikiImages/filetype/txt_16.gif');
+}
+.ftWordDoc_16
+{
+	background-image:url('../WikiImages/filetype/word_doc_16.gif');
+}

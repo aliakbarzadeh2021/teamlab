@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action">
+    <value>Operazione</value>
+  </data>
+  <data name="Author">
+    <value>Autore:</value>
+  </data>
+  <data name="Author_Me">
+    <value>Io</value>
+  </data>
+  <data name="ButtonClose">
+    <value>Chiudi</value>
+  </data>
+  <data name="ButtonDelete">
+    <value>Elimina</value>
+  </data>
+  <data name="ButtonDeleteFromShare">
+    <value>Elimina dalla lista</value>
+  </data>
+  <data name="ButtonDownload">
+    <value>Scarica</value>
+  </data>
+  <data name="ButtonEdit">
+    <value>Modifica</value>
+  </data>
+  <data name="ButtonEditing">
+    <value>Modifica in corso</value>
+  </data>
+  <data name="ButtonPreviewBack">
+    <value>Torna alla cartella</value>
+  </data>
+  <data name="ButtonUploadNewVersions">
+    <value>Aggiorna documento</value>
+  </data>
+  <data name="CreatingDate">
+    <value>Data di creazione:</value>
+  </data>
+  <data name="DateTime">
+    <value>Data/Ora</value>
+  </data>
+  <data name="Department">
+    <value>Ufficio</value>
+  </data>
+  <data name="DocumentName">
+    <value>Nome documento:</value>
+  </data>
+  <data name="Documents">
+    <value>Documenti</value>
+  </data>
+  <data name="Employees">
+    <value>Impiegati</value>
+  </data>
+  <data name="ErrorMassage_BadRequest">
+    <value>Richiesta non valida.</value>
+  </data>
+  <data name="ErrorMassage_CreateNewFolderInTrash">
+    <value>E' vietato creare cartelle nel cestino</value>
+  </data>
+  <data name="ErrorMassage_DifferentName">
+    <value>Il nome file da caricare è diverso da quello di file sorgente</value>
+  </data>
+  <data name="ErrorMassage_EmptyFile">
+    <value>File vuoto</value>
+  </data>
+  <data name="ErrorMassage_ExceededMaximumFileSize">
+    <value>E' stata superata la dimensione file massima</value>
+  </data>
+  <data name="ErrorMassage_FileNotFound">
+    <value>Il file richiesto non è trovato</value>
+  </data>
+  <data name="ErrorMassage_FolderNotFound">
+    <value>Non è stata trovata la cartella richiesta</value>
+  </data>
+  <data name="ErrorMassage_MoveFolder">
+    <value>La cartella con questo nome esiste già. Rinominala e riprova.</value>
+  </data>
+  <data name="ErrorMassage_NotSupportedFormat">
+    <value>Scusa, questo formato file non è supportato</value>
+  </data>
+  <data name="ErrorMassage_SecurityException">
+    <value>Non si dispone di permessi sufficienti per effettuare l'operazione</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_Create">
+    <value>Non si dispone di permessi sufficienti per creare</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_DeleteEditingFile">
+    <value>E' impossibile eliminare il file perchè viene aperto per la modifica</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_DeleteEditingFolder">
+    <value>E' impossibile eliminare la cartella perchè uno dei file viene aperto per la modifica</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_DeleteFile">
+    <value>Non si dispone di permessi sufficienti per eliminare il file</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_DeleteFolder">
+    <value>Non si dispone di premessi sufficienti per eliminare la cartella</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_EditFile">
+    <value>Non si dispone di permessi sufficienti per modificare il file</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_ReadFile">
+    <value>Non si dispone di permessi sufficienti per visualizzare il file</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_ReadFolder">
+    <value>Non si dispone di permessi sufficienti per visualizzare il contenuto della cartella</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_RenameFile">
+    <value>Non si dispone di permessi sufficienti per rinominare il file</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_RenameFolder">
+    <value>Non si dispone di prermessi sufficienti per rinominare la cartella</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_UpdateEditingFile">
+    <value>E' impossibile aggiornare il file perché viene aperto per la modifica</value>
+  </data>
+  <data name="ErrorMassage_SecurityException_ViewFolder">
+    <value>Non si dispone di permessi sufficienti per visualizzare il contenuto della cartella</value>
+  </data>
+  <data name="ErrorMassage_UpdateEditingFile">
+    <value>E' impossibile aggiornare il file aperto per la modifica</value>
+  </data>
+  <data name="ErrorMassage_ViewTrashItem">
+    <value>E' vietato visualizzare elementi del cestino in anteprima</value>
+  </data>
+  <data name="Favorites">
+    <value>Preferiti</value>
+  </data>
+  <data name="FlashUploader">
+    <value>Carica con flash</value>
+  </data>
+  <data name="FlashUploaderDescription">
+    <value>Versione di flash uploader...</value>
+  </data>
+  <data name="Group">
+    <value>Gruppo</value>
+  </data>
+  <data name="HtmlUploader">
+    <value>Carica con Html</value>
+  </data>
+  <data name="ImportFromBoxNet">
+    <value>Importa da Box.Net</value>
+  </data>
+  <data name="ImportFromGoogle">
+    <value>Importa da Google Docs</value>
+  </data>
+  <data name="ImportFromZoho">
+    <value>Importa da Zoho</value>
+  </data>
+  <data name="IsNew">
+    <value>nuovo</value>
+  </data>
+  <data name="MakeCurrent">
+    <value>Ripristina</value>
+  </data>
+  <data name="ManagmentGroup">
+    <value>Gestione di gruppi</value>
+  </data>
+  <data name="ModuleName">
+    <value>Documenti</value>
+  </data>
+  <data name="NothingFound">
+    <value>Non è stato trovato nulla</value>
+  </data>
+  <data name="OpenFile">
+    <value>Anteprima</value>
+  </data>
+  <data name="Position">
+    <value>Carica</value>
+  </data>
+  <data name="PreviewHeader">
+    <value>Anteprima di documenti</value>
+  </data>
+  <data name="ProductDescription">
+    <value>Crea, modifica e condividi i documenti sul portale. Importa i documenti da Google Docs, Zoho, Box.net.</value>
+  </data>
+  <data name="ProductName">
+    <value>Documenti</value>
+  </data>
+  <data name="SearchText">
+    <value>Ricerca</value>
+  </data>
+  <data name="SelectRight">
+    <value>seleziona</value>
+  </data>
+  <data name="ShowAllResults">
+    <value>Visualizza tutti i risultati</value>
+  </data>
+  <data name="SignedForMe">
+    <value>Assegnato a me</value>
+  </data>
+  <data name="Size">
+    <value>Dimensione</value>
+  </data>
+  <data name="Statistics">
+    <value>Statistica</value>
+  </data>
+  <data name="TipsAndTricks">
+    <value>Consigli e trucchi</value>
+  </data>
+  <data name="TitleActionPanel">
+    <value>Visualizza operazioni</value>
+  </data>
+  <data name="TitleCreated">
+    <value>Creato</value>
+  </data>
+  <data name="TitleEditingFile">
+    <value>Si sta modificando</value>
+  </data>
+  <data name="TitleFiles">
+    <value>Documenti</value>
+  </data>
+  <data name="TitleFolderUp">
+    <value>Verso l'alto</value>
+  </data>
+  <data name="TitleKb">
+    <value>Kb</value>
+  </data>
+  <data name="TitleModified">
+    <value>Aggiornato</value>
+  </data>
+  <data name="TitleOwner">
+    <value>Autore:</value>
+  </data>
+  <data name="TitlePage">
+    <value>Documenti</value>
+  </data>
+  <data name="TitleRemoved">
+    <value>Eliminato</value>
+  </data>
+  <data name="TitleRemoveVersion">
+    <value>Elimina versione</value>
+  </data>
+  <data name="TitleSelectFile">
+    <value>Seleziona</value>
+  </data>
+  <data name="TitleShareFile">
+    <value>L'accesso al documento è concesso</value>
+  </data>
+  <data name="TitleSubfolders">
+    <value>Sottocartelle</value>
+  </data>
+  <data name="TitleUploaded">
+    <value>Caricato</value>
+  </data>
+  <data name="TitleVersions">
+    <value>Versioni precedenti</value>
+  </data>
+  <data name="Tools">
+    <value>Strumenti</value>
+  </data>
+  <data name="TotalFound">
+    <value>Trovato</value>
+  </data>
+  <data name="User">
+    <value>Utente</value>
+  </data>
+  <data name="Version">
+    <value>ver.</value>
+  </data>
+  <data name="VersionNum">
+    <value>Ver.№</value>
+  </data>
+</root>

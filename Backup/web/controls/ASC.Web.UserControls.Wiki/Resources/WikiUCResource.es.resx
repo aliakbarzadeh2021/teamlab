@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditSectionCaption">
+    <value>Editar</value>
+  </data>
+  <data name="EditSectionTitleFormat">
+    <value>Editar sección:{0}</value>
+  </data>
+  <data name="editWiki_File">
+    <value>Archivo</value>
+  </data>
+  <data name="editWiki_FileName">
+    <value>Nombre de archivo</value>
+  </data>
+  <data name="editWiki_PageBody">
+    <value>Texto</value>
+  </data>
+  <data name="editWiki_PageName">
+    <value>Título de página</value>
+  </data>
+  <data name="editWiki_PagePreview">
+    <value>Vista previa</value>
+  </data>
+  <data name="editWiki_UploadCaption">
+    <value>Subir archivo</value>
+  </data>
+  <data name="editWiki_UploadFileName">
+    <value>Nombre del archivo subido</value>
+  </data>
+  <data name="Enlarge">
+    <value>Acercar</value>
+  </data>
+  <data name="HelpPage_DefaultBody">
+    <value>Es muy fácil crear páginas wiki aunque usted nunca haya usado ningún lenguaje de marcado antes. Todo lo que se necesita es leer unas reglas simples enumeradas a continuación. Esperamos que le sirvan de ayuda. 
+
+@@TOC@@
+
+==Apartados, Párrafos, Listas, Líneas==
+
+Para empezar un nuevo apartado, introduzca el título del mismo entre los signos =:
+
+&lt;nowiki&gt;
+&lt;p&gt;
+=Apartado=&lt;br&gt;
+==Subapartado==&lt;br&gt;
+===Sub-subapartado===&lt;br&gt;
+
+&lt;p&gt;
+Al insertar @TOC@ en la página, todos los apartados y subapartados de la página formarán una tabla de contenidos.
+&lt;/p&gt;
+
+Los saltos de línea individuales no afectan el lenguaje wiki (si usted presione Enter una sola vez, esto no va a cambiar nada en la página). Se puede empezar una nueva línea para separar oraciones dentro de un párrafo. 
+
+&lt;p&gt;
+Si necesita empezar una nueva línea sin iniciar un nuevo párrafo, utilice la etiqueta «br».  
+&lt;/p&gt;
+
+Para empezar un nuevo párrafo, presione Enter dos veces de la misma manera que lo haría en cualquier editor de texto. 
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+Las listas con viñetas se pueden crear de manera muy fácil:
+
+&lt;nowiki&gt;
+&lt;p&gt;
+* empiece cada punto de la lista con un asterisco;&lt;br&gt;
+** cuanto más asteriscos hay;&lt;br&gt;
+** más profundo será en nivel de la lista.&lt;br&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+# Es también posible crear listas numeradas:&lt;br&gt;
+##son bien estructuradas;&lt;br&gt;
+## y fáciles de seguir.&lt;br&gt;
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+  SI se pone un espacio al principio de una línea,
+ ENTONCES la línea será formateada de la misma manera que usted la introduce; 
+ usando el mismo tipo de letra; sin empezar nuevas líneas;[[sin enlaces]].
+
+Usted puede usar espacio al principio de una línea para: 
+
+*pegar un texto ya formateado;
+*insertar un fragmento de código fuente; 
+*crear/pegar arte ascii (creación de imágenes mediante el uso de símbolos textuales).
+
+Una línea horizontal se denota por cuatro guiones: 
+&lt;nowiki&gt;
+&lt;p&gt;
+---- 
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+==Inserción de enlaces==
+
+&lt;nowiki&gt;
+&lt;p&gt;
+Para insertar un enlace a otra página wiki, introduzca el título de la página entre dobles corchetes: &lt;br&gt; [[Ayuda]]&lt;/p&gt;
+
+&lt;p&gt;
+Si el título de la página y el tútlo del enlace que quiere que aparezca en la página  no coinciden, escriba el título del enlace después del símbolo | : &lt;br&gt; [[Página de ayuda con el lenguaje wiki|Página de ayuda]] &lt;/p&gt; 
+
+&lt;p&gt;
+Enlaces externas se pueden insertar directamente en el texto, tal como se muestra a continuación: &lt;br&gt; http://TeamLab.com&lt;/p&gt; 
+
+&lt;p&gt;
+En el caso de que desee cambiar el título del enlace externo,  introdúzcalo entre los corchetes, y escriba el título deseado después del espacio: &lt;br&gt; [http://TeamLab.com TeamLab]&lt;/p&gt; 
+
+&lt;p&gt;
+Para insertar una dirección e-mail, utilice los corchetes: &lt;br&gt; [mailto:support@teamlab.com]&lt;/p&gt; 
+
+&lt;p&gt; 
+Para añadir una página a categoría, añade el enlace a la categoría deseada [[Category: Categoría deseada]] al final de la página.
+&lt;/p&gt;
+&lt;/nowiki&gt; 
+
+==Formateo de texto==
+
+Utilice las siguientes pistas para formatear su texto:
+
+''Cursiva''
+
+&lt;nowiki&gt;
+&lt;p&gt;
+''insertar texto en cursiva aquí''
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+'''Negrita''
+
+&lt;nowiki&gt;
+&lt;p&gt;
+'''insertar texto en negrita aquí'''
+ &lt;/p&gt;
+&lt;/nowiki&gt; 
+
+'''''Cursiva y negrita'''''
+&lt;nowiki&gt;
+&lt;p&gt;
+'''''insertar texto en cursiva y negrita aquí'''''
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+__Subrayado__
+
+&lt;nowiki&gt;
+&lt;p&gt;
+__insertar texto subrayado aquí__
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+--Tachado--
+
+&lt;nowiki&gt;
+
+&lt;p&gt;
+--insertar texto a tachar aquí--
+ &lt;/p&gt;
+&lt;/nowiki&gt;
+
+Índices: &lt;sup&gt;sobrescrito&lt;/sup&gt; y &lt;sub&gt;subscrito&lt;/sub&gt;
+
+&lt;nowiki&gt;
+
+&lt;p&gt;
+&amp;lt;sub&amp;gt;índice subscrito&amp;lt;/sub&amp;gt&lt;br&gt;
+&amp;lt;sup&amp;gt;índice sobrescrito&amp;lt;/sup&amp;gt
+&lt;/p&gt;
+
+
+&lt;p&gt;
+Usted también puede usar &amp;lt;small&amp;gt;texto pequeño&amp;lt;/small&amp;gt para comentarios, formateo especial para mostrar fragmentos de &amp;lt;code lang="language"&amp;gt;código fuente&amp;lt;/code&amp;gt; y fuente monoespaciada para &amp;lt;tt&amp;gt;términos técnicos&amp;lt;/tt&amp;gt;.
+&lt;/p&gt; 
+
+&lt;/nowiki&gt;
+
+==Inserción de imágenes==
+
+Para poder insertar imágenes en una página wiki, usted deberá primero cargarlas en la Wiki.  
+
+Utilice los siguientes enlaces para insertar tipos variados de imágenes:
+
+&lt;nowiki&gt;
+&lt;p&gt;
+Imagen = [[Image:Título de imagen]]&lt;/p&gt;
+&lt;p&gt;
+Imagen de anchura fija = [[Image:Título de imagen | Width_px]]&lt;/p&gt;
+&lt;p&gt;
+Imagen con descripción = [[Image:Título de imagen  | Descripción]]&lt;/p&gt;
+&lt;p&gt;
+Imagen miniatura =  [[Image:Título de imagen  | thumb]] – la imagen será comprimida y alineada a la derecha.
+&lt;/p&gt;
+&lt;/nowiki&gt;
+
+==Transferencia HTML a Wiki==
+
+Si usted tiene un texto html que desea transferir aquí, puede hacerlo de manera fácil y rápida. Pulse '''Crear uneva página''' en el panel  '''Acciones'''. Acto seguido pegue el texto en la ventana del editor y cambie al modo Wiki  pulsando el icono Wiki en el panel de formateo más arriba. Las etiquetas html serán cambiadas por los símbolos correspondientes del lenguaje wiki. Ahora verifique los resultados, corrija pequeños errores si los hubo y pulse '''Publicar'''. ¡Su página está lista!</value>
+  </data>
+  <data name="HelpPageCaption">
+    <value>Ayuda</value>
+  </data>
+  <data name="MainPage_DefaultBody">
+    <value>'''¡Bienvenido(a) a TeamLab Wiki!''' 
+
+Aquí usted puede crear páginas, enlazarlas entre sí y unirlas en categorías a través de un navegador web. Wiki es una herramienta cómoda para mantener la documentación relacionada al proyecto que se caracteriza por los siguientes rasgos:
+
+*autores múltiples. Cada miembro de '''TeamLab''' puede editar el contenido de cualquier página.
+*edición rápida. Pulse en la línea '''Editar''' disponible en cada página para empezar a editar directamente en el navegador.
+*transferencia rápida HTML a WIKI. Instrucciones [[Internal:Help#HTML to Wiki Transfer|aquí]] 
+*soporte para versión de página. Verifique qué ha sido editado por medio de revertir la página a su versión anterior.
+
+@@TOC@@
+
+==Estructura y navegación==
+
+Usted puede navegar por la wiki con ayuda del '''Panel de navegación''' disponible en todo momento mientras usted esté dentro de ella. 
+
+===Páginas===
+
+Todas las páginas wiki que usted crea están organizadas en el orden alfabético en la página [[Internal:Index|Índice]].&lt;br&gt; 
+Todas las páginas recién creadas se encuentran en la página [[Internal:NewPages|Nuevas páginas]].&lt;br&gt;
+Todas las páginas recién editadas se encuentran en la página [[Internal:Recently|Recién editadas]].
+
+===Categorías===
+
+Es posible unir varias páginas relacionadas en una categoría. Todas las categorías con sus respectivas páginas se muestran en la página [[Internal:Categories|Categorías]]. Usted puede añadir la página a una categoría existente o crear una nueva. Pulse [[Internal:Help|aquí]] para obtener más información sobre cómo asignar páginas a categoría.
+
+===Archivos===
+
+Usted puede subir archivos de cualquier tamaño y formato a la wiki, así como proporcionar enlaces a las imágenes cargadas en las páginas wiki.  Para obtener más información, pulse [[Internal:Help#Inserting Images|aquí]].
+
+===Ayuda===
+
+Es muy fácil crear páginas para la wiki. Todo lo que usted necesita es saber unas pocas reglas fáciles. Visite la página de [[Internal:Help|reglas de marcado de páginas wiki]] para leer sobre las reglas del marcado de las páginas wiki.
+
+
+==Creación de su propia wiki==
+
+Para crear su propia wiki, empiece por crear una nueva página seleccionando la opción '''Crear nueva página'''  en el panel '''Acciones'''. Acto seguido introduzca su texto en el espacio del editor de texto. Utilice las [[Internal:Help|reglas de marcado de páginas wiki]] para que el texto se coloque correctamente en la página.
+
+Tenga en cuenta que éste es su propio espacio donde usted puede organizar todo de acuerdo a sus necesidades específicas. Usted puede editar hasta el contenido de esta misma página. Por ejemplo, puede borrar lo escrito aquí y proporcionar enlaces a las páginas de inicio de sus proyectos. &lt;br&gt;¡Suerte!</value>
+  </data>
+  <data name="MainPage_EmptyPage">
+    <value>La página no existe.  Pulse {aquí} para crear y editarla.</value>
+  </data>
+  <data name="miniToolBar_Anchor">
+    <value>Ancor</value>
+  </data>
+  <data name="miniToolBar_Bold">
+    <value>Negrita</value>
+  </data>
+  <data name="miniToolBar_CodeEscaped">
+    <value>Prebloque</value>
+  </data>
+  <data name="miniToolBar_CodeInline">
+    <value>Para subrayar visualmente código  de terceros</value>
+  </data>
+  <data name="miniToolBar_Comment">
+    <value>Comentario</value>
+  </data>
+  <data name="miniToolBar_Escape">
+    <value>Ejemplo de código HTML</value>
+  </data>
+  <data name="miniToolBar_ExternalLink">
+    <value>Enlace externo</value>
+  </data>
+  <data name="miniToolBar_FileLink">
+    <value>Enlace a archivo local</value>
+  </data>
+  <data name="miniToolBar_H1">
+    <value>H1</value>
+  </data>
+  <data name="miniToolBar_H2">
+    <value>H2</value>
+  </data>
+  <data name="miniToolBar_H3">
+    <value>H3</value>
+  </data>
+  <data name="miniToolBar_H4">
+    <value>H4 (usar con moderación)</value>
+  </data>
+  <data name="miniToolBar_HR">
+    <value>Línea horizontal</value>
+  </data>
+  <data name="miniToolBar_Image">
+    <value>Imagen</value>
+  </data>
+  <data name="miniToolBar_Italic">
+    <value>Cursiva</value>
+  </data>
+  <data name="miniToolBar_LineBreak">
+    <value>Nueva línea</value>
+  </data>
+  <data name="miniToolBar_NoBr">
+    <value>Sin etiqueta BR</value>
+  </data>
+  <data name="miniToolBar_NoWiki">
+    <value>No puede ser interpretada por el lenguaje Wiki</value>
+  </data>
+  <data name="miniToolBar_PageLink">
+    <value>Enlace a página</value>
+  </data>
+  <data name="miniToolBar_SpetialTags">
+    <value>Etiquetas especiales</value>
+  </data>
+  <data name="miniToolBar_Striked">
+    <value>Tachado</value>
+  </data>
+  <data name="miniToolBar_Subscript">
+    <value>Subscrito</value>
+  </data>
+  <data name="miniToolBar_Superscript">
+    <value>Sobrescrito</value>
+  </data>
+  <data name="miniToolBar_Symbols">
+    <value>Símbolos especiales</value>
+  </data>
+  <data name="miniToolBar_Underlined">
+    <value>Subrayado</value>
+  </data>
+  <data name="miniToolBar_WrapperBox">
+    <value>Bloque</value>
+  </data>
+  <data name="wikiErrorFileSizeLimitText">
+    <value>El tamaño máximo del archivo subido es superado</value>
+  </data>
+  <data name="wikiFileDownloadCaption">
+    <value>Descargar archivo</value>
+  </data>
+  <data name="wikiInternalCategoriesKeyCaption">
+    <value>Categorías</value>
+  </data>
+  <data name="wikiMaxUploadSizeFormat">
+    <value>El tamaño máximo del archivo subido es {0}</value>
+  </data>
+  <data name="wikiPageEditSectionCaptionFormat">
+    <value>, Sección: "{0}"</value>
+  </data>
+  <data name="wikiPageMoved">
+    <value>= La página se ha movido =
+Nombre de la página cambia a [[{0}|{0}]].
+Usted puede encontrar la última versión [[{0}|aquí]]</value>
+  </data>
+  <data name="wikiTOCFakeCaption">
+    <value>Tabla de contenidos</value>
+  </data>
+</root>

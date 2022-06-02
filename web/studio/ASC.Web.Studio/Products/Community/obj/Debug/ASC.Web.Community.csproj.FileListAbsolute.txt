@@ -1,0 +1,21 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.csproj.GenerateResource.Cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\ASC.Web.Community.Resources.CommunityResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\GenerateResource.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\obj\Debug\GenerateResource.write.1.tlog

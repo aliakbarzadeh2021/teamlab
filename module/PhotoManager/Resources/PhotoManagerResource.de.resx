@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionsTitle">
+    <value>Aktionen</value>
+  </data>
+  <data name="AddAlbumLink">
+    <value>Album hinzufügen</value>
+  </data>
+  <data name="AddButton">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="AddCommentLink">
+    <value>Kommentar hinzufügen</value>
+  </data>
+  <data name="AddEventLink">
+    <value>Neues Ereignis erstellen</value>
+  </data>
+  <data name="AddMorePhotosLink">
+    <value>Weitere Fotos hinzufügen</value>
+  </data>
+  <data name="AddNewCommentLink">
+    <value>Kommentar hinzufügen</value>
+  </data>
+  <data name="AddNewPhotoLink">
+    <value>Neues hinzufügen</value>
+  </data>
+  <data name="AddonDescriptionResourceKey">
+    <value>Unternehmensinterne Fotoalben</value>
+  </data>
+  <data name="AddonName">
+    <value>Fotos</value>
+  </data>
+  <data name="AddonPath">
+    <value>~/products/community/modules/photomanager/</value>
+  </data>
+  <data name="AlbumCoverTitle">
+    <value>Album-Cover</value>
+  </data>
+  <data name="AlbumNameTitle">
+    <value>Albumtitel</value>
+  </data>
+  <data name="AlbumsCountPhoto">
+    <value>Fotos</value>
+  </data>
+  <data name="AlbumsTitle">
+    <value>Alben</value>
+  </data>
+  <data name="AlbumTitle">
+    <value>Album</value>
+  </data>
+  <data name="AlbumTitleR1">
+    <value>Alben</value>
+  </data>
+  <data name="AlbumTitleRm">
+    <value>Alben</value>
+  </data>
+  <data name="AllAuthorAlbumsTitle">
+    <value>Alle Alben dieses Benutzers anzeigen</value>
+  </data>
+  <data name="AllPhotosUploadedTitle">
+    <value>Ihre Fotos wurden erfolgreich hochgeladen</value>
+  </data>
+  <data name="AllPhotoTitle">
+    <value>Alle Fotos</value>
+  </data>
+  <data name="AuthorTitle">
+    <value>Verfasser</value>
+  </data>
+  <data name="ButtonAddFiles">
+    <value>Dateien hinzufügen</value>
+  </data>
+  <data name="ButtonSelectFiles">
+    <value>Dateien wählen</value>
+  </data>
+  <data name="CancelButton">
+    <value>Abbrechen</value>
+  </data>
+  <data name="ChooseEventTitle">
+    <value>Wählen Sie ein Ereignis</value>
+  </data>
+  <data name="ChoosePhotolink">
+    <value>Wählen Sie Fotos zum Hochladen</value>
+  </data>
+  <data name="CommentedTitle">
+    <value>Kommentiert</value>
+  </data>
+  <data name="CommentRemovedMessage">
+    <value>Der Kommentar wurde entfernt</value>
+  </data>
+  <data name="CommentsTitle">
+    <value>Kommentare</value>
+  </data>
+  <data name="CommentTitle">
+    <value>Kommentar</value>
+  </data>
+  <data name="CommentTitleR1">
+    <value>Kommentare</value>
+  </data>
+  <data name="CommentTitleRm">
+    <value>Kommentare</value>
+  </data>
+  <data name="ConfirmMoveMessage">
+    <value>Möchten Sie wirklich alle Fotos löschen?</value>
+  </data>
+  <data name="ConfirmRemoveAlbumMessage">
+    <value>Möchten Sie wirklich das Album löschen?</value>
+  </data>
+  <data name="ConfirmRemoveEventMessage">
+    <value>Möchten Sie wirklich das Ereignis löschen?</value>
+  </data>
+  <data name="ConfirmRemoveMessage">
+    <value>Möchten Sie wirklich das gewählte Foto löschen?</value>
+  </data>
+  <data name="ConfirmRemovePhotoMessage">
+    <value>Möchten Sie wirklich das Foto löschen?</value>
+  </data>
+  <data name="CreateButton">
+    <value>Erstellen</value>
+  </data>
+  <data name="CreateNewTitle">
+    <value>ein neues erstellen</value>
+  </data>
+  <data name="CreatePhotosWidgetMessage">
+    <value>Bitte laden Sie Ihre Fotos {0}hier{1} hoch.</value>
+  </data>
+  <data name="CreateSelectEventMessage">
+    <value>Bitte ein Ereignis zum Hochladen der Fotos wählen oder</value>
+  </data>
+  <data name="CtrlEnterKeysTitle">
+    <value>Strg+Eingabetaste</value>
+  </data>
+  <data name="DateTitle">
+    <value>Datum</value>
+  </data>
+  <data name="DeleteButton">
+    <value>Löschen</value>
+  </data>
+  <data name="DescriptionTitle">
+    <value>Beschreibung</value>
+  </data>
+  <data name="DownToolTip">
+    <value>Abwärts</value>
+  </data>
+  <data name="EditAlbumButton">
+    <value>Album bearbeiten</value>
+  </data>
+  <data name="EditButton">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="EditEvent">
+    <value>Ereignis bearbeiten</value>
+  </data>
+  <data name="EditPhotoNameTitle">
+    <value>Titel</value>
+  </data>
+  <data name="EditPhotoTitle">
+    <value>Fotos bearbeiten</value>
+  </data>
+  <data name="EditSmallButton">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="EmptyWidgetMessage">
+    <value>Klicken Sie hier, um {0}Fotos hochzuladen{1}</value>
+  </data>
+  <data name="ErrorFileTypeText">
+    <value>Der Dateityp wird nicht unterstützt</value>
+  </data>
+  <data name="ErrorNotCorrectMaxAlbumsSettings">
+    <value>Ungültige Anzahl der Alben</value>
+  </data>
+  <data name="ErrorSaveWidgetSettings">
+    <value>Fehler beim Speichern der Einstellungen</value>
+  </data>
+  <data name="EventCreationTitle">
+    <value>Neues Ereignis</value>
+  </data>
+  <data name="EventHaveNoAlbumsMsg">
+    <value>Es gibt keine Alben zu diesem Ereignis. Möchten Sie :UPLOAD_LINK oder :REMOVE_LINK?</value>
+  </data>
+  <data name="EventsTitle">
+    <value>Ereignisse</value>
+  </data>
+  <data name="EventTitle">
+    <value>Ereignis</value>
+  </data>
+  <data name="ExitToolTip">
+    <value>Beenden</value>
+  </data>
+  <data name="FinishUploadLink">
+    <value>Hochladeprozess beenden</value>
+  </data>
+  <data name="FullSizeTitle">
+    <value>Original</value>
+  </data>
+  <data name="GoToTitle">
+    <value>und gehen Sie </value>
+  </data>
+  <data name="HideButton">
+    <value>Schließen</value>
+  </data>
+  <data name="LastAlbumTitle">
+    <value>Letzte Alben</value>
+  </data>
+  <data name="LastCommentedTitle">
+    <value>Letzte Kommentare</value>
+  </data>
+  <data name="LastEventsTitle">
+    <value>Andere Ereignisse</value>
+  </data>
+  <data name="LastPhotoWidgetTitle">
+    <value>Letzte Alben</value>
+  </data>
+  <data name="LastUpdateTitle">
+    <value>Aktualisiert am</value>
+  </data>
+  <data name="MainPageMenuTitle">
+    <value>Hauptseite</value>
+  </data>
+  <data name="MainStatisticName">
+    <value>Fotos insgesamt</value>
+  </data>
+  <data name="MaxLastAlbumsCountSettingsTitle">
+    <value>Anzahl angezeigter Alben (von 1 bis 10)</value>
+  </data>
+  <data name="MyPhotoTitle">
+    <value>Meine Fotos</value>
+  </data>
+  <data name="NameTitle">
+    <value>Name</value>
+  </data>
+  <data name="NextPhotoButton">
+    <value>Weiter</value>
+  </data>
+  <data name="NextSlideToolTip">
+    <value>Nächstes Dia</value>
+  </data>
+  <data name="NoFoundMessage">
+    <value>Nichts wurde gefunden.</value>
+  </data>
+  <data name="NoPhotosWidgetMessage">
+    <value>Es gibt keine Fotos.</value>
+  </data>
+  <data name="NoteFileUpload">
+    <value>Die Größe des Dokuments darf {1}{0} MB{2} nicht überschreiten.</value>
+  </data>
+  <data name="NotifyOnNewEventCommentsDescription">
+    <value>Durch Anmeldung kann man neue Fotos und Kommentare zu diesem Ereignis verfolgen</value>
+  </data>
+  <data name="NotifyOnNewEventCommentsMessage">
+    <value>Für Neues im Ereignis anmelden</value>
+  </data>
+  <data name="NotifyOnNewEventCommentsTitle">
+    <value>Anmeldung für Ereignis</value>
+  </data>
+  <data name="NotifyOnUploadsDescription">
+    <value>Durch Anmeldung kann man neue Fotos verfolgen</value>
+  </data>
+  <data name="NotifyOnUploadsMessage">
+    <value>Für neue Fotos anmelden</value>
+  </data>
+  <data name="NotifyOnUploadsTitle">
+    <value>Anmeldung für neue Fotos</value>
+  </data>
+  <data name="OrDragDrop">
+    <value>oder ziehen und legen Sie diese in dem Fenster ab</value>
+  </data>
+  <data name="OtherAlbums">
+    <value>Andere Alben</value>
+  </data>
+  <data name="OtherButton">
+    <value>Sonstiges</value>
+  </data>
+  <data name="OverallProgress">
+    <value>Gesamtfortschritt</value>
+  </data>
+  <data name="PageTitleDefault">
+    <value>Alle Ereignisse</value>
+  </data>
+  <data name="PageTitleEditPhoto">
+    <value>Fotos bearbeiten</value>
+  </data>
+  <data name="PageTitleSlideShow">
+    <value>Diashow</value>
+  </data>
+  <data name="PhotoManagerPageDescription">
+    <value>Fotobearbeitung - Hauptseite</value>
+  </data>
+  <data name="PhotoManagerPageName">
+    <value>Hauptseite</value>
+  </data>
+  <data name="PhotosTitle">
+    <value>Fotos</value>
+  </data>
+  <data name="PhotoTitle">
+    <value>Fotos</value>
+  </data>
+  <data name="PhotoTitleR1">
+    <value>Fotos</value>
+  </data>
+  <data name="PhotoTitleRm">
+    <value>Fotos</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Hochladeprozess. Bitte warten...</value>
+  </data>
+  <data name="PleaseWaitShortMessage">
+    <value>Bitte warten...</value>
+  </data>
+  <data name="PostedByTitle">
+    <value>Hochgeladen von</value>
+  </data>
+  <data name="PostedToTitle">
+    <value>Hochgeladen</value>
+  </data>
+  <data name="PressTitle">
+    <value>oder drücken Sie auf</value>
+  </data>
+  <data name="PreviewButton">
+    <value>Vorschau</value>
+  </data>
+  <data name="PreviousPhotoButton">
+    <value>Zurück</value>
+  </data>
+  <data name="PrevSlideToolTip">
+    <value>Vorheriges Dia</value>
+  </data>
+  <data name="RefreshButton">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="RemoveAlbumButton">
+    <value>Album löschen</value>
+  </data>
+  <data name="RemoveAllLink">
+    <value>Alle löschen</value>
+  </data>
+  <data name="RemoveButton">
+    <value>Löschen</value>
+  </data>
+  <data name="RemoveCommentToolTipText">
+    <value>Kommentar löschen</value>
+  </data>
+  <data name="RemoveEvent">
+    <value>Ereignis löschen</value>
+  </data>
+  <data name="ReviewedTitle">
+    <value>Mal gesehen</value>
+  </data>
+  <data name="RotateLeftLink">
+    <value>um 90° nach links</value>
+  </data>
+  <data name="RotateRightLink">
+    <value>um 90° nach rechts</value>
+  </data>
+  <data name="RunPauseToolTip">
+    <value>Start/Pause</value>
+  </data>
+  <data name="SaidTitle">
+    <value>gesagt</value>
+  </data>
+  <data name="SaveButton">
+    <value>Speichern</value>
+  </data>
+  <data name="SavePhotosButton">
+    <value>Fotos speichern</value>
+  </data>
+  <data name="SeeAllAlbumsLink">
+    <value>Alle Alben</value>
+  </data>
+  <data name="SelectAuthorMessage">
+    <value>Wählen Sie einen Verfasser</value>
+  </data>
+  <data name="SelectedFiles">
+    <value>{0} Dateien gewählt</value>
+  </data>
+  <data name="SelectFilesToUpload">
+    <value>Wählen Sie Dateien zum Hochladen</value>
+  </data>
+  <data name="SelectImagesButton">
+    <value>Fotos wählen</value>
+  </data>
+  <data name="SendCommentButton">
+    <value>Kommentar senden</value>
+  </data>
+  <data name="SlidesShowTooTip">
+    <value>Diashow</value>
+  </data>
+  <data name="SubmitButton">
+    <value>Senden</value>
+  </data>
+  <data name="TempPath">
+    <value>temp/</value>
+  </data>
+  <data name="TotalAlbumsTitle">
+    <value>Alben insgesamt</value>
+  </data>
+  <data name="TotalPhotoTitle">
+    <value>Fotos insgesamt</value>
+  </data>
+  <data name="UnNotifyOnNewEventCommentsMessage">
+    <value>Vom Ereignis abmelden</value>
+  </data>
+  <data name="UnNotifyOnUploadsMessage">
+    <value>Von neuen Fotos abmelden</value>
+  </data>
+  <data name="UploadButton">
+    <value>Hochladen</value>
+  </data>
+  <data name="UploadedOf">
+    <value>{0} / {1} hochgeladene Dateien</value>
+  </data>
+  <data name="UploadPhotosLink">
+    <value>Fotos hochladen</value>
+  </data>
+  <data name="UploadPhotosLinkDescription">
+    <value>Laden Sie Ihre Fotos hoch</value>
+  </data>
+  <data name="UploadPhotoTitle">
+    <value>Fotos hochladen</value>
+  </data>
+  <data name="UploadsPhotosQuestion">
+    <value>hier</value>
+  </data>
+  <data name="UpToolTip">
+    <value>Aufwärts</value>
+  </data>
+  <data name="UserActionCommented">
+    <value>Kommentiert</value>
+  </data>
+  <data name="UserActionUploaded">
+    <value>Hochgeladen</value>
+  </data>
+  <data name="UserActivity_AddComment">
+    <value>Kommentar hinzugefügt</value>
+  </data>
+  <data name="UserActivity_AddPhoto">
+    <value>Fotos hochgeladen</value>
+  </data>
+  <data name="UserActivity_DeleteComment">
+    <value>Kommentar gelöscht</value>
+  </data>
+  <data name="UserActivity_DeletePhoto">
+    <value>Fotos gelöscht</value>
+  </data>
+  <data name="UserActivity_EditComment">
+    <value>Kommentar bearbeitet</value>
+  </data>
+  <data name="UserActivity_EditPhoto">
+    <value>Foto bearbeitet</value>
+  </data>
+  <data name="UserActivity_Evaluate">
+    <value>Foto bewertet</value>
+  </data>
+  <data name="UserHaveNoPhotosTitle">
+    <value>Der Benutzer hat keine Fotos</value>
+  </data>
+  <data name="ViewTitle">
+    <value>Anzeigen</value>
+  </data>
+  <data name="ViewTitleR1">
+    <value>Mal gesehen</value>
+  </data>
+  <data name="ViewTitleRm">
+    <value>Mal gesehen</value>
+  </data>
+  <data name="WaitMessage">
+    <value>Bitte warten...</value>
+  </data>
+  <data name="WidgetDescriptionResourceKey">
+    <value>zeigt zuletzt hochgeladene Alben an</value>
+  </data>
+  <data name="YouAlbumTitle">
+    <value>in mein Album</value>
+  </data>
+  <data name="YouHaveNoPhotosTitle">
+    <value>Sie haben keine Fotos.</value>
+  </data>
+</root>

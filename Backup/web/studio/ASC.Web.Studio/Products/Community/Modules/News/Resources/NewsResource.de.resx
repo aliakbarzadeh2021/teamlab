@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_Add_Name">
+    <value>Neuigkeiten hinzufügen</value>
+  </data>
+  <data name="Action_Comment_Name">
+    <value>Kommentar zu Neuigkeiten</value>
+  </data>
+  <data name="Action_CommentEdit_Name">
+    <value>Kommentar bearbeiten</value>
+  </data>
+  <data name="Action_Edit_Name">
+    <value>Neuigkeiten bearbeiten</value>
+  </data>
+  <data name="Action_EditCategories_Name">
+    <value>Kategorien der Neuigkeiten bearbeiten</value>
+  </data>
+  <data name="AddNewType">
+    <value>Typ hinzufügen</value>
+  </data>
+  <data name="AddonDescriptionResourceKey">
+    <value>Letzte Unternehmensneuigkeiten, Mitteilungen und Umfragen</value>
+  </data>
+  <data name="AddonName">
+    <value>Ereignisse</value>
+  </data>
+  <data name="AuthCategory_Edit_Name">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="BackLink">
+    <value>Zurück</value>
+  </data>
+  <data name="CancelButton">
+    <value>Abbrechen</value>
+  </data>
+  <data name="ConfirmRemoveMessage">
+    <value>Möchten Sie wirklich dieses Ereignis löschen?</value>
+  </data>
+  <data name="CreateEventsWidgetMessage">
+    <value>Bitte fügen Sie Ihre Ereignisse {0}hier{1} hinzu.</value>
+  </data>
+  <data name="DateColumn">
+    <value>Datum</value>
+  </data>
+  <data name="DeleteButton">
+    <value>Löschen</value>
+  </data>
+  <data name="EditButton">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="EndTime">
+    <value>Abschlusszeit</value>
+  </data>
+  <data name="ErrorAccessDenied">
+    <value>Zugriff verweigert</value>
+  </data>
+  <data name="ErrorEmptyQuestion">
+    <value>Geben Sie eine Frage zur Abstimmung ein</value>
+  </data>
+  <data name="ErrorNotCorrectMaxNewsSettings">
+    <value>Ungültiger Wert</value>
+  </data>
+  <data name="ErrorPollVariantCount">
+    <value>Geben Sie zumindest zwei Antwortoptionen ein</value>
+  </data>
+  <data name="FeedDeleted">
+    <value>Das Ereignis wurde gelöscht</value>
+  </data>
+  <data name="FeedPrevCaption">
+    <value>Vorschau</value>
+  </data>
+  <data name="FeedTypeNews">
+    <value>Neuigkeiten</value>
+  </data>
+  <data name="FeedTypePoll">
+    <value>Umfragen</value>
+  </data>
+  <data name="HideButton">
+    <value>Schließen</value>
+  </data>
+  <data name="In">
+    <value>in</value>
+  </data>
+  <data name="MaxNewsCountSettingsTitle">
+    <value>Anzahl angezeigter Ereignisse</value>
+  </data>
+  <data name="ModuleDescription">
+    <value>Corporate feeds</value>
+  </data>
+  <data name="ModuleName">
+    <value>Feeds</value>
+  </data>
+  <data name="NameColumn">
+    <value>Titel</value>
+  </data>
+  <data name="NewsAdd">
+    <value>Neues Ereignis hinzufügen</value>
+  </data>
+  <data name="NewsAddBreadCrumbsNews">
+    <value>Neues Ereignis</value>
+  </data>
+  <data name="NewsAddBreadCrumbsPoll">
+    <value>Neue Umfrage</value>
+  </data>
+  <data name="NewsAddType">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="NewsAnnouncementsTypeLogo">
+    <value>32x_orders.png</value>
+  </data>
+  <data name="NewsAnnouncementsTypeName">
+    <value>Mitteilungen</value>
+  </data>
+  <data name="NewsBody">
+    <value>Text</value>
+  </data>
+  <data name="NewsBreadCrumbs">
+    <value>Alle Ereignisse</value>
+  </data>
+  <data name="NewsCaption">
+    <value>Titel</value>
+  </data>
+  <data name="NewsDefaultTypeLogo">
+    <value>32x_orders.png</value>
+  </data>
+  <data name="NewsDefaultTypeName">
+    <value>Neuigkeiten</value>
+  </data>
+  <data name="NewsEditBreadCrumbsNews">
+    <value>Ereignis bearbeiten</value>
+  </data>
+  <data name="NewsEditBreadCrumbsPoll">
+    <value>Umfrage bearbeiten</value>
+  </data>
+  <data name="NewsOrdersTypeLogo">
+    <value>32x_orders.png</value>
+  </data>
+  <data name="NewsOrdersTypeName">
+    <value>Anordnungen</value>
+  </data>
+  <data name="NewsType">
+    <value>Typ des Ereignisses</value>
+  </data>
+  <data name="NewsWidgetDescription">
+    <value>zeigt letzte Ereignisse an</value>
+  </data>
+  <data name="NewsWidgetName">
+    <value>Ereignisse</value>
+  </data>
+  <data name="NewTypeLogo">
+    <value>Logo</value>
+  </data>
+  <data name="NewTypeName">
+    <value>Name des Typs</value>
+  </data>
+  <data name="NoEventsWidgetMessage">
+    <value>Es gibt keine Ereignisse.</value>
+  </data>
+  <data name="NoFeedWidgetMessage">
+    <value>Klicken Sie hier, um ein {0}neues Ereignis hinzuzufügen{1}</value>
+  </data>
+  <data name="NoPollWidgetMessage">
+    <value>Klicken Sie hier, um eine {0}neue Umfrage hinzuzufügen{1}</value>
+  </data>
+  <data name="NothingFound">
+    <value>Nichts wurde gefunden.</value>
+  </data>
+  <data name="NotificationOnNewComments">
+    <value>Über neue Kommentare benachrichtigen</value>
+  </data>
+  <data name="NotifyOnNewFeed">
+    <value>Anmeldung für Ereignisse</value>
+  </data>
+  <data name="NotifyOnUploadsMessage">
+    <value>Für Ereignisse anmelden</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Bitte warten...</value>
+  </data>
+  <data name="PollAdd">
+    <value>Neue Umfrage hinzufügen</value>
+  </data>
+  <data name="PollListEmpty">
+    <value>Es gibt keine aktiven Umfragen</value>
+  </data>
+  <data name="PollWidgetDescription">
+    <value>zeigt letzte Umfragen an</value>
+  </data>
+  <data name="PollWidgetName">
+    <value>Umfragen</value>
+  </data>
+  <data name="PostButton">
+    <value>Veröffentlichen</value>
+  </data>
+  <data name="PostCount">
+    <value>Ereignisse insgesamt</value>
+  </data>
+  <data name="PostedBy">
+    <value>Verfasser</value>
+  </data>
+  <data name="Preview">
+    <value>Vorschau</value>
+  </data>
+  <data name="RequaredFieldValidatorCaption">
+    <value>Das Feld "Titel" darf nicht leer sein</value>
+  </data>
+  <data name="SaveButton">
+    <value>Speichern</value>
+  </data>
+  <data name="SearchDefaultString">
+    <value>Suche in Ereignissen</value>
+  </data>
+  <data name="SeeAllNews">
+    <value>Alle Ereignisse</value>
+  </data>
+  <data name="SeeAllPolls">
+    <value>Alle Umfragen</value>
+  </data>
+  <data name="StartTime">
+    <value>Anfangszeit</value>
+  </data>
+  <data name="SubscribeOnNewComments">
+    <value>Für Kommentare anmelden</value>
+  </data>
+  <data name="TypeNameColumn">
+    <value>Name des Typs</value>
+  </data>
+  <data name="UnNotifyOnUploadsMessage">
+    <value>Von Ereignissen abmelden</value>
+  </data>
+  <data name="UnsubscribeFromNewComments">
+    <value>Von Kommentaren abmelden</value>
+  </data>
+  <data name="UserActivity_AddCommentFeed">
+    <value>Kommentar hinzugefügt</value>
+  </data>
+  <data name="UserActivity_AddCommentNews">
+    <value>Kommentar hinzugefügt</value>
+  </data>
+  <data name="UserActivity_AddNewsFeed">
+    <value>Ereignis hinzugefügt</value>
+  </data>
+  <data name="UserActivity_AddPollFeed">
+    <value>Umfrage erstellt</value>
+  </data>
+  <data name="UserActivity_DeleteCommentFeed">
+    <value>Kommentar gelöscht</value>
+  </data>
+  <data name="UserActivity_DeleteCommentNews">
+    <value>Kommentar gelöscht</value>
+  </data>
+  <data name="UserActivity_DeleteFeed">
+    <value>Ereignis gelöscht</value>
+  </data>
+  <data name="UserActivity_DeletePoll">
+    <value>Umfrage gelöscht</value>
+  </data>
+  <data name="UserActivity_EditCommentFeed">
+    <value>Kommentar bearbeitet</value>
+  </data>
+  <data name="UserActivity_EditCommentNews">
+    <value>Kommentar bearbeitet</value>
+  </data>
+  <data name="UserActivity_EditNewsFeed">
+    <value>Ereignis bearbeitet</value>
+  </data>
+  <data name="UserActivity_EditPollFeed">
+    <value>Umfrage bearbeitet</value>
+  </data>
+  <data name="UserActivity_Vote">
+    <value>Umfrage hinzugefügt</value>
+  </data>
+  <data name="Voted">
+    <value>Umfrage hinzugefügt</value>
+  </data>
+</root>

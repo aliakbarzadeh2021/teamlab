@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddonDescriptionResourceKey">
+    <value>O blog corporativo</value>
+  </data>
+  <data name="AddonName">
+    <value>Blogs</value>
+  </data>
+  <data name="AddTagMessage">
+    <value>Você só pode linkar seu próprio blog</value>
+  </data>
+  <data name="AllBlogs">
+    <value>Todos os Blogs</value>
+  </data>
+  <data name="AllBlogsMenuTitle">
+    <value>Avaliação dos Blogs</value>
+  </data>
+  <data name="BackLink">
+    <value>Voltar</value>
+  </data>
+  <data name="BlogOfTitle">
+    <value>Blog</value>
+  </data>
+  <data name="Blogs">
+    <value>Blogs</value>
+  </data>
+  <data name="BlogTitleEmptyMessage">
+    <value>O topico não pode estar vazio</value>
+  </data>
+  <data name="BlogTitleLabel">
+    <value>Titulo</value>
+  </data>
+  <data name="CancelButton">
+    <value>Cancelar</value>
+  </data>
+  <data name="CommentsTitle">
+    <value>Comentários</value>
+  </data>
+  <data name="ConfirmRemovePostMessage">
+    <value>Você tem certeza que quer deletar a postagem?</value>
+  </data>
+  <data name="ContentTitle">
+    <value>Texto</value>
+  </data>
+  <data name="CreateBlogsWidgetMessage">
+    <value>Por favor insira a primeira postagem no blog {0}aqui{1}.</value>
+  </data>
+  <data name="DeleteBlogLink">
+    <value>Deletar</value>
+  </data>
+  <data name="EditBlogLink">
+    <value>Editar</value>
+  </data>
+  <data name="EditPostTitle">
+    <value>Editar Postagem</value>
+  </data>
+  <data name="EnterTagsMessage">
+    <value>Entre com as tags separando-as por vírgula</value>
+  </data>
+  <data name="ErrorAccessDenied">
+    <value>Acesso negado</value>
+  </data>
+  <data name="ErrorNotCorrectMaxBlogsSettings">
+    <value>Numero inválido de postagens</value>
+  </data>
+  <data name="GroupTitle">
+    <value>Onde posts:</value>
+  </data>
+  <data name="HideButton">
+    <value>Fechar</value>
+  </data>
+  <data name="InGroupBlogLabel">
+    <value>blog</value>
+  </data>
+  <data name="InPersonalBlogLabel">
+    <value>blog pessoal</value>
+  </data>
+  <data name="ListBlogsPageName">
+    <value>Titulo da Página</value>
+  </data>
+  <data name="LiveBroadcastTitle">
+    <value>Atividades Recentes</value>
+  </data>
+  <data name="MainStatisticName">
+    <value>Total de postagens no blog</value>
+  </data>
+  <data name="MarksToolTipText">
+    <value>Tags</value>
+  </data>
+  <data name="MaxPostsCountSettingsTitle">
+    <value>Numero de postagens para mostrar (1 a 30)</value>
+  </data>
+  <data name="MenuItems">
+    <value>Tudo;Corporativo;Particular</value>
+  </data>
+  <data name="MenuItemsTargets">
+    <value>default.aspx;default.aspx?mode=corporativo;default.aspx?mode=particular</value>
+  </data>
+  <data name="MyBlogsProfile">
+    <value>Meu perfil nos blogsMy profile in blogs</value>
+  </data>
+  <data name="NewPoll">
+    <value>Novo Questionário</value>
+  </data>
+  <data name="NewPost">
+    <value>Nova postagem</value>
+  </data>
+  <data name="NoBlogsWidgetMessage">
+    <value>Não há postagens nos blogs</value>
+  </data>
+  <data name="NoBlogsWidgetTitle">
+    <value>Click aqui para {0}criar uma nova postagem{1}</value>
+  </data>
+  <data name="NoGroupItem">
+    <value>Blog Pessoal</value>
+  </data>
+  <data name="NotFoundMessage">
+    <value>Nada foi encontrado.Nothing has been found.</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Favor esperar...</value>
+  </data>
+  <data name="PostButton">
+    <value>Publicar</value>
+  </data>
+  <data name="PostedTitle">
+    <value>Autor</value>
+  </data>
+  <data name="PostsTitle">
+    <value>Postagens</value>
+  </data>
+  <data name="PreviewButton">
+    <value>Pré-visualizar</value>
+  </data>
+  <data name="RatingsMenuTitle">
+    <value>Avaliações</value>
+  </data>
+  <data name="ReadMoreLink">
+    <value>Leia Mais</value>
+  </data>
+  <data name="SaveButton">
+    <value>Salvar</value>
+  </data>
+  <data name="SearchDefaultString">
+    <value>Pesquisar em blogs</value>
+  </data>
+  <data name="SubmitButton">
+    <value>Enviar</value>
+  </data>
+  <data name="SubscribeOnAuthorAction">
+    <value>Subscrecer todos as postagens dos usuários</value>
+  </data>
+  <data name="SubscribeOnAuthorDescription">
+    <value>A subscrição lhe permite acompanhar postagens de novos usuários em blogs</value>
+  </data>
+  <data name="SubscribeOnAuthorTitle">
+    <value>Subscrição de postagem de usuário</value>
+  </data>
+  <data name="SubscribeOnNewCommentsAction">
+    <value>Subscrever para comentarios postados</value>
+  </data>
+  <data name="SubscribeOnNewCommentsDescription">
+    <value>A subscrição lhe permite acompanhar novas postagens</value>
+  </data>
+  <data name="SubscribeOnNewCommentsTitle">
+    <value>Subscrito na postagem comentada</value>
+  </data>
+  <data name="SubscribeOnNewPostAction">
+    <value>Subscrever todas as postagens</value>
+  </data>
+  <data name="SubscribeOnNewPostDescription">
+    <value>A subscrição lhe permite acompanhar postagens de novos usuários em blogs</value>
+  </data>
+  <data name="SubscribeOnNewPostTitle">
+    <value>Subscrição para todas as postagens</value>
+  </data>
+  <data name="TagCloudTitle">
+    <value>Tag Cloud</value>
+  </data>
+  <data name="TagsTitle">
+    <value>Tags</value>
+  </data>
+  <data name="UnSubscribeOnAuthorAction">
+    <value>Retirar das postagens dos usuários</value>
+  </data>
+  <data name="UnSubscribeOnNewCommentsAction">
+    <value>Retirar das postagens comentadas</value>
+  </data>
+  <data name="UnSubscribeOnNewPostAction">
+    <value>Retirar de todas as postagens</value>
+  </data>
+  <data name="UserActivity_AddComment">
+    <value>comentario aderido</value>
+  </data>
+  <data name="UserActivity_AddPost">
+    <value>postagem criada</value>
+  </data>
+  <data name="UserActivity_AddPullPost">
+    <value>questionário criado</value>
+  </data>
+  <data name="UserActivity_DeleteComment">
+    <value>comentario deletado</value>
+  </data>
+  <data name="UserActivity_DeletePost">
+    <value>postagem deletada</value>
+  </data>
+  <data name="UserActivity_EditComment">
+    <value>comentário editado</value>
+  </data>
+  <data name="UserActivity_EditPost">
+    <value>postagem editada</value>
+  </data>
+  <data name="UserActivity_Vote">
+    <value>voto feito</value>
+  </data>
+  <data name="ViewsTitle">
+    <value>Visualizar</value>
+  </data>
+  <data name="WidgetDescriptionResourceKey">
+    <value>mostrar as ultimas postagens nos blogs</value>
+  </data>
+</root>

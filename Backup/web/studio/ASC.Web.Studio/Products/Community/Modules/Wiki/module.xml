@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Module ID="742CF945-CBBC-4a57-82D6-1600A12CF8CA"
+  NameResourceKey="ModuleName"
+  DescriptionResourceKey="ModuleDescription"
+  GlobalHandlerFullTypeName="ASC.Web.Community.Wiki.Common.WikiGlobalHandler, ASC.Web.Community.Wiki"
+  ShortcutProviderFullTypeName="ASC.Web.Community.Wiki.Common.WikiShortcutProvider, ASC.Web.Community.Wiki"
+  SearchHandlerFullTypeName="ASC.Web.Community.Wiki.Common.WikiSearchHandler, ASC.Web.Community.Wiki"
+  SmallIconFileName="WikiLogo16.png"
+  IconFileName="WikiLogo32.png"
+  ResourceClassTypeName="ASC.Web.Community.Wiki.Resources.WikiResource, ASC.Web.Community.Wiki"
+  StatisticProviderFullTypeName="ASC.Web.Community.Wiki.Common.WikiStatisticProvider, ASC.Web.Community.Wiki"
+  ImageFolder="wikiimages"
+  SortOrder="5"
+  ThemesFolderVirtualPath="~/Products/Community/Modules/Wiki/App_Themes"
+  SubscriptionManagerFullTypeName="ASC.Web.Community.Wiki.Common.WikiSubscriptionManager, ASC.Web.Community.Wiki"
+  UserActivityPublisherFullTypeName="ASC.Web.Community.Wiki.Common.WikiActivityPublisher, ASC.Web.Community.Wiki"
+  AuthCategoriesProviderFullTypeName ="ASC.Web.Community.Wiki.Common.WikiAuthCategoriesProvider, ASC.Web.Community.Wiki"
+>
+
+  <GetCreateContentPageAbsoluteUrlMethod MethodName="GetCreateContentPageUrl" ClassType="ASC.Web.Community.Wiki.Common.WikiShortcutProvider, ASC.Web.Community.Wiki"/>
+
+
+  <MainWidget ID="A9B76803-48C1-4526-8C47-6EA602CDB784"
+               NameResourceKey="WikiWidgetTitle"
+               DescriptionResourceKey="WikiWidgetDescription"
+               ImageFileName="WikiLogo32.png"
+               WidgetVirtualURL="~/products/community/modules/wiki/"
+               SettingsProviderFullTypeName="ASC.Web.Community.Wiki.Common.WikiWidgetSettingsProvider, ASC.Web.Community.Wiki"
+               FullTypeName ="ASC.Web.Community.Wiki.Common.WikiWidget, ASC.Web.Community.Wiki"/>
+
+  <MainShortcutCategory ID="F14010AC-4029-4aa7-850F-DE2A21AE6715"
+                        StartURL="~/products/community/modules/wiki/"
+                        NameResourceKey="InfoPageName">
+  </MainShortcutCategory>
+
+
+</Module>
+

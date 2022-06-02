@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AceStatusEnum_DiffRoles">
+    <value>Различные права</value>
+  </data>
+  <data name="AceStatusEnum_Owner">
+    <value>Владелец</value>
+  </data>
+  <data name="AceStatusEnum_Read">
+    <value>Только чтение</value>
+  </data>
+  <data name="AceStatusEnum_ReadWrite">
+    <value>Полный доступ</value>
+  </data>
+  <data name="AceStatusEnum_Restrict">
+    <value>Запретить доступ</value>
+  </data>
+  <data name="AddToFavorites">
+    <value>Добавить в избранное</value>
+  </data>
+  <data name="BreadCrumbsSeparator">
+    <value>&gt;</value>
+  </data>
+  <data name="ButtonAddFiles">
+    <value>Добавить файлы</value>
+  </data>
+  <data name="ButtonSelectFiles">
+    <value>Выбрать файлы</value>
+  </data>
+  <data name="ButtonShowMore">
+    <value>Показать ещё {0}</value>
+  </data>
+  <data name="ButtonShowMoreLoad">
+    <value>Загрузка...</value>
+  </data>
+  <data name="ButtonShowMoreOf">
+    <value>Показать ещё {0} из {1}</value>
+  </data>
+  <data name="ChangedItemHeader">
+    <value>{0} изменений в {1}</value>
+  </data>
+  <data name="ConfirmEmptyTrash">
+    <value>Вы уверены, что хотите очистить корзину?</value>
+  </data>
+  <data name="ConfirmRemoveFile">
+    <value>Вы уверены, что хотите удалить документ?</value>
+  </data>
+  <data name="ConfirmRemoveFolder">
+    <value>Вы уверены, что хотите удалить папку?</value>
+  </data>
+  <data name="ConfirmRemoveList">
+    <value>Вы уверены, что хотите удалить эти элементы?</value>
+  </data>
+  <data name="CorporateFiles">
+    <value>Общие документы</value>
+  </data>
+  <data name="CreateGroup">
+    <value>Создать группу</value>
+  </data>
+  <data name="DescriptBulkdownload">
+    <value>Архивация данных</value>
+  </data>
+  <data name="DescriptCopy">
+    <value>Копирование</value>
+  </data>
+  <data name="DescriptCreate">
+    <value>Создание</value>
+  </data>
+  <data name="DescriptLoadVersion">
+    <value>Загрузка версий...</value>
+  </data>
+  <data name="DescriptMove">
+    <value>Перемещение</value>
+  </data>
+  <data name="DescriptRemove">
+    <value>Удаление...</value>
+  </data>
+  <data name="DescriptRename">
+    <value>Переименование</value>
+  </data>
+  <data name="DescriptSetVersion">
+    <value>Обновление версии</value>
+  </data>
+  <data name="EditGroup">
+    <value>Редактирование группы</value>
+  </data>
+  <data name="EmptyDataToImport">
+    <value>Нет данных для импорта</value>
+  </data>
+  <data name="EmptyListSelectedForDownload">
+    <value>Выделите хотя бы одну папку/документ для скачивания</value>
+  </data>
+  <data name="EmptyListSelectedForImport">
+    <value>Выделите хотя бы один документ для импорта</value>
+  </data>
+  <data name="EmptyListUpload">
+    <value>Нажмите кнопку 'Выбрать документ' и укажите файлы для загрузки</value>
+  </data>
+  <data name="ErrorMassage_AuthentificatedFalse">
+    <value>Неверный логин или пароль</value>
+  </data>
+  <data name="ErrorMassage_DnDError">
+    <value>Не удалось загрузить файл</value>
+  </data>
+  <data name="ErrorMassage_EmptyFile">
+    <value>Пустой документ</value>
+  </data>
+  <data name="ErrorMassage_FiledsIsEmpty">
+    <value>Все поля обязательны к заполнению</value>
+  </data>
+  <data name="ErrorMassage_FileTypeText">
+    <value>Тип файла не поддерживается</value>
+  </data>
+  <data name="ErrorMassage_LimitFileSize">
+    <value>Превышен максимальный размер файла {0} MB</value>
+  </data>
+  <data name="ErrorMassage_SecondDownload">
+    <value>Дождитесь завершения предыдущего скачивания или отмените его</value>
+  </data>
+  <data name="ErrorMassage_SecurityException">
+    <value>Недостаточно прав для совершения операции</value>
+  </data>
+  <data name="FavoritesRemove">
+    <value>Вы точно хотите удалить {0} из избранного?</value>
+  </data>
+  <data name="FileAlreadyEdit">
+    <value>Файл уже редактируется</value>
+  </data>
+  <data name="FileAlreadyExist">
+    <value>Файл с именем {0} уже существует в папке {1}.</value>
+  </data>
+  <data name="FileNameIsNotEqual">
+    <value>Имя выбранного файла не совпадает с именем предыдущей версии файла!</value>
+  </data>
+  <data name="FilesAlreadyExist">
+    <value>{0} документов с одинаковыми именами уже существуют в папке '{1}'. Переписать файлы?</value>
+  </data>
+  <data name="FileUploading">
+    <value>Загрузка файла</value>
+  </data>
+  <data name="FileVersionRecovery">
+    <value>Версия файла {0} была успешно восстановлена</value>
+  </data>
+  <data name="Folders">
+    <value>Папок</value>
+  </data>
+  <data name="ImportFromBoxNet">
+    <value>Импорт из Box.Net</value>
+  </data>
+  <data name="ImportFromGoogle">
+    <value>Импорт из Google Docs</value>
+  </data>
+  <data name="ImportFromZoho">
+    <value>Импорт из Zoho</value>
+  </data>
+  <data name="InfoActionInTrash">
+    <value>Для выполнения этого действия восстановите из корзины</value>
+  </data>
+  <data name="InfoAddFavorite">
+    <value>Добавлено в избранное '{0}'</value>
+  </data>
+  <data name="InfoCommingSoon">
+    <value>Находится в разработке</value>
+  </data>
+  <data name="InfoCopyGroup">
+    <value>{0} элементов скопировано</value>
+  </data>
+  <data name="InfoCopyItem">
+    <value>'{0}' скопировано</value>
+  </data>
+  <data name="InfoCrateFile">
+    <value>Создан новый файл '{0}'</value>
+  </data>
+  <data name="InfoCrateFolder">
+    <value>Создана новая папка '{0}'</value>
+  </data>
+  <data name="InfoEmptyForShare">
+    <value>Выделите хотя бы одну папку/документ для предоставления доступа</value>
+  </data>
+  <data name="InfoFinishImprot">
+    <value>Импорт завершен</value>
+  </data>
+  <data name="InfoFolderCopyError">
+    <value>Нельзя скопировать папку в свою дочернюю папку</value>
+  </data>
+  <data name="InfoFolderMoveError">
+    <value>Нельзя перенести папку в свою дочернюю папку</value>
+  </data>
+  <data name="InfoImprotNotFinish">
+    <value>Дождитесь завершения предыдущего импорта</value>
+  </data>
+  <data name="InfoMoveGroup">
+    <value>{0} элементов перемещено</value>
+  </data>
+  <data name="InfoMoveItem">
+    <value>'{0}' перемещено</value>
+  </data>
+  <data name="InfoOrderByAuthor">
+    <value>Отсортировано по автору</value>
+  </data>
+  <data name="InfoOrderByModified">
+    <value>Отсортировано по дате</value>
+  </data>
+  <data name="InfoOrderBySize">
+    <value>Отсортировано по размеру</value>
+  </data>
+  <data name="InfoOrderByTitle">
+    <value>Отсортировано по имени</value>
+  </data>
+  <data name="InfoRemoveFavorites">
+    <value>Удалено из избранного '{0}'</value>
+  </data>
+  <data name="InfoRemoveFile">
+    <value>Документ '{0}' удалён</value>
+  </data>
+  <data name="InfoRemoveFolder">
+    <value>Папка '{0}' удалена</value>
+  </data>
+  <data name="InfoRemoveGroup">
+    <value>Было успешно удалено {0} из {1}</value>
+  </data>
+  <data name="InfoRenameFile">
+    <value>Документ '{0}' переименован в '{1}'</value>
+  </data>
+  <data name="InfoRenameFolder">
+    <value>Папка '{0}' переименована в '{1}'</value>
+  </data>
+  <data name="InfoSelectCount">
+    <value>Элементов: {0}</value>
+  </data>
+  <data name="InfoSelectForShare">
+    <value>Выделите 1 элемент для настройки доступа</value>
+  </data>
+  <data name="InfoSelectingDescribe">
+    <value>{0}Перетащите элемент(ы) мышью, чтобы добавить в папку</value>
+  </data>
+  <data name="InfoUploadedSuccess">
+    <value>Успешно загружено {0} документов</value>
+  </data>
+  <data name="InfoViewFolderGallery">
+    <value>Отображение галереей</value>
+  </data>
+  <data name="InfoViewFolderList">
+    <value>Отображение списком</value>
+  </data>
+  <data name="InstallOpenOfficeButton">
+    <value>Загрузить</value>
+  </data>
+  <data name="InstallOpenOfficeCongratulation">
+    <value>Буферизация завершена. Приложение Open Office готово к запуску.</value>
+  </data>
+  <data name="InstallOpenOfficeDescription">
+    <value>Узнайте, как это работает?</value>
+  </data>
+  <data name="InstallOpenOfficeHeader">
+    <value>Чтобы создавать и редактировать документы на своем портале, загрузите виртуализированное приложение Open Office.</value>
+  </data>
+  <data name="InstallPluginButton">
+    <value>Установить</value>
+  </data>
+  <data name="InstallPluginDescription">
+    <value>ASC Plug-in позволяет Вам запускать Open Office на портале. {0}Узнайте, как это работает.{1}</value>
+  </data>
+  <data name="InstallPluginHeader">
+    <value>Чтобы создавать и редактировать документы на портале, установите, пожалуйста, Ascensio System Plug-in.</value>
+  </data>
+  <data name="LoadingProcessing">
+    <value>Загрузка...</value>
+  </data>
+  <data name="LoadingWait">
+    <value>Пожалуйста, подождите!</value>
+  </data>
+  <data name="MyFiles">
+    <value>Мои документы</value>
+  </data>
+  <data name="NewInShare">
+    <value>(новых {0})</value>
+  </data>
+  <data name="OpenOfficeDownloading">
+    <value>Выполняется загрузка Open Office. Пожалуйста, подождите...</value>
+  </data>
+  <data name="OpenOfficeDownloadingInfo">
+    <value>{0} Мбайт из {1} Мбайт скачано</value>
+  </data>
+  <data name="OpenOfficeUnpacking">
+    <value>Выполняется распаковка Open Office. Пожалуйста, подождите...</value>
+  </data>
+  <data name="OrDragDrop">
+    <value>или перетащите их в это окно</value>
+  </data>
+  <data name="OverallProgress">
+    <value>Общий прогресс</value>
+  </data>
+  <data name="ProcessUploadCountFiles">
+    <value>загружено {0} из {1}</value>
+  </data>
+  <data name="ProjectFiles">
+    <value>Документы проекта</value>
+  </data>
+  <data name="RemoveFavorites">
+    <value>Удалить из избранного</value>
+  </data>
+  <data name="SelectedFiles">
+    <value>Выбрано {0} файлов</value>
+  </data>
+  <data name="SelectFilesToUpload">
+    <value>Выберите файлы для загрузки</value>
+  </data>
+  <data name="SelectFilterValue">
+    <value>Выбрать</value>
+  </data>
+  <data name="SelectRight">
+    <value>выберите</value>
+  </data>
+  <data name="TasksOperationBulkdownload">
+    <value>Архивация данных</value>
+  </data>
+  <data name="TasksOperationCopy">
+    <value>Копирование</value>
+  </data>
+  <data name="TasksOperationDelete">
+    <value>Удаление</value>
+  </data>
+  <data name="TasksOperationMixed">
+    <value>{0} операции</value>
+  </data>
+  <data name="TasksOperationMove">
+    <value>Перемещение</value>
+  </data>
+  <data name="TitleCancel">
+    <value>Отмена</value>
+  </data>
+  <data name="TitleCreate">
+    <value>Создать</value>
+  </data>
+  <data name="TitleNewFilePresentation">
+    <value>Новая презентация</value>
+  </data>
+  <data name="TitleNewFileSpreadsheet">
+    <value>Новая таблица</value>
+  </data>
+  <data name="TitleNewFileText">
+    <value>Новый документ</value>
+  </data>
+  <data name="TitleNewFolder">
+    <value>Новая папка</value>
+  </data>
+  <data name="TitleRename">
+    <value>Переименовать</value>
+  </data>
+  <data name="UpdateFileVersionFor">
+    <value>Обновить версию документа</value>
+  </data>
+  <data name="UpdateOpenOfficeHeader">
+    <value>Доступны обновления Open Office. Загрузить сейчас.</value>
+  </data>
+  <data name="UploadedOf">
+    <value>{0} / {1} загружено файлов</value>
+  </data>
+  <data name="UploadFileTo">
+    <value>Загрузить документ в</value>
+  </data>
+  <data name="Uploading">
+    <value>загрузка</value>
+  </data>
+  <data name="UploadProcess">
+    <value>Идет загрузка файлов...</value>
+  </data>
+</root>

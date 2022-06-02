@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AceStatusEnum_Read" xml:space="preserve">
+    <value>Read Only</value>
+  </data>
+  <data name="AceStatusEnum_ReadWrite" xml:space="preserve">
+    <value>Full Access</value>
+  </data>
+  <data name="AceStatusEnum_Restrict" xml:space="preserve">
+    <value>Deny Access</value>
+  </data>
+  <data name="Administrators" xml:space="preserve">
+    <value>Administrators</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="ButtonAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="ButtonAddGroup" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="ButtonAddUser" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ButtonClearFilter" xml:space="preserve">
+    <value>Clear Filter</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ButtonCopyTo" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="ButtonCreateFolder" xml:space="preserve">
+    <value>Create Folder</value>
+  </data>
+  <data name="ButtonCreateGroup" xml:space="preserve">
+    <value>Create Group</value>
+  </data>
+  <data name="ButtonCreatePresentation" xml:space="preserve">
+    <value>Create Presentation</value>
+  </data>
+  <data name="ButtonCreateSpreadsheet" xml:space="preserve">
+    <value>Create Spreadsheet</value>
+  </data>
+  <data name="ButtonCreateText" xml:space="preserve">
+    <value>Create Document</value>
+  </data>
+  <data name="ButtonDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ButtonDownload" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="ButtonEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ButtonEditOO" xml:space="preserve">
+    <value>Edit in OpenOffice</value>
+  </data>
+  <data name="ButtonEmailLink" xml:space="preserve">
+    <value>Send by Email</value>
+  </data>
+  <data name="ButtonEmptyGroup" xml:space="preserve">
+    <value>Add group</value>
+  </data>
+  <data name="ButtonEmptyTrash" xml:space="preserve">
+    <value>Empty Trash</value>
+  </data>
+  <data name="ButtonFavoritesAdd" xml:space="preserve">
+    <value>Add Current Folder</value>
+  </data>
+  <data name="ButtonFilterDocument" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="ButtonFilterFile" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="ButtonFilterFolder" xml:space="preserve">
+    <value>Folders</value>
+  </data>
+  <data name="ButtonFilterPicture" xml:space="preserve">
+    <value>Photos</value>
+  </data>
+  <data name="ButtonFilterPresentation" xml:space="preserve">
+    <value>Presentations</value>
+  </data>
+  <data name="ButtonFilterSpreadsheet" xml:space="preserve">
+    <value>Spreadsheets</value>
+  </data>
+  <data name="ButtonFullScale" xml:space="preserve">
+    <value>Full Size</value>
+  </data>
+  <data name="ButtonGallery" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="ButtonGetLink" xml:space="preserve">
+    <value>Get link</value>
+  </data>
+  <data name="ButtonImport" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ButtonList" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="ButtonMinimize" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="ButtonMoveTo" xml:space="preserve">
+    <value>Move to</value>
+  </data>
+  <data name="ButtonNextImg" xml:space="preserve">
+    <value>Next Image</value>
+  </data>
+  <data name="ButtonOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ButtonOtherAction" xml:space="preserve">
+    <value>More Actions</value>
+  </data>
+  <data name="ButtonPrevImg" xml:space="preserve">
+    <value>Previous Image</value>
+  </data>
+  <data name="ButtonRename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="ButtonRestore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="ButtonRewrite" xml:space="preserve">
+    <value>Overwrite</value>
+  </data>
+  <data name="ButtonRotateLeft" xml:space="preserve">
+    <value>Rotate Counterclockwise</value>
+  </data>
+  <data name="ButtonRotateRight" xml:space="preserve">
+    <value>Rotate Clockwise</value>
+  </data>
+  <data name="ButtonSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ButtonSelectFiles" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="ButtonSelectGroup" xml:space="preserve">
+    <value>Select group</value>
+  </data>
+  <data name="ButtonShare" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="ButtonShareAccess" xml:space="preserve">
+    <value>Permission Settings</value>
+  </data>
+  <data name="ButtonShowVersions" xml:space="preserve">
+    <value>Show Versions</value>
+  </data>
+  <data name="ButtonSkip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="ButtonSlideshow" xml:space="preserve">
+    <value>Play Slideshow</value>
+  </data>
+  <data name="ButtonSortAuthor" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="ButtonSortModified" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ButtonSortName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ButtonSortSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="ButtonUpload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="ButtonUploadNewVersions" xml:space="preserve">
+    <value>Update document</value>
+  </data>
+  <data name="ButtonYesRemove" xml:space="preserve">
+    <value>Yes, delete</value>
+  </data>
+  <data name="ButtonZoomIn" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="ButtonZoomOut" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="ConfirmOverwrite" xml:space="preserve">
+    <value>Overwrite confirmation</value>
+  </data>
+  <data name="ConfirmRemove" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="ConfirmRemoveDescription" xml:space="preserve">
+    <value>Note: This action can not be undone. </value>
+  </data>
+  <data name="CopyToClipboard" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="CorporateFiles" xml:space="preserve">
+    <value>Shared Documents</value>
+  </data>
+  <data name="CreatingDate" xml:space="preserve">
+    <value>Creation date</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="DocumentName" xml:space="preserve">
+    <value>Document Name</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="DoNotLeavePageLabel" xml:space="preserve">
+    <value>Please do not leave the page while the process is in progress.</value>
+  </data>
+  <data name="DownloadAndInstall" xml:space="preserve">
+    <value>Download &amp; Install</value>
+  </data>
+  <data name="DownloadFile" xml:space="preserve">
+    <value>Download document</value>
+  </data>
+  <data name="DownloadFolder" xml:space="preserve">
+    <value>Download folder</value>
+  </data>
+  <data name="DownloadLink" xml:space="preserve">
+    <value>Download document</value>
+  </data>
+  <data name="DoYouKnow" xml:space="preserve">
+    <value>Do You Know?</value>
+  </data>
+  <data name="EditingFeatureDescription" xml:space="preserve">
+    <value>Edit documents directly on your TeamLab portal. Use virtualized Open Office with no software installation needed.</value>
+  </data>
+  <data name="EditingFeatureHeader" xml:space="preserve">
+    <value>Editing</value>
+  </data>
+  <data name="EmptyContainer" xml:space="preserve">
+    <value>This section doesn't contain files to preview</value>
+  </data>
+  <data name="EmptyFolderDescribe" xml:space="preserve">
+    <value>text files,  spreadsheets, images</value>
+  </data>
+  <data name="ErrorEmptyUploadFileSelected" xml:space="preserve">
+    <value>The uploaded file was not found</value>
+  </data>
+  <data name="Everyone" xml:space="preserve">
+    <value>All Users</value>
+  </data>
+  <data name="FavoritesCaption" xml:space="preserve">
+    <value>Add to Favorites</value>
+  </data>
+  <data name="FavoritesCaptionRemove" xml:space="preserve">
+    <value>Remove from Favorites</value>
+  </data>
+  <data name="FavoritesDescribe" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="FavoritesEmpty" xml:space="preserve">
+    <value>When you add documents to Favorites you will always have a quick access to your frequently used files and folders stored in your personal or corporate sections.</value>
+  </data>
+  <data name="FilterAllButton" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="FlashUploader" xml:space="preserve">
+    <value>Upload with Flash</value>
+  </data>
+  <data name="FlashUploaderDescription" xml:space="preserve">
+    <value>Flash uploader version...</value>
+  </data>
+  <data name="Folders" xml:space="preserve">
+    <value>Folders</value>
+  </data>
+  <data name="GetLinkDescribe" xml:space="preserve">
+    <value>Link to file</value>
+  </data>
+  <data name="GetLinkDialog" xml:space="preserve">
+    <value>Get link to file</value>
+  </data>
+  <data name="GetShortLink" xml:space="preserve">
+    <value>Short Link</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="GroupConfirmRemove" xml:space="preserve">
+    <value>Are you sure you want to remove the group?</value>
+  </data>
+  <data name="GroupRemoveHeader" xml:space="preserve">
+    <value>Deleting</value>
+  </data>
+  <data name="GroupsTabName" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="GroupTitle" xml:space="preserve">
+    <value>Group Title</value>
+  </data>
+  <data name="HowItWorksDescription" xml:space="preserve">
+    <value>Ability to create and edit documents on portal became possible with a specially
+                developed virtualization technology. On the user's side the technology is activated
+                in 3 steps:</value>
+  </data>
+  <data name="HowItWorksHeader" xml:space="preserve">
+    <value>How it works?</value>
+  </data>
+  <data name="HowItWorksOpportunitiesAvailable" xml:space="preserve">
+    <value>Now you can launch Open Office right on your portal!</value>
+  </data>
+  <data name="HowItWorksStepOneDescription" xml:space="preserve">
+    <value>It is required for correct download, performance and update of virtualized Open
+                        Office. One time installed, {0}ASC Plug-in{1}  will be updated automatically.</value>
+  </data>
+  <data name="HowItWorksStepOneHeader" xml:space="preserve">
+    <value>Ascensio System Plug-in installation.</value>
+  </data>
+  <data name="HowItWorksStepThreeDescription" xml:space="preserve">
+    <value>The application archive is unpacked.</value>
+  </data>
+  <data name="HowItWorksStepThreeHeader" xml:space="preserve">
+    <value>Open Office unpacking.</value>
+  </data>
+  <data name="HowItWorksStepTwoDescription" xml:space="preserve">
+    <value>Open Office is packed in the archive with all system components necessary for application
+                        functioning in browser. For this reason the download may take some considerable
+                        time depending on Internet connection speed.</value>
+  </data>
+  <data name="HowItWorksStepTwoHeader" xml:space="preserve">
+    <value>Open Office download.</value>
+  </data>
+  <data name="HowItWorksWatchVideo" xml:space="preserve">
+    <value>Watch video to see how it works.</value>
+  </data>
+  <data name="HtmlUploader" xml:space="preserve">
+    <value>Upload with Html</value>
+  </data>
+  <data name="IfFileNameConflict" xml:space="preserve">
+    <value>In case of file conflict </value>
+  </data>
+  <data name="Ignore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="ImportFeatureDescription" xml:space="preserve">
+    <value>Import your current documents base from Google Docs, Zoho, Box.net to TeamLab Docs
+                        in a few steps.</value>
+  </data>
+  <data name="ImportFeatureHeader" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ImportFromBoxNet" xml:space="preserve">
+    <value>Import from Box.Net</value>
+  </data>
+  <data name="ImportFromGoogle" xml:space="preserve">
+    <value>Import from Google Docs</value>
+  </data>
+  <data name="ImportFromZoho" xml:space="preserve">
+    <value>Import from Zoho</value>
+  </data>
+  <data name="ImportProgress" xml:space="preserve">
+    <value>Import in progress</value>
+  </data>
+  <data name="ImportToFolder" xml:space="preserve">
+    <value>Import to the folder</value>
+  </data>
+  <data name="InstallPluginHeader" xml:space="preserve">
+    <value>Starting</value>
+  </data>
+  <data name="IntegrationFeatureDescription" xml:space="preserve">
+    <value>Integrate documents into the Projects Management module. Use a special tab in each project section to access necessary docs.</value>
+  </data>
+  <data name="IntegrationFeatureHeader" xml:space="preserve">
+    <value>Integration</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="MainHeaderActionsOpen" xml:space="preserve">
+    <value>Show group operations</value>
+  </data>
+  <data name="MainHeaderFilter" xml:space="preserve">
+    <value>Show:</value>
+  </data>
+  <data name="MainHeaderFilterOpen" xml:space="preserve">
+    <value>Select a filter value</value>
+  </data>
+  <data name="MainHeaderSelectAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="MainHeaderSort" xml:space="preserve">
+    <value>Sort by:</value>
+  </data>
+  <data name="MainHeaderSortOpen" xml:space="preserve">
+    <value>Select a field to sort by</value>
+  </data>
+  <data name="ManagementFeatureDescription" xml:space="preserve">
+    <value>Organize your private files storage. Share documents with your colleagues. Publish
+                        corporate data for all team members.</value>
+  </data>
+  <data name="ManagementFeatureHeader" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="ManagmentGroup" xml:space="preserve">
+    <value>Group management</value>
+  </data>
+  <data name="MoveFromDesktop" xml:space="preserve">
+    <value>or {0}drag'n'drop{1} them from your desktop</value>
+  </data>
+  <data name="MyFiles" xml:space="preserve">
+    <value>My Documents</value>
+  </data>
+  <data name="NewFile" xml:space="preserve">
+    <value>New File</value>
+  </data>
+  <data name="NoteFileUpload" xml:space="preserve">
+    <value>The file size cannot exceed {1}{0} Mb{2}.</value>
+  </data>
+  <data name="NotificationFeatureDescription" xml:space="preserve">
+    <value>Get messages notifying about documents changes. Be informed when a file was updated or deleted.</value>
+  </data>
+  <data name="NotificationFeatureHeader" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="OpenFile" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="OpenFileBlank" xml:space="preserve">
+    <value>Preview in new window</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Open Folder</value>
+  </data>
+  <data name="OpenTree" xml:space="preserve">
+    <value>Open Tree</value>
+  </data>
+  <data name="Overwrite" xml:space="preserve">
+    <value>Overwrite</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PreviewError" xml:space="preserve">
+    <value>Warning! Possibly this file is a renamed executable file and it cannot be previewed.</value>
+  </data>
+  <data name="PreviewErrorDownload" xml:space="preserve">
+    <value>If you trust this file distributor, download and execute it locally.</value>
+  </data>
+  <data name="PreviewHeader" xml:space="preserve">
+    <value>Preview documents</value>
+  </data>
+  <data name="PreviewWait" xml:space="preserve">
+    <value>File conversion in process. This may take some time. Please wait...</value>
+  </data>
+  <data name="ProcessAuthentificate" xml:space="preserve">
+    <value>Authentication process...</value>
+  </data>
+  <data name="ProductDescription" xml:space="preserve">
+    <value>This is a web application for internal use designed to store and share files and work on them in team.</value>
+  </data>
+  <data name="ProjectFiles" xml:space="preserve">
+    <value>Project documents</value>
+  </data>
+  <data name="QuotaUsage" xml:space="preserve">
+    <value>Quota usage</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SelectFolder" xml:space="preserve">
+    <value>Select folder</value>
+  </data>
+  <data name="ShareAccessHeader" xml:space="preserve">
+    <value>Permission Settings</value>
+  </data>
+  <data name="SharedForMe" xml:space="preserve">
+    <value>Shared with Me</value>
+  </data>
+  <data name="SortingFeatureDescription" xml:space="preserve">
+    <value>Filter documents according to their type, users, author's departments or sort them by name, date, author and size.</value>
+  </data>
+  <data name="SortingFeatureHeader" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="TotalFound" xml:space="preserve">
+    <value>Total found</value>
+  </data>
+  <data name="Trash" xml:space="preserve">
+    <value>Trash</value>
+  </data>
+  <data name="Types" xml:space="preserve">
+    <value>Types</value>
+  </data>
+  <data name="Unsubscribe" xml:space="preserve">
+    <value>Unfollow</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="UsersInGroup" xml:space="preserve">
+    <value>Employees in Group</value>
+  </data>
+  <data name="UsersTabName" xml:space="preserve">
+    <value>Users</value>
+  </data>
+</root>

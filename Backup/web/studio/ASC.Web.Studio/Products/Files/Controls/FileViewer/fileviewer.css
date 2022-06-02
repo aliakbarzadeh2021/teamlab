@@ -1,0 +1,250 @@
+/*******************************************************************************
+    Document Viewer
+*******************************************************************************/
+
+#documentViewerToolbox
+{
+    background-color: #f2f2f2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e3e3e3));
+    background: -moz-linear-gradient(top, #f2f2f2, #e3e3e3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2f2f2, endColorstr=#e3e3e3) progid:DXImageTransform.Microsoft.Shadow(color='#C9CBCC', Direction=135, Strength=2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2f2f2, endColorstr=#e3e3e3)";
+    -moz-box-shadow: 0 1px 0 #C9CBCC;
+    -webkit-box-shadow: 0 1px 0 #C9CBCC;
+    box-shadow: 0 1px 0 #C9CBCC;
+    border: 1px solid #C9CBCC;
+    height: 40px;
+    line-height: 40px;
+}
+#documentViewerToolbox ul
+{
+    margin: 0px;
+    padding: 0px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#documentViewerToolbox ul li
+{
+    float: left;
+    list-style: none;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#documentViewerToolbox ul li.splitter
+{
+    margin: 0 32px;
+    cursor: pointer;
+}
+#documentViewerToolbox ul li img
+{
+    vertical-align: middle;
+    border: none;
+}
+#documentBrowser
+{
+    background-color: #7b7f84;
+    height: 150px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#documentBrowser div.sliderBox
+{
+    height: 100px;
+    padding-top: 20px;
+}
+
+#documentBrowser div.sliderBox div.signature
+{
+    text-align: center;
+}
+
+#documentViewerScroll
+{
+    width: 1000px;
+    background: url("images/dv_document_scroll.png") no-repeat scroll center center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#documentViewerScroll div
+{
+    height: 30px;
+    background-color: #b6b6b6;
+    -moz-opacity: 0.2;
+    filter: alpha(opacity=20);
+    opacity: 0.2;
+}
+
+/*******************************************************************************
+    Image Viewer
+*******************************************************************************/
+
+#imageViewer
+{
+    cursor: move;
+}
+#imageViewerToolbox
+{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+#imageViewerToolbox div.imageInfo
+{
+    border-bottom: 1px solid #1A1A1A;
+    color: #D7D8D8;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top:10px;
+}
+#imageViewerToolbox div.toolboxWrapper ul
+{
+    padding: 0px;
+    width: 410px;
+    margin: 0px auto;
+    display: block;
+}
+#imageViewerToolbox div.toolboxWrapper ul li
+{
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+#imageViewerToolbox div.toolboxWrapper
+{
+    background-color: #303030;
+    height: 50px;
+    border-top: 1px solid #4C4C4C;
+}
+
+#imageViewerInfo
+{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #303030;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    padding: 4px 10px;
+}
+#imageViewerContainer
+{
+    position: absolute;
+    cursor: move !important;
+}
+
+#imageViewerClose
+{
+    position: absolute;
+    top: 0;
+}
+
+div.loading_container.loading_container_wrapper
+{
+    background-color: #4C4C4C;
+    opacity: 1;
+}
+
+#imageViewerClose, #imageViewerInfo, .loading_container_wrapper
+{
+    z-index: 2011 !important;
+    cursor: pointer;
+}
+
+#imageViewerToolbox
+{
+    z-index: 2001;
+}
+
+#imageViewerContainer
+{
+    z-index: 2000;
+}
+
+.scroll_fix
+{
+    overflow: hidden !important;
+}
+
+
+#other_actions
+{
+    position: absolute;
+    z-index: 2002;
+    border: 1px solid #4C4C4C;
+}
+
+#other_actions, #other_actions ul
+{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+#other_actions ul
+{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #1A1A1A;
+    background-color: #303030;
+}
+#other_actions ul li
+{
+    list-style: none;
+}
+#other_actions ul span
+{
+    color: #dfdfdf;
+    cursor: pointer;
+}
+#other_actions ul li a
+{
+    background-attachment: scroll;
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #DFDFDF;
+    display: block;
+    line-height: 24px;
+    margin: 10px;
+    padding: 0 15px 0 30px;
+    text-decoration: none;
+}
+
+#other_actions ul li a:hover
+{
+    background-color: #424343;
+}
+
+#other_actions ul li a.action_download
+{
+    background-image: url("images/iv_download.png");
+}
+#other_actions ul li a.action_get_link
+{
+    background-image: url("images/iv_get_link.png");
+}
+#other_actions ul li a.action_delete
+{
+    background-image: url("images/iv_delete.png");
+}
+#other_actions ul li a.action_download:hover
+{
+    background-image: url("images/iv_download_hover.png");
+}
+#other_actions ul li a.action_get_link:hover
+{
+    background-image: url("images/iv_get_link_hover.png");
+}
+#other_actions ul li a.action_delete:hover
+{
+    background-image: url("images/iv_delete_hover.png");
+}

@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AceStatusEnum_DiffRoles">
+    <value>Permessi diversi</value>
+  </data>
+  <data name="AceStatusEnum_Owner">
+    <value>Proprietario</value>
+  </data>
+  <data name="AceStatusEnum_Read">
+    <value>Sola lettura</value>
+  </data>
+  <data name="AceStatusEnum_ReadWrite">
+    <value>Accesso completo</value>
+  </data>
+  <data name="AceStatusEnum_Restrict">
+    <value>Accesso vietato</value>
+  </data>
+  <data name="AddToFavorites">
+    <value>Aggiungi ai Preferiti</value>
+  </data>
+  <data name="BreadCrumbsSeparator">
+    <value>&gt;</value>
+  </data>
+  <data name="ButtonAddFiles">
+    <value>Aggiungi file</value>
+  </data>
+  <data name="ButtonSelectFiles">
+    <value>Seleziona file</value>
+  </data>
+  <data name="ButtonShowMore">
+    <value>Mostra di più {0}</value>
+  </data>
+  <data name="ButtonShowMoreLoad">
+    <value>Caricamento in corso ...</value>
+  </data>
+  <data name="ButtonShowMoreOf">
+    <value>Mostra più {0} di {1}</value>
+  </data>
+  <data name="ChangedItemHeader">
+    <value>{0} modifiche in {1}</value>
+  </data>
+  <data name="ConfirmEmptyTrash">
+    <value>Sei sicuro di voler svuotare il cestino?</value>
+  </data>
+  <data name="ConfirmRemoveFile">
+    <value>Sei sicuro di voler eliminare il documento?</value>
+  </data>
+  <data name="ConfirmRemoveFolder">
+    <value>Sei sicuro di voler eliminare la cartella?</value>
+  </data>
+  <data name="ConfirmRemoveList">
+    <value>Sei sicuro di voler eliminare questi elementi?</value>
+  </data>
+  <data name="CorporateFiles">
+    <value>Documenti condivisi</value>
+  </data>
+  <data name="CreateGroup">
+    <value>Crea gruppo</value>
+  </data>
+  <data name="DescriptBulkdownload">
+    <value>Archiviazione dati</value>
+  </data>
+  <data name="DescriptCopy">
+    <value>Copia</value>
+  </data>
+  <data name="DescriptCreate">
+    <value>Creazione</value>
+  </data>
+  <data name="DescriptLoadVersion">
+    <value>Caricamento di versione in corso...</value>
+  </data>
+  <data name="DescriptMove">
+    <value>Sposta</value>
+  </data>
+  <data name="DescriptRemove">
+    <value>Eliminazione in corso ...</value>
+  </data>
+  <data name="DescriptRename">
+    <value>Rinomina</value>
+  </data>
+  <data name="DescriptSetVersion">
+    <value>Aggiornamento versione in corso</value>
+  </data>
+  <data name="EditGroup">
+    <value>Modifica gruppo</value>
+  </data>
+  <data name="EmptyDataToImport">
+    <value>Nessun dato da importare</value>
+  </data>
+  <data name="EmptyListSelectedForDownload">
+    <value>Seleziona almeno una cartella/documento da scaricare</value>
+  </data>
+  <data name="EmptyListSelectedForImport">
+    <value>Seleziona almeno un documento da importare</value>
+  </data>
+  <data name="EmptyListUpload">
+    <value>Clicca su 'Seleziona documento' per caricare file</value>
+  </data>
+  <data name="ErrorMassage_AuthentificatedFalse">
+    <value>Login o password non corretta</value>
+  </data>
+  <data name="ErrorMassage_DnDError">
+    <value>E' impossibile caricare il file</value>
+  </data>
+  <data name="ErrorMassage_EmptyFile">
+    <value>File vuoto</value>
+  </data>
+  <data name="ErrorMassage_FiledsIsEmpty">
+    <value>Tutti i campi sono da compillare</value>
+  </data>
+  <data name="ErrorMassage_FileTypeText">
+    <value>Non è supportato questo tipo file</value>
+  </data>
+  <data name="ErrorMassage_LimitFileSize">
+    <value>E' stata superata la dimensione file massima {0} Mb</value>
+  </data>
+  <data name="ErrorMassage_SecondDownload">
+    <value>Per favore, attendi il termine del download precedente o annullalo</value>
+  </data>
+  <data name="ErrorMassage_SecurityException">
+    <value>Non si dispone di permessi sufficienti per effettuare l'operazione</value>
+  </data>
+  <data name="FavoritesRemove">
+    <value>Sei  sicuro di voler eliminare {0} dai Preferiti ?</value>
+  </data>
+  <data name="FileAlreadyEdit">
+    <value>Il file si sta modificando</value>
+  </data>
+  <data name="FileAlreadyExist">
+    <value>Il file con il nome {0} esiste già nella cartella {1}.</value>
+  </data>
+  <data name="FileNameIsNotEqual">
+    <value>Il nome del file selezionato non coincide con il nome della versione precedente</value>
+  </data>
+  <data name="FilesAlreadyExist">
+    <value>{0} documenti con gli stessi nomi esistono già nella cartella '{1}'. Sostituirli?</value>
+  </data>
+  <data name="FileUploading">
+    <value>Caricamento file in corso</value>
+  </data>
+  <data name="FileVersionRecovery">
+    <value>E' stata ripristinata con successo la versione del file {0}</value>
+  </data>
+  <data name="ImportFromBoxNet">
+    <value>Importa da Box.Net</value>
+  </data>
+  <data name="ImportFromGoogle">
+    <value>Importa da Google Docs</value>
+  </data>
+  <data name="ImportFromZoho">
+    <value>Importa da Zoho</value>
+  </data>
+  <data name="InfoActionInTrash">
+    <value>Per effettuare questa operazione ripristinalo dal cestino</value>
+  </data>
+  <data name="InfoAddFavorite">
+    <value>'{0}' aggiunto ai Preferiti</value>
+  </data>
+  <data name="InfoCommingSoon">
+    <value>Prossimamente</value>
+  </data>
+  <data name="InfoCopyGroup">
+    <value>{0} elementi copiati</value>
+  </data>
+  <data name="InfoCopyItem">
+    <value>'{0}' copiato</value>
+  </data>
+  <data name="InfoCrateFile">
+    <value>Viene creato un nuovo file '{0}'</value>
+  </data>
+  <data name="InfoCrateFolder">
+    <value>Viene creata una nuova cartella '{0}'</value>
+  </data>
+  <data name="InfoEmptyForShare">
+    <value>Seleziona almeno una cartella/documento da fornire accesso</value>
+  </data>
+  <data name="InfoFinishImprot">
+    <value>Importazione completata</value>
+  </data>
+  <data name="InfoFolderCopyError">
+    <value>E' impossibile copiare la cartella nella sua sottocartella</value>
+  </data>
+  <data name="InfoFolderMoveError">
+    <value>E' impossibile spostare la cartella nella sua sottocartella</value>
+  </data>
+  <data name="InfoImprotNotFinish">
+    <value>Per favore, attendi il termine dell'importazione precedente</value>
+  </data>
+  <data name="InfoMoveGroup">
+    <value>{0} elementi spostati</value>
+  </data>
+  <data name="InfoMoveItem">
+    <value>'{0}' spostato</value>
+  </data>
+  <data name="InfoOrderByAuthor">
+    <value>Ordina per autore</value>
+  </data>
+  <data name="InfoOrderByModified">
+    <value>Ordina per data</value>
+  </data>
+  <data name="InfoOrderBySize">
+    <value>Ordina per dimensione</value>
+  </data>
+  <data name="InfoOrderByTitle">
+    <value>Ordina per nome</value>
+  </data>
+  <data name="InfoRemoveFavorites">
+    <value>'{0}' eliminato dai Preferiti</value>
+  </data>
+  <data name="InfoRemoveFile">
+    <value>E' sato eliminato il documento '{0}'</value>
+  </data>
+  <data name="InfoRemoveFolder">
+    <value>E' stata eliminata la cartella '{0}'</value>
+  </data>
+  <data name="InfoRemoveGroup">
+    <value>E' stato eliminato con successo {0} da {1}</value>
+  </data>
+  <data name="InfoRenameFile">
+    <value>Il documento '{0}' è rinominato in '{1}'</value>
+  </data>
+  <data name="InfoRenameFolder">
+    <value>La cartella '{0}' è rinominata in '{1}'</value>
+  </data>
+  <data name="InfoSelectCount">
+    <value>Elementi: {0}</value>
+  </data>
+  <data name="InfoSelectForShare">
+    <value>Seleziona un elemento per impostare i diritti di accesso</value>
+  </data>
+  <data name="InfoSelectingDescribe">
+    <value>{0}Trascina elemento(i) con il mouse per aggiungere alla cartella</value>
+  </data>
+  <data name="InfoUploadedSuccess">
+    <value>{0} documenti sono stati caricati con successo</value>
+  </data>
+  <data name="InfoViewFolderGallery">
+    <value>Visualizza galleria</value>
+  </data>
+  <data name="InfoViewFolderList">
+    <value>Elenco</value>
+  </data>
+  <data name="InstallOpenOfficeButton">
+    <value>Scarica</value>
+  </data>
+  <data name="InstallOpenOfficeCongratulation">
+    <value>Il buffering è completato. Open Office è pronto per essere eseguito.</value>
+  </data>
+  <data name="InstallOpenOfficeDescription">
+    <value>Vedi come funziona.</value>
+  </data>
+  <data name="InstallOpenOfficeHeader">
+    <value>Per creare e modificare i documenti sul tuo portale per favore, scarica l'Open Office virtualizzato.</value>
+  </data>
+  <data name="InstallPluginButton">
+    <value>Installa</value>
+  </data>
+  <data name="InstallPluginDescription">
+    <value>ASC Plug-in ti permette di eseguire Open Office sul portale. {0}Vedi come funziona.{1}</value>
+  </data>
+  <data name="InstallPluginHeader">
+    <value>Per creare e modificare i documenti sul portale, per favore, installa Ascensio System Plug-in.</value>
+  </data>
+  <data name="LoadingProcessing">
+    <value>Caricamento in corso...</value>
+  </data>
+  <data name="LoadingWait">
+    <value>Per favore, attendi...</value>
+  </data>
+  <data name="MyFiles">
+    <value>I miei documenti</value>
+  </data>
+  <data name="NewInShare">
+    <value>({0} nuovi)</value>
+  </data>
+  <data name="OpenOfficeDownloading">
+    <value>Il downlaod di Open Office è in corso. Per favore, attendi...</value>
+  </data>
+  <data name="OpenOfficeDownloadingInfo">
+    <value>Lejuplādēts {0} Mb no {1} Mb</value>
+  </data>
+  <data name="OpenOfficeUnpacking">
+    <value>La decompressione di Open Office è in corso. Per favore, atendi...</value>
+  </data>
+  <data name="OrDragDrop">
+    <value>o trascina e rilasciali in questa finestra</value>
+  </data>
+  <data name="OverallProgress">
+    <value>Avanzamento</value>
+  </data>
+  <data name="ProcessUploadCountFiles">
+    <value>caricato {0} da {1}</value>
+  </data>
+  <data name="ProjectFiles">
+    <value>Documenti del progetto</value>
+  </data>
+  <data name="RemoveFavorites">
+    <value>Elimina dai Preferiti</value>
+  </data>
+  <data name="SelectedFiles">
+    <value>{0} file selezionati</value>
+  </data>
+  <data name="SelectFilesToUpload">
+    <value>Seleziona file da caricare</value>
+  </data>
+  <data name="SelectFilterValue">
+    <value>Seleziona</value>
+  </data>
+  <data name="SelectRight">
+    <value>seleziona</value>
+  </data>
+  <data name="TasksOperationBulkdownload">
+    <value>Archiviazione dati</value>
+  </data>
+  <data name="TasksOperationCopy">
+    <value>Copia in corso</value>
+  </data>
+  <data name="TasksOperationDelete">
+    <value>Eliminazione in corso</value>
+  </data>
+  <data name="TasksOperationMixed">
+    <value>{0} operazioni</value>
+  </data>
+  <data name="TasksOperationMove">
+    <value>Sposta</value>
+  </data>
+  <data name="TitleCancel">
+    <value>Annulla</value>
+  </data>
+  <data name="TitleCreate">
+    <value>Crea</value>
+  </data>
+  <data name="TitleNewFilePresentation">
+    <value>Nuova presentazione</value>
+  </data>
+  <data name="TitleNewFileSpreadsheet">
+    <value>Nuovo foglio elettronico</value>
+  </data>
+  <data name="TitleNewFileText">
+    <value>Nuovo file</value>
+  </data>
+  <data name="TitleNewFolder">
+    <value>Nuova cartella</value>
+  </data>
+  <data name="TitleRename">
+    <value>Rinomina</value>
+  </data>
+  <data name="UpdateFileVersionFor">
+    <value>Aggiorna versione del documento</value>
+  </data>
+  <data name="UpdateOpenOfficeHeader">
+    <value>Sono disponibili gli aggiornamenti di Open Office. Scarica subito.</value>
+  </data>
+  <data name="UploadedOf">
+    <value>{0} / {1} file caricati</value>
+  </data>
+  <data name="UploadFileTo">
+    <value>Carica documento in</value>
+  </data>
+  <data name="Uploading">
+    <value>Caricamento in corso</value>
+  </data>
+  <data name="UploadProcess">
+    <value>Caricamento file in corso...</value>
+  </data>
+</root>

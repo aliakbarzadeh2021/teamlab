@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_Add_Name">
+    <value>Pievienot Jaunumus</value>
+  </data>
+  <data name="Action_Comment_Name">
+    <value>Komentēt jaunumus</value>
+  </data>
+  <data name="Action_CommentEdit_Name">
+    <value>Rediģēt komentārus</value>
+  </data>
+  <data name="Action_Edit_Name">
+    <value>Rediģēt jaunumus</value>
+  </data>
+  <data name="Action_EditCategories_Name">
+    <value>Rediģēt jaunumu kategorijas</value>
+  </data>
+  <data name="AddNewType">
+    <value>Pievienot tipu</value>
+  </data>
+  <data name="AddonDescriptionResourceKey">
+    <value>Pēdējie korporatīvi jaunumi, paziņojumi un aptaujas</value>
+  </data>
+  <data name="AddonName">
+    <value>Notikumi</value>
+  </data>
+  <data name="AuthCategory_Edit_Name">
+    <value>Rediģēt</value>
+  </data>
+  <data name="BackLink">
+    <value>Atpakaļ</value>
+  </data>
+  <data name="CancelButton">
+    <value>Atcelts</value>
+  </data>
+  <data name="ConfirmRemoveMessage">
+    <value>Vai jūs tiešām gribat izdzēst šo notikumu?</value>
+  </data>
+  <data name="CreateEventsWidgetMessage">
+    <value>Lūdzu pievienojiet Jūsu notikumus {0}šeit{1}.</value>
+  </data>
+  <data name="DateColumn">
+    <value>Datums</value>
+  </data>
+  <data name="DeleteButton">
+    <value>Izdzēst</value>
+  </data>
+  <data name="EditButton">
+    <value>Rediģēt</value>
+  </data>
+  <data name="EndTime">
+    <value>Izbeigšanas laiks</value>
+  </data>
+  <data name="ErrorAccessDenied">
+    <value>Pieeja aizliegta</value>
+  </data>
+  <data name="ErrorEmptyQuestion">
+    <value>Ievadiet jūsu aptaujas jautājumu</value>
+  </data>
+  <data name="ErrorNotCorrectMaxNewsSettings">
+    <value>nepareizi</value>
+  </data>
+  <data name="ErrorPollVariantCount">
+    <value>Ievadiet vismaz divus atbilžu variantus</value>
+  </data>
+  <data name="FeedDeleted">
+    <value>Notikums bija izdzēsts</value>
+  </data>
+  <data name="FeedPrevCaption">
+    <value>Priekšskatījums</value>
+  </data>
+  <data name="FeedTypeNews">
+    <value>Ziņas</value>
+  </data>
+  <data name="FeedTypePoll">
+    <value>Aptaujas</value>
+  </data>
+  <data name="HideButton">
+    <value>Aizvērt</value>
+  </data>
+  <data name="In">
+    <value>iekšā</value>
+  </data>
+  <data name="MaxNewsCountSettingsTitle">
+    <value>Notikimu skaits attēlošanai</value>
+  </data>
+  <data name="ModuleDescription">
+    <value>Korporatīvas plūsmas</value>
+  </data>
+  <data name="ModuleName">
+    <value>Plūsmas</value>
+  </data>
+  <data name="NameColumn">
+    <value>Nosaukums</value>
+  </data>
+  <data name="NewsAdd">
+    <value>Pievienot jaunu notikumu</value>
+  </data>
+  <data name="NewsAddBreadCrumbsNews">
+    <value>Jauns Notikums</value>
+  </data>
+  <data name="NewsAddBreadCrumbsPoll">
+    <value>Jauna Aptauja</value>
+  </data>
+  <data name="NewsAddType">
+    <value>Pievienot</value>
+  </data>
+  <data name="NewsAnnouncementsTypeLogo">
+    <value>32x_orders.png</value>
+  </data>
+  <data name="NewsAnnouncementsTypeName">
+    <value>Paziņojumi</value>
+  </data>
+  <data name="NewsBody">
+    <value>Teksts</value>
+  </data>
+  <data name="NewsBreadCrumbs">
+    <value>Visi Notikumi</value>
+  </data>
+  <data name="NewsCaption">
+    <value>Nosaukums</value>
+  </data>
+  <data name="NewsDefaultTypeLogo">
+    <value>32x_orders.png</value>
+  </data>
+  <data name="NewsDefaultTypeName">
+    <value>Ziņas</value>
+  </data>
+  <data name="NewsEditBreadCrumbsNews">
+    <value>Rediģēt Notikumu</value>
+  </data>
+  <data name="NewsEditBreadCrumbsPoll">
+    <value>Rediģēt Aptauju</value>
+  </data>
+  <data name="NewsOrdersTypeLogo">
+    <value>32x_orders.png</value>
+  </data>
+  <data name="NewsOrdersTypeName">
+    <value>Pasūtījumi</value>
+  </data>
+  <data name="NewsType">
+    <value>Notikumu Tips</value>
+  </data>
+  <data name="NewsWidgetDescription">
+    <value>paradīt pēdējus notikumus</value>
+  </data>
+  <data name="NewsWidgetName">
+    <value>Notikumi</value>
+  </data>
+  <data name="NewTypeLogo">
+    <value>Logo</value>
+  </data>
+  <data name="NewTypeName">
+    <value>Tipa Nosaukums</value>
+  </data>
+  <data name="NoEventsWidgetMessage">
+    <value>Nav neviena notikuma.</value>
+  </data>
+  <data name="NoFeedWidgetMessage">
+    <value>Uzklikšķiniet šeit, lai {0}Pievienot jaunu notikumu{1}</value>
+  </data>
+  <data name="NoPollWidgetMessage">
+    <value>Uzklikšķiniet šeit, lai {0}Pievienot jaunu aptauju{1}</value>
+  </data>
+  <data name="NothingFound">
+    <value>Nekas nebija atrasts</value>
+  </data>
+  <data name="NotificationOnNewComments">
+    <value>Notify about new comments</value>
+  </data>
+  <data name="NotifyOnNewFeed">
+    <value>Parakstīšanās uz notikumiem</value>
+  </data>
+  <data name="NotifyOnUploadsMessage">
+    <value>Parakstīties uz notikumiem</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Lūdzu uzgaidiet...</value>
+  </data>
+  <data name="PollAdd">
+    <value>Pievienot jaunu aptauju</value>
+  </data>
+  <data name="PollListEmpty">
+    <value>Nav nevienas aktīvas aptaujas</value>
+  </data>
+  <data name="PollWidgetDescription">
+    <value>paradīt pēdējas aptaujas</value>
+  </data>
+  <data name="PollWidgetName">
+    <value>Aptaujas</value>
+  </data>
+  <data name="PostButton">
+    <value>Publicet</value>
+  </data>
+  <data name="PostCount">
+    <value>Notikumu kopsumma</value>
+  </data>
+  <data name="PostedBy">
+    <value>Autors</value>
+  </data>
+  <data name="Preview">
+    <value>Priekšskatījums</value>
+  </data>
+  <data name="RequaredFieldValidatorCaption">
+    <value>Nosaukuma lauks ir obligāts aizpildīšanai</value>
+  </data>
+  <data name="SaveButton">
+    <value>Saglabāt</value>
+  </data>
+  <data name="SearchDefaultString">
+    <value>Meklēt notikumu</value>
+  </data>
+  <data name="SeeAllNews">
+    <value>Visi Notikimi</value>
+  </data>
+  <data name="SeeAllPolls">
+    <value>Visas Aptaujas</value>
+  </data>
+  <data name="StartTime">
+    <value>Uzsākšanas laiks</value>
+  </data>
+  <data name="SubscribeOnNewComments">
+    <value>Subscribe to comments</value>
+  </data>
+  <data name="TypeNameColumn">
+    <value>Ievadiet Nosaukumu</value>
+  </data>
+  <data name="UnNotifyOnUploadsMessage">
+    <value>Atrakstīties no notikumiem</value>
+  </data>
+  <data name="UnsubscribeFromNewComments">
+    <value>Unsubscribe from comments</value>
+  </data>
+  <data name="UserActivity_AddCommentFeed">
+    <value>pievienots komentārs</value>
+  </data>
+  <data name="UserActivity_AddCommentNews">
+    <value>pievienots komentārs</value>
+  </data>
+  <data name="UserActivity_AddNewsFeed">
+    <value>pievienots notikums</value>
+  </data>
+  <data name="UserActivity_AddPollFeed">
+    <value>pievienota aptauja</value>
+  </data>
+  <data name="UserActivity_DeleteCommentFeed">
+    <value>komentārs izdzēsts</value>
+  </data>
+  <data name="UserActivity_DeleteCommentNews">
+    <value>komentārs izdzēsts</value>
+  </data>
+  <data name="UserActivity_DeleteFeed">
+    <value>notikums izdzēsts</value>
+  </data>
+  <data name="UserActivity_DeletePoll">
+    <value>aptauja izdzēsta</value>
+  </data>
+  <data name="UserActivity_EditCommentFeed">
+    <value>komentārs rediģēts</value>
+  </data>
+  <data name="UserActivity_EditCommentNews">
+    <value>komentārs rediģēts</value>
+  </data>
+  <data name="UserActivity_EditNewsFeed">
+    <value>notikums rediģēts</value>
+  </data>
+  <data name="UserActivity_EditPollFeed">
+    <value>aptauja rediģēta</value>
+  </data>
+  <data name="UserActivity_Vote">
+    <value>balsojums pievienots</value>
+  </data>
+  <data name="Voted">
+    <value>balsojums pievienots</value>
+  </data>
+</root>

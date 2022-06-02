@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionsTitle">
+    <value>Darbības</value>
+  </data>
+  <data name="AddAlbumLink">
+    <value>Pievienot albumu</value>
+  </data>
+  <data name="AddButton">
+    <value>Pievienot</value>
+  </data>
+  <data name="AddCommentLink">
+    <value>Pievienot komentāru</value>
+  </data>
+  <data name="AddEventLink">
+    <value>Izveidot jaunu notikumu</value>
+  </data>
+  <data name="AddMorePhotosLink">
+    <value>Pievienot vēl bildes</value>
+  </data>
+  <data name="AddNewCommentLink">
+    <value>Pievienot jūsu komentāru</value>
+  </data>
+  <data name="AddNewPhotoLink">
+    <value>Pievienot jaunu</value>
+  </data>
+  <data name="AddonDescriptionResourceKey">
+    <value>Korporatīvi bilžu albumi</value>
+  </data>
+  <data name="AddonName">
+    <value>Bildes</value>
+  </data>
+  <data name="AddonPath">
+    <value>~/products/community/modules/photomanager/</value>
+  </data>
+  <data name="AlbumCoverTitle">
+    <value>Albuma Vāks</value>
+  </data>
+  <data name="AlbumNameTitle">
+    <value>Albuma Nosaukums</value>
+  </data>
+  <data name="AlbumsCountPhoto">
+    <value>Фото</value>
+  </data>
+  <data name="AlbumsTitle">
+    <value>Albumi</value>
+  </data>
+  <data name="AlbumTitle">
+    <value>Albums</value>
+  </data>
+  <data name="AlbumTitleR1">
+    <value>Albumi</value>
+  </data>
+  <data name="AlbumTitleRm">
+    <value>Albumi</value>
+  </data>
+  <data name="AllAuthorAlbumsTitle">
+    <value>Parādīt visus šī lietotāja albumus</value>
+  </data>
+  <data name="AllPhotosUploadedTitle">
+    <value>Your photos have been successfully uploaded</value>
+  </data>
+  <data name="AllPhotoTitle">
+    <value>Visas bildes</value>
+  </data>
+  <data name="AuthorTitle">
+    <value>Autors</value>
+  </data>
+  <data name="ButtonAddFiles">
+    <value>Pievienot failus</value>
+  </data>
+  <data name="ButtonSelectFiles">
+    <value>Izvēlēties failus</value>
+  </data>
+  <data name="CancelButton">
+    <value>Atcelt</value>
+  </data>
+  <data name="ChooseEventTitle">
+    <value>Izvēlēties notikumu</value>
+  </data>
+  <data name="ChoosePhotolink">
+    <value>Izvēlēties bildes augšuplādēšanai</value>
+  </data>
+  <data name="CommentedTitle">
+    <value>Komentēts</value>
+  </data>
+  <data name="CommentRemovedMessage">
+    <value>Komentārs ir izdzēsts</value>
+  </data>
+  <data name="CommentsTitle">
+    <value>Komentāri</value>
+  </data>
+  <data name="CommentTitle">
+    <value>Komentārs</value>
+  </data>
+  <data name="CommentTitleR1">
+    <value>Komentāri</value>
+  </data>
+  <data name="CommentTitleRm">
+    <value>Komentāri</value>
+  </data>
+  <data name="ConfirmMoveMessage">
+    <value>Vai jūs tiešām gribat izdzēst visas bildes?</value>
+  </data>
+  <data name="ConfirmRemoveAlbumMessage">
+    <value>Vai jūs tiešām gribat izdzēst albumu?</value>
+  </data>
+  <data name="ConfirmRemoveEventMessage">
+    <value>Vai jūs tiešām gribat izdzēst šo notikumu?</value>
+  </data>
+  <data name="ConfirmRemoveMessage">
+    <value>Vai jūs tiešām gribat izdzēst šo bildi?</value>
+  </data>
+  <data name="ConfirmRemovePhotoMessage">
+    <value>Vai jūs tiešām gribat izdzēst šo bildi?</value>
+  </data>
+  <data name="CreateButton">
+    <value>Izveidot</value>
+  </data>
+  <data name="CreateNewTitle">
+    <value>Izveidojiet jaunu</value>
+  </data>
+  <data name="CreatePhotosWidgetMessage">
+    <value>Lūdzu augušplādējiet jūsu bildes {0}šeit{1}.</value>
+  </data>
+  <data name="CreateSelectEventMessage">
+    <value>Izvēlējaties notikumu vai</value>
+  </data>
+  <data name="CtrlEnterKeysTitle">
+    <value>Ctrl+Enter</value>
+  </data>
+  <data name="DateTitle">
+    <value>Datums</value>
+  </data>
+  <data name="DeleteButton">
+    <value>Izdzēst</value>
+  </data>
+  <data name="DescriptionTitle">
+    <value>Apraksts</value>
+  </data>
+  <data name="DownToolTip">
+    <value>Lejā</value>
+  </data>
+  <data name="EditAlbumButton">
+    <value>Rediģēt albumu</value>
+  </data>
+  <data name="EditButton">
+    <value>Rediģēt</value>
+  </data>
+  <data name="EditEvent">
+    <value>Rediģēt notikumu</value>
+  </data>
+  <data name="EditPhotoNameTitle">
+    <value>Nosaukums</value>
+  </data>
+  <data name="EditPhotoTitle">
+    <value>Rediģēt bildi</value>
+  </data>
+  <data name="EditSmallButton">
+    <value>Rediģēt</value>
+  </data>
+  <data name="EmptyWidgetMessage">
+    <value>Uzklikšiniet šeit, lai {0}Augšuplādēt bildes{1}</value>
+  </data>
+  <data name="ErrorFileTypeText">
+    <value>Šis faila tips nav atbalstīts</value>
+  </data>
+  <data name="ErrorNotCorrectMaxAlbumsSettings">
+    <value>Nepareizs albūmu skaits</value>
+  </data>
+  <data name="ErrorSaveWidgetSettings">
+    <value>Kļūda iestatījumu saglabāšanas laikā</value>
+  </data>
+  <data name="EventCreationTitle">
+    <value>Jauns Notikums</value>
+  </data>
+  <data name="EventHaveNoAlbumsMsg">
+    <value>Šajā notikumā nav neviena albuma. Vai jūs gribat :UPLOAD_LINK or :REMOVE_LINK to?</value>
+  </data>
+  <data name="EventsTitle">
+    <value>Notikumi</value>
+  </data>
+  <data name="EventTitle">
+    <value>Notikums</value>
+  </data>
+  <data name="ExitToolTip">
+    <value>Iziet</value>
+  </data>
+  <data name="FinishUploadLink">
+    <value>Izbeigt augšuplādēšanu</value>
+  </data>
+  <data name="FullSizeTitle">
+    <value>Avots</value>
+  </data>
+  <data name="GoToTitle">
+    <value>un aiziet uz</value>
+  </data>
+  <data name="HideButton">
+    <value>Aizvērt</value>
+  </data>
+  <data name="LastAlbumTitle">
+    <value>Pēdējie albumi</value>
+  </data>
+  <data name="LastCommentedTitle">
+    <value>Pēdējie Komentāri</value>
+  </data>
+  <data name="LastEventsTitle">
+    <value>Citi Notikumi</value>
+  </data>
+  <data name="LastPhotoWidgetTitle">
+    <value>Pēdējie albumi</value>
+  </data>
+  <data name="LastUpdateTitle">
+    <value>Atjaunināts</value>
+  </data>
+  <data name="MainPageMenuTitle">
+    <value>Titullapa</value>
+  </data>
+  <data name="MainStatisticName">
+    <value>Bilžu kopsumma</value>
+  </data>
+  <data name="MaxLastAlbumsCountSettingsTitle">
+    <value>Albumu skaits attēlošanai (no 1 līdz 10)</value>
+  </data>
+  <data name="MyPhotoTitle">
+    <value>Manas Bildes</value>
+  </data>
+  <data name="NameTitle">
+    <value>Vārds</value>
+  </data>
+  <data name="NextPhotoButton">
+    <value>Nākamā</value>
+  </data>
+  <data name="NextSlideToolTip">
+    <value>Nākamais slaids</value>
+  </data>
+  <data name="NoFoundMessage">
+    <value>Nekas nebija atrasts.</value>
+  </data>
+  <data name="NoPhotosWidgetMessage">
+    <value>Nav nevienas bildes.</value>
+  </data>
+  <data name="NoteFileUpload">
+    <value>Dokumenta izmērs nevar būt lielāks par {1}{0} MB{2}.</value>
+  </data>
+  <data name="NotifyOnNewEventCommentsDescription">
+    <value>Parakstīšanās ļauj jums sēkot līdz jaunām bildēm un komentāriem šajā notikumā</value>
+  </data>
+  <data name="NotifyOnNewEventCommentsMessage">
+    <value>Parakstīties uz šo notikumam</value>
+  </data>
+  <data name="NotifyOnNewEventCommentsTitle">
+    <value>Parakstīšanās uz šo notikumam</value>
+  </data>
+  <data name="NotifyOnUploadsDescription">
+    <value>Parakstīšanās ļauj jums uzzināt, kad parādās jaunas bildes</value>
+  </data>
+  <data name="NotifyOnUploadsMessage">
+    <value>Parakstīties uz jaunām bildēm</value>
+  </data>
+  <data name="NotifyOnUploadsTitle">
+    <value>Parakstīšanās uz jaunām bildēm</value>
+  </data>
+  <data name="OrDragDrop">
+    <value>vai pārceliet tos šajā logā</value>
+  </data>
+  <data name="OtherAlbums">
+    <value>Citi Albumi</value>
+  </data>
+  <data name="OtherButton">
+    <value>Citi</value>
+  </data>
+  <data name="OverallProgress">
+    <value>Progress</value>
+  </data>
+  <data name="PageTitleDefault">
+    <value>Visi Notikumi</value>
+  </data>
+  <data name="PageTitleEditPhoto">
+    <value>Rediģēt Bildi</value>
+  </data>
+  <data name="PageTitleSlideShow">
+    <value>Slaidrāde</value>
+  </data>
+  <data name="PhotoManagerPageDescription">
+    <value>Bilžu menedžera mājaslapa</value>
+  </data>
+  <data name="PhotoManagerPageName">
+    <value>Titullapa</value>
+  </data>
+  <data name="PhotosTitle">
+    <value>Bildes</value>
+  </data>
+  <data name="PhotoTitle">
+    <value>Bildes</value>
+  </data>
+  <data name="PhotoTitleR1">
+    <value>Bildes</value>
+  </data>
+  <data name="PhotoTitleRm">
+    <value>Bildes</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>uploading.... please wait</value>
+  </data>
+  <data name="PleaseWaitShortMessage">
+    <value>Please wait...</value>
+  </data>
+  <data name="PostedByTitle">
+    <value>Augšuplādēts</value>
+  </data>
+  <data name="PostedToTitle">
+    <value>Augšuplādēts</value>
+  </data>
+  <data name="PressTitle">
+    <value>vai nospiediet</value>
+  </data>
+  <data name="PreviewButton">
+    <value>Priekšskatījums</value>
+  </data>
+  <data name="PreviousPhotoButton">
+    <value>Iepriekšēja</value>
+  </data>
+  <data name="PrevSlideToolTip">
+    <value>Iepriekšējais slaids</value>
+  </data>
+  <data name="RefreshButton">
+    <value>Atsvaidzināt</value>
+  </data>
+  <data name="RemoveAlbumButton">
+    <value>Izdzēst albumu</value>
+  </data>
+  <data name="RemoveAllLink">
+    <value>Izdzēst visu</value>
+  </data>
+  <data name="RemoveButton">
+    <value>Izdzēst</value>
+  </data>
+  <data name="RemoveCommentToolTipText">
+    <value>Izdzēst komentāru</value>
+  </data>
+  <data name="RemoveEvent">
+    <value>Izdzēst notikumu</value>
+  </data>
+  <data name="ReviewedTitle">
+    <value>Apskatīts</value>
+  </data>
+  <data name="RotateLeftLink">
+    <value>90° pa kreisi</value>
+  </data>
+  <data name="RotateRightLink">
+    <value>90° pa labi</value>
+  </data>
+  <data name="RunPauseToolTip">
+    <value>Sākt/Pauze</value>
+  </data>
+  <data name="SaidTitle">
+    <value>pateica</value>
+  </data>
+  <data name="SaveButton">
+    <value>Saglabāt</value>
+  </data>
+  <data name="SavePhotosButton">
+    <value>Saglabāt bildes</value>
+  </data>
+  <data name="SeeAllAlbumsLink">
+    <value>Visi Albumi</value>
+  </data>
+  <data name="SelectAuthorMessage">
+    <value>Izvēlēties autoru</value>
+  </data>
+  <data name="SelectedFiles">
+    <value>Izvēlēti {0} faili</value>
+  </data>
+  <data name="SelectFilesToUpload">
+    <value>Izvēlieties failus augšuplādēšanai</value>
+  </data>
+  <data name="SelectImagesButton">
+    <value>Izvēlēties bildes</value>
+  </data>
+  <data name="SendCommentButton">
+    <value>Aizsūtīt komentāru</value>
+  </data>
+  <data name="SlidesShowTooTip">
+    <value>Slaidrāde</value>
+  </data>
+  <data name="SubmitButton">
+    <value>Sūtīt</value>
+  </data>
+  <data name="TempPath">
+    <value>temp/</value>
+  </data>
+  <data name="TotalAlbumsTitle">
+    <value>Albumu kopsumma</value>
+  </data>
+  <data name="TotalPhotoTitle">
+    <value>Bilžu kopsumma</value>
+  </data>
+  <data name="UnNotifyOnNewEventCommentsMessage">
+    <value>Atrakstīties no šī notikuma</value>
+  </data>
+  <data name="UnNotifyOnUploadsMessage">
+    <value>Atrakstīties no jaunām bildēm</value>
+  </data>
+  <data name="UploadButton">
+    <value>Augšuplādēt</value>
+  </data>
+  <data name="UploadedOf">
+    <value>{0} / {1} augšuplādētu failu</value>
+  </data>
+  <data name="UploadPhotosLink">
+    <value>Augšuplādēt bildes</value>
+  </data>
+  <data name="UploadPhotosLinkDescription">
+    <value>Augšuplādēt jūsu bildes</value>
+  </data>
+  <data name="UploadPhotoTitle">
+    <value>Augšuplādēt Bildes</value>
+  </data>
+  <data name="UploadsPhotosQuestion">
+    <value>šeit</value>
+  </data>
+  <data name="UpToolTip">
+    <value>Uz augšu</value>
+  </data>
+  <data name="UserActionCommented">
+    <value>komentēja</value>
+  </data>
+  <data name="UserActionUploaded">
+    <value>Augšuplādēts</value>
+  </data>
+  <data name="UserActivity_AddComment">
+    <value>pievienots komentārs</value>
+  </data>
+  <data name="UserActivity_AddPhoto">
+    <value>pievienotas bildes</value>
+  </data>
+  <data name="UserActivity_DeleteComment">
+    <value>komentārs izdzēsts</value>
+  </data>
+  <data name="UserActivity_DeletePhoto">
+    <value>bildes izdzēstas</value>
+  </data>
+  <data name="UserActivity_EditComment">
+    <value>komentārs rediģēts</value>
+  </data>
+  <data name="UserActivity_EditPhoto">
+    <value>bilde rediģēta</value>
+  </data>
+  <data name="UserActivity_Evaluate">
+    <value>bilde novērtēta</value>
+  </data>
+  <data name="UserHaveNoPhotosTitle">
+    <value>Lietotājam nav nevienas bildes</value>
+  </data>
+  <data name="ViewTitle">
+    <value>Skatīt</value>
+  </data>
+  <data name="ViewTitleR1">
+    <value>Skatījumi</value>
+  </data>
+  <data name="ViewTitleRm">
+    <value>Skatījumi</value>
+  </data>
+  <data name="WaitMessage">
+    <value>Lūdzu uzgaidiet</value>
+  </data>
+  <data name="WidgetDescriptionResourceKey">
+    <value>nesen augšuplādēti albumi</value>
+  </data>
+  <data name="YouAlbumTitle">
+    <value>uz manu albumu</value>
+  </data>
+  <data name="YouHaveNoPhotosTitle">
+    <value>Jums nav nevienas bildes.</value>
+  </data>
+</root>

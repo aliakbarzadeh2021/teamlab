@@ -1,0 +1,11 @@
+Shared Documents folder of TeamLab Docs is a common storage space 
+containing files and folders available to all portal's members.
+
+Shared Documents folder allows the user to:
+- upload files from the hard disk drive;
+- get access to files from anywhere;
+- organize files in folders;
+- create new text files, spreadsheets and presentations;
+- edit document content (for administrators and authors);
+- integrate documents into project module;
+- download files, uploaded by the co-workers.

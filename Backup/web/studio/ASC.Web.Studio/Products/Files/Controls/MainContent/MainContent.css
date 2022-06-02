@@ -1,0 +1,1331 @@
+﻿/*******************************************************************************
+    header
+*******************************************************************************/
+div.folderHeader
+{
+    padding: 18px 0px;
+}
+div.headerContainer
+{
+    position: relative;
+    overflow: hidden;
+}
+div.levelUp
+{
+    border: 1px solid #FFF;
+    height: 32px;
+    margin: 0 -8px 0 10px;
+    width: 32px;
+}
+div.levelUp.row-to
+{
+    border: 1px solid #98BCA1;
+}
+div.levelUp a
+{
+    background: url("images/level-up.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+div.folderBigIcon
+{
+    background: url("images/folder-big.png") no-repeat scroll center 0 transparent;
+    width: 32px;
+    height: 32px;
+    margin: 7px 5px 0 7px;
+}
+div.folderBigIcon.myFiles
+{
+    background-image: url("images/myfiles_big.png");
+}
+div.folderBigIcon.corporateFiles
+{
+    background-image: url("images/corporatefiles_big.png");
+}
+div.folderBigIcon.sharedformeFiles
+{
+    background-image: url("images/sharedforme_big.png");
+}
+div.folderBigIcon.projectFiles
+{
+    background-image: url("images/projectfiles_big.png");
+}
+div.folderBigIcon.Trash
+{
+    background-image: url("images/trash_big.png");
+}
+div.folderName
+{
+    color: #2A2A2A;
+    font-family: Arial;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 700px;
+    cursor: default;
+}
+div.folderInfo
+{
+    color: #787878;
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: default;
+}
+div.fade_title
+{
+    height: 100%;
+    width: 25px;
+    position: absolute;
+    right: 0px;
+    background-image: url("images/fade.png");
+}
+*html div.fade_title
+{
+    display: none;
+}
+/*************************************************************
+    Info Panel
+*************************************************************/
+div.containerBodyBlock div.files_infoPanel
+{
+    display:none;
+    left: 50%;
+    margin: 0;
+    max-width: 722px;
+    position: fixed;
+    top: 0;
+    z-index: 260;
+}
+div.containerBodyBlock div.files_infoPanel div
+{
+    padding-right: 10px;
+    overflow: hidden;
+}
+/*****************************************************
+    jScrollPane
+********************************************************/
+.jspContainer
+{
+    overflow: hidden;
+    position: relative;
+}
+.jspPane
+{
+    position: absolute;
+}
+.jspVerticalBar
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 100%;
+    background: red;
+}
+.jspHorizontalBar
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background: #227CA8;
+}
+.jspVerticalBar *, .jspHorizontalBar *
+{
+    margin: 0;
+    padding: 0;
+}
+.jspCap
+{
+    display: none;
+}
+.jspHorizontalBar .jspCap
+{
+    float: left;
+}
+.jspTrack
+{
+    background: #3386AF;
+    position: relative;
+}
+.jspDrag
+{
+    background: #65A6C5;
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag
+{
+    float: left;
+    height: 100%;
+}
+.jspArrow
+{
+    background: #50506d;
+    text-indent: -20000px;
+    display: block;
+    cursor: pointer;
+}
+.jspArrow.jspDisabled
+{
+    cursor: default;
+    background: #80808d;
+}
+.jspVerticalBar .jspArrow
+{
+    height: 16px;
+}
+.jspHorizontalBar .jspArrow
+{
+    width: 16px;
+    float: left;
+    height: 100%;
+}
+.jspVerticalBar .jspArrow:focus
+{
+    outline: none;
+}
+.jspCorner
+{
+    background: #eeeef4;
+    float: left;
+    height: 100%;
+}
+* html .jspCorner
+{
+    margin: 0 -3px 0 0;
+}
+/*************************************************************
+    Loading
+*************************************************************/
+div.loading_container
+{
+    background: url("images/loader_big.gif") no-repeat scroll 50% 23px #787C80;
+    color: #FFFFFF;
+    cursor: wait;
+    font-size: 18px;
+    font-weight: bold;
+    left: 50%;
+    margin: -80px 0 0 -145px;
+    min-width: 200px;
+    opacity: 0.8;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80) !important;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    padding: 104px 5px 25px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    white-space: nowrap;
+    z-index: 300;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+div.loading_container .wait_container
+{
+    font-size: 12px;
+}
+
+/*******************************************************************************
+    files_breadCrumbsContainer
+*******************************************************************************/
+div.files_breadCrumbsContainer.previewBreadCrumbs
+{
+    margin: 0 0 0 42px;
+    width: 890px;
+}
+.files_breadCrumbsContainer
+{
+    line-height: 18px;
+    margin: -18px 0 0 26px;
+    overflow: hidden;
+    width: 670px;
+}
+.files_breadCrumbsContainer a
+{
+    color: #000;
+    white-space: nowrap;
+    outline: none;
+}
+.files_breadCrumbsContainer span
+{
+    color: #000;
+    margin: 0pt 7px;
+}
+.files_breadCrumbsContainer .breadCrumbsContainer_currentFolder
+{
+    margin: 0;
+    white-space: nowrap;
+    cursor: default;
+}
+
+/*******************************************************************************
+    Main Content Header
+*******************************************************************************/
+#mainContentHeader
+{
+    background: #589EC0;
+    color: #FFF;
+    padding: 2px 8px;
+    width: 708px;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+div.mainContentHeader_item
+{
+    float: left;
+    cursor: default;
+    padding: 2px 7px;
+}
+div.mainContentHeader_title
+{
+    float: left;
+    margin: 3px 5px 0 0;
+}
+span.mainContentHeader_value
+{
+    font-weight: bold;
+    margin: 0 3px;
+}
+span.mainContentHeader_value.files_sort_asc
+{
+    background: url("images/sort_up.png") no-repeat scroll 0 2px transparent;
+    padding-left: 16px;
+}
+span.mainContentHeader_value.files_sort_desc
+{
+    background: url("images/sort_down.png") no-repeat scroll 0 2px transparent;
+    padding-left: 16px;
+}
+a.files_sort_asc
+{
+    background: url("images/sort_up.png") no-repeat scroll 100% 2px transparent;
+    padding-right: 15px;
+    font-weight: bold;
+}
+a.files_sort_desc
+{
+    background: url("images/sort_down.png") no-repeat scroll 100% 2px transparent;
+    padding-right: 15px;
+    font-weight: bold;
+}
+div.mainContentHeader_combobtn
+{
+    background: url("images/combobox-w.png") no-repeat scroll 0 4px transparent;
+    cursor: pointer;
+    float: right;
+    height: 18px;
+    width: 9px;
+}
+div.files_filter_value
+{
+    max-width: 390px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+div.mainContentHeader_combobtn-b
+{
+    background: url("images/combobox.png") no-repeat scroll 0 4px transparent;
+    cursor: pointer;
+    float: right;
+    height: 18px;
+    width: 9px;
+    margin-left: -1px;
+    padding-right: 2px;
+    display: none;
+}
+.display div.mainContentHeader_combobtn-b
+{
+    display: block;
+}
+div.mainContentHeader_item_actions, div.mainContentHeader_item_actions:hover
+{
+    margin-top: 2px;
+    border: 1px solid #589EC0;
+}
+div.mainContentHeader_item_actions.display, div.mainContentHeader_item_actions.display:hover
+{
+    cursor: pointer;
+    background: url("images/back-combo.png") no-repeat scroll transparent;
+    padding: 2px;
+}
+div.mainContentHeader_actions
+{
+    float: left;
+    padding: 2px;
+    width: 31px;
+    cursor: default;
+}
+div.mainContentHeader_actions input
+{
+    cursor: pointer;
+    float: left;
+    margin-right: 0;
+}
+div.mainContentHeader_actions div.mainContentHeader_combobtn
+{
+    margin: 0 1px 0 -1px;
+}
+div.mainContentHeader_item_sort
+{
+    float: right !important;
+}
+div.mainContentHeader_sort div.mainContentHeader_combobtn, div.mainContentHeader_filter div.mainContentHeader_combobtn
+{
+    border: 1px solid #589EC0;
+    background-position: right center;
+    float: left;
+    padding: 2px 9px 0px 3px;
+    width: auto;
+    margin-right: 5px;
+}
+div.mainContentHeader_sort div.mainContentHeader_combobtn:hover,
+div.mainContentHeader_filter div.mainContentHeader_combobtn:hover
+{
+    background-color: #227CA8;
+    border: 1px solid #98BBCB;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+div.mainContentHeader_panel
+{
+    background-color: #227CA8;
+    width: 724px;
+    z-index: 102;
+    padding-bottom: 10px;
+    max-height: 130px;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+}
+div.mainContentHeader_panel a
+{
+    color: #FFF;
+    cursor: pointer;
+}
+div.files_topPanel_panel
+{
+    max-height: 130px;
+}
+div.files_topPanel_item
+{
+    margin: 10px 10px 0;
+    float: left;
+}
+div.files_filter_usersPanel, div.files_filter_departmensPanel
+{
+    margin: 10px 10px 0 0;
+    max-height: 120px;
+    outline: none;
+}
+div.files_filter_usersPanel div.files_topPanel_item
+{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 20%;
+    max-width:680px;
+}
+div.files_filter_departmensPanel div.files_topPanel_item
+{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30%;
+}
+div.mainContentHeader_panel div.jspHorizontalBar
+{
+    display: none;
+}
+div.files_sortPanel div
+{
+    float: right;
+}
+div.mainContentHeader_item div.select, div.mainContentHeader_item div.select:hover
+{
+    background-color: #227CA8;
+    border: 1px solid #227CA8;
+    border-bottom-width: 7px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: -6px;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+div.mainContentHeader_panel a.select
+{
+    font-weight: bold;
+}
+/*************************************************************
+   Main Content
+*************************************************************/
+div.mainContent
+{
+    min-height: 355px;
+    overflow: hidden;
+    width: 724px;
+}
+div.fileRow div
+{
+    float: left;
+}
+div.fileRow
+{
+    padding: 5px 7px;
+    z-index: 100;
+    list-style: none outside none;
+    border: 1px solid #FFF;
+}
+div.even
+{
+    border: 1px solid #EDF6FD;
+}
+div.fileRow, div.fileRow a, div.fileRow span, div.fileRow div, div.fileRow input
+{
+    outline: none;
+}
+div.row-over, div.row-selected
+{
+    background-color: #DAE8F3;
+    border: 1px solid #DAE8F3;
+}
+div.row-selected
+{
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    MozUserSelect:none
+}
+div.may-row-to
+{
+    background-color: #FFC;
+}
+div.row-to
+{
+    background-color: #DAF2E2;
+    border: 1px solid #98BCA1;
+}
+#files_mainContent
+{
+    min-height: 355px;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #589EC0 #fff #fff;
+}
+#emptyScreen
+{
+    border: 1px solid #fff;
+}
+#files_mainContent.selected, #emptyScreen.selected
+{
+    border: 1px dotted #a1a1a1;
+}
+div.fileRow div.folder-file
+{
+    width: 32px;
+    height: 32px;
+    margin: 3px 12px 0 3px;
+    position:relative;
+}
+div.fileRow div.sub-folder
+{
+    background: url("images/content_folder.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    margin: 3px 12px 0 3px;
+}
+div.fileInfo
+{
+    color: #787878;
+    font-family: Arial;
+    font-size: 10px;
+}
+div.fileInfo.markForMe
+{
+    margin-left:-4px;
+}
+div.fileInfo.markForMe span.ownerSpan
+{
+    
+    background-color: #8BA149;
+    border: 1px solid #8BA149;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    margin-right: -4px;
+    padding: 0 3px 0 4px;
+    
+    
+    
+    
+    background-color: #8BA149;
+    border: 1px solid #8BA149;
+    color: #FFFFFF;
+    margin-right: -4px;
+    padding: 0 3px 0 4px;    
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+div.fileRow div.checkbox
+{
+    width: 36px;
+    margin: 8px 0px 0 0;
+}
+div.fileRow.newFolder div.checkbox, div.fileRow.newFile div.checkbox, div.fileRow.rowRename div.checkbox
+{
+    visibility: hidden;
+}
+div.fileRow.checkloading.newFolder div.checkbox, div.fileRow.checkloading.newFile div.checkbox, div.fileRow.checkloading.rowRename div.checkbox
+{
+    visibility: visible;
+}
+div.fileRow.checkloading.newFolder div.fileName, div.fileRow.checkloading.newFile div.fileName, div.fileRow.checkloading.rowRename div.fileName
+{
+    margin: 6px 0 10px;
+}
+div.fileRow div.combobox
+{
+    padding: 2px;
+    background: url("images/back-combo.png") no-repeat scroll transparent;
+    cursor: pointer;
+    width: 30px;
+}
+* + html div.fileRow div.combobox input
+{
+    padding: 0px;
+    margin: -1px 0 0 0;
+}
+div.fileRow div.combobox div.combobtn
+{
+    background: url("images/combobox.png") no-repeat scroll 0 4px transparent;
+    width: 9px;
+    height: 18px;
+    margin: 0 1px 0 -1px;
+    cursor: pointer;
+    float: right;
+}
+div.fileRow div.no_combobox
+{
+    padding: 2px;
+    cursor: pointer;
+}
+div.fileRow div.no_combobox div.combobtn
+{
+    width: 9px;
+    height: 18px;
+    margin: 0 1px 0 -1px;
+    cursor: pointer;
+    float: right;
+}
+div.fileRow div.fileName
+{
+    float: none;
+    margin-bottom: 3px;
+    z-index: 90;
+    color: #333333;
+    font-family: Arial;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 465px;
+}
+div.fileRow div.fileName a
+{
+    cursor: pointer;
+    color: #333333;
+    font-family: Arial;
+    font-size: 18px;
+    text-decoration: none;
+    outline: none;
+}
+div.fileRow div.fileName a:hover
+{
+    text-decoration: underline;
+}
+div#files_mainContent div.fileRow input.renameInput
+{
+    width: 530px;
+    font-size: 16px;
+    height: 18px;
+    cursor: text;
+    color: #333333;
+    font-family: Arial;
+}
+div#files_mainContent div.newFolder input.renameInput, div#files_mainContent div.newFile input.renameInput, div#files_mainContent div.rowRename input.renameInput
+{
+    margin: 8px 0 5px;
+}
+div.newFolder div.apllyName, div.newFile div.apllyName, div.rowRename div.apllyName
+{
+    background: url("images/d.png") no-repeat scroll 0 -55px transparent;
+    height: 16px;
+    width: 17px;
+    margin: 10px 0 0 4px;
+    cursor: pointer;
+}
+div.newFolder div.cancelName, div.newFile div.cancelName, div.rowRename div.cancelName
+{
+    background: url("images/d.png") no-repeat scroll -19px -55px transparent;
+    height: 16px;
+    width: 17px;
+    margin: 10px 0 0 4px;
+    cursor: pointer;
+}
+div.folderRow div.fileName div.name,
+div.folderRow div.fileName,
+div.rowRename div.fileName div.name,
+div.rowRename div.fileName
+{
+    width: 550px !important;
+    max-width: 550px !important;
+}
+div.fileRow div.fileName div.name
+{
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 400px;
+}
+div.fileRow.cannotEdit div.fileName
+{
+    width: 585px;
+}
+div.fileRow.cannotEdit div.fileName div.name
+{
+    max-width: 520px;
+}
+div.rowRename div.fileName a.name,
+div.rowRename div.parameter,
+div.rowRename div.fileInfo,
+div.rowRename div.fileEdit,
+div.rowRename div.fileEditing
+{
+    display: none !important;
+}
+div.fileRow div.version
+{
+    background-color: #4AA4BB;
+    font-size: 10px !important;
+    color: #FFF !important;
+    padding: 0 2px;
+    margin: 5px 0 0 2px;
+    text-decoration: none !important;
+    cursor: pointer;
+    max-width: 42px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+div.fileRow.rowRename div.version
+{
+    display: none;
+}
+div.fileRow div.is_new
+{
+    background-color: #E35413;
+    font-size: 10px !important;
+    color: #FFF !important;
+    cursor: default;
+    padding: 0 2px;
+    margin: 5px 0 0 2px;
+    text-decoration: none !important;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+div.fileRow div.fileInfo
+{
+    cursor: default;
+    float: none;
+    z-index: 90;
+    width: 445px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+div.folderRow div.fileInfo, div.fileRow.cannotEdit div.fileInfo
+{
+    width: 550px;
+}
+div.fileRow div.fileInfo span.create_by
+{
+    display: inline-block;
+    max-width: 220px;
+    overflow: hidden;
+    vertical-align: bottom;
+}
+div.fileRow.cannotEdit div.fileInfo span.create_by
+{
+    max-width:300px;
+}
+div.fileRow.newFolder div.fileInfo,
+div.fileRow.newFile div.fileInfo,
+div.fileRow.newFile div.fileEdit,
+div.fileRow.newFile div.fileEditing
+{
+    display: none;
+}
+div.fileEdit,
+div.fileEditing
+{
+    float: right !important;
+    padding-top: 7px;
+    display: none;
+}
+div.fileEdit a,
+div.fileEditing a
+{
+    border: 1px solid #FFF;
+    color: #90959A;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 110px;
+    overflow: hidden;
+    padding: 4px 14px 2px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+div.fileEditing a
+{
+    cursor:default;
+}
+.even div.fileEdit a,
+.even div.fileEditing a
+{
+    border-color:#EDF6FD;
+}
+.row-selected div.fileEdit a,
+.row-selected div.fileEditing a
+{
+    border-color:#DAE8F3;
+}
+div.fileRow.row-over div.fileEdit a
+{
+    border-color:#CCC;
+    background: url("images/button_grey_bg.gif") repeat-x center top transparent;
+    color:#333;
+}
+div.fileRow.row-over div.fileEditing a
+{
+    border-color:#DAE8f3;
+}
+div.fileRow.row-over div.fileEdit a:hover
+{
+    background-image: url("images/button_grey_over_bg.gif");
+}
+#files_mainContent .folder-file
+{
+    background: url("images/filetype/file_na.png") no-repeat;
+}
+#files_mainContent .sub-folder
+{
+    background: url("images/content_folder.png") no-repeat;
+}
+div.folder-file div.share_file_icn,
+div.sub-folder div.share_file_icn,
+div.folderBigIcon div.share_file_icn
+{
+    background: url("images/shared.png") no-repeat right bottom transparent;
+    float: right;
+    height: 16px;
+    margin-top: 17px;
+    width: 16px;
+    display:none;
+}
+div.sub-folder div.share_file_icn
+{
+    margin-top: 14px;
+}
+div.folderBigIcon div.share_file_icn
+{
+    margin-top: 13px;
+}
+div.folder-file div.editing_file_icn
+{
+    background: url("images/pencil.png") no-repeat right bottom transparent;
+    display: none;
+    height: 16px;
+    margin-top: 16px;
+    position: absolute;
+    right: 0;
+    width: 16px;
+}
+/*************************************************************
+    thumbnail
+*************************************************************/
+/*#files_mainContent.thumbnails, #files_moving.thumbnails
+{
+    margin: 0 -2px;
+}
+#files_mainContent.thumbnails div.sub-info, #files_mainContent.thumbnails div.file-info, #files_moving.thumbnails div.file-info
+{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 220px;
+}
+#files_mainContent.thumbnails div.rowRename div.sub-info, #files_mainContent.thumbnails div.newFolder div.sub-info, #files_mainContent.thumbnails div.rowRename div.file-info, #files_mainContent.thumbnails div.newFile div.file-info
+{
+    width: 180px;
+}
+#files_mainContent.thumbnails div.renameAction
+{
+    margin-top: 10px;
+}
+#files_mainContent.thumbnails div.even
+{
+    background-color: White;
+}
+#files_mainContent.thumbnails div.row-over
+{
+    background-color: #FFF;
+}
+#files_mainContent.thumbnails div.row-over.row-selected
+{
+    background-color: #C2DFED;
+}
+div.thumbnails.selected
+{
+    border-style: dotted none;
+}
+#files_mainContent.thumbnails div.fileRow, #files_moving.thumbnails div.fileRow
+{
+    padding: 9px;
+    width: 224px;
+    height: 270px;
+    z-index: 90;
+    border: 0px solid #fff;
+    vertical-align: top;
+    float: left;
+    position: relative;
+}
+#files_mainContent.thumbnails div.fileRow div.checkbox, #files_moving.thumbnails div.fileRow div.checkbox
+{
+    margin: 1px;
+    position: absolute;
+}
+#files_mainContent.thumbnails div.fileRow div.fileName, #files_moving.thumbnails div.fileRow div.fileName
+{
+    float: none;
+    margin: 10px 0 3px 0;
+    z-index: 90;
+    color: #333333;
+    font-family: Arial;
+    font-size: 18px;
+    max-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#files_mainContent.thumbnails div.fileRow div.fileInfo, #files_moving.thumbnails div.fileRow div.fileInfo
+{
+    min-width: 0px;
+    overflow: hidden;
+    min-width: 0px;
+}
+#files_mainContent.thumbnails div.fileRow div.fileName a, #files_moving.thumbnails div.fileRow div.fileName a
+{
+    color: #333333;
+    font-family: Arial;
+    font-size: 12px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+div#files_mainContent.thumbnails div.fileRow input.renameInput
+{
+    font-size: 13px;
+    font-weight: bold;
+    width: 175px !important;
+}
+#files_mainContent.thumbnails div.folder_thumbnail, #files_moving.thumbnails div.folder_thumbnail
+{
+    background: url("images/folder_thumb.png") no-repeat 50% 50%;
+}
+#files_mainContent.thumbnails div.file_thumbnail, #files_moving.thumbnails div.file_thumbnail
+{
+    background: url("images/filetype/thumb_file_na.png") no-repeat 50% 50%;
+}
+#files_mainContent.thumbnails div.file_thumbnail, #files_mainContent.thumbnails div.folder_thumbnail, #files_moving.thumbnails div.file_thumbnail, #files_moving.thumbnails div.folder_thumbnail
+{
+    cursor: pointer;
+    border: 2px solid #D7D8DC;
+    width: 220px;
+    height: 220px;
+    float: none;
+}
+#files_mainContent.thumbnails .row-over div.folder_thumbnail, #files_moving.thumbnails .row-over div.folder_thumbnail, #files_mainContent.thumbnails .row-over div.file_thumbnail, #files_moving.thumbnails .row-over div.file_thumbnail
+{
+    border: 2px solid #589EC0;
+}
+#files_mainContent.thumbnails div.editing_file_icn, #files_moving.thumbnails div.editing_file_icn
+{
+    display: none;
+    background: url("images/pencil.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    float: right;
+}
+a.file_thumbnail_fileName, a.file_thumbnail_fileName:hover
+{
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 18px;
+    color: #323232;
+    text-decoration: none;
+}*/
+/*******************************************************************************
+   emptyScreen
+*******************************************************************************/
+div.pager_show_more
+{
+    display: none;
+    padding-top: 20px;
+    text-align: center;
+}
+.noContentBlock
+{
+    padding: 75px;
+    display: none;
+}
+div.clear_filter
+{
+    padding-bottom: 30px;
+}
+div.drag_drop_image
+{
+    background: url("images/empty_screen.png") no-repeat;
+    height: 136px;
+    width: 322px;
+    display: inline-block;
+    margin-top: -40px;
+    padding-bottom: 40px;
+}
+/*******************************************************************************
+    Mouse moving
+*******************************************************************************/
+#files_moving
+{
+    cursor: move;
+}
+#files_moving, #ie#fix
+{
+    cursor: alias;
+}
+* + html #files_moving
+{
+    cursor: move;
+}
+#files_moving.copy
+{
+    cursor: copy;
+}
+#files_moving.copy, #ie#fix
+{
+    cursor: crosshair;
+}
+#files_moving div.fileRow div.fileEdit,
+#files_moving div.fileRow div.fileEditing
+{
+    display: none !important;
+}
+* + html #files_moving.copy
+{
+    cursor: copy;
+}
+#files_moving_tooltip
+{
+    border: 1px solid #D1D1D1;
+    background-color: #FDF9C9;
+    position: absolute;
+    z-index: 301;
+    display: block;
+    color: #333333;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: move;
+    height: auto;
+}
+#files_moving_tooltip, #ie#fix
+{
+    cursor: alias;
+}
+* + html #files_moving_tooltip
+{
+    cursor: move;
+}
+/*******************************************************************************
+     Action panel
+*******************************************************************************/
+li.files_delete_button a
+{
+    background-image: url("images/delete.png");
+}
+li.files_open_files a
+{
+    background-image: url("images/preview.png");
+}
+li.files_edit_files a
+{
+    background-image: url("images/edit_action.png");
+}
+li.files_editOO_files a
+{
+    background-image: url("images/oo.png");
+}
+li.files_getlink_files a
+{
+    background-image: url("images/link.png");
+}
+li.files_uploads_files a
+{
+    background-image: url("images/update.png");
+}
+li.files_versions_files a
+{
+    background-image: url("images/show_ver.png");
+}
+li.files_download_button a
+{
+    background-image: url("images/download_action.png");
+}
+li.files_moveto_button a
+{
+    background-image: url("images/move.png");
+}
+li.files_share_button a
+{
+    background-image: url("images/share_actions.png");
+}
+
+/*******************************************************************************
+     Dialog window
+*******************************************************************************/
+
+div.files_remove_list
+{
+    border: 1px solid #D1D1D1;
+    line-height: 20px;
+    margin: 15px 0 0;
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0 15px 15px;
+}
+dd.confirmRemoveFolders, dd.confirmRemoveFiles
+{
+    padding: 10px 0 0 80px;
+}
+dd.confirmRemoveFiles div
+{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 270px;
+}
+dt.confirmRemoveFolders, dt.confirmRemoveFiles
+{
+    float: left;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: right;
+    width: 70px;
+}
+ul.files_overwrite_list
+{
+    border: 1px solid #D1D1D1;
+    line-height: 20px;
+    list-style-type: none;
+    margin: 15px 0 0;
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 15px;
+}
+ul.files_overwrite_list li
+{
+    width: 330px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+input.getLink_text
+{
+    color: #777;
+    margin: 10px 15px 25px 0;
+    padding: 2px 8px;
+    width: 290px;
+}
+input.getLink_text:focus
+{
+    border-color:#C7C7C7;
+}
+
+/*******************************************************************************
+     Progress
+*******************************************************************************/
+#files_bottom_loader
+{
+    background-color: #FFF;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    position: fixed;
+    width: 200px;
+    z-index: 200;
+}
+div.files_progress_box .terminateTasks
+{
+    background: url("images/cross.png") no-repeat;
+    cursor: pointer;
+    float: right;
+    height: 9px;
+    margin-right: -20px;
+    width: 9px;
+}
+
+/*******************************************************************************
+    versions
+*******************************************************************************/
+div.versionsRow
+{
+    border-top: 1px solid #FFF;
+    width: 100%;
+    margin-top: 10px;
+}
+div.versions_btn
+{
+    margin: 15px 0 0 5px;
+}
+span.versionsTitle
+{
+    color: #111111;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 10px 5px 5px 5px;
+}
+div.headerTableVersions
+{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #d1d1d1;
+    color: #787878;
+}
+div.headerTableVersions div
+{
+    float:left;
+}
+div.headerTableVersions .VersionNum
+{
+    width:70px; 
+    text-align:center;
+}
+div.headerTableVersions .Author
+{
+    width:255px;
+}
+div.headerTableVersions .DateTime
+{
+    width:140px;
+}
+div.headerTableVersions .Size
+{
+    width:110px;
+}
+div.headerTableVersions .Action
+{
+    float:right; 
+    width:100px; 
+    text-align:right; 
+    padding-right:10px;
+}
+div.versionRow
+{
+    border-bottom: 1px solid #D1D1D1;
+    color: #323232;
+    height: 16px;
+    padding: 8px 0;
+    width: 100%;
+}
+div.versionRow a
+{
+    color: #323232;
+}
+div.version_num
+{
+    float:left; 
+    width:70px; 
+    text-align:center;
+}
+div.version_datetime
+{
+    float:left;
+    width:140px;
+}
+div.version_size
+{
+    float:left;
+    width:110px;
+}
+div.version_author
+{
+    float:left;
+    max-width:240px;
+    margin-right:5px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.versionRow div.version_restore
+{
+    float: right;
+    max-width: 130px;
+    text-align: right;
+    padding-right: 10px;
+}
+div.version_restore a
+{
+    cursor: pointer;
+    font-size: 11px;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+div.version_restore a:hover
+{
+    border-bottom: 1px none;
+}
+.versionRow .version_restore div
+{
+    cursor: pointer;
+    display:none;
+    height:16px;
+    width:16px;
+    margin-right:8px;
+}
+.versionRow .version_restore .downloadVersion
+{
+    background-image: url("images/download_action.png");
+}
+.versionRow .version_restore .previewVersion
+{
+    background-image: url("images/preview.png");
+}
+.versionRow.actionRow .downloadVersion,
+.versionRow.actionRow .previewVersion
+{
+    display:block;
+}
+.notPreview .versionRow .previewVersion
+{
+    display:none;
+}
+div.tableVersionRow
+{
+    display:none;
+}

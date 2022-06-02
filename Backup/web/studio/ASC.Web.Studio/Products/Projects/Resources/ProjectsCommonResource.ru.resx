@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About">
+    <value>Помощь</value>
+  </data>
+  <data name="Action">
+    <value>Действие</value>
+  </data>
+  <data name="ActionText_Add">
+    <value>Добавлен</value>
+  </data>
+  <data name="Add">
+    <value>Добавить</value>
+  </data>
+  <data name="AddComment">
+    <value>Добавить Комментарий</value>
+  </data>
+  <data name="AddTime">
+    <value>Добавить время</value>
+  </data>
+  <data name="All">
+    <value>Все</value>
+  </data>
+  <data name="AllDepartments">
+    <value>Все {!groups}</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>Всех участников проекта</value>
+  </data>
+  <data name="AllUsers">
+    <value>Все {!users}</value>
+  </data>
+  <data name="Apply">
+    <value>Применить</value>
+  </data>
+  <data name="Author">
+    <value>Автор</value>
+  </data>
+  <data name="AutoTimer">
+    <value>Запустить/Остановить таймер</value>
+  </data>
+  <data name="AutoTimerChangeViewType">
+    <value>Изменить вид</value>
+  </data>
+  <data name="AutoTimerFirstViewType">
+    <value>(час:мин:сек)</value>
+  </data>
+  <data name="AutoTimerLogHours">
+    <value>Добавить время</value>
+  </data>
+  <data name="AutoTimerNullTimeError">
+    <value>Нельзя добавлять нулевое время</value>
+  </data>
+  <data name="AutoTimerPause">
+    <value>Пауза</value>
+  </data>
+  <data name="AutoTimerReset">
+    <value>Сброс</value>
+  </data>
+  <data name="AutoTimerSecondViewType">
+    <value>(часов)</value>
+  </data>
+  <data name="AutoTimerStart">
+    <value>Старт</value>
+  </data>
+  <data name="Calendar">
+    <value>Календарь</value>
+  </data>
+  <data name="Cancel">
+    <value>Отмена</value>
+  </data>
+  <data name="ChangesSaved">
+    <value>Изменения сохранены</value>
+  </data>
+  <data name="ChooseaFileToUpload">
+    <value>Выберите файл для загрузки</value>
+  </data>
+  <data name="Collapse">
+    <value>Скрыть</value>
+  </data>
+  <data name="Comment">
+    <value>Комментарий</value>
+  </data>
+  <data name="Complete">
+    <value>Завершить</value>
+  </data>
+  <data name="ConfirmEmailNotify">
+    <value>Да, оповестить всех подписчиков об изменениях по email.</value>
+  </data>
+  <data name="CustomizeDashboardLink">
+    <value>Настроить виджеты</value>
+  </data>
+  <data name="CustomizeWidgets">
+    <value>Настроить виджеты</value>
+  </data>
+  <data name="Dashboard">
+    <value>Главная</value>
+  </data>
+  <data name="Date">
+    <value>Дата</value>
+  </data>
+  <data name="Delete">
+    <value>Удалить</value>
+  </data>
+  <data name="Edit">
+    <value>Отредактировать</value>
+  </data>
+  <data name="Employees">
+    <value>{!Users}</value>
+  </data>
+  <data name="Expand">
+    <value>Показать</value>
+  </data>
+  <data name="FollowingProjectsWidget_Description">
+    <value>показывает отслеживаемые проекты</value>
+  </data>
+  <data name="FollowingProjectsWidget_EmptyString">
+    <value>Нет отслеживаемых проектов</value>
+  </data>
+  <data name="FollowingProjectsWidget_ErrorMessage">
+    <value>Некорректное число проектов</value>
+  </data>
+  <data name="FollowingProjectsWidget_Title">
+    <value>Число отображаемых проектов (от 1 до 30)</value>
+  </data>
+  <data name="History">
+    <value>История</value>
+  </data>
+  <data name="Hours">
+    <value>часов</value>
+  </data>
+  <data name="HoursCount">
+    <value>Часы</value>
+  </data>
+  <data name="In">
+    <value>в</value>
+  </data>
+  <data name="Late">
+    <value>Просроченные</value>
+  </data>
+  <data name="LearnMore">
+    <value>Узнать больше</value>
+  </data>
+  <data name="LogTime">
+    <value>Добавить время</value>
+  </data>
+  <data name="MessagesWidget_Description">
+    <value>показывает последние сообщения</value>
+  </data>
+  <data name="MessagesWidget_ErrorMessage">
+    <value>Некорректное число сообщений</value>
+  </data>
+  <data name="MessagesWidget_Title">
+    <value>Число отображаемых сообщений (от 1 до 30)</value>
+  </data>
+  <data name="MessageWidget_EmptyString">
+    <value>Ни одной дискуссии не начато</value>
+  </data>
+  <data name="MilestonesWidget_CountMilestones_Title">
+    <value>Число отображаемых вех (от 1 до 30)</value>
+  </data>
+  <data name="MilestonesWidget_ErrorMessage">
+    <value>Некорректное число вех</value>
+  </data>
+  <data name="MilestonesWidget_Overdue_Description">
+    <value>показывает просроченные вехи</value>
+  </data>
+  <data name="MilestonesWidget_ShowLate_Title">
+    <value>Показывать просроченные вехи</value>
+  </data>
+  <data name="MilestonesWidget_Upcoming_Description">
+    <value>показывает приближающиеся вехи</value>
+  </data>
+  <data name="ModuleName">
+    <value>Проекты</value>
+  </data>
+  <data name="MoveTo">
+    <value>Переместить в</value>
+  </data>
+  <data name="MoveToTrash">
+    <value>Удалить</value>
+  </data>
+  <data name="MyNewTasksWidget_EmptyString">
+    <value>У Вас нет ни одной задачи</value>
+  </data>
+  <data name="MyProjectsWidget_Description">
+    <value>показывает проекты, в которых Вы участвуете</value>
+  </data>
+  <data name="MyProjectsWidget_EmptyString">
+    <value>Вы не принимаете участие ни в одном проекте.</value>
+  </data>
+  <data name="MyProjectsWidget_ErrorMessage">
+    <value>Некорректное число проектов</value>
+  </data>
+  <data name="MyProjectsWidget_Title">
+    <value>Число отображаемых проектов (от 1 до 30)</value>
+  </data>
+  <data name="MyTasksWidget_Description">
+    <value>показывает Ваши активные задачи</value>
+  </data>
+  <data name="MyTasksWidget_ErrorMessage">
+    <value>Некорректное число задач</value>
+  </data>
+  <data name="MyTasksWidget_Title">
+    <value>Число отображаемых задач (от 1 до 30)</value>
+  </data>
+  <data name="NewCommentForMessage">
+    <value>Новые комментарии в обсуждениях</value>
+  </data>
+  <data name="NewCommentForMilestone">
+    <value>Новые комментарии в вехах</value>
+  </data>
+  <data name="NewCommentForTask">
+    <value>Новые комментарии в задачах</value>
+  </data>
+  <data name="NewProjectsWidget_Description">
+    <value>показывает новые проекты</value>
+  </data>
+  <data name="NewProjectsWidget_EmptyString">
+    <value>Ни одного проекта не добавлено</value>
+  </data>
+  <data name="NewProjectsWidget_ErrorMessage">
+    <value>Некорректное число проектов</value>
+  </data>
+  <data name="NewProjectsWidget_Title">
+    <value>Число отображаемых проектов (от 1 до 30)</value>
+  </data>
+  <data name="NewsTitle">
+    <value>Название</value>
+  </data>
+  <data name="NextMonth">
+    <value>Следующий месяц</value>
+  </data>
+  <data name="NoData">
+    <value>Данные отсутствуют</value>
+  </data>
+  <data name="NothingHasBeenFound">
+    <value>Ничего не найдено</value>
+  </data>
+  <data name="NotifyPeopleViaEmail">
+    <value>Оповестить</value>
+  </data>
+  <data name="Or">
+    <value>или</value>
+  </data>
+  <data name="PepleSubscribedToMessage">
+    <value>Люди, подписанные на обсуждение</value>
+  </data>
+  <data name="Position">
+    <value>Должность</value>
+  </data>
+  <data name="Preview">
+    <value>Передпросмотр</value>
+  </data>
+  <data name="PrevMonth">
+    <value>Предыдущий месяц</value>
+  </data>
+  <data name="ProductDescription">
+    <value>Формируйте команды и назначайте задачи. Планируйте вехи проектов, отслеживайте активность в рамках проекта и генерируйте отчеты.</value>
+  </data>
+  <data name="ProductName">
+    <value>Проекты</value>
+  </data>
+  <data name="RecentActivity">
+    <value>Последняя активность</value>
+  </data>
+  <data name="RecentActivityContainerTitle">
+    <value>Активность</value>
+  </data>
+  <data name="RecentActivityWidget_Description">
+    <value>показывает последнюю активность во всех проектах</value>
+  </data>
+  <data name="RecentActivityWidget_EmptyString">
+    <value>Ничего не происходило</value>
+  </data>
+  <data name="RecentActivityWidget_ErrorMessage">
+    <value>Некорректное число действий</value>
+  </data>
+  <data name="RecentActivityWidget_Title">
+    <value>Число отображаемых действий (от 1 до 30)</value>
+  </data>
+  <data name="Save">
+    <value>Сохранить</value>
+  </data>
+  <data name="SaveChanges">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="Saving">
+    <value>Сохранение...</value>
+  </data>
+  <data name="ScreenBlock_Content">
+    <value>Следуйте 6-ти простым шагам для эффективного управления Вашим проектом</value>
+  </data>
+  <data name="ScreenBlock1_Content">
+    <value>Добавьте описание и менеджера проекта</value>
+  </data>
+  <data name="ScreenBlock1_Header">
+    <value>Создайте проект</value>
+  </data>
+  <data name="ScreenBlock2_Content">
+    <value>Работайте над проектом сообща</value>
+  </data>
+  <data name="ScreenBlock2_Header">
+    <value>Управляйте Вашей командой</value>
+  </data>
+  <data name="ScreenBlock3_Content">
+    <value>Наблюдайте за прогрессом Вашего проекта</value>
+  </data>
+  <data name="ScreenBlock3_Header">
+    <value>Планируйте вехи</value>
+  </data>
+  <data name="ScreenBlock4_Content">
+    <value>Разделяйте задачи между участниками</value>
+  </data>
+  <data name="ScreenBlock4_Header">
+    <value>Назначайте задачи</value>
+  </data>
+  <data name="ScreenBlock5_Content">
+    <value>Обменивайтесь информацией с командой</value>
+  </data>
+  <data name="ScreenBlock5_Header">
+    <value>Начните обсуждение</value>
+  </data>
+  <data name="ScreenBlock6_Content">
+    <value>Составляйте отчеты о выполнении проекта</value>
+  </data>
+  <data name="ScreenBlock6_Header">
+    <value>Составляйте отчёты</value>
+  </data>
+  <data name="SearchResults">
+    <value>Результаты поиска: "{0}"</value>
+  </data>
+  <data name="SearchText">
+    <value>Поиск</value>
+  </data>
+  <data name="Show">
+    <value>Показать</value>
+  </data>
+  <data name="ShowAllResults">
+    <value>Показать все результаты</value>
+  </data>
+  <data name="ShowOnlyForMyProjects">
+    <value>Показать только для моих проектов и проектов, за которыми я слежу</value>
+  </data>
+  <data name="SortBy">
+    <value>Сортировать по:</value>
+  </data>
+  <data name="SpentTotally">
+    <value>Затрачено времени</value>
+  </data>
+  <data name="StartURL">
+    <value>~/Products/Projects/</value>
+  </data>
+  <data name="Status">
+    <value>Статус</value>
+  </data>
+  <data name="SubscribeOnNewComment">
+    <value>Подписаться на комментарии</value>
+  </data>
+  <data name="Time">
+    <value>Время</value>
+  </data>
+  <data name="TimeTracking">
+    <value>Учет времени</value>
+  </data>
+  <data name="Title">
+    <value>Название</value>
+  </data>
+  <data name="Today">
+    <value>Сегодня</value>
+  </data>
+  <data name="Total">
+    <value>Всего</value>
+  </data>
+  <data name="TotalFound">
+    <value>Всего найдено</value>
+  </data>
+  <data name="TotalOnPage">
+    <value>Всего на странице</value>
+  </data>
+  <data name="ToTrash">
+    <value>В корзину</value>
+  </data>
+  <data name="Type">
+    <value>Тип</value>
+  </data>
+  <data name="UnSubscribeOnNewComment">
+    <value>Отписаться от комментариев</value>
+  </data>
+  <data name="UpcomingMilestonesWidget_EmptyString">
+    <value>Ни одной вехи не добавлено</value>
+  </data>
+  <data name="UploadTheFile">
+    <value>Загрузить файл</value>
+  </data>
+  <data name="UploadTheNewVersion">
+    <value>Обновить версию файла</value>
+  </data>
+  <data name="UpToDate">
+    <value>До даты</value>
+  </data>
+  <data name="With">
+    <value>содержит</value>
+  </data>
+  <data name="WithSelected">
+    <value>C выбранным ...</value>
+  </data>
+  <data name="Yesterday">
+    <value>Вчера</value>
+  </data>
+</root>

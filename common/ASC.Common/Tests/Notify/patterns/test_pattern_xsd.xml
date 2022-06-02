@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pt:catalog xmlns:pt="urn:asc.notify.pattern.xsd">
+  <block >
+    <formatter type="ASC.Notify.Patterns.ReplacePatternFormatter, ASC.Common"/>
+    <patterns>
+      <pattern id="12">
+        <subject><![CDATA[112222<>ASD,>...]]></subject>
+        <body><![CDATA[ А вот это тело шаблона может быть каким угодно <>sdfSDf,.d %%7???     ]]></body>
+        <useTags>
+          <tag name="username"/>
+        </useTags>
+      </pattern>
+      <pattern id="21" name="n" contentType="rtf">
+        <subject >пиво</subject>
+        <body >тело пиво </body>
+      </pattern>
+    </patterns>
+  </block>
+  <block contentType="html">
+    <formatter type="ASC.Notify.Patterns.DummyPatternFormatter, ASC.Common"/>
+    <patterns>
+      <pattern id="1">
+        <subject>1</subject>
+        <body>2</body>
+      </pattern>
+    </patterns>
+  </block>
+  <block>
+    <formatter type="ASC.Notify.Patterns.XsltPatternFormatter, ASC.Common"/>
+  </block>
+</pt:catalog>
+

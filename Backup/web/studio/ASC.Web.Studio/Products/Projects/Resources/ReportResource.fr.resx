@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions">
+    <value>Actions</value>
+  </data>
+  <data name="ActiveTasks">
+    <value>Tâches actives</value>
+  </data>
+  <data name="ActiveTaskStatus">
+    <value>En cours d'exécution</value>
+  </data>
+  <data name="AdditionalOptions">
+    <value>Options supplémentaires</value>
+  </data>
+  <data name="AllPeopleInProject">
+    <value>Tous les membres du projet</value>
+  </data>
+  <data name="Any">
+    <value>N'importe quel</value>
+  </data>
+  <data name="AnyType">
+    <value>N'importe quel type</value>
+  </data>
+  <data name="ApplyFilter">
+    <value>Appliquer</value>
+  </data>
+  <data name="At">
+    <value>à</value>
+  </data>
+  <data name="AutogenReports">
+    <value>Rapports générés automatiquement</value>
+  </data>
+  <data name="AutomaticallyGenerate">
+    <value>Générer un tel rapport automatiquement</value>
+  </data>
+  <data name="BuildingReport">
+    <value>Création du rapport en cours...</value>
+  </data>
+  <data name="Category">
+    <value>Catégorie</value>
+  </data>
+  <data name="ChangeFilterData">
+    <value>Modifier le filtre du rapport</value>
+  </data>
+  <data name="ChangeSettings">
+    <value>modifier les paramètres de rapport</value>
+  </data>
+  <data name="ChooseDate">
+    <value>Sélectionner date</value>
+  </data>
+  <data name="ChooseReportType">
+    <value>Sélectionner type de rapport</value>
+  </data>
+  <data name="ChooseTemplate">
+    <value>Sélectionner modèle</value>
+  </data>
+  <data name="ChooseTimeInterval">
+    <value>Période de temps</value>
+  </data>
+  <data name="ClearAllTemplates">
+    <value>Effacer tous les modèles</value>
+  </data>
+  <data name="ClearReportHistory">
+    <value>Effacer l'historique de rapports</value>
+  </data>
+  <data name="ClickToSortByThisColumn">
+    <value>Cliquez pour trier par cette colonne</value>
+  </data>
+  <data name="ClosedTaskStatus">
+    <value>Fermées</value>
+  </data>
+  <data name="CreateNewReport">
+    <value>Créer nouveau rapport</value>
+  </data>
+  <data name="CrteateTemplate">
+    <value>Créer modèle</value>
+  </data>
+  <data name="CsvColumnMilestoneDeadline">
+    <value>Date limite du jalon</value>
+  </data>
+  <data name="CsvColumnMilestoneStatus">
+    <value>Etat du jalon</value>
+  </data>
+  <data name="CsvColumnMilestoneTitle">
+    <value>Nom du jalon</value>
+  </data>
+  <data name="CsvColumnProjectjTitle">
+    <value>Nom du projet</value>
+  </data>
+  <data name="CsvColumnTaskDueDate">
+    <value>Date limite de la tâche</value>
+  </data>
+  <data name="CsvColumnTaskStatus">
+    <value>Etat de la tâche</value>
+  </data>
+  <data name="CsvColumnTaskTitle">
+    <value>Nom de la tâche</value>
+  </data>
+  <data name="CsvColumnUserName">
+    <value>Nom d'utilisateur</value>
+  </data>
+  <data name="DaleteAllAutogen">
+    <value>Effacer tous les rapports générés automatiquement</value>
+  </data>
+  <data name="DeadLine">
+    <value>Date limite</value>
+  </data>
+  <data name="DeleteAllTemplates">
+    <value>Supprimer tous les modèles</value>
+  </data>
+  <data name="Department">
+    <value>{!Group}</value>
+  </data>
+  <data name="Edit">
+    <value>Modifier</value>
+  </data>
+  <data name="EditTemplate">
+    <value>Modifier modèle</value>
+  </data>
+  <data name="Empty">
+    <value>Aucun modèle n'a été trouvé</value>
+  </data>
+  <data name="EmptyTemplateTitle">
+    <value>Tout modèle doit avoir un nom</value>
+  </data>
+  <data name="EveryDay">
+    <value>Chaque jour</value>
+  </data>
+  <data name="EveryMonth">
+    <value>Chaque mois</value>
+  </data>
+  <data name="EveryWeek">
+    <value>Chaque semaine</value>
+  </data>
+  <data name="EveryYear">
+    <value>Chaque année</value>
+  </data>
+  <data name="ExportToCSV">
+    <value>Exporter au format CSV</value>
+  </data>
+  <data name="ExportToHTML">
+    <value>Exporter en HTML</value>
+  </data>
+  <data name="ExportToXML">
+    <value>Exporter en XML</value>
+  </data>
+  <data name="Filter">
+    <value>Filtre</value>
+  </data>
+  <data name="From">
+    <value>De</value>
+  </data>
+  <data name="Generate">
+    <value>Générer</value>
+  </data>
+  <data name="GenerateFromTemplate">
+    <value>Générer depuis le modèle</value>
+  </data>
+  <data name="GenerateReport">
+    <value>Générer rapport</value>
+  </data>
+  <data name="GenerationDate">
+    <value>Date de génération</value>
+  </data>
+  <data name="LastMonth">
+    <value>Mois précédent</value>
+  </data>
+  <data name="LastWeek">
+    <value>Semaine précédente</value>
+  </data>
+  <data name="LastYear">
+    <value>Année précédente</value>
+  </data>
+  <data name="MainReportPage">
+    <value>Page principale de rapports</value>
+  </data>
+  <data name="MilestonesStatus">
+    <value>Statut de jalons</value>
+  </data>
+  <data name="MyTemplates">
+    <value>Mes modèles</value>
+  </data>
+  <data name="NoMilestonesAndTasks">
+    <value>Ce projet ne contient pas de jalons et de tâches</value>
+  </data>
+  <data name="Notification">
+    <value>Notification</value>
+  </data>
+  <data name="OrThePlannedDate">
+    <value>ou la date planifiée</value>
+  </data>
+  <data name="Other">
+    <value>Autre</value>
+  </data>
+  <data name="OutOfMilestone">
+    <value>Hors du jalon</value>
+  </data>
+  <data name="Participiants">
+    <value>Membres</value>
+  </data>
+  <data name="PepleSubscribedToReport">
+    <value>Les abonnés à informer</value>
+  </data>
+  <data name="PeriodOfGeneration">
+    <value>Temps de génération</value>
+  </data>
+  <data name="PrintReport">
+    <value>Imprimer rapport</value>
+  </data>
+  <data name="Project">
+    <value>Projet</value>
+  </data>
+  <data name="ProjectsStatus">
+    <value>Statut de projets</value>
+  </data>
+  <data name="ReportClosedTasks">
+    <value>Rapport sur les tâches fermées</value>
+  </data>
+  <data name="ReportCompletedTasks_InfoLine">
+    <value>Rapport généré: {0} {1} pour la période {2} - {3}</value>
+  </data>
+  <data name="ReportCompletedTasks_Title">
+    <value>Tâches terminées</value>
+  </data>
+  <data name="ReportDetailed_Title">
+    <value>Rapports détaillés</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Description">
+    <value>{0}{2}Le rapport Utilisateurs sans tâches actives affiche la liste des utilisateurs qui n'ont pas de tâches actives à ce moment-là.{3}{2}Pour visualiser tous les utilisateurs sans tâches actives à travers tous les projets, cliquez sur Générer rapport tout de suite.{3}{2}Pour sélectionner un groupe particulier ou vérifier un utilisateur particulier, d'abord configurez les paramètres de rapport dans la section Filtre et puis cliquez sur Générer rapport.{3}{1}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_InfoLine">
+    <value>Rapport généré: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployeesWithoutActiveTasks_Title">
+    <value>Utilisateurs sans tâches actives</value>
+  </data>
+  <data name="ReportEmployment_Description">
+    <value>{0}{2}Le rapport Charge de travail d'utilisateur affiche le nombre des tâches assignées à un utilisateur qui sont regroupées selon leur statut.{3}{2}Pour visualiser les données pour tous les utilisateurs de la société, cliquez sur Générer rapport tout de suite.{3}{2}Pour sélectionner un groupe ou un utilisateur particulier, d'abord configurez les paramètres de rapport dans la section Filtre et puis cliquez sur Générer rapport.{3}{1}</value>
+  </data>
+  <data name="ReportEmployment_InfoLine">
+    <value>Rapport généré: {0} {1} {2}</value>
+  </data>
+  <data name="ReportEmployment_Title">
+    <value>Charge de travail</value>
+  </data>
+  <data name="ReportHistory">
+    <value>Historique de rapports</value>
+  </data>
+  <data name="ReportLateMilestones_Description">
+    <value>{0}{2}Le rapport Jalons en retard affiche la liste des jalons en retard.{3}{2}Pour visualiser les jalons en retard à travers tous les projets, cliquez sur Générer rapport tout de suite.{3}{2}Pour visualiser les jalons en retard seulement pour un projet déterminé, d'abord sélectionnez le projet désirable depuis la liste déroulante de la section Filtre et puis cliquez sur Générer rapport.{3}{1}</value>
+  </data>
+  <data name="ReportLateMilestones_InfoLine">
+    <value>Rapport généré: {0} {1} {2}</value>
+  </data>
+  <data name="ReportLateMilestones_Title">
+    <value>Jalons en retard</value>
+  </data>
+  <data name="ReportLateTasks_Description">
+    <value>{0}{2}Le rapport Tâches en retard affiche la liste des tâches en retard.{3}{2}Pour visualiser les tâches en retard à travers tous les projets, cliquez sur le lien Générer rapport.{3}{2}Pour visualiser les tâches en retard seulement pour un projet déterminé, d'abord sélectionnez le projet désirable depuis la liste déroulante de la section Filtre et puis cliquez sur le lien Générer rapport.{3}{1}</value>
+  </data>
+  <data name="ReportLateTasks_Title">
+    <value>Tâches en retard</value>
+  </data>
+  <data name="ReportMilestoneList_Description">
+    <value>{0}{2}Le rapport Liste des jalons affiche la liste des jalons regroupés selon le projet auquel ils sont joints. Le rapport par défaut affiche la liste de tous les jalons à travers tous les projets, avec leurs dates limites indiquées.{3}{2}Pour générer un rapport, cliquez sur le bouton Générer rapport ci-dessous.{3}{2}Cliquez sur le lien Afficher filtres pour changer les paramètres de rapport par défaut. Vous pouvez sélectionner l'option pour visualiser seulement les jalons pour un projet particulier ou d'un statut déterminé. Une fois que le filtre est configuré, cliquez sur Générer rapport à nouveau pour générer un nouveau rapport avec les paramètres désirables.{3}{1}</value>
+  </data>
+  <data name="ReportMilestoneList_InfoLine">
+    <value>Rapport généré: {0} {1} {2}</value>
+  </data>
+  <data name="ReportMilestoneList_Title">
+    <value>Liste des jalons</value>
+  </data>
+  <data name="ReportName">
+    <value>Nom de rapport</value>
+  </data>
+  <data name="ReportOpenTasks">
+    <value>Rapport sur les tâches ouvertes</value>
+  </data>
+  <data name="ReportPageTitle">
+    <value>Rapport «{0}»</value>
+  </data>
+  <data name="ReportProblemTracking_Title">
+    <value>Rapports sur des problèmes</value>
+  </data>
+  <data name="ReportProjectList_Description">
+    <value>{0}{2}Le rapport Liste des projets affiche la liste des projets.{3}{2}Pour visualiser tous les projets actifs avec leur chef correspondant, le nombre de tâches, jalons, actions et membres d'équipe, cliquez sur Générer rapport tout de suite.{3}{2}Pour visualiser les projets dans un département particulier et/ou visualiser les projets actifs et terminés, d'abord configurez les paramètres de rapport dans la section Filtre et puis cliquez sur Générer rapport.{3}{1}</value>
+  </data>
+  <data name="ReportProjectList_InfoLine">
+    <value>Rapport généré: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectList_Title">
+    <value>Liste des projets</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Description">
+    <value>{0}{2}Le rapport Projets sans jalons actifs affiche la liste des projets sans jalons actifs joints.{3}{2}Pour visualiser tous les projets sans jalons actifs, cliquez sur Générer rapport tout de suite.{3}{2}Pour vérifier ces projets dans un groupe particulier ou vérifier un utilisateur particulier, d'abord sélectionnez le groupe et/ou l'utilisateur désirable dans la section Filtre et puis cliquez sur Générer rapport.{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_InfoLine">
+    <value>Rapport généré: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveMilestones_Title">
+    <value>Projets sans jalons actifs</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Description">
+    <value>{0}{2}Le rapport Projets sans tâches actives affiche la liste des projets sans tâches actives assignées.{3}{2}Pour visualiser tous les projets sans tâches actives, cliquez sur Générer rapport tout de suite.{3}{2}Pour vérifier ces projets dans un groupe particulier ou vérifier un utilisateur particulier, d'abord sélectionnez le groupe et/ou l'utilisateur désirable dans la section Filtre et puis cliquez sur Générer rapport.{3}{1}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_InfoLine">
+    <value>Rapport généré: {0} {1} {2}</value>
+  </data>
+  <data name="ReportProjectsWithoutActiveTasks_Title">
+    <value>Projets sans tâches actives</value>
+  </data>
+  <data name="Reports">
+    <value>Rapports</value>
+  </data>
+  <data name="ReportStatistics_Title">
+    <value>Rapports statistiques</value>
+  </data>
+  <data name="ReportTaskList_Description">
+    <value>{0}{2}Le rapport Tâches de projet affiche la liste des tâches regroupées selon le projet et jalon auquel elles sont jointes.{3}{2}Pour visualiser la liste de toutes les tâches à travers tous les projets avec la partie responsable et le statut indiqués, cliquez sur Générer rapport tout de suite.{3}{2}Pour visualiser seulement les tâches pour un projet particulier ou celles d'un statut déterminé, d'abord configurez les paramètres de rapport dans la section Filtre et puis cliquez sur Générer rapport.{3}{1}</value>
+  </data>
+  <data name="ReportTaskList_InfoLine">
+    <value>Rapport généré: {0} {1} {2}</value>
+  </data>
+  <data name="ReportTaskList_Title">
+    <value>Tâches de projets</value>
+  </data>
+  <data name="ReportTimeSpend_Description">
+    <value>{0}{2}Le rapport sur le suivi du temps est la liste des tâches où on affiche le temps de travail actuel passé par les utilisateurs lors de l'exécution des tâches en fondant sur un registre de suivi du temps.{3}{2} Ce rapport vous permet de suivre la progression de l'exécution des tâches courantes par le temps passé actuel.{3}{1} </value>
+  </data>
+  <data name="ReportTimeSpend_InfoLine">
+    <value>Rapport généré: {0} {1} pour la période {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpend_Title">
+    <value>Temps passé</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Description">
+    <value>{0}{2}Le rapport sur le suivi du temps affiche la liste des utilisateurs avec l'indication de leur temps de travail total calculé en fondant sur un registre de suivi du temps.{3}{2}Ce rapport aide à suivre la quantité de temps passé par un utilisateur en exécutant ses tâches.{3}{1}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_InfoLine">
+    <value>Rapport généré: {0} {1} pour la période {2} - {3}</value>
+  </data>
+  <data name="ReportTimeSpendSummary_Title">
+    <value>Rapport sur le suivi du temps</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Description">
+    <value>{0}{2}Le rapport Prochains jalons affiche la liste des prochains jalons.{3}{2}Pour visualiser les prochains jalons à travers tous les projets pour la période d'une semaine, cliquez sur Générer rapport tout de suite.{3}{2}Pour visualiser les prochains jalons pour un projet déterminé et/ou une autre période de temps, d'abord sélectionnez le projet désirable depuis la liste déroulante et/ou fixez une autre date limite dans le champ Jusqu'à la date et puis cliquez sur Générer rapport.{3}{1}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_InfoLine">
+    <value>Rapport généré: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUpcomingMilestones_Title">
+    <value>Prochains jalons</value>
+  </data>
+  <data name="ReportUserActivity_Descripton">
+    <value>{0}{2}Le rapport Activité d'utilisateur affiche les actions d'un utilisateur particulier dans Projects pour une période de temps déterminée.{3}{2}Pour afficher votre propre activité pour la semaine précédente, cliquez sur Générer rapport tout de suite.{3}{2}Pour fixer une autre période de temps ou sélectionner un autre utilisateur, d'abord configurez les paramètres de rapport dans la section Filtre et puis cliquez sur Générer rapport.{3}{1}</value>
+  </data>
+  <data name="ReportUserActivity_InfoLine">
+    <value>Rapport généré: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserActivity_Title">
+    <value>Activité d'utilisateur</value>
+  </data>
+  <data name="ReportUserTasks_Description">
+    <value>{0}{2}Le rapport Tâches d'utilisateur affiche la liste des tâches regroupées selon l'utilisateur à qui elles sont assignées.{3}{2}Pour visualiser toutes les tâches d'utilisateur avec leur statut indiqué, cliquez sur Générer rapport tout de suite.{3}{2}Pour visualiser seulement les tâches pour un projet particulier ou celles d'un statut déterminé, d'abord configurez les paramètres de rapport dans la section Filtre et puis cliquez sur Générer rapport.{3}{1}</value>
+  </data>
+  <data name="ReportUserTasks_InfoLine">
+    <value>Rapport généré: {0} {1} {2}</value>
+  </data>
+  <data name="ReportUserTasks_Title">
+    <value>Tâches d'utilisateur</value>
+  </data>
+  <data name="SaveAsTemplate">
+    <value>Enregistrer en tant que modèle</value>
+  </data>
+  <data name="SendOnEmail">
+    <value>Envoyer par e-mail</value>
+  </data>
+  <data name="ShowTasks">
+    <value>Afficher tâches</value>
+  </data>
+  <data name="ShowUserActivityReport">
+    <value>Afficher le rapport sur l'activité d'utilisateur</value>
+  </data>
+  <data name="ShowUserTasksReport">
+    <value>Afficher le rapport Tâches d'utilisateur</value>
+  </data>
+  <data name="TaskDone">
+    <value>Tâches terminées</value>
+  </data>
+  <data name="TaskReport">
+    <value>Rapport sur les tâches</value>
+  </data>
+  <data name="TasksDone">
+    <value>Tâches terminées</value>
+  </data>
+  <data name="TasksStatus">
+    <value>Statut de tâches</value>
+  </data>
+  <data name="TasksWorkingOn">
+    <value>Tâches en cours d'exécution</value>
+  </data>
+  <data name="TemplateAndAutogen">
+    <value>Modèle et génération automatique</value>
+  </data>
+  <data name="TemplateName">
+    <value>Nom de modèle</value>
+  </data>
+  <data name="TemplateNotFound_Body">
+    <value>Il peut avoir été supprimé ou il n'y a pas de modèle avec ce ID</value>
+  </data>
+  <data name="TemplateNotFound_Header">
+    <value>Le modèle n'a pas été trouvé</value>
+  </data>
+  <data name="TemplateNotFound_RedirectTitle">
+    <value>Afficher la liste de modèles</value>
+  </data>
+  <data name="Templates">
+    <value>Modèles</value>
+  </data>
+  <data name="TemplateTitle">
+    <value>Titre de modèle</value>
+  </data>
+  <data name="ThisMonth">
+    <value>Mois courant</value>
+  </data>
+  <data name="ThisWeek">
+    <value>Semaine courante</value>
+  </data>
+  <data name="ThisYear">
+    <value>Année courante</value>
+  </data>
+  <data name="Today">
+    <value>Aujourd'hui</value>
+  </data>
+  <data name="User">
+    <value>Uilisateur</value>
+  </data>
+  <data name="UseTemplate">
+    <value>Utiliser modèle</value>
+  </data>
+  <data name="ViewByDepartments">
+    <value>{!Groups}</value>
+  </data>
+  <data name="ViewByParticipant">
+    <value>Voir par participant</value>
+  </data>
+  <data name="ViewByProjects">
+    <value>Voir par projet</value>
+  </data>
+  <data name="ViewByUsers">
+    <value>Voir par utilisateur</value>
+  </data>
+  <data name="ViewByUserTasks">
+    <value>Voir par tâches d'utilisateur</value>
+  </data>
+  <data name="ViewClosedMilestones">
+    <value>Afficher jalons fermés</value>
+  </data>
+  <data name="ViewClosedProjects">
+    <value>Afficher projets fermés</value>
+  </data>
+  <data name="ViewInfo">
+    <value>Afficher l'information sur rapports</value>
+  </data>
+  <data name="ViewOnlyMyProjecs">
+    <value>Afficher seulement mes projets</value>
+  </data>
+  <data name="Week">
+    <value>Semaine</value>
+  </data>
+  <data name="Weeks">
+    <value>Semaines</value>
+  </data>
+  <data name="Yesterday">
+    <value>Hier</value>
+  </data>
+</root>

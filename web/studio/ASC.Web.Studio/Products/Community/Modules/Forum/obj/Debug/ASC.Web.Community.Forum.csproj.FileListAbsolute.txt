@@ -1,0 +1,21 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.csproj.GenerateResource.Cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\ASC.Web.Community.Forum.Resources.ForumResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\GenerateResource.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Community\Modules\Forum\obj\Debug\GenerateResource.write.1.tlog

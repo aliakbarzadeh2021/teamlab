@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Access">
+    <value>Piekļuve</value>
+  </data>
+  <data name="ActiveProject">
+    <value>Aktīvs projekts</value>
+  </data>
+  <data name="ActiveProjects">
+    <value>Aktīvi projekti</value>
+  </data>
+  <data name="AddNewProject">
+    <value>Pievienot šo Projektu</value>
+  </data>
+  <data name="AddThisTemplate">
+    <value>Pievienot šo veidni</value>
+  </data>
+  <data name="AllProjects">
+    <value>Visi Projekti</value>
+  </data>
+  <data name="AllProjectTemplates">
+    <value>Visas Projekta Veidnes</value>
+  </data>
+  <data name="AppliedTemplate">
+    <value>Izvēlēta Veidne {0}</value>
+  </data>
+  <data name="ArchiveProjects">
+    <value>Izpildīti Projekti</value>
+  </data>
+  <data name="ChoosenUsers">
+    <value>Locekļi</value>
+  </data>
+  <data name="Clear">
+    <value>Dzēst</value>
+  </data>
+  <data name="ClosedProject">
+    <value>Izpildīts Projekts</value>
+  </data>
+  <data name="ClosedProjectTeamAllTasksInfoPanel">
+    <value>Šo opciju ieslēgšana, dod tiesības projekta dalībniekam redzēt visus uzdevumus un uzticēt uzdevumus citiem projekta dalībniekiem. Šo opciju Atslēgšana ierobežo projekta dalībnieku, un viņš var redzēt tikai savus uzdevumus.</value>
+  </data>
+  <data name="ClosedProjectTeamDiscussionsInfoPanel">
+    <value>Šo opciju ieslēgšana, dod tiesības projekta dalībniekam apskatīt un pievienot diskusiju.</value>
+  </data>
+  <data name="ClosedProjectTeamDocumentButtonTooltip">
+    <value>ieslēgt/izslēgt dokumentus</value>
+  </data>
+  <data name="ClosedProjectTeamDocumentsInfoPanel">
+    <value>Šo opciju ieslēgšana dod tiesības projekta dalībniekam apskatīt un pievienot dokumentus.</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermission">
+    <value>Projekta vadītājs var</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleA">
+    <value>pievienot vai noņemt lietotajus no projekta</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleB">
+    <value>dalibnieku piekļuves tiesību konfigurēšana (tikai privātiem projektiem)</value>
+  </data>
+  <data name="ClosedProjectTeamManagerPermissionArticleC">
+    <value>vadīt (veidot, rediģēt, dzēst) starpposmu, mērķus, uzdevumus, diskusijas, dokumentus un ierobežot piekļuvi tiem</value>
+  </data>
+  <data name="ClosedProjectTeamMessageButtonTooltip">
+    <value>ieslēgt/izslēgt diskusijas</value>
+  </data>
+  <data name="ClosedProjectTeamMilestoneButtonTooltip">
+    <value>ieslēgt/izslēgt starpposmas</value>
+  </data>
+  <data name="ClosedProjectTeamMilestonesInfoPanel">
+    <value>Šo opciju ieslēgšana dod tiesības projekta dalībniekam skatīt visus projekta starpposmus, nevis tikai kuros viņam ir uzdevumi.</value>
+  </data>
+  <data name="ClosedProjectTeamTaskButtonTooltip">
+    <value>ieslēgt/izslēgt uzdevumus</value>
+  </data>
+  <data name="ClosedProjectTeamWriteInMessenger">
+    <value>Sazināties caur IM</value>
+  </data>
+  <data name="ClosedProjectTeamWriteMail">
+    <value>Rakstīt vēstuli</value>
+  </data>
+  <data name="Create">
+    <value>Izveidot</value>
+  </data>
+  <data name="CreateFromTemplate">
+    <value>Izveidot no Veidnes</value>
+  </data>
+  <data name="CreateNewProject">
+    <value>Izveidot jaunu projektu</value>
+  </data>
+  <data name="CreateProjectFromTemplate">
+    <value>Veidot projektu no veidnes</value>
+  </data>
+  <data name="CreateProjectTemplate">
+    <value>Izveidot projekta veidni</value>
+  </data>
+  <data name="Dashboard">
+    <value>Infopanelis</value>
+  </data>
+  <data name="DeleteProjectTemplate">
+    <value>Dzēst projekta veidni</value>
+  </data>
+  <data name="EmployeesAndPermissions">
+    <value>Darbinieki un piekļuves tiesības</value>
+  </data>
+  <data name="EmptyScreenAllActiveProjectsHeaderContent">
+    <value>Nav neviena aktīva projekta</value>
+  </data>
+  <data name="EmptyScreenAllProjectsHeaderContent">
+    <value>Nav projektu</value>
+  </data>
+  <data name="EmptyScreenByLabelActiveProjectsHeaderContent">
+    <value>Nav neviena aktīva projekta ar tādu atzīmi</value>
+  </data>
+  <data name="EmptyScreenByLabelProjectsHeaderContent">
+    <value>Nav neviena aktīva projekta ar tādu atzīmi</value>
+  </data>
+  <data name="EmptyScreenHeaderContent">
+    <value>Izveidot pirmo projektu</value>
+  </data>
+  <data name="EmptyScreenHeaderDescribe">
+    <value>Sūtīt ziņojumus, pievienot uzdevumus, planot posmus, vadīt savu komandu.</value>
+  </data>
+  <data name="EmptyScreenKeepTrackActiveProjectsHeaderContent">
+    <value>Nav Neviena Aktīva Projekta Sekošanai</value>
+  </data>
+  <data name="EmptyScreenKeepTrackProjectsHeaderContent">
+    <value>Nav Neviena Aktīva Projekta Sekošanai</value>
+  </data>
+  <data name="EmptyScreenMyActiveProjectsHeaderContent">
+    <value>Jūs nepiedalaties nevienā aktīvā projektā</value>
+  </data>
+  <data name="EmptyScreenMyProjectsHeaderContent">
+    <value>Jūs nepiedalaties nevienā projektā</value>
+  </data>
+  <data name="EmptyScreenProjectTemplates">
+    <value>Veidot pirmo projekta veidni</value>
+  </data>
+  <data name="EmptyScreenProjectTemplatesDescribe">
+    <value>Sūtiet ziņojumus, pievienojiet uzdevumus, planojiet posmus un vadiet savu komandu.</value>
+  </data>
+  <data name="EmptyScreenProjectTemplateTeam">
+    <value>Izveidojiet komandu projekta veidnei</value>
+  </data>
+  <data name="EmptyScreenProjectTemplateTeamDescription">
+    <value>Izvēlieties lietotājus, kas piedalīsies šajā projektā</value>
+  </data>
+  <data name="EnterTheTags">
+    <value>Ievadiet atzīmes, atdalot tos ar komatiem</value>
+  </data>
+  <data name="Example">
+    <value>Projekta, klienta, nodaļas nosaukums...</value>
+  </data>
+  <data name="FollowingLinkTitle">
+    <value>Projekta ziņas būs iekļautas jūsu Kas Jauns paziņojumā uz ē-pastu, projekts būs atrodams Projectu cilnē, Projekti Sekošanai sadaļā un Visi Projekti sarakstā.</value>
+  </data>
+  <data name="FollowingProjects">
+    <value>Sekot šim projektam</value>
+  </data>
+  <data name="HiddenProject">
+    <value>Privātie Projekti</value>
+  </data>
+  <data name="HideClosedProjects">
+    <value>Paslēpt Aizvērtus Projektus</value>
+  </data>
+  <data name="InfoMessageText">
+    <value>Šī informācija būs nosūtīta administratoram kā pieprasījums uz Jaunu Projektu.</value>
+  </data>
+  <data name="InfoMessageText2">
+    <value>Šī informācija būs nosūtīta administratoram kā pieprasījums uz Projektu Izmaiņām.</value>
+  </data>
+  <data name="Information">
+    <value>Esat brīdināti, ka pēc projekta dzēsšanas, to nevarēs atjaunot.</value>
+  </data>
+  <data name="InformationForHidden">
+    <value>Privāts projekts ir pieejams tikai projekta vadītājam un projekta dalībniekam ar attiecīgām atļaujām.</value>
+  </data>
+  <data name="InvalidProjectTemplateTitle">
+    <value>Nepareizs projekta veidnes nosaukums</value>
+  </data>
+  <data name="IUnerstand">
+    <value>Es saprotu to - IZDZĒST šo projektu.</value>
+  </data>
+  <data name="IUnerstandForEditHidden">
+    <value>Jā, es saprotu - Saglabāt projektu ka privāto projektu</value>
+  </data>
+  <data name="IUnerstandForHidden">
+    <value>Jā, es saprotu - Pievienot projektu kā privāto projektu</value>
+  </data>
+  <data name="LastActivity">
+    <value>Pēdējā Aktivitāte</value>
+  </data>
+  <data name="LeadPerson">
+    <value>Atbildīgi</value>
+  </data>
+  <data name="ManagmentTeam">
+    <value>Vadīt Komandu</value>
+  </data>
+  <data name="Milestones">
+    <value>posms(-i)</value>
+  </data>
+  <data name="MyProjects">
+    <value>Mani Projekti</value>
+  </data>
+  <data name="NewProject">
+    <value>Jaunu projektu</value>
+  </data>
+  <data name="NewProjects">
+    <value>Jauni Projekti</value>
+  </data>
+  <data name="NingNoActivity">
+    <value>Нет активности</value>
+  </data>
+  <data name="NoActivity">
+    <value>Aktivitātes Nav</value>
+  </data>
+  <data name="NotifyProjectLeader">
+    <value>Paziņot projektu vadītājam pa ē-pastu</value>
+  </data>
+  <data name="NotifyProjectTeam">
+    <value>Paziņot projektu komandai</value>
+  </data>
+  <data name="NotInvolvedInAnyProject">
+    <value>Nepiedalās nevienā projektā</value>
+  </data>
+  <data name="PeopleOnThisProject">
+    <value>Projekta Komanda</value>
+  </data>
+  <data name="Project">
+    <value>Projekts</value>
+  </data>
+  <data name="ProjectAdded">
+    <value>Pievienot Projektu</value>
+  </data>
+  <data name="ProjectDeleteButton">
+    <value>Izdzēst Projektu</value>
+  </data>
+  <data name="ProjectDeleted">
+    <value>Izdzēst Projektu</value>
+  </data>
+  <data name="ProjectDescription">
+    <value>Apraksts</value>
+  </data>
+  <data name="ProjectLeader">
+    <value>Projekta Vadītājs</value>
+  </data>
+  <data name="ProjectOverview">
+    <value>Apskats</value>
+  </data>
+  <data name="Projects">
+    <value>Projekti</value>
+  </data>
+  <data name="ProjectsByLabel">
+    <value>Projekti Pēc Atzīmēm</value>
+  </data>
+  <data name="ProjectsByLabelCaption">
+    <value>Projektu Ar Atzīmi «{0}»</value>
+  </data>
+  <data name="ProjectsKeepTrack">
+    <value>Projekti Sekošanai</value>
+  </data>
+  <data name="ProjectTeam">
+    <value>Komanda</value>
+  </data>
+  <data name="ProjectTemplate">
+    <value>Projekta Veidne</value>
+  </data>
+  <data name="ProjectTemplates">
+    <value>Projektu veidnes</value>
+  </data>
+  <data name="ProjectTemplateSetUpDescription">
+    <value>Projekta veidnei ir noteikti ziņojumi, posmi, locekļi un uzdevumi jauna projekta veidošanai.{0}Kad jūs veidojat jaunu projektu, visas veidnes ir pieejamas no nolaižamā saraksta, lai lieki netērēt jūsu laiku.</value>
+  </data>
+  <data name="ProjectTemplateSetupDiscussion">
+    <value>Iesāciet pirmo apspriešanas</value>
+  </data>
+  <data name="ProjectTemplateSetUpLabel">
+    <value>Pienācis laiks modificēt jūsu Projekta Veidni!</value>
+  </data>
+  <data name="ProjectTemplateSetupMilestone">
+    <value>Izveidojiet pirmo posmu</value>
+  </data>
+  <data name="ProjectTemplateSetupTask">
+    <value>Veidojiet pirmo uzdevumu</value>
+  </data>
+  <data name="ProjectTemplateSetupTeam">
+    <value>Izveidojiet komandu</value>
+  </data>
+  <data name="ProjectTemplateTitleExample">
+    <value>Piemēram, Atkartots Dizains veidne, vai Semināra veidne, utt,</value>
+  </data>
+  <data name="ProjectTitle">
+    <value>Nosaukums</value>
+  </data>
+  <data name="SaveProject">
+    <value>Saglabāt Projektu</value>
+  </data>
+  <data name="SeeAllProjectsMilestone">
+    <value>Apskatīt visus projekta posmus</value>
+  </data>
+  <data name="SeeHistory">
+    <value>Apskatīt vēsturi</value>
+  </data>
+  <data name="SeeMore">
+    <value>Apskatīt visu</value>
+  </data>
+  <data name="SelectProjectTemplate">
+    <value>Izvēlēties projekta veidni</value>
+  </data>
+  <data name="Settings">
+    <value>Projekta Iestatījumi</value>
+  </data>
+  <data name="ShowClosedProjects">
+    <value>Paradīt Azivērtus Projektus</value>
+  </data>
+  <data name="Statistics">
+    <value>Statistika</value>
+  </data>
+  <data name="Tags">
+    <value>Atzīmes</value>
+  </data>
+  <data name="Tasks">
+    <value>uzdevums(-i)</value>
+  </data>
+  <data name="Team">
+    <value>Komanda</value>
+  </data>
+  <data name="TemplateCreationIsInProgress">
+    <value>Veidne tiek veidota</value>
+  </data>
+  <data name="TemplateModeAttention">
+    <value>Uzmanību, projektu veidnes nav īstie projekti.</value>
+  </data>
+  <data name="UnFollowingProjects">
+    <value>Atrakstīties no ši projekta.</value>
+  </data>
+</root>

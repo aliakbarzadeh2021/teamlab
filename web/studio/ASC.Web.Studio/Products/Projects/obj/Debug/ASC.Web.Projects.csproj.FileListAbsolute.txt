@@ -1,0 +1,249 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.el.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.el.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.el.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.el.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.el.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.el.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.pl.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.el.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.el.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.el.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.zh-CN.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.csproj.GenerateResource.Cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.el.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.el.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.el.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.el.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.el.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsCommonResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.el.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.pl.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.GrammaticalResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.IssueTrackerResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsFileResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.el.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MessageResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.MilestoneResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ProjectsJSResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.ReportResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.el.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.RequestResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.el.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.SettingsResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\ASC.Web.Projects.Resources.TaskResource.zh-CN.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\GenerateResource.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\web\studio\ASC.Web.Studio\Products\Projects\obj\Debug\GenerateResource.write.1.tlog

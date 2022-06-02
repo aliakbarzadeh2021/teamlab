@@ -1,0 +1,34 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\ASC.Projects.Data.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\ASC.Projects.Data.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\ASC.Projects.Core.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\ASC.Projects.Core.pdb
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\de\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\el\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\es\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\fr\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\it\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\lv\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\pl\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\pt-BR\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\ru\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\zh-CN\ASC.Projects.Core.resources.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\obj\Debug\ASC.Projects.Data.dll
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\obj\Debug\ASC.Projects.Data.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\ASC.Projects.Data.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\ASC.Projects.Data.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\ASC.Projects.Core.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\ASC.Projects.Core.pdb
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\de\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\el\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\es\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\fr\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\it\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\lv\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\pl\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\pt-BR\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\ru\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\bin\Debug\zh-CN\ASC.Projects.Core.resources.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\obj\Debug\ASC.Projects.Data.dll
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\ASC.Projects\ASC.Projects.Data\obj\Debug\ASC.Projects.Data.pdb

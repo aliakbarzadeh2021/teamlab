@@ -1,0 +1,53 @@
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.de.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.es.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.fr.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.it.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.lv.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.pt-BR.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.ru.resources
+C:\Documents and Settings\Ali\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.csproj.GenerateResource.Cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ResolveAssemblyReference.cache
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoManagerResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Resources.PhotoPatternResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.de.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.es.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.fr.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.it.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.lv.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.pt-BR.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\ASC.PhotoManager.Service.PhotoPatternResource.ru.resources
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\2012 june\desktop\Desktop\teamlab.v5.2.26629.src\module\PhotoManager\obj\Debug\GenerateResource-ResGen.write.1.tlog

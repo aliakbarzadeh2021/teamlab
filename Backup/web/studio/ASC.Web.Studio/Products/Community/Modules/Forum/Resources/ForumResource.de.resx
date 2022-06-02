@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddButton">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="AddonDescription">
+    <value>Diskussionen im Unternehmensforum</value>
+  </data>
+  <data name="AddonName">
+    <value>Foren</value>
+  </data>
+  <data name="AddThreadButton">
+    <value>Neues Forum eröffnen</value>
+  </data>
+  <data name="AddThreadCategoryButton">
+    <value>Neues Forum eröffnen</value>
+  </data>
+  <data name="AddThreadCategoryTitle">
+    <value>Neues Forum</value>
+  </data>
+  <data name="All">
+    <value>Alle</value>
+  </data>
+  <data name="ApproveTagOnOff">
+    <value>Zulassen/Verweigern</value>
+  </data>
+  <data name="CancelButton">
+    <value>Abbrechen</value>
+  </data>
+  <data name="ConfirmMessage">
+    <value>Möchten Sie wirklich diese Aktion durchführen?</value>
+  </data>
+  <data name="CreateButton">
+    <value>Erstellen</value>
+  </data>
+  <data name="CreateForumWidgetMessage">
+    <value>Bitte fügen Sie Ihre Foren {0}hier{1} hinzu.</value>
+  </data>
+  <data name="CreateTopicMessage">
+    <value>Bitte fügen Sie Ihr Thema {0}hier{1} hinzu.</value>
+  </data>
+  <data name="CutLongMassageSettingsTitle">
+    <value>Lange Beiträge kürzen</value>
+  </data>
+  <data name="DeleteButton">
+    <value>Löschen</value>
+  </data>
+  <data name="DeleteTagFomTopicButton">
+    <value>Abtrennen</value>
+  </data>
+  <data name="EditButton">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="EditShortButton">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="EditTopicBreadCrumbs">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="ErrorAccessDenied">
+    <value>Keine Berechtigung zum Durchführen dieser Aktion</value>
+  </data>
+  <data name="ErrorCategoryEmptyName">
+    <value>Geben Sie einen Kategoriennamen ein</value>
+  </data>
+  <data name="ErrorCreateThreadCategory">
+    <value>Ein unbekannter Fehler ist beim Erstellen einer Kategorie aufgetreten</value>
+  </data>
+  <data name="ErrorEditThreadCategory">
+    <value>Ein Fehler ist beim Bearbeiten der Kategorie aufgetreten</value>
+  </data>
+  <data name="ErrorEmptyName">
+    <value>Geben Sie einen Namen ein</value>
+  </data>
+  <data name="ErrorNotCorrectMaxTopicCountSettings">
+    <value>Ungültige Anzahl der Beiträge</value>
+  </data>
+  <data name="ErrorSubscription">
+    <value>Ein Fehler ist beim Abmelden bzw. Anmelden aufgetreten</value>
+  </data>
+  <data name="ErrorThreadEmptyName">
+    <value>Geben Sie einen Forumsnamen ein</value>
+  </data>
+  <data name="FindTopicDescription">
+    <value>Thema im Forum "{0}"</value>
+  </data>
+  <data name="ForumEditorBreadCrumbs">
+    <value>Forenbearbeitung starten</value>
+  </data>
+  <data name="ForumEditorTitle">
+    <value>Forenbearbeitung</value>
+  </data>
+  <data name="ForumListPageDescription">
+    <value>Hauptseite des Forums</value>
+  </data>
+  <data name="ForumNotCreatedWidgetMessage">
+    <value>Keine Foren sind eröffnet</value>
+  </data>
+  <data name="ForumNotCreatedWidgetMessageForAdmin">
+    <value>Klicken Sie hier, um ein {0}neues Forum zu eröffnen{1}</value>
+  </data>
+  <data name="ForumsBreadCrumbs">
+    <value>Alle Foren</value>
+  </data>
+  <data name="MakeModeratorsButton">
+    <value>Ändern</value>
+  </data>
+  <data name="MaxLastTopicCountSettingsTitle">
+    <value>Anzahl angezeigter Themas (von 1 bis 30)</value>
+  </data>
+  <data name="Moderators">
+    <value>Moderatoren</value>
+  </data>
+  <data name="NameEmptyString">
+    <value>Geben Sie einen Namen ein</value>
+  </data>
+  <data name="NewPollButton">
+    <value>Neue Umfrage hinzufügen</value>
+  </data>
+  <data name="NewPostButton">
+    <value>Neuen Beitrag hinzufügen</value>
+  </data>
+  <data name="NewTopicButton">
+    <value>Neues Thema eröffnen</value>
+  </data>
+  <data name="NewTopicOnForumSubscriptionTitle">
+    <value>Anmeldung für neue Forenthemen</value>
+  </data>
+  <data name="NoForumsWidgetMessage">
+    <value>Es gibt keine Foren.</value>
+  </data>
+  <data name="NoTopicsMessage">
+    <value>Es gibt keine Themen.</value>
+  </data>
+  <data name="PartnershipTopic">
+    <value>Teilnahme am Thema</value>
+  </data>
+  <data name="PleaseWaitMessage">
+    <value>Bitte warten...</value>
+  </data>
+  <data name="PostCount">
+    <value>Beiträge</value>
+  </data>
+  <data name="PostCountStatistic">
+    <value>Forenbeiträge insgesamt</value>
+  </data>
+  <data name="PostedBy">
+    <value>Verfasser</value>
+  </data>
+  <data name="QuestionEmptyMessage">
+    <value>Geben Sie Ihre Frage ein</value>
+  </data>
+  <data name="RecentActivityContainerTitle">
+    <value>Letzte Aktivität</value>
+  </data>
+  <data name="RecentForumUpdateWidgetDescription">
+    <value>zeigt letzte Forenbeiträge an</value>
+  </data>
+  <data name="RecentForumUpdateWidgetTitle">
+    <value>Foren</value>
+  </data>
+  <data name="RecentPostFromTopic">
+    <value>Letzte Beiträge zum Thema</value>
+  </data>
+  <data name="RecentUpdate">
+    <value>Letzte Aktualisierung</value>
+  </data>
+  <data name="SaveButton">
+    <value>Speichern</value>
+  </data>
+  <data name="SearchDefaultString">
+    <value>Suche in Foren</value>
+  </data>
+  <data name="SearchNotFoundMessage">
+    <value>Nichts wurde gefunden.</value>
+  </data>
+  <data name="ShotPostCount">
+    <value>Beiträge</value>
+  </data>
+  <data name="StickyTopicButton">
+    <value>Beifügen</value>
+  </data>
+  <data name="SubjectEmptyMessage">
+    <value>Geben Sie den Namen des Themas ein</value>
+  </data>
+  <data name="SubscribeOnNewTopicInForum">
+    <value>Für neue Themen anmelden</value>
+  </data>
+  <data name="SubscribeOnTag">
+    <value>Für neue Nachrichten nach Schlagwort anmelden</value>
+  </data>
+  <data name="SubscribeOnThread">
+    <value>Für neue Beiträge im Forum anmelden</value>
+  </data>
+  <data name="SubscribeOnTopic">
+    <value>Für neue Beiträge zu diesem Thema anmelden</value>
+  </data>
+  <data name="SubscribeThreadHelp">
+    <value>Benachrichtigung über alle neuen Forenbeiträge und Themen</value>
+  </data>
+  <data name="SubscribeTopicHelp">
+    <value>Benachrichtigung über neue Beitrage zum Thema</value>
+  </data>
+  <data name="SuccessfullyCreateForumMessage">
+    <value>Das Forum wurde erfolgreich eröffnet</value>
+  </data>
+  <data name="TagCloud">
+    <value>Schlagwortwolke</value>
+  </data>
+  <data name="TagEditorBreadCrumbs">
+    <value>Schlagwortbearbeitung</value>
+  </data>
+  <data name="TagName">
+    <value>Schlagwort</value>
+  </data>
+  <data name="Tags">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="TagSubscriptionTitle">
+    <value>Anmeldung für Tags</value>
+  </data>
+  <data name="Thread">
+    <value>Forum</value>
+  </data>
+  <data name="ThreadActionText">
+    <value>Forum eröffnet</value>
+  </data>
+  <data name="ThreadCategory">
+    <value>Kategorie</value>
+  </data>
+  <data name="ThreadCategoryDescription">
+    <value>Beschreibung</value>
+  </data>
+  <data name="ThreadCategoryEditor">
+    <value>Kategorienbearbeitung</value>
+  </data>
+  <data name="ThreadCategoryName">
+    <value>Titel</value>
+  </data>
+  <data name="ThreadDeleteActionText">
+    <value>Forum gelöscht</value>
+  </data>
+  <data name="ThreadDescription">
+    <value>Beschreibung des Forums</value>
+  </data>
+  <data name="ThreadEditActionText">
+    <value>Forum bearbeitet</value>
+  </data>
+  <data name="ThreadEditor">
+    <value>Forenbearbeitung</value>
+  </data>
+  <data name="ThreadName">
+    <value>Name des Forums</value>
+  </data>
+  <data name="ThreadSubscriptionTitle">
+    <value>Anmeldung für Foren</value>
+  </data>
+  <data name="Topic">
+    <value>Thema</value>
+  </data>
+  <data name="TopicCount">
+    <value>Themen</value>
+  </data>
+  <data name="TopicSubscriptionTitle">
+    <value>Anmeldung für Themen</value>
+  </data>
+  <data name="TypeCategoryName">
+    <value>Neue Kategorie erstellen</value>
+  </data>
+  <data name="UnsubscribeButton">
+    <value>Von Benachrichtigung abmelden</value>
+  </data>
+  <data name="UnsubscribeOnNewTopicInForum">
+    <value>Von neuen Themen abmelden</value>
+  </data>
+  <data name="UnSubscribeOnThread">
+    <value>Von diesem Forum abmelden</value>
+  </data>
+  <data name="UnSubscribeOnTopic">
+    <value>Von diesem Thema abmelden</value>
+  </data>
+  <data name="ViewCount">
+    <value>Gelesen</value>
+  </data>
+  <data name="VisibleList">
+    <value>Liste der sichtbaren Benutzer</value>
+  </data>
+</root>

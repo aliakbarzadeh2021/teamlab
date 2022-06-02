@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pattern_backup_created">
+    <value>h1.Portāla Rezerves Kopija Izveidota
+
+Cien. $OwnerName,
+
+Fails ar jūsu portāla datu rezerves kopiju tika izveidots. Jūs varat to lejuplādēt sekojot šim linkam:
+
+"$BackupUrl":"$BackupUrl"
+
+Linka darbības termiņš izbeigsies pēc $BackupHours stundām.
+
+Ar cienu,
+TeamLab Klientu Apkalpošanas Komanda
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="pattern_change_pwd">
+    <value>h1.Parole Nomainīta
+
+Cien. $UserName,
+
+Jūsu parole Jūsu portālam "$__VirtualRootPath":"$__VirtualRootPath" ir nomainīta.
+
+Jūsu pieteikumdati:
+
+-pasta adrese: *_#SYS_RECIPIENT_ADDRESS#_*
+Parole: *$Password*</value>
+  </data>
+  <data name="pattern_confirm_owner_change">
+    <value>h1.Mainīt portāla īpašnieku
+
+Cien. $OwnerName,
+
+Lūgums mainīt portāla īpašnieku uz $UserName ir veikts.
+
+Lūdzu, sekojiet saitei zemāk, lai apstiprinātu darbību:
+"$ConfirmPortalOwnerUpdate": "$ ConfirmPortalOwnerUpdate" 
+
+Ja jums ir kādi jautājumi vai nepieciešama palīdzība, lūdzu, nekautrējieties sazināties ar mums, "support@teamlab.com":"mailto: support@teamlab.com "
+
+Ar cieņu,
+TeamLab Support Team
+"www.teamlab.com ":" http://teamlab.com/ "</value>
+  </data>
+  <data name="pattern_dns_change">
+    <value>h1.Adreses maiņa portālā
+
+Cien. $OwnerName,
+
+Tika izveidots pieprasījums portāla adreses "$PortalAddress":"$PortalAddress" #if($PortalDns != "") ("$PortalDns":"$PortalDns" )#end.
+
+Lūdzu sekojiet šim linkam, lai apstiprināt izdzēšanu:
+"$ConfirmDnsUpdate":"$ConfirmDnsUpdate"
+
+Ja jums vēl ir kādi jautājumi vai ir vajadzīga palīdzība, lūdzu rakstiet mums uz "support@teamlab.com":"mailto:support@teamlab.com"
+
+Ar cienu,
+TeamLab Klientu Apkalpošanas Komanda
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="pattern_invite">
+    <value>h1.Ielūgums Pievienoties TeamLab Portālam
+
+Sveiki,
+
+$__AuthorName ielūdz jūs pievienoties Teamlab portālam.
+TeamLab ir bezmaksas platforma biznesa sadarbībai un projektu vadībai. Pievienojaties portālam un varat uzreiz sākt sadarboties ar Jūsu kolleģiem.
+
+Lai pieņemt ielūgumu, lūdzu ievadiet jūsu vārdu un paroli sekojot šim linkam:
+"$InviteLink":"$InviteLink"</value>
+  </data>
+  <data name="pattern_join">
+    <value>h1.Ielūgums Pievienoties TeamLab Portālam
+
+Sveiki,
+
+Jūs pieprasījat atļauju pievienoties Teamlab portālam.
+TeamLab ir bezmaksas platforma biznesa sadarbībai un projektu vadībai. Pievienojaties portālam un varat uzreiz sākt sadarboties ar Jūsu kolleģiem.
+
+Lai pieņemt ielūgumu, lūdzu ievadiet jūsu vārdu un paroli sekojot šim linkam:
+"$InviteLink":"$InviteLink"</value>
+  </data>
+  <data name="pattern_portal_deactivate">
+    <value>h1.Akaunta Dezaktivācija
+
+Cien. $OwnerName,
+
+Jūs pieprasījāt laicīgu portāla dezaktivāciju. Lūdzu sekojiet šim linkam, lai apstiprināt dezaktivāciju:
+"$DeactivateUrl":"$DeactivateUrl"
+
+Jūs varat aktivizēt jūsu akauntu jebkur laikā, sekojot šim linkam:
+"$ActivateUrl":"$ActivateUrl"
+
+Ja jums vēl ir kādi jautājumi vai ir vajadzīga palīdzība, lūdzu rakstiet mums uz "support@teamlab.com":"mailto:support@teamlab.com"
+
+Ar cienu,
+TeamLab Klientu Apkalpošanas Komanda
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="pattern_portal_delete">
+    <value>h1.Konta Izdzēšana
+
+Cien. $OwnerName,
+
+Jūs pieprasījāt Jūsu Teamlab konta pilnīgu izdzēšanu.
+Svarīgi! Visi dati un reģistrācijas informācija būs izdzēsti un tos nevarēs atgūt.
+
+Lūdzu sekojiet šim linkam, lai apstiprināt izdzēšanu:
+"$DeleteUrl":"$DeleteUrl"
+
+Ja jums vēl ir kādi jautājumi vai ir vajadzīga palīdzība, lūdzu rakstiet mums uz "support@teamlab.com":"mailto:support@teamlab.com"
+
+Ar cienu,
+TeamLab Klientu Apkalpošanas Komanda
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="pattern_profile_updated">
+    <value>h1.Izmaiņas Profilā
+
+Cien. $UserName,
+
+"$__AuthorName":"$__AuthorUrl" izmainīja jūsu lietotāja profilu "$__VirtualRootPath":"$__VirtualRootPath" .
+
+Lai apskatīt savu profilu, sekojiet šim linkam:
+"$UserName":"$MyStaffLink"</value>
+  </data>
+  <data name="pattern_pwd_reminder">
+    <value>h1.Paroles Atgādinājums
+
+Cien. $UserName,
+
+Jūs pieprasījat paroles atgādinājumu "$__VirtualRootPath":"$__VirtualRootPath" .
+
+Jūsu pieteikumdati:
+
+-pasts: *_#SYS_RECIPIENT_ADDRESS#_*
+Parole: *$Password*</value>
+  </data>
+  <data name="pattern_self_profile_updated">
+    <value>h1.Profila Izmaiņu Paziņojums
+
+"$__AuthorName":"$__AuthorUrl" izmainīja sava profila datus "${__VirtualRootPath}":"${__VirtualRootPath}" .</value>
+  </data>
+  <data name="pattern_send_whats_new">
+    <value>h1.Kas Jauns TeamLab Portalā $Date
+
+#foreach($activity in $Activities)
+
+h2.$activity.Key
+
+#foreach($whatsNewActivity in $activity.Value)
+
+#foreach($b in $whatsNewActivity.BreadCrumbs) *$b* &gt; #end "$whatsNewActivity.Title":"$whatsNewActivity.URL"
+
+"$whatsNewActivity.UserName":"$whatsNewActivity.UserAbsoluteURL"    $whatsNewActivity.Date.ToShortTimeString()
+
+#end
+#end
+
+Jūsu portala adrese: "$__VirtualRootPath":"$__VirtualRootPath"
+
+"Rediģēt parakstīšanās iestatījumus ":"$RecipientSubscriptionConfigURL"</value>
+  </data>
+  <data name="pattern_user_has_join">
+    <value>h1.Jauns lietotājs Pievienots
+
+"$__AuthorName":"$__AuthorUrl" pievienojās jūsu portālam "${__VirtualRootPath}":"${__VirtualRootPath}" .</value>
+  </data>
+  <data name="pattern_you_added">
+    <value>h1.Laipni lūdzam TeamLab!
+
+Cien. $UserName,
+
+$__AuthorName pievienoja Jūsu lietotāja profilu portālam TeamLab.
+
+TeamLab ir bezmaksas platforma biznesa sadarbībai un projektu vadībai. Lai piekļut portālam, sekojiet šim linkam: "$__VirtualRootPath":"$__VirtualRootPath" un varat uzreiz sākt sadarboties ar Jūsu kolleģiem.
+
+Jūsu pieteikumdati:
+
+E-pasts: _#SYS_RECIPIENT_ADDRESS#_
+Parole: $Password
+
+Jūs varesiet nomainīt paroli, tiklīdz Jūs esat pieteikušies Jūsu portālā.
+
+h3.Uzsāciet darbu jūsu portālā
+
+# "Ieiet savā profilā":"$MyStaffLink"  lai pievienotu personisko un kontaktinformāciju.
+# "Ieiet Kopienā":"${__VirtualRootPath}/products/community/" lai pievienot bloga ziņas, bildes u t.t.
+# "Ieiet Projektos":"${__VirtualRootPath}/products/projects/" lai izveidotu projektus un kontrolētu to ar posmiem un uzdevumiem.
+# "Uzsāciet Čatu":"${__VirtualRootPath}/talk/" lai parunāt ar jūsu kolleģiem real-laikā?.
+
+Ja jums ir vajadzīga palīdzība, Jūs esat laipni lūgti apskatīt mūsu "How-to rokasgrāmatu":"http://teamlab.com/howto.aspx" .
+Ja jums vēl ir kādi jautājumi vai atsauksmes, lūdzu rakstiet mums uz "support@teamlab.com":"mailto:support@teamlab.com"
+
+Ar cieņu,
+TeamLab Klientu Apkalpošanas Komanda
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="pattern_you_added_after_invite">
+    <value>h1.Lapini Lūdzam TeamLab!
+
+Cien. $UserName,
+
+Jūsu lietotāja profils bija veiksmīgi pievienots portālam "$__VirtualRootPath":"$__VirtualRootPath" .
+
+Jūsu pieteikumdati:
+
+E-pasts: _#SYS_RECIPIENT_ADDRESS#_
+Parole: $Password
+
+h3.Uzsāciet darbu jūsu portālā
+
+# "Ieiet savā profilā":"$MyStaffLink"  lai pievienotu personisko un kontaktinformāciju.
+# "Ieiet Kopienā":"${__VirtualRootPath}/products/community/" lai pievienot bloga ziņas, bildes u t.t.
+# "Ieiet Projektos":"${__VirtualRootPath}/products/projects/" lai izveidotu projektus un kontrolētu to ar posmiem un uzdevumiem.
+# "Uzsāciet Čatu":"${__VirtualRootPath}/talk/" lai parunāt ar jūsu kolleģiem real-laikā?.
+
+Ja jums ir vajadzīga palīdzība, Jūs esat laipni lūgti apskatīt mūsu "How-to rokasgrāmatu":"http://teamlab.com/howto.aspx" .
+Ja jums vēl ir kādi jautājumi vai ir vajadzīga palīdzība, lūdzu rakstiet mums uz "support@teamlab.com":"mailto:support@teamlab.com"
+
+Ar cienu,
+TeamLab Klientu Apkalpošanas Komanda
+"www.teamlab.com":"http://teamlab.com/"</value>
+  </data>
+  <data name="subject_backup_created">
+    <value>TeamLab Portāla Rezerves Kopija Izveidota]&gt;</value>
+  </data>
+  <data name="subject_change_pwd">
+    <value>TeamLab Parole Nomainīta</value>
+  </data>
+  <data name="subject_confirm_owner_change">
+    <value>TeamLab. Mainīts portāla īpašnieks</value>
+  </data>
+  <data name="subject_dns_change">
+    <value>TeamLab. Portālā adreses maiņa</value>
+  </data>
+  <data name="subject_invite">
+    <value>Ielūgums Pievienoties TeamLab Portālam</value>
+  </data>
+  <data name="subject_join">
+    <value>Ielūgums Pievienoties TeamLab Portālam</value>
+  </data>
+  <data name="subject_portal_deactivate">
+    <value>TeamLab Akaunta Dezaktivācija</value>
+  </data>
+  <data name="subject_portal_delete">
+    <value>TeamLab Akaunta Izdzēšana</value>
+  </data>
+  <data name="subject_profile_updated">
+    <value>TeamLab Profile Nomainīts</value>
+  </data>
+  <data name="subject_pwd_reminder">
+    <value>Paroles Atgādinājums</value>
+  </data>
+  <data name="subject_self_profile_updated">
+    <value>TeamLab Profila Izmaiņu Paziņojums</value>
+  </data>
+  <data name="subject_send_whats_new">
+    <value>Kas Jauns TeamLab Portalā uz $Date</value>
+  </data>
+  <data name="subject_user_has_join">
+    <value>Jauns lietotājs Pievienots TeamLab Portālam</value>
+  </data>
+  <data name="subject_you_added">
+    <value>Laipni lūdzam jūsu TeamLab Portalā!</value>
+  </data>
+  <data name="subject_you_added_after_invite">
+    <value>Laipni lūdzam jūsu TeamLab Portalā!</value>
+  </data>
+</root>

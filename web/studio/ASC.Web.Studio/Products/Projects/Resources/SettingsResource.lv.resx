@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDenied">
+    <value>Nav atļaujas datu importam</value>
+  </data>
+  <data name="Close">
+    <value>Aizvērt Logu</value>
+  </data>
+  <data name="CompanyURL">
+    <value>Kompānijas URL, piemēram {0}https://mycompany.basecamphq.com{1}</value>
+  </data>
+  <data name="DefaultTab">
+    <value>Cilne Pēc Noklusējuma</value>
+  </data>
+  <data name="DefaultTabInfo">
+    <value>Izvēlieties cilni, kura tiks izmantota kā galvenā lapa pēc noklusējuma</value>
+  </data>
+  <data name="EmptyToken">
+    <value>API Token lauks ir tukšs</value>
+  </data>
+  <data name="EmptyURL">
+    <value>URL lauks ir tukšs</value>
+  </data>
+  <data name="FailedToSaveComment">
+    <value>Komentārs "{0}" netika saglabāts</value>
+  </data>
+  <data name="FailedToSaveFile">
+    <value>Nav iespējams augšuplādēt failu {0}</value>
+  </data>
+  <data name="FailedToSaveFileCategory">
+    <value>Faila kategorija "{0}" netika saglabāta</value>
+  </data>
+  <data name="FailedToSaveMessage">
+    <value>Ziņojums "{0}" netika saglabāts</value>
+  </data>
+  <data name="FailedToSaveMilestone">
+    <value>Posms "{0}" netika saglabāts</value>
+  </data>
+  <data name="FailedToSaveProject">
+    <value>Projekts "{0}" netika saglabāts</value>
+  </data>
+  <data name="FailedToSaveTask">
+    <value>Uzdevums "{0}" netika saglabāts</value>
+  </data>
+  <data name="FailedToSaveTimeSpend">
+    <value>Elements "{0}" netika saglabāts</value>
+  </data>
+  <data name="FailedToSaveUser">
+    <value>Lietotājs "{0}" netika saglabāts</value>
+  </data>
+  <data name="Files">
+    <value>Faili</value>
+  </data>
+  <data name="ImportAttantionPanelAgreement">
+    <value>Jā, es saprotu</value>
+  </data>
+  <data name="ImportAttantionPanelBody">
+    <value>Visi Basecamp projekti tiks importētas TeamLab kā privātie. Šie projekti būs pieejami portāla tikai administratoram, projektu vadītājiem un projekta komandas dalībniekiem ar piekļuvi tikai attiecīgajiem projektiem.</value>
+  </data>
+  <data name="ImportAttantionPanelTitle">
+    <value>Uzmanību!</value>
+  </data>
+  <data name="ImportClosedTasks">
+    <value>importēt aizvērtus uzdevumus un projektus</value>
+  </data>
+  <data name="ImportCompleted">
+    <value>Importa process pabeigts</value>
+  </data>
+  <data name="ImportFailed">
+    <value>Kļūda importa laikā</value>
+  </data>
+  <data name="ImportFileStarted">
+    <value>{0} failu imports no visiem projektiem bija uzsākts</value>
+  </data>
+  <data name="ImportFromBasecamp">
+    <value>Importēt no Basecamp</value>
+  </data>
+  <data name="ImportInfo_Attention">
+    <value>Lūdzu ievērojiet, ka visi dati, kas tiks importēti no jūsu Basecamp akaunta, būs pieejami visiem portāla lietotājiem, jo TeamLab nepiedāvā piekļūves ierobežojumus.</value>
+  </data>
+  <data name="ImportInfo_Attention_PopUp">
+    <value>Uzmanību! Kad Imports būs pabeigts, visi portāla lietotāji saņems pieeju VISIEM datiem no Jūsu Basecamp akaunta. Vai Jūs gribat turpināt?</value>
+  </data>
+  <data name="ImportInfo_Notyfy">
+    <value>Visi portāla biedri saņems TeamLab uzaicinājumus uz e-pastu.</value>
+  </data>
+  <data name="ImportInfoPanelContent">
+    <value>Importēšana...</value>
+  </data>
+  <data name="ImportProjectDataStarted">
+    <value>Projekta "{0}" datu imports bija uzsākts</value>
+  </data>
+  <data name="ImportProjectsFromTheBaseCamp">
+    <value>Importēt projektus no Basecamp</value>
+  </data>
+  <data name="ImportProjectStarted">
+    <value>Projekta "{0}" imports bija uzsākts</value>
+  </data>
+  <data name="ImportStarted">
+    <value>Imports bija uzsākts</value>
+  </data>
+  <data name="InfoModuleSettings">
+    <value>Jūs varat bloķēt dažus Projekts moduļus šeit</value>
+  </data>
+  <data name="InfoToken">
+    <value>Basecamp informācija ir izmantota tikai vienuy reizi, lai importēt jūsu datus, un netiek saglabāta sistēmā</value>
+  </data>
+  <data name="InfoURL">
+    <value>Pārliecinieties ka {0}Basecamp API{1} ir ieslēgta jūsu Basecamp iestatījumos</value>
+  </data>
+  <data name="MalformedUrl">
+    <value>Ievadīts URL nav pareizs</value>
+  </data>
+  <data name="ModuleSettings">
+    <value>Moduļa Iestatījumi</value>
+  </data>
+  <data name="MoreErrors">
+    <value>vēl kļūdas</value>
+  </data>
+  <data name="NotBasecampUrl">
+    <value>Ievadītais URL nav Basecamp kompānijas URL</value>
+  </data>
+  <data name="OutOfThree">
+    <value>no 3</value>
+  </data>
+  <data name="People">
+    <value>Cilvēki</value>
+  </data>
+  <data name="PleaseWait">
+    <value>Lūdzu uzgaidiet kamēr vissvarīgāka daļa tiek importēta</value>
+  </data>
+  <data name="PopupPanelBody">
+    <value>Mēs iesakam neveikt nekādas izmaiņas portālā lietotāju  {0}
+                            un projektu importēšanas laikā.{0}{0}
+                            Jūs varat aizvērt šo logu un turpināt darbību jūsu TeamLab portālā,{0}
+                           kad uzsāksies Failu importēšana.</value>
+  </data>
+  <data name="PopupPanelHeader">
+    <value>Importēšana no Basecamp</value>
+  </data>
+  <data name="Projects">
+    <value>Projekti</value>
+  </data>
+  <data name="SendInvitations">
+    <value>nosūtīt uzaicinājumus uz TeamLab visiem portāla lietotājiem</value>
+  </data>
+  <data name="Settings">
+    <value>Iestatījumi</value>
+  </data>
+  <data name="StartImport">
+    <value>Uzsākt Importēšanu</value>
+  </data>
+  <data name="StatusAwaiting">
+    <value>sagaidīšana</value>
+  </data>
+  <data name="StatusImporting">
+    <value>importēšana</value>
+  </data>
+  <data name="UserToken">
+    <value>Jūsu Basecamp API tokena</value>
+  </data>
+  <data name="ViewCalendar">
+    <value>Parādīt Kalendāra moduli</value>
+  </data>
+  <data name="ViewDetails">
+    <value>Apskatīt Sīkumus</value>
+  </data>
+  <data name="ViewFiles">
+    <value>Paradīt Failu moduli</value>
+  </data>
+  <data name="ViewIssueTracker">
+    <value>Paradīt Problēmu Izsekošanu</value>
+  </data>
+  <data name="ViewTimeTracking">
+    <value>Paradīt Laika Sekošanas moduli</value>
+  </data>
+  <data name="YesStartImport">
+    <value>Jā, Uzsākt Importu</value>
+  </data>
+</root>

@@ -1,0 +1,204 @@
+<pt:catalog xmlns:pt="urn:asc.notify.pattern.xsd">
+  <block>
+    <formatter type="ASC.Notify.Patterns.NVelocityPatternFormatter, ASC.Common" />
+    <patterns>
+      <!--Discussion Edited-->
+      <pattern id="EditMessage" name="edit message" contentType="html">
+        <subject resource="|subject_EditMessage|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_EditMessage|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--Discussion Edited-->
+      <pattern id="EditMessage_jabber" name="edit message" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_EditMessage|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="NewMessage" name="new message" contentType="html">
+        <subject resource="|subject_NewMessage|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_NewMessage|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--New Discussion-->
+      <pattern id="NewMessage_jabber" name="new message" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_NewMessage|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="NewCommentForMilestone" name="new comment for milestone" contentType="html">
+        <subject resource="|subject_NewCommentForMilestone|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_NewCommentForMilestone|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--New Comment to Milestone-->
+      <pattern id="NewCommentForMilestone_jabber" name="new comment for milestone" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_NewCommentForMilestone|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="NewCommentForMessage" name="new comment for message" contentType="html">
+        <subject resource="|subject_NewCommentForMessage|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_NewCommentForMessage|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--New Comment to Discussion-->
+      <pattern id="NewCommentForMessage_jabber" name="new comment for message" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_NewCommentForMessage|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="NewCommentForTask" name="new comment for task" contentType="html">
+        <subject resource="|subject_NewCommentForTask|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_NewCommentForTask|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--New Comment to Task-->
+      <pattern id="NewCommentForTask_jabber" name="new comment for task" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_NewCommentForTask|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="UploadFiles" name="upload files" contentType="html">
+        <subject resource="|subject_UploadFiles|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_UploadFiles|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--New File Uploaded-->
+      <pattern id="UploadFiles_jabber" name="upload files" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_UploadFiles|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="TaskClosed" name="task closed" contentType="html">
+        <subject resource="|subject_TaskClosed|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_TaskClosed|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--Task Closed-->
+      <pattern id="TaskClosed_jabber" name="task closed" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_TaskClosed|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="TaskCreated" name="task created" contentType="html">
+        <subject resource="|subject_TaskCreated|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_TaskCreated|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--Task Created-->
+      <pattern id="TaskCreated_jabber" name="task created" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_TaskCreated|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="MilestoneDeadline" name="milestone deadline" contentType="html">
+        <subject resource="|subject_MilestoneDeadline|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_MilestoneDeadline|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--Milestone Due Date Notification-->
+      <pattern id="MilestoneDeadline_jabber" name="milestone deadline" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_MilestoneDeadline|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="LateMilestone" name="late milestone" contentType="html">
+        <subject resource="|subject_LateMilestone|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_LateMilestone|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--Overdue Milestone Notification-->
+      <pattern id="LateMilestone_jabber" name="late milestone" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_LateMilestone|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ResponsibleForProject" name="responsible for project" contentType="html">
+        <subject resource="|subject_ResponsibleForProject|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ResponsibleForProject|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--You Were Appointed as Project Manager-->
+      <pattern id="ResponsibleForProject_jabber" name="responsible for project" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ResponsibleForProject|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ResponsibleForTask" name="responsible for task" contentType="html">
+        <subject resource="|subject_ResponsibleForTask|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ResponsibleForTask|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--Task Assigned to You-->
+      <pattern id="ResponsibleForTask_jabber" name="responsible for task" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ResponsibleForTask|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ReminderAboutTask" name="reminder about task" contentType="html">
+        <subject resource="|subject_ReminderAboutTask|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ReminderAboutTask|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--Reminder About Task-->
+      <pattern id="ReminderAboutTask_jabber" name="reminder about task" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ReminderAboutTask|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ReminderAboutTaskDeadline" name="reminder about task deadline" contentType="html">
+        <subject resource="|subject_ReminderAboutTaskDeadline|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ReminderAboutTaskDeadline|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--Reminder About Task Deadline-->
+      <pattern id="ReminderAboutTaskDeadline_jabber" name="reminder about task deadline" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ReminderAboutTaskDeadline|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="InviteToProject" name="invite to project" contentType="html">
+        <subject resource="|subject_InviteToProject|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_InviteToProject|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--You Have Been Added to the Project Team-->
+      <pattern id="InviteToProject_jabber" name="invite to project" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_InviteToProject|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="RemoveFromProject" name="remove from project" contentType="html">
+        <subject resource="|subject_RemoveFromProject|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_RemoveFromProject|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--RemoveFromProject-->
+      <pattern id="RemoveFromProject_jabber" name="remove from project" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_RemoveFromProject|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ProjectCreateRequest" name="project create request" contentType="html">
+        <subject resource="|subject_ProjectCreateRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ProjectCreateRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--New Project Request-->
+      <pattern id="ProjectCreateRequest_jabber" name="project create request" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ProjectCreateRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ProjectEditRequest" name="project edit request" contentType="html">
+        <subject resource="|subject_ProjectEditRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ProjectEditRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--Project Change Request-->
+      <pattern id="ProjectEditRequest_jabber" name="project edit request" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ProjectEditRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ProjectRemoveRequest" name="project remove request" contentType="html">
+        <subject resource="|subject_ProjectRemoveRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ProjectRemoveRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--Project Remove Request-->
+      <pattern id="ProjectRemoveRequest_jabber" name="project remove request" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ProjectRemoveRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <!--Accept/Reject Change Request-->
+      <pattern id="ProjectAcceptRequest" name="project accept request" contentType="html">
+        <subject resource="|subject_ProjectAcceptRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ProjectAcceptRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ProjectAcceptRequest_jabber" name="project accept request" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ProjectAcceptRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ProjectRejectRequest" name="project reject request" contentType="html">
+        <subject resource="|subject_ProjectRejectRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ProjectRejectRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ProjectRejectRequest_jabber" name="project reject request" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ProjectRejectRequest|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ImportData" name="import data" contentType="html">
+        <subject resource="|subject_ImportData|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></subject>
+        <body styler="ASC.Notify.Textile.TextileStyler,ASC.Notify.Textile" resource="|pattern_ImportData|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+      <pattern id="ImportData_jabber" name="import data" contentType="html">
+        <subject></subject>
+        <body styler="ASC.Notify.Textile.JabberStyler, ASC.Notify.Textile" resource="|pattern_ImportData|ASC.Projects.Core.Services.NotifyService.PatternResource,ASC.Projects.Core"></body>
+      </pattern>
+    </patterns>
+  </block>
+</pt:catalog>
